@@ -28,10 +28,20 @@ function loadQuickContact() {
     loadComponent('quick-contact', '.quick-contact-container');
 }
 
+// Hizmet Bölgeleri component'ini yükle
+function loadServiceAreas() {
+    loadComponent('service-areas', '.service-areas-container');
+}
+
 // Sayfa yüklendiğinde çalışacak
 document.addEventListener('DOMContentLoaded', function() {
     // Eğer quick-contact-container varsa component'i yükle
     if (document.querySelector('.quick-contact-container')) {
         loadQuickContact();
+    }
+    
+    // Eğer service-areas-container varsa component'i yükle
+    if (document.querySelector('.service-areas-container')) {
+        loadServiceAreas();
     }
 });
