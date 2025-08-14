@@ -76,7 +76,6 @@
 
 .cta-button {
     padding: 15px 30px;
-    border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
@@ -115,7 +114,6 @@
     width: 100%;
     height: 400px;
     object-fit: cover;
-    border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
@@ -162,7 +160,6 @@
 .category-card {
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
     padding: 20px;
-    border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0,106,68,0.08);
     border: 1px solid rgba(0,106,68,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -197,7 +194,6 @@
     background: rgba(0,106,68,0.05);
     color: #006a44;
     padding: 8px 12px;
-    border-radius: 15px;
     font-size: 13px;
     font-weight: 500;
     border: 1px solid rgba(0,106,68,0.1);
@@ -211,48 +207,43 @@
 
 /* Service Areas */
 .service-areas {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
     margin: 30px 0;
 }
 
-.area-list {
-    background: #f8f9fa;
-    padding: 25px;
-    border-radius: 10px;
-    border-left: 4px solid #006a44;
+.area-section {
+    margin-bottom: 20px;
 }
 
-.area-list h4 {
+.area-section h4 {
     color: #006a44;
     font-size: 18px;
     margin-bottom: 15px;
     font-weight: 600;
+    padding: 15px 0;
+    border-bottom: 2px solid #f6ec3d;
 }
 
-.area-list ul {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 8px;
+.area-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-.area-list li {
+.area-item {
     color: #666;
     font-size: 14px;
-    padding: 6px 12px;
-    background: white;
-    border-radius: 15px;
-    text-align: center;
-    border: 1px solid rgba(0,106,68,0.1);
+    padding: 8px 16px;
+    background: #f8f9fa;
+    border: 1px solid #e6e7e8;
     transition: all 0.3s ease;
+    font-weight: 500;
 }
 
-.area-list li:hover {
-    background: rgba(0,106,68,0.05);
-    color: #006a44;
+.area-item:hover {
+    background: #006a44;
+    color: white;
+    border-color: #006a44;
 }
 
 /* Process Steps */
@@ -266,7 +257,6 @@
     margin-bottom: 30px;
     padding: 20px;
     background: #f8f9fa;
-    border-radius: 10px;
 }
 
 .step-number {
@@ -274,7 +264,6 @@
     color: white;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -309,7 +298,6 @@
 .quick-contact {
     background: white;
     padding: 30px;
-    border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
     border: 1px solid #e6e7e8;
 }
@@ -409,7 +397,6 @@
 .pricing-category {
     background: white;
     padding: 30px;
-    border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
 
@@ -455,7 +442,6 @@
 .pricing-note {
     background: white;
     padding: 25px;
-    border-radius: 10px;
     border-left: 4px solid #f6ec3d;
     text-align: center;
 }
@@ -534,7 +520,6 @@
 
 .related-service {
     background: white;
-    border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
