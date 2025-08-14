@@ -569,9 +569,9 @@ body {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1800px) {
     .contact-info-card {
-        margin: 0 40px;
+        margin: 0 75px;
         padding: 40px 40px;
     }
 }

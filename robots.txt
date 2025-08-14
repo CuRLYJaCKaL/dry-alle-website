@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /
+
+# Ana sayfalar
+Allow: /index.html
+Allow: /hizmetler/
+
+# Sitemap
+Sitemap: https://dryallekurutemizleme.com/sitemap.xml
+
+# Önemli hizmet sayfaları
+Allow: /hizmetler/kuru-temizleme.html
+Allow: /hizmetler/hali-yikama.html  
+Allow: /hizmetler/koltuk-yikama.html
+
+# CSS ve JS dosyaları
+Allow: /styles.css
+Allow: /service-detail-styles.css
+Allow: /script.js
+
+# Görsel dosyaları
+Allow: /asset/
+
+# Disallow edilecek dosyalar
+Disallow: /.git/
+Disallow: /.claude/
+Disallow: *.md
+Disallow: /DNS_YONLENDIRME_REHBERI.md
+Disallow: /DOMAIN_TRANSFER_VE_HOSTING_GECIS_REHBERI.md
+Disallow: /WIX_VELO_ENTEGRASYON_ADIMLAR.md
+Disallow: /dry-alle-custom-element.js
+
+# Crawl delay
+Crawl-delay: 1
