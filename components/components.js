@@ -1,6 +1,9 @@
 // Component Loader
 function loadComponent(componentName, targetSelector) {
-    const componentPath = `../components/${componentName}.html`;
+    // Current page path'ini tespit et
+    const currentPath = window.location.pathname;
+    const isServicePage = currentPath.includes('/hizmetler/');
+    const componentPath = isServicePage ? `../components/${componentName}.html` : `./components/${componentName}.html`;
     
     return fetch(componentPath)
         .then(response => {
