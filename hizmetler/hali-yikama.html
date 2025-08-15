@@ -35,6 +35,34 @@
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../service-detail-styles.css">
     
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://dryallekurutemizleme.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Hizmetlerimiz",
+                "item": "https://dryallekurutemizleme.com/#services"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Halı Yıkama",
+                "item": "https://dryallekurutemizleme.com/hizmetler/hali-yikama.html"
+            }
+        ]
+    }
+    </script>
+    
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
@@ -280,6 +308,9 @@
 
                         <!-- Hızlı İletişim Component Container -->
                         <div class="quick-contact-container"></div>
+
+                        <!-- Lead Capture Form Component Container -->
+                        <div class="lead-capture-container"></div>
                     </div>
                 </div>
             </div>

@@ -524,6 +524,209 @@ body {
     line-height: 1.5;
 }
 
+/* Elite Neighborhoods Section */
+.elite-neighborhoods {
+    background: linear-gradient(135deg, #f8fffe 0%, #f0f9f7 100%);
+    padding: 60px 20px;
+    margin: 40px 0;
+}
+
+.elite-neighborhoods h2 {
+    text-align: center;
+    color: #006a44;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.elite-neighborhoods p {
+    text-align: center;
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.neighborhoods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.neighborhood-card {
+    background: white;
+    border: 2px solid #e8f5f0;
+    border-radius: 16px;
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 106, 68, 0.08);
+    position: relative;
+}
+
+.neighborhood-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 106, 68, 0.15);
+    border-color: #006a44;
+    text-decoration: none;
+    color: inherit;
+}
+
+.neighborhood-card h3 {
+    color: #006a44;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.neighborhood-card p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.service-arrow {
+    color: #006a44;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.neighborhood-card.coming-soon {
+    opacity: 0.7;
+    border-style: dashed;
+}
+
+.neighborhood-card.coming-soon:hover {
+    transform: none;
+    cursor: default;
+}
+
+/* Local Service Cards */
+.local-services {
+    padding: 60px 20px;
+    background: white;
+}
+
+.local-services h2 {
+    text-align: center;
+    color: #006a44;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.local-service-card {
+    background: linear-gradient(135deg, #f8fffe 0%, #f0f9f7 100%);
+    border: 2px solid #e8f5f0;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.local-service-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 106, 68, 0.1);
+}
+
+.local-service-card h3 {
+    color: #006a44;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.local-service-card p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.price-info {
+    color: #006a44;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Local Testimonials */
+.local-testimonials {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #f8fffe 0%, #f0f9f7 100%);
+}
+
+.local-testimonials h2 {
+    text-align: center;
+    color: #006a44;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.local-testimonials .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.local-testimonials .testimonial-card {
+    background: white;
+    border: 2px solid #e8f5f0;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+}
+
+.local-testimonials .stars {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+}
+
+.local-testimonials .author {
+    color: #006a44;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 16px;
+}
+
+/* Final CTA */
+.final-cta {
+    background: linear-gradient(135deg, #006a44 0%, #004d32 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.final-cta h2 {
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.final-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.95;
+}
+
+.cta-button.huge {
+    font-size: 1.3rem;
+    padding: 18px 40px;
+    border-radius: 12px;
+}
+
 /* Footer */
 .footer {
     background-color: #006a44;

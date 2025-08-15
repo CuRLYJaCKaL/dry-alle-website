@@ -4,6 +4,7 @@ Allow: /
 # Ana sayfalar
 Allow: /index.html
 Allow: /hizmetler/
+Allow: /bolgeler/
 
 # Sitemap
 Sitemap: https://dryallekurutemizleme.com/sitemap.xml
@@ -29,6 +30,22 @@ Disallow: /DNS_YONLENDIRME_REHBERI.md
 Disallow: /DOMAIN_TRANSFER_VE_HOSTING_GECIS_REHBERI.md
 Disallow: /WIX_VELO_ENTEGRASYON_ADIMLAR.md
 Disallow: /dry-alle-custom-element.js
+Disallow: /google-my-business-optimization.md
+Disallow: /components/
+
+# Özel yönlendirmeler (allow first)
+Allow: /components/*.html
+Allow: /components/*.css
 
 # Crawl delay
 Crawl-delay: 1
+
+# Google ve diğer arama motorları için özel ayarlar
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Host belirtimi
+Host: https://dryallekurutemizleme.com

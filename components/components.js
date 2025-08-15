@@ -38,6 +38,16 @@ function loadMobileStickyBar() {
     loadComponent('mobile-sticky-bar', '.mobile-sticky-bar-container');
 }
 
+// Lead Capture Form component'ini yükle
+function loadLeadCaptureForm() {
+    loadComponent('lead-capture-form', '.lead-capture-container');
+}
+
+// Customer Testimonials component'ini yükle
+function loadCustomerTestimonials() {
+    loadComponent('customer-testimonials', '.customer-testimonials-container');
+}
+
 // Sayfa yüklendiğinde çalışacak
 document.addEventListener('DOMContentLoaded', function() {
     // Eğer quick-contact-container varsa component'i yükle
@@ -53,5 +63,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Eğer mobile-sticky-bar-container varsa component'i yükle
     if (document.querySelector('.mobile-sticky-bar-container')) {
         loadMobileStickyBar();
+    }
+    
+    // Eğer lead-capture-container varsa component'i yükle
+    if (document.querySelector('.lead-capture-container')) {
+        loadLeadCaptureForm();
+    }
+    
+    // Eğer customer-testimonials-container varsa component'i yükle
+    if (document.querySelector('.customer-testimonials-container')) {
+        loadCustomerTestimonials();
     }
 });
