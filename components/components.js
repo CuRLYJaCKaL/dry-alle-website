@@ -33,6 +33,11 @@ function loadServiceAreas() {
     loadComponent('service-areas', '.service-areas-container');
 }
 
+// Mobile Sticky Bar component'ini yükle
+function loadMobileStickyBar() {
+    loadComponent('mobile-sticky-bar', '.mobile-sticky-bar-container');
+}
+
 // Sayfa yüklendiğinde çalışacak
 document.addEventListener('DOMContentLoaded', function() {
     // Eğer quick-contact-container varsa component'i yükle
@@ -43,5 +48,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Eğer service-areas-container varsa component'i yükle
     if (document.querySelector('.service-areas-container')) {
         loadServiceAreas();
+    }
+    
+    // Eğer mobile-sticky-bar-container varsa component'i yükle
+    if (document.querySelector('.mobile-sticky-bar-container')) {
+        loadMobileStickyBar();
     }
 });

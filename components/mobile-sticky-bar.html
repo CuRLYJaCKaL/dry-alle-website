@@ -1,0 +1,34 @@
+<!-- Modern Mobile Sticky Contact Bar Component -->
+<div class="mobile-contact-bar">
+    <a href="tel:+905433527474" class="mobile-cta-phone">
+        <span class="mobile-icon">☎</span>
+        <span>Hemen Ara</span>
+    </a>
+    <a href="https://wa.me/905433527474?text=Merhaba, Dry Alle kuru temizleme hizmeti hakkında bilgi almak istiyorum." class="mobile-cta-whatsapp">
+        <span class="mobile-icon">💬</span>
+        <span>WhatsApp</span>
+    </a>
+    <a href="https://maps.app.goo.gl/2uDnQz3UYnRA8MYK6" class="mobile-cta-contact" target="_blank">
+        <span class="mobile-icon">⌖</span>
+        <span>Konum</span>
+    </a>
+</div>
+
+<!-- Mobile Sticky Bar Styles -->
+<style>
+/* Modern Mobile Sticky Contact Bar */
+.mobile-contact-bar{position:fixed;bottom:0;left:0;right:0;background:linear-gradient(135deg,#006a44 0%,#004d32 100%);display:flex;justify-content:space-around;padding:15px 10px;box-shadow:0 -4px 20px rgba(0,0,0,0.15);z-index:1000;display:none;backdrop-filter:blur(10px)}
+.mobile-cta-phone,.mobile-cta-whatsapp,.mobile-cta-contact{display:flex;flex-direction:column;align-items:center;text-decoration:none;color:white;font-size:11px;font-weight:600;transition:all 0.3s ease;padding:12px 8px;border-radius:12px;min-width:70px;position:relative;overflow:hidden}
+.mobile-cta-phone{background:linear-gradient(135deg,#4a90e2 0%,#357abd 100%)}
+.mobile-cta-phone:hover{transform:translateY(-2px);box-shadow:0 4px 15px rgba(74,144,226,0.25)}
+.mobile-cta-whatsapp{background:linear-gradient(135deg,#20b858 0%,#1a9648 100%)}
+.mobile-cta-whatsapp:hover{transform:translateY(-2px);box-shadow:0 4px 15px rgba(32,184,88,0.25)}
+.mobile-cta-contact{background:linear-gradient(135deg,#f0d849 0%,#dcc53a 100%);color:#2c3e50}
+.mobile-cta-contact:hover{transform:translateY(-2px);box-shadow:0 4px 15px rgba(240,216,73,0.25)}
+.mobile-icon{font-size:22px;margin-bottom:6px;filter:drop-shadow(0 1px 2px rgba(0,0,0,0.2))}
+
+@media (max-width: 768px) {
+    .mobile-contact-bar{display:flex}
+    body{padding-bottom:80px}
+}
+</style>

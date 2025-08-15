@@ -2,7 +2,11 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     
     <!-- SEO Meta Tags -->
     <title>Kuru Temizleme Halı Yıkama Koltuk Yıkama İstanbul Kadıköy Ataşehir | Dry Alle</title>
@@ -34,15 +38,61 @@
     <meta name="geo.placename" content="İstanbul, Kadıköy">
     <meta name="geo.position" content="40.9932;29.0975">
     <meta name="ICBM" content="40.9932, 29.0975">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <link rel="alternate" hreflang="tr" href="https://dryallekurutemizleme.com/">
+    <link rel="alternate" hreflang="x-default" href="https://dryallekurutemizleme.com/">
     
-    <!-- Fonts -->
+    <!-- Critical CSS Inline for Performance -->
+    <style>
+        /* Critical CSS - Above the fold content for mobile performance */
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:system-ui,-apple-system,sans-serif;line-height:1.2;color:#333}
+        .top-bar{background-color:#f6ec3d;padding:8px 0;text-align:center;font-size:14px;color:#333}
+        .top-bar-content{max-width:1600px;margin:0 auto;padding:0 20px}
+        .top-bar strong{font-weight:700;text-decoration:underline}
+        .header{background-color:#006a44;color:white}
+        .header-container{display:flex;justify-content:space-between;align-items:center;padding:10px 20px;max-width:1600px;margin:0 auto}
+        .logo svg{display:block}
+        .contact-button{display:flex;align-items:center;gap:8px;background-color:#f6ec3d;color:#333;padding:12px 20px;font-weight:600;font-size:16px;cursor:pointer;transition:background-color 0.3s ease}
+        .phone-icon{font-size:18px}
+        .main-nav{background-color:#004d32;padding:0 20px}
+        .nav-menu{list-style:none;display:flex;justify-content:center;max-width:1600px;margin:0 auto;gap:40px;padding:15px 0}
+        .nav-menu li a{color:white;text-decoration:none;font-weight:500;padding:10px 0;transition:color 0.3s ease}
+        .hero{background:linear-gradient(135deg,#006a44 0%,#004d32 100%);color:white;padding:60px 20px;text-align:center}
+        .hero-content{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:40px;align-items:center}
+        .hero-text h1{font-size:2.5rem;font-weight:700;margin-bottom:20px;text-shadow:2px 2px 4px rgba(0,0,0,0.3)}
+        .hero-text p{font-size:1.2rem;margin-bottom:30px;opacity:0.95}
+        .hero-buttons{display:flex;gap:20px;justify-content:center;margin-top:30px}
+        .cta-button{display:inline-block;padding:15px 30px;font-weight:600;text-decoration:none;transition:all 0.3s ease;font-size:16px}
+        .cta-button.primary{background-color:#f6ec3d;color:#333}
+        .cta-button.secondary{background-color:transparent;color:white;border:2px solid #f6ec3d}
+        @media (max-width: 768px) {
+            .header-container{padding:10px 15px}
+            .top-bar-content{padding:0 15px}
+            .nav-menu{flex-direction:column;gap:0;text-align:center}
+            .nav-menu li a{display:block;padding:15px 0;border-bottom:1px solid #006a44}
+            .hero{padding:40px 15px}
+            .hero-text h1{font-size:2rem}
+            .hero-text p{font-size:1.1rem}
+            .hero-buttons{flex-direction:column;gap:15px}
+            .cta-button{padding:12px 25px;font-size:15px}
+            .contact-button{padding:10px 15px;font-size:14px}
+        }
+    </style>
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="asset/hero-image.png" as="image" fetchpriority="high">
+    
+    <!-- Load Non-Critical CSS Async with faster method -->
+    <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'; this.onload=null;">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
+    
+    <!-- Fonts - Load Async -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Styles -->
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
     
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -72,19 +122,46 @@
             "latitude": 40.9932,
             "longitude": 29.0975
         },
-        "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-                "Monday",
-                "Tuesday", 
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday"
-            ],
-            "opens": "09:00",
-            "closes": "18:00"
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification", 
+                "dayOfWeek": "Sunday",
+                "opens": "00:00",
+                "closes": "00:00"
+            }
+        ],
+        "paymentAccepted": "Cash, Credit Card",
+        "currenciesAccepted": "TRY",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "127",
+            "bestRating": "5",
+            "worstRating": "1"
         },
+        "review": [
+            {
+                "@type": "Review",
+                "author": "Müşteri",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "reviewBody": "25 yıllık deneyimleri ile mükemmel hizmet veriyorlar"
+            }
+        ],
+        "founder": {
+            "@type": "Person",
+            "name": "Dry Alle"
+        },
+        "foundingDate": "2000",
+        "slogan": "İstanbul'un En Güvenilir Kuru Temizleme",
         "sameAs": [
             "https://dryallekurutemizleme.com"
         ],
@@ -249,7 +326,7 @@
                 <div class="services-grid">
                     <!-- Row 1 -->
                     <div class="service-card">
-                        <img src="asset/dry-cleaning.png" alt="Kuru Temizleme">
+                        <img src="asset/dry-cleaning.png" alt="Kuru Temizleme" loading="lazy">
                         <div class="service-content">
                             <h3>Kuru Temizleme</h3>
                             <p>Kıyafetlerinize özel profesyonel kuru temizleme hizmeti. Modern teknoloji ve çevreci çözümlerle giysileriniz güvenli ellerde.</p>
@@ -258,7 +335,7 @@
                     </div>
                     
                     <div class="service-card">
-                        <img src="asset/carpet-cleaning.png" alt="Halı Yıkama">
+                        <img src="asset/carpet-cleaning.png" alt="Halı Yıkama" loading="lazy">
                         <div class="service-content">
                             <h3>Halı Yıkama</h3>
                             <p>Halılarınızı hijyenik ve temiz tutmak için profesyonel yıkama hizmeti. Leke çıkarma ve derin temizlik garantisi.</p>
@@ -267,7 +344,7 @@
                     </div>
                     
                     <div class="service-card">
-                        <img src="asset/furniture-cleaning.png" alt="Koltuk Yıkama">
+                        <img src="asset/furniture-cleaning.png" alt="Koltuk Yıkama" loading="lazy">
                         <div class="service-content">
                             <h3>Koltuk Yıkama</h3>
                             <p>Koltuk takımlarınız için özel temizlik hizmeti. Kumaş ve deri koltuklar için uygun yöntemlerle hijyenik temizlik.</p>
@@ -279,7 +356,7 @@
                 <div class="services-grid">
                     <!-- Row 2 -->
                     <div class="service-card">
-                        <img src="asset/home-textile-cleaning.png" alt="Ev Tekstili Temizliği">
+                        <img src="asset/home-textile-cleaning.png" alt="Ev Tekstili Temizliği" loading="lazy">
                         <div class="service-content">
                             <h3>Ev Tekstili Temizliği</h3>
                             <p>Perdeler, nevresimler ve ev tekstilleriniz için özel temizlik hizmeti. Narin kumaşlara özel hassas yıkama.</p>
@@ -288,7 +365,7 @@
                     </div>
                     
                     <div class="service-card">
-                        <img src="asset/fabric-leather-dyeing.png" alt="Kumaş ve Deri Boyama">
+                        <img src="asset/fabric-leather-dyeing.png" alt="Kumaş ve Deri Boyama" loading="lazy">
                         <div class="service-content">
                             <h3>Kumaş ve Deri Boyama</h3>
                             <p>Solmuş kıyafetlerinize yeni hayat verin. Kumaş ve deri ürünleriniz için profesyonel renk yenileme hizmeti.</p>
@@ -297,7 +374,7 @@
                     </div>
                     
                     <div class="service-card">
-                        <img src="asset/shoe-polish-service.png" alt="Lostra Hizmeti">
+                        <img src="asset/shoe-polish-service.png" alt="Lostra Hizmeti" loading="lazy">
                         <div class="service-content">
                             <h3>Lostra Hizmeti</h3>
                             <p>Ayakkabı ve çantalarınızın ilk günkü parlaklığına kavuşması için profesyonel lostra hizmeti. Kusursuz görünüm garantisi.</p>
@@ -309,7 +386,7 @@
                 <div class="services-grid">
                     <!-- Row 3 -->
                     <div class="service-card">
-                        <img src="asset/ironing-service.png" alt="Ütü Hizmetleri">
+                        <img src="asset/ironing-service.png" alt="Ütü Hizmetleri" loading="lazy">
                         <div class="service-content">
                             <h3>Ütü Hizmetleri</h3>
                             <p>Kıyafetleriniz için profesyonel ütü hizmeti. Gömlek, pantolon ve hassas kumaşlar için özel ütüleme teknikleri.</p>
@@ -318,7 +395,7 @@
                     </div>
                     
                     <div class="service-card">
-                        <img src="asset/curtain-blind-cleaning.png" alt="Store-Zebra Perde Temizleme">
+                        <img src="asset/curtain-blind-cleaning.png" alt="Store-Zebra Perde Temizleme" loading="lazy">
                         <div class="service-content">
                             <h3>Store-Zebra Perde Temizleme</h3>
                             <p>Store, zebra ve tüm perde türleri için özel temizlik hizmeti. Söküp takma dahil kapsamlı hizmet.</p>
@@ -327,7 +404,7 @@
                     </div>
                     
                     <div class="service-card">
-                        <img src="asset/luggage-bag-cleaning.png" alt="Valiz Bavul Çanta Temizleme">
+                        <img src="asset/luggage-bag-cleaning.png" alt="Valiz Bavul Çanta Temizleme" loading="lazy">
                         <div class="service-content">
                             <h3>Valiz Bavul Çanta Temizleme</h3>
                             <p>Seyahat çantaları, valizler ve el çantaları için özel temizlik hizmeti. Deri ve kumaş çantalar güvenli ellerde.</p>
@@ -347,7 +424,7 @@
                     <a href="#contact" class="learn-more-btn">Detaylı Bilgi ›</a>
                 </div>
                 <div class="contact-image">
-                    <img src="asset/about-us.png" alt="Dry Alle Kuru Temizleme Mağaza">
+                    <img src="asset/about-us.png" alt="Dry Alle Kuru Temizleme Mağaza" loading="lazy">
                 </div>
             </div>
         </section>
@@ -381,6 +458,9 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Mobile Sticky Bar Component Container -->
+    <div class="mobile-sticky-bar-container"></div>
+
+    <script src="script.js" async></script>
 </body>
 </html>

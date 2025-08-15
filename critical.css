@@ -1,0 +1,50 @@
+/* Critical CSS - Above the fold content for mobile performance */
+
+/* Reset and Base Styles */
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Roboto',sans-serif;line-height:1.2;color:#333}
+
+/* Top Bar - Critical */
+.top-bar{background-color:#f6ec3d;padding:8px 0;text-align:center;font-size:14px;color:#333}
+.top-bar-content{max-width:1600px;margin:0 auto;padding:0 20px}
+.top-bar strong{font-weight:700;text-decoration:underline}
+
+/* Header - Critical */
+.header{background-color:#006a44;color:white}
+.header-container{display:flex;justify-content:space-between;align-items:center;padding:10px 20px;max-width:1600px;margin:0 auto}
+.logo svg{display:block}
+
+/* Contact Button - Critical */
+.contact-button{display:flex;align-items:center;gap:8px;background-color:#f6ec3d;color:#333;padding:12px 20px;font-weight:600;font-size:16px;cursor:pointer;transition:background-color 0.3s ease}
+.phone-icon{font-size:18px}
+
+/* Navigation - Critical */
+.main-nav{background-color:#004d32;padding:0 20px}
+.nav-menu{list-style:none;display:flex;justify-content:center;max-width:1600px;margin:0 auto;gap:40px;padding:15px 0}
+.nav-menu li a{color:white;text-decoration:none;font-weight:500;padding:10px 0;transition:color 0.3s ease}
+
+/* Hero Section - Critical */
+.hero{background:linear-gradient(135deg,#006a44 0%,#004d32 100%);color:white;padding:60px 20px;text-align:center}
+.hero-content{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:40px;align-items:center}
+.hero-text h1{font-size:2.5rem;font-weight:700;margin-bottom:20px;text-shadow:2px 2px 4px rgba(0,0,0,0.3)}
+.hero-text p{font-size:1.2rem;margin-bottom:30px;opacity:0.95}
+
+/* CTA Buttons - Critical */
+.hero-buttons{display:flex;gap:20px;justify-content:center;margin-top:30px}
+.cta-button{display:inline-block;padding:15px 30px;font-weight:600;text-decoration:none;transition:all 0.3s ease;font-size:16px}
+.cta-button.primary{background-color:#f6ec3d;color:#333}
+.cta-button.secondary{background-color:transparent;color:white;border:2px solid #f6ec3d}
+
+/* Mobile Responsive - Critical */
+@media (max-width: 768px) {
+    .header-container{padding:10px 15px}
+    .top-bar-content{padding:0 15px}
+    .nav-menu{flex-direction:column;gap:0;text-align:center}
+    .nav-menu li a{display:block;padding:15px 0;border-bottom:1px solid #006a44}
+    .hero{padding:40px 15px}
+    .hero-text h1{font-size:2rem}
+    .hero-text p{font-size:1.1rem}
+    .hero-buttons{flex-direction:column;gap:15px}
+    .cta-button{padding:12px 25px;font-size:15px}
+    .contact-button{padding:10px 15px;font-size:14px}
+}
