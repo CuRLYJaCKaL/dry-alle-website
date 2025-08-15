@@ -1,0 +1,241 @@
+/* Review Collection System Styles */
+.review-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+}
+
+.review-modal.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.review-modal-content {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
+
+.review-modal:not(.hidden) .review-modal-content {
+    transform: scale(1);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.review-header h3 {
+    margin: 0;
+    color: #2D3748;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.close-review {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #A0AEC0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-review:hover {
+    color: #2D3748;
+}
+
+.review-body p {
+    color: #4A5568;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.star-rating {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.star {
+    font-size: 32px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    opacity: 0.3;
+}
+
+.star:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.review-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.review-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.google-review {
+    background: #4285F4;
+    color: white;
+}
+
+.google-review:hover {
+    background: #3367D6;
+    transform: translateY(-2px);
+}
+
+.whatsapp-review {
+    background: #25D366;
+    color: white;
+}
+
+.whatsapp-review:hover {
+    background: #128C7E;
+    transform: translateY(-2px);
+}
+
+/* Review Display Styles */
+.reviews-section {
+    padding: 60px 0;
+    background: #F7FAFC;
+}
+
+.reviews-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2D3748;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.review-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.review-header h4 {
+    margin: 0;
+    color: #2D3748;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.review-stars {
+    color: #F6E05E;
+    font-size: 14px;
+}
+
+.review-text {
+    color: #4A5568;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.review-date {
+    color: #A0AEC0;
+    font-size: 12px;
+}
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+    .review-modal-content {
+        padding: 25px 20px;
+        margin: 20px;
+    }
+    
+    .review-header h3 {
+        font-size: 18px;
+    }
+    
+    .star {
+        font-size: 28px;
+    }
+    
+    .reviews-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 15px;
+    }
+    
+    .review-card {
+        padding: 20px;
+    }
+}
+
+/* Animation for review prompt */
+@keyframes reviewPulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(66, 133, 244, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(66, 133, 244, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(66, 133, 244, 0);
+    }
+}
+
+.review-btn {
+    animation: reviewPulse 2s infinite;
+}
