@@ -582,7 +582,41 @@ document.addEventListener('DOMContentLoaded', function() {
         // Extract current location from URL
         const currentPath = window.location.pathname;
         const locationMatch = currentPath.match(/bolgeler\/([^-]+)/);
-        const currentLocation = locationMatch ? locationMatch[1] : null;
+        let currentLocation = locationMatch ? locationMatch[1] : null;
+        
+        // Convert English characters to Turkish for location mapping
+        const locationMap = {
+            'kadikoy': 'kadıköy',
+            'uskudar': 'üsküdar',
+            'umraniye': 'ümraniye', 
+            'camlica': 'çamlıca',
+            'kozyatagi': 'kozyatağı',
+            'atasehir': 'ataşehir',
+            'acibadem': 'acıbadem',
+            'suadiye': 'suadiye',
+            'kalamis': 'kalamış',
+            'caddebostan': 'caddebostan',
+            'erenkoy': 'erenköy',
+            'goztepe': 'göztepe',
+            'fenerbahce': 'fenerbahçe',
+            'bostanci': 'bostancı',
+            'barbaros': 'barbaros',
+            'fikirtepe': 'fikirtepe',
+            'maltepe': 'maltepe',
+            'kartal': 'kartal',
+            'pendik': 'pendik',
+            'altunizade': 'altunizade',
+            'icerenkoy': 'içerenköy',
+            'kucukbakkalkoy': 'küçükbakkalköy',
+            'sahrayicedit': 'sahrayıcedit',
+            'moda': 'moda',
+            'bagdat': 'bağdat-caddesi'
+        };
+        
+        // Map English location to Turkish equivalent
+        if (currentLocation && locationMap[currentLocation]) {
+            currentLocation = locationMap[currentLocation];
+        }
         
         new EliteNeighborhoodsComponent('elite-neighborhoods-related', {
             title: 'Yakın Bölgelerdeki Hizmetlerimiz',

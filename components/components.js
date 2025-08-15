@@ -89,4 +89,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (document.querySelector('.customer-testimonials-container')) {
         loadCustomerTestimonials();
     }
+    
+    // Eğer elite-neighborhoods-related container varsa component'i yükle
+    if (document.querySelector('#elite-neighborhoods-related')) {
+        loadEliteNeighborhoods();
+    }
 });
