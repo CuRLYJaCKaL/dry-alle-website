@@ -16,41 +16,27 @@ class ImageOptimizer {
 
     // Compress images on the client side if needed
     compressExistingImages() {
-        const images = document.querySelectorAll('img');
+        // Only apply to non-critical images to avoid breaking hero images
+        const images = document.querySelectorAll('img:not(.critical-image):not(.hero-image)');
         
         images.forEach((img) => {
-            // Add loading optimization attributes
-            img.setAttribute('loading', 'lazy');
-            img.setAttribute('decoding', 'async');
-            
-            // Add size optimization
-            this.optimizeImageSize(img);
+            // Only add lazy loading if not already set
+            if (!img.hasAttribute('loading')) {
+                img.setAttribute('loading', 'lazy');
+            }
+            if (!img.hasAttribute('decoding')) {
+                img.setAttribute('decoding', 'async');
+            }
         });
     }
 
     optimizeImageSize(img) {
-        // Create optimized srcset based on original image
-        const originalSrc = img.src;
-        if (originalSrc && !img.hasAttribute('srcset')) {
-            
-            const baseName = originalSrc.replace(/\.[^/.]+$/, "");
-            const extension = originalSrc.split('.').pop();
-            
-            // Generate multiple sizes for responsive loading
-            const sizes = [
-                { width: 320, suffix: '-mobile' },
-                { width: 640, suffix: '-tablet' },
-                { width: 960, suffix: '-desktop' },
-                { width: 1200, suffix: '-large' }
-            ];
-            
-            // For now, we'll use CSS to limit image sizes
-            // In production, you'd want to generate actual resized images
+        // Minimal optimization - just ensure responsive behavior
+        if (!img.style.maxWidth) {
             img.style.maxWidth = '100%';
+        }
+        if (!img.style.height) {
             img.style.height = 'auto';
-            
-            // Add responsive behavior
-            this.makeImageResponsive(img);
         }
     }
 
@@ -70,37 +56,15 @@ class ImageOptimizer {
     }
 
     implementLazyLoading() {
-        // Enhanced lazy loading with Intersection Observer
-        if ('IntersectionObserver' in window) {
-            const imageObserver = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const img = entry.target;
-                        
-                        // Replace data-src with src for lazy loaded images
-                        if (img.dataset.src && !img.src) {
-                            img.src = img.dataset.src;
-                        }
-                        
-                        // Add load animation
-                        img.classList.add('image-loading');
-                        
-                        img.onload = function() {
-                            this.classList.remove('image-loading');
-                            this.classList.add('image-loaded');
-                        };
-                        
-                        observer.unobserve(img);
-                    }
-                });
-            }, {
-                rootMargin: '50px 0px',
-                threshold: 0.01
-            });
-
-            // Observe all images
-            document.querySelectorAll('img').forEach(img => {
-                imageObserver.observe(img);
+        // Very minimal lazy loading - only add fade effect to already lazy images
+        if ('loading' in HTMLImageElement.prototype) {
+            const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+            lazyImages.forEach(img => {
+                if (!img.complete && !img.style.transition) {
+                    img.onload = function() {
+                        this.style.transition = 'opacity 0.3s ease';
+                    };
+                }
             });
         }
     }
