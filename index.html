@@ -56,9 +56,10 @@
         .logo svg{display:block}
         .contact-button{display:flex;align-items:center;gap:8px;background-color:#f6ec3d;color:#333;padding:12px 20px;font-weight:600;font-size:16px;cursor:pointer;transition:background-color 0.3s ease}
         .phone-icon{font-size:18px}
-        .main-nav{background-color:#004d32;padding:0 20px}
-        .nav-menu{list-style:none;display:flex;justify-content:center;max-width:1600px;margin:0 auto;gap:40px;padding:15px 0}
-        .nav-menu li a{color:#006a44 !important;text-decoration:none;font-weight:500;padding:10px 0;transition:color 0.3s ease;visibility:visible !important}
+        .main-nav{background-color:white;border-bottom:1px solid #e6e7e8}
+        .nav-menu{display:flex;list-style:none;max-width:1600px;margin:0 auto;padding:0 36px;justify-content:flex-start;gap:80px}
+        .nav-menu li{padding:12px 0}
+        .nav-menu a{text-decoration:none;color:#006a44 !important;font-weight:600;font-size:14px;text-transform:uppercase;letter-spacing:0.5px;transition:color 0.3s ease}
         .nav-menu li a:hover{color:#22c55e !important}
         .hero{background:linear-gradient(135deg,#006a44 0%,#004d32 100%);color:white;padding:60px 20px;text-align:center}
         .hero-content{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:40px;align-items:center}
@@ -71,8 +72,8 @@
         @media (max-width: 768px) {
             .header-container{padding:10px 15px}
             .top-bar-content{padding:0 15px}
-            .nav-menu{flex-direction:column;gap:0;text-align:center}
-            .nav-menu li a{display:block;padding:15px 0;border-bottom:1px solid #006a44;color:#006a44 !important;visibility:visible !important}
+            .nav-menu{flex-direction:column;gap:0;padding:0 20px}
+            .nav-menu li{padding:10px 0;border-bottom:1px solid #e6e7e8}
             .hero{padding:40px 15px}
             .hero-text h1{font-size:2rem}
             .hero-text p{font-size:1.1rem}
