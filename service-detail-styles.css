@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 10px 60px;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -376,7 +376,7 @@
     flex-direction: column;
     gap: 30px;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: flex-start;
     padding-right: 0;
 }
 

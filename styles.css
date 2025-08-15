@@ -40,7 +40,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 10px 60px;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -872,6 +872,18 @@ body {
     color: white;
     font-size: 12px;
     margin: 0;
+}
+
+.designer-link {
+    color: #f6ec3d;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.designer-link:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 /* Responsive Design */
