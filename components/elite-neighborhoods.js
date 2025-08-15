@@ -332,36 +332,37 @@ class EliteNeighborhoodsComponent {
     getNearbyCards() {
         const currentLocation = this.config.currentLocation;
         const nearbyMap = {
-            // ANADOLU YAKASI CROSS-LINKING
-            'acıbadem': ['fenerbahçe', 'kozyatağı', 'suadiye', 'kalamış'],
-            'suadiye': ['acıbadem', 'caddebostan', 'erenköy', 'bostancı'],
-            'kalamış': ['suadiye', 'fenerbahçe', 'caddebostan', 'bostancı'],
-            'fenerbahçe': ['acıbadem', 'kalamış', 'kozyatağı', 'suadiye'],
-            'caddebostan': ['suadiye', 'bostancı', 'erenköy', 'göztepe'],
-            'bostancı': ['caddebostan', 'kalamış', 'suadiye', 'erenköy'],
-            'çamlıca': ['acıbadem', 'kozyatağı', 'suadiye', 'üsküdar'],
-            'kozyatağı': ['acıbadem', 'fenerbahçe', 'çamlıca', 'bostancı'],
-            'erenköy': ['göztepe', 'caddebostan', 'suadiye', 'bostancı'],
-            'göztepe': ['erenköy', 'caddebostan', 'suadiye', 'bostancı'],
-            'üsküdar': ['çamlıca', 'acıbadem', 'kadıköy', 'maltepe'],
-            'kadıköy': ['üsküdar', 'moda', 'bağdat-caddesi', 'fikirtepe'],
-            'maltepe': ['üsküdar', 'kartal', 'pendik', 'altunizade'],
-            'ataşehir': ['ümraniye', 'kozyatağı', 'altunizade', 'kartal'],
-            'ümraniye': ['ataşehir', 'çamlıca', 'altunizade', 'üsküdar'],
-            'altunizade': ['ataşehir', 'ümraniye', 'maltepe', 'üsküdar'],
-            'moda': ['kadıköy', 'bağdat-caddesi', 'fikirtepe', 'kalamış'],
-            'bağdat-caddesi': ['kadıköy', 'moda', 'suadiye', 'caddebostan'],
-            'fikirtepe': ['kadıköy', 'moda', 'bağdat-caddesi', 'kalamış'],
-            'barbaros': ['bostancı', 'kalamış', 'caddebostan', 'suadiye'],
-            'kartal': ['maltepe', 'pendik', 'ataşehir', 'altunizade'],
-            'pendik': ['kartal', 'maltepe', 'altunizade', 'ataşehir']
+            // ANADOLU YAKASI CROSS-LINKING - 8 nearby locations per area
+            'acıbadem': ['fenerbahçe', 'kozyatağı', 'çamlıca', 'altunizade', 'ataşehir', 'üsküdar', 'maltepe', 'ümraniye'],
+            'suadiye': ['caddebostan', 'bağdat-caddesi', 'kalamış', 'fenerbahçe', 'erenköy', 'bostancı', 'göztepe', 'moda'],
+            'caddebostan': ['suadiye', 'bağdat-caddesi', 'kalamış', 'erenköy', 'fenerbahçe', 'bostancı', 'göztepe', 'moda'],
+            'erenköy': ['göztepe', 'caddebostan', 'suadiye', 'fikirtepe', 'kadıköy', 'bağdat-caddesi', 'moda', 'kalamış'],
+            'göztepe': ['erenköy', 'fikirtepe', 'kadıköy', 'bağdat-caddesi', 'moda', 'caddebostan', 'suadiye', 'üsküdar'],
+            'fenerbahçe': ['acıbadem', 'suadiye', 'kalamış', 'bostancı', 'caddebostan', 'kozyatağı', 'çamlıca', 'barbaros'],
+            'çamlıca': ['acıbadem', 'altunizade', 'üsküdar', 'kozyatağı', 'fenerbahçe', 'ataşehir', 'maltepe', 'ümraniye'],
+            'kozyatağı': ['acıbadem', 'ataşehir', 'çamlıca', 'altunizade', 'fenerbahçe', 'barbaros', 'ümraniye', 'maltepe'],
+            'kalamış': ['suadiye', 'caddebostan', 'bostancı', 'fenerbahçe', 'erenköy', 'barbaros', 'moda', 'bağdat-caddesi'],
+            'bostancı': ['kalamış', 'barbaros', 'suadiye', 'fenerbahçe', 'caddebostan', 'ataşehir', 'kozyatağı', 'altunizade'],
+            'barbaros': ['bostancı', 'ataşehir', 'kozyatağı', 'altunizade', 'kalamış', 'suadiye', 'fenerbahçe', 'caddebostan'],
+            'fikirtepe': ['göztepe', 'erenköy', 'kadıköy', 'üsküdar', 'moda', 'bağdat-caddesi', 'çamlıca', 'altunizade'],
+            'üsküdar': ['çamlıca', 'fikirtepe', 'altunizade', 'maltepe', 'acıbadem', 'göztepe', 'kadıköy', 'ümraniye'],
+            'kadıköy': ['göztepe', 'fikirtepe', 'moda', 'bağdat-caddesi', 'erenköy', 'üsküdar', 'caddebostan', 'suadiye'],
+            'ataşehir': ['kozyatağı', 'barbaros', 'ümraniye', 'altunizade', 'acıbadem', 'çamlıca', 'maltepe', 'bostancı'],
+            'maltepe': ['üsküdar', 'altunizade', 'kartal', 'ataşehir', 'çamlıca', 'ümraniye', 'acıbadem', 'pendik'],
+            'ümraniye': ['ataşehir', 'çamlıca', 'altunizade', 'üsküdar', 'maltepe', 'kozyatağı', 'acıbadem', 'kartal'],
+            'altunizade': ['ataşehir', 'ümraniye', 'maltepe', 'üsküdar', 'çamlıca', 'kozyatağı', 'acıbadem', 'barbaros'],
+            'moda': ['kadıköy', 'bağdat-caddesi', 'fikirtepe', 'kalamış', 'göztepe', 'erenköy', 'suadiye', 'caddebostan'],
+            'bağdat-caddesi': ['kadıköy', 'moda', 'suadiye', 'caddebostan', 'göztepe', 'erenköy', 'kalamış', 'fikirtepe'],
+            'kartal': ['maltepe', 'pendik', 'ataşehir', 'altunizade', 'üsküdar', 'ümraniye', 'çamlıca', 'kozyatağı'],
+            'pendik': ['kartal', 'maltepe', 'altunizade', 'ataşehir', 'ümraniye', 'üsküdar', 'çamlıca', 'kozyatağı']
         };
         
         const nearbyLocations = nearbyMap[currentLocation] || [];
+        // Filter out the current location and return 8 nearby cards
         return this.allCards.filter(card => 
-            nearbyLocations.includes(card.location) || 
-            card.location === currentLocation
-        ).slice(0, this.config.cardsToShow);
+            nearbyLocations.includes(card.location) && 
+            card.location !== currentLocation
+        ).slice(0, 8);
     }
     
     renderCards(cards) {
