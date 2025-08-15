@@ -49,19 +49,12 @@ body {
     display: block;
 }
 
-.contact-button {
+.stores-button {
     display: flex;
     align-items: center;
     gap: 8px;
-    background-color: #f6ec3d;
-    color: #333;
-    padding: 12px 20px;
-    font-weight: 600;
-    font-size: 16px;
+    color: white;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    border: none;
-    border-radius: 4px;
 }
 
 .location-icon {
@@ -70,27 +63,32 @@ body {
 
 /* Navigation */
 .main-nav {
-    background-color: #004d32;
-    padding: 0 20px;
+    background-color: white;
+    border-bottom: 1px solid #e6e7e8;
 }
 
 .nav-menu {
-    list-style: none;
     display: flex;
-    justify-content: center;
+    list-style: none;
     max-width: 1600px;
     margin: 0 auto;
-    gap: 40px;
-    padding: 15px 0;
+    padding: 0 36px;
+    justify-content: flex-start;
+    gap: 80px;
 }
 
-.nav-menu li a {
-    color: #006a44 !important;
+.nav-menu li {
+    padding: 12px 0;
+}
+
+.nav-menu a {
     text-decoration: none;
-    font-weight: 500;
-    padding: 10px 0;
+    color: #006a44 !important;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     transition: color 0.3s ease;
-    visibility: visible !important;
 }
 
 .nav-menu a:hover {
@@ -906,30 +904,18 @@ body {
 
 @media screen and (max-width: 768px) {
     .header-container {
-        padding: 10px 15px;
-    }
-    
-    .top-bar-content {
-        padding: 0 15px;
+        padding: 15px 20px;
     }
     
     .nav-menu {
         flex-direction: column;
         gap: 0;
-        text-align: center;
+        padding: 0 20px;
     }
     
-    .nav-menu li a {
-        display: block;
-        padding: 15px 0;
-        border-bottom: 1px solid #006a44;
-        color: #006a44 !important;
-        visibility: visible !important;
-    }
-    
-    .contact-button {
-        padding: 10px 15px;
-        font-size: 14px;
+    .nav-menu li {
+        padding: 10px 0;
+        border-bottom: 1px solid #e6e7e8;
     }
     
     .hero {
