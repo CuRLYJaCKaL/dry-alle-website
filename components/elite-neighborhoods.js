@@ -376,8 +376,8 @@ class EliteNeighborhoodsComponent {
                             ${this.renderCards(cardsToDisplay)}
                         </div>
                     </div>
-                    <div class="neighborhoods-info">
-                        <p>Hizmet verdiğimiz diğer elite bölgeler: ${this.getOtherLocations()}</p>
+                    <div class="neighborhoods-info" itemscope itemtype="https://schema.org/ServiceArea">
+                        <p>Hizmet verdiğimiz diğer elite bölgeler: <span itemprop="areaServed">${this.getOtherLocations()}</span></p>
                     </div>
                 </div>
             </section>
@@ -431,11 +431,9 @@ class EliteNeighborhoodsComponent {
             'pendik': ['kartal', 'maltepe', 'altunizade', 'ataşehir', 'ümraniye', 'üsküdar', 'çamlıca', 'kozyatağı'],
             
             // EKSİK LOKASYONLARİN CROSS-LİNKİNG HARİTALARI
-            'altunizade': ['ataşehir', 'ümraniye', 'maltepe', 'üsküdar', 'çamlıca', 'kozyatağı', 'acıbadem', 'barbaros'],
             'içerenköy': ['göztepe', 'erenköy', 'kadıköy', 'ataşehir', 'kozyatağı', 'caddebostan', 'suadiye', 'ümraniye'],
-            'küçükbakkalkoy': ['ataşehir', 'kozyatağı', 'altunizade', 'ümraniye', 'maltepe', 'üsküdar', 'barbaros', 'acıbadem'],
-            'sahrayıcedit': ['kadıköy', 'üsküdar', 'acıbadem', 'kozyatağı', 'ataşehir', 'çamlıca', 'altunizade', 'göztepe'],
-            'küçükbakkalköy': ['ataşehir', 'kozyatağı', 'altunizade', 'ümraniye', 'maltepe', 'üsküdar', 'barbaros', 'acıbadem']
+            'küçükbakkalköy': ['ataşehir', 'kozyatağı', 'altunizade', 'ümraniye', 'maltepe', 'üsküdar', 'barbaros', 'acıbadem'],
+            'sahrayıcedit': ['kadıköy', 'üsküdar', 'acıbadem', 'kozyatağı', 'ataşehir', 'çamlıca', 'altunizade', 'göztepe']
         };
         
         const nearbyLocations = nearbyMap[currentLocation] || [];
@@ -621,7 +619,7 @@ document.addEventListener('DOMContentLoaded', function() {
         new EliteNeighborhoodsComponent('elite-neighborhoods-related', {
             title: 'Yakın Bölgelerdeki Hizmetlerimiz',
             subtitle: 'Çevrenizde bulunan diğer elite semtlerde de hizmet veriyoruz',
-            cardsToShow: 4,
+            cardsToShow: 8,
             enableRotation: false,
             showOnlyNearby: true,
             currentLocation: currentLocation
