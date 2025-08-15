@@ -568,7 +568,7 @@ document.addEventListener('DOMContentLoaded', function() {
         new EliteNeighborhoodsComponent('elite-neighborhoods-main', {
             title: 'Elite Semtlerde Özel Hizmet',
             subtitle: 'İstanbul\'un en prestijli mahallelerinde 25 yıldır güvenilir hizmet sunuyoruz',
-            cardsToShow: 9,
+            cardsToShow: 8,
             enableRotation: true,
             rotationInterval: 25000 // SEO-friendly longer interval
         });
