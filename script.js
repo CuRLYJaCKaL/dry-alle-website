@@ -189,5 +189,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    console.log('Johnson Cleaners website loaded successfully!');
+    // Elite Neighborhoods handled by component
+
+    console.log('Dry Alle website loaded successfully!');
 });

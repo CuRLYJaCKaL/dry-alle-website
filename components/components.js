@@ -48,6 +48,21 @@ function loadCustomerTestimonials() {
     loadComponent('customer-testimonials', '.customer-testimonials-container');
 }
 
+// Elite Neighborhoods component'ini yükle (JavaScript-based)
+function loadEliteNeighborhoods() {
+    // Component script'ini yükle
+    const currentPath = window.location.pathname;
+    const isServicePage = currentPath.includes('/hizmetler/') || currentPath.includes('/bolgeler/');
+    const scriptPath = isServicePage ? '../components/elite-neighborhoods.js' : './components/elite-neighborhoods.js';
+    
+    if (!document.querySelector('script[src*="elite-neighborhoods.js"]')) {
+        const script = document.createElement('script');
+        script.src = scriptPath;
+        script.async = true;
+        document.head.appendChild(script);
+    }
+}
+
 // Sayfa yüklendiğinde çalışacak
 document.addEventListener('DOMContentLoaded', function() {
     // Eğer quick-contact-container varsa component'i yükle

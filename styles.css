@@ -526,49 +526,95 @@ body {
 
 /* Elite Neighborhoods Section */
 .elite-neighborhoods {
-    background: linear-gradient(135deg, #f8fffe 0%, #f0f9f7 100%);
-    padding: 60px 20px;
-    margin: 40px 0;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fffe 100%);
+    padding: 50px 20px;
+    margin: 30px 0;
 }
 
 .elite-neighborhoods h2 {
     text-align: center;
     color: #006a44;
-    font-size: 2.2rem;
-    margin-bottom: 10px;
-    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 8px;
+    font-weight: 600;
 }
 
 .elite-neighborhoods p {
     text-align: center;
-    color: #555;
-    font-size: 1.1rem;
-    margin-bottom: 40px;
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 35px;
+}
+
+.neighborhoods-scroll-container {
+    overflow-x: auto;
+    padding: 0 20px;
+    margin: 0 -20px;
 }
 
 .neighborhoods-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    display: flex;
     gap: 24px;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding-bottom: 20px;
+    min-width: max-content;
+    transition: opacity 0.3s ease;
+}
+
+.neighborhoods-scroll-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.neighborhoods-scroll-container::-webkit-scrollbar-track {
+    background: #f0f9f7;
+    border-radius: 4px;
+}
+
+.neighborhoods-scroll-container::-webkit-scrollbar-thumb {
+    background: #006a44;
+    border-radius: 4px;
+}
+
+.neighborhoods-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #004d32;
 }
 
 .neighborhood-card {
     background: white;
-    border: 2px solid #e8f5f0;
-    border-radius: 16px;
-    padding: 24px;
+    border: 1px solid #e8f5f0;
+    border-radius: 12px;
+    padding: 20px;
     text-decoration: none;
     color: inherit;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 106, 68, 0.08);
+    box-shadow: 0 2px 8px rgba(0, 106, 68, 0.06);
     position: relative;
+    min-width: 260px;
+    flex-shrink: 0;
+}
+
+.card-icon {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 14px;
+    filter: drop-shadow(0 1px 3px rgba(0, 106, 68, 0.1));
+}
+
+.neighborhoods-info {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #f0f9f7;
+}
+
+.neighborhoods-info p {
+    color: #777;
+    font-size: 0.85rem;
+    font-weight: 400;
 }
 
 .neighborhood-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 25px rgba(0, 106, 68, 0.15);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 106, 68, 0.12);
     border-color: #006a44;
     text-decoration: none;
     color: inherit;
@@ -576,15 +622,15 @@ body {
 
 .neighborhood-card h3 {
     color: #006a44;
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 6px;
 }
 
 .neighborhood-card p {
     color: #666;
-    font-size: 0.95rem;
-    margin-bottom: 16px;
+    font-size: 0.9rem;
+    margin-bottom: 14px;
     text-align: left;
 }
 
@@ -934,3 +980,38 @@ html {
 .service-card:nth-child(1) { animation-delay: 0.1s; }
 .service-card:nth-child(2) { animation-delay: 0.2s; }
 .service-card:nth-child(3) { animation-delay: 0.3s; }
+
+/* Mobile Responsive for Neighborhoods */
+@media (max-width: 768px) {
+    .neighborhoods-scroll-container {
+        margin: 0 -15px;
+        padding: 0 15px;
+    }
+    
+    .neighborhoods-grid {
+        gap: 16px;
+    }
+    
+    .neighborhood-card {
+        min-width: 250px;
+        padding: 20px;
+    }
+    
+    .card-icon {
+        font-size: 2rem;
+        margin-bottom: 12px;
+    }
+    
+    .elite-neighborhoods {
+        padding: 40px 15px;
+    }
+    
+    .elite-neighborhoods h2 {
+        font-size: 1.8rem;
+    }
+    
+    .neighborhoods-info {
+        margin-top: 20px;
+        padding-top: 15px;
+    }
+}
