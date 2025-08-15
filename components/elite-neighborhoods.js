@@ -14,9 +14,9 @@ class EliteNeighborhoodsComponent {
         };
         
         this.allCards = [
-            // Premium Kuru Temizleme Services
+            // ANADOLU YAKASI - Premium Kuru Temizleme Services
             { 
-                href: 'bolgeler/acıbadem-kuru-temizleme.html', 
+                href: 'bolgeler/acibadem-kuru-temizleme.html', 
                 icon: '🎩', 
                 title: 'Acıbadem Kuru Temizleme', 
                 desc: 'Premium takım elbise bakımı',
@@ -25,7 +25,7 @@ class EliteNeighborhoodsComponent {
                 location: 'acıbadem'
             },
             { 
-                href: 'bolgeler/fenerbahçe-kuru-temizleme.html', 
+                href: 'bolgeler/fenerbahce-kuru-temizleme.html', 
                 icon: '🏆', 
                 title: 'Fenerbahçe Kuru Temizleme', 
                 desc: 'Elite kıyafet bakımı',
@@ -34,8 +34,8 @@ class EliteNeighborhoodsComponent {
                 location: 'fenerbahçe'
             },
             { 
-                href: 'bolgeler/çamlıca-kuru-temizleme.html', 
-                icon: '👨‍💼', 
+                href: 'bolgeler/camlica-kuru-temizleme.html', 
+                icon: '👔', 
                 title: 'Çamlıca VIP Kuru Temizleme', 
                 desc: 'Elite kıyafet bakımı',
                 active: true,
@@ -43,7 +43,7 @@ class EliteNeighborhoodsComponent {
                 location: 'çamlıca'
             },
             { 
-                href: 'bolgeler/kozyatağı-kuru-temizleme.html', 
+                href: 'bolgeler/kozyatagi-kuru-temizleme.html', 
                 icon: '💼', 
                 title: 'Kozyatağı İş Kıyafetleri', 
                 desc: 'Profesyoneller için hızlı servis',
@@ -51,8 +51,17 @@ class EliteNeighborhoodsComponent {
                 category: 'kuru-temizleme',
                 location: 'kozyatağı'
             },
+            { 
+                href: 'bolgeler/kadikoy-kuru-temizleme.html', 
+                icon: '🎯', 
+                title: 'Kadıköy Premium Kuru Temizleme', 
+                desc: 'Merkezi lokasyon VIP hizmet',
+                active: true,
+                category: 'kuru-temizleme',
+                location: 'kadıköy'
+            },
             
-            // Premium Halı Yıkama Services
+            // ANADOLU YAKASI - Premium Halı Yıkama Services
             { 
                 href: 'bolgeler/suadiye-hali-yikama.html', 
                 icon: '🏛️', 
@@ -72,7 +81,7 @@ class EliteNeighborhoodsComponent {
                 location: 'caddebostan'
             },
             { 
-                href: 'bolgeler/erenköy-hali-yikama.html', 
+                href: 'bolgeler/erenkoy-hali-yikama.html', 
                 icon: '🎨', 
                 title: 'Erenköy Antik Halı Yıkama', 
                 desc: 'Değerli halı koleksiyonları',
@@ -81,7 +90,7 @@ class EliteNeighborhoodsComponent {
                 location: 'erenköy'
             },
             { 
-                href: 'bolgeler/göztepe-hali-yikama.html', 
+                href: 'bolgeler/goztepe-hali-yikama.html', 
                 icon: '🔍', 
                 title: 'Göztepe Lüks Halı Bakımı', 
                 desc: 'Premium halı temizleme',
@@ -89,10 +98,55 @@ class EliteNeighborhoodsComponent {
                 category: 'hali-yikama',
                 location: 'göztepe'
             },
-            
-            // Premium Koltuk Yıkama Services  
             { 
-                href: 'bolgeler/kalamış-koltuk-yikama.html', 
+                href: 'bolgeler/uskudar-hali-yikama.html', 
+                icon: '🕌', 
+                title: 'Üsküdar Tarihi Halı Yıkama', 
+                desc: 'Antik halı koleksiyonları',
+                active: true,
+                category: 'hali-yikama',
+                location: 'üsküdar'
+            },
+            { 
+                href: 'bolgeler/maltepe-hali-yikama.html', 
+                icon: '🌊', 
+                title: 'Maltepe Marina Halı Yıkama', 
+                desc: 'Sahil halı temizleme',
+                active: true,
+                category: 'hali-yikama',
+                location: 'maltepe'
+            },
+            { 
+                href: 'bolgeler/atasehir-hali-yikama.html', 
+                icon: '🏢', 
+                title: 'Ataşehir Business Halı Yıkama', 
+                desc: 'Kurumsal halı temizleme',
+                active: true,
+                category: 'hali-yikama',
+                location: 'ataşehir'
+            },
+            { 
+                href: 'bolgeler/umraniye-hali-yikama.html', 
+                icon: '👑', 
+                title: 'Ümraniye VIP Halı Yıkama', 
+                desc: 'Kraliyet halı bakımı',
+                active: true,
+                category: 'hali-yikama',
+                location: 'ümraniye'
+            },
+            { 
+                href: 'bolgeler/altunizade-hali-yikama.html', 
+                icon: '✨', 
+                title: 'Altunizade Lüks Halı Yıkama', 
+                desc: 'Elite halı koleksiyonları',
+                active: true,
+                category: 'hali-yikama',
+                location: 'altunizade'
+            },
+            
+            // ANADOLU YAKASI - Premium Koltuk Yıkama Services  
+            { 
+                href: 'bolgeler/kalamis-koltuk-yikama.html', 
                 icon: '🪑', 
                 title: 'Kalamış Koltuk Yıkama', 
                 desc: 'Designer mobilya temizliği',
@@ -101,7 +155,7 @@ class EliteNeighborhoodsComponent {
                 location: 'kalamış'
             },
             { 
-                href: 'bolgeler/bostancı-koltuk-yikama.html', 
+                href: 'bolgeler/bostanci-koltuk-yikama.html', 
                 icon: '🏠', 
                 title: 'Bostancı Koltuk Yıkama', 
                 desc: 'Premium mobilya bakımı',
@@ -120,50 +174,104 @@ class EliteNeighborhoodsComponent {
             },
             { 
                 href: 'bolgeler/fikirtepe-koltuk-yikama.html', 
-                icon: '💻', 
+                icon: '🛋️', 
                 title: 'Fikirtepe Modern Koltuk Temizliği', 
                 desc: 'Çağdaş mobilya bakımı',
                 active: true,
                 category: 'koltuk-yikama',
                 location: 'fikirtepe'
             },
-            
-            // Luxury Gelinlik & Özel Kıyafet Services
             { 
-                href: 'bolgeler/bebek-gelinlik-temizleme.html', 
+                href: 'bolgeler/uskudar-koltuk-yikama.html', 
+                icon: '🎨', 
+                title: 'Üsküdar Antik Mobilya Temizleme', 
+                desc: 'Tarihi koltuk bakımı',
+                active: true,
+                category: 'koltuk-yikama',
+                location: 'üsküdar'
+            },
+            { 
+                href: 'bolgeler/kadikoy-koltuk-yikama.html', 
+                icon: '🎭', 
+                title: 'Kadıköy Sanat Mobilya Yıkama', 
+                desc: 'Sanatsal mobilya temizliği',
+                active: true,
+                category: 'koltuk-yikama',
+                location: 'kadıköy'
+            },
+            { 
+                href: 'bolgeler/moda-koltuk-yikama.html', 
+                icon: '🌟', 
+                title: 'Moda Chic Koltuk Yıkama', 
+                desc: 'Trendy mobilya bakımı',
+                active: true,
+                category: 'koltuk-yikama',
+                location: 'moda'
+            },
+            { 
+                href: 'bolgeler/bagdat-caddesi-koltuk-yikama.html', 
+                icon: '🛍️', 
+                title: 'Bağdat Caddesi VIP Koltuk Yıkama', 
+                desc: 'Prestij mobilya temizliği',
+                active: true,
+                category: 'koltuk-yikama',
+                location: 'bağdat-caddesi'
+            },
+            { 
+                href: 'bolgeler/kartal-koltuk-yikama.html', 
+                icon: '🦅', 
+                title: 'Kartal Premium Koltuk Yıkama', 
+                desc: 'Yüksek kalite mobilya bakımı',
+                active: true,
+                category: 'koltuk-yikama',
+                location: 'kartal'
+            },
+            { 
+                href: 'bolgeler/pendik-koltuk-yikama.html', 
+                icon: '⚓', 
+                title: 'Pendik Marina Koltuk Yıkama', 
+                desc: 'Sahil mobilya temizliği',
+                active: true,
+                category: 'koltuk-yikama',
+                location: 'pendik'
+            },
+            
+            // ANADOLU YAKASI - Luxury Gelinlik & Özel Kıyafet Services
+            { 
+                href: 'bolgeler/uskudar-gelinlik-temizleme.html', 
                 icon: '💍', 
-                title: 'Bebek Gelinlik Temizleme', 
+                title: 'Üsküdar Gelinlik Temizleme', 
                 desc: 'Özel günler için hassas bakım',
                 active: true,
                 category: 'gelinlik-temizleme',
-                location: 'bebek'
+                location: 'üsküdar'
             },
             { 
-                href: 'bolgeler/etiler-luxury-kiyafet.html', 
+                href: 'bolgeler/kadikoy-luxury-kiyafet.html', 
                 icon: '👗', 
-                title: 'Etiler Luxury Kıyafet Bakımı', 
+                title: 'Kadıköy Luxury Kıyafet Bakımı', 
                 desc: 'Designer kıyafet temizleme',
                 active: true,
                 category: 'luxury-kiyafet',
-                location: 'etiler'
+                location: 'kadıköy'
             },
             { 
-                href: 'bolgeler/levent-premium-temizlik.html', 
+                href: 'bolgeler/atasehir-premium-temizlik.html', 
                 icon: '🏢', 
-                title: 'Levent Premium İş Kıyafetleri', 
+                title: 'Ataşehir Premium İş Kıyafetleri', 
                 desc: 'İş merkezleri için VIP hizmet',
                 active: true,
                 category: 'premium-temizlik',
-                location: 'levent'
+                location: 'ataşehir'
             },
             { 
-                href: 'bolgeler/nişantaşı-haute-couture.html', 
+                href: 'bolgeler/bagdat-caddesi-haute-couture.html', 
                 icon: '✨', 
-                title: 'Nişantaşı Haute Couture Bakımı', 
+                title: 'Bağdat Caddesi Haute Couture Bakımı', 
                 desc: 'En lüks kıyafetler için özel hizmet',
                 active: true,
                 category: 'haute-couture',
-                location: 'nişantaşı'
+                location: 'bağdat-caddesi'
             }
         ];
         
@@ -224,6 +332,7 @@ class EliteNeighborhoodsComponent {
     getNearbyCards() {
         const currentLocation = this.config.currentLocation;
         const nearbyMap = {
+            // ANADOLU YAKASI CROSS-LINKING
             'acıbadem': ['fenerbahçe', 'kozyatağı', 'suadiye', 'kalamış'],
             'suadiye': ['acıbadem', 'caddebostan', 'erenköy', 'bostancı'],
             'kalamış': ['suadiye', 'fenerbahçe', 'caddebostan', 'bostancı'],
@@ -231,7 +340,21 @@ class EliteNeighborhoodsComponent {
             'caddebostan': ['suadiye', 'bostancı', 'erenköy', 'göztepe'],
             'bostancı': ['caddebostan', 'kalamış', 'suadiye', 'erenköy'],
             'çamlıca': ['acıbadem', 'kozyatağı', 'suadiye', 'üsküdar'],
-            'kozyatağı': ['acıbadem', 'fenerbahçe', 'çamlıca', 'bostancı']
+            'kozyatağı': ['acıbadem', 'fenerbahçe', 'çamlıca', 'bostancı'],
+            'erenköy': ['göztepe', 'caddebostan', 'suadiye', 'bostancı'],
+            'göztepe': ['erenköy', 'caddebostan', 'suadiye', 'bostancı'],
+            'üsküdar': ['çamlıca', 'acıbadem', 'kadıköy', 'maltepe'],
+            'kadıköy': ['üsküdar', 'moda', 'bağdat-caddesi', 'fikirtepe'],
+            'maltepe': ['üsküdar', 'kartal', 'pendik', 'altunizade'],
+            'ataşehir': ['ümraniye', 'kozyatağı', 'altunizade', 'kartal'],
+            'ümraniye': ['ataşehir', 'çamlıca', 'altunizade', 'üsküdar'],
+            'altunizade': ['ataşehir', 'ümraniye', 'maltepe', 'üsküdar'],
+            'moda': ['kadıköy', 'bağdat-caddesi', 'fikirtepe', 'kalamış'],
+            'bağdat-caddesi': ['kadıköy', 'moda', 'suadiye', 'caddebostan'],
+            'fikirtepe': ['kadıköy', 'moda', 'bağdat-caddesi', 'kalamış'],
+            'barbaros': ['bostancı', 'kalamış', 'caddebostan', 'suadiye'],
+            'kartal': ['maltepe', 'pendik', 'ataşehir', 'altunizade'],
+            'pendik': ['kartal', 'maltepe', 'altunizade', 'ataşehir']
         };
         
         const nearbyLocations = nearbyMap[currentLocation] || [];
