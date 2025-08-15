@@ -86,19 +86,182 @@
         <priority>0.8</priority>
     </url>
     
-    <!-- Local SEO Landing Pages -->
+    <!-- ANADOLU YAKASI Elite Local SEO Landing Pages -->
+    
+    <!-- Kuru Temizleme Services -->
     <url>
         <loc>https://dryallekurutemizleme.com/bolgeler/acibadem-kuru-temizleme.html</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
     </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/fenerbahce-kuru-temizleme.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/camlica-kuru-temizleme.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/kozyatagi-kuru-temizleme.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/kadikoy-kuru-temizleme.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
     
+    <!-- Halı Yıkama Services -->
     <url>
         <loc>https://dryallekurutemizleme.com/bolgeler/suadiye-hali-yikama.html</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/caddebostan-hali-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/erenkoy-hali-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/goztepe-hali-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/uskudar-hali-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/maltepe-hali-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/atasehir-hali-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/umraniye-hali-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/altunizade-hali-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    
+    <!-- Koltuk Yıkama Services -->
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/kalamis-koltuk-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/bostanci-koltuk-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/barbaros-koltuk-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/fikirtepe-koltuk-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/uskudar-koltuk-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/kadikoy-koltuk-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/moda-koltuk-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/bagdat-caddesi-koltuk-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/kartal-koltuk-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/pendik-koltuk-yikama.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    
+    <!-- Luxury & Special Services -->
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/uskudar-gelinlik-temizleme.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/kadikoy-luxury-kiyafet.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/atasehir-premium-temizlik.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/bolgeler/bagdat-caddesi-haute-couture.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
     </url>
 
 </urlset>
