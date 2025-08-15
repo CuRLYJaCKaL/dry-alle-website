@@ -1,5 +1,43 @@
 /* Service Detail Pages Styles */
 
+/* Header Consistency - Ensure header styles are consistent */
+.header {
+    background-color: #006a44 !important;
+    color: white !important;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.contact-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #f6ec3d;
+    color: #333;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 0;
+}
+
+.contact-button:hover {
+    background-color: #f0e030;
+}
+
+.phone-icon {
+    font-size: 18px;
+}
+
 /* Breadcrumb */
 .breadcrumb-section {
     background-color: #f8f9fa;

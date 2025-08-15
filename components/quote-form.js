@@ -2,26 +2,35 @@
 class QuoteFormComponent {
     constructor() {
         this.phoneNumber = "905433527474";
-        this.popupShown = false;
+        this.popupCount = 0;
+        this.maxPopups = 2;
         this.init();
     }
 
     init() {
         this.attachEventListeners();
-        this.startTimer();
+        this.startTimers();
     }
 
-    startTimer() {
-        // 1 dakika (60 saniye) sonra pop-up göster
+    startTimers() {
+        // 1. pop-up: 1 dakika sonra
         setTimeout(() => {
-            if (!this.popupShown) {
+            if (this.popupCount < this.maxPopups) {
                 this.showPopup();
+                this.popupCount++;
             }
-        }, 60000);
+        }, 60000); // 1 dakika
+
+        // 2. pop-up: 3 dakika sonra  
+        setTimeout(() => {
+            if (this.popupCount < this.maxPopups) {
+                this.showPopup();
+                this.popupCount++;
+            }
+        }, 180000); // 3 dakika
     }
 
     showPopup() {
-        this.popupShown = true;
         const popupHTML = `
             <div class="quote-popup-overlay" id="quote-popup-overlay">
                 <div class="quote-popup" id="quote-popup">
@@ -134,8 +143,11 @@ class QuoteFormComponent {
         
         // ESC tuşu ile kapatma
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && this.popupShown) {
-                this.closePopup();
+            if (e.key === 'Escape') {
+                const popup = document.getElementById('quote-popup-overlay');
+                if (popup) {
+                    this.closePopup();
+                }
             }
         });
     }
