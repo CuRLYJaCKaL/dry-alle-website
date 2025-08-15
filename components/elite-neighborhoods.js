@@ -6,7 +6,7 @@ class EliteNeighborhoodsComponent {
             title: config.title || 'Elite Semtlerde Özel Hizmet',
             subtitle: config.subtitle || 'İstanbul\'un en prestijli mahallelerinde 25 yıldır güvenilir hizmet sunuyoruz',
             cardsToShow: config.cardsToShow || 8,
-            rotationInterval: config.rotationInterval || 12000,
+            rotationInterval: config.rotationInterval || 25000,
             enableRotation: config.enableRotation !== false,
             showOnlyNearby: config.showOnlyNearby || false,
             currentLocation: config.currentLocation || null,
@@ -442,9 +442,35 @@ class EliteNeighborhoodsComponent {
     startRotation() {
         if (!this.config.enableRotation || this.config.showOnlyNearby) return;
         
+        // SEO-friendly rotation: Longer intervals for better indexing
         setInterval(() => {
             this.rotateCards();
         }, this.config.rotationInterval);
+        
+        // Pause rotation on user interaction for better UX
+        const container = document.getElementById(this.containerId);
+        if (container) {
+            let rotationPaused = false;
+            let resumeTimeout;
+            
+            container.addEventListener('mouseenter', () => {
+                rotationPaused = true;
+                clearTimeout(resumeTimeout);
+            });
+            
+            container.addEventListener('mouseleave', () => {
+                resumeTimeout = setTimeout(() => {
+                    rotationPaused = false;
+                }, 3000); // Resume after 3 seconds of no interaction
+            });
+            
+            // Override original rotation to respect pause state
+            const originalRotation = setInterval(() => {
+                if (!rotationPaused) {
+                    this.rotateCards();
+                }
+            }, this.config.rotationInterval);
+        }
     }
     
     // Public method to refresh component
@@ -464,7 +490,7 @@ document.addEventListener('DOMContentLoaded', function() {
             subtitle: 'İstanbul\'un en prestijli mahallelerinde 25 yıldır güvenilir hizmet sunuyoruz',
             cardsToShow: 8,
             enableRotation: true,
-            rotationInterval: 12000
+            rotationInterval: 25000 // SEO-friendly longer interval
         });
     }
     

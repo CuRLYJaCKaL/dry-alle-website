@@ -597,18 +597,19 @@ body {
 }
 
 .neighborhood-card {
-    background: white;
-    border-radius: 15px;
-    padding: 30px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fffe 100%);
+    border-radius: 20px;
+    padding: 35px 25px;
     text-decoration: none;
     color: inherit;
-    transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(0, 106, 68, 0.1);
-    border: 1px solid rgba(0, 106, 68, 0.1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 10px 40px rgba(0, 106, 68, 0.08), 0 2px 8px rgba(0, 106, 68, 0.04);
+    border: 2px solid rgba(0, 106, 68, 0.05);
     position: relative;
-    min-width: 300px;
+    min-width: 320px;
     flex-shrink: 0;
     overflow: hidden;
+    backdrop-filter: blur(10px);
 }
 
 .neighborhood-card::before {
@@ -617,15 +618,37 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, #006a44, #22c55e);
+    height: 5px;
+    background: linear-gradient(135deg, #006a44 0%, #10b981 50%, #22c55e 100%);
+    border-radius: 20px 20px 0 0;
+}
+
+.neighborhood-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    padding: 2px;
+    background: linear-gradient(135deg, rgba(0, 106, 68, 0.1), rgba(34, 197, 94, 0.05));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: subtract;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: subtract;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .card-icon {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
-    margin-bottom: 20px;
-    filter: drop-shadow(0 2px 4px rgba(0, 106, 68, 0.1));
+    margin-bottom: 25px;
+    filter: drop-shadow(0 4px 8px rgba(0, 106, 68, 0.15));
+    background: linear-gradient(135deg, #006a44, #22c55e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 4px rgba(0, 106, 68, 0.2);
+    transition: all 0.3s ease;
 }
 
 .neighborhoods-info {
@@ -643,34 +666,65 @@ body {
 
 .neighborhood-card h3 {
     color: #006a44;
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 12px;
     text-align: center;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-shadow: 0 1px 2px rgba(0, 106, 68, 0.1);
 }
 
 .neighborhood-card p {
-    color: #666;
-    font-size: 0.95rem;
-    line-height: 1.5;
+    color: #555;
+    font-size: 0.98rem;
+    line-height: 1.6;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    opacity: 0.9;
 }
 
 .service-arrow {
-    display: block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #006a44;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 15px;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.service-arrow::after {
+    content: '→';
+    transition: transform 0.3s ease;
 }
 
 .neighborhood-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 35px rgba(0, 106, 68, 0.15);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(0, 106, 68, 0.18), 0 8px 20px rgba(0, 106, 68, 0.1);
     text-decoration: none;
     color: inherit;
+    border-color: rgba(0, 106, 68, 0.15);
+}
+
+.neighborhood-card:hover::after {
+    opacity: 1;
+}
+
+.neighborhood-card:hover .card-icon {
+    transform: scale(1.1);
+    filter: drop-shadow(0 6px 12px rgba(0, 106, 68, 0.25));
+}
+
+.neighborhood-card:hover .service-arrow::after {
+    transform: translateX(4px);
+}
+
+.neighborhood-card:hover h3 {
+    color: #005a3a;
 }
 
 
