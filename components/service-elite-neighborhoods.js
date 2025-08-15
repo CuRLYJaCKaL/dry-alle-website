@@ -3,8 +3,8 @@ class ServiceEliteNeighborhoodsComponent {
     constructor(containerId, config = {}) {
         this.containerId = containerId;
         this.config = {
-            title: config.title || 'Elite Semtlerde Bu Hizmet',
-            subtitle: config.subtitle || 'İstanbul\'un en prestijli mahallelerinde özel hizmet alanları',
+            title: config.title || 'Hizmet Verdiğimiz Bölgeler',
+            subtitle: config.subtitle || 'İstanbul\'un elit semtlerinde özel hizmet alanlarımız',
             cardsToShow: config.cardsToShow || 8,
             currentService: config.currentService || 'kuru-temizleme',
             ...config
@@ -146,12 +146,12 @@ class ServiceEliteNeighborhoodsComponent {
         const html = `
             <section class="elite-neighborhoods">
                 <div class="container">
-                    <div class="elite-header">
-                        <h2>${this.config.title}</h2>
-                        <p>${this.config.subtitle}</p>
-                    </div>
-                    <div class="elite-grid">
-                        ${cards.map(card => this.renderCard(card)).join('')}
+                    <h2>${this.config.title}</h2>
+                    <p>${this.config.subtitle}</p>
+                    <div class="neighborhoods-scroll-container">
+                        <div class="neighborhoods-grid">
+                            ${cards.map(card => this.renderCard(card)).join('')}
+                        </div>
                     </div>
                 </div>
             </section>
@@ -163,14 +163,12 @@ class ServiceEliteNeighborhoodsComponent {
 
     renderCard(card) {
         return `
-            <div class="elite-card">
-                <a href="${card.href}" class="card-link">
-                    <div class="card-icon">${card.icon}</div>
-                    <h3 class="card-title">${card.title}</h3>
-                    <p class="card-desc">${card.desc}</p>
-                    <div class="card-arrow">→</div>
-                </a>
-            </div>
+            <a href="${card.href}" class="neighborhood-card">
+                <div class="card-icon">${card.icon}</div>
+                <h3>${card.title}</h3>
+                <p>${card.desc}</p>
+                <span class="service-arrow">→</span>
+            </a>
         `;
     }
 }

@@ -160,6 +160,24 @@
     padding: 80px 0;
 }
 
+/* Elite Neighborhoods in Service Pages */
+.service-content-main .elite-neighborhoods {
+    background: transparent;
+    padding: 40px 0 20px 0;
+    margin: 40px 0;
+    border-top: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.service-content-main .elite-neighborhoods::before {
+    display: none;
+}
+
+.service-content-main .elite-neighborhoods .container {
+    padding: 0;
+    max-width: 100%;
+}
+
 .service-details-grid {
     display: grid;
     grid-template-columns: 4fr 1fr;
