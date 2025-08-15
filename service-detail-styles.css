@@ -162,7 +162,7 @@
 
 .service-details-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 4fr 1fr;
     gap: 60px;
 }
 
@@ -375,23 +375,26 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 0;
 }
 
 .service-highlights,
-.quick-contact,
-.inline-quote-container {
+.quick-contact {
     background: white;
     padding: 30px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
     border: 1px solid #e6e7e8;
     margin-bottom: 30px;
-    width: 100%;
+    width: 400px;
+    max-width: 100%;
     box-sizing: border-box;
 }
 
+
 .service-highlights h3,
-.quick-contact h3,
-.inline-quote-container h2 {
+.quick-contact h3 {
     color: #006a44;
     font-size: 20px;
     margin-bottom: 20px;
@@ -458,10 +461,10 @@
 /* Responsive Design for Service Sidebar */
 @media (max-width: 768px) {
     .service-highlights,
-    .quick-contact,
-    .inline-quote-container {
+    .quick-contact {
         padding: 20px;
         margin-bottom: 20px;
+        width: 100%;
     }
     
     .service-sidebar {
