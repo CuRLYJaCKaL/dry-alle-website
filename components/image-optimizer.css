@@ -1,34 +1,12 @@
-/* Image Optimization Styles */
+/* Image Optimization Styles - MINIMAL VERSION */
 
-/* Minimal image optimization - no conflicts */
-
-/* Responsive image containers */
-.image-container {
-    position: relative;
-    overflow: hidden;
-    background: #f5f5f5;
-    border-radius: 8px;
-}
-
-/* Loading states */
-.image-loading {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.image-loaded {
-    opacity: 1;
-    transition: opacity 0.3s ease;
-}
-
-/* Hero image optimization */
+/* Hero image optimization - basic responsive */
 .hero-image {
     width: 100%;
     max-width: 1200px;
     height: 600px;
     object-fit: cover;
     object-position: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 /* Service images optimization */
@@ -60,34 +38,6 @@
     height: 400px;
     object-fit: cover;
     border-radius: 15px;
-}
-
-/* Lazy loading placeholder animation */
-img[loading="lazy"]:not(.image-loaded) {
-    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
-    background-size: 200% 100%;
-    animation: shimmer 1.5s infinite;
-    min-height: 200px;
-}
-
-@keyframes shimmer {
-    0% { background-position: 200% 0; }
-    100% { background-position: -200% 0; }
-}
-
-/* Critical image optimization for above-the-fold */
-.critical-image {
-    loading: eager !important;
-    fetchpriority: high;
-}
-
-/* WebP support classes */
-.webp .hero-background {
-    background-image: url('../asset/hero-background.webp');
-}
-
-.no-webp .hero-background {
-    background-image: url('../asset/hero-background.png');
 }
 
 /* Mobile optimizations */
@@ -128,86 +78,6 @@ img[loading="lazy"]:not(.image-loaded) {
     .services-grid img,
     .feature-grid img {
         height: 140px;
-    }
-}
-
-/* Performance optimizations - removed to prevent conflicts */
-/* Removed aggressive image optimizations that were causing display issues */
-
-/* Image aspect ratio containers to prevent CLS */
-.image-16-9 {
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-    border-radius: 8px;
-}
-
-.image-4-3 {
-    aspect-ratio: 4 / 3;
-    overflow: hidden;
-    border-radius: 8px;
-}
-
-.image-1-1 {
-    aspect-ratio: 1 / 1;
-    overflow: hidden;
-    border-radius: 8px;
-}
-
-/* Blur effect during loading */
-.image-blur {
-    filter: blur(5px);
-    transition: filter 0.3s ease;
-}
-
-.image-blur.image-loaded {
-    filter: blur(0px);
-}
-
-/* Error state for failed images */
-img[data-error="true"] {
-    background: #f0f0f0;
-    color: #666;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 200px;
-}
-
-img[data-error="true"]::before {
-    content: "Görsel yüklenemedi";
-    font-size: 14px;
-    color: #666;
-}
-
-/* High priority images */
-.priority-high {
-    loading: eager;
-    fetchpriority: high;
-}
-
-.priority-low {
-    loading: lazy;
-    fetchpriority: low;
-}
-
-/* Specific optimizations for known large images */
-img[src*="home-textile-cleaning"],
-img[src*="luggage-bag-cleaning"],
-img[src*="furniture-cleaning"],
-img[src*="hero-image"],
-img[src*="carpet-cleaning"],
-img[src*="dry-cleaning"] {
-    /* Force compression on large images */
-    image-rendering: optimizeQuality;
-    max-width: 100%;
-    height: auto;
-}
-
-/* Container queries for responsive images */
-@container (max-width: 768px) {
-    img {
-        max-height: 200px;
-        object-fit: cover;
     }
 }
 
