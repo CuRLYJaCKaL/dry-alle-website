@@ -95,7 +95,7 @@
 <!-- Customer Testimonials Styles -->
 <style>
 .testimonials-section {
-    background: #ffffff;
+    background: #f8fffe;
     padding: 80px 20px;
     position: relative;
 }
@@ -112,7 +112,7 @@
 
 .testimonials-header h3 {
     color: #006a44;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-bottom: 15px;
     font-weight: 700;
 }
@@ -128,17 +128,17 @@
 
 .testimonials-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-bottom: 60px;
 }
 
 .testimonial-card {
     background: white;
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 8px 25px rgba(0, 106, 68, 0.1);
-    border: 1px solid rgba(0, 106, 68, 0.1);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 106, 68, 0.08);
+    border: 1px solid rgba(0, 106, 68, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -269,6 +269,13 @@
     box-shadow: 0 8px 25px rgba(0, 106, 68, 0.4);
     text-decoration: none;
     color: white;
+}
+
+@media (max-width: 1024px) {
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
 }
 
 @media (max-width: 768px) {
