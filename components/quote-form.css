@@ -27,19 +27,19 @@
     visibility: hidden;
 }
 
-/* Pop-up Container - DryAlle stiline uygun yeşil/sarı tema */
+/* Pop-up Container - DryAlle site standardı */
 .quote-popup {
     background: white;
     width: 90%;
-    max-width: 520px;
+    max-width: 500px;
     max-height: 85vh;
-    border-radius: 15px;
+    border-radius: 0;
     position: relative;
     transform: scale(0.8) translateY(50px);
     transition: all 0.3s ease;
     overflow-y: auto;
-    box-shadow: 0 25px 60px rgba(0, 106, 68, 0.2);
-    border: 3px solid #f6ec3d;
+    box-shadow: none;
+    border: 1px solid #ddd;
 }
 
 .quote-popup-overlay.show .quote-popup {
@@ -49,26 +49,24 @@
 /* Close Button - DryAlle karakteristik */
 .quote-popup-close {
     position: absolute;
-    top: 15px;
-    right: 20px;
+    top: 12px;
+    right: 15px;
     background: none;
     border: none;
-    font-size: 28px;
-    color: #999;
+    font-size: 24px;
+    color: #fff;
     cursor: pointer;
     z-index: 1;
-    transition: all 0.3s ease;
-    width: 40px;
-    height: 40px;
+    transition: opacity 0.3s ease;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
 }
 
 .quote-popup-close:hover {
-    color: #006a44;
-    background: rgba(0, 106, 68, 0.1);
+    opacity: 0.8;
 }
 
 /* Pop-up İçerik - DryAlle markasına uygun */
@@ -79,7 +77,7 @@
 .quote-header {
     text-align: center;
     margin-bottom: 25px;
-    background: linear-gradient(135deg, #006a44 0%, #004d32 100%);
+    background: #006a44;
     margin: -30px -25px 25px;
     padding: 25px;
     color: white;
@@ -136,12 +134,12 @@
 .form-group input,
 .form-group select,
 .form-group textarea {
-    padding: 12px;
-    border: 2px solid #e0e0e0;
-    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 0;
     font-size: 0.9rem;
-    transition: all 0.3s ease;
-    background: #fafafa;
+    transition: border-color 0.3s ease;
+    background: #f0f0f0;
     font-family: inherit;
 }
 
@@ -151,7 +149,6 @@
     outline: none;
     border-color: #006a44;
     background: white;
-    box-shadow: 0 0 0 2px rgba(0, 106, 68, 0.1);
 }
 
 .form-group textarea {
@@ -167,27 +164,25 @@
 }
 
 .quote-submit-btn {
-    background: linear-gradient(135deg, #25d366 0%, #22c55e 100%);
+    background: #25d366;
     color: white;
     border: none;
-    padding: 14px 30px;
-    font-size: 1rem;
+    padding: 12px 25px;
+    font-size: 0.95rem;
     font-weight: 600;
-    border-radius: 25px;
+    border-radius: 0;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 8px;
     transition: all 0.3s ease;
-    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
     width: 100%;
     justify-content: center;
 }
 
 .quote-submit-btn:hover {
-    background: linear-gradient(135deg, #22c55e 0%, #16a085 100%);
+    background: #22c55e;
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
 }
 
 .quote-submit-btn:active {
@@ -201,12 +196,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 0;
+    border: 1px solid #ddd;
     z-index: 1;
     text-align: center;
-    border: 2px solid #f6ec3d;
 }
 
 .success-content {
