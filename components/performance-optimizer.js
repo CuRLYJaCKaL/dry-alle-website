@@ -7,8 +7,10 @@ class PerformanceOptimizer {
     }
 
     init() {
-        this.optimizeImages();
-        this.implementLazyLoading();
+        // Image optimization disabled to prevent loading issues
+        // this.optimizeImages();
+        // Lazy loading also disabled
+        // this.implementLazyLoading();
         this.preloadCriticalResources();
         this.optimizeWebFonts();
         this.measureWebVitals();
