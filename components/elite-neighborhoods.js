@@ -5,7 +5,7 @@ class EliteNeighborhoodsComponent {
         this.config = {
             title: config.title || 'Elite Semtlerde Özel Hizmet',
             subtitle: config.subtitle || 'İstanbul\'un en prestijli mahallelerinde 25 yıldır güvenilir hizmet sunuyoruz',
-            cardsToShow: config.cardsToShow || 8,
+            cardsToShow: config.cardsToShow || 9,
             rotationInterval: config.rotationInterval || 25000,
             enableRotation: config.enableRotation !== false,
             showOnlyNearby: config.showOnlyNearby || false,
@@ -272,6 +272,80 @@ class EliteNeighborhoodsComponent {
                 active: true,
                 category: 'haute-couture',
                 location: 'bağdat-caddesi'
+            },
+            
+            // EKSİK SAYFALARI EKLENDİ - SEO CROSS-LİNKİNG İÇİN KRİTİK
+            { 
+                href: 'bolgeler/altunizade-premium-temizlik.html', 
+                icon: '🏢', 
+                title: 'Altunizade Premium Temizlik', 
+                desc: 'Profesyonel iş merkezi hizmeti',
+                active: true,
+                category: 'premium-temizlik',
+                location: 'altunizade'
+            },
+            { 
+                href: 'bolgeler/icerenkoy-hali-yikama.html', 
+                icon: '🎨', 
+                title: 'İçerenköy Halı Yıkama', 
+                desc: 'Antik ve değerli halı bakımı',
+                active: true,
+                category: 'hali-yikama',
+                location: 'içerenköy'
+            },
+            { 
+                href: 'bolgeler/kucukbakkalkoy-hali-yikama.html', 
+                icon: '🏡', 
+                title: 'Küçükbakkalçıköy Halı Yıkama', 
+                desc: 'Komşu dost halı temizliği',
+                active: true,
+                category: 'hali-yikama',
+                location: 'küçükbakkalköy'
+            },
+            { 
+                href: 'bolgeler/kucukbakkalkoy-koltuk-yikama.html', 
+                icon: '🛋️', 
+                title: 'Küçükbakkalçıköy Koltuk Yıkama', 
+                desc: 'Mahalle mobilya temizliği',
+                active: true,
+                category: 'koltuk-yikama',
+                location: 'küçükbakkalköy'
+            },
+            { 
+                href: 'bolgeler/maltepe-luxury-hizmet.html', 
+                icon: '💎', 
+                title: 'Maltepe Luxury Hizmet', 
+                desc: 'Lüks koltuk ve halı bakımı',
+                active: true,
+                category: 'luxury-hizmet',
+                location: 'maltepe'
+            },
+            { 
+                href: 'bolgeler/sahrayicedit-premium-bakim.html', 
+                icon: '🎆', 
+                title: 'Sahrayıcedit Premium Bakım', 
+                desc: 'Merkez lokasyon premium hizmet',
+                active: true,
+                category: 'premium-bakim',
+                location: 'sahrayıcedit'
+            },
+            { 
+                href: 'bolgeler/umraniye-vip-temizlik.html', 
+                icon: '⭐', 
+                title: 'Ümraniye VIP Temizlik', 
+                desc: 'VIP kıyafet ve tekstil bakımı',
+                active: true,
+                category: 'vip-temizlik',
+                location: 'ümraniye'
+            },
+            { 
+                href: 'bolgeler/uskudar-luxury-kiyafet.html', 
+                icon: '👗', 
+                title: 'Üküdar Luxury Kıyafet', 
+                desc: 'Tarihi semtte lüks kıyafet bakımı',
+                active: true,
+                category: 'luxury-kiyafet',
+                location: 'üsküdar'
             }
         ];
         
@@ -354,7 +428,14 @@ class EliteNeighborhoodsComponent {
             'moda': ['kadıköy', 'bağdat-caddesi', 'fikirtepe', 'kalamış', 'göztepe', 'erenköy', 'suadiye', 'caddebostan'],
             'bağdat-caddesi': ['kadıköy', 'moda', 'suadiye', 'caddebostan', 'göztepe', 'erenköy', 'kalamış', 'fikirtepe'],
             'kartal': ['maltepe', 'pendik', 'ataşehir', 'altunizade', 'üsküdar', 'ümraniye', 'çamlıca', 'kozyatağı'],
-            'pendik': ['kartal', 'maltepe', 'altunizade', 'ataşehir', 'ümraniye', 'üsküdar', 'çamlıca', 'kozyatağı']
+            'pendik': ['kartal', 'maltepe', 'altunizade', 'ataşehir', 'ümraniye', 'üsküdar', 'çamlıca', 'kozyatağı'],
+            
+            // EKSİK LOKASYONLARİN CROSS-LİNKİNG HARİTALARI
+            'altunizade': ['ataşehir', 'ümraniye', 'maltepe', 'üsküdar', 'çamlıca', 'kozyatağı', 'acıbadem', 'barbaros'],
+            'içerenköy': ['göztepe', 'erenköy', 'kadıköy', 'ataşehir', 'kozyatağı', 'caddebostan', 'suadiye', 'ümraniye'],
+            'küçükbakkalkoy': ['ataşehir', 'kozyatağı', 'altunizade', 'ümraniye', 'maltepe', 'üsküdar', 'barbaros', 'acıbadem'],
+            'sahrayıcedit': ['kadıköy', 'üsküdar', 'acıbadem', 'kozyatağı', 'ataşehir', 'çamlıca', 'altunizade', 'göztepe'],
+            'küçükbakkalköy': ['ataşehir', 'kozyatağı', 'altunizade', 'ümraniye', 'maltepe', 'üsküdar', 'barbaros', 'acıbadem']
         };
         
         const nearbyLocations = nearbyMap[currentLocation] || [];
@@ -489,7 +570,7 @@ document.addEventListener('DOMContentLoaded', function() {
         new EliteNeighborhoodsComponent('elite-neighborhoods-main', {
             title: 'Elite Semtlerde Özel Hizmet',
             subtitle: 'İstanbul\'un en prestijli mahallelerinde 25 yıldır güvenilir hizmet sunuyoruz',
-            cardsToShow: 8,
+            cardsToShow: 9,
             enableRotation: true,
             rotationInterval: 25000 // SEO-friendly longer interval
         });
