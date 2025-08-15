@@ -32,8 +32,8 @@ body {
 
 /* Main Header */
 .header {
-    background-color: #006a44;
-    color: white;
+    background-color: #006a44 !important;
+    color: white !important;
 }
 
 .header-container {
