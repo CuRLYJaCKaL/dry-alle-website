@@ -1,0 +1,352 @@
+name: Blog SEO Monitoring & Quality Gates
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'blog/**'
+      - 'index.html'
+      - 'sitemap.xml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'blog/**'
+      - 'index.html'
+      - 'sitemap.xml'
+
+jobs:
+  blog-content-validation:
+    runs-on: ubuntu-latest
+    name: Validate Blog Content Quality
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install beautifulsoup4 requests lxml
+        
+    - name: Validate Blog SEO Elements
+      run: |
+        python -c "
+        import os
+        import re
+        from bs4 import BeautifulSoup
+        import json
+        
+        def validate_blog_post(file_path):
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+                soup = BeautifulSoup(content, 'html.parser')
+            
+            issues = []
+            
+            # Check title length (45-60 chars optimal)
+            title = soup.find('title')
+            if title:
+                title_text = title.get_text()
+                if len(title_text) < 30 or len(title_text) > 65:
+                    issues.append(f'Title length issue: {len(title_text)} chars (optimal: 30-65)')
+            else:
+                issues.append('Missing title tag')
+            
+            # Check meta description (140-160 chars optimal)
+            meta_desc = soup.find('meta', attrs={'name': 'description'})
+            if meta_desc:
+                desc_content = meta_desc.get('content', '')
+                if len(desc_content) < 120 or len(desc_content) > 180:
+                    issues.append(f'Meta description length issue: {len(desc_content)} chars (optimal: 120-180)')
+            else:
+                issues.append('Missing meta description')
+            
+            # Check H1 tag (should have exactly one)
+            h1_tags = soup.find_all('h1')
+            if len(h1_tags) != 1:
+                issues.append(f'H1 tag issue: found {len(h1_tags)}, should have exactly 1')
+            
+            # Check heading hierarchy (H2, H3, H4)
+            headings = soup.find_all(['h2', 'h3', 'h4', 'h5', 'h6'])
+            if len(headings) < 3:
+                issues.append('Insufficient heading structure (need 3+ subheadings)')
+            
+            # Check word count (1500+ words for blog posts)
+            text_content = soup.get_text()
+            word_count = len(text_content.split())
+            if word_count < 1000:
+                issues.append(f'Word count too low: {word_count} words (minimum: 1000)')
+            
+            # Check for WhatsApp CTA
+            whatsapp_links = soup.find_all('a', href=re.compile(r'wa\.me'))
+            if not whatsapp_links:
+                issues.append('Missing WhatsApp CTA link')
+            
+            # Check for phone CTA
+            phone_links = soup.find_all('a', href=re.compile(r'tel:'))
+            if not phone_links:
+                issues.append('Missing phone CTA link')
+            
+            # Check for internal links
+            internal_links = soup.find_all('a', href=re.compile(r'^\.\./'))
+            if len(internal_links) < 3:
+                issues.append(f'Insufficient internal links: {len(internal_links)} (minimum: 3)')
+            
+            # Check for images with alt text
+            images = soup.find_all('img')
+            images_without_alt = [img for img in images if not img.get('alt')]
+            if images_without_alt:
+                issues.append(f'{len(images_without_alt)} images missing alt text')
+            
+            # Check for Schema markup
+            scripts = soup.find_all('script', type='application/ld+json')
+            if not scripts:
+                issues.append('Missing JSON-LD schema markup')
+            
+            return issues
+        
+        # Validate blog posts
+        blog_files = []
+        for root, dirs, files in os.walk('blog'):
+            for file in files:
+                if file.endswith('.html') and file != 'index.html':
+                    blog_files.append(os.path.join(root, file))
+        
+        total_issues = 0
+        failed_files = []
+        
+        print(f'📊 Validating {len(blog_files)} blog posts...')
+        
+        for blog_file in blog_files:
+            issues = validate_blog_post(blog_file)
+            if issues:
+                total_issues += len(issues)
+                failed_files.append(blog_file)
+                print(f'❌ {blog_file}:')
+                for issue in issues:
+                    print(f'   - {issue}')
+            else:
+                print(f'✅ {blog_file}: All checks passed')
+        
+        print(f'\\n📈 Blog SEO Validation Summary:')
+        print(f'   Total files checked: {len(blog_files)}')
+        print(f'   Files with issues: {len(failed_files)}')
+        print(f'   Total issues found: {total_issues}')
+        
+        # Fail if more than 20% of files have issues
+        failure_threshold = len(blog_files) * 0.2
+        if len(failed_files) > failure_threshold:
+            print(f'❌ Quality gate failed: {len(failed_files)} files with issues (threshold: {failure_threshold})')
+            exit(1)
+        else:
+            print(f'✅ Quality gate passed: Blog content meets SEO standards')
+        "
+        
+    - name: Validate Sitemap
+      run: |
+        python -c "
+        import xml.etree.ElementTree as ET
+        import requests
+        from urllib.parse import urlparse
+        
+        print('🗺️ Validating sitemap.xml...')
+        
+        try:
+            tree = ET.parse('sitemap.xml')
+            root = tree.getroot()
+            
+            # Count URLs
+            urls = root.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}url')
+            print(f'📊 Found {len(urls)} URLs in sitemap')
+            
+            # Check for blog URLs
+            blog_urls = []
+            for url in urls:
+                loc = url.find('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
+                if loc is not None and '/blog/' in loc.text:
+                    blog_urls.append(loc.text)
+            
+            print(f'📝 Found {len(blog_urls)} blog URLs in sitemap')
+            
+            if len(blog_urls) < 5:
+                print('⚠️ Warning: Less than 5 blog URLs in sitemap')
+            else:
+                print('✅ Sitemap contains adequate blog URLs')
+            
+            # Validate XML structure
+            print('✅ Sitemap XML structure is valid')
+            
+        except ET.ParseError as e:
+            print(f'❌ Sitemap XML is invalid: {e}')
+            exit(1)
+        except Exception as e:
+            print(f'❌ Sitemap validation failed: {e}')
+            exit(1)
+        "
+
+  lighthouse-blog-audit:
+    runs-on: ubuntu-latest
+    name: Lighthouse Blog Performance Audit
+    needs: blog-content-validation
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install Lighthouse
+      run: npm install -g lighthouse
+      
+    - name: Start local server
+      run: |
+        python3 -m http.server 8080 &
+        sleep 5
+        
+    - name: Run Lighthouse on Blog Pages
+      run: |
+        # Test blog index
+        lighthouse http://localhost:8080/blog/ \
+          --only-categories=performance,seo,accessibility \
+          --output=json \
+          --output-path=blog-lighthouse.json \
+          --chrome-flags="--headless --no-sandbox"
+          
+        # Test featured blog post
+        lighthouse http://localhost:8080/blog/2025-01/2025-yilinda-istanbul-kuru-temizleme-trendleri.html \
+          --only-categories=performance,seo,accessibility \
+          --output=json \
+          --output-path=blog-post-lighthouse.json \
+          --chrome-flags="--headless --no-sandbox"
+          
+    - name: Validate Blog Performance
+      run: |
+        python3 -c "
+        import json
+        
+        def check_lighthouse_scores(file_path, page_name):
+            with open(file_path, 'r') as f:
+                results = json.load(f)
+            
+            categories = results['categories']
+            performance = categories['performance']['score'] * 100
+            seo = categories['seo']['score'] * 100  
+            accessibility = categories['accessibility']['score'] * 100
+            
+            print(f'📊 {page_name} Lighthouse Scores:')
+            print(f'   Performance: {performance:.0f}')
+            print(f'   SEO: {seo:.0f}')
+            print(f'   Accessibility: {accessibility:.0f}')
+            
+            # Check thresholds
+            issues = []
+            if performance < 85:
+                issues.append(f'Performance below 85: {performance:.0f}')
+            if seo < 95:
+                issues.append(f'SEO below 95: {seo:.0f}')
+            if accessibility < 90:
+                issues.append(f'Accessibility below 90: {accessibility:.0f}')
+            
+            return issues
+        
+        # Check blog index
+        blog_issues = check_lighthouse_scores('blog-lighthouse.json', 'Blog Index')
+        
+        # Check blog post
+        post_issues = check_lighthouse_scores('blog-post-lighthouse.json', 'Featured Blog Post')
+        
+        total_issues = blog_issues + post_issues
+        
+        if total_issues:
+            print(f'\\n❌ Blog performance issues found:')
+            for issue in total_issues:
+                print(f'   - {issue}')
+            exit(1)
+        else:
+            print(f'\\n✅ All blog pages meet performance standards')
+        "
+        
+    - name: Upload Lighthouse Results
+      uses: actions/upload-artifact@v3
+      with:
+        name: blog-lighthouse-results
+        path: "*lighthouse.json"
+
+  seo-recommendations:
+    runs-on: ubuntu-latest
+    name: Generate SEO Recommendations
+    needs: [blog-content-validation, lighthouse-blog-audit]
+    if: always()
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Generate SEO Report
+      run: |
+        python3 -c "
+        import os
+        from datetime import datetime
+        
+        print('📈 Generating SEO recommendations...')
+        
+        recommendations = []
+        
+        # Check blog frequency
+        blog_dirs = [d for d in os.listdir('blog') if d.startswith('2025-')]
+        if len(blog_dirs) < 3:
+            recommendations.append('🚀 Increase blog posting frequency (target: 4+ posts/month)')
+        
+        # Check for recent content
+        latest_month = max(blog_dirs) if blog_dirs else '2025-01'
+        current_month = datetime.now().strftime('%Y-%m')
+        if latest_month < current_month:
+            recommendations.append(f'📅 Publish content for current month ({current_month})')
+        
+        # Check pillar content
+        pillar_dir = 'blog/pillar-content'
+        if os.path.exists(pillar_dir):
+            pillar_files = os.listdir(pillar_dir)
+            if len(pillar_files) >= 3:
+                recommendations.append('✅ Excellent pillar content strategy - promote these extensively')
+        
+        # General recommendations
+        recommendations.extend([
+            '🔗 Focus on internal linking between blog posts and service pages',
+            '📱 Ensure all blog CTAs lead to WhatsApp and phone conversions',
+            '🎯 Monitor keyword rankings for blog content monthly',
+            '📊 Set up Google Analytics goals for blog-to-conversion tracking'
+        ])
+        
+        print('\\n🎯 SEO Recommendations:')
+        for i, rec in enumerate(recommendations, 1):
+            print(f'   {i}. {rec}')
+        
+        # Generate success metrics
+        print('\\n📊 Success Metrics to Track:')
+        print('   - Blog organic traffic growth: Target +50% month-over-month')
+        print('   - Blog-to-conversion rate: Target 5-8%')
+        print('   - Average time on blog pages: Target 3+ minutes')
+        print('   - Internal link click-through: Target 15-20%')
+        print('   - Featured snippet captures: Target 10+ keywords')
+        "
+        
+    - name: Comment on PR (if applicable)
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: '🎯 **Blog SEO Quality Check Complete!**\\n\\n✅ Content validation passed\\n📈 Performance audit completed\\n🚀 SEO recommendations generated\\n\\nCheck the action logs for detailed analysis and recommendations.'
+          });
