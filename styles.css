@@ -1079,4 +1079,132 @@ html {
         margin-bottom: 15px;
     }
 }
+
+/* Blog Section */
+.blog-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 80px 20px;
+}
+
+.blog-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog-header {
+    margin-bottom: 60px;
+}
+
+.blog-header h2 {
+    font-size: 2.5rem;
+    color: #006a44;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.blog-header p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blog-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.blog-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 106, 68, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 106, 68, 0.1);
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 106, 68, 0.15);
+}
+
+.blog-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.blog-card h3 {
+    font-size: 1.5rem;
+    color: #006a44;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.blog-card p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.blog-cta {
+    text-align: center;
+}
+
+.blog-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #006a44 0%, #004d32 100%);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 106, 68, 0.3);
+}
+
+.blog-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 106, 68, 0.4);
+    color: white;
+}
+
+/* Footer Blog Link */
+.blog-link {
+    color: #006a44 !important;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.blog-link:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .blog-section {
+        padding: 60px 15px;
+    }
+    
+    .blog-header h2 {
+        font-size: 2rem;
+    }
+    
+    .blog-cards {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .blog-card {
+        padding: 30px 20px;
+    }
+    
+    .blog-btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
 }
