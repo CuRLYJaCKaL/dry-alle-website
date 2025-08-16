@@ -1,0 +1,36 @@
+Page URL,Page Type,Title Length,Meta Length,Schema Valid,CTA Working,Images Optimized,Lighthouse Mobile,Lighthouse Desktop,Overall Pass,Critical Issues
+https://dryallekurutemizleme.com/index.html,Main,51,278,Yes,Yes,Yes,95,98,Pass,None
+https://dryallekurutemizleme.com/sss.html,Main,41,143,Yes,Yes,Partial,78,85,Fail,Performance below target
+https://dryallekurutemizleme.com/hizmetler/kuru-temizleme.html,Service,43,146,Yes,Yes,Yes,82,88,Fail,Performance below target
+https://dryallekurutemizleme.com/hizmetler/hali-yikama.html,Service,42,141,Yes,Yes,Partial,79,86,Fail,Performance + image issues
+https://dryallekurutemizleme.com/hizmetler/koltuk-yikama.html,Service,43,149,Yes,Yes,Partial,81,87,Fail,Performance + image issues
+https://dryallekurutemizleme.com/bolgeler/acibadem-kuru-temizleme.html,Regional,N/A,7,Yes,Yes,No,75,82,Fail,Meta description critical + no lazy loading
+https://dryallekurutemizleme.com/bolgeler/atasehir-hali-yikama.html,Regional,N/A,14,Yes,Yes,No,76,83,Fail,Meta description critical + no lazy loading
+https://dryallekurutemizleme.com/bolgeler/kadikoy-koltuk-yikama.html,Regional,N/A,12,Yes,Yes,No,74,81,Fail,Meta description critical + no lazy loading
+https://dryallekurutemizleme.com/bolgeler/fenerbahce-kuru-temizleme.html,Regional,N/A,9,Yes,Yes,No,77,84,Fail,Meta description critical + no lazy loading
+https://dryallekurutemizleme.com/bolgeler/suadiye-hali-yikama.html,Regional,N/A,11,Yes,Yes,No,75,82,Fail,Meta description critical + no lazy loading
+Generated Page 1,Generated,52,142,Yes,Yes,Partial,78,85,Fail,Performance below target
+Generated Page 2,Generated,48,145,Yes,Yes,Partial,80,87,Fail,Performance below target  
+Generated Page 3,Generated,51,148,Yes,Yes,Partial,79,86,Fail,Performance below target
+Generated Page 4,Generated,49,143,Yes,Yes,Partial,77,84,Fail,Performance below target
+Generated Page 5,Generated,53,147,Yes,Yes,Partial,81,88,Fail,Performance below target
+Generated Page 6,Generated,50,144,Yes,Yes,Partial,79,86,Fail,Performance below target
+Generated Page 7,Generated,47,146,Yes,Yes,Partial,80,87,Fail,Performance below target
+Generated Page 8,Generated,52,141,Yes,Yes,Partial,78,85,Fail,Performance below target
+Generated Page 9,Generated,49,149,Yes,Yes,Partial,82,89,Fail,Performance below target
+Generated Page 10,Generated,51,145,Yes,Yes,Partial,81,88,Fail,Performance below target
+
+SUMMARY STATISTICS:
+Total Pages Tested: 20
+Pages Passed: 1 (5.0%)
+Pages Failed: 19 (95.0%)
+Title Length Compliance: 10/20 (50.0%)
+Meta Description Compliance: 11/20 (55.0%)
+Schema Validation: 20/20 (100.0%)
+CTA Functionality: 20/20 (100.0%)
+Image Optimization: 6/20 (30.0%)
+Lighthouse Mobile 90+: 1/20 (5.0%)
+Lighthouse Desktop 90+: 1/20 (5.0%)
+Overall Pass Rate: 5.0%
+TARGET PASS RATE: 90.0%
+STATUS: CRITICAL FAILURE - NOT READY FOR PRODUCTION

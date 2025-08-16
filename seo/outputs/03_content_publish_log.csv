@@ -1,0 +1,23 @@
+Page Type,URL,File Path,Deployment Status,QA Status,Title Length,Meta Length,Schema Markup,Mobile Responsive,CTA Count,Loading Speed,Deployment Date,QA Notes
+FAQ Page,https://dryallekurutemizleme.com/sss.html,/sss.html,Deployed,Passed,54,157,FAQPage + LocalBusiness,Yes,8,<2s,2025-01-16,Complete with accordion functionality
+Homepage,https://dryallekurutemizleme.com/,/index.html,Needs Migration,Pending,78,120,Partial,Yes,4,2.8s,,Title too long - needs optimization
+Service - Kuru Temizleme,https://dryallekurutemizleme.com/hizmetler/kuru-temizleme.html,/hizmetler/kuru-temizleme.html,Needs Migration,Pending,58,145,No,Yes,2,2.1s,,Missing schema markup
+Service - Halı Yıkama,https://dryallekurutemizleme.com/hizmetler/hali-yikama.html,/hizmetler/hali-yikama.html,Needs Migration,Pending,56,142,No,Yes,2,2.2s,,Missing schema markup
+Service - Koltuk Yıkama,https://dryallekurutemizleme.com/hizmetler/koltuk-yikama.html,/hizmetler/koltuk-yikama.html,Needs Migration,Pending,59,148,No,Yes,2,2.0s,,Missing schema markup
+Location - Moda Kuru Temizleme,https://dryallekurutemizleme.com/bolgeler/kadikoy/moda-kuru-temizleme.html,/seo/outputs/generated_pages/bolgeler-kadikoy-moda-kuru-temizleme.html,Generated,Pending,45,159,LocalBusiness,Yes,5,<2s,2025-01-16,Ready for deployment
+Location - Moda Halı Yıkama,https://dryallekurutemizleme.com/bolgeler/kadikoy/moda-hali-yikama.html,/seo/outputs/generated_pages/bolgeler-kadikoy-moda-hali-yikama.html,Generated,Pending,41,157,LocalBusiness,Yes,5,<2s,2025-01-16,Ready for deployment
+Location - Moda Koltuk Yıkama,https://dryallekurutemizleme.com/bolgeler/kadikoy/moda-koltuk-yikama.html,/seo/outputs/generated_pages/bolgeler-kadikoy-moda-koltuk-yikama.html,Generated,Pending,45,162,LocalBusiness,Yes,5,<2s,2025-01-16,Ready for deployment
+Location - Bostancı Kuru Temizleme,https://dryallekurutemizleme.com/bolgeler/kadikoy/bostanci-kuru-temizleme.html,/seo/outputs/generated_pages/bolgeler-kadikoy-bostanci-kuru-temizleme.html,Generated,Pending,50,164,LocalBusiness,Yes,5,<2s,2025-01-16,Ready for deployment
+Location - Acıbadem Koltuk Yıkama,https://dryallekurutemizleme.com/bolgeler/kadikoy/acibadem-koltuk-yikama.html,/seo/outputs/generated_pages/bolgeler-kadikoy-acibadem-koltuk-yikama.html,Generated,Pending,49,165,LocalBusiness,Yes,5,<2s,2025-01-16,Ready for deployment
+Location - Suadiye Halı Yıkama,https://dryallekurutemizleme.com/bolgeler/kadikoy/suadiye-hali-yikama.html,/seo/outputs/generated_pages/bolgeler-kadikoy-suadiye-hali-yikama.html,Generated,Pending,45,158,LocalBusiness,Yes,5,<2s,2025-01-16,Ready for deployment
+Location - Kozyatağı Kuru Temizleme,https://dryallekurutemizleme.com/bolgeler/atasehir/kozyatagi-kuru-temizleme.html,/seo/outputs/generated_pages/bolgeler-atasehir-kozyatagi-kuru-temizleme.html,Generated,Pending,53,166,LocalBusiness,Yes,5,<2s,2025-01-16,Ready for deployment
+Location - Anadolu Hisarı Halı Yıkama,https://dryallekurutemizleme.com/bolgeler/atasehir/anadolu-hisari-hali-yikama.html,/seo/outputs/generated_pages/bolgeler-atasehir-anadolu-hisari-hali-yikama.html,Generated,Pending,57,172,LocalBusiness,Yes,5,<2s,2025-01-16,Ready for deployment
+Blog Hub,https://dryallekurutemizleme.com/blog/,/blog/index.html,Needs Creation,Pending,,,No,No,0,,,Blog infrastructure needs setup
+Blog - Gelinlik Temizliği Guide,https://dryallekurutemizleme.com/blog/gelinlik-temizligi-rehberi.html,,Scheduled,Pending,,,Article,No,0,,2025-01-07,First blog article ready for creation
+Blog - Kadıköy Kuru Temizleme,https://dryallekurutemizleme.com/blog/kadikoy-kuru-temizleme.html,,Scheduled,Pending,,,Article,No,0,,2025-01-14,Local content ready for creation
+Blog - Halı Yıkama Karşılaştırma,https://dryallekurutemizleme.com/blog/hali-yikama-karsilastirma.html,,Scheduled,Pending,,,Article,No,0,,2025-01-21,Comparison content ready
+Service Hub,https://dryallekurutemizleme.com/hizmetler/,/hizmetler/index.html,Needs Creation,Pending,,,No,No,0,,,Service hub needs creation
+District Hub - Kadıköy,https://dryallekurutemizleme.com/bolgeler/kadikoy/,/bolgeler/kadikoy/index.html,Needs Creation,Pending,,,No,No,0,,,District hub needs creation
+District Hub - Ataşehir,https://dryallekurutemizleme.com/bolgeler/atasehir/,/bolgeler/atasehir/index.html,Needs Creation,Pending,,,No,No,0,,,District hub needs creation
+Contact Page,https://dryallekurutemizleme.com/iletisim.html,/iletisim.html,Needs Creation,Pending,,,No,No,0,,,Contact page needs creation
+About Page,https://dryallekurutemizleme.com/hakkimizda.html,/hakkimizda.html,Needs Creation,Pending,,,No,No,0,,,About page needs creation

@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{SERVICE_NAME}",
+  "description": "{SERVICE_DESCRIPTION}",
+  "serviceType": "{SERVICE_TYPE}",
+  "url": "https://dryallekurutemizleme.com/hizmetler/{SERVICE_SLUG}.html",
+  "image": "https://dryallekurutemizleme.com/asset/{SERVICE_IMAGE}",
+  "provider": {
+    "@type": "LocalBusiness",
+    "@id": "https://dryallekurutemizleme.com/#localbusiness",
+    "name": "Dry Alle Kuru Temizleme",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Sahrayıcedit Mahallesi",
+      "addressLocality": "Kadıköy",
+      "addressRegion": "İstanbul", 
+      "postalCode": "34734",
+      "addressCountry": "TR"
+    },
+    "telephone": "+90 543 352 74 74"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Kadıköy",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "İstanbul"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Ataşehir", 
+      "containedInPlace": {
+        "@type": "State",
+        "name": "İstanbul"
+      }
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "{SERVICE_NAME} Hizmet Paketleri",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Standart {SERVICE_NAME}",
+        "description": "Genel {SERVICE_NAME} hizmeti",
+        "price": "{PRICE_RANGE}",
+        "priceCurrency": "TRY",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2025-01-01",
+        "validThrough": "2025-12-31",
+        "areaServed": {
+          "@type": "State",
+          "name": "İstanbul"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "name": "Premium {SERVICE_NAME}",
+        "description": "Premium kalite {SERVICE_NAME} hizmeti",
+        "price": "{PREMIUM_PRICE_RANGE}",
+        "priceCurrency": "TRY",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2025-01-01",
+        "validThrough": "2025-12-31",
+        "areaServed": {
+          "@type": "State",
+          "name": "İstanbul"
+        }
+      }
+    ]
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Ücretsiz Servis",
+      "value": "Alma ve getirme hizmeti ücretsiz"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Deneyim",
+      "value": "25 yıllık sektör deneyimi"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Garanti",
+      "value": "Hizmet kalitesi garantisi"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Hızlı Teslimat",
+      "value": "24-48 saat içinde teslimat"
+    }
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Residents",
+    "geographicArea": {
+      "@type": "State",
+      "name": "İstanbul"
+    }
+  },
+  "category": [
+    "Temizlik Hizmetleri",
+    "Tekstil Bakımı", 
+    "Ev Hizmetleri"
+  ],
+  "hoursAvailable": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday", 
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Müşteri İsmi"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "{SERVICE_REVIEW_TEXT}",
+      "datePublished": "2024-12-01"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "{REVIEW_COUNT}",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}

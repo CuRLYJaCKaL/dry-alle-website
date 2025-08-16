@@ -1,0 +1,180 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Dry Alle Kuru Temizleme",
+        "image": [
+            "https://dryallekurutemizleme.com/asset/hero-image.png",
+            "https://dryallekurutemizleme.com/asset/about-us.png"
+        ],
+        "@id": "https://dryallekurutemizleme.com",
+        "url": "https://dryallekurutemizleme.com",
+        "telephone": "+90-543-352-7474",
+        "email": "dryallekurutemizleme@gmail.com",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Sahrayı Cedit Mahallesi İnönü Caddesi No: 147/A",
+            "addressLocality": "Kadıköy",
+            "addressRegion": "İstanbul",
+            "postalCode": "34740",
+            "addressCountry": "TR"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.9932,
+            "longitude": 29.0975
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification", 
+                "dayOfWeek": "Sunday",
+                "opens": "10:00",
+                "closes": "16:00"
+            }
+        ],
+        "paymentAccepted": "Cash, Credit Card, Bank Transfer",
+        "currenciesAccepted": "TRY",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "127",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Müşteri"
+                },
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "reviewBody": "25 yıllık deneyimleri ile mükemmel hizmet veriyorlar"
+            }
+        ],
+        "founder": {
+            "@type": "Person",
+            "name": "Dry Alle Kurucuları"
+        },
+        "foundingDate": "2000",
+        "slogan": "İstanbul'un En Güvenilir Kuru Temizleme",
+        "sameAs": [
+            "https://dryallekurutemizleme.com"
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Temizlik Hizmetleri",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Kuru Temizleme Hizmeti",
+                        "description": "Elit semtlerde profesyonel kuru temizleme hizmeti",
+                        "areaServed": ["Acıbadem", "Suadiye", "Kalamış", "Fenerbahçe", "Caddebostan", "Erenköy", "Göztepe", "Kozyatağı", "Çamlıca"]
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service", 
+                        "name": "Halı Yıkama Hizmeti",
+                        "description": "Tüm Anadolu Yakası'nda profesyonel halı yıkama hizmeti",
+                        "areaServed": ["Adalar", "Ataşehir", "Beykoz", "Çekmece", "Kadıköy", "Kartal", "Maltepe", "Pendik", "Sancaktepe", "Sultanbeyli", "Şile", "Tuzla", "Ümraniye", "Üsküdar"]
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Koltuk Yıkama Hizmeti", 
+                        "description": "Tüm Anadolu Yakası'nda koltuk yıkama hizmeti",
+                        "areaServed": ["Adalar", "Ataşehir", "Beykoz", "Çekmece", "Kadıköy", "Kartal", "Maltepe", "Pendik", "Sancaktepe", "Sultanbeyli", "Şile", "Tuzla", "Ümraniye", "Üsküdar"]
+                    }
+                }
+            ]
+        },
+        "areaServed": [
+            {
+                "@type": "Place",
+                "name": "Kadıköy"
+            },
+            {
+                "@type": "Place",
+                "name": "Ataşehir"  
+            },
+            {
+                "@type": "Place",
+                "name": "Fikirtepe"
+            },
+            {
+                "@type": "Place",
+                "name": "Bostancı"
+            },
+            {
+                "@type": "Place",
+                "name": "Fenerbahçe"
+            },
+            {
+                "@type": "Place",
+                "name": "Kozyatağı"
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Hangi bölgelerde hizmet veriyorsunuz?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "İstanbul Anadolu Yakası'nda Kadıköy'ün Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan, Erenköy, Göztepe semtleri ile Ataşehir'in Kozyatağı, Küçükbakkalköy, Barbaros mahallelerinde hizmet veriyoruz."
+                }
+            },
+            {
+                "@type": "Question", 
+                "name": "Ücretsiz kapıdan teslimat yapıyor musunuz?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Evet, kuru temizleme, halı yıkama, ütü hizmetleri, çanta temizleme ve lostra hizmetleri için ücretsiz kapıdan teslimat yapıyoruz. Koltuk yıkama ve perde temizleme hizmetleri evinizde gerçekleştirilir."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Kaç yıllık deneyiminiz var?",
+                "acceptedAnswer": {
+                    "@type": "Answer", 
+                    "text": "25 yıldır İstanbul Anadolu Yakası'nda kuru temizleme, halı yıkama, koltuk yıkama ve tekstil temizliği alanında hizmet vermekteyiz."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Çalışma saatleriniz nedir?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Pazartesi-Cumartesi 09:00-18:00 saatleri arasında hizmet veriyoruz. Pazar günleri 10:00-16:00 saatleri arasında acil hizmet verebiliriz. 0543 352 74 74 numarasından bize ulaşabilirsiniz."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Hangi hizmetleri sunuyorsunuz?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kuru temizleme, halı yıkama, koltuk yıkama, ev tekstili temizliği, kumaş ve deri boyama, lostra hizmeti, ütü hizmetleri, perde temizleme ve çanta temizleme hizmetleri sunuyoruz."
+                }
+            }
+        ]
+    }
+]

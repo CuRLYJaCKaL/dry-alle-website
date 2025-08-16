@@ -1,0 +1,1604 @@
+{
+  "summary": {
+    "total_tested": 31,
+    "passed": 27,
+    "failed": 4,
+    "total_errors": 4,
+    "total_warnings": 30,
+    "success_rate": 87.1
+  },
+  "results": [
+    {
+      "file_path": "index.html",
+      "page_type": "Existing",
+      "qa_status": "FAIL",
+      "errors": 1,
+      "warnings": 2,
+      "test_results": {
+        "title": {
+          "status": "WARN",
+          "message": "Title too long (77 chars)"
+        },
+        "meta_description": {
+          "status": "WARN",
+          "message": "Meta description too short (8 chars)"
+        },
+        "h1": {
+          "status": "WARN",
+          "message": "H1 too long (90 chars)"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (12 links)",
+          "link_count": 12
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 4, WhatsApp: 3)",
+          "phone_ctas": 4,
+          "whatsapp_ctas": 3
+        },
+        "schema": {
+          "status": "FAIL",
+          "message": "Invalid JSON in schema markup"
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 5
+        },
+        "images": {
+          "status": "PASS",
+          "message": "Images well optimized (11 images)",
+          "total_images": 11
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.071854"
+    },
+    {
+      "file_path": "sss.html",
+      "page_type": "Existing",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 1,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (56 chars)",
+          "title": "Sıkça Sorulan Sorular | Dry Alle Kuru Temizleme İstanbul"
+        },
+        "meta_description": {
+          "status": "WARN",
+          "message": "No CTA in meta description"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (21 chars)",
+          "h1": "Sıkça Sorulan Sorular"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (20 links)",
+          "link_count": 20
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 10, WhatsApp: 21)",
+          "phone_ctas": 10,
+          "whatsapp_ctas": 21
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (FAQPage, LocalBusiness)",
+          "schema_types": [
+            "FAQPage",
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.073160"
+    },
+    {
+      "file_path": "hizmetler/kuru-temizleme.html",
+      "page_type": "Existing",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 3,
+      "test_results": {
+        "title": {
+          "status": "WARN",
+          "message": "Title too long (74 chars)"
+        },
+        "meta_description": {
+          "status": "WARN",
+          "message": "Meta description too short (28 chars)"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (34 chars)",
+          "h1": "Profesyonel Kuru Temizleme Hizmeti"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (12 links)",
+          "link_count": 12
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 3, WhatsApp: 0)",
+          "phone_ctas": 3,
+          "whatsapp_ctas": 0
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (BreadcrumbList, Service)",
+          "schema_types": [
+            "BreadcrumbList",
+            "Service"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "WARN",
+          "message": "Image optimization issues: 4 images without loading attribute; 4 images without dimensions",
+          "total_images": 4
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.074857"
+    },
+    {
+      "file_path": "hizmetler/hali-yikama.html",
+      "page_type": "Existing",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 3,
+      "test_results": {
+        "title": {
+          "status": "WARN",
+          "message": "Title too long (71 chars)"
+        },
+        "meta_description": {
+          "status": "WARN",
+          "message": "Meta description too short (28 chars)"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (31 chars)",
+          "h1": "Profesyonel Halı Yıkama Hizmeti"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (13 links)",
+          "link_count": 13
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 3, WhatsApp: 0)",
+          "phone_ctas": 3,
+          "whatsapp_ctas": 0
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (BreadcrumbList, Service)",
+          "schema_types": [
+            "BreadcrumbList",
+            "Service"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "WARN",
+          "message": "Image optimization issues: 4 images without loading attribute; 4 images without dimensions",
+          "total_images": 4
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.076417"
+    },
+    {
+      "file_path": "hizmetler/koltuk-yikama.html",
+      "page_type": "Existing",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 3,
+      "test_results": {
+        "title": {
+          "status": "WARN",
+          "message": "Title too long (73 chars)"
+        },
+        "meta_description": {
+          "status": "WARN",
+          "message": "Meta description too short (28 chars)"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (45 chars)",
+          "h1": "İstanbul Anadolu Yakası Koltuk Yıkama Hizmeti"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (13 links)",
+          "link_count": 13
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 3, WhatsApp: 0)",
+          "phone_ctas": 3,
+          "whatsapp_ctas": 0
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (Service)",
+          "schema_types": [
+            "Service"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "WARN",
+          "message": "Image optimization issues: 4 images without loading attribute; 4 images without dimensions",
+          "total_images": 4
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.078030"
+    },
+    {
+      "file_path": "hizmetler/perde-temizleme.html",
+      "page_type": "Existing",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 3,
+      "test_results": {
+        "title": {
+          "status": "WARN",
+          "message": "Title too long (67 chars)"
+        },
+        "meta_description": {
+          "status": "WARN",
+          "message": "Meta description too short (8 chars)"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (24 chars)",
+          "h1": "Perde Temizleme İstanbul"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (13 links)",
+          "link_count": 13
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 3, WhatsApp: 0)",
+          "phone_ctas": 3,
+          "whatsapp_ctas": 0
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (BreadcrumbList)",
+          "schema_types": [
+            "BreadcrumbList"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "WARN",
+          "message": "Image optimization issues: 4 images without loading attribute; 4 images without dimensions",
+          "total_images": 4
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.079573"
+    },
+    {
+      "file_path": "hizmetler/ev-tekstili-temizligi.html",
+      "page_type": "Existing",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 3,
+      "test_results": {
+        "title": {
+          "status": "WARN",
+          "message": "Title too long (73 chars)"
+        },
+        "meta_description": {
+          "status": "WARN",
+          "message": "Meta description too short (8 chars)"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (30 chars)",
+          "h1": "Ev Tekstili Temizliği İstanbul"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (13 links)",
+          "link_count": 13
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 3, WhatsApp: 0)",
+          "phone_ctas": 3,
+          "whatsapp_ctas": 0
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (Service)",
+          "schema_types": [
+            "Service"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "WARN",
+          "message": "Image optimization issues: 4 images without loading attribute; 4 images without dimensions",
+          "total_images": 4
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.081539"
+    },
+    {
+      "file_path": "hizmetler/canta-temizleme.html",
+      "page_type": "Existing",
+      "qa_status": "FAIL",
+      "errors": 1,
+      "warnings": 3,
+      "test_results": {
+        "title": {
+          "status": "WARN",
+          "message": "Title too long (67 chars)"
+        },
+        "meta_description": {
+          "status": "WARN",
+          "message": "Meta description too short (8 chars)"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (24 chars)",
+          "h1": "Çanta Temizleme İstanbul"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (13 links)",
+          "link_count": 13
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 3, WhatsApp: 0)",
+          "phone_ctas": 3,
+          "whatsapp_ctas": 0
+        },
+        "schema": {
+          "status": "FAIL",
+          "message": "No schema markup found"
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "WARN",
+          "message": "Image optimization issues: 4 images without loading attribute; 4 images without dimensions",
+          "total_images": 4
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.082968"
+    },
+    {
+      "file_path": "hizmetler/kumas-deri-boyama.html",
+      "page_type": "Existing",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 3,
+      "test_results": {
+        "title": {
+          "status": "WARN",
+          "message": "Title too long (72 chars)"
+        },
+        "meta_description": {
+          "status": "WARN",
+          "message": "Meta description too short (8 chars)"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (29 chars)",
+          "h1": "Kumaş ve Deri Boyama İstanbul"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (13 links)",
+          "link_count": 13
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 3, WhatsApp: 0)",
+          "phone_ctas": 3,
+          "whatsapp_ctas": 0
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (Service)",
+          "schema_types": [
+            "Service"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "WARN",
+          "message": "Image optimization issues: 4 images without loading attribute; 4 images without dimensions",
+          "total_images": 4
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.084502"
+    },
+    {
+      "file_path": "hizmetler/lostra-hizmeti.html",
+      "page_type": "Existing",
+      "qa_status": "FAIL",
+      "errors": 1,
+      "warnings": 3,
+      "test_results": {
+        "title": {
+          "status": "WARN",
+          "message": "Title too long (66 chars)"
+        },
+        "meta_description": {
+          "status": "WARN",
+          "message": "Meta description too short (8 chars)"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (23 chars)",
+          "h1": "Lostra Hizmeti İstanbul"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (13 links)",
+          "link_count": 13
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 3, WhatsApp: 0)",
+          "phone_ctas": 3,
+          "whatsapp_ctas": 0
+        },
+        "schema": {
+          "status": "FAIL",
+          "message": "No schema markup found"
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "WARN",
+          "message": "Image optimization issues: 4 images without loading attribute; 4 images without dimensions",
+          "total_images": 4
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.085807"
+    },
+    {
+      "file_path": "hizmetler/utu-hizmetleri.html",
+      "page_type": "Existing",
+      "qa_status": "FAIL",
+      "errors": 1,
+      "warnings": 3,
+      "test_results": {
+        "title": {
+          "status": "WARN",
+          "message": "Title too long (66 chars)"
+        },
+        "meta_description": {
+          "status": "WARN",
+          "message": "Meta description too short (8 chars)"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (23 chars)",
+          "h1": "Ütü Hizmetleri İstanbul"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (13 links)",
+          "link_count": 13
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 3, WhatsApp: 0)",
+          "phone_ctas": 3,
+          "whatsapp_ctas": 0
+        },
+        "schema": {
+          "status": "FAIL",
+          "message": "No schema markup found"
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "WARN",
+          "message": "Image optimization issues: 4 images without loading attribute; 4 images without dimensions",
+          "total_images": 4
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.087131"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgeleratasehirkucukbakkalkoy-gelinlik-temizleme.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (55 chars)",
+          "title": "Küçükbakkalköy Gelinlik Temizleme | Ataşehir | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (142 chars)",
+          "meta_description": "Küçükbakkalköy gelinlik temizleme için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (36 chars)",
+          "h1": "Küçükbakkalköy'de Gelinlik Temizleme"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (18 links)",
+          "link_count": 18
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.095678"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgeleratasehirinonu-canta-temizleme.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (43 chars)",
+          "title": "İnönü Çanta Temizleme | Ataşehir | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (130 chars)",
+          "meta_description": "İnönü çanta temizleme için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (24 chars)",
+          "h1": "İnönü'de Çanta Temizleme"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (18 links)",
+          "link_count": 18
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.097969"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoyhasanpasa-kumas-deri-boyama.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (48 chars)",
+          "title": "Hasanpaşa Kumaş Deri Boyama | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (136 chars)",
+          "meta_description": "Hasanpaşa kumaş deri boyama için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (30 chars)",
+          "h1": "Hasanpaşa'ta Kumaş Deri Boyama"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (19 links)",
+          "link_count": 19
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.100030"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoyfenerbahce-koltuk-yikama.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (45 chars)",
+          "title": "Fenerbahçe Koltuk Yıkama | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (133 chars)",
+          "meta_description": "Fenerbahçe koltuk yıkama için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (27 chars)",
+          "h1": "Fenerbahçe'de Koltuk Yıkama"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (18 links)",
+          "link_count": 18
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.102108"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoykiziltoprak-utu-hizmetleri.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (47 chars)",
+          "title": "Kızıltoprak Ütü Hizmetleri | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (135 chars)",
+          "meta_description": "Kızıltoprak ütü hizmetleri için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (29 chars)",
+          "h1": "Kızıltoprak'ta Ütü Hizmetleri"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (19 links)",
+          "link_count": 19
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.103772"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgeleratasehirornek-lostra-hizmeti.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (42 chars)",
+          "title": "Örnek Lostra Hizmeti | Ataşehir | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (129 chars)",
+          "meta_description": "Örnek lostra hizmeti için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (23 chars)",
+          "h1": "Örnek'de Lostra Hizmeti"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (19 links)",
+          "link_count": 19
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.105479"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoyfikirtepe-bavul-temizleme.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (46 chars)",
+          "title": "Fikirtepe Bavul Temizleme | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (134 chars)",
+          "meta_description": "Fikirtepe bavul temizleme için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (28 chars)",
+          "h1": "Fikirtepe'ta Bavul Temizleme"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (19 links)",
+          "link_count": 19
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.107036"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgeleratasehiryenisahra-lostra-hizmeti.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (46 chars)",
+          "title": "Yenisahra Lostra Hizmeti | Ataşehir | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (133 chars)",
+          "meta_description": "Yenisahra lostra hizmeti için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (27 chars)",
+          "h1": "Yenisahra'de Lostra Hizmeti"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (19 links)",
+          "link_count": 19
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.108681"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgeleratasehirbati-valiz-temizleme.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (51 chars)",
+          "title": "Batı Ataşehir Valiz Temizleme | Ataşehir | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (138 chars)",
+          "meta_description": "Batı Ataşehir valiz temizleme için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (32 chars)",
+          "h1": "Batı Ataşehir'de Valiz Temizleme"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (19 links)",
+          "link_count": 19
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.109947"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoyfenerbahce-abiye-temizleme.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (47 chars)",
+          "title": "Fenerbahçe Abiye Temizleme | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (135 chars)",
+          "meta_description": "Fenerbahçe abiye temizleme için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (29 chars)",
+          "h1": "Fenerbahçe'de Abiye Temizleme"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (19 links)",
+          "link_count": 19
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.111236"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoykosuyolu-gelinlik-temizleme.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (48 chars)",
+          "title": "Koşuyolu Gelinlik Temizleme | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (136 chars)",
+          "meta_description": "Koşuyolu gelinlik temizleme için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (30 chars)",
+          "h1": "Koşuyolu'ta Gelinlik Temizleme"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (18 links)",
+          "link_count": 18
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.112916"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoysuadiye-canta-temizleme.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (44 chars)",
+          "title": "Suadiye Çanta Temizleme | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (132 chars)",
+          "meta_description": "Suadiye çanta temizleme için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (26 chars)",
+          "h1": "Suadiye'da Çanta Temizleme"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (18 links)",
+          "link_count": 18
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.115351"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoyfeneryolu-gelinlik-temizleme.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (49 chars)",
+          "title": "Feneryolu Gelinlik Temizleme | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (137 chars)",
+          "meta_description": "Feneryolu gelinlik temizleme için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (31 chars)",
+          "h1": "Feneryolu'ta Gelinlik Temizleme"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (18 links)",
+          "link_count": 18
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.117113"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoycamlica-kumas-deri-boyama.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (46 chars)",
+          "title": "Çamlıca Kumaş Deri Boyama | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (134 chars)",
+          "meta_description": "Çamlıca kumaş deri boyama için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (28 chars)",
+          "h1": "Çamlıca'de Kumaş Deri Boyama"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (19 links)",
+          "link_count": 19
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.118825"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoyhasanpasa-perde-temizleme.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (46 chars)",
+          "title": "Hasanpaşa Perde Temizleme | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (134 chars)",
+          "meta_description": "Hasanpaşa perde temizleme için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (28 chars)",
+          "h1": "Hasanpaşa'ta Perde Temizleme"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (18 links)",
+          "link_count": 18
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.119983"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoyaltintepe-hali-yikama.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (42 chars)",
+          "title": "Altıntepe Halı Yıkama | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (130 chars)",
+          "meta_description": "Altıntepe halı yıkama için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (24 chars)",
+          "h1": "Altıntepe'ta Halı Yıkama"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (18 links)",
+          "link_count": 18
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.121183"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgeleratasehirkayisdagi-bavul-temizleme.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (47 chars)",
+          "title": "Kayışdağı Bavul Temizleme | Ataşehir | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (134 chars)",
+          "meta_description": "Kayışdağı bavul temizleme için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (28 chars)",
+          "h1": "Kayışdağı'de Bavul Temizleme"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (19 links)",
+          "link_count": 19
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.122700"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoysahrayicedit-kumas-deri-boyama.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (52 chars)",
+          "title": "Sahrayı Cedit Kumaş Deri Boyama | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (140 chars)",
+          "meta_description": "Sahrayı Cedit kumaş deri boyama için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (34 chars)",
+          "h1": "Sahrayı Cedit'da Kumaş Deri Boyama"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (19 links)",
+          "link_count": 19
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.124351"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgeleratasehirkucukbakkalkoy-hali-yikama.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (48 chars)",
+          "title": "Küçükbakkalköy Halı Yıkama | Ataşehir | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (135 chars)",
+          "meta_description": "Küçükbakkalköy halı yıkama için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (29 chars)",
+          "h1": "Küçükbakkalköy'de Halı Yıkama"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (18 links)",
+          "link_count": 18
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.125434"
+    },
+    {
+      "file_path": "seo/outputs/generated_pages/bolgelerkadikoyzuhtupasa-utu-hizmetleri.html",
+      "page_type": "Generated",
+      "qa_status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "test_results": {
+        "title": {
+          "status": "PASS",
+          "message": "Title tag valid (45 chars)",
+          "title": "Zühtüpaşa Ütü Hizmetleri | Kadıköy | Dry Alle"
+        },
+        "meta_description": {
+          "status": "PASS",
+          "message": "Meta description valid (133 chars)",
+          "meta_description": "Zühtüpaşa ütü hizmetleri için kapıdan alım, hızlı teslim, lüks kumaş uzmanlığı. 25 yıllık deneyim ile güvenilir hizmet. Hemen arayın!"
+        },
+        "h1": {
+          "status": "PASS",
+          "message": "H1 tag valid (27 chars)",
+          "h1": "Zühtüpaşa'ta Ütü Hizmetleri"
+        },
+        "internal_links": {
+          "status": "PASS",
+          "message": "Internal links valid (19 links)",
+          "link_count": 19
+        },
+        "cta": {
+          "status": "PASS",
+          "message": "CTAs valid (Phone: 7, WhatsApp: 14)",
+          "phone_ctas": 7,
+          "whatsapp_ctas": 14
+        },
+        "schema": {
+          "status": "PASS",
+          "message": "Schema markup valid (LocalBusiness)",
+          "schema_types": [
+            "LocalBusiness"
+          ]
+        },
+        "mobile": {
+          "status": "PASS",
+          "message": "Mobile optimization present",
+          "responsive_score": 2
+        },
+        "images": {
+          "status": "PASS",
+          "message": "No images to test"
+        }
+      },
+      "timestamp": "2025-08-16T19:59:31.127061"
+    }
+  ],
+  "timestamp": "2025-08-16T19:59:31.127312"
+}

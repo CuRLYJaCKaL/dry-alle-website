@@ -1,0 +1,55 @@
+File Path,Issue Type,Issue Description,Status,Fix Applied,Priority
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kuru-temizleme.html,CTA,Missing WhatsApp CTA in hero section,Fixed,Added WhatsApp button with service-specific message,Critical
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/hali-yikama.html,CTA,Missing WhatsApp CTA in hero section,Fixed,Added WhatsApp button with service-specific message,Critical
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/koltuk-yikama.html,CTA,Missing WhatsApp CTA in hero section,Fixed,Added WhatsApp button with service-specific message,Critical
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/canta-temizleme.html,CTA,Missing WhatsApp CTA in hero section,Fixed,Added WhatsApp button with service-specific message,Critical
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/ev-tekstili-temizligi.html,CTA,Missing WhatsApp CTA in hero section,Fixed,Added WhatsApp button with service-specific message,Critical
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kumas-deri-boyama.html,CTA,Missing WhatsApp CTA in hero section,Fixed,Added WhatsApp button with service-specific message,Critical
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/lostra-hizmeti.html,CTA,Missing WhatsApp CTA in hero section,Fixed,Added WhatsApp button with service-specific message,Critical
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/perde-temizleme.html,CTA,Missing WhatsApp CTA in hero section,Fixed,Added WhatsApp button with service-specific message,Critical
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/utu-hizmetleri.html,CTA,Missing WhatsApp CTA in hero section,Fixed,Added WhatsApp button with service-specific message,Critical
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kuru-temizleme.html,Image,Missing lazy loading on related service images,Fixed,Added loading=lazy with decoding=async,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/hali-yikama.html,Image,Missing lazy loading on related service images,Fixed,Added loading=lazy with decoding=async,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/koltuk-yikama.html,Image,Missing lazy loading on related service images,Fixed,Added loading=lazy with decoding=async,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/canta-temizleme.html,Image,Missing lazy loading on related service images,Fixed,Added loading=lazy with decoding=async,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/ev-tekstili-temizligi.html,Image,Missing lazy loading on related service images,Fixed,Added loading=lazy with decoding=async,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kumas-deri-boyama.html,Image,Missing lazy loading on related service images,Fixed,Added loading=lazy with decoding=async,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/lostra-hizmeti.html,Image,Missing lazy loading on related service images,Fixed,Added loading=lazy with decoding=async,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/perde-temizleme.html,Image,Missing lazy loading on related service images,Fixed,Added loading=lazy with decoding=async,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/utu-hizmetleri.html,Image,Missing lazy loading on related service images,Fixed,Added loading=lazy with decoding=async,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kuru-temizleme.html,Image,Missing width/height attributes for CLS prevention,Fixed,Added width=400 height=300 for hero and width=80 height=80 for icons,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/hali-yikama.html,Image,Missing width/height attributes for CLS prevention,Fixed,Added width=400 height=300 for hero and width=80 height=80 for icons,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/koltuk-yikama.html,Image,Missing width/height attributes for CLS prevention,Fixed,Added width=400 height=300 for hero and width=80 height=80 for icons,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/canta-temizleme.html,Image,Missing width/height attributes for CLS prevention,Fixed,Added width=400 height=300 for hero and width=80 height=80 for icons,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/ev-tekstili-temizligi.html,Image,Missing width/height attributes for CLS prevention,Fixed,Added width=400 height=300 for hero and width=80 height=80 for icons,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kumas-deri-boyama.html,Image,Missing width/height attributes for CLS prevention,Fixed,Added width=400 height=300 for hero and width=80 height=80 for icons,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/lostra-hizmeti.html,Image,Missing width/height attributes for CLS prevention,Fixed,Added width=400 height=300 for hero and width=80 height=80 for icons,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/perde-temizleme.html,Image,Missing width/height attributes for CLS prevention,Fixed,Added width=400 height=300 for hero and width=80 height=80 for icons,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/utu-hizmetleri.html,Image,Missing width/height attributes for CLS prevention,Fixed,Added width=400 height=300 for hero and width=80 height=80 for icons,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kuru-temizleme.html,Performance,Render-blocking CSS loading,Fixed,Implemented async CSS loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/hali-yikama.html,Performance,Render-blocking CSS loading,Fixed,Implemented async CSS loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/koltuk-yikama.html,Performance,Render-blocking CSS loading,Fixed,Implemented async CSS loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/canta-temizleme.html,Performance,Render-blocking CSS loading,Fixed,Implemented async CSS loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/ev-tekstili-temizligi.html,Performance,Render-blocking CSS loading,Fixed,Implemented async CSS loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kumas-deri-boyama.html,Performance,Render-blocking CSS loading,Fixed,Implemented async CSS loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/lostra-hizmeti.html,Performance,Render-blocking CSS loading,Fixed,Implemented async CSS loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/perde-temizleme.html,Performance,Render-blocking CSS loading,Fixed,Implemented async CSS loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/utu-hizmetleri.html,Performance,Render-blocking CSS loading,Fixed,Implemented async CSS loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kuru-temizleme.html,Performance,Render-blocking Google Fonts loading,Fixed,Implemented async font loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/hali-yikama.html,Performance,Render-blocking Google Fonts loading,Fixed,Implemented async font loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/koltuk-yikama.html,Performance,Render-blocking Google Fonts loading,Fixed,Implemented async font loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/canta-temizleme.html,Performance,Render-blocking Google Fonts loading,Fixed,Implemented async font loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/ev-tekstili-temizligi.html,Performance,Render-blocking Google Fonts loading,Fixed,Implemented async font loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kumas-deri-boyama.html,Performance,Render-blocking Google Fonts loading,Fixed,Implemented async font loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/lostra-hizmeti.html,Performance,Render-blocking Google Fonts loading,Fixed,Implemented async font loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/perde-temizleme.html,Performance,Render-blocking Google Fonts loading,Fixed,Implemented async font loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/utu-hizmetleri.html,Performance,Render-blocking Google Fonts loading,Fixed,Implemented async font loading with media=print onload pattern,High
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kuru-temizleme.html,Image,Enhanced alt text for better SEO,Fixed,Updated generic alt text to descriptive service-specific text,Medium
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/hali-yikama.html,Image,Enhanced alt text for better SEO,Fixed,Updated generic alt text to descriptive service-specific text,Medium
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/koltuk-yikama.html,Image,Enhanced alt text for better SEO,Fixed,Updated generic alt text to descriptive service-specific text,Medium
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/canta-temizleme.html,Image,Enhanced alt text for better SEO,Fixed,Updated generic alt text to descriptive service-specific text,Medium
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/ev-tekstili-temizligi.html,Image,Enhanced alt text for better SEO,Fixed,Updated generic alt text to descriptive service-specific text,Medium
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/kumas-deri-boyama.html,Image,Enhanced alt text for better SEO,Fixed,Updated generic alt text to descriptive service-specific text,Medium
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/lostra-hizmeti.html,Image,Enhanced alt text for better SEO,Fixed,Updated generic alt text to descriptive service-specific text,Medium
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/perde-temizleme.html,Image,Enhanced alt text for better SEO,Fixed,Updated generic alt text to descriptive service-specific text,Medium
+/Users/macos/Documents/Projeler/DryAlle/hizmetler/utu-hizmetleri.html,Image,Enhanced alt text for better SEO,Fixed,Updated generic alt text to descriptive service-specific text,Medium

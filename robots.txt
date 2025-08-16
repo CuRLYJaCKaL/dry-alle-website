@@ -1,53 +1,72 @@
 User-agent: *
 Allow: /
 
-# Ana sayfalar
+# Sitemap Reference
+Sitemap: https://dryallekurutemizleme.com/sitemap.xml
+
+# Allow Important Pages
 Allow: /index.html
 Allow: /hizmetler/
 Allow: /bolgeler/
 Allow: /blog/
 
-# Sitemap
-Sitemap: https://dryallekurutemizleme.com/sitemap.xml
-
-# Önemli hizmet sayfaları
-Allow: /hizmetler/kuru-temizleme.html
-Allow: /hizmetler/hali-yikama.html  
-Allow: /hizmetler/koltuk-yikama.html
-
-# CSS ve JS dosyaları
+# Allow Static Assets
+Allow: /asset/
 Allow: /styles.css
 Allow: /service-detail-styles.css
 Allow: /script.js
 Allow: /blog/blog-styles.css
+Allow: /components/
 
-# Görsel dosyaları
-Allow: /asset/
-
-# Disallow edilecek dosyalar
+# Block Development and System Files
 Disallow: /.git/
 Disallow: /.claude/
+Disallow: /seo/
 Disallow: *.md
 Disallow: /DNS_YONLENDIRME_REHBERI.md
 Disallow: /DOMAIN_TRANSFER_VE_HOSTING_GECIS_REHBERI.md
 Disallow: /WIX_VELO_ENTEGRASYON_ADIMLAR.md
 Disallow: /dry-alle-custom-element.js
 Disallow: /google-my-business-optimization.md
-Disallow: /components/
 
-# Özel yönlendirmeler (allow first)
-Allow: /components/*.html
-Allow: /components/*.css
+# Block Test and Temporary Files
+Disallow: /test/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /_test/
+Disallow: /staging/
 
-# Crawl delay
+# Crawl Delay for Better Server Performance
 Crawl-delay: 1
 
-# Google ve diğer arama motorları için özel ayarlar
+# Specific User Agents
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
-# Host belirtimi
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Block Aggressive Crawlers
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Host Declaration
 Host: https://dryallekurutemizleme.com

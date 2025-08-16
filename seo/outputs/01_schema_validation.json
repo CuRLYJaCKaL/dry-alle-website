@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-16 18:55:51",
+  "schemas_validated": 3,
+  "total_errors": 0,
+  "total_warnings": 0,
+  "validations": [
+    {
+      "schema_name": "LocalBusiness Schema",
+      "schema_type": "LocalBusiness",
+      "file_path": "/Users/macos/Documents/Projeler/DryAlle/seo/schemas/local-business-schema.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "enhanced_results": [
+        "LocalBusiness",
+        "Service",
+        "FAQPage"
+      ],
+      "size_kb": 6.38
+    },
+    {
+      "schema_name": "Service Schema Template",
+      "schema_type": "Service",
+      "file_path": "/Users/macos/Documents/Projeler/DryAlle/seo/schemas/service-schema-template.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "enhanced_results": [
+        "LocalBusiness",
+        "Service",
+        "FAQPage"
+      ],
+      "size_kb": 2.8
+    },
+    {
+      "schema_name": "FAQ Schema",
+      "schema_type": "FAQPage",
+      "file_path": "/Users/macos/Documents/Projeler/DryAlle/seo/schemas/faq-schema.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "enhanced_results": [
+        "LocalBusiness",
+        "Service",
+        "FAQPage"
+      ],
+      "size_kb": 5.87
+    }
+  ]
+}

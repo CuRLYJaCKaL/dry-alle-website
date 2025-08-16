@@ -1,0 +1,117 @@
+{
+  "timestamp": "2025-08-16T21:13:00.095191",
+  "week_ending": "2025-08-16",
+  "overall_health": "CRITICAL",
+  "checks_performed": 8,
+  "issues_found": [
+    "Some schema markup is invalid",
+    "CTA links not functioning properly"
+  ],
+  "recommendations": [
+    "Improve mobile optimization",
+    "URGENT: Fix critical website accessibility issues",
+    "URGENT: Repair non-functioning CTA links",
+    "URGENT: Address technical SEO failures",
+    "Publish 1 new blog article this week",
+    "Create 3 new Google My Business posts",
+    "Respond to all customer reviews",
+    "Monitor competitor activity",
+    "Update seasonal content"
+  ],
+  "metrics": {
+    "accessibility": {
+      "main_site_accessible": true,
+      "response_time": 0.3485832214355469,
+      "accessible_pages": 4,
+      "total_pages_tested": 5,
+      "failed_pages": [
+        "https://dryallekurutemizleme.com/sss.html"
+      ]
+    },
+    "performance": {
+      "pages_tested": 3,
+      "avg_load_time": 2.02,
+      "fastest_page": 1.8,
+      "slowest_page": 2.3,
+      "pages_under_2s": 2,
+      "performance_grade": "A"
+    },
+    "seo_elements": {
+      "pages_tested": 2,
+      "critical_issues": 0,
+      "minor_issues": 0,
+      "elements_checked": [
+        "title",
+        "meta_description",
+        "h1",
+        "schema"
+      ],
+      "page_results": {
+        "index.html": {
+          "critical_issues": 0,
+          "minor_issues": 0,
+          "missing_elements": []
+        },
+        "sss.html": {
+          "critical_issues": 0,
+          "minor_issues": 0,
+          "missing_elements": []
+        }
+      }
+    },
+    "content_quality": {
+      "quality_score": 82,
+      "pages_analyzed": 20,
+      "high_quality_pages": 15,
+      "medium_quality_pages": 4,
+      "low_quality_pages": 1,
+      "avg_word_count": 750,
+      "readability_score": 7.2,
+      "keyword_optimization": 85
+    },
+    "schema": {
+      "total_schemas": 3,
+      "valid_schemas": 2,
+      "invalid_schemas": 1,
+      "schema_types_found": [
+        "FAQPage",
+        "LocalBusiness"
+      ],
+      "pages_with_schema": 2
+    },
+    "cta": {
+      "total_ctas": 22,
+      "phone_ctas": 14,
+      "whatsapp_ctas": 8,
+      "phone_ctas_working": false,
+      "whatsapp_ctas_working": true,
+      "issues_found": [
+        "Incorrect phone number: +902163527474"
+      ]
+    },
+    "mobile": {
+      "mobile_score": 75,
+      "checks_passed": 6,
+      "total_checks": 8,
+      "mobile_optimized": false
+    },
+    "competitive": {
+      "estimated_position": 2,
+      "key_competitors": [
+        "Dry Center",
+        "Dr. Wet Clean"
+      ],
+      "competitive_advantages": [
+        "25 year experience",
+        "Door-to-door service",
+        "AI technology integration",
+        "Comprehensive online presence"
+      ],
+      "areas_for_improvement": [
+        "Social media engagement",
+        "Customer review velocity",
+        "Content marketing expansion"
+      ]
+    }
+  }
+}
