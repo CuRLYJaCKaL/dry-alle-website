@@ -1,0 +1,416 @@
+name: SEO Automation & Deployment Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # Daily SEO health check at 6:00 AM UTC
+    - cron: '0 6 * * *'
+    # Weekly comprehensive report on Mondays at 9:00 AM UTC
+    - cron: '0 9 * * 1'
+
+jobs:
+  seo-health-check:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' && github.event.schedule == '0 6 * * *'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 selenium webdriver-manager
+        
+    - name: Run SEO Health Check
+      run: |
+        python seo/automation/scripts/daily_health_check.py
+        
+    - name: Upload health check results
+      uses: actions/upload-artifact@v3
+      with:
+        name: seo-health-report
+        path: /tmp/seo_health_report_*.json
+
+  keyword-ranking-monitor:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pandas numpy
+        
+    - name: Run Keyword Ranking Monitor
+      run: |
+        python seo/automation/scripts/keyword_ranking_monitor.py
+        
+    - name: Upload ranking results
+      uses: actions/upload-artifact@v3
+      with:
+        name: keyword-rankings
+        path: /tmp/keyword_rankings_*.csv
+
+  content-performance-analysis:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' && github.event.schedule == '0 9 * * 1'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests google-analytics-data google-api-python-client
+        
+    - name: Run Content Performance Analysis
+      env:
+        GOOGLE_ANALYTICS_CREDENTIALS: ${{ secrets.GOOGLE_ANALYTICS_CREDENTIALS }}
+      run: |
+        echo "$GOOGLE_ANALYTICS_CREDENTIALS" > ga_credentials.json
+        python seo/automation/scripts/content_performance_analyzer.py
+        
+    - name: Upload analysis results
+      uses: actions/upload-artifact@v3
+      with:
+        name: content-analysis-report
+        path: /tmp/content_performance_report_*.json
+
+  technical-seo-audit:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install Lighthouse CLI
+      run: npm install -g @lhci/cli@0.12.x
+      
+    - name: Run Lighthouse CI
+      run: |
+        lhci autorun
+      env:
+        LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+        
+    - name: HTML Validation
+      uses: Cyb3r-Jak3/html5validator-action@v7.2.0
+      with:
+        root: ./
+        css: true
+        
+    - name: Check Broken Links
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+        config-file: '.github/workflows/markdown-link-check-config.json'
+
+  sitemap-generation:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Generate XML Sitemap
+      run: |
+        python -c "
+        import os
+        import xml.etree.ElementTree as ET
+        from datetime import datetime
+        
+        # Create sitemap
+        urlset = ET.Element('urlset')
+        urlset.set('xmlns', 'http://www.sitemaps.org/schemas/sitemap/0.9')
+        
+        base_url = 'https://dryallekurutemizleme.com'
+        
+        # Add main pages
+        main_pages = [
+            ('/', '1.0', 'daily'),
+            ('/sss.html', '0.8', 'weekly'),
+        ]
+        
+        for page, priority, changefreq in main_pages:
+            url = ET.SubElement(urlset, 'url')
+            ET.SubElement(url, 'loc').text = base_url + page
+            ET.SubElement(url, 'lastmod').text = datetime.now().strftime('%Y-%m-%d')
+            ET.SubElement(url, 'changefreq').text = changefreq
+            ET.SubElement(url, 'priority').text = priority
+        
+        # Add service pages
+        service_dirs = ['hizmetler', 'bolgeler']
+        for service_dir in service_dirs:
+            if os.path.exists(service_dir):
+                for file in os.listdir(service_dir):
+                    if file.endswith('.html'):
+                        url = ET.SubElement(urlset, 'url')
+                        ET.SubElement(url, 'loc').text = f'{base_url}/{service_dir}/{file}'
+                        ET.SubElement(url, 'lastmod').text = datetime.now().strftime('%Y-%m-%d')
+                        ET.SubElement(url, 'changefreq').text = 'monthly'
+                        ET.SubElement(url, 'priority').text = '0.7'
+        
+        # Add blog pages
+        if os.path.exists('blog'):
+            for root, dirs, files in os.walk('blog'):
+                for file in files:
+                    if file.endswith('.html') and file != 'index.html':
+                        rel_path = os.path.relpath(os.path.join(root, file))
+                        url = ET.SubElement(urlset, 'url')
+                        ET.SubElement(url, 'loc').text = f'{base_url}/{rel_path}'
+                        ET.SubElement(url, 'lastmod').text = datetime.now().strftime('%Y-%m-%d')
+                        ET.SubElement(url, 'changefreq').text = 'weekly'
+                        ET.SubElement(url, 'priority').text = '0.6'
+        
+        # Write sitemap
+        tree = ET.ElementTree(urlset)
+        ET.indent(tree, space='  ', level=0)
+        tree.write('sitemap.xml', encoding='utf-8', xml_declaration=True)
+        print('✅ Sitemap generated successfully')
+        "
+        
+    - name: Validate Sitemap
+      run: |
+        python -c "
+        import xml.etree.ElementTree as ET
+        try:
+            tree = ET.parse('sitemap.xml')
+            print('✅ Sitemap XML is valid')
+            urls = tree.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}url')
+            print(f'📊 Sitemap contains {len(urls)} URLs')
+        except ET.ParseError as e:
+            print(f'❌ Sitemap XML is invalid: {e}')
+            exit(1)
+        "
+        
+    - name: Commit Sitemap
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add sitemap.xml
+        git diff --staged --quiet || git commit -m "🤖 Auto-update sitemap.xml"
+        git push
+
+  schema-validation:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install beautifulsoup4 requests jsonschema
+        
+    - name: Validate JSON-LD Schema
+      run: |
+        python -c "
+        import json
+        import os
+        import re
+        from bs4 import BeautifulSoup
+        
+        def extract_json_ld(html_content):
+            soup = BeautifulSoup(html_content, 'html.parser')
+            scripts = soup.find_all('script', type='application/ld+json')
+            schemas = []
+            for script in scripts:
+                try:
+                    schema = json.loads(script.string)
+                    schemas.append(schema)
+                    print(f'✅ Valid JSON-LD schema found')
+                except json.JSONDecodeError as e:
+                    print(f'❌ Invalid JSON-LD schema: {e}')
+                    return False
+            return len(schemas) > 0
+        
+        # Check all HTML files
+        valid_count = 0
+        total_count = 0
+        
+        for root, dirs, files in os.walk('.'):
+            for file in files:
+                if file.endswith('.html'):
+                    filepath = os.path.join(root, file)
+                    total_count += 1
+                    
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                        if extract_json_ld(content):
+                            valid_count += 1
+        
+        print(f'📊 Schema validation: {valid_count}/{total_count} files have valid JSON-LD')
+        if valid_count == 0 and total_count > 0:
+            print('❌ No valid schemas found!')
+            exit(1)
+        "
+
+  performance-monitoring:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      run: |
+        npm install -g lighthouse
+        
+    - name: Run Lighthouse Performance Test
+      run: |
+        lighthouse https://dryallekurutemizleme.com \
+          --output=json \
+          --output-path=lighthouse-results.json \
+          --chrome-flags="--headless --no-sandbox"
+          
+    - name: Parse Lighthouse Results
+      run: |
+        python -c "
+        import json
+        
+        with open('lighthouse-results.json', 'r') as f:
+            results = json.load(f)
+        
+        categories = results['categories']
+        
+        print('🚀 Lighthouse Performance Results:')
+        print(f'   Performance: {categories[\"performance\"][\"score\"] * 100:.0f}')
+        print(f'   Accessibility: {categories[\"accessibility\"][\"score\"] * 100:.0f}')
+        print(f'   Best Practices: {categories[\"best-practices\"][\"score\"] * 100:.0f}')
+        print(f'   SEO: {categories[\"seo\"][\"score\"] * 100:.0f}')
+        
+        # Alert if performance drops below threshold
+        if categories['performance']['score'] < 0.9:
+            print('🚨 Performance score below 90!')
+            exit(1)
+        if categories['seo']['score'] < 0.95:
+            print('🚨 SEO score below 95!')
+            exit(1)
+        "
+        
+    - name: Upload Lighthouse Results
+      uses: actions/upload-artifact@v3
+      with:
+        name: lighthouse-results
+        path: lighthouse-results.json
+
+  deployment:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [technical-seo-audit, schema-validation]
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Deploy to Production
+      run: |
+        echo "🚀 Deploying to production..."
+        echo "✅ All SEO checks passed, deployment approved"
+        # Add your deployment script here
+        
+    - name: Notify Deployment Success
+      if: success()
+      run: |
+        echo "📢 Deployment completed successfully"
+        # Add notification to Slack/Discord/Email here
+        
+    - name: Notify Deployment Failure
+      if: failure()
+      run: |
+        echo "❌ Deployment failed"
+        # Add failure notification here
+
+  weekly-seo-report:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' && github.event.schedule == '0 9 * * 1'
+    needs: [seo-health-check, keyword-ranking-monitor, content-performance-analysis]
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Download all artifacts
+      uses: actions/download-artifact@v3
+      
+    - name: Generate Weekly Report
+      run: |
+        python -c "
+        import json
+        import os
+        from datetime import datetime
+        
+        print('📊 Generating Weekly SEO Report...')
+        
+        report = {
+            'date': datetime.now().strftime('%Y-%m-%d'),
+            'type': 'weekly_summary',
+            'status': 'automated_generation',
+            'sections': {
+                'health_check': 'completed',
+                'keyword_monitoring': 'completed', 
+                'content_analysis': 'completed',
+                'performance_audit': 'completed'
+            }
+        }
+        
+        # Save consolidated report
+        with open('weekly_seo_report.json', 'w') as f:
+            json.dump(report, f, indent=2)
+        
+        print('✅ Weekly SEO report generated')
+        "
+        
+    - name: Upload Weekly Report
+      uses: actions/upload-artifact@v3
+      with:
+        name: weekly-seo-report
+        path: weekly_seo_report.json

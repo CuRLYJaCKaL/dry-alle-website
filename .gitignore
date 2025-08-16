@@ -39,3 +39,34 @@ build/
 # Temporary files
 *.tmp
 *.temp
+/tmp/
+
+# API Keys and Sensitive Data
+config/api-keys/
+secrets/
+credentials.json
+ga_credentials.json
+
+# SEO Analytics Reports (Sensitive Data)
+seo/reports/sensitive/
+analytics/raw-data/
+customer-data/
+private-analytics/
+
+# Database Files
+*.db
+*.sqlite
+*.sql
+backup/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Lighthouse CI Results
+.lighthouseci/
+
+# Test Results
+test-results/
+coverage/

@@ -1,0 +1,26 @@
+# Dry Alle SEO Automation Cron Jobs
+# Add these to your crontab with: crontab -e
+
+# Daily SEO health check at 6:00 AM
+0 6 * * * /usr/bin/python3 /path/to/seo/automation/scripts/daily_health_check.py >> /var/log/seo_health.log 2>&1
+
+# Keyword ranking monitor at 8:00 AM daily  
+0 8 * * * /usr/bin/python3 /path/to/seo/automation/scripts/keyword_ranking_monitor.py >> /var/log/keyword_rankings.log 2>&1
+
+# Content performance analysis every Monday at 9:00 AM
+0 9 * * 1 /usr/bin/python3 /path/to/seo/automation/scripts/content_performance_analyzer.py >> /var/log/content_analysis.log 2>&1
+
+# Site backup before any automated changes (daily at 2:00 AM)
+0 2 * * * /usr/bin/rsync -avz /var/www/dryalle/ /backup/dryalle_$(date +\%Y\%m\%d)/ >> /var/log/backup.log 2>&1
+
+# Log rotation weekly (Sunday at 11:59 PM)
+59 23 * * 0 /usr/sbin/logrotate /etc/logrotate.d/seo_automation
+
+# Update sitemap daily at 3:00 AM
+0 3 * * * /usr/bin/python3 /path/to/seo/automation/scripts/generate_sitemap.py >> /var/log/sitemap.log 2>&1
+
+# Check for broken links weekly (Wednesday at 10:00 AM)
+0 10 * * 3 /usr/bin/python3 /path/to/seo/automation/scripts/broken_link_checker.py >> /var/log/broken_links.log 2>&1
+
+# Generate monthly SEO report (1st of each month at 7:00 AM)
+0 7 1 * * /usr/bin/python3 /path/to/seo/automation/scripts/monthly_seo_report.py >> /var/log/monthly_reports.log 2>&1

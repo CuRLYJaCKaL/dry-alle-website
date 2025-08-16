@@ -1,0 +1,67 @@
+name: Lighthouse CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: |
+        npm install -g @lhci/cli@0.12.x
+        
+    - name: Build static files (if needed)
+      run: |
+        # Add any build steps if required
+        echo "Building static assets..."
+        
+    - name: Run Lighthouse CI
+      run: |
+        lhci autorun --upload.target=temporary-public-storage
+      env:
+        LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+        
+    - name: Format Lighthouse Results
+      run: |
+        python3 -c "
+        import json
+        import os
+        import glob
+        
+        # Find the latest Lighthouse results
+        result_files = glob.glob('.lighthouseci/lhci_reports/manifest.json')
+        
+        if result_files:
+            print('📊 Lighthouse CI Results Summary:')
+            print('✅ Performance audit completed')
+            print('📈 Results uploaded to temporary public storage')
+            print('🔗 View detailed results in the PR comments')
+        else:
+            print('ℹ️ No Lighthouse results found - may be running against local files')
+        "
+        
+    - name: Comment PR with Results
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: '🚀 Lighthouse CI has completed! Check the logs for performance metrics and any optimization recommendations.'
+          });
