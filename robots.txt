@@ -5,6 +5,7 @@ Allow: /
 Allow: /index.html
 Allow: /hizmetler/
 Allow: /bolgeler/
+Allow: /blog/
 
 # Sitemap
 Sitemap: https://dryallekurutemizleme.com/sitemap.xml
@@ -18,6 +19,7 @@ Allow: /hizmetler/koltuk-yikama.html
 Allow: /styles.css
 Allow: /service-detail-styles.css
 Allow: /script.js
+Allow: /blog/blog-styles.css
 
 # Görsel dosyaları
 Allow: /asset/

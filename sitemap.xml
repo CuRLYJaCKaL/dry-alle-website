@@ -85,6 +85,128 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- BLOG SECTION -->
+    
+    <!-- Blog Ana Sayfa -->
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Blog Kategorileri -->
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/kuru-temizleme/</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/hali-yikama/</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/koltuk-yikama/</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/perde-temizleme/</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/ev-tekstili/</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/canta-temizleme/</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/lostra-hizmeti/</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/kumas-deri-boyama/</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/utu-hizmetleri/</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Makaleleri -->
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/kuru-temizleme/hassas-kumaslar-kuru-temizleme-rehberi.html</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/hali-yikama/evde-hali-bakimi-ve-profesyonel-yikama-rehberi.html</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/koltuk-yikama/kumas-ve-deri-koltuk-temizligi-rehberi.html</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/perde-temizleme/ev-perdelerinizi-temiz-tutma-rehberi.html</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/ev-tekstili/ev-tekstillerinin-bakim-ve-temizlik-rehberi.html</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/canta-temizleme/deri-ve-kumas-canta-bakim-rehberi.html</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/lostra-hizmeti/ayakkabi-ve-deri-urunler-bakim-rehberi.html</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/kumas-deri-boyama/solmus-kiyafetlere-yeni-hayat-verme-rehberi.html</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://dryallekurutemizleme.com/blog/utu-hizmetleri/ev-utusu-vs-profesyonel-utu-hizmeti.html</loc>
+        <lastmod>2025-01-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
     
     <!-- ANADOLU YAKASI Elite Local SEO Landing Pages -->
     
