@@ -580,9 +580,9 @@ a:hover {
 /* Blog Sidebar */
 .blog-sidebar {
     background: var(--white);
-    border-radius: var(--radius-xl);
+    border-radius: var(--radius-lg);
     padding: var(--spacing-2xl);
-    box-shadow: var(--shadow-lg);
+    box-shadow: var(--shadow-md);
     border: 1px solid var(--border-light);
     position: sticky;
     top: var(--spacing-2xl);
@@ -615,7 +615,7 @@ a:hover {
     padding: var(--spacing-md) var(--spacing-lg);
     padding-left: var(--spacing-3xl);
     border: 2px solid var(--border-light);
-    border-radius: var(--radius-xl);
+    border-radius: var(--radius-lg);
     font-size: 0.875rem;
     transition: all var(--transition-normal);
     background: var(--bg-gray-50);
@@ -688,9 +688,9 @@ a:hover {
 /* Modern Blog Main Content */
 .blog-main-content {
     background: var(--white);
-    border-radius: var(--radius-xl);
+    border-radius: var(--radius-lg);
     padding: var(--spacing-2xl);
-    box-shadow: var(--shadow-lg);
+    box-shadow: var(--shadow-md);
     border: 1px solid var(--border-light);
 }
 
@@ -756,7 +756,7 @@ a:hover {
 /* Enhanced Blog Cards */
 .modern-blog-card {
     background: var(--white);
-    border-radius: var(--radius-xl);
+    border-radius: var(--radius-lg);
     overflow: hidden;
     box-shadow: var(--shadow-md);
     border: 1px solid var(--border-light);
@@ -813,7 +813,7 @@ a:hover {
     background: linear-gradient(135deg, var(--primary-green), var(--primary-green-hover));
     color: var(--white);
     padding: var(--spacing-xs) var(--spacing-md);
-    border-radius: var(--radius-xl);
+    border-radius: var(--radius-lg);
     font-size: 0.75rem;
     font-weight: var(--font-weight-semibold);
     text-transform: uppercase;
@@ -917,7 +917,7 @@ a:hover {
     text-align: center;
     padding: var(--spacing-5xl) var(--spacing-xl);
     background: var(--white);
-    border-radius: var(--radius-xl);
+    border-radius: var(--radius-lg);
     border: 2px dashed var(--border-light);
     margin-top: var(--spacing-2xl);
 }
