@@ -15,242 +15,46 @@
 <meta content="https://dryallekurutemizleme.com/blog/blog-featured.webp" property="og:image"/>
 <!-- Central CSS System -->
 <link href="../css/dryalle-core.css" rel="stylesheet"/>
-<!-- Blog Specific Styles -->
+<!-- Modern Blog Specific Styles -->
 <style>
-        /* Blog Hero using central system */
-        .blog-hero {
-            background: linear-gradient(135deg, var(--primary-green) 0%, #004d32 50%, #00623b 100%);
-            color: var(--white);
-            padding: var(--spacing-5xl) 0;
+        /* Modern blog sayfası için minimal ek stiller */
+        .loading-spinner {
             text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .blog-hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="%23ffffff" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="%23ffffff" opacity="0.1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grain)"/></svg>');
-            opacity: 0.1;
-        }
-        
-        .blog-hero .container {
-            position: relative;
-            z-index: 1;
-        }
-        
-        .blog-hero h1 {
-            font-size: clamp(2.5rem, 5vw, 4rem);
-            margin-bottom: var(--spacing-lg);
-            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
-        
-        .blog-hero p {
-            font-size: clamp(1.125rem, 2vw, 1.5rem);
-            opacity: 0.9;
-            max-width: 700px;
-            margin: 0 auto;
-        }
-        
-        /* Blog Controls */
-        .blog-controls {
-            background: var(--bg-gray-50);
-            padding: var(--spacing-2xl) 0;
-            border-bottom: 1px solid var(--border-light);
-        }
-        
-        .controls-container {
-            max-width: var(--blog-grid-width);
-            margin: 0 auto;
-            padding: 0 var(--container-padding);
-            display: flex;
-            gap: var(--spacing-xl);
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        
-        .search-box {
-            flex: 1;
-            min-width: 300px;
-        }
-        
-        .search-input {
-            width: 100%;
-            padding: var(--spacing-md) var(--spacing-lg);
-            border: 2px solid var(--border-light);
-            border-radius: var(--radius-md);
-            font-size: 16px;
-            transition: all var(--transition-normal);
-            font-family: var(--font-family-primary);
-        }
-        
-        .search-input:focus {
-            outline: none;
-            border-color: var(--primary-green);
-            box-shadow: 0 0 0 3px rgba(0, 106, 68, 0.1);
-        }
-        
-        .filter-controls {
-            display: flex;
-            gap: var(--spacing-md);
-            flex-wrap: wrap;
-        }
-        
-        .filter-btn {
-            padding: var(--spacing-sm) var(--spacing-lg);
-            border: 2px solid var(--primary-green);
-            background: var(--white);
-            color: var(--primary-green);
-            border-radius: var(--radius-xl);
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: var(--font-weight-medium);
-            transition: all var(--transition-normal);
-            white-space: nowrap;
-            font-family: var(--font-family-primary);
-        }
-        
-        .filter-btn:hover,
-        .filter-btn.active {
-            background: var(--primary-green);
-            color: var(--white);
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-md);
-        }
-        
-        .reading-time-filter {
-            display: flex;
-            gap: var(--spacing-sm);
-        }
-        
-        /* Blog Grid */
-        .blog-grid {
-            max-width: var(--blog-grid-width);
-            margin: 0 auto;
-            padding: var(--spacing-4xl) var(--container-padding);
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: var(--spacing-2xl);
-        }
-        
-        .blog-card {
-            background: var(--white);
-            border-radius: var(--radius-xl);
-            overflow: hidden;
-            box-shadow: var(--shadow-md);
-            transition: all var(--transition-normal);
-            position: relative;
-            border: 1px solid var(--border-light);
-        }
-        
-        .blog-card:hover {
-            transform: translateY(-8px);
-            box-shadow: var(--shadow-xl);
-        }
-        
-        .blog-card-image {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-            border-bottom: 3px solid var(--accent-yellow);
-            transition: transform var(--transition-normal);
-        }
-        
-        .blog-card:hover .blog-card-image {
-            transform: scale(1.05);
-        }
-        
-        .blog-card-content {
-            padding: var(--spacing-xl);
-        }
-        
-        .blog-theme-badge {
-            position: absolute;
-            top: var(--spacing-md);
-            left: var(--spacing-md);
-            padding: var(--spacing-xs) var(--spacing-md);
-            background: rgba(0,0,0,0.8);
-            color: var(--white);
-            border-radius: var(--radius-xl);
-            font-size: 12px;
-            font-weight: var(--font-weight-semibold);
-            backdrop-filter: blur(10px);
-        }
-        
-        .blog-card-title {
-            color: var(--primary-green);
-            font-size: 1.25rem;
-            font-weight: var(--font-weight-semibold);
-            margin-bottom: var(--spacing-md);
-            line-height: 1.4;
-            text-decoration: none;
-            display: block;
-            transition: color var(--transition-fast);
-        }
-        
-        .blog-card-title:hover {
-            color: var(--primary-green-light);
-        }
-        
-        .blog-card-summary {
+            padding: var(--spacing-3xl);
             color: var(--text-secondary);
-            font-size: 0.875rem;
-            line-height: 1.6;
-            margin-bottom: var(--spacing-md);
+            font-size: 1.125rem;
         }
         
-        .blog-card-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 0.75rem;
-            color: var(--text-light);
-            margin-bottom: var(--spacing-md);
-            gap: var(--spacing-sm);
+        .loading-spinner::before {
+            content: '🔄';
+            display: block;
+            font-size: 2rem;
+            margin-bottom: var(--spacing-lg);
+            animation: spin 2s linear infinite;
         }
         
-        .blog-card-meta span {
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-xs);
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
         }
         
-        .read-more-btn {
-            color: var(--primary-green);
-            text-decoration: none;
-            font-weight: var(--font-weight-semibold);
-            font-size: 0.875rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            border-bottom: 2px solid transparent;
-            transition: all var(--transition-fast);
-            display: inline-flex;
-            align-items: center;
-            gap: var(--spacing-xs);
+        /* Custom styling for the blog main title */
+        .blog-main-title {
+            font-size: clamp(2rem, 4vw, 3rem) !important;
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-green-light)) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
         }
         
-        .read-more-btn:hover {
-            border-color: var(--primary-green);
-            transform: translateX(4px);
-        }
-        
-        .read-more-btn::after {
-            content: '→';
-            transition: transform var(--transition-fast);
-        }
-        
-        .read-more-btn:hover::after {
-            transform: translateX(4px);
-        }
-        
-        /* Pagination */
+        /* Enhanced pagination */
         .pagination {
-            text-align: center;
-            padding: var(--spacing-2xl) 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: var(--spacing-sm);
+            margin-top: var(--spacing-2xl);
+            flex-wrap: wrap;
         }
         
         .pagination-btn {
@@ -258,102 +62,38 @@
             align-items: center;
             justify-content: center;
             padding: var(--spacing-sm) var(--spacing-lg);
-            margin: 0 var(--spacing-xs);
-            background: var(--primary-green);
-            color: var(--white);
+            background: var(--white);
+            color: var(--primary-green);
             text-decoration: none;
-            border-radius: var(--radius-md);
+            border-radius: var(--radius-lg);
+            border: 2px solid var(--border-light);
             transition: all var(--transition-normal);
             font-weight: var(--font-weight-medium);
-            min-width: 40px;
+            min-width: 44px;
+            font-size: 0.875rem;
         }
         
         .pagination-btn:hover {
-            background: var(--primary-green-hover);
+            background: var(--primary-green);
+            color: var(--white);
+            border-color: var(--primary-green);
             transform: translateY(-2px);
             box-shadow: var(--shadow-md);
         }
         
         .pagination-btn.active {
-            background: var(--accent-yellow);
-            color: var(--text-primary);
+            background: var(--primary-green);
+            color: var(--white);
+            border-color: var(--primary-green);
             font-weight: var(--font-weight-bold);
         }
         
         .pagination-btn.disabled {
-            background: var(--bg-gray-200);
+            background: var(--bg-gray-100);
             color: var(--text-light);
+            border-color: var(--bg-gray-200);
             pointer-events: none;
             cursor: not-allowed;
-        }
-        
-        .no-results {
-            text-align: center;
-            padding: var(--spacing-4xl) var(--spacing-lg);
-            color: var(--text-secondary);
-            background: var(--white);
-            border-radius: var(--radius-xl);
-            box-shadow: var(--shadow-sm);
-            margin: var(--spacing-2xl);
-        }
-        
-        .no-results h3 {
-            color: var(--primary-green);
-            margin-bottom: var(--spacing-md);
-        }
-        
-        .no-results a {
-            color: var(--primary-green);
-            font-weight: var(--font-weight-medium);
-        }
-        
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .blog-grid {
-                grid-template-columns: 1fr;
-                padding: var(--spacing-2xl) var(--container-padding-mobile);
-                gap: var(--spacing-xl);
-            }
-            
-            .controls-container {
-                padding: 0 var(--container-padding-mobile);
-                flex-direction: column;
-                align-items: stretch;
-                gap: var(--spacing-lg);
-            }
-            
-            .filter-controls {
-                justify-content: center;
-            }
-            
-            .blog-hero {
-                padding: var(--spacing-3xl) var(--container-padding-mobile);
-            }
-            
-            .search-box {
-                min-width: auto;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .blog-card {
-                margin: 0;
-            }
-            
-            .filter-btn {
-                font-size: 12px;
-                padding: var(--spacing-xs) var(--spacing-md);
-            }
-            
-            .blog-card-content {
-                padding: var(--spacing-lg);
-            }
-            
-            .blog-card-meta {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: var(--spacing-xs);
-            }
         }
     </style>
 <!-- Schema Markup -->
@@ -404,57 +144,112 @@
 <li><a href="../iletisim.html">İLETİŞİM</a></li>
 </ul>
 </nav>
-<!-- Blog Hero -->
-<section class="blog-hero">
-<div class="container">
-<h1>Tekstil Bakım Rehberleri</h1>
-<p>25 yıllık deneyimimizle hazırladığımız kapsamlı rehberler</p>
+<!-- Modern Blog Layout -->
+<div class="modern-blog-container">
+    <!-- Blog Sidebar -->
+    <aside class="blog-sidebar">
+        <h2>Kategoriler</h2>
+        
+        <!-- Modern Search -->
+        <div class="modern-search-container">
+            <div class="modern-search-icon">🔍</div>
+            <input type="text" class="modern-search-input" id="searchInput" placeholder="Yüzlerce yazı arasında arayın...">
+        </div>
+        
+        <!-- Blog Categories -->
+        <ul class="blog-categories-list">
+            <li class="blog-category-item">
+                <a href="#" class="blog-category-link active" data-theme="all">
+                    <span>Tümü</span>
+                    <span class="blog-category-count">1550</span>
+                </a>
+            </li>
+            <li class="blog-category-item">
+                <a href="#" class="blog-category-link" data-theme="kuru-temizleme">
+                    <span>👔 Kuru Temizleme</span>
+                    <span class="blog-category-count">420</span>
+                </a>
+            </li>
+            <li class="blog-category-item">
+                <a href="#" class="blog-category-link" data-theme="hali">
+                    <span>🧽 Halı Yıkama</span>
+                    <span class="blog-category-count">380</span>
+                </a>
+            </li>
+            <li class="blog-category-item">
+                <a href="#" class="blog-category-link" data-theme="mobilya">
+                    <span>🛋️ Mobilya & Koltuk</span>
+                    <span class="blog-category-count">285</span>
+                </a>
+            </li>
+            <li class="blog-category-item">
+                <a href="#" class="blog-category-link" data-theme="perde">
+                    <span>🪟 Perde Temizliği</span>
+                    <span class="blog-category-count">215</span>
+                </a>
+            </li>
+            <li class="blog-category-item">
+                <a href="#" class="blog-category-link" data-theme="gelinlik">
+                    <span>👗 Özel Giyim</span>
+                    <span class="blog-category-count">155</span>
+                </a>
+            </li>
+            <li class="blog-category-item">
+                <a href="#" class="blog-category-link" data-theme="leke">
+                    <span>🧼 Leke Çıkarma</span>
+                    <span class="blog-category-count">95</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    
+    <!-- Main Content -->
+    <main class="blog-main-content">
+        <div class="blog-main-header">
+            <h1 class="blog-main-title">Uzman Makaleler ve Rehberler</h1>
+            <p class="blog-main-subtitle">Tekstil bakım dünyasından son yenilikler ve uzman tavsiyeleri</p>
+            
+            <div class="blog-stats">
+                <div class="blog-stat">
+                    <span class="blog-stat-number">1550</span>
+                    <span class="blog-stat-label">Toplam Makale</span>
+                </div>
+                <div class="blog-stat">
+                    <span class="blog-stat-number">25</span>
+                    <span class="blog-stat-label">Yıl Deneyim</span>
+                </div>
+                <div class="blog-stat">
+                    <span class="blog-stat-number">7</span>
+                    <span class="blog-stat-label">Kategori</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Blog Grid -->
+        <div class="modern-blog-grid" id="blogGrid">
+            <!-- Blog cards will be generated by JavaScript -->
+            <div class="loading-spinner" style="grid-column: 1 / -1; text-align: center; padding: 40px;">
+                <p>Blog yazıları yükleniyor...</p>
+            </div>
+        </div>
+        
+        <!-- No Results -->
+        <div class="blog-no-results" id="noResults" style="display: none;">
+            <div class="blog-no-results-icon">🔍</div>
+            <h3>Aradığınız içerik bulunamadı</h3>
+            <p>Farklı anahtar kelimeler deneyebilir veya kategorilerden birini seçebilirsiniz.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary" onclick="filterByTheme('kuru-temizleme')">Kuru Temizleme</a>
+                <a href="#" class="btn btn-outline" onclick="filterByTheme('hali')">Halı Yıkama</a>
+            </div>
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination" id="pagination" style="margin-top: var(--spacing-2xl);">
+            <!-- Pagination will be generated by JavaScript -->
+        </div>
+    </main>
 </div>
-</section>
-<!-- Blog Controls -->
-<section class="blog-controls">
-<div class="controls-container">
-<div class="search-box">
-<input class="search-input" id="searchInput" placeholder="Blog yazılarında ara..." type="text"/>
-</div>
-<div class="filter-controls">
-<button class="filter-btn active" data-theme="all">Tümü</button>
-<button class="filter-btn" data-theme="perde">🪟 Perde Temizliği</button>
-<button class="filter-btn" data-theme="mobilya">🛋️ Mobilya &amp; Koltuk</button>
-<button class="filter-btn" data-theme="hali">🧽 Halı Yıkama</button>
-<button class="filter-btn" data-theme="kuru-temizleme">👔 Kuru Temizleme</button>
-<button class="filter-btn" data-theme="gelinlik">👗 Özel Giyim</button>
-<button class="filter-btn" data-theme="leke">🧼 Leke Çıkarma</button>
-</div>
-<div class="reading-time-filter">
-<button class="filter-btn" data-time="quick">Hızlı (≤5dk)</button>
-<button class="filter-btn" data-time="medium">Orta (6-10dk)</button>
-<button class="filter-btn" data-time="long">Detaylı (&gt;10dk)</button>
-</div>
-</div>
-</section>
-<!-- Blog Grid -->
-<section class="blog-grid-container">
-<div class="blog-grid" id="blogGrid">
-<!-- Blog kartları JavaScript ile dinamik olarak oluşturulacak -->
-<div class="loading-spinner" style="grid-column: 1 / -1; text-align: center; padding: 40px;">
-<p>Blog yazıları yükleniyor...</p>
-</div>
-</div>
-<div class="no-results" id="noResults" style="display: none;">
-<h3>Aradığınız içerik bulunamadı</h3>
-<p>Farklı anahtar kelimeler deneyebilir veya filtrelerinizi değiştirebilirsiniz.</p>
-<div style="margin-top: 20px;">
-<strong>Önerilen konular:</strong><br/>
-<a href="#" onclick="filterByTheme('kuru-temizleme')">Kuru Temizleme</a> • 
-                <a href="#" onclick="filterByTheme('hali')">Halı Yıkama</a> • 
-                <a href="#" onclick="filterByTheme('mobilya')">Mobilya Temizliği</a>
-</div>
-</div>
-<div class="pagination" id="pagination">
-<!-- Pagination will be generated by JavaScript -->
-</div>
-</section>
 <!-- JavaScript -->
 <script>
         // Blog verisi
@@ -560,25 +355,34 @@
             createPagination();
         }
         
-        // Blog kartı oluştur
+        // Modern blog kartı oluştur
         function createBlogCard(blog) {
             const themeData = {"perde": {"name": "Perde Temizliği", "color": "#006a44", "icon": "🪟", "keywords": ["perde", "tül", "store", "dantel"]}, "mobilya": {"name": "Mobilya & Koltuk", "color": "#004d32", "icon": "🛋️", "keywords": ["koltuk", "kanepe", "mobilya", "deri"]}, "hali": {"name": "Halı Yıkama", "color": "#00623b", "icon": "🧽", "keywords": ["halı", "kilim", "carpet"]}, "kuru-temizleme": {"name": "Kuru Temizleme", "color": "#006a44", "icon": "👔", "keywords": ["kuru", "temizleme", "dry", "cleaning"]}, "gelinlik": {"name": "Özel Giyim", "color": "#f6ec3d", "icon": "👗", "keywords": ["gelinlik", "düğün", "özel"]}, "leke": {"name": "Leke Çıkarma", "color": "#004d32", "icon": "🧼", "keywords": ["leke", "çıkar", "stain"]}};
             const theme = themeData[blog.theme] || themeData['kuru-temizleme'];
             
             return `
-                <article class="blog-card">
-                    <div class="blog-theme-badge" style="background: ${theme.color}">
-                        ${theme.icon} ${theme.name}
+                <article class="modern-blog-card">
+                    <div class="blog-card-image-container">
+                        <img src="${blog.image_url}" alt="${blog.title}" class="blog-card-image" loading="lazy">
+                        <div class="blog-card-category-badge">
+                            ${theme.icon} ${theme.name}
+                        </div>
+                        <div class="blog-card-read-time">
+                            ⏱️ ${blog.reading_time} dk
+                        </div>
                     </div>
-                    <img src="${blog.image_url}" alt="${blog.title}" class="blog-card-image" loading="lazy">
                     <div class="blog-card-content">
                         <a href="${blog.slug}/" class="blog-card-title">${blog.title}</a>
-                        <p class="blog-card-summary">${blog.summary}</p>
+                        <p class="blog-card-excerpt">${blog.summary}</p>
                         <div class="blog-card-meta">
-                            <span>📅 ${formatDate(blog.publish_date)}</span>
-                            <span>⏱️ ${blog.reading_time} dk okuma</span>
+                            <div class="blog-card-date">
+                                📅 ${formatDate(blog.publish_date)}
+                            </div>
+                            <div class="blog-card-author">
+                                👨‍⚕️ Dr. Uzman
+                            </div>
                         </div>
-                        <a href="${blog.slug}/" class="read-more-btn">Devamını Oku</a>
+                        <a href="${blog.slug}/" class="blog-card-cta">Devamını Oku</a>
                     </div>
                 </article>
             `;
@@ -635,14 +439,20 @@
         // Event listener'lar
         searchInput.addEventListener('input', searchBlogs);
         
-        // Tema filtre butonları
-        document.querySelectorAll('.filter-btn[data-theme]').forEach(btn => {
-            btn.addEventListener('click', () => filterByTheme(btn.dataset.theme));
-        });
-        
-        // Okuma süresi filtre butonları
-        document.querySelectorAll('.filter-btn[data-time]').forEach(btn => {
-            btn.addEventListener('click', () => filterByReadingTime(btn.dataset.time));
+        // Modern kategori linkleri
+        document.querySelectorAll('.blog-category-link[data-theme]').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                // Remove active class from all links
+                document.querySelectorAll('.blog-category-link').forEach(l => l.classList.remove('active'));
+                
+                // Add active class to clicked link
+                link.classList.add('active');
+                
+                // Filter by theme
+                filterByTheme(link.dataset.theme);
+            });
         });
         
         // Sayfa yüklendiğinde

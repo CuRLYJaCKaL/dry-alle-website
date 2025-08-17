@@ -1,0 +1,151 @@
+
+<!-- User Engagement & Heatmap Tracking -->
+<script>
+(function() {
+    // Scroll depth tracking
+    let maxScroll = 0;
+    let scrollMilestones = [25, 50, 75, 90, 100];
+    let scrollReported = [];
+    
+    function trackScrollDepth() {
+        const scrollPercent = Math.round(
+            (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100
+        );
+        
+        if (scrollPercent > maxScroll) {
+            maxScroll = scrollPercent;
+        }
+        
+        scrollMilestones.forEach(milestone => {
+            if (scrollPercent >= milestone && !scrollReported.includes(milestone)) {
+                scrollReported.push(milestone);
+                
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'scroll_depth', {
+                        custom_parameter_percentage: milestone,
+                        custom_parameter_page: window.location.pathname,
+                        custom_parameter_content_type: 'blog'
+                    });
+                }
+            }
+        });
+    }
+    
+    // Reading time tracking
+    let startTime = Date.now();
+    let isReading = true;
+    let totalReadingTime = 0;
+    
+    function trackReadingTime() {
+        if (isReading) {
+            totalReadingTime = Date.now() - startTime;
+        }
+    }
+    
+    // User interaction tracking
+    function trackUserInteraction(type, element) {
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'user_interaction', {
+                custom_parameter_type: type,
+                custom_parameter_element: element,
+                custom_parameter_timestamp: Date.now(),
+                custom_parameter_page: window.location.pathname
+            });
+        }
+    }
+    
+    // Click tracking for important elements
+    document.addEventListener('click', function(e) {
+        const target = e.target;
+        
+        // Track clicks on service links
+        if (target.matches('a[href*="hizmet"], a[href*="service"]')) {
+            trackUserInteraction('service_link_click', target.href);
+        }
+        
+        // Track clicks on contact buttons
+        if (target.matches('.contact-btn, .iletisim-btn')) {
+            trackUserInteraction('contact_button_click', target.textContent);
+        }
+        
+        // Track clicks on blog navigation
+        if (target.matches('.blog-nav a, .kategori-link')) {
+            trackUserInteraction('blog_navigation', target.href);
+        }
+        
+        // Track image clicks
+        if (target.matches('img.featured-image')) {
+            trackUserInteraction('featured_image_click', target.src);
+        }
+    });
+    
+    // Phone number click tracking
+    document.addEventListener('click', function(e) {
+        if (e.target.matches('a[href^="tel:"]')) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'phone_call_intent', {
+                    custom_parameter_number: e.target.href.replace('tel:', ''),
+                    custom_parameter_source: 'blog_page'
+                });
+            }
+        }
+    });
+    
+    // Form submission tracking
+    document.addEventListener('submit', function(e) {
+        const form = e.target;
+        if (form.matches('form')) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'form_submission', {
+                    custom_parameter_form_type: form.id || 'contact_form',
+                    custom_parameter_page: window.location.pathname
+                });
+            }
+        }
+    });
+    
+    // Visibility change tracking (tab switching)
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            isReading = false;
+            trackReadingTime();
+        } else {
+            startTime = Date.now();
+            isReading = true;
+        }
+    });
+    
+    // Page unload tracking
+    window.addEventListener('beforeunload', function() {
+        trackReadingTime();
+        
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'page_engagement_summary', {
+                custom_parameter_reading_time: totalReadingTime,
+                custom_parameter_max_scroll: maxScroll,
+                custom_parameter_page: window.location.pathname,
+                custom_parameter_session_id: sessionStorage.getItem('session_id') || 'unknown'
+            });
+        }
+    });
+    
+    // Event listeners
+    window.addEventListener('scroll', trackScrollDepth, { passive: true });
+    
+    // Initialize session
+    if (!sessionStorage.getItem('session_id')) {
+        sessionStorage.setItem('session_id', 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9));
+    }
+    
+    // Track page view with enhanced data
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'enhanced_page_view', {
+            custom_parameter_page_type: 'blog',
+            custom_parameter_content_category: document.querySelector('meta[name="keywords"]')?.content || 'dry-cleaning',
+            custom_parameter_session_id: sessionStorage.getItem('session_id'),
+            custom_parameter_timestamp: Date.now()
+        });
+    }
+})();
+</script>
+        

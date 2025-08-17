@@ -1,0 +1,25 @@
+{
+  "generation_date": "2025-08-17T05:12:09.634793",
+  "google_standards_version": "2025",
+  "compliance_status": "COMPLIANT",
+  "total_urls": 72,
+  "site_pages": 3,
+  "blog_posts": 69,
+  "fresh_blog_posts": 69,
+  "mobile_optimized_urls": 72,
+  "urls_with_images": 57,
+  "total_images": 201,
+  "schema_compliant_posts": 69,
+  "url_issues": [],
+  "priority_distribution": {
+    "1.0": 1,
+    "0.9": 1,
+    "0.8": 1,
+    "0.7": 69
+  },
+  "changefreq_distribution": {
+    "daily": 1,
+    "weekly": 71
+  },
+  "google_recommendations": []
+}

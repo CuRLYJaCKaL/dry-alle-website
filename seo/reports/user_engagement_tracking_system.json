@@ -1,0 +1,265 @@
+{
+  "system_creation_date": "2025-08-17T05:48:20.408485",
+  "project": "DryAlle User Engagement Tracking System",
+  "google_analytics_config": {
+    "measurement_id": "G-XXXXXXXXXX",
+    "enhanced_ecommerce": true,
+    "custom_events": [
+      {
+        "event_name": "blog_engagement",
+        "parameters": {
+          "blog_slug": "text",
+          "engagement_type": "text",
+          "engagement_value": "number",
+          "user_type": "text"
+        }
+      },
+      {
+        "event_name": "image_interaction",
+        "parameters": {
+          "image_format": "text",
+          "load_time": "number",
+          "image_src": "text",
+          "interaction_type": "text"
+        }
+      },
+      {
+        "event_name": "content_depth",
+        "parameters": {
+          "scroll_percentage": "number",
+          "reading_time": "number",
+          "content_type": "text",
+          "page_url": "text"
+        }
+      }
+    ],
+    "goals": [
+      {
+        "name": "Blog Engagement Time",
+        "type": "duration",
+        "target": 120,
+        "description": "User spends at least 2 minutes on blog"
+      },
+      {
+        "name": "Deep Content Reading",
+        "type": "event",
+        "condition": "scroll_depth > 75",
+        "description": "User scrolls beyond 75% of content"
+      },
+      {
+        "name": "Service Inquiry",
+        "type": "conversion",
+        "event": "contact_form_submission",
+        "description": "User submits contact form"
+      }
+    ]
+  },
+  "conversion_tracking": {
+    "conversion_events": [
+      {
+        "name": "contact_form_submission",
+        "category": "Lead Generation",
+        "value": 50,
+        "currency": "TRY",
+        "trigger": "form submission with class .contact-form"
+      },
+      {
+        "name": "phone_call_click",
+        "category": "Lead Generation",
+        "value": 30,
+        "currency": "TRY",
+        "trigger": "click on tel: link"
+      },
+      {
+        "name": "service_inquiry",
+        "category": "Service Interest",
+        "value": 25,
+        "currency": "TRY",
+        "trigger": "click on service-related links"
+      },
+      {
+        "name": "blog_engagement_high",
+        "category": "Content Engagement",
+        "value": 10,
+        "currency": "TRY",
+        "trigger": "reading time > 2 minutes AND scroll depth > 75%"
+      }
+    ],
+    "funnel_analysis": {
+      "stages": [
+        "Blog Page View",
+        "Content Engagement (>50% scroll)",
+        "Deep Content Reading (>75% scroll)",
+        "Service Link Click",
+        "Contact Form View",
+        "Form Submission"
+      ],
+      "tracking_parameters": [
+        "utm_source",
+        "utm_medium",
+        "utm_campaign",
+        "referrer",
+        "device_type",
+        "browser"
+      ]
+    }
+  },
+  "ab_test_configuration": {
+    "test_groups": {
+      "optimized_blogs": [
+        "vintage-clothing-ozel-care",
+        "wedding-season-wedding-dress-carei",
+        "professional-vs-evde-carpet-cleaning-comparison",
+        "outdoor-textile-urunleri-carei",
+        "is-kiyafetleri-professional-care"
+      ],
+      "control_blogs": [
+        "autumn-kiyafet-gecisi-guide",
+        "winter-preparation-tekstil-koruma",
+        "kalorifer-sezonu-tekstil-carei",
+        "air-conditioned-tekstil-carei",
+        "back-to-school-uniform-carei"
+      ]
+    },
+    "metrics_to_compare": [
+      {
+        "metric": "average_session_duration",
+        "hypothesis": "Optimized blogs will have 25% longer session duration",
+        "measurement": "time in seconds"
+      },
+      {
+        "metric": "bounce_rate",
+        "hypothesis": "Optimized blogs will have 15% lower bounce rate",
+        "measurement": "percentage"
+      },
+      {
+        "metric": "scroll_depth_average",
+        "hypothesis": "Optimized blogs will have 20% deeper scroll engagement",
+        "measurement": "percentage"
+      },
+      {
+        "metric": "conversion_rate",
+        "hypothesis": "Optimized blogs will have 30% higher conversion rate",
+        "measurement": "percentage"
+      },
+      {
+        "metric": "page_load_time",
+        "hypothesis": "Optimized blogs will load 35% faster",
+        "measurement": "milliseconds"
+      }
+    ],
+    "statistical_requirements": {
+      "confidence_level": 95,
+      "minimum_sample_size": 1000,
+      "test_duration_days": 30,
+      "significance_threshold": 0.05
+    }
+  },
+  "monitoring_dashboard": {
+    "real_time_metrics": [
+      "current_active_users",
+      "pages_per_minute",
+      "average_page_load_time",
+      "conversion_events_per_hour"
+    ],
+    "daily_reports": [
+      "unique_visitors",
+      "total_pageviews",
+      "average_session_duration",
+      "bounce_rate",
+      "top_performing_blogs",
+      "conversion_summary"
+    ],
+    "weekly_analysis": [
+      "a_b_test_performance",
+      "user_behavior_trends",
+      "content_engagement_patterns",
+      "technical_performance_summary"
+    ],
+    "alerts": [
+      {
+        "metric": "page_load_time",
+        "threshold": "> 3000ms",
+        "action": "email_notification"
+      },
+      {
+        "metric": "bounce_rate",
+        "threshold": "> 70%",
+        "action": "slack_notification"
+      },
+      {
+        "metric": "conversion_rate",
+        "threshold": "< 2%",
+        "action": "dashboard_alert"
+      }
+    ]
+  },
+  "implementation_guide": {
+    "step_1_google_analytics": {
+      "title": "Google Analytics 4 Kurulumu",
+      "tasks": [
+        "GA4 property oluştur",
+        "Enhanced ecommerce aktif et",
+        "Custom events tanımla",
+        "Conversion goals kur",
+        "Audience segments oluştur"
+      ],
+      "estimated_time": "2 hours"
+    },
+    "step_2_tracking_code": {
+      "title": "Tracking Code Implementasyonu",
+      "tasks": [
+        "Ana tracking script ekle",
+        "Custom event handlers kur",
+        "Form tracking aktif et",
+        "Phone call tracking ekle",
+        "Error tracking kur"
+      ],
+      "estimated_time": "3 hours"
+    },
+    "step_3_heatmap_tools": {
+      "title": "Heatmap ve User Behavior Tools",
+      "recommendations": [
+        "Hotjar (ücretsiz plan)",
+        "Microsoft Clarity (ücretsiz)",
+        "Crazy Egg (premium)"
+      ],
+      "implementation": [
+        "Tool seç ve hesap oluştur",
+        "Tracking code ekle",
+        "Heatmap kayıtlarını başlat",
+        "User session recordings aktif et"
+      ],
+      "estimated_time": "1 hour"
+    },
+    "step_4_conversion_tracking": {
+      "title": "Conversion ve Goal Tracking",
+      "tasks": [
+        "Conversion events tanımla",
+        "Goal funnels oluştur",
+        "Attribution modeling kur",
+        "ROI tracking başlat"
+      ],
+      "estimated_time": "2 hours"
+    },
+    "step_5_monitoring_alerts": {
+      "title": "Monitoring ve Alert Sistemi",
+      "tasks": [
+        "Dashboard kur",
+        "Automated reports tanımla",
+        "Alert thresholds belirle",
+        "Notification channels kur"
+      ],
+      "estimated_time": "1 hour"
+    }
+  },
+  "tracking_scripts": {
+    "heatmap_script": "\n<!-- User Engagement & Heatmap Tracking -->\n<script>\n(function() {\n    // Scroll depth tracking\n    let maxScroll = 0;\n    let scrollMilestones = [25, 50, 75, 90, 100];\n    let scrollReported = [];\n    \n    function trackScrollDepth() {\n        const scrollPercent = Math.round(\n            (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100\n        );\n        \n        if (scrollPercent > maxScroll) {\n            maxScroll = scrollPercent;\n        }\n        \n        scrollMilestones.forEach(milestone => {\n            if (scrollPercent >= milestone && !scrollReported.includes(milestone)) {\n                scrollReported.push(milestone);\n                \n                if (typeof gtag !== 'undefined') {\n                    gtag('event', 'scroll_depth', {\n                        custom_parameter_percentage: milestone,\n                        custom_parameter_page: window.location.pathname,\n                        custom_parameter_content_type: 'blog'\n                    });\n                }\n            }\n        });\n    }\n    \n    // Reading time tracking\n    let startTime = Date.now();\n    let isReading = true;\n    let totalReadingTime = 0;\n    \n    function trackReadingTime() {\n        if (isReading) {\n            totalReadingTime = Date.now() - startTime;\n        }\n    }\n    \n    // User interaction tracking\n    function trackUserInteraction(type, element) {\n        if (typeof gtag !== 'undefined') {\n            gtag('event', 'user_interaction', {\n                custom_parameter_type: type,\n                custom_parameter_element: element,\n                custom_parameter_timestamp: Date.now(),\n                custom_parameter_page: window.location.pathname\n            });\n        }\n    }\n    \n    // Click tracking for important elements\n    document.addEventListener('click', function(e) {\n        const target = e.target;\n        \n        // Track clicks on service links\n        if (target.matches('a[href*=\"hizmet\"], a[href*=\"service\"]')) {\n            trackUserInteraction('service_link_click', target.href);\n        }\n        \n        // Track clicks on contact buttons\n        if (target.matches('.contact-btn, .iletisim-btn')) {\n            trackUserInteraction('contact_button_click', target.textContent);\n        }\n        \n        // Track clicks on blog navigation\n        if (target.matches('.blog-nav a, .kategori-link')) {\n            trackUserInteraction('blog_navigation', target.href);\n        }\n        \n        // Track image clicks\n        if (target.matches('img.featured-image')) {\n            trackUserInteraction('featured_image_click', target.src);\n        }\n    });\n    \n    // Phone number click tracking\n    document.addEventListener('click', function(e) {\n        if (e.target.matches('a[href^=\"tel:\"]')) {\n            if (typeof gtag !== 'undefined') {\n                gtag('event', 'phone_call_intent', {\n                    custom_parameter_number: e.target.href.replace('tel:', ''),\n                    custom_parameter_source: 'blog_page'\n                });\n            }\n        }\n    });\n    \n    // Form submission tracking\n    document.addEventListener('submit', function(e) {\n        const form = e.target;\n        if (form.matches('form')) {\n            if (typeof gtag !== 'undefined') {\n                gtag('event', 'form_submission', {\n                    custom_parameter_form_type: form.id || 'contact_form',\n                    custom_parameter_page: window.location.pathname\n                });\n            }\n        }\n    });\n    \n    // Visibility change tracking (tab switching)\n    document.addEventListener('visibilitychange', function() {\n        if (document.hidden) {\n            isReading = false;\n            trackReadingTime();\n        } else {\n            startTime = Date.now();\n            isReading = true;\n        }\n    });\n    \n    // Page unload tracking\n    window.addEventListener('beforeunload', function() {\n        trackReadingTime();\n        \n        if (typeof gtag !== 'undefined') {\n            gtag('event', 'page_engagement_summary', {\n                custom_parameter_reading_time: totalReadingTime,\n                custom_parameter_max_scroll: maxScroll,\n                custom_parameter_page: window.location.pathname,\n                custom_parameter_session_id: sessionStorage.getItem('session_id') || 'unknown'\n            });\n        }\n    });\n    \n    // Event listeners\n    window.addEventListener('scroll', trackScrollDepth, { passive: true });\n    \n    // Initialize session\n    if (!sessionStorage.getItem('session_id')) {\n        sessionStorage.setItem('session_id', 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9));\n    }\n    \n    // Track page view with enhanced data\n    if (typeof gtag !== 'undefined') {\n        gtag('event', 'enhanced_page_view', {\n            custom_parameter_page_type: 'blog',\n            custom_parameter_content_category: document.querySelector('meta[name=\"keywords\"]')?.content || 'dry-cleaning',\n            custom_parameter_session_id: sessionStorage.getItem('session_id'),\n            custom_parameter_timestamp: Date.now()\n        });\n    }\n})();\n</script>\n        "
+  },
+  "success_metrics": [
+    "User engagement increased by 25%",
+    "Conversion rate improved by 30%",
+    "Bounce rate decreased by 15%",
+    "Session duration increased by 35%"
+  ]
+}

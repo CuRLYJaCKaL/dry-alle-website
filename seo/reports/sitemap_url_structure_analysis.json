@@ -1,0 +1,51 @@
+{
+  "analysis_date": "2025-08-17T08:56:47.096731",
+  "project": "DryAlle Sitemap URL Structure Analysis",
+  "summary": {
+    "total_urls_analyzed": 506,
+    "problematic_urls_count": 0,
+    "avg_url_score": 99.9407114624506,
+    "improvement_potential": 0
+  },
+  "problematic_urls": [],
+  "improved_url_suggestions": {},
+  "seo_recommendations": {
+    "immediate_actions": [
+      "Move files from /seo/outputs/generated_pages/ to proper directory structure",
+      "Implement 301 redirects from old URLs to new URLs",
+      "Update internal links to use new URL structure",
+      "Update sitemap.xml with new URLs"
+    ],
+    "url_structure_guidelines": [
+      "Use descriptive, hierarchical URLs",
+      "Keep URLs under 60 characters when possible",
+      "Use hyphens to separate words",
+      "Avoid special characters and numbers",
+      "Make URLs readable and logical"
+    ],
+    "best_practices": [
+      "Group related content in logical directories",
+      "Use consistent naming conventions",
+      "Implement breadcrumb navigation matching URL structure",
+      "Ensure URL structure reflects site architecture"
+    ]
+  },
+  "implementation_priority": {
+    "high_priority": [
+      {
+        "issue": "generated_pages directory structure",
+        "impact": "Very poor SEO and user experience",
+        "urls_affected": 0,
+        "action": "Immediate restructuring required"
+      }
+    ],
+    "medium_priority": [
+      {
+        "issue": "Long URL segments",
+        "impact": "Poor readability and SEO",
+        "urls_affected": 0,
+        "action": "Shorten and optimize URLs"
+      }
+    ]
+  }
+}

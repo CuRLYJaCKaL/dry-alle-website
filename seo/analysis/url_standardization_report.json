@@ -1,0 +1,315 @@
+{
+  "generation_date": "2025-08-17T03:39:22.416126",
+  "total_urls_processed": 60,
+  "url_mappings": {
+    "/blog/complete-home-textile-maintenance-manual/": {
+      "old_url": "/blog/pillar-content/complete-home-textile-maintenance-manual.html",
+      "new_slug": "complete-home-textile-maintenance-manual",
+      "filename": "complete-home-textile-maintenance-manual.html"
+    },
+    "/blog/ultimate-turkish-dry-cleaning-guide/": {
+      "old_url": "/blog/pillar-content/ultimate-turkish-dry-cleaning-guide.html",
+      "new_slug": "ultimate-turkish-dry-cleaning-guide",
+      "filename": "ultimate-turkish-dry-cleaning-guide.html"
+    },
+    "/blog/istanbul-seasonal-clothing-care-calendar/": {
+      "old_url": "/blog/pillar-content/istanbul-seasonal-clothing-care-calendar.html",
+      "new_slug": "istanbul-seasonal-clothing-care-calendar",
+      "filename": "istanbul-seasonal-clothing-care-calendar.html"
+    },
+    "/blog/hassas-kumaslar-dry-cleaning-guide/": {
+      "old_url": "/blog/kuru-temizleme/hassas-kumaslar-kuru-temizleme-rehberi.html",
+      "new_slug": "hassas-kumaslar-dry-cleaning-guide",
+      "filename": "hassas-kumaslar-kuru-temizleme-rehberi.html"
+    },
+    "/blog/hali-color-fading-onleme-methods/": {
+      "old_url": "/blog/2025-06/hali-renk-solmasi-onleme-yontemleri.html",
+      "new_slug": "hali-color-fading-onleme-methods",
+      "filename": "hali-renk-solmasi-onleme-yontemleri.html"
+    },
+    "/blog/vintage-clothing-ozel-care/": {
+      "old_url": "/blog/2025-06/vintage-kiyafetler-ozel-bakim.html",
+      "new_slug": "vintage-clothing-ozel-care",
+      "filename": "vintage-kiyafetler-ozel-bakim.html"
+    },
+    "/blog/summer-clothes-saklama-guide/": {
+      "old_url": "/blog/2025-06/yaz-kiyafetleri-saklama-rehberi.html",
+      "new_slug": "summer-clothes-saklama-guide",
+      "filename": "yaz-kiyafetleri-saklama-rehberi.html"
+    },
+    "/blog/air-conditioned-tekstil-carei/": {
+      "old_url": "/blog/2025-06/klimali-ortamda-tekstil-bakimi.html",
+      "new_slug": "air-conditioned-tekstil-carei",
+      "filename": "klimali-ortamda-tekstil-bakimi.html"
+    },
+    "/blog/2025-yilinda-istanbul-dry-cleaning-trendleri/": {
+      "old_url": "/blog/2025-01/2025-yilinda-istanbul-kuru-temizleme-trendleri.html",
+      "new_slug": "2025-yilinda-istanbul-dry-cleaning-trendleri",
+      "filename": "2025-yilinda-istanbul-kuru-temizleme-trendleri.html"
+    },
+    "/blog/professional-vs-evde-carpet-cleaning-comparison/": {
+      "old_url": "/blog/2025-01/profesyonel-vs-evde-hali-yikama-karsilastirma.html",
+      "new_slug": "professional-vs-evde-carpet-cleaning-comparison",
+      "filename": "profesyonel-vs-evde-hali-yikama-karsilastirma.html"
+    },
+    "/blog/winter-dry-cleaning-tips/": {
+      "old_url": "/blog/2025-01/kis-aylarinda-kuru-temizleme-ipuclari.html",
+      "new_slug": "winter-dry-cleaning-tips",
+      "filename": "kis-aylarinda-kuru-temizleme-ipuclari.html"
+    },
+    "/blog/wedding-dress-temizleme-ultimate-rehber/": {
+      "old_url": "/blog/2025-01/gelinlik-temizleme-ultimate-rehber-2025.html",
+      "new_slug": "wedding-dress-temizleme-ultimate-rehber",
+      "filename": "gelinlik-temizleme-ultimate-rehber-2025.html"
+    },
+    "/blog/back-to-school-uniform-carei/": {
+      "old_url": "/blog/2025-08/okul-oncesi-uniform-bakimi.html",
+      "new_slug": "back-to-school-uniform-carei",
+      "filename": "okul-oncesi-uniform-bakimi.html"
+    },
+    "/blog/dry-cleaning-sigorta-ve-garanti/": {
+      "old_url": "/blog/2025-08/kuru-temizleme-sigorta-ve-garanti.html",
+      "new_slug": "dry-cleaning-sigorta-ve-garanti",
+      "filename": "kuru-temizleme-sigorta-ve-garanti.html"
+    },
+    "/blog/professional-carpet-cleaning-surecler/": {
+      "old_url": "/blog/2025-08/profesyonel-hali-yikama-surecler.html",
+      "new_slug": "professional-carpet-cleaning-surecler",
+      "filename": "profesyonel-hali-yikama-surecler.html"
+    },
+    "/blog/home-textiles-hijyen-guide/": {
+      "old_url": "/blog/2025-08/ev-tekstili-hijyen-rehberi.html",
+      "new_slug": "home-textiles-hijyen-guide",
+      "filename": "ev-tekstili-hijyen-rehberi.html"
+    },
+    "/blog/kumas-ve-deri-koltuk-temizligi-guide/": {
+      "old_url": "/blog/koltuk-yikama/kumas-ve-deri-koltuk-temizligi-rehberi.html",
+      "new_slug": "kumas-ve-deri-koltuk-temizligi-guide",
+      "filename": "kumas-ve-deri-koltuk-temizligi-rehberi.html"
+    },
+    "/blog/curtain-cleaning-ev-vs-professional/": {
+      "old_url": "/blog/2025-09/perde-temizleme-ev-vs-profesyonel.html",
+      "new_slug": "curtain-cleaning-ev-vs-professional",
+      "filename": "perde-temizleme-ev-vs-profesyonel.html"
+    },
+    "/blog/carpet-cleaning-technology-innovations/": {
+      "old_url": "/blog/2025-09/hali-yikama-teknoloji-yenilikleri.html",
+      "new_slug": "carpet-cleaning-technology-innovations",
+      "filename": "hali-yikama-teknoloji-yenilikleri.html"
+    },
+    "/blog/is-kiyafetleri-professional-care/": {
+      "old_url": "/blog/2025-09/iş-kiyafetleri-profesyonel-bakim.html",
+      "new_slug": "is-kiyafetleri-professional-care",
+      "filename": "iş-kiyafetleri-profesyonel-bakim.html"
+    },
+    "/blog/autumn-kiyafet-gecisi-guide/": {
+      "old_url": "/blog/2025-09/sonbahar-kiyafet-gecisi-rehberi.html",
+      "new_slug": "autumn-kiyafet-gecisi-guide",
+      "filename": "sonbahar-kiyafet-gecisi-rehberi.html"
+    },
+    "/blog/hot-weather-dry-cleaning/": {
+      "old_url": "/blog/2025-07/sicak-havalarda-kuru-temizleme.html",
+      "new_slug": "hot-weather-dry-cleaning",
+      "filename": "sicak-havalarda-kuru-temizleme.html"
+    },
+    "/blog/istanbul-sicakliginda-hali-carei/": {
+      "old_url": "/blog/2025-07/istanbul-sicakliginda-hali-bakimi.html",
+      "new_slug": "istanbul-sicakliginda-hali-carei",
+      "filename": "istanbul-sicakliginda-hali-bakimi.html"
+    },
+    "/blog/outdoor-textile-urunleri-carei/": {
+      "old_url": "/blog/2025-07/outdoor-tekstil-urunleri-bakimi.html",
+      "new_slug": "outdoor-textile-urunleri-carei",
+      "filename": "outdoor-tekstil-urunleri-bakimi.html"
+    },
+    "/blog/post-vacation-kiyafet-carei/": {
+      "old_url": "/blog/2025-07/tatil-donusu-kiyafet-bakimi.html",
+      "new_slug": "post-vacation-kiyafet-carei",
+      "filename": "tatil-donusu-kiyafet-bakimi.html"
+    },
+    "/blog/new-year-ozel-kiyafet-hazarligi/": {
+      "old_url": "/blog/2025-12/yilbasi-ozel-kiyafet-hazarligi.html",
+      "new_slug": "new-year-ozel-kiyafet-hazarligi",
+      "filename": "yilbasi-ozel-kiyafet-hazarligi.html"
+    },
+    "/blog/kis-hali-care-stratejileri/": {
+      "old_url": "/blog/2025-12/kis-hali-bakim-stratejileri.html",
+      "new_slug": "kis-hali-care-stratejileri",
+      "filename": "kis-hali-bakim-stratejileri.html"
+    },
+    "/blog/2026-tekstil-care-trendleri/": {
+      "old_url": "/blog/2025-12/2026-tekstil-bakim-trendleri.html",
+      "new_slug": "2026-tekstil-care-trendleri",
+      "filename": "2026-tekstil-bakim-trendleri.html"
+    },
+    "/blog/2025-tekstil-care-ozeti/": {
+      "old_url": "/blog/2025-12/2025-tekstil-bakim-ozeti.html",
+      "new_slug": "2025-tekstil-care-ozeti",
+      "filename": "2025-tekstil-bakim-ozeti.html"
+    },
+    "/blog/ev-utusu-vs-professional-utu-hizmeti/": {
+      "old_url": "/blog/utu-hizmetleri/ev-utusu-vs-profesyonel-utu-hizmeti.html",
+      "new_slug": "ev-utusu-vs-professional-utu-hizmeti",
+      "filename": "ev-utusu-vs-profesyonel-utu-hizmeti.html"
+    },
+    "/blog/ev-tekstillerinin-care-ve-cleaning-guide/": {
+      "old_url": "/blog/ev-tekstili/ev-tekstillerinin-bakim-ve-temizlik-rehberi.html",
+      "new_slug": "ev-tekstillerinin-care-ve-cleaning-guide",
+      "filename": "ev-tekstillerinin-bakim-ve-temizlik-rehberi.html"
+    },
+    "/blog/istanbul-elit-semtlerde-tekstil-carei/": {
+      "old_url": "/blog/2025-02/istanbul-elit-semtlerde-tekstil-bakimi.html",
+      "new_slug": "istanbul-elit-semtlerde-tekstil-carei",
+      "filename": "istanbul-elit-semtlerde-tekstil-bakimi.html"
+    },
+    "/blog/dry-cleaning-kimyasallari-guvenligi/": {
+      "old_url": "/blog/2025-02/kuru-temizleme-kimyasallari-guvenligi.html",
+      "new_slug": "dry-cleaning-kimyasallari-guvenligi",
+      "filename": "kuru-temizleme-kimyasallari-guvenligi.html"
+    },
+    "/blog/valentines-day-ozel-kiyafet-carei/": {
+      "old_url": "/blog/2025-02/sevgililer-gunu-ozel-kiyafet-bakimi.html",
+      "new_slug": "valentines-day-ozel-kiyafet-carei",
+      "filename": "sevgililer-gunu-ozel-kiyafet-bakimi.html"
+    },
+    "/blog/carpet-cleaning-sonrasi-care-guide/": {
+      "old_url": "/blog/2025-02/hali-yikama-sonrasi-bakim-rehberi.html",
+      "new_slug": "carpet-cleaning-sonrasi-care-guide",
+      "filename": "hali-yikama-sonrasi-bakim-rehberi.html"
+    },
+    "/blog/carpet-cleaning-allergic-reactions/": {
+      "old_url": "/blog/2025-05/hali-yikama-allerjik-reaksiyonlar.html",
+      "new_slug": "carpet-cleaning-allergic-reactions",
+      "filename": "hali-yikama-allerjik-reaksiyonlar.html"
+    },
+    "/blog/dry-cleaning-hatalari-ve-cozumleri/": {
+      "old_url": "/blog/2025-05/kuru-temizleme-hatalari-ve-cozumleri.html",
+      "new_slug": "dry-cleaning-hatalari-ve-cozumleri",
+      "filename": "kuru-temizleme-hatalari-ve-cozumleri.html"
+    },
+    "/blog/wedding-season-wedding-dress-carei/": {
+      "old_url": "/blog/2025-05/duggun-sezonu-gelinlik-bakimi.html",
+      "new_slug": "wedding-season-wedding-dress-carei",
+      "filename": "duggun-sezonu-gelinlik-bakimi.html"
+    },
+    "/blog/luxury-textile-care-technologies/": {
+      "old_url": "/blog/2025-05/lux-tekstil-bakim-teknolojileri.html",
+      "new_slug": "luxury-textile-care-technologies",
+      "filename": "lux-tekstil-bakim-teknolojileri.html"
+    },
+    "/blog/summer-preparation-kiyafet-saklama/": {
+      "old_url": "/blog/2025-04/yaz-hazarligi-kiyafet-saklama.html",
+      "new_slug": "summer-preparation-kiyafet-saklama",
+      "filename": "yaz-hazarligi-kiyafet-saklama.html"
+    },
+    "/blog/ipek-kumaslar-dry-cleaning-guide/": {
+      "old_url": "/blog/2025-04/ipek-kumaslar-kuru-temizleme-rehberi.html",
+      "new_slug": "ipek-kumaslar-dry-cleaning-guide",
+      "filename": "ipek-kumaslar-kuru-temizleme-rehberi.html"
+    },
+    "/blog/sofa-cleaning-diy-vs-professional/": {
+      "old_url": "/blog/2025-04/koltuk-yikama-diy-vs-profesyonel.html",
+      "new_slug": "sofa-cleaning-diy-vs-professional",
+      "filename": "koltuk-yikama-diy-vs-profesyonel.html"
+    },
+    "/blog/istanbul-anatolian-side-dry-cleaning/": {
+      "old_url": "/blog/2025-04/istanbul-anadolu-yakasi-kuru-temizleme.html",
+      "new_slug": "istanbul-anatolian-side-dry-cleaning",
+      "filename": "istanbul-anadolu-yakasi-kuru-temizleme.html"
+    },
+    "/blog/professional-laundry-vs-home-washing/": {
+      "old_url": "/blog/2025-03/professional-laundry-vs-home-washing.html",
+      "new_slug": "professional-laundry-vs-home-washing",
+      "filename": "professional-laundry-vs-home-washing.html"
+    },
+    "/blog/spring-cleaning-tekstil-carei/": {
+      "old_url": "/blog/2025-03/bahar-temizligi-tekstil-bakimi.html",
+      "new_slug": "spring-cleaning-tekstil-carei",
+      "filename": "bahar-temizligi-tekstil-bakimi.html"
+    },
+    "/blog/dry-cleaning-eco-friendly-alternatifler/": {
+      "old_url": "/blog/2025-03/kuru-temizleme-cevre-dostu-alternatifler.html",
+      "new_slug": "dry-cleaning-eco-friendly-alternatifler",
+      "filename": "kuru-temizleme-cevre-dostu-alternatifler.html"
+    },
+    "/blog/antik-carpet-cleaning-ozel-yontemler/": {
+      "old_url": "/blog/2025-03/antik-hali-yikama-ozel-yontemler.html",
+      "new_slug": "antik-carpet-cleaning-ozel-yontemler",
+      "filename": "antik-hali-yikama-ozel-yontemler.html"
+    },
+    "/blog/deri-ve-kumas-canta-care-guide/": {
+      "old_url": "/blog/canta-temizleme/deri-ve-kumas-canta-bakim-rehberi.html",
+      "new_slug": "deri-ve-kumas-canta-care-guide",
+      "filename": "deri-ve-kumas-canta-bakim-rehberi.html"
+    },
+    "/blog/dry-cleaning-perfect-results/": {
+      "old_url": "/blog/2025-10/kuru-temizleme-mukemmel-sonuclar.html",
+      "new_slug": "dry-cleaning-perfect-results",
+      "filename": "kuru-temizleme-mukemmel-sonuclar.html"
+    },
+    "/blog/koltuk-upholstery-renewal-guide/": {
+      "old_url": "/blog/2025-10/koltuk-kaplama-yenileme-rehberi.html",
+      "new_slug": "koltuk-upholstery-renewal-guide",
+      "filename": "koltuk-kaplama-yenileme-rehberi.html"
+    },
+    "/blog/antik-mobilya-tekstil-carei/": {
+      "old_url": "/blog/2025-10/antik-mobilya-tekstil-bakimi.html",
+      "new_slug": "antik-mobilya-tekstil-carei",
+      "filename": "antik-mobilya-tekstil-bakimi.html"
+    },
+    "/blog/winter-preparation-tekstil-koruma/": {
+      "old_url": "/blog/2025-10/kis-hazarligi-tekstil-koruma.html",
+      "new_slug": "winter-preparation-tekstil-koruma",
+      "filename": "kis-hazarligi-tekstil-koruma.html"
+    },
+    "/blog/evde-hali-carei-ve-professional-washing-guide/": {
+      "old_url": "/blog/hali-yikama/evde-hali-bakimi-ve-profesyonel-yikama-rehberi.html",
+      "new_slug": "evde-hali-carei-ve-professional-washing-guide",
+      "filename": "evde-hali-bakimi-ve-profesyonel-yikama-rehberi.html"
+    },
+    "/blog/solmus-kiyafetlere-yeni-hayat-verme-guide/": {
+      "old_url": "/blog/kumas-deri-boyama/solmus-kiyafetlere-yeni-hayat-verme-rehberi.html",
+      "new_slug": "solmus-kiyafetlere-yeni-hayat-verme-guide",
+      "filename": "solmus-kiyafetlere-yeni-hayat-verme-rehberi.html"
+    },
+    "/blog/kalorifer-sezonu-tekstil-carei/": {
+      "old_url": "/blog/2025-11/kalorifer-sezonu-tekstil-bakimi.html",
+      "new_slug": "kalorifer-sezonu-tekstil-carei",
+      "filename": "kalorifer-sezonu-tekstil-bakimi.html"
+    },
+    "/blog/dry-cleaning-quality-control/": {
+      "old_url": "/blog/2025-11/kuru-temizleme-quality-control.html",
+      "new_slug": "dry-cleaning-quality-control",
+      "filename": "kuru-temizleme-quality-control.html"
+    },
+    "/blog/luxury-hali-collection-carei/": {
+      "old_url": "/blog/2025-11/luxury-hali-collection-bakimi.html",
+      "new_slug": "luxury-hali-collection-carei",
+      "filename": "luxury-hali-collection-bakimi.html"
+    },
+    "/blog/winter-clothes-ozel-care/": {
+      "old_url": "/blog/2025-11/kis-kiyafetleri-ozel-bakim.html",
+      "new_slug": "winter-clothes-ozel-care",
+      "filename": "kis-kiyafetleri-ozel-bakim.html"
+    },
+    "/blog/ev-perdelerinizi-temiz-tutma-guide/": {
+      "old_url": "/blog/perde-temizleme/ev-perdelerinizi-temiz-tutma-rehberi.html",
+      "new_slug": "ev-perdelerinizi-temiz-tutma-guide",
+      "filename": "ev-perdelerinizi-temiz-tutma-rehberi.html"
+    },
+    "/blog/ayakkabi-ve-deri-urunler-care-guide/": {
+      "old_url": "/blog/lostra-hizmeti/ayakkabi-ve-deri-urunler-bakim-rehberi.html",
+      "new_slug": "ayakkabi-ve-deri-urunler-care-guide",
+      "filename": "ayakkabi-ve-deri-urunler-bakim-rehberi.html"
+    }
+  },
+  "redirect_rules_count": 60,
+  "migration_plan_count": 60,
+  "seo_benefits": [
+    "Turkish character removal for better international SEO",
+    "Date removal creates timeless URLs",
+    "Keyword-optimized English slugs",
+    "Clean /blog/{slug}/ structure",
+    "Proper 301 redirects preserve link juice"
+  ]
+}

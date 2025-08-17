@@ -1,0 +1,506 @@
+name: Blog Automation & SEO Pipeline
+# C1: Automated Blog Publishing & Sitemap Updates
+
+on:
+  # Manual trigger for immediate publishing
+  workflow_dispatch:
+    inputs:
+      blog_action:
+        description: 'Blog action to perform'
+        required: true
+        default: 'publish_drafts'
+        type: choice
+        options:
+        - publish_drafts
+        - update_sitemap
+        - optimize_images
+        - validate_seo
+        - full_pipeline
+  
+  # Scheduled publishing (daily at 9 AM Istanbul time)
+  schedule:
+    - cron: '0 6 * * *'  # 06:00 UTC = 09:00 Istanbul time
+  
+  # Trigger on push to main branch (for immediate updates)
+  push:
+    branches: [ main ]
+    paths: 
+      - 'blog/**'
+      - 'seo/**'
+
+env:
+  NODE_VERSION: '18'
+  PYTHON_VERSION: '3.9'
+
+jobs:
+  blog-automation:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Full history for proper git operations
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+    
+    - name: Install Dependencies
+      run: |
+        # Python dependencies for SEO automation
+        pip install beautifulsoup4 requests Pillow lxml
+        
+        # Node.js dependencies for Lighthouse audits
+        npm install -g lighthouse lighthouse-ci @lhci/cli
+    
+    - name: Detect Blog Changes
+      id: detect_changes
+      run: |
+        echo "Detecting blog content changes..."
+        
+        # Check for new/modified blog files
+        NEW_BLOGS=$(git diff --name-only HEAD~1 HEAD | grep '^blog/' | grep '\.html$' || echo "")
+        MODIFIED_BLOGS=$(git diff --name-only HEAD~1 HEAD | grep '^blog/' || echo "")
+        
+        echo "new_blogs=${NEW_BLOGS}" >> $GITHUB_OUTPUT
+        echo "modified_blogs=${MODIFIED_BLOGS}" >> $GITHUB_OUTPUT
+        echo "has_blog_changes=$([ -n "$NEW_BLOGS" ] || [ -n "$MODIFIED_BLOGS" ] && echo 'true' || echo 'false')" >> $GITHUB_OUTPUT
+        
+        # Log detected changes
+        if [ -n "$NEW_BLOGS" ]; then
+          echo "📝 New blog posts detected:"
+          echo "$NEW_BLOGS"
+        fi
+        
+        if [ -n "$MODIFIED_BLOGS" ]; then
+          echo "✏️ Modified blog content detected:"
+          echo "$MODIFIED_BLOGS"
+        fi
+    
+    - name: Publish Draft Blog Posts
+      if: github.event.inputs.blog_action == 'publish_drafts' || github.event.inputs.blog_action == 'full_pipeline' || github.event_name == 'schedule'
+      run: |
+        echo "🚀 Publishing draft blog posts..."
+        
+        # Find draft blog posts (posts with draft: true in frontmatter or _draft folder)
+        python3 << EOF
+        import os
+        import re
+        from datetime import datetime
+        
+        def publish_drafts():
+            blog_root = 'blog'
+            published_count = 0
+            
+            # Look for draft posts in _drafts folder or with draft metadata
+            for root, dirs, files in os.walk(blog_root):
+                for file in files:
+                    if file == 'index.html':
+                        file_path = os.path.join(root, file)
+                        
+                        # Check if it's a draft
+                        with open(file_path, 'r', encoding='utf-8') as f:
+                            content = f.read()
+                        
+                        # Look for draft indicators
+                        if '_draft' in root or 'draft: true' in content or 'status: draft' in content:
+                            print(f"📝 Publishing draft: {file_path}")
+                            
+                            # Remove draft indicators
+                            content = content.replace('draft: true', 'draft: false')
+                            content = content.replace('status: draft', 'status: published')
+                            
+                            # Update publish date
+                            today = datetime.now().strftime('%Y-%m-%d')
+                            if 'datePublished' in content:
+                                content = re.sub(r'"datePublished": "[^"]*"', f'"datePublished": "{today}"', content)
+                            
+                            # Move from _draft to regular blog structure if needed
+                            if '_draft' in root:
+                                new_path = root.replace('_draft/', '').replace('_drafts/', '')
+                                os.makedirs(new_path, exist_ok=True)
+                                new_file_path = os.path.join(new_path, file)
+                                
+                                with open(new_file_path, 'w', encoding='utf-8') as f:
+                                    f.write(content)
+                                
+                                # Remove draft file
+                                os.remove(file_path)
+                                print(f"✅ Moved and published: {new_file_path}")
+                            else:
+                                # Update in place
+                                with open(file_path, 'w', encoding='utf-8') as f:
+                                    f.write(content)
+                                print(f"✅ Published: {file_path}")
+                            
+                            published_count += 1
+            
+            print(f"📊 Published {published_count} blog posts")
+            return published_count
+        
+        published = publish_drafts()
+        
+        # Set output for subsequent steps
+        with open('published_count.txt', 'w') as f:
+            f.write(str(published))
+        EOF
+    
+    - name: Optimize Blog Images
+      if: github.event.inputs.blog_action == 'optimize_images' || github.event.inputs.blog_action == 'full_pipeline' || steps.detect_changes.outputs.has_blog_changes == 'true'
+      run: |
+        echo "🎨 Optimizing blog images..."
+        
+        # Run the visual optimization script if it exists
+        if [ -f "seo/scripts/blog_visual_optimizer.py" ]; then
+          python3 seo/scripts/blog_visual_optimizer.py
+        else
+          echo "⚠️ Visual optimizer script not found, skipping image optimization"
+        fi
+    
+    - name: Update Sitemap (Enhanced)
+      if: github.event.inputs.blog_action == 'update_sitemap' || github.event.inputs.blog_action == 'full_pipeline' || steps.detect_changes.outputs.has_blog_changes == 'true'
+      run: |
+        echo "🗺️ Updating sitemap with new blog posts..."
+        
+        python3 << EOF
+        import os
+        import xml.etree.ElementTree as ET
+        from datetime import datetime, timedelta
+        from urllib.parse import quote
+        
+        def update_sitemap_with_blogs():
+            sitemap_path = 'sitemap.xml'
+            blog_root = 'blog'
+            base_url = 'https://dryallekurutemizleme.com'
+            
+            # Parse existing sitemap
+            try:
+                tree = ET.parse(sitemap_path)
+                root = tree.getroot()
+            except:
+                # Create new sitemap if doesn't exist
+                root = ET.Element('urlset')
+                root.set('xmlns', 'http://www.sitemaps.org/schemas/sitemap/0.9')
+                tree = ET.ElementTree(root)
+            
+            # Get existing URLs
+            existing_urls = set()
+            for url_elem in root.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}url'):
+                loc_elem = url_elem.find('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
+                if loc_elem is not None:
+                    existing_urls.add(loc_elem.text)
+            
+            # Find all blog posts
+            blog_urls = []
+            for item in os.listdir(blog_root):
+                item_path = os.path.join(blog_root, item)
+                if os.path.isdir(item_path) and not item.startswith('.'):
+                    index_path = os.path.join(item_path, 'index.html')
+                    if os.path.exists(index_path):
+                        blog_url = f"{base_url}/blog/{item}/"
+                        if blog_url not in existing_urls:
+                            blog_urls.append(blog_url)
+            
+            # Add new blog URLs to sitemap
+            added_count = 0
+            for blog_url in blog_urls:
+                url_element = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}url')
+                
+                # Location
+                loc = ET.SubElement(url_element, '{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
+                loc.text = blog_url
+                
+                # Last modification
+                lastmod = ET.SubElement(url_element, '{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod')
+                lastmod.text = datetime.now().strftime('%Y-%m-%d')
+                
+                # Change frequency
+                changefreq = ET.SubElement(url_element, '{http://www.sitemaps.org/schemas/sitemap/0.9}changefreq')
+                changefreq.text = 'monthly'
+                
+                # Priority
+                priority = ET.SubElement(url_element, '{http://www.sitemaps.org/schemas/sitemap/0.9}priority')
+                priority.text = '0.6'
+                
+                root.append(url_element)
+                added_count += 1
+                print(f"➕ Added to sitemap: {blog_url}")
+            
+            # Save updated sitemap
+            ET.indent(tree, space="  ", level=0)
+            tree.write(sitemap_path, encoding='utf-8', xml_declaration=True)
+            
+            print(f"🗺️ Sitemap updated with {added_count} new blog posts")
+            return added_count
+        
+        added = update_sitemap_with_blogs()
+        
+        # Set output for commit message
+        with open('sitemap_changes.txt', 'w') as f:
+            f.write(str(added))
+        EOF
+    
+    - name: SEO Validation
+      if: github.event.inputs.blog_action == 'validate_seo' || github.event.inputs.blog_action == 'full_pipeline'
+      run: |
+        echo "🔍 Running SEO validation..."
+        
+        # Validate HTML structure and SEO elements
+        python3 << EOF
+        import os
+        import re
+        from bs4 import BeautifulSoup
+        
+        def validate_blog_seo():
+            blog_root = 'blog'
+            issues = []
+            
+            for item in os.listdir(blog_root):
+                item_path = os.path.join(blog_root, item)
+                if os.path.isdir(item_path) and not item.startswith('.'):
+                    index_path = os.path.join(item_path, 'index.html')
+                    if os.path.exists(index_path):
+                        with open(index_path, 'r', encoding='utf-8') as f:
+                            soup = BeautifulSoup(f.read(), 'html.parser')
+                        
+                        # Check required SEO elements
+                        checks = [
+                            (soup.find('title'), f"{item}: Missing title tag"),
+                            (soup.find('meta', {'name': 'description'}), f"{item}: Missing meta description"),
+                            (soup.find('h1'), f"{item}: Missing H1 tag"),
+                            (soup.find('link', {'rel': 'canonical'}), f"{item}: Missing canonical URL"),
+                            (soup.find('meta', {'property': 'og:title'}), f"{item}: Missing Open Graph title"),
+                            (soup.find('script', {'type': 'application/ld+json'}), f"{item}: Missing schema markup")
+                        ]
+                        
+                        for element, error_msg in checks:
+                            if not element:
+                                issues.append(error_msg)
+                        
+                        # Check title length
+                        title = soup.find('title')
+                        if title and len(title.get_text()) > 60:
+                            issues.append(f"{item}: Title too long ({len(title.get_text())} chars)")
+                        
+                        # Check meta description length
+                        meta_desc = soup.find('meta', {'name': 'description'})
+                        if meta_desc and len(meta_desc.get('content', '')) > 160:
+                            issues.append(f"{item}: Meta description too long")
+            
+            if issues:
+                print("⚠️ SEO Issues Found:")
+                for issue in issues[:10]:  # Show first 10 issues
+                    print(f"  - {issue}")
+                if len(issues) > 10:
+                    print(f"  ... and {len(issues) - 10} more issues")
+            else:
+                print("✅ All blog posts pass SEO validation")
+            
+            return len(issues)
+        
+        issue_count = validate_blog_seo()
+        
+        # Fail the workflow if critical SEO issues found
+        if issue_count > 20:
+            print(f"❌ Too many SEO issues found ({issue_count}). Failing workflow.")
+            exit(1)
+        else:
+            print(f"✅ SEO validation passed with {issue_count} minor issues")
+        EOF
+    
+    - name: Lighthouse Performance Audit
+      if: github.event.inputs.blog_action == 'validate_seo' || github.event.inputs.blog_action == 'full_pipeline'
+      run: |
+        echo "🚥 Running Lighthouse performance audit..."
+        
+        # Install http-server for local testing
+        npm install -g http-server
+        
+        # Start local server in background
+        http-server . -p 8080 &
+        SERVER_PID=$!
+        
+        # Wait for server to start
+        sleep 5
+        
+        # Run Lighthouse on sample blog posts
+        mkdir -p lighthouse-reports
+        
+        # Test a few representative blog posts
+        SAMPLE_BLOGS=(
+          "winter-dry-cleaning-tips"
+          "wedding-dress-temizleme-ultimate-rehber"
+          "complete-home-textile-maintenance-manual"
+        )
+        
+        for blog in "${SAMPLE_BLOGS[@]}"; do
+          if [ -d "blog/$blog" ]; then
+            echo "🚥 Testing: $blog"
+            lighthouse "http://localhost:8080/blog/$blog/" \
+              --output=json \
+              --output-path="lighthouse-reports/$blog.json" \
+              --chrome-flags="--headless --no-sandbox" \
+              --quiet || echo "⚠️ Lighthouse failed for $blog"
+          fi
+        done
+        
+        # Kill the server
+        kill $SERVER_PID
+        
+        # Analyze results
+        python3 << EOF
+        import json
+        import os
+        
+        def analyze_lighthouse_results():
+            reports_dir = 'lighthouse-reports'
+            if not os.path.exists(reports_dir):
+                print("⚠️ No Lighthouse reports found")
+                return
+            
+            total_performance = 0
+            total_seo = 0
+            total_accessibility = 0
+            count = 0
+            
+            for file in os.listdir(reports_dir):
+                if file.endswith('.json'):
+                    with open(os.path.join(reports_dir, file), 'r') as f:
+                        try:
+                            data = json.load(f)
+                            categories = data.get('categories', {})
+                            
+                            performance = categories.get('performance', {}).get('score', 0) * 100
+                            seo = categories.get('seo', {}).get('score', 0) * 100
+                            accessibility = categories.get('accessibility', {}).get('score', 0) * 100
+                            
+                            print(f"📊 {file.replace('.json', '')}:")
+                            print(f"   Performance: {performance:.1f}/100")
+                            print(f"   SEO: {seo:.1f}/100")
+                            print(f"   Accessibility: {accessibility:.1f}/100")
+                            
+                            total_performance += performance
+                            total_seo += seo
+                            total_accessibility += accessibility
+                            count += 1
+                        except:
+                            print(f"⚠️ Failed to parse {file}")
+            
+            if count > 0:
+                avg_performance = total_performance / count
+                avg_seo = total_seo / count
+                avg_accessibility = total_accessibility / count
+                
+                print(f"\n📈 Average Scores:")
+                print(f"   Performance: {avg_performance:.1f}/100")
+                print(f"   SEO: {avg_seo:.1f}/100")
+                print(f"   Accessibility: {avg_accessibility:.1f}/100")
+                
+                # Check thresholds
+                if avg_performance < 80:
+                    print("⚠️ Performance below target (80)")
+                if avg_seo < 95:
+                    print("⚠️ SEO below target (95)")
+                if avg_accessibility < 90:
+                    print("⚠️ Accessibility below target (90)")
+                
+                return avg_performance >= 80 and avg_seo >= 95 and avg_accessibility >= 90
+            
+            return False
+        
+        passed = analyze_lighthouse_results()
+        if not passed:
+            print("⚠️ Some Lighthouse thresholds not met - check individual reports")
+        else:
+            print("✅ All Lighthouse audits passed!")
+        EOF
+    
+    - name: Commit Changes
+      if: success()
+      run: |
+        # Check if there are any changes to commit
+        if [ -n "$(git status --porcelain)" ]; then
+          # Configure git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Read counts from previous steps
+          PUBLISHED_COUNT=$(cat published_count.txt 2>/dev/null || echo "0")
+          SITEMAP_CHANGES=$(cat sitemap_changes.txt 2>/dev/null || echo "0")
+          
+          # Create commit message
+          COMMIT_MSG="🚀 Automated Blog Pipeline"
+          
+          if [ "$PUBLISHED_COUNT" -gt "0" ]; then
+            COMMIT_MSG="$COMMIT_MSG - Published $PUBLISHED_COUNT posts"
+          fi
+          
+          if [ "$SITEMAP_CHANGES" -gt "0" ]; then
+            COMMIT_MSG="$COMMIT_MSG - Updated sitemap (+$SITEMAP_CHANGES URLs)"
+          fi
+          
+          COMMIT_MSG="$COMMIT_MSG
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+          
+          # Stage and commit changes
+          git add .
+          git commit -m "$COMMIT_MSG"
+          git push
+          
+          echo "✅ Changes committed and pushed"
+        else
+          echo "ℹ️ No changes to commit"
+        fi
+    
+    - name: Notify on Failure
+      if: failure()
+      run: |
+        echo "❌ Blog automation pipeline failed!"
+        echo "Check the logs above for specific error details."
+        
+        # In a production environment, you might want to:
+        # - Send notifications to Slack/Discord
+        # - Email the development team
+        # - Create GitHub issues for failures
+    
+    - name: Clean Up
+      if: always()
+      run: |
+        # Clean up temporary files
+        rm -f published_count.txt sitemap_changes.txt
+        rm -rf lighthouse-reports
+        
+        echo "🧹 Cleanup completed"
+
+  # Separate job for manual blog deployment to production
+  deploy-to-production:
+    if: github.event.inputs.blog_action == 'full_pipeline' && github.ref == 'refs/heads/main'
+    needs: blog-automation
+    runs-on: ubuntu-latest
+    environment: production
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+    
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: .
+        publish_branch: gh-pages
+        force_orphan: true
+    
+    - name: Notify Success
+      run: |
+        echo "🎉 Blog successfully deployed to production!"
+        echo "📊 Blog automation pipeline completed successfully"

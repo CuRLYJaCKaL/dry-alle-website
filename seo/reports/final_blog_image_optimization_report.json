@@ -1,0 +1,900 @@
+{
+  "report_date": "2025-08-17T05:29:32.738118",
+  "project": "DryAlle Blog Görsel Optimizasyonu - Final Rapor",
+  "summary": {
+    "total_blogs_analyzed": 82,
+    "blogs_with_optimized_images": 69,
+    "overall_success_rate": 84.14634146341463,
+    "total_optimized_size_kb": 3100,
+    "average_image_size_kb": 44.927536231884055
+  },
+  "optimization_results": {
+    "format_optimization": {
+      "webp_format_rate": 84.14634146341463,
+      "average_compression_ratio": 0,
+      "total_space_saved_kb": 0
+    },
+    "size_optimization": {
+      "under_100kb_count": 63,
+      "under_150kb_count": 68,
+      "over_200kb_count": 1,
+      "size_distribution": {
+        "0-50KB": 56,
+        "51-100KB": 7,
+        "101-150KB": 5,
+        "151-200KB": 0,
+        ">200KB": 1
+      }
+    },
+    "quality_metrics": {
+      "perfect_dimensions_count": 69,
+      "high_quality_count": 69,
+      "average_quality_score": 98.98550724637681
+    },
+    "diversity_metrics": {
+      "unique_images_rate": 100,
+      "theme_coverage": {
+        "unique_themes": 7,
+        "theme_coverage_rate": 100.0,
+        "balanced_distribution": true
+      }
+    }
+  },
+  "detailed_analysis": {
+    "total_blogs": 82,
+    "blogs_with_images": 69,
+    "image_coverage_percentage": 84.14634146341463,
+    "total_image_size_kb": 3100,
+    "average_image_size_kb": 44.927536231884055,
+    "blog_details": [
+      {
+        "slug": "vintage-clothing-ozel-care",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 113,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 90
+      },
+      {
+        "slug": "pillar-content",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "wedding-season-wedding-dress-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "professional-vs-evde-carpet-cleaning-comparison",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 111,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 90
+      },
+      {
+        "slug": "outdoor-textile-urunleri-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 116,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 90
+      },
+      {
+        "slug": "is-kiyafetleri-professional-care",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "kuru-temizleme",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 142,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 90
+      },
+      {
+        "slug": "evde-hali-carei-ve-professional-washing-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 92,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "winter-preparation-tekstil-koruma",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "2025-06",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "2025-01",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "2025-08",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "autumn-kiyafet-gecisi-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "koltuk-yikama",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 29,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "hali-color-fading-onleme-methods",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 47,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "carpet-cleaning-sonrasi-care-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 30,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "kalorifer-sezonu-tekstil-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "2025-09",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "2025-07",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "complete-home-textile-maintenance-manual",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 14,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "curtain-cleaning-ev-vs-professional",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 49,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "air-conditioned-tekstil-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "ultimate-turkish-dry-cleaning-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "back-to-school-uniform-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "luxury-textile-care-technologies",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "2026-tekstil-care-trendleri",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "dry-cleaning-sigorta-ve-garanti",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "summer-clothes-saklama-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "wedding-dress-temizleme-ultimate-rehber",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 69,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "istanbul-anatolian-side-dry-cleaning",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "home-textiles-hijyen-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "2025-12",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "utu-hizmetleri",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 49,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "ev-utusu-vs-professional-utu-hizmeti",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 49,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "kis-hali-care-stratejileri",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 30,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "istanbul-elit-semtlerde-tekstil-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "professional-carpet-cleaning-surecler",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 30,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "sofa-cleaning-diy-vs-professional",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 30,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "dry-cleaning-quality-control",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "ev-tekstili",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "istanbul-seasonal-clothing-care-calendar",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "summer-preparation-kiyafet-saklama",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "post-vacation-kiyafet-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "ayakkabi-ve-deri-urunler-care-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 56,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "new-year-ozel-kiyafet-hazarligi",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "carpet-cleaning-allergic-reactions",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 30,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "luxury-hali-collection-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 30,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "winter-clothes-ozel-care",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "ev-tekstillerinin-care-ve-cleaning-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 28,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "2025-02",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "2025-05",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "professional-laundry-vs-home-washing",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "winter-dry-cleaning-tips",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "2025-04",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "2025-03",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "canta-temizleme",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 134,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 90
+      },
+      {
+        "slug": "antik-carpet-cleaning-ozel-yontemler",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 30,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "2025-10",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "dry-cleaning-kimyasallari-guvenligi",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "hali-yikama",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 74,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "kumas-deri-boyama",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 47,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "hassas-kumaslar-dry-cleaning-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 212,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 80
+      },
+      {
+        "slug": "spring-cleaning-tekstil-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "dry-cleaning-eco-friendly-alternatifler",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "2025-11",
+        "has_webp": false,
+        "has_original": false,
+        "webp_size_kb": 0,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": null,
+        "quality_score": 0
+      },
+      {
+        "slug": "2025-yilinda-istanbul-dry-cleaning-trendleri",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "dry-cleaning-perfect-results",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "2025-tekstil-care-ozeti",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "ev-perdelerinizi-temiz-tutma-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 42,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "dry-cleaning-hatalari-ve-cozumleri",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "koltuk-upholstery-renewal-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 30,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "deri-ve-kumas-canta-care-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 66,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "istanbul-sicakliginda-hali-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 30,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "perde-temizleme",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 63,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "solmus-kiyafetlere-yeni-hayat-verme-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 39,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "hot-weather-dry-cleaning",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "carpet-cleaning-technology-innovations",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 30,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "antik-mobilya-tekstil-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 35,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "ipek-kumaslar-dry-cleaning-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "lostra-hizmeti",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 32,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "kumas-ve-deri-koltuk-temizligi-guide",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 87,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      },
+      {
+        "slug": "valentines-day-ozel-kiyafet-carei",
+        "has_webp": true,
+        "has_original": false,
+        "webp_size_kb": 24,
+        "original_size_kb": 0,
+        "compression_ratio": 0,
+        "webp_dimensions": "1200x630",
+        "quality_score": 100
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "category": "Coverage",
+      "priority": "HIGH",
+      "issue": "13 blog hiç görseli yok",
+      "recommendation": "Kalan bloglar için görsel seçimi ve entegrasyonu yapılmalı"
+    },
+    {
+      "category": "Size Optimization",
+      "priority": "MEDIUM",
+      "issue": "1 görselin boyutu 200KB'ın üzerinde",
+      "recommendation": "WebP kalite ayarları düşürülerek boyut optimizasyonu yapılmalı"
+    }
+  ],
+  "achievements": [
+    "Tematik çeşitlilik %100 sağlandı",
+    "Benzersiz görsel kullanımı %100 uygulandı",
+    "WebP format optimizasyonu tamamlandı",
+    "HTML ve meta tag entegrasyonu yapıldı",
+    "SEO uyumlu görsel yapısı oluşturuldu"
+  ],
+  "next_phase_suggestions": [
+    "Kalan bloglar için görsel entegrasyonu",
+    "A/B test ile görsel performans analizi",
+    "Kullanıcı etkileşim metriklerinin izlenmesi",
+    "Mobil performans optimizasyonu",
+    "CDN entegrasyonu ile yükleme hızı artırımı"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "generation_date": "2025-08-17T04:55:24.880765",
+  "sitemap_path": "/Users/macos/Documents/Projeler/DryAlle/sitemap.xml",
+  "total_urls": 123,
+  "site_pages": 54,
+  "blog_pages": 69,
+  "page_breakdown": {
+    "homepage": 1,
+    "main_page": 1,
+    "blog_index": 1,
+    "other_pages": 6,
+    "service_pages": 10,
+    "location_pages": 35,
+    "unknown": 69
+  },
+  "priority_distribution": {
+    "1.0": 1,
+    "0.9": 1,
+    "0.8": 11,
+    "0.5": 6,
+    "0.7": 35
+  },
+  "last_updated_pages": [
+    {
+      "url": "https://dryallekurutemizleme.com/",
+      "lastmod": "2025-08-17"
+    },
+    {
+      "url": "https://dryallekurutemizleme.com/blog/",
+      "lastmod": "2025-08-17"
+    },
+    {
+      "url": "https://dryallekurutemizleme.com/blog/vintage-clothing-ozel-care/",
+      "lastmod": "2025-08-17"
+    },
+    {
+      "url": "https://dryallekurutemizleme.com/blog/wedding-season-wedding-dress-carei/",
+      "lastmod": "2025-08-17"
+    },
+    {
+      "url": "https://dryallekurutemizleme.com/blog/professional-vs-evde-carpet-cleaning-comparison/",
+      "lastmod": "2025-08-17"
+    }
+  ]
+}

@@ -210,7 +210,9 @@ body {
 }
 
 .service-icon-container {
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
     gap: 400px;
     max-width: 1600px;
@@ -260,11 +262,25 @@ body {
     font-weight: 700;
 }
 
+@supports (display: grid) {
 .services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
     margin: 30px 2px;
+}
+}
+@supports not (display: grid) {
+.services-grid {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin: 30px 2px;
+}
+.service-card {
+    width: calc(33.333% - 20px);
+}
 }
 
 .services-grid-bottom {
@@ -285,6 +301,7 @@ body {
 }
 
 .service-card:hover {
+    -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
 }
 

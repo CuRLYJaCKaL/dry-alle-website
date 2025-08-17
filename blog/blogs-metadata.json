@@ -1,0 +1,761 @@
+{
+  "generated_date": "2025-08-17T04:51:53.342247",
+  "total_blogs": 69,
+  "themes": {
+    "perde": {
+      "name": "Perde Temizliği",
+      "color": "#006a44",
+      "icon": "🪟",
+      "keywords": [
+        "perde",
+        "tül",
+        "store",
+        "dantel"
+      ]
+    },
+    "mobilya": {
+      "name": "Mobilya & Koltuk",
+      "color": "#004d32",
+      "icon": "🛋️",
+      "keywords": [
+        "koltuk",
+        "kanepe",
+        "mobilya",
+        "deri"
+      ]
+    },
+    "hali": {
+      "name": "Halı Yıkama",
+      "color": "#00623b",
+      "icon": "🧽",
+      "keywords": [
+        "halı",
+        "kilim",
+        "carpet"
+      ]
+    },
+    "kuru-temizleme": {
+      "name": "Kuru Temizleme",
+      "color": "#006a44",
+      "icon": "👔",
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "dry",
+        "cleaning"
+      ]
+    },
+    "gelinlik": {
+      "name": "Özel Giyim",
+      "color": "#f6ec3d",
+      "icon": "👗",
+      "keywords": [
+        "gelinlik",
+        "düğün",
+        "özel"
+      ]
+    },
+    "leke": {
+      "name": "Leke Çıkarma",
+      "color": "#004d32",
+      "icon": "🧼",
+      "keywords": [
+        "leke",
+        "çıkar",
+        "stain"
+      ]
+    }
+  },
+  "blogs": [
+    {
+      "slug": "vintage-clothing-ozel-care",
+      "title": "Vintage Kiyafetler Ozel Bakim: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/vintage-clothing-ozel-care/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "wedding-season-wedding-dress-carei",
+      "title": "Duggun Sezonu Gelinlik Bakimi: Uzman Rehberi",
+      "summary": "Gelinlik temizleme uzman rehberi. Düğün elbisesi bakımı, özel kumaşlar, leke çıkarma. İstanbul'da güvenli gelinlik...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/wedding-season-wedding-dress-carei/featured-image.webp",
+      "word_count": 438
+    },
+    {
+      "slug": "professional-vs-evde-carpet-cleaning-comparison",
+      "title": "Profesyonel vs Ev Yapımı: Hali Yikama Kıyaslaması",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım....",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/professional-vs-evde-carpet-cleaning-comparison/featured-image.webp",
+      "word_count": 458
+    },
+    {
+      "slug": "outdoor-textile-urunleri-carei",
+      "title": "Outdoor Tekstil Urunleri Bakimi: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/outdoor-textile-urunleri-carei/featured-image.webp",
+      "word_count": 438
+    },
+    {
+      "slug": "is-kiyafetleri-professional-care",
+      "title": "Iş Kiyafetleri Profesyonel Bakim: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/is-kiyafetleri-professional-care/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "kuru-temizleme",
+      "title": "Kuru Temizleme Rehberleri",
+      "summary": "İstanbul'da kuru temizleme, hassas kumaş bakımı ve özel kıyafet temizliği konularında uzman tavsiyeleri. İpek, kaşmir,...",
+      "theme": "kuru-temizleme",
+      "reading_time": 1,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/kuru-temizleme/featured-image.webp",
+      "word_count": 108
+    },
+    {
+      "slug": "winter-preparation-tekstil-koruma",
+      "title": "Kis Hazarligi Tekstil Koruma: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/winter-preparation-tekstil-koruma/featured-image.webp",
+      "word_count": 439
+    },
+    {
+      "slug": "autumn-kiyafet-gecisi-guide",
+      "title": "Sonbahar Kiyafet Gecisi Rehberi: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/autumn-kiyafet-gecisi-guide/featured-image.webp",
+      "word_count": 439
+    },
+    {
+      "slug": "koltuk-yikama",
+      "title": "Koltuk Yıkama Rehberleri",
+      "summary": "İstanbul Anadolu Yakası'nda koltuk yıkama, kumaş ve deri koltuk temizliği konularında uzman tavsiyeleri. 25 yıllık...",
+      "theme": "mobilya",
+      "reading_time": 1,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/koltuk-yikama/featured-image.webp",
+      "word_count": 119
+    },
+    {
+      "slug": "hali-color-fading-onleme-methods",
+      "title": "Hali Renk Solmasi Onleme Yontemleri: Uzman Rehberi",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali...",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/hali-color-fading-onleme-methods/featured-image.webp",
+      "word_count": 458
+    },
+    {
+      "slug": "carpet-cleaning-sonrasi-care-guide",
+      "title": "Hali Yikama Sonrasi Bakim Rehberi: Uzman Rehberi",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali...",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/carpet-cleaning-sonrasi-care-guide/featured-image.webp",
+      "word_count": 457
+    },
+    {
+      "slug": "kalorifer-sezonu-tekstil-carei",
+      "title": "Kalorifer Sezonu Tekstil Bakimi: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/kalorifer-sezonu-tekstil-carei/featured-image.webp",
+      "word_count": 439
+    },
+    {
+      "slug": "curtain-cleaning-ev-vs-professional",
+      "title": "Perde Temizleme Ev Vs Profesyonel: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/curtain-cleaning-ev-vs-professional/featured-image.webp",
+      "word_count": 440
+    },
+    {
+      "slug": "air-conditioned-tekstil-carei",
+      "title": "Klimali Ortamda Tekstil Bakimi: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/air-conditioned-tekstil-carei/featured-image.webp",
+      "word_count": 438
+    },
+    {
+      "slug": "back-to-school-uniform-carei",
+      "title": "Okul Oncesi Uniform Bakimi: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/back-to-school-uniform-carei/featured-image.webp",
+      "word_count": 458
+    },
+    {
+      "slug": "luxury-textile-care-technologies",
+      "title": "Lux Tekstil Bakim Teknolojileri: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/luxury-textile-care-technologies/featured-image.webp",
+      "word_count": 438
+    },
+    {
+      "slug": "2026-tekstil-care-trendleri",
+      "title": "2026 Tekstil Bakim Trendleri: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/2026-tekstil-care-trendleri/featured-image.webp",
+      "word_count": 439
+    },
+    {
+      "slug": "dry-cleaning-sigorta-ve-garanti",
+      "title": "Kuru Temizleme Sigorta Ve Garanti: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/dry-cleaning-sigorta-ve-garanti/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "summer-clothes-saklama-guide",
+      "title": "Yaz Kiyafetleri Saklama Rehberi: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/summer-clothes-saklama-guide/featured-image.webp",
+      "word_count": 438
+    },
+    {
+      "slug": "wedding-dress-temizleme-ultimate-rehber",
+      "title": "Ultimate Gelinlik Rehberi: A'dan Z'ye",
+      "summary": "Gelinlik temizleme uzman rehberi. Düğün elbisesi bakımı, özel kumaşlar, leke çıkarma. İstanbul'da güvenli gelinlik...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/wedding-dress-temizleme-ultimate-rehber/featured-image.webp",
+      "word_count": 439
+    },
+    {
+      "slug": "istanbul-anatolian-side-dry-cleaning",
+      "title": "Istanbul Anadolu Yakasi Kuru Temizleme: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/istanbul-anatolian-side-dry-cleaning/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "home-textiles-hijyen-guide",
+      "title": "Ev Tekstili Hijyen Rehberi: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/home-textiles-hijyen-guide/featured-image.webp",
+      "word_count": 438
+    },
+    {
+      "slug": "utu-hizmetleri",
+      "title": "Ütü Hizmetleri Rehberleri",
+      "summary": "İstanbul Anadolu Yakası'nda ütü hizmetleri, profesyonel ütüleme teknikleri ve kıyafet bakımı konularında uzman...",
+      "theme": "perde",
+      "reading_time": 1,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/utu-hizmetleri/featured-image.webp",
+      "word_count": 111
+    },
+    {
+      "slug": "kis-hali-care-stratejileri",
+      "title": "Kis Hali Bakim Stratejileri: Uzman Rehberi",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. kis...",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/kis-hali-care-stratejileri/featured-image.webp",
+      "word_count": 457
+    },
+    {
+      "slug": "istanbul-elit-semtlerde-tekstil-carei",
+      "title": "Istanbul Elit Semtlerde Tekstil Bakimi: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/istanbul-elit-semtlerde-tekstil-carei/featured-image.webp",
+      "word_count": 440
+    },
+    {
+      "slug": "professional-carpet-cleaning-surecler",
+      "title": "Profesyonel Hali Yikama Surecler: Uzman Rehberi",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım....",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/professional-carpet-cleaning-surecler/featured-image.webp",
+      "word_count": 457
+    },
+    {
+      "slug": "sofa-cleaning-diy-vs-professional",
+      "title": "Profesyonel vs Ev Yapımı: Hali Yikama Kıyaslaması",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. koltuk...",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/sofa-cleaning-diy-vs-professional/featured-image.webp",
+      "word_count": 457
+    },
+    {
+      "slug": "dry-cleaning-quality-control",
+      "title": "Kuru Temizleme Quality Control: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/dry-cleaning-quality-control/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "ev-tekstili",
+      "title": "Ev Tekstili Bakım Rehberleri",
+      "summary": "İstanbul Anadolu Yakası'nda ev tekstili temizliği, nevresim, battaniye, yorgan bakımı konularında uzman tavsiyeleri. 25...",
+      "theme": "kuru-temizleme",
+      "reading_time": 1,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/ev-tekstili/featured-image.webp",
+      "word_count": 122
+    },
+    {
+      "slug": "summer-preparation-kiyafet-saklama",
+      "title": "Yaz Hazarligi Kiyafet Saklama: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/summer-preparation-kiyafet-saklama/featured-image.webp",
+      "word_count": 439
+    },
+    {
+      "slug": "post-vacation-kiyafet-carei",
+      "title": "Tatil Donusu Kiyafet Bakimi: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/post-vacation-kiyafet-carei/featured-image.webp",
+      "word_count": 439
+    },
+    {
+      "slug": "new-year-ozel-kiyafet-hazarligi",
+      "title": "Yilbasi Ozel Kiyafet Hazarligi: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/new-year-ozel-kiyafet-hazarligi/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "carpet-cleaning-allergic-reactions",
+      "title": "Hali Yikama Allerjik Reaksiyonlar: Uzman Rehberi",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali...",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/carpet-cleaning-allergic-reactions/featured-image.webp",
+      "word_count": 456
+    },
+    {
+      "slug": "luxury-hali-collection-carei",
+      "title": "Luxury Hali Collection Bakimi: Uzman Rehberi",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. luxury...",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/luxury-hali-collection-carei/featured-image.webp",
+      "word_count": 457
+    },
+    {
+      "slug": "winter-clothes-ozel-care",
+      "title": "Kis Kiyafetleri Ozel Bakim: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/winter-clothes-ozel-care/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "professional-laundry-vs-home-washing",
+      "title": "Professional Laundry Vs Home Washing: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/professional-laundry-vs-home-washing/featured-image.webp",
+      "word_count": 460
+    },
+    {
+      "slug": "winter-dry-cleaning-tips",
+      "title": "Kis Aylarinda Kuru Temizleme Ipuclari: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/winter-dry-cleaning-tips/featured-image.webp",
+      "word_count": 460
+    },
+    {
+      "slug": "canta-temizleme",
+      "title": "Çanta Temizleme Rehberleri",
+      "summary": "İstanbul Anadolu Yakası'nda çanta temizleme, deri çanta bakımı ve kumaş çanta temizliği konularında uzman tavsiyeleri....",
+      "theme": "kuru-temizleme",
+      "reading_time": 1,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/canta-temizleme/featured-image.webp",
+      "word_count": 119
+    },
+    {
+      "slug": "antik-carpet-cleaning-ozel-yontemler",
+      "title": "Antik Hali Yikama Ozel Yontemler: Uzman Rehberi",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. antik...",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/antik-carpet-cleaning-ozel-yontemler/featured-image.webp",
+      "word_count": 457
+    },
+    {
+      "slug": "dry-cleaning-kimyasallari-guvenligi",
+      "title": "Kuru Temizleme Güvenliği: Bilmeniz Gerekenler",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/dry-cleaning-kimyasallari-guvenligi/featured-image.webp",
+      "word_count": 458
+    },
+    {
+      "slug": "hali-yikama",
+      "title": "Halı Yıkama Rehberleri",
+      "summary": "İstanbul Anadolu Yakası'nda halı yıkama, halı bakımı ve halı temizliği konularında uzman tavsiyeleri. Ev halı...",
+      "theme": "hali",
+      "reading_time": 1,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/hali-yikama/featured-image.webp",
+      "word_count": 110
+    },
+    {
+      "slug": "kumas-deri-boyama",
+      "title": "Kumaş Deri Boyama Rehberleri",
+      "summary": "İstanbul Anadolu Yakası'nda kumaş deri boyama, renk yenileme ve solmuş kıyafet onarımı konularında uzman tavsiyeleri....",
+      "theme": "mobilya",
+      "reading_time": 1,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/kumas-deri-boyama/featured-image.webp",
+      "word_count": 112
+    },
+    {
+      "slug": "spring-cleaning-tekstil-carei",
+      "title": "2025-03 Ayında Tekstil Bakimi: Profesyonel İpuçları",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/spring-cleaning-tekstil-carei/featured-image.webp",
+      "word_count": 438
+    },
+    {
+      "slug": "dry-cleaning-eco-friendly-alternatifler",
+      "title": "Kuru Temizleme Cevre Dostu Alternatifler: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/dry-cleaning-eco-friendly-alternatifler/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "2025-yilinda-istanbul-dry-cleaning-trendleri",
+      "title": "2025'te İstanbul'da Kuru Temizleme: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/2025-yilinda-istanbul-dry-cleaning-trendleri/featured-image.webp",
+      "word_count": 461
+    },
+    {
+      "slug": "dry-cleaning-perfect-results",
+      "title": "Kuru Temizleme Mukemmel Sonuclar: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/dry-cleaning-perfect-results/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "2025-tekstil-care-ozeti",
+      "title": "2025 Tekstil Bakim Ozeti: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/2025-tekstil-care-ozeti/featured-image.webp",
+      "word_count": 439
+    },
+    {
+      "slug": "dry-cleaning-hatalari-ve-cozumleri",
+      "title": "Kuru Temizleme Hatalari Ve Cozumleri: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/dry-cleaning-hatalari-ve-cozumleri/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "koltuk-upholstery-renewal-guide",
+      "title": "Koltuk Kaplama Yenileme Rehberi: Uzman Rehberi",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. koltuk...",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/koltuk-upholstery-renewal-guide/featured-image.webp",
+      "word_count": 456
+    },
+    {
+      "slug": "istanbul-sicakliginda-hali-carei",
+      "title": "Istanbul Sicakliginda Hali Bakimi: Uzman Rehberi",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım....",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/istanbul-sicakliginda-hali-carei/featured-image.webp",
+      "word_count": 456
+    },
+    {
+      "slug": "perde-temizleme",
+      "title": "Perde Temizleme Rehberleri",
+      "summary": "İstanbul Anadolu Yakası'nda perde temizleme, perde bakımı ve ev perdesi yıkama konularında uzman tavsiyeleri. 25 yıllık...",
+      "theme": "perde",
+      "reading_time": 1,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/perde-temizleme/featured-image.webp",
+      "word_count": 111
+    },
+    {
+      "slug": "hot-weather-dry-cleaning",
+      "title": "Sicak Havalarda Kuru Temizleme: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/hot-weather-dry-cleaning/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "carpet-cleaning-technology-innovations",
+      "title": "Hali Yikama Teknoloji Yenilikleri: Uzman Rehberi",
+      "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali...",
+      "theme": "hali",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/carpet-cleaning-technology-innovations/featured-image.webp",
+      "word_count": 456
+    },
+    {
+      "slug": "antik-mobilya-tekstil-carei",
+      "title": "Antik Mobilya Tekstil Bakimi: Uzman Rehberi",
+      "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...",
+      "theme": "gelinlik",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/antik-mobilya-tekstil-carei/featured-image.webp",
+      "word_count": 439
+    },
+    {
+      "slug": "ipek-kumaslar-dry-cleaning-guide",
+      "title": "Ipek Kumaslar Kuru Temizleme Rehberi: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/ipek-kumaslar-dry-cleaning-guide/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "lostra-hizmeti",
+      "title": "Lostra Hizmeti Rehberleri",
+      "summary": "İstanbul Anadolu Yakası'nda lostra hizmeti, ayakkabı parlatma ve deri ürün bakımı konularında uzman tavsiyeleri. 25...",
+      "theme": "mobilya",
+      "reading_time": 1,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/lostra-hizmeti/featured-image.webp",
+      "word_count": 112
+    },
+    {
+      "slug": "valentines-day-ozel-kiyafet-carei",
+      "title": "Sevgililer Gunu Ozel Kiyafet Bakimi: Uzman Rehberi",
+      "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-08-17",
+      "image_url": "/blog/valentines-day-ozel-kiyafet-carei/featured-image.webp",
+      "word_count": 459
+    },
+    {
+      "slug": "ev-utusu-vs-professional-utu-hizmeti",
+      "title": "Ev Ütüsü vs Profesyonel Ütü Hizmeti",
+      "summary": "Ev ütüsü ile profesyonel ütü hizmeti arasındaki farklar. İstanbul Anadolu Yakası profesyonel ütü hizmeti avantajları ve...",
+      "theme": "gelinlik",
+      "reading_time": 1,
+      "publish_date": "2025-01-16",
+      "image_url": "/blog/ev-utusu-vs-professional-utu-hizmeti/featured-image.webp",
+      "word_count": 297
+    },
+    {
+      "slug": "ayakkabi-ve-deri-urunler-care-guide",
+      "title": "Ayakkabı ve Deri Ürünler Bakım Rehberi",
+      "summary": "Ayakkabı ve deri ürünlerinizin doğru bakımı ve lostra hizmeti için kapsamlı rehber. İstanbul Anadolu Yakası profesyonel...",
+      "theme": "mobilya",
+      "reading_time": 1,
+      "publish_date": "2025-01-16",
+      "image_url": "/blog/ayakkabi-ve-deri-urunler-care-guide/featured-image.webp",
+      "word_count": 295
+    },
+    {
+      "slug": "ev-tekstillerinin-care-ve-cleaning-guide",
+      "title": "Ev Tekstillerinin Bakım ve Temizlik Rehberi",
+      "summary": "Ev tekstillerinizi uzun ömürlü ve hijyenik tutmak için kapsamlı bakım rehberi. İstanbul Anadolu Yakası profesyonel ev...",
+      "theme": "kuru-temizleme",
+      "reading_time": 1,
+      "publish_date": "2025-01-16",
+      "image_url": "/blog/ev-tekstillerinin-care-ve-cleaning-guide/featured-image.webp",
+      "word_count": 287
+    },
+    {
+      "slug": "ev-perdelerinizi-temiz-tutma-guide",
+      "title": "Ev Perdelerinizi Temiz Tutma Rehberi",
+      "summary": "Perdelerinizi uzun ömürlü ve temiz tutmak için kapsamlı bakım rehberi. İstanbul Anadolu Yakası profesyonel perde...",
+      "theme": "perde",
+      "reading_time": 1,
+      "publish_date": "2025-01-16",
+      "image_url": "/blog/ev-perdelerinizi-temiz-tutma-guide/featured-image.webp",
+      "word_count": 261
+    },
+    {
+      "slug": "deri-ve-kumas-canta-care-guide",
+      "title": "Deri ve Kumaş Çanta Bakım Rehberi",
+      "summary": "Deri ve kumaş çantalarınızın doğru bakımı ve temizliği için kapsamlı rehber. İstanbul Anadolu Yakası profesyonel çanta...",
+      "theme": "mobilya",
+      "reading_time": 1,
+      "publish_date": "2025-01-16",
+      "image_url": "/blog/deri-ve-kumas-canta-care-guide/featured-image.webp",
+      "word_count": 249
+    },
+    {
+      "slug": "solmus-kiyafetlere-yeni-hayat-verme-guide",
+      "title": "Solmuş Kıyafetlere Yeni Hayat Verme Rehberi",
+      "summary": "Solmuş ve rengi atmış kıyafetlerinize profesyonel kumaş ve deri boyama ile yeni hayat verin. İstanbul Anadolu Yakası...",
+      "theme": "mobilya",
+      "reading_time": 2,
+      "publish_date": "2025-01-16",
+      "image_url": "/blog/solmus-kiyafetlere-yeni-hayat-verme-guide/featured-image.webp",
+      "word_count": 312
+    },
+    {
+      "slug": "kumas-ve-deri-koltuk-temizligi-guide",
+      "title": "Kumaş ve Deri Koltuk Temizliği Rehberi",
+      "summary": "Kumaş ve deri koltuklarınızın doğru temizlik ve bakımı için kapsamlı rehber. İstanbul Anadolu Yakası profesyonel koltuk...",
+      "theme": "mobilya",
+      "reading_time": 1,
+      "publish_date": "2025-01-16",
+      "image_url": "/blog/kumas-ve-deri-koltuk-temizligi-guide/featured-image.webp",
+      "word_count": 258
+    },
+    {
+      "slug": "evde-hali-carei-ve-professional-washing-guide",
+      "title": "Evde Halı Bakımı ve Profesyonel Yıkama Rehberi",
+      "summary": "Halılarınızı uzun ömürlü kullanmak için evde bakım ipuçları ve profesyonel halı yıkama hizmetinin önemi. İstanbul...",
+      "theme": "hali",
+      "reading_time": 1,
+      "publish_date": "2025-01-15",
+      "image_url": "/blog/evde-hali-carei-ve-professional-washing-guide/featured-image.webp",
+      "word_count": 260
+    },
+    {
+      "slug": "hassas-kumaslar-dry-cleaning-guide",
+      "title": "Hassas Kumaşlar İçin Kuru Temizleme Rehberi",
+      "summary": "İpek, kaşmir, yün ve diğer hassas kumaşları kuru temizleme ile nasıl koruyabilirsiniz? İstanbul'da uzman kuru temizleme...",
+      "theme": "kuru-temizleme",
+      "reading_time": 1,
+      "publish_date": "2025-01-15",
+      "image_url": "/blog/hassas-kumaslar-dry-cleaning-guide/featured-image.webp",
+      "word_count": 196
+    },
+    {
+      "slug": "complete-home-textile-maintenance-manual",
+      "title": "Ev Tekstillerinin Kapsamlı Bakım ve Temizlik El Kitabı 2025",
+      "summary": "Halıdan perdeye, koltuktan yatak takımına kadar tüm ev tekstillerinizin profesyonel bakım rehberi. 200+ sayfalık...",
+      "theme": "gelinlik",
+      "reading_time": 1,
+      "publish_date": "2025-01-01",
+      "image_url": "/blog/complete-home-textile-maintenance-manual/featured-image.webp",
+      "word_count": 173
+    },
+    {
+      "slug": "ultimate-turkish-dry-cleaning-guide",
+      "title": "Türkiye'nin En Kapsamlı Kuru Temizleme Rehberi 2025",
+      "summary": "Türkiye'de kuru temizleme hakkında bilmeniz gereken her şey. Kumaş türleri, fiyatlar, teknolojiler ve uzman tavsiyeleri...",
+      "theme": "kuru-temizleme",
+      "reading_time": 2,
+      "publish_date": "2025-01-01",
+      "image_url": "/blog/ultimate-turkish-dry-cleaning-guide/featured-image.webp",
+      "word_count": 312
+    },
+    {
+      "slug": "istanbul-seasonal-clothing-care-calendar",
+      "title": "İstanbul İklim Şartlarına Göre Mevsimsel Kıyafet Bakım Takvimi 2025",
+      "summary": "İstanbul'un özel iklim şartlarına göre hazırlanmış 12 aylık kıyafet bakım takvimi. Hangi ayda hangi kıyafetlere nasıl...",
+      "theme": "kuru-temizleme",
+      "reading_time": 1,
+      "publish_date": "2025-01-01",
+      "image_url": "/blog/istanbul-seasonal-clothing-care-calendar/featured-image.webp",
+      "word_count": 264
+    }
+  ]
+}

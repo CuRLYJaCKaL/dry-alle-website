@@ -1,0 +1,59 @@
+{
+  "step_1_google_analytics": {
+    "title": "Google Analytics 4 Kurulumu",
+    "tasks": [
+      "GA4 property oluştur",
+      "Enhanced ecommerce aktif et",
+      "Custom events tanımla",
+      "Conversion goals kur",
+      "Audience segments oluştur"
+    ],
+    "estimated_time": "2 hours"
+  },
+  "step_2_tracking_code": {
+    "title": "Tracking Code Implementasyonu",
+    "tasks": [
+      "Ana tracking script ekle",
+      "Custom event handlers kur",
+      "Form tracking aktif et",
+      "Phone call tracking ekle",
+      "Error tracking kur"
+    ],
+    "estimated_time": "3 hours"
+  },
+  "step_3_heatmap_tools": {
+    "title": "Heatmap ve User Behavior Tools",
+    "recommendations": [
+      "Hotjar (ücretsiz plan)",
+      "Microsoft Clarity (ücretsiz)",
+      "Crazy Egg (premium)"
+    ],
+    "implementation": [
+      "Tool seç ve hesap oluştur",
+      "Tracking code ekle",
+      "Heatmap kayıtlarını başlat",
+      "User session recordings aktif et"
+    ],
+    "estimated_time": "1 hour"
+  },
+  "step_4_conversion_tracking": {
+    "title": "Conversion ve Goal Tracking",
+    "tasks": [
+      "Conversion events tanımla",
+      "Goal funnels oluştur",
+      "Attribution modeling kur",
+      "ROI tracking başlat"
+    ],
+    "estimated_time": "2 hours"
+  },
+  "step_5_monitoring_alerts": {
+    "title": "Monitoring ve Alert Sistemi",
+    "tasks": [
+      "Dashboard kur",
+      "Automated reports tanımla",
+      "Alert thresholds belirle",
+      "Notification channels kur"
+    ],
+    "estimated_time": "1 hour"
+  }
+}

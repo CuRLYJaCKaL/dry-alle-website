@@ -1,0 +1,4215 @@
+{
+  "analysis_date": "2025-08-17T05:22:16.338759",
+  "project": "DryAlle Blog Görsel Optimizasyonu",
+  "total_blogs_analyzed": 69,
+  "theme_distribution": {
+    "total_blogs": 69,
+    "theme_distribution": {
+      "profesyonel": 41,
+      "gelinlik": 2,
+      "halı": 14,
+      "mobilya": 2,
+      "perde": 3,
+      "leke": 1,
+      "deri": 6
+    },
+    "diversity_score": 10.144927536231885,
+    "recommendations": [
+      "'profesyonel' teması çok baskın (41 blog). Çeşitlilik için diğer temalar güçlendirilmeli.",
+      "Tek blog ile temsil edilen temalar: leke",
+      "Hiç kullanılmayan temalar: yün, ipek"
+    ]
+  },
+  "detailed_analyses": [
+    {
+      "slug": "vintage-clothing-ozel-care",
+      "title": "Vintage Kiyafetler Ozel Bakim: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. vintage kiyafetler ozel bakim hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 9,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 45
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 571,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Vintage Kiyafetler Ozel Bakim: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 60,
+        "description_length": 175
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "wedding-season-wedding-dress-carei",
+      "title": "Duggun Sezonu Gelinlik Bakimi: Uzman Rehberi | Dry Alle Blog",
+      "description": "Gelinlik temizleme uzman rehberi. Düğün elbisesi bakımı, özel kumaşlar, leke çıkarma. İstanbul'da güvenli gelinlik temizleme. duggun sezonu gelinlik bakimi.",
+      "primary_theme": "gelinlik",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 6,
+        "halı": 7,
+        "leke": 4,
+        "gelinlik": 31,
+        "yün": 2,
+        "profesyonel": 18
+      },
+      "keywords": [
+        "gelinlik",
+        "temizleme",
+        "özel",
+        "uzman",
+        "profesyonel"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 547,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Duggun Sezonu Gelinlik Bakimi: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 60,
+        "description_length": 156
+      },
+      "image_requirements": {
+        "primary_subject": "gelinlik",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "gelinlik bakımı",
+          "özel gün hazırlığı",
+          "nazik temizlik"
+        ],
+        "settings": [
+          "butik ortamı",
+          "temiz, şık mekan"
+        ],
+        "props": [
+          "beyaz gelinlik",
+          "özenli ambalaj",
+          "premium hizmet"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "professional-vs-evde-carpet-cleaning-comparison",
+      "title": "Profesyonel vs Ev Yapımı: Hali Yikama Kıyaslaması | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. profesyonel vs evde hali yikama karsilastirma uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 3,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 24
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "profesyonel",
+        "özel",
+        "hali"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 571,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Profesyonel vs Ev Yapımı: Hali Yikama Kıyaslaması - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 65,
+        "description_length": 177
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "outdoor-textile-urunleri-carei",
+      "title": "Outdoor Tekstil Urunleri Bakimi: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından outdoor tekstil urunleri bakimi.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "bakimi",
+        "özel"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 549,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Outdoor Tekstil Urunleri Bakimi: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 62,
+        "description_length": 157
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "is-kiyafetleri-professional-care",
+      "title": "Iş Kiyafetleri Profesyonel Bakim: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. iş kiyafetleri profesyonel bakim hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 571,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Iş Kiyafetleri Profesyonel Bakim: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 63,
+        "description_length": 178
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "kuru-temizleme",
+      "title": "Kuru Temizleme Blog | İstanbul Hassas Kumaş Temizleme Rehberleri",
+      "description": "İstanbul'da kuru temizleme, hassas kumaş bakımı ve özel kıyafet temizliği konularında uzman tavsiyeleri. İpek, kaşmir, yün ve designer kıyafetler için profesyonel rehberler.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 7,
+        "halı": 4,
+        "gelinlik": 4,
+        "deri": 4,
+        "yün": 6,
+        "profesyonel": 15
+      },
+      "keywords": [
+        "temizleme",
+        "kuru",
+        "hassas",
+        "stanbul",
+        "özel"
+      ],
+      "special_requirements": [],
+      "content_length": 164,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 64,
+        "description_length": 173
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "evde-hali-carei-ve-professional-washing-guide",
+      "title": "Evde Halı Bakımı ve Profesyonel Yıkama Rehberi | Dry Alle İstanbul",
+      "description": "Halılarınızı uzun ömürlü kullanmak için evde bakım ipuçları ve profesyonel halı yıkama hizmetinin önemi. İstanbul Anadolu Yakası halı yıkama uzmanından tavsiyeler.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 1,
+        "halı": 39,
+        "leke": 3,
+        "deri": 2,
+        "yün": 2,
+        "profesyonel": 18
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "profesyonel",
+        "bakım",
+        "stanbul"
+      ],
+      "special_requirements": [
+        "Hızlı servis"
+      ],
+      "content_length": 563,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 66,
+        "description_length": 163
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ]
+      }
+    },
+    {
+      "slug": "winter-preparation-tekstil-koruma",
+      "title": "Kis Hazarligi Tekstil Koruma: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından kis hazarligi tekstil koruma.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "özel",
+        "koruma"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 550,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Kis Hazarligi Tekstil Koruma: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 59,
+        "description_length": 154
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "autumn-kiyafet-gecisi-guide",
+      "title": "Sonbahar Kiyafet Gecisi Rehberi: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından sonbahar kiyafet gecisi rehberi.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "özel",
+        "rehberi"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 550,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Sonbahar Kiyafet Gecisi Rehberi: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 62,
+        "description_length": 157
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "koltuk-yikama",
+      "title": "Koltuk Yıkama Blog | İstanbul Anadolu Yakası Koltuk Temizleme Rehberleri",
+      "description": "İstanbul Anadolu Yakası'nda koltuk yıkama, kumaş ve deri koltuk temizliği konularında uzman tavsiyeleri. 25 yıllık deneyimimizle koltuk bakımı ve temizlik rehberleri.",
+      "primary_theme": "mobilya",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 25,
+        "halı": 2,
+        "leke": 5,
+        "deri": 7,
+        "profesyonel": 7
+      },
+      "keywords": [
+        "koltuk",
+        "yıkama",
+        "rehberleri",
+        "deri",
+        "stanbul"
+      ],
+      "special_requirements": [],
+      "content_length": 175,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 72,
+        "description_length": 166
+      },
+      "image_requirements": {
+        "primary_subject": "mobilya",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "koltuk temizliği",
+          "kumaş bakımı",
+          "döşeme temizliği"
+        ],
+        "settings": [
+          "modern salon",
+          "oturma odası",
+          "temiz ev"
+        ],
+        "props": [
+          "temiz koltuk",
+          "temizlik ekipmanı",
+          "kumaş bakım ürünleri"
+        ]
+      }
+    },
+    {
+      "slug": "hali-color-fading-onleme-methods",
+      "title": "Hali Renk Solmasi Onleme Yontemleri: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali renk solmasi onleme yontemleri uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 3,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "özel",
+        "hali",
+        "bakım"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 571,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Hali Renk Solmasi Onleme Yontemleri: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 66,
+        "description_length": 167
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "carpet-cleaning-sonrasi-care-guide",
+      "title": "Hali Yikama Sonrasi Bakim Rehberi: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali yikama sonrasi bakim rehberi uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 3,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "özel",
+        "hali",
+        "yikama"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 570,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Hali Yikama Sonrasi Bakim Rehberi: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 64,
+        "description_length": 165
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "kalorifer-sezonu-tekstil-carei",
+      "title": "Kalorifer Sezonu Tekstil Bakimi: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından kalorifer sezonu tekstil bakimi.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "bakimi",
+        "özel"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 550,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Kalorifer Sezonu Tekstil Bakimi: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 62,
+        "description_length": 157
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "complete-home-textile-maintenance-manual",
+      "title": "Ev Tekstillerinin Kapsamlı Bakım ve Temizlik El Kitabı 2025 | Dry Alle",
+      "description": "Halıdan perdeye, koltuktan yatak takımına kadar tüm ev tekstillerinizin profesyonel bakım rehberi. 200+ sayfalık kapsamlı manual.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 33,
+        "mobilya": 25,
+        "halı": 22,
+        "leke": 27,
+        "deri": 13,
+        "ipek": 2,
+        "profesyonel": 40
+      },
+      "keywords": [
+        "bakım",
+        "temizlik",
+        "yıkama",
+        "profesyonel",
+        "bakımı"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 1344,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 70,
+        "description_length": 129
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven"
+      }
+    },
+    {
+      "slug": "curtain-cleaning-ev-vs-professional",
+      "title": "Perde Temizleme Ev Vs Profesyonel: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından perde temizleme ev vs profesyonel.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 5,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 26
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "profesyonel",
+        "bakım",
+        "özel"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 552,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Perde Temizleme Ev Vs Profesyonel: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 49
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 64,
+        "description_length": 159
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "air-conditioned-tekstil-carei",
+      "title": "Klimali Ortamda Tekstil Bakimi: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından klimali ortamda tekstil bakimi.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "bakimi",
+        "özel"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 549,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Klimali Ortamda Tekstil Bakimi: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 61,
+        "description_length": 156
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "ultimate-turkish-dry-cleaning-guide",
+      "title": "Türkiye'nin En Kapsamlı Kuru Temizleme Rehberi 2025 | Dry Alle Expert Guide",
+      "description": "Türkiye'de kuru temizleme hakkında bilmeniz gereken her şey. Kumaş türleri, fiyatlar, teknolojiler ve uzman tavsiyeleri ile 50+ sayfalık kapsamlı rehber.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "mobilya": 12,
+        "halı": 3,
+        "leke": 1,
+        "ipek": 1,
+        "yün": 2,
+        "profesyonel": 33
+      },
+      "keywords": [
+        "temizleme",
+        "kuru",
+        "türkiye",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Türkiye lokasyonu",
+        "Mevsimsel"
+      ],
+      "content_length": 530,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 75,
+        "description_length": 153
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "back-to-school-uniform-carei",
+      "title": "Okul Oncesi Uniform Bakimi: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. okul oncesi uniform bakimi hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 45
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 570,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Okul Oncesi Uniform Bakimi: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 57,
+        "description_length": 172
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "luxury-textile-care-technologies",
+      "title": "Lux Tekstil Bakim Teknolojileri: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından lux tekstil bakim teknolojileri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "özel",
+        "profesyonel"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 549,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Lux Tekstil Bakim Teknolojileri: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 62,
+        "description_length": 157
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "2026-tekstil-care-trendleri",
+      "title": "2026 Tekstil Bakim Trendleri: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından 2026 tekstil bakim trendleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "özel",
+        "profesyonel"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 550,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "2026 Tekstil Bakim Trendleri: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 59,
+        "description_length": 154
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "dry-cleaning-sigorta-ve-garanti",
+      "title": "Kuru Temizleme Sigorta Ve Garanti: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. kuru temizleme sigorta ve garanti hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "garanti"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 572,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Kuru Temizleme Sigorta Ve Garanti: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 64,
+        "description_length": 179
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "summer-clothes-saklama-guide",
+      "title": "Yaz Kiyafetleri Saklama Rehberi: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından yaz kiyafetleri saklama rehberi.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "özel",
+        "rehberi"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 549,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Yaz Kiyafetleri Saklama Rehberi: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 62,
+        "description_length": 157
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "wedding-dress-temizleme-ultimate-rehber",
+      "title": "Ultimate Gelinlik Rehberi: A'dan Z'ye | Dry Alle Blog",
+      "description": "Gelinlik temizleme uzman rehberi. Düğün elbisesi bakımı, özel kumaşlar, leke çıkarma. İstanbul'da güvenli gelinlik temizleme. gelinlik temizleme ultimate rehber 2025.",
+      "primary_theme": "gelinlik",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 6,
+        "halı": 7,
+        "leke": 4,
+        "gelinlik": 31,
+        "yün": 2,
+        "profesyonel": 16
+      },
+      "keywords": [
+        "gelinlik",
+        "temizleme",
+        "özel",
+        "profesyonel",
+        "sayesinde"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 547,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Ultimate Gelinlik Rehberi: A'dan Z'ye - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 53,
+        "description_length": 166
+      },
+      "image_requirements": {
+        "primary_subject": "gelinlik",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "gelinlik bakımı",
+          "özel gün hazırlığı",
+          "nazik temizlik"
+        ],
+        "settings": [
+          "butik ortamı",
+          "temiz, şık mekan"
+        ],
+        "props": [
+          "beyaz gelinlik",
+          "özenli ambalaj",
+          "premium hizmet"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "istanbul-anatolian-side-dry-cleaning",
+      "title": "Istanbul Anadolu Yakasi Kuru Temizleme: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. istanbul anadolu yakasi kuru temizleme hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Türkiye lokasyonu",
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 572,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Istanbul Anadolu Yakasi Kuru Temizleme: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 69,
+        "description_length": 184
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "home-textiles-hijyen-guide",
+      "title": "Ev Tekstili Hijyen Rehberi: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından ev tekstili hijyen rehberi.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 5,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "özel",
+        "rehberi"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 549,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Ev Tekstili Hijyen Rehberi: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 57,
+        "description_length": 152
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "utu-hizmetleri",
+      "title": "Ütü Hizmetleri Blog | İstanbul Anadolu Yakası Profesyonel Ütüleme Rehberleri",
+      "description": "İstanbul Anadolu Yakası'nda ütü hizmetleri, profesyonel ütüleme teknikleri ve kıyafet bakımı konularında uzman tavsiyeleri. 25 yıllık deneyimimizle ütü hizmeti rehberleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 12,
+        "mobilya": 4,
+        "halı": 1,
+        "deri": 1,
+        "yün": 2,
+        "profesyonel": 13
+      },
+      "keywords": [
+        "ütüleme",
+        "profesyonel",
+        "rehberleri",
+        "hizmetleri",
+        "stanbul"
+      ],
+      "special_requirements": [],
+      "content_length": 167,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 76,
+        "description_length": 171
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven"
+      }
+    },
+    {
+      "slug": "ev-utusu-vs-professional-utu-hizmeti",
+      "title": "Ev Ütüsü vs Profesyonel Ütü Hizmeti | Dry Alle İstanbul",
+      "description": "Ev ütüsü ile profesyonel ütü hizmeti arasındaki farklar. İstanbul Anadolu Yakası profesyonel ütü hizmeti avantajları ve uzman tavsiyeleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 15,
+        "mobilya": 18,
+        "halı": 6,
+        "leke": 1,
+        "gelinlik": 9,
+        "deri": 2,
+        "ipek": 1,
+        "yün": 7,
+        "profesyonel": 42
+      },
+      "keywords": [
+        "profesyonel",
+        "hizmeti",
+        "özel",
+        "ütüsü",
+        "zaman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 1150,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 55,
+        "description_length": 138
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "kis-hali-care-stratejileri",
+      "title": "Kis Hali Bakim Stratejileri: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. kis hali bakim stratejileri uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 3,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "özel",
+        "hali",
+        "bakım"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 569,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Kis Hali Bakim Stratejileri: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 58,
+        "description_length": 159
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "istanbul-elit-semtlerde-tekstil-carei",
+      "title": "Istanbul Elit Semtlerde Tekstil Bakimi: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından istanbul elit semtlerde tekstil bakimi.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "bakimi",
+        "özel"
+      ],
+      "special_requirements": [
+        "Türkiye lokasyonu",
+        "Mevsimsel"
+      ],
+      "content_length": 552,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Istanbul Elit Semtlerde Tekstil Bakimi: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 69,
+        "description_length": 164
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "professional-carpet-cleaning-surecler",
+      "title": "Profesyonel Hali Yikama Surecler: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. profesyonel hali yikama surecler uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 3,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 26
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "profesyonel",
+        "özel",
+        "hali"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 569,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Profesyonel Hali Yikama Surecler: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 63,
+        "description_length": 164
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "sofa-cleaning-diy-vs-professional",
+      "title": "Profesyonel vs Ev Yapımı: Hali Yikama Kıyaslaması | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. koltuk yikama diy vs profesyonel uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 5,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 24
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "profesyonel",
+        "özel",
+        "yikama"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 570,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Profesyonel vs Ev Yapımı: Hali Yikama Kıyaslaması - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 65,
+        "description_length": 164
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "dry-cleaning-quality-control",
+      "title": "Kuru Temizleme Quality Control: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. kuru temizleme quality control hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 571,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Kuru Temizleme Quality Control: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 61,
+        "description_length": 176
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "ev-tekstili",
+      "title": "Ev Tekstili Blog | İstanbul Anadolu Yakası Ev Tekstili Bakım Rehberleri",
+      "description": "İstanbul Anadolu Yakası'nda ev tekstili temizliği, nevresim, battaniye, yorgan bakımı konularında uzman tavsiyeleri. 25 yıllık deneyimimizle ev tekstili bakım rehberleri.",
+      "primary_theme": "perde",
+      "theme_scores": {
+        "perde": 14,
+        "mobilya": 1,
+        "halı": 1,
+        "leke": 1,
+        "ipek": 1,
+        "yün": 1,
+        "profesyonel": 7
+      },
+      "keywords": [
+        "tekstili",
+        "bakım",
+        "rehberleri",
+        "nevresim",
+        "yorgan"
+      ],
+      "special_requirements": [],
+      "content_length": 178,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 71,
+        "description_length": 170
+      },
+      "image_requirements": {
+        "primary_subject": "perde",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "perde temizliği",
+          "ev tekstili",
+          "pencere dekorasyonu"
+        ],
+        "settings": [
+          "ev ortamı",
+          "modern salon",
+          "temiz pencere"
+        ],
+        "props": [
+          "temiz perde",
+          "ütü",
+          "temizlik malzemeleri"
+        ]
+      }
+    },
+    {
+      "slug": "istanbul-seasonal-clothing-care-calendar",
+      "title": "İstanbul İklim Şartlarına Göre Mevsimsel Kıyafet Bakım Takvimi 2025 | Dry Alle",
+      "description": "İstanbul'un özel iklim şartlarına göre hazırlanmış 12 aylık kıyafet bakım takvimi. Hangi ayda hangi kıyafetlere nasıl bakım yapacağınızı öğrenin.",
+      "primary_theme": "leke",
+      "theme_scores": {
+        "perde": 5,
+        "mobilya": 2,
+        "halı": 6,
+        "leke": 13,
+        "gelinlik": 4,
+        "deri": 7,
+        "yün": 7,
+        "profesyonel": 10
+      },
+      "keywords": [
+        "bakım",
+        "özel",
+        "sıcaklık",
+        "hazırlığı",
+        "bakımı"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 891,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 78,
+        "description_length": 145
+      },
+      "image_requirements": {
+        "primary_subject": "leke",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "leke çıkarma",
+          "temizlik işlemi",
+          "önce-sonra"
+        ],
+        "settings": [
+          "temizlik atölyesi",
+          "profesyonel ortam"
+        ],
+        "props": [
+          "temizlik ürünleri",
+          "leke çıkarma malzemeleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "summer-preparation-kiyafet-saklama",
+      "title": "Yaz Hazarligi Kiyafet Saklama: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından yaz hazarligi kiyafet saklama.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "özel",
+        "profesyonel"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 550,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Yaz Hazarligi Kiyafet Saklama: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 60,
+        "description_length": 155
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "post-vacation-kiyafet-carei",
+      "title": "Tatil Donusu Kiyafet Bakimi: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından tatil donusu kiyafet bakimi.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "bakimi",
+        "özel"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 550,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Tatil Donusu Kiyafet Bakimi: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 58,
+        "description_length": 153
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "ayakkabi-ve-deri-urunler-care-guide",
+      "title": "Ayakkabı ve Deri Ürünler Bakım Rehberi | Dry Alle İstanbul",
+      "description": "Ayakkabı ve deri ürünlerinizin doğru bakımı ve lostra hizmeti için kapsamlı rehber. İstanbul Anadolu Yakası profesyonel ayakkabı bakım hizmeti ve uzman tavsiyeleri.",
+      "primary_theme": "deri",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 1,
+        "leke": 23,
+        "gelinlik": 1,
+        "deri": 85,
+        "profesyonel": 34
+      },
+      "keywords": [
+        "bakım",
+        "ayakkabı",
+        "deri",
+        "özel",
+        "profesyonel"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 1174,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 58,
+        "description_length": 164
+      },
+      "image_requirements": {
+        "primary_subject": "deri",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "new-year-ozel-kiyafet-hazarligi",
+      "title": "Yilbasi Ozel Kiyafet Hazarligi: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. yilbasi ozel kiyafet hazarligi hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 45
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 571,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Yilbasi Ozel Kiyafet Hazarligi: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 61,
+        "description_length": 176
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "carpet-cleaning-allergic-reactions",
+      "title": "Hali Yikama Allerjik Reaksiyonlar: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali yikama allerjik reaksiyonlar uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 3,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "özel",
+        "hali",
+        "yikama"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 568,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Hali Yikama Allerjik Reaksiyonlar: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 64,
+        "description_length": 165
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "luxury-hali-collection-carei",
+      "title": "Luxury Hali Collection Bakimi: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. luxury hali collection bakimi uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 3,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "özel",
+        "hali",
+        "bakım"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 569,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Luxury Hali Collection Bakimi: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 60,
+        "description_length": 161
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "winter-clothes-ozel-care",
+      "title": "Kis Kiyafetleri Ozel Bakim: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. kis kiyafetleri ozel bakim hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 45
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 571,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Kis Kiyafetleri Ozel Bakim: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 57,
+        "description_length": 172
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "ev-tekstillerinin-care-ve-cleaning-guide",
+      "title": "Ev Tekstillerinin Bakım ve Temizlik Rehberi | Dry Alle İstanbul",
+      "description": "Ev tekstillerinizi uzun ömürlü ve hijyenik tutmak için kapsamlı bakım rehberi. İstanbul Anadolu Yakası profesyonel ev tekstili temizleme hizmeti ve uzman tavsiyeleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 22,
+        "mobilya": 5,
+        "halı": 5,
+        "leke": 19,
+        "gelinlik": 1,
+        "deri": 3,
+        "ipek": 2,
+        "yün": 3,
+        "profesyonel": 28
+      },
+      "keywords": [
+        "temizlik",
+        "bakım",
+        "profesyonel",
+        "tekstili",
+        "yıkama"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 1157,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 63,
+        "description_length": 166
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven"
+      }
+    },
+    {
+      "slug": "professional-laundry-vs-home-washing",
+      "title": "Professional Laundry Vs Home Washing: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. professional laundry vs home washing hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 45
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 573,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Professional Laundry Vs Home Washing: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 67,
+        "description_length": 182
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "winter-dry-cleaning-tips",
+      "title": "Kis Aylarinda Kuru Temizleme Ipuclari: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. kis aylarinda kuru temizleme ipuclari hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 573,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Kis Aylarinda Kuru Temizleme Ipuclari: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 68,
+        "description_length": 183
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "canta-temizleme",
+      "title": "Çanta Temizleme Blog | İstanbul Anadolu Yakası Çanta Bakım Rehberleri",
+      "description": "İstanbul Anadolu Yakası'nda çanta temizleme, deri çanta bakımı ve kumaş çanta temizliği konularında uzman tavsiyeleri. 25 yıllık deneyimimizle çanta bakım rehberleri.",
+      "primary_theme": "deri",
+      "theme_scores": {
+        "mobilya": 7,
+        "leke": 4,
+        "deri": 28,
+        "profesyonel": 5
+      },
+      "keywords": [
+        "çanta",
+        "temizleme",
+        "bakım",
+        "rehberleri",
+        "deri"
+      ],
+      "special_requirements": [],
+      "content_length": 178,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 69,
+        "description_length": 166
+      },
+      "image_requirements": {
+        "primary_subject": "deri",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven"
+      }
+    },
+    {
+      "slug": "antik-carpet-cleaning-ozel-yontemler",
+      "title": "Antik Hali Yikama Ozel Yontemler: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. antik hali yikama ozel yontemler uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 3,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "özel",
+        "hali",
+        "yikama"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 570,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Antik Hali Yikama Ozel Yontemler: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 63,
+        "description_length": 164
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "dry-cleaning-kimyasallari-guvenligi",
+      "title": "Kuru Temizleme Güvenliği: Bilmeniz Gerekenler | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. kuru temizleme kimyasallari guvenligi hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "stanbul"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 569,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Kuru Temizleme Güvenliği: Bilmeniz Gerekenler - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 61,
+        "description_length": 183
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "hali-yikama",
+      "title": "Halı Yıkama Blog | İstanbul Anadolu Yakası Halı Temizleme Rehberleri",
+      "description": "İstanbul Anadolu Yakası'nda halı yıkama, halı bakımı ve halı temizliği konularında uzman tavsiyeleri. Ev halı bakımından profesyonel yıkama hizmetlerine kadar tüm rehberler.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 4,
+        "halı": 24,
+        "leke": 2,
+        "deri": 1,
+        "profesyonel": 10
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "anadolu",
+        "stanbul",
+        "yakası"
+      ],
+      "special_requirements": [],
+      "content_length": 168,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 68,
+        "description_length": 173
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ]
+      }
+    },
+    {
+      "slug": "kumas-deri-boyama",
+      "title": "Kumaş Deri Boyama Blog | İstanbul Anadolu Yakası Renk Yenileme Rehberleri",
+      "description": "İstanbul Anadolu Yakası'nda kumaş deri boyama, renk yenileme ve solmuş kıyafet onarımı konularında uzman tavsiyeleri. 25 yıllık deneyimimizle boyama hizmeti rehberleri.",
+      "primary_theme": "deri",
+      "theme_scores": {
+        "mobilya": 12,
+        "deri": 18,
+        "yün": 1,
+        "profesyonel": 5
+      },
+      "keywords": [
+        "deri",
+        "boyama",
+        "kumaş",
+        "renk",
+        "rehberleri"
+      ],
+      "special_requirements": [],
+      "content_length": 171,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 73,
+        "description_length": 168
+      },
+      "image_requirements": {
+        "primary_subject": "deri",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven"
+      }
+    },
+    {
+      "slug": "hassas-kumaslar-dry-cleaning-guide",
+      "title": "Hassas Kumaşlar İçin Kuru Temizleme Rehberi | Dry Alle İstanbul",
+      "description": "İpek, kaşmir, yün ve diğer hassas kumaşları kuru temizleme ile nasıl koruyabilirsiniz? İstanbul'da uzman kuru temizleme rehberi.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 18,
+        "halı": 6,
+        "leke": 2,
+        "gelinlik": 1,
+        "deri": 6,
+        "ipek": 1,
+        "yün": 14,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "hassas",
+        "özel",
+        "kumaşlar"
+      ],
+      "special_requirements": [
+        "Hızlı servis"
+      ],
+      "content_length": 385,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 63,
+        "description_length": 128
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "spring-cleaning-tekstil-carei",
+      "title": "2025-03 Ayında Tekstil Bakimi: Profesyonel İpuçları | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından bahar temizligi tekstil bakimi.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "bakimi",
+        "profesyonel"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 549,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "2025-03 Ayında Tekstil Bakimi: Profesyonel İpuçları - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 67,
+        "description_length": 156
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven"
+      }
+    },
+    {
+      "slug": "dry-cleaning-eco-friendly-alternatifler",
+      "title": "Kuru Temizleme Cevre Dostu Alternatifler: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. kuru temizleme cevre dostu alternatifler hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "dostu",
+        "özel"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 572,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Kuru Temizleme Cevre Dostu Alternatifler: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 71,
+        "description_length": 186
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "2025-yilinda-istanbul-dry-cleaning-trendleri",
+      "title": "2025'te İstanbul'da Kuru Temizleme: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. 2025 yilinda istanbul kuru temizleme trendleri hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "stanbul",
+        "özel"
+      ],
+      "special_requirements": [
+        "Türkiye lokasyonu",
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 573,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "2025'te İstanbul'da Kuru Temizleme: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 65,
+        "description_length": 192
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "dry-cleaning-perfect-results",
+      "title": "Kuru Temizleme Mukemmel Sonuclar: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. kuru temizleme mukemmel sonuclar hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 571,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Kuru Temizleme Mukemmel Sonuclar: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 63,
+        "description_length": 178
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "2025-tekstil-care-ozeti",
+      "title": "2025 Tekstil Bakim Ozeti: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından 2025 tekstil bakim ozeti.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "özel",
+        "profesyonel"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 550,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "2025 Tekstil Bakim Ozeti: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 55,
+        "description_length": 150
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "ev-perdelerinizi-temiz-tutma-guide",
+      "title": "Ev Perdelerinizi Temiz Tutma Rehberi | Dry Alle İstanbul",
+      "description": "Perdelerinizi uzun ömürlü ve temiz tutmak için kapsamlı bakım rehberi. İstanbul Anadolu Yakası profesyonel perde temizleme hizmeti ve uzman tavsiyeleri.",
+      "primary_theme": "perde",
+      "theme_scores": {
+        "perde": 63,
+        "mobilya": 8,
+        "halı": 1,
+        "leke": 23,
+        "deri": 2,
+        "ipek": 5,
+        "profesyonel": 28
+      },
+      "keywords": [
+        "temizlik",
+        "perde",
+        "profesyonel",
+        "bakım",
+        "perdeler"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 1001,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 56,
+        "description_length": 152
+      },
+      "image_requirements": {
+        "primary_subject": "perde",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "perde temizliği",
+          "ev tekstili",
+          "pencere dekorasyonu"
+        ],
+        "settings": [
+          "ev ortamı",
+          "modern salon",
+          "temiz pencere"
+        ],
+        "props": [
+          "temiz perde",
+          "ütü",
+          "temizlik malzemeleri"
+        ]
+      }
+    },
+    {
+      "slug": "dry-cleaning-hatalari-ve-cozumleri",
+      "title": "Kuru Temizleme Hatalari Ve Cozumleri: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. kuru temizleme hatalari ve cozumleri hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 572,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Kuru Temizleme Hatalari Ve Cozumleri: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 67,
+        "description_length": 182
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "koltuk-upholstery-renewal-guide",
+      "title": "Koltuk Kaplama Yenileme Rehberi: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. koltuk kaplama yenileme rehberi uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 7,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "özel",
+        "rehberi",
+        "bakım"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 568,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Koltuk Kaplama Yenileme Rehberi: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 62,
+        "description_length": 163
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "deri-ve-kumas-canta-care-guide",
+      "title": "Deri ve Kumaş Çanta Bakım Rehberi | Dry Alle İstanbul",
+      "description": "Deri ve kumaş çantalarınızın doğru bakımı ve temizliği için kapsamlı rehber. İstanbul Anadolu Yakası profesyonel çanta temizleme hizmeti ve uzman tavsiyeleri.",
+      "primary_theme": "deri",
+      "theme_scores": {
+        "perde": 5,
+        "mobilya": 11,
+        "halı": 2,
+        "leke": 25,
+        "gelinlik": 2,
+        "deri": 89,
+        "ipek": 1,
+        "profesyonel": 26
+      },
+      "keywords": [
+        "çanta",
+        "deri",
+        "temizlik",
+        "çantalar",
+        "bakım"
+      ],
+      "special_requirements": [
+        "Hızlı servis"
+      ],
+      "content_length": 1082,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 53,
+        "description_length": 158
+      },
+      "image_requirements": {
+        "primary_subject": "deri",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven"
+      }
+    },
+    {
+      "slug": "istanbul-sicakliginda-hali-carei",
+      "title": "Istanbul Sicakliginda Hali Bakimi: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. istanbul sicakliginda hali bakimi uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 3,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "özel",
+        "hali",
+        "bakım"
+      ],
+      "special_requirements": [
+        "Türkiye lokasyonu",
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 568,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Istanbul Sicakliginda Hali Bakimi: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 64,
+        "description_length": 165
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "perde-temizleme",
+      "title": "Perde Temizleme Blog | İstanbul Anadolu Yakası Perde Bakım Rehberleri",
+      "description": "İstanbul Anadolu Yakası'nda perde temizleme, perde bakımı ve ev perdesi yıkama konularında uzman tavsiyeleri. 25 yıllık deneyimimizle perde temizlik rehberleri.",
+      "primary_theme": "perde",
+      "theme_scores": {
+        "perde": 22,
+        "mobilya": 7,
+        "halı": 2,
+        "leke": 4,
+        "deri": 1,
+        "ipek": 2,
+        "profesyonel": 6
+      },
+      "keywords": [
+        "perde",
+        "temizleme",
+        "rehberleri",
+        "stanbul",
+        "bakımı"
+      ],
+      "special_requirements": [],
+      "content_length": 166,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 69,
+        "description_length": 160
+      },
+      "image_requirements": {
+        "primary_subject": "perde",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "perde temizliği",
+          "ev tekstili",
+          "pencere dekorasyonu"
+        ],
+        "settings": [
+          "ev ortamı",
+          "modern salon",
+          "temiz pencere"
+        ],
+        "props": [
+          "temiz perde",
+          "ütü",
+          "temizlik malzemeleri"
+        ]
+      }
+    },
+    {
+      "slug": "solmus-kiyafetlere-yeni-hayat-verme-guide",
+      "title": "Solmuş Kıyafetlere Yeni Hayat Verme Rehberi | Dry Alle İstanbul",
+      "description": "Solmuş ve rengi atmış kıyafetlerinize profesyonel kumaş ve deri boyama ile yeni hayat verin. İstanbul Anadolu Yakası kumaş deri boyama hizmeti ve uzman tavsiyeleri.",
+      "primary_theme": "deri",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 25,
+        "halı": 6,
+        "leke": 7,
+        "gelinlik": 1,
+        "deri": 31,
+        "ipek": 1,
+        "yün": 4,
+        "profesyonel": 30
+      },
+      "keywords": [
+        "boyama",
+        "renk",
+        "deri",
+        "profesyonel",
+        "kumaş"
+      ],
+      "special_requirements": [
+        "Hızlı servis"
+      ],
+      "content_length": 1238,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 63,
+        "description_length": 164
+      },
+      "image_requirements": {
+        "primary_subject": "deri",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven"
+      }
+    },
+    {
+      "slug": "hot-weather-dry-cleaning",
+      "title": "Sicak Havalarda Kuru Temizleme: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. sicak havalarda kuru temizleme hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 571,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Sicak Havalarda Kuru Temizleme: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 61,
+        "description_length": 176
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "carpet-cleaning-technology-innovations",
+      "title": "Hali Yikama Teknoloji Yenilikleri: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali yikama teknoloji yenilikleri uzman tavsiyeleri.",
+      "primary_theme": "halı",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 3,
+        "halı": 27,
+        "ipek": 2,
+        "yün": 2,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "halı",
+        "yıkama",
+        "özel",
+        "hali",
+        "yikama"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 568,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Hali Yikama Teknoloji Yenilikleri: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 30
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 64,
+        "description_length": 165
+      },
+      "image_requirements": {
+        "primary_subject": "halı",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "halı temizliği",
+          "kilim bakımı",
+          "zemin temizliği"
+        ],
+        "settings": [
+          "ev içi",
+          "salon",
+          "temiz zemin"
+        ],
+        "props": [
+          "temiz halı",
+          "temizlik makinesi",
+          "bakım ürünleri"
+        ],
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "antik-mobilya-tekstil-carei",
+      "title": "Antik Mobilya Tekstil Bakimi: Uzman Rehberi | Dry Alle Blog",
+      "description": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım uzmanından antik mobilya tekstil bakimi.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 1,
+        "mobilya": 7,
+        "halı": 4,
+        "leke": 2,
+        "yün": 4,
+        "profesyonel": 22
+      },
+      "keywords": [
+        "tekstil",
+        "bakımı",
+        "bakım",
+        "bakimi",
+        "özel"
+      ],
+      "special_requirements": [
+        "Mevsimsel"
+      ],
+      "content_length": 550,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Antik Mobilya Tekstil Bakimi: Uzman Rehberi - Professional image for wedding+dress+cleaning",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 35
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 59,
+        "description_length": 154
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "ipek-kumaslar-dry-cleaning-guide",
+      "title": "Ipek Kumaslar Kuru Temizleme Rehberi: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. ipek kumaslar kuru temizleme rehberi hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 5,
+        "yün": 3,
+        "profesyonel": 49
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "rehberi",
+        "profesyonel",
+        "özel"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 572,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Ipek Kumaslar Kuru Temizleme Rehberi: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 67,
+        "description_length": 182
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    },
+    {
+      "slug": "lostra-hizmeti",
+      "title": "Lostra Hizmeti Blog | İstanbul Anadolu Yakası Ayakkabı Parlatma Rehberleri",
+      "description": "İstanbul Anadolu Yakası'nda lostra hizmeti, ayakkabı parlatma ve deri ürün bakımı konularında uzman tavsiyeleri. 25 yıllık deneyimimizle ayakkabı bakım rehberleri.",
+      "primary_theme": "deri",
+      "theme_scores": {
+        "mobilya": 3,
+        "deri": 22,
+        "profesyonel": 6
+      },
+      "keywords": [
+        "ayakkabı",
+        "deri",
+        "lostra",
+        "hizmeti",
+        "rehberleri"
+      ],
+      "special_requirements": [],
+      "content_length": 171,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 74,
+        "description_length": 163
+      },
+      "image_requirements": {
+        "primary_subject": "deri",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven"
+      }
+    },
+    {
+      "slug": "kumas-ve-deri-koltuk-temizligi-guide",
+      "title": "Kumaş ve Deri Koltuk Temizliği Rehberi | Dry Alle İstanbul",
+      "description": "Kumaş ve deri koltuklarınızın doğru temizlik ve bakımı için kapsamlı rehber. İstanbul Anadolu Yakası profesyonel koltuk yıkama hizmeti ve uzman tavsiyeleri.",
+      "primary_theme": "mobilya",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 57,
+        "halı": 2,
+        "leke": 24,
+        "deri": 27,
+        "ipek": 1,
+        "profesyonel": 27
+      },
+      "keywords": [
+        "koltuk",
+        "temizlik",
+        "bakım",
+        "deri",
+        "profesyonel"
+      ],
+      "special_requirements": [
+        "Hızlı servis"
+      ],
+      "content_length": 945,
+      "current_image": {
+        "exists": false,
+        "src": "",
+        "alt": "",
+        "size_info": null
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 58,
+        "description_length": 156
+      },
+      "image_requirements": {
+        "primary_subject": "mobilya",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "subjects": [
+          "koltuk temizliği",
+          "kumaş bakımı",
+          "döşeme temizliği"
+        ],
+        "settings": [
+          "modern salon",
+          "oturma odası",
+          "temiz ev"
+        ],
+        "props": [
+          "temiz koltuk",
+          "temizlik ekipmanı",
+          "kumaş bakım ürünleri"
+        ]
+      }
+    },
+    {
+      "slug": "valentines-day-ozel-kiyafet-carei",
+      "title": "Sevgililer Gunu Ozel Kiyafet Bakimi: Uzman Rehberi | Dry Alle Blog",
+      "description": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat. sevgililer gunu ozel kiyafet bakimi hakkında uzman görüşleri.",
+      "primary_theme": "profesyonel",
+      "theme_scores": {
+        "perde": 2,
+        "mobilya": 8,
+        "halı": 4,
+        "leke": 1,
+        "gelinlik": 2,
+        "ipek": 1,
+        "yün": 3,
+        "profesyonel": 45
+      },
+      "keywords": [
+        "kuru",
+        "temizleme",
+        "profesyonel",
+        "özel",
+        "uzman"
+      ],
+      "special_requirements": [
+        "Mevsimsel",
+        "Hızlı servis"
+      ],
+      "content_length": 572,
+      "current_image": {
+        "exists": true,
+        "src": "featured-image.webp",
+        "alt": "Sevgililer Gunu Ozel Kiyafet Bakimi: Uzman Rehberi - Profesyonel Temizlik Hizmeti",
+        "size_info": {
+          "width": 1200,
+          "height": 630,
+          "format": "WEBP",
+          "size_kb": 24
+        }
+      },
+      "seo_analysis": {
+        "has_title": true,
+        "has_description": true,
+        "title_length": 66,
+        "description_length": 181
+      },
+      "image_requirements": {
+        "primary_subject": "profesyonel",
+        "context": "kuru temizleme, profesyonel temizlik",
+        "style": "temiz, modern, profesyonel",
+        "color_harmony": [
+          "#006a44",
+          "#f6ec3d",
+          "#e1e1e1",
+          "#f0f0f0"
+        ],
+        "mood": "temizlik, kalite, güven",
+        "quality_level": "premium, lüks hizmet"
+      }
+    }
+  ],
+  "optimization_priorities": [
+    {
+      "level": "CRITICAL",
+      "issue": "21 blog hiç görseli yok",
+      "blogs": [
+        "kuru-temizleme",
+        "evde-hali-carei-ve-professional-washing-guide",
+        "koltuk-yikama",
+        "complete-home-textile-maintenance-manual",
+        "ultimate-turkish-dry-cleaning-guide",
+        "utu-hizmetleri",
+        "ev-utusu-vs-professional-utu-hizmeti",
+        "ev-tekstili",
+        "istanbul-seasonal-clothing-care-calendar",
+        "ayakkabi-ve-deri-urunler-care-guide",
+        "ev-tekstillerinin-care-ve-cleaning-guide",
+        "canta-temizleme",
+        "hali-yikama",
+        "kumas-deri-boyama",
+        "hassas-kumaslar-dry-cleaning-guide",
+        "ev-perdelerinizi-temiz-tutma-guide",
+        "deri-ve-kumas-canta-care-guide",
+        "perde-temizleme",
+        "solmus-kiyafetlere-yeni-hayat-verme-guide",
+        "lostra-hizmeti",
+        "kumas-ve-deri-koltuk-temizligi-guide"
+      ]
+    },
+    {
+      "level": "MEDIUM",
+      "issue": "Tüm bloglar için tema-görsel uyumluluğu kontrol edilmeli",
+      "blogs": [
+        "vintage-clothing-ozel-care",
+        "wedding-season-wedding-dress-carei",
+        "professional-vs-evde-carpet-cleaning-comparison",
+        "outdoor-textile-urunleri-carei",
+        "is-kiyafetleri-professional-care",
+        "kuru-temizleme",
+        "evde-hali-carei-ve-professional-washing-guide",
+        "winter-preparation-tekstil-koruma",
+        "autumn-kiyafet-gecisi-guide",
+        "koltuk-yikama",
+        "hali-color-fading-onleme-methods",
+        "carpet-cleaning-sonrasi-care-guide",
+        "kalorifer-sezonu-tekstil-carei",
+        "complete-home-textile-maintenance-manual",
+        "curtain-cleaning-ev-vs-professional",
+        "air-conditioned-tekstil-carei",
+        "ultimate-turkish-dry-cleaning-guide",
+        "back-to-school-uniform-carei",
+        "luxury-textile-care-technologies",
+        "2026-tekstil-care-trendleri",
+        "dry-cleaning-sigorta-ve-garanti",
+        "summer-clothes-saklama-guide",
+        "wedding-dress-temizleme-ultimate-rehber",
+        "istanbul-anatolian-side-dry-cleaning",
+        "home-textiles-hijyen-guide",
+        "utu-hizmetleri",
+        "ev-utusu-vs-professional-utu-hizmeti",
+        "kis-hali-care-stratejileri",
+        "istanbul-elit-semtlerde-tekstil-carei",
+        "professional-carpet-cleaning-surecler",
+        "sofa-cleaning-diy-vs-professional",
+        "dry-cleaning-quality-control",
+        "ev-tekstili",
+        "istanbul-seasonal-clothing-care-calendar",
+        "summer-preparation-kiyafet-saklama",
+        "post-vacation-kiyafet-carei",
+        "ayakkabi-ve-deri-urunler-care-guide",
+        "new-year-ozel-kiyafet-hazarligi",
+        "carpet-cleaning-allergic-reactions",
+        "luxury-hali-collection-carei",
+        "winter-clothes-ozel-care",
+        "ev-tekstillerinin-care-ve-cleaning-guide",
+        "professional-laundry-vs-home-washing",
+        "winter-dry-cleaning-tips",
+        "canta-temizleme",
+        "antik-carpet-cleaning-ozel-yontemler",
+        "dry-cleaning-kimyasallari-guvenligi",
+        "hali-yikama",
+        "kumas-deri-boyama",
+        "hassas-kumaslar-dry-cleaning-guide",
+        "spring-cleaning-tekstil-carei",
+        "dry-cleaning-eco-friendly-alternatifler",
+        "2025-yilinda-istanbul-dry-cleaning-trendleri",
+        "dry-cleaning-perfect-results",
+        "2025-tekstil-care-ozeti",
+        "ev-perdelerinizi-temiz-tutma-guide",
+        "dry-cleaning-hatalari-ve-cozumleri",
+        "koltuk-upholstery-renewal-guide",
+        "deri-ve-kumas-canta-care-guide",
+        "istanbul-sicakliginda-hali-carei",
+        "perde-temizleme",
+        "solmus-kiyafetlere-yeni-hayat-verme-guide",
+        "hot-weather-dry-cleaning",
+        "carpet-cleaning-technology-innovations",
+        "antik-mobilya-tekstil-carei",
+        "ipek-kumaslar-dry-cleaning-guide",
+        "lostra-hizmeti",
+        "kumas-ve-deri-koltuk-temizligi-guide",
+        "valentines-day-ozel-kiyafet-carei"
+      ]
+    }
+  ],
+  "next_steps": [
+    "Manuel görsel seçimi için CSV dosyasını incele",
+    "Her blog için en uygun 3 görsel adayını belirle",
+    "Seçilen görselleri WebP formatına dönüştür",
+    "HTML dosyalarını güncelle",
+    "Lighthouse performans testi yap"
+  ]
+}

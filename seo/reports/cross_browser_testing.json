@@ -1,0 +1,1121 @@
+{
+  "test_date": "2025-08-17T05:13:57.130666",
+  "project": "DryAlle Blog Redesign",
+  "test_scope": "Cross-Browser Compatibility & Performance",
+  "browsers_tested": [
+    "chrome",
+    "safari",
+    "firefox",
+    "edge"
+  ],
+  "css_compatibility": [
+    {
+      "file": "styles.css",
+      "issues": [
+        "Missing webkit prefix for flexbox",
+        "Missing @supports check for CSS Grid",
+        "Missing webkit prefix for transforms"
+      ]
+    },
+    {
+      "file": "blog-unified.css",
+      "issues": [
+        "Missing webkit prefix for flexbox",
+        "Missing @supports check for CSS Grid",
+        "Missing webkit prefix for transforms"
+      ]
+    }
+  ],
+  "responsive_breakpoints": [
+    {
+      "viewport_width": 1920,
+      "active_breakpoint": null,
+      "expected_layout": {
+        "grid_columns": 3,
+        "layout": "desktop"
+      }
+    },
+    {
+      "viewport_width": 1200,
+      "active_breakpoint": 1200,
+      "expected_layout": {
+        "grid_columns": 3,
+        "layout": "desktop"
+      }
+    },
+    {
+      "viewport_width": 768,
+      "active_breakpoint": 768,
+      "expected_layout": {
+        "grid_columns": 2,
+        "layout": "tablet"
+      }
+    },
+    {
+      "viewport_width": 480,
+      "active_breakpoint": 480,
+      "expected_layout": {
+        "grid_columns": 1,
+        "layout": "mobile"
+      }
+    },
+    {
+      "viewport_width": 375,
+      "active_breakpoint": 480,
+      "expected_layout": {
+        "grid_columns": 1,
+        "layout": "mobile"
+      }
+    }
+  ],
+  "image_optimization": [
+    {
+      "blog": "vintage-clothing-ozel-care",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "pillar-content",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "wedding-season-wedding-dress-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "professional-vs-evde-carpet-cleaning-comparison",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "outdoor-textile-urunleri-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "is-kiyafetleri-professional-care",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "kuru-temizleme",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "evde-hali-carei-ve-professional-washing-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "winter-preparation-tekstil-koruma",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "2025-06",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "2025-01",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "2025-08",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "autumn-kiyafet-gecisi-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "koltuk-yikama",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 39,
+      "size_optimized": true
+    },
+    {
+      "blog": "hali-color-fading-onleme-methods",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "carpet-cleaning-sonrasi-care-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "kalorifer-sezonu-tekstil-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "2025-09",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "2025-07",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "complete-home-textile-maintenance-manual",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 14,
+      "size_optimized": true
+    },
+    {
+      "blog": "curtain-cleaning-ev-vs-professional",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 49,
+      "size_optimized": true
+    },
+    {
+      "blog": "air-conditioned-tekstil-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "ultimate-turkish-dry-cleaning-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "back-to-school-uniform-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "luxury-textile-care-technologies",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "2026-tekstil-care-trendleri",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "dry-cleaning-sigorta-ve-garanti",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "summer-clothes-saklama-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "wedding-dress-temizleme-ultimate-rehber",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "istanbul-anatolian-side-dry-cleaning",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "home-textiles-hijyen-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "2025-12",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "utu-hizmetleri",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 49,
+      "size_optimized": true
+    },
+    {
+      "blog": "ev-utusu-vs-professional-utu-hizmeti",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 49,
+      "size_optimized": true
+    },
+    {
+      "blog": "kis-hali-care-stratejileri",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "istanbul-elit-semtlerde-tekstil-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "professional-carpet-cleaning-surecler",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "sofa-cleaning-diy-vs-professional",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "dry-cleaning-quality-control",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "ev-tekstili",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "istanbul-seasonal-clothing-care-calendar",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 101,
+      "size_optimized": false
+    },
+    {
+      "blog": "summer-preparation-kiyafet-saklama",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "post-vacation-kiyafet-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "ayakkabi-ve-deri-urunler-care-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 65,
+      "size_optimized": true
+    },
+    {
+      "blog": "new-year-ozel-kiyafet-hazarligi",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "carpet-cleaning-allergic-reactions",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "luxury-hali-collection-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "winter-clothes-ozel-care",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "ev-tekstillerinin-care-ve-cleaning-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "2025-02",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "2025-05",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "professional-laundry-vs-home-washing",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "winter-dry-cleaning-tips",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "2025-04",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "2025-03",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "canta-temizleme",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 39,
+      "size_optimized": true
+    },
+    {
+      "blog": "antik-carpet-cleaning-ozel-yontemler",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "2025-10",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "dry-cleaning-kimyasallari-guvenligi",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "hali-yikama",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "kumas-deri-boyama",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 39,
+      "size_optimized": true
+    },
+    {
+      "blog": "hassas-kumaslar-dry-cleaning-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "spring-cleaning-tekstil-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "dry-cleaning-eco-friendly-alternatifler",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "2025-11",
+      "has_featured_image": false,
+      "webp_support": false,
+      "fallback_format": null
+    },
+    {
+      "blog": "2025-yilinda-istanbul-dry-cleaning-trendleri",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "dry-cleaning-perfect-results",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "2025-tekstil-care-ozeti",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "ev-perdelerinizi-temiz-tutma-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 49,
+      "size_optimized": true
+    },
+    {
+      "blog": "dry-cleaning-hatalari-ve-cozumleri",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "koltuk-upholstery-renewal-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "deri-ve-kumas-canta-care-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 39,
+      "size_optimized": true
+    },
+    {
+      "blog": "istanbul-sicakliginda-hali-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "perde-temizleme",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 49,
+      "size_optimized": true
+    },
+    {
+      "blog": "solmus-kiyafetlere-yeni-hayat-verme-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 39,
+      "size_optimized": true
+    },
+    {
+      "blog": "hot-weather-dry-cleaning",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "carpet-cleaning-technology-innovations",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 30,
+      "size_optimized": true
+    },
+    {
+      "blog": "antik-mobilya-tekstil-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 35,
+      "size_optimized": true
+    },
+    {
+      "blog": "ipek-kumaslar-dry-cleaning-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    },
+    {
+      "blog": "lostra-hizmeti",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 39,
+      "size_optimized": true
+    },
+    {
+      "blog": "kumas-ve-deri-koltuk-temizligi-guide",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 39,
+      "size_optimized": true
+    },
+    {
+      "blog": "valentines-day-ozel-kiyafet-carei",
+      "has_featured_image": true,
+      "webp_support": true,
+      "fallback_format": null,
+      "file_size_kb": 24,
+      "size_optimized": true
+    }
+  ],
+  "performance_metrics": [
+    {
+      "scenario": "homepage",
+      "url": "https://dryallekurutemizleme.com/",
+      "css_assets": {
+        "styles.css": {
+          "size_kb": 20,
+          "minified": false
+        },
+        "blog-unified.css": {
+          "size_kb": 6,
+          "minified": false
+        }
+      },
+      "js_assets": {},
+      "performance_threshold": 90
+    },
+    {
+      "scenario": "blog_index",
+      "url": "https://dryallekurutemizleme.com/blog/",
+      "css_assets": {
+        "styles.css": {
+          "size_kb": 20,
+          "minified": false
+        },
+        "blog-unified.css": {
+          "size_kb": 6,
+          "minified": false
+        }
+      },
+      "js_assets": {},
+      "performance_threshold": 85
+    },
+    {
+      "scenario": "blog_post",
+      "url": "https://dryallekurutemizleme.com/blog/vintage-clothing-ozel-care/",
+      "css_assets": {
+        "styles.css": {
+          "size_kb": 20,
+          "minified": false
+        },
+        "blog-unified.css": {
+          "size_kb": 6,
+          "minified": false
+        }
+      },
+      "js_assets": {},
+      "performance_threshold": 85
+    },
+    {
+      "scenario": "service_pages",
+      "url": "https://dryallekurutemizleme.com/sss.html",
+      "css_assets": {
+        "styles.css": {
+          "size_kb": 20,
+          "minified": false
+        },
+        "blog-unified.css": {
+          "size_kb": 6,
+          "minified": false
+        }
+      },
+      "js_assets": {},
+      "performance_threshold": 90
+    }
+  ],
+  "seo_compliance": [
+    {
+      "slug": "vintage-clothing-ozel-care",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "wedding-season-wedding-dress-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "professional-vs-evde-carpet-cleaning-comparison",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "outdoor-textile-urunleri-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "is-kiyafetleri-professional-care",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "kuru-temizleme",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "evde-hali-carei-ve-professional-washing-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "winter-preparation-tekstil-koruma",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "autumn-kiyafet-gecisi-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "koltuk-yikama",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "hali-color-fading-onleme-methods",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "carpet-cleaning-sonrasi-care-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "kalorifer-sezonu-tekstil-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "complete-home-textile-maintenance-manual",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "curtain-cleaning-ev-vs-professional",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "air-conditioned-tekstil-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "ultimate-turkish-dry-cleaning-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "back-to-school-uniform-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "luxury-textile-care-technologies",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "2026-tekstil-care-trendleri",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "dry-cleaning-sigorta-ve-garanti",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "summer-clothes-saklama-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "wedding-dress-temizleme-ultimate-rehber",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "istanbul-anatolian-side-dry-cleaning",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "home-textiles-hijyen-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "utu-hizmetleri",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "ev-utusu-vs-professional-utu-hizmeti",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "kis-hali-care-stratejileri",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "istanbul-elit-semtlerde-tekstil-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "professional-carpet-cleaning-surecler",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "sofa-cleaning-diy-vs-professional",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "dry-cleaning-quality-control",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "ev-tekstili",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "istanbul-seasonal-clothing-care-calendar",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "summer-preparation-kiyafet-saklama",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "post-vacation-kiyafet-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "ayakkabi-ve-deri-urunler-care-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "new-year-ozel-kiyafet-hazarligi",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "carpet-cleaning-allergic-reactions",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "luxury-hali-collection-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "winter-clothes-ozel-care",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "ev-tekstillerinin-care-ve-cleaning-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "professional-laundry-vs-home-washing",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "winter-dry-cleaning-tips",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "canta-temizleme",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "antik-carpet-cleaning-ozel-yontemler",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "dry-cleaning-kimyasallari-guvenligi",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "hali-yikama",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "kumas-deri-boyama",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "hassas-kumaslar-dry-cleaning-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "spring-cleaning-tekstil-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "dry-cleaning-eco-friendly-alternatifler",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "2025-yilinda-istanbul-dry-cleaning-trendleri",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "dry-cleaning-perfect-results",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "2025-tekstil-care-ozeti",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "ev-perdelerinizi-temiz-tutma-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "dry-cleaning-hatalari-ve-cozumleri",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "koltuk-upholstery-renewal-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "deri-ve-kumas-canta-care-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "istanbul-sicakliginda-hali-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "perde-temizleme",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "solmus-kiyafetlere-yeni-hayat-verme-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "hot-weather-dry-cleaning",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "carpet-cleaning-technology-innovations",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "antik-mobilya-tekstil-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "ipek-kumaslar-dry-cleaning-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "lostra-hizmeti",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "kumas-ve-deri-koltuk-temizligi-guide",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    },
+    {
+      "slug": "valentines-day-ozel-kiyafet-carei",
+      "error": "unsupported operand type(s) for +: 'int' and 'str'",
+      "seo_score": 0
+    }
+  ],
+  "recommendations": [
+    "Fix 2 CSS compatibility issues",
+    "Improve WebP coverage: 84.1%",
+    "Improve SEO score: 0.0%"
+  ]
+}
