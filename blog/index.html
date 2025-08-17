@@ -1,690 +1,653 @@
 <!DOCTYPE html>
+
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tekstil Bakımı Blog | Dry Alle Uzman Rehberleri</title>
-    <meta name="description" content="İstanbul'da tekstil bakımı, kuru temizleme, halı yıkama konularında uzman rehberleri. 25 yıllık deneyimle hazırlanan kapsamlı blog yazıları.">
-    <link rel="canonical" href="https://dryallekurutemizleme.com/blog/">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="blog-styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blog | Dry Alle Kuru Temizleme - Profesyonel Tekstil Bakım Rehberleri</title>
+<meta content="İstanbul'da kuru temizleme, halı yıkama, mobilya temizliği hakkında uzman rehberleri. 25 yıllık deneyimle hazırlanmış kapsamlı blog yazıları." name="description"/>
+<meta content="kuru temizleme blog, halı yıkama rehberi, mobilya temizliği, perde temizleme, leke çıkarma" name="keywords"/>
+<!-- Open Graph -->
+<meta content="Profesyonel Temizlik Blog | Dry Alle" property="og:title"/>
+<meta content="Kuru temizleme, halı yıkama ve tekstil bakımı hakkında uzman rehberleri" property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://dryallekurutemizleme.com/blog/" property="og:url"/>
+<meta content="https://dryallekurutemizleme.com/blog/blog-featured.webp" property="og:image"/>
+<!-- Central CSS System -->
+<link href="../css/dryalle-core.css" rel="stylesheet"/>
+<!-- Blog Specific Styles -->
+<style>
+        /* Blog Hero using central system */
+        .blog-hero {
+            background: linear-gradient(135deg, var(--primary-green) 0%, #004d32 50%, #00623b 100%);
+            color: var(--white);
+            padding: var(--spacing-5xl) 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .blog-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="%23ffffff" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="%23ffffff" opacity="0.1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grain)"/></svg>');
+            opacity: 0.1;
+        }
+        
+        .blog-hero .container {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .blog-hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: var(--spacing-lg);
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .blog-hero p {
+            font-size: clamp(1.125rem, 2vw, 1.5rem);
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        /* Blog Controls */
+        .blog-controls {
+            background: var(--bg-gray-50);
+            padding: var(--spacing-2xl) 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+        
+        .controls-container {
+            max-width: var(--blog-grid-width);
+            margin: 0 auto;
+            padding: 0 var(--container-padding);
+            display: flex;
+            gap: var(--spacing-xl);
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .search-box {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: var(--spacing-md) var(--spacing-lg);
+            border: 2px solid var(--border-light);
+            border-radius: var(--radius-md);
+            font-size: 16px;
+            transition: all var(--transition-normal);
+            font-family: var(--font-family-primary);
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary-green);
+            box-shadow: 0 0 0 3px rgba(0, 106, 68, 0.1);
+        }
+        
+        .filter-controls {
+            display: flex;
+            gap: var(--spacing-md);
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: var(--spacing-sm) var(--spacing-lg);
+            border: 2px solid var(--primary-green);
+            background: var(--white);
+            color: var(--primary-green);
+            border-radius: var(--radius-xl);
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: var(--font-weight-medium);
+            transition: all var(--transition-normal);
+            white-space: nowrap;
+            font-family: var(--font-family-primary);
+        }
+        
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--primary-green);
+            color: var(--white);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .reading-time-filter {
+            display: flex;
+            gap: var(--spacing-sm);
+        }
+        
+        /* Blog Grid */
+        .blog-grid {
+            max-width: var(--blog-grid-width);
+            margin: 0 auto;
+            padding: var(--spacing-4xl) var(--container-padding);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--spacing-2xl);
+        }
+        
+        .blog-card {
+            background: var(--white);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-normal);
+            position: relative;
+            border: 1px solid var(--border-light);
+        }
+        
+        .blog-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+        }
+        
+        .blog-card-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-bottom: 3px solid var(--accent-yellow);
+            transition: transform var(--transition-normal);
+        }
+        
+        .blog-card:hover .blog-card-image {
+            transform: scale(1.05);
+        }
+        
+        .blog-card-content {
+            padding: var(--spacing-xl);
+        }
+        
+        .blog-theme-badge {
+            position: absolute;
+            top: var(--spacing-md);
+            left: var(--spacing-md);
+            padding: var(--spacing-xs) var(--spacing-md);
+            background: rgba(0,0,0,0.8);
+            color: var(--white);
+            border-radius: var(--radius-xl);
+            font-size: 12px;
+            font-weight: var(--font-weight-semibold);
+            backdrop-filter: blur(10px);
+        }
+        
+        .blog-card-title {
+            color: var(--primary-green);
+            font-size: 1.25rem;
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--spacing-md);
+            line-height: 1.4;
+            text-decoration: none;
+            display: block;
+            transition: color var(--transition-fast);
+        }
+        
+        .blog-card-title:hover {
+            color: var(--primary-green-light);
+        }
+        
+        .blog-card-summary {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            line-height: 1.6;
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .blog-card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.75rem;
+            color: var(--text-light);
+            margin-bottom: var(--spacing-md);
+            gap: var(--spacing-sm);
+        }
+        
+        .blog-card-meta span {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+        }
+        
+        .read-more-btn {
+            color: var(--primary-green);
+            text-decoration: none;
+            font-weight: var(--font-weight-semibold);
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid transparent;
+            transition: all var(--transition-fast);
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+        }
+        
+        .read-more-btn:hover {
+            border-color: var(--primary-green);
+            transform: translateX(4px);
+        }
+        
+        .read-more-btn::after {
+            content: '→';
+            transition: transform var(--transition-fast);
+        }
+        
+        .read-more-btn:hover::after {
+            transform: translateX(4px);
+        }
+        
+        /* Pagination */
+        .pagination {
+            text-align: center;
+            padding: var(--spacing-2xl) 0;
+        }
+        
+        .pagination-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: var(--spacing-sm) var(--spacing-lg);
+            margin: 0 var(--spacing-xs);
+            background: var(--primary-green);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: var(--radius-md);
+            transition: all var(--transition-normal);
+            font-weight: var(--font-weight-medium);
+            min-width: 40px;
+        }
+        
+        .pagination-btn:hover {
+            background: var(--primary-green-hover);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .pagination-btn.active {
+            background: var(--accent-yellow);
+            color: var(--text-primary);
+            font-weight: var(--font-weight-bold);
+        }
+        
+        .pagination-btn.disabled {
+            background: var(--bg-gray-200);
+            color: var(--text-light);
+            pointer-events: none;
+            cursor: not-allowed;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: var(--spacing-4xl) var(--spacing-lg);
+            color: var(--text-secondary);
+            background: var(--white);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-sm);
+            margin: var(--spacing-2xl);
+        }
+        
+        .no-results h3 {
+            color: var(--primary-green);
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .no-results a {
+            color: var(--primary-green);
+            font-weight: var(--font-weight-medium);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .blog-grid {
+                grid-template-columns: 1fr;
+                padding: var(--spacing-2xl) var(--container-padding-mobile);
+                gap: var(--spacing-xl);
+            }
+            
+            .controls-container {
+                padding: 0 var(--container-padding-mobile);
+                flex-direction: column;
+                align-items: stretch;
+                gap: var(--spacing-lg);
+            }
+            
+            .filter-controls {
+                justify-content: center;
+            }
+            
+            .blog-hero {
+                padding: var(--spacing-3xl) var(--container-padding-mobile);
+            }
+            
+            .search-box {
+                min-width: auto;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .blog-card {
+                margin: 0;
+            }
+            
+            .filter-btn {
+                font-size: 12px;
+                padding: var(--spacing-xs) var(--spacing-md);
+            }
+            
+            .blog-card-content {
+                padding: var(--spacing-lg);
+            }
+            
+            .blog-card-meta {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: var(--spacing-xs);
+            }
+        }
+    </style>
+<!-- Schema Markup -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Dry Alle Kuru Temizleme Blog",
+        "description": "Kuru temizleme, halı yıkama ve tekstil bakımı hakkında uzman rehberleri",
+        "url": "https://dryallekurutemizleme.com/blog/",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Dry Alle Kuru Temizleme",
+            "url": "https://dryallekurutemizleme.com"
+        },
+        "blogPost": [
+            [{"@type": "BlogPosting", "headline": "Vintage Kiyafetler Ozel Bakim: Uzman Rehberi", "url": "https://dryallekurutemizleme.com/blog/vintage-clothing-ozel-care/"}, {"@type": "BlogPosting", "headline": "Duggun Sezonu Gelinlik Bakimi: Uzman Rehberi", "url": "https://dryallekurutemizleme.com/blog/wedding-season-wedding-dress-carei/"}, {"@type": "BlogPosting", "headline": "Profesyonel vs Ev Yapımı: Hali Yikama Kıyaslaması", "url": "https://dryallekurutemizleme.com/blog/professional-vs-evde-carpet-cleaning-comparison/"}, {"@type": "BlogPosting", "headline": "Outdoor Tekstil Urunleri Bakimi: Uzman Rehberi", "url": "https://dryallekurutemizleme.com/blog/outdoor-textile-urunleri-carei/"}, {"@type": "BlogPosting", "headline": "Iş Kiyafetleri Profesyonel Bakim: Uzman Rehberi", "url": "https://dryallekurutemizleme.com/blog/is-kiyafetleri-professional-care/"}, {"@type": "BlogPosting", "headline": "Kuru Temizleme Rehberleri", "url": "https://dryallekurutemizleme.com/blog/kuru-temizleme/"}, {"@type": "BlogPosting", "headline": "Kis Hazarligi Tekstil Koruma: Uzman Rehberi", "url": "https://dryallekurutemizleme.com/blog/winter-preparation-tekstil-koruma/"}, {"@type": "BlogPosting", "headline": "Sonbahar Kiyafet Gecisi Rehberi: Uzman Rehberi", "url": "https://dryallekurutemizleme.com/blog/autumn-kiyafet-gecisi-guide/"}, {"@type": "BlogPosting", "headline": "Koltuk Yıkama Rehberleri", "url": "https://dryallekurutemizleme.com/blog/koltuk-yikama/"}, {"@type": "BlogPosting", "headline": "Hali Renk Solmasi Onleme Yontemleri: Uzman Rehberi", "url": "https://dryallekurutemizleme.com/blog/hali-color-fading-onleme-methods/"}]
+        ]
+    }
+    </script>
 </head>
 <body>
-    <nav class="main-nav">
-        <div class="container">
-            <a href="../index.html" class="logo">Dry Alle</a>
-            <ul class="nav-links">
-                <li><a href="../index.html">Ana Sayfa</a></li>
-                <li><a href="../hizmetler/">Hizmetler</a></li>
-                <li><a href="../blog/" class="active">Blog</a></li>
-                <li><a href="../sss.html">SSS</a></li>
-            </ul>
+<!-- Using Central Header System -->
+<div class="top-bar">
+<div class="top-bar-content">
+<strong>ÜCRETSİZ KAPIDAN TESLİMAT</strong> • İstanbul'un Her Yerine • 0530 468 5858
         </div>
-    </nav>
-
-    <main class="blog-index">
-        <div class="container">
-            <header class="blog-header">
-                <h1>Tekstil Bakımı Uzman Rehberleri</h1>
-                <p class="blog-subtitle">25 yıllık deneyimimizle hazırlanan kapsamlı rehberler</p>
-            </header>
-
-            <div class="blog-categories">
-                <button class="category-filter active" data-category="all">Tümü</button>
-                <button class="category-filter" data-category="kuru_temizleme">Kuru Temizleme</button>
-                <button class="category-filter" data-category="hali_yikama">Halı Yıkama</button>
-                <button class="category-filter" data-category="gelinlik">Gelinlik Bakımı</button>
-                <button class="category-filter" data-category="tekstil_bakimi">Tekstil Bakımı</button>
-            </div>
-
-            <div class="blog-grid">
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="2025 Yilinda Istanbul Kuru Temizleme Trendleri" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-01/2025-yilinda-istanbul-kuru-temizleme-trendleri.html">2025 Yilinda Istanbul Kuru Temizleme Trendleri</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-01</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Kis Aylarinda Kuru Temizleme Ipuclari" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-01/kis-aylarinda-kuru-temizleme-ipuclari.html">Kis Aylarinda Kuru Temizleme Ipuclari</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-01</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="gelinlik">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Gelinlik Temizleme Ultimate Rehber 2025" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Gelinlik</span>
-                        <h3><a href="2025-01/gelinlik-temizleme-ultimate-rehber-2025.html">Gelinlik Temizleme Ultimate Rehber 2025</a></h3>
-                        <p>İstanbul'da gelinlik konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-01</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Profesyonel Vs Evde Hali Yikama Karsilastirma" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-01/profesyonel-vs-evde-hali-yikama-karsilastirma.html">Profesyonel Vs Evde Hali Yikama Karsilastirma</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-01</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Sevgililer Gunu Ozel Kiyafet Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-02/sevgililer-gunu-ozel-kiyafet-bakimi.html">Sevgililer Gunu Ozel Kiyafet Bakimi</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-02</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Istanbul Elit Semtlerde Tekstil Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-02/istanbul-elit-semtlerde-tekstil-bakimi.html">Istanbul Elit Semtlerde Tekstil Bakimi</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-02</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Kuru Temizleme Kimyasallari Guvenligi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-02/kuru-temizleme-kimyasallari-guvenligi.html">Kuru Temizleme Kimyasallari Guvenligi</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-02</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Hali Yikama Sonrasi Bakim Rehberi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-02/hali-yikama-sonrasi-bakim-rehberi.html">Hali Yikama Sonrasi Bakim Rehberi</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-02</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Bahar Temizligi Tekstil Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-03/bahar-temizligi-tekstil-bakimi.html">Bahar Temizligi Tekstil Bakimi</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-03</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Antik Hali Yikama Ozel Yontemler" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-03/antik-hali-yikama-ozel-yontemler.html">Antik Hali Yikama Ozel Yontemler</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-03</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Kuru Temizleme Cevre Dostu Alternatifler" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-03/kuru-temizleme-cevre-dostu-alternatifler.html">Kuru Temizleme Cevre Dostu Alternatifler</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-03</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Professional Laundry Vs Home Washing" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-03/professional-laundry-vs-home-washing.html">Professional Laundry Vs Home Washing</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-03</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Yaz Hazarligi Kiyafet Saklama" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-04/yaz-hazarligi-kiyafet-saklama.html">Yaz Hazarligi Kiyafet Saklama</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-04</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Ipek Kumaslar Kuru Temizleme Rehberi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-04/ipek-kumaslar-kuru-temizleme-rehberi.html">Ipek Kumaslar Kuru Temizleme Rehberi</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-04</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Koltuk Yikama Diy Vs Profesyonel" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-04/koltuk-yikama-diy-vs-profesyonel.html">Koltuk Yikama Diy Vs Profesyonel</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-04</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Istanbul Anadolu Yakasi Kuru Temizleme" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-04/istanbul-anadolu-yakasi-kuru-temizleme.html">Istanbul Anadolu Yakasi Kuru Temizleme</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-04</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="gelinlik">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Duggun Sezonu Gelinlik Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Gelinlik</span>
-                        <h3><a href="2025-05/duggun-sezonu-gelinlik-bakimi.html">Duggun Sezonu Gelinlik Bakimi</a></h3>
-                        <p>İstanbul'da gelinlik konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-05</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Hali Yikama Allerjik Reaksiyonlar" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-05/hali-yikama-allerjik-reaksiyonlar.html">Hali Yikama Allerjik Reaksiyonlar</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-05</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Lux Tekstil Bakim Teknolojileri" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-05/lux-tekstil-bakim-teknolojileri.html">Lux Tekstil Bakim Teknolojileri</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-05</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Kuru Temizleme Hatalari Ve Cozumleri" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-05/kuru-temizleme-hatalari-ve-cozumleri.html">Kuru Temizleme Hatalari Ve Cozumleri</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-05</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Yaz Kiyafetleri Saklama Rehberi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-06/yaz-kiyafetleri-saklama-rehberi.html">Yaz Kiyafetleri Saklama Rehberi</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-06</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Klimali Ortamda Tekstil Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-06/klimali-ortamda-tekstil-bakimi.html">Klimali Ortamda Tekstil Bakimi</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-06</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Vintage Kiyafetler Ozel Bakim" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-06/vintage-kiyafetler-ozel-bakim.html">Vintage Kiyafetler Ozel Bakim</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-06</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Hali Renk Solmasi Onleme Yontemleri" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-06/hali-renk-solmasi-onleme-yontemleri.html">Hali Renk Solmasi Onleme Yontemleri</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-06</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Tatil Donusu Kiyafet Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-07/tatil-donusu-kiyafet-bakimi.html">Tatil Donusu Kiyafet Bakimi</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-07</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Sicak Havalarda Kuru Temizleme" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-07/sicak-havalarda-kuru-temizleme.html">Sicak Havalarda Kuru Temizleme</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-07</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Outdoor Tekstil Urunleri Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-07/outdoor-tekstil-urunleri-bakimi.html">Outdoor Tekstil Urunleri Bakimi</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-07</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Istanbul Sicakliginda Hali Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-07/istanbul-sicakliginda-hali-bakimi.html">Istanbul Sicakliginda Hali Bakimi</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-07</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Okul Oncesi Uniform Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-08/okul-oncesi-uniform-bakimi.html">Okul Oncesi Uniform Bakimi</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-08</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Ev Tekstili Hijyen Rehberi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-08/ev-tekstili-hijyen-rehberi.html">Ev Tekstili Hijyen Rehberi</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-08</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Profesyonel Hali Yikama Surecler" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-08/profesyonel-hali-yikama-surecler.html">Profesyonel Hali Yikama Surecler</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-08</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Kuru Temizleme Sigorta Ve Garanti" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-08/kuru-temizleme-sigorta-ve-garanti.html">Kuru Temizleme Sigorta Ve Garanti</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-08</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Sonbahar Kiyafet Gecisi Rehberi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-09/sonbahar-kiyafet-gecisi-rehberi.html">Sonbahar Kiyafet Gecisi Rehberi</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-09</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Iş Kiyafetleri Profesyonel Bakim" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-09/iş-kiyafetleri-profesyonel-bakim.html">Iş Kiyafetleri Profesyonel Bakim</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-09</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Perde Temizleme Ev Vs Profesyonel" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-09/perde-temizleme-ev-vs-profesyonel.html">Perde Temizleme Ev Vs Profesyonel</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-09</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Hali Yikama Teknoloji Yenilikleri" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-09/hali-yikama-teknoloji-yenilikleri.html">Hali Yikama Teknoloji Yenilikleri</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-09</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Kis Hazarligi Tekstil Koruma" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-10/kis-hazarligi-tekstil-koruma.html">Kis Hazarligi Tekstil Koruma</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-10</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Kuru Temizleme Mukemmel Sonuclar" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-10/kuru-temizleme-mukemmel-sonuclar.html">Kuru Temizleme Mukemmel Sonuclar</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-10</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Antik Mobilya Tekstil Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-10/antik-mobilya-tekstil-bakimi.html">Antik Mobilya Tekstil Bakimi</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-10</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Koltuk Kaplama Yenileme Rehberi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-10/koltuk-kaplama-yenileme-rehberi.html">Koltuk Kaplama Yenileme Rehberi</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-10</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Kis Kiyafetleri Ozel Bakim" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-11/kis-kiyafetleri-ozel-bakim.html">Kis Kiyafetleri Ozel Bakim</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-11</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Kalorifer Sezonu Tekstil Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-11/kalorifer-sezonu-tekstil-bakimi.html">Kalorifer Sezonu Tekstil Bakimi</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-11</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Luxury Hali Collection Bakimi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-11/luxury-hali-collection-bakimi.html">Luxury Hali Collection Bakimi</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-11</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Kuru Temizleme Quality Control" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-11/kuru-temizleme-quality-control.html">Kuru Temizleme Quality Control</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-11</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="kuru_temizleme">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Yilbasi Ozel Kiyafet Hazarligi" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Kuru Temizleme</span>
-                        <h3><a href="2025-12/yilbasi-ozel-kiyafet-hazarligi.html">Yilbasi Ozel Kiyafet Hazarligi</a></h3>
-                        <p>İstanbul'da kuru temizleme konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-12</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="2025 Tekstil Bakim Ozeti" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-12/2025-tekstil-bakim-ozeti.html">2025 Tekstil Bakim Ozeti</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-12</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="hali_yikama">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="Kis Hali Bakim Stratejileri" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Hali Yikama</span>
-                        <h3><a href="2025-12/kis-hali-bakim-stratejileri.html">Kis Hali Bakim Stratejileri</a></h3>
-                        <p>İstanbul'da hali yikama konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-12</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="blog-card" data-category="tekstil_bakimi">
-                    <img src="https://images.unsplash.com/photo-1558618666-fbd6c802d1c6?w=400&h=250&fit=crop" 
-                         alt="2026 Tekstil Bakim Trendleri" width="400" height="250" loading="lazy">
-                    <div class="blog-card-content">
-                        <span class="blog-category">Tekstil Bakimi</span>
-                        <h3><a href="2025-12/2026-tekstil-bakim-trendleri.html">2026 Tekstil Bakim Trendleri</a></h3>
-                        <p>İstanbul'da tekstil bakimi konusunda uzman rehberi. Profesyonel ipuçları ve öneriler...</p>
-                        <div class="blog-meta">
-                            <span class="blog-date">2025-12</span>
-                            <span class="reading-time">8 dk okuma</span>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </main>
-
-    <script>
-        // Blog category filtering
-        document.querySelectorAll('.category-filter').forEach(button => {
-            button.addEventListener('click', () => {
-                const category = button.dataset.category;
-                
-                // Update active button
-                document.querySelectorAll('.category-filter').forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
-                
-                // Filter blog cards
-                document.querySelectorAll('.blog-card').forEach(card => {
-                    if (category === 'all' || card.dataset.category === category) {
-                        card.style.display = 'block';
-                    } else {
-                        card.style.display = 'none';
-                    }
-                });
+</div>
+<header class="header">
+<div class="header-container">
+<div class="logo">
+<svg fill="none" height="40" viewbox="0 0 120 40" width="120">
+<text fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold" x="10" y="25">DRY ALLE</text>
+</svg>
+</div>
+<div class="contact-button">
+<span class="location-icon">📍</span>
+<span>Mağazalarımız</span>
+</div>
+</div>
+</header>
+<nav class="main-nav">
+<ul class="nav-menu">
+<li><a href="../index.html">ANASAYFA</a></li>
+<li><a href="../hizmetler.html">HİZMETLER</a></li>
+<li><a class="active" href="index.html">BLOG</a></li>
+<li><a href="../sss.html">SSS</a></li>
+<li><a href="../iletisim.html">İLETİŞİM</a></li>
+</ul>
+</nav>
+<!-- Blog Hero -->
+<section class="blog-hero">
+<div class="container">
+<h1>Tekstil Bakım Rehberleri</h1>
+<p>25 yıllık deneyimimizle hazırladığımız kapsamlı rehberler</p>
+</div>
+</section>
+<!-- Blog Controls -->
+<section class="blog-controls">
+<div class="controls-container">
+<div class="search-box">
+<input class="search-input" id="searchInput" placeholder="Blog yazılarında ara..." type="text"/>
+</div>
+<div class="filter-controls">
+<button class="filter-btn active" data-theme="all">Tümü</button>
+<button class="filter-btn" data-theme="perde">🪟 Perde Temizliği</button>
+<button class="filter-btn" data-theme="mobilya">🛋️ Mobilya &amp; Koltuk</button>
+<button class="filter-btn" data-theme="hali">🧽 Halı Yıkama</button>
+<button class="filter-btn" data-theme="kuru-temizleme">👔 Kuru Temizleme</button>
+<button class="filter-btn" data-theme="gelinlik">👗 Özel Giyim</button>
+<button class="filter-btn" data-theme="leke">🧼 Leke Çıkarma</button>
+</div>
+<div class="reading-time-filter">
+<button class="filter-btn" data-time="quick">Hızlı (≤5dk)</button>
+<button class="filter-btn" data-time="medium">Orta (6-10dk)</button>
+<button class="filter-btn" data-time="long">Detaylı (&gt;10dk)</button>
+</div>
+</div>
+</section>
+<!-- Blog Grid -->
+<section class="blog-grid-container">
+<div class="blog-grid" id="blogGrid">
+<!-- Blog kartları JavaScript ile dinamik olarak oluşturulacak -->
+<div class="loading-spinner" style="grid-column: 1 / -1; text-align: center; padding: 40px;">
+<p>Blog yazıları yükleniyor...</p>
+</div>
+</div>
+<div class="no-results" id="noResults" style="display: none;">
+<h3>Aradığınız içerik bulunamadı</h3>
+<p>Farklı anahtar kelimeler deneyebilir veya filtrelerinizi değiştirebilirsiniz.</p>
+<div style="margin-top: 20px;">
+<strong>Önerilen konular:</strong><br/>
+<a href="#" onclick="filterByTheme('kuru-temizleme')">Kuru Temizleme</a> • 
+                <a href="#" onclick="filterByTheme('hali')">Halı Yıkama</a> • 
+                <a href="#" onclick="filterByTheme('mobilya')">Mobilya Temizliği</a>
+</div>
+</div>
+<div class="pagination" id="pagination">
+<!-- Pagination will be generated by JavaScript -->
+</div>
+</section>
+<!-- JavaScript -->
+<script>
+        // Blog verisi
+        const blogsData = [{"slug": "vintage-clothing-ozel-care", "title": "Vintage Kiyafetler Ozel Bakim: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/vintage-clothing-ozel-care/featured-image.webp", "word_count": 459}, {"slug": "wedding-season-wedding-dress-carei", "title": "Duggun Sezonu Gelinlik Bakimi: Uzman Rehberi", "summary": "Gelinlik temizleme uzman rehberi. Düğün elbisesi bakımı, özel kumaşlar, leke çıkarma. İstanbul'da güvenli gelinlik...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/wedding-season-wedding-dress-carei/featured-image.webp", "word_count": 438}, {"slug": "professional-vs-evde-carpet-cleaning-comparison", "title": "Profesyonel vs Ev Yapımı: Hali Yikama Kıyaslaması", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım....", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/professional-vs-evde-carpet-cleaning-comparison/featured-image.webp", "word_count": 458}, {"slug": "outdoor-textile-urunleri-carei", "title": "Outdoor Tekstil Urunleri Bakimi: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/outdoor-textile-urunleri-carei/featured-image.webp", "word_count": 438}, {"slug": "is-kiyafetleri-professional-care", "title": "Iş Kiyafetleri Profesyonel Bakim: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/is-kiyafetleri-professional-care/featured-image.webp", "word_count": 459}, {"slug": "kuru-temizleme", "title": "Kuru Temizleme Rehberleri", "summary": "İstanbul'da kuru temizleme, hassas kumaş bakımı ve özel kıyafet temizliği konularında uzman tavsiyeleri. İpek, kaşmir,...", "theme": "kuru-temizleme", "reading_time": 1, "publish_date": "2025-08-17", "image_url": "/blog/kuru-temizleme/featured-image.webp", "word_count": 108}, {"slug": "winter-preparation-tekstil-koruma", "title": "Kis Hazarligi Tekstil Koruma: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/winter-preparation-tekstil-koruma/featured-image.webp", "word_count": 439}, {"slug": "autumn-kiyafet-gecisi-guide", "title": "Sonbahar Kiyafet Gecisi Rehberi: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/autumn-kiyafet-gecisi-guide/featured-image.webp", "word_count": 439}, {"slug": "koltuk-yikama", "title": "Koltuk Yıkama Rehberleri", "summary": "İstanbul Anadolu Yakası'nda koltuk yıkama, kumaş ve deri koltuk temizliği konularında uzman tavsiyeleri. 25 yıllık...", "theme": "mobilya", "reading_time": 1, "publish_date": "2025-08-17", "image_url": "/blog/koltuk-yikama/featured-image.webp", "word_count": 119}, {"slug": "hali-color-fading-onleme-methods", "title": "Hali Renk Solmasi Onleme Yontemleri: Uzman Rehberi", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali...", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/hali-color-fading-onleme-methods/featured-image.webp", "word_count": 458}, {"slug": "carpet-cleaning-sonrasi-care-guide", "title": "Hali Yikama Sonrasi Bakim Rehberi: Uzman Rehberi", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali...", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/carpet-cleaning-sonrasi-care-guide/featured-image.webp", "word_count": 457}, {"slug": "kalorifer-sezonu-tekstil-carei", "title": "Kalorifer Sezonu Tekstil Bakimi: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/kalorifer-sezonu-tekstil-carei/featured-image.webp", "word_count": 439}, {"slug": "curtain-cleaning-ev-vs-professional", "title": "Perde Temizleme Ev Vs Profesyonel: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/curtain-cleaning-ev-vs-professional/featured-image.webp", "word_count": 440}, {"slug": "air-conditioned-tekstil-carei", "title": "Klimali Ortamda Tekstil Bakimi: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/air-conditioned-tekstil-carei/featured-image.webp", "word_count": 438}, {"slug": "back-to-school-uniform-carei", "title": "Okul Oncesi Uniform Bakimi: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/back-to-school-uniform-carei/featured-image.webp", "word_count": 458}, {"slug": "luxury-textile-care-technologies", "title": "Lux Tekstil Bakim Teknolojileri: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/luxury-textile-care-technologies/featured-image.webp", "word_count": 438}, {"slug": "2026-tekstil-care-trendleri", "title": "2026 Tekstil Bakim Trendleri: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/2026-tekstil-care-trendleri/featured-image.webp", "word_count": 439}, {"slug": "dry-cleaning-sigorta-ve-garanti", "title": "Kuru Temizleme Sigorta Ve Garanti: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/dry-cleaning-sigorta-ve-garanti/featured-image.webp", "word_count": 459}, {"slug": "summer-clothes-saklama-guide", "title": "Yaz Kiyafetleri Saklama Rehberi: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/summer-clothes-saklama-guide/featured-image.webp", "word_count": 438}, {"slug": "wedding-dress-temizleme-ultimate-rehber", "title": "Ultimate Gelinlik Rehberi: A'dan Z'ye", "summary": "Gelinlik temizleme uzman rehberi. Düğün elbisesi bakımı, özel kumaşlar, leke çıkarma. İstanbul'da güvenli gelinlik...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/wedding-dress-temizleme-ultimate-rehber/featured-image.webp", "word_count": 439}, {"slug": "istanbul-anatolian-side-dry-cleaning", "title": "Istanbul Anadolu Yakasi Kuru Temizleme: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/istanbul-anatolian-side-dry-cleaning/featured-image.webp", "word_count": 459}, {"slug": "home-textiles-hijyen-guide", "title": "Ev Tekstili Hijyen Rehberi: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/home-textiles-hijyen-guide/featured-image.webp", "word_count": 438}, {"slug": "utu-hizmetleri", "title": "Ütü Hizmetleri Rehberleri", "summary": "İstanbul Anadolu Yakası'nda ütü hizmetleri, profesyonel ütüleme teknikleri ve kıyafet bakımı konularında uzman...", "theme": "perde", "reading_time": 1, "publish_date": "2025-08-17", "image_url": "/blog/utu-hizmetleri/featured-image.webp", "word_count": 111}, {"slug": "kis-hali-care-stratejileri", "title": "Kis Hali Bakim Stratejileri: Uzman Rehberi", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. kis...", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/kis-hali-care-stratejileri/featured-image.webp", "word_count": 457}, {"slug": "istanbul-elit-semtlerde-tekstil-carei", "title": "Istanbul Elit Semtlerde Tekstil Bakimi: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/istanbul-elit-semtlerde-tekstil-carei/featured-image.webp", "word_count": 440}, {"slug": "professional-carpet-cleaning-surecler", "title": "Profesyonel Hali Yikama Surecler: Uzman Rehberi", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım....", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/professional-carpet-cleaning-surecler/featured-image.webp", "word_count": 457}, {"slug": "sofa-cleaning-diy-vs-professional", "title": "Profesyonel vs Ev Yapımı: Hali Yikama Kıyaslaması", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. koltuk...", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/sofa-cleaning-diy-vs-professional/featured-image.webp", "word_count": 457}, {"slug": "dry-cleaning-quality-control", "title": "Kuru Temizleme Quality Control: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/dry-cleaning-quality-control/featured-image.webp", "word_count": 459}, {"slug": "ev-tekstili", "title": "Ev Tekstili Bakım Rehberleri", "summary": "İstanbul Anadolu Yakası'nda ev tekstili temizliği, nevresim, battaniye, yorgan bakımı konularında uzman tavsiyeleri. 25...", "theme": "kuru-temizleme", "reading_time": 1, "publish_date": "2025-08-17", "image_url": "/blog/ev-tekstili/featured-image.webp", "word_count": 122}, {"slug": "summer-preparation-kiyafet-saklama", "title": "Yaz Hazarligi Kiyafet Saklama: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/summer-preparation-kiyafet-saklama/featured-image.webp", "word_count": 439}, {"slug": "post-vacation-kiyafet-carei", "title": "Tatil Donusu Kiyafet Bakimi: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/post-vacation-kiyafet-carei/featured-image.webp", "word_count": 439}, {"slug": "new-year-ozel-kiyafet-hazarligi", "title": "Yilbasi Ozel Kiyafet Hazarligi: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/new-year-ozel-kiyafet-hazarligi/featured-image.webp", "word_count": 459}, {"slug": "carpet-cleaning-allergic-reactions", "title": "Hali Yikama Allerjik Reaksiyonlar: Uzman Rehberi", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali...", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/carpet-cleaning-allergic-reactions/featured-image.webp", "word_count": 456}, {"slug": "luxury-hali-collection-carei", "title": "Luxury Hali Collection Bakimi: Uzman Rehberi", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. luxury...", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/luxury-hali-collection-carei/featured-image.webp", "word_count": 457}, {"slug": "winter-clothes-ozel-care", "title": "Kis Kiyafetleri Ozel Bakim: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/winter-clothes-ozel-care/featured-image.webp", "word_count": 459}, {"slug": "professional-laundry-vs-home-washing", "title": "Professional Laundry Vs Home Washing: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/professional-laundry-vs-home-washing/featured-image.webp", "word_count": 460}, {"slug": "winter-dry-cleaning-tips", "title": "Kis Aylarinda Kuru Temizleme Ipuclari: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/winter-dry-cleaning-tips/featured-image.webp", "word_count": 460}, {"slug": "canta-temizleme", "title": "Çanta Temizleme Rehberleri", "summary": "İstanbul Anadolu Yakası'nda çanta temizleme, deri çanta bakımı ve kumaş çanta temizliği konularında uzman tavsiyeleri....", "theme": "kuru-temizleme", "reading_time": 1, "publish_date": "2025-08-17", "image_url": "/blog/canta-temizleme/featured-image.webp", "word_count": 119}, {"slug": "antik-carpet-cleaning-ozel-yontemler", "title": "Antik Hali Yikama Ozel Yontemler: Uzman Rehberi", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. antik...", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/antik-carpet-cleaning-ozel-yontemler/featured-image.webp", "word_count": 457}, {"slug": "dry-cleaning-kimyasallari-guvenligi", "title": "Kuru Temizleme Güvenliği: Bilmeniz Gerekenler", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/dry-cleaning-kimyasallari-guvenligi/featured-image.webp", "word_count": 458}, {"slug": "hali-yikama", "title": "Halı Yıkama Rehberleri", "summary": "İstanbul Anadolu Yakası'nda halı yıkama, halı bakımı ve halı temizliği konularında uzman tavsiyeleri. Ev halı...", "theme": "hali", "reading_time": 1, "publish_date": "2025-08-17", "image_url": "/blog/hali-yikama/featured-image.webp", "word_count": 110}, {"slug": "kumas-deri-boyama", "title": "Kumaş Deri Boyama Rehberleri", "summary": "İstanbul Anadolu Yakası'nda kumaş deri boyama, renk yenileme ve solmuş kıyafet onarımı konularında uzman tavsiyeleri....", "theme": "mobilya", "reading_time": 1, "publish_date": "2025-08-17", "image_url": "/blog/kumas-deri-boyama/featured-image.webp", "word_count": 112}, {"slug": "spring-cleaning-tekstil-carei", "title": "2025-03 Ayında Tekstil Bakimi: Profesyonel İpuçları", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/spring-cleaning-tekstil-carei/featured-image.webp", "word_count": 438}, {"slug": "dry-cleaning-eco-friendly-alternatifler", "title": "Kuru Temizleme Cevre Dostu Alternatifler: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/dry-cleaning-eco-friendly-alternatifler/featured-image.webp", "word_count": 459}, {"slug": "2025-yilinda-istanbul-dry-cleaning-trendleri", "title": "2025'te İstanbul'da Kuru Temizleme: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/2025-yilinda-istanbul-dry-cleaning-trendleri/featured-image.webp", "word_count": 461}, {"slug": "dry-cleaning-perfect-results", "title": "Kuru Temizleme Mukemmel Sonuclar: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/dry-cleaning-perfect-results/featured-image.webp", "word_count": 459}, {"slug": "2025-tekstil-care-ozeti", "title": "2025 Tekstil Bakim Ozeti: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/2025-tekstil-care-ozeti/featured-image.webp", "word_count": 439}, {"slug": "dry-cleaning-hatalari-ve-cozumleri", "title": "Kuru Temizleme Hatalari Ve Cozumleri: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/dry-cleaning-hatalari-ve-cozumleri/featured-image.webp", "word_count": 459}, {"slug": "koltuk-upholstery-renewal-guide", "title": "Koltuk Kaplama Yenileme Rehberi: Uzman Rehberi", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. koltuk...", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/koltuk-upholstery-renewal-guide/featured-image.webp", "word_count": 456}, {"slug": "istanbul-sicakliginda-hali-carei", "title": "Istanbul Sicakliginda Hali Bakimi: Uzman Rehberi", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım....", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/istanbul-sicakliginda-hali-carei/featured-image.webp", "word_count": 456}, {"slug": "perde-temizleme", "title": "Perde Temizleme Rehberleri", "summary": "İstanbul Anadolu Yakası'nda perde temizleme, perde bakımı ve ev perdesi yıkama konularında uzman tavsiyeleri. 25 yıllık...", "theme": "perde", "reading_time": 1, "publish_date": "2025-08-17", "image_url": "/blog/perde-temizleme/featured-image.webp", "word_count": 111}, {"slug": "hot-weather-dry-cleaning", "title": "Sicak Havalarda Kuru Temizleme: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/hot-weather-dry-cleaning/featured-image.webp", "word_count": 459}, {"slug": "carpet-cleaning-technology-innovations", "title": "Hali Yikama Teknoloji Yenilikleri: Uzman Rehberi", "summary": "İstanbul'da halı yıkama hizmeti rehberi. Antik, modern, ipek halılar için özel yöntemler. Ücretsiz kapıdan alım. hali...", "theme": "hali", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/carpet-cleaning-technology-innovations/featured-image.webp", "word_count": 456}, {"slug": "antik-mobilya-tekstil-carei", "title": "Antik Mobilya Tekstil Bakimi: Uzman Rehberi", "summary": "Tekstil bakımı uzman rehberi. Ev ve profesyonel bakım ipuçları, kumaş koruma, leke önleme. İstanbul tekstil bakım...", "theme": "gelinlik", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/antik-mobilya-tekstil-carei/featured-image.webp", "word_count": 439}, {"slug": "ipek-kumaslar-dry-cleaning-guide", "title": "Ipek Kumaslar Kuru Temizleme Rehberi: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/ipek-kumaslar-dry-cleaning-guide/featured-image.webp", "word_count": 459}, {"slug": "lostra-hizmeti", "title": "Lostra Hizmeti Rehberleri", "summary": "İstanbul Anadolu Yakası'nda lostra hizmeti, ayakkabı parlatma ve deri ürün bakımı konularında uzman tavsiyeleri. 25...", "theme": "mobilya", "reading_time": 1, "publish_date": "2025-08-17", "image_url": "/blog/lostra-hizmeti/featured-image.webp", "word_count": 112}, {"slug": "valentines-day-ozel-kiyafet-carei", "title": "Sevgililer Gunu Ozel Kiyafet Bakimi: Uzman Rehberi", "summary": "İstanbul'da profesyonel kuru temizleme hizmeti rehberi. 25 yıllık deneyim, çevreci çözümler, ücretsiz kapıdan teslimat....", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-08-17", "image_url": "/blog/valentines-day-ozel-kiyafet-carei/featured-image.webp", "word_count": 459}, {"slug": "ev-utusu-vs-professional-utu-hizmeti", "title": "Ev Ütüsü vs Profesyonel Ütü Hizmeti", "summary": "Ev ütüsü ile profesyonel ütü hizmeti arasındaki farklar. İstanbul Anadolu Yakası profesyonel ütü hizmeti avantajları ve...", "theme": "gelinlik", "reading_time": 1, "publish_date": "2025-01-16", "image_url": "/blog/ev-utusu-vs-professional-utu-hizmeti/featured-image.webp", "word_count": 297}, {"slug": "ayakkabi-ve-deri-urunler-care-guide", "title": "Ayakkabı ve Deri Ürünler Bakım Rehberi", "summary": "Ayakkabı ve deri ürünlerinizin doğru bakımı ve lostra hizmeti için kapsamlı rehber. İstanbul Anadolu Yakası profesyonel...", "theme": "mobilya", "reading_time": 1, "publish_date": "2025-01-16", "image_url": "/blog/ayakkabi-ve-deri-urunler-care-guide/featured-image.webp", "word_count": 295}, {"slug": "ev-tekstillerinin-care-ve-cleaning-guide", "title": "Ev Tekstillerinin Bakım ve Temizlik Rehberi", "summary": "Ev tekstillerinizi uzun ömürlü ve hijyenik tutmak için kapsamlı bakım rehberi. İstanbul Anadolu Yakası profesyonel ev...", "theme": "kuru-temizleme", "reading_time": 1, "publish_date": "2025-01-16", "image_url": "/blog/ev-tekstillerinin-care-ve-cleaning-guide/featured-image.webp", "word_count": 287}, {"slug": "ev-perdelerinizi-temiz-tutma-guide", "title": "Ev Perdelerinizi Temiz Tutma Rehberi", "summary": "Perdelerinizi uzun ömürlü ve temiz tutmak için kapsamlı bakım rehberi. İstanbul Anadolu Yakası profesyonel perde...", "theme": "perde", "reading_time": 1, "publish_date": "2025-01-16", "image_url": "/blog/ev-perdelerinizi-temiz-tutma-guide/featured-image.webp", "word_count": 261}, {"slug": "deri-ve-kumas-canta-care-guide", "title": "Deri ve Kumaş Çanta Bakım Rehberi", "summary": "Deri ve kumaş çantalarınızın doğru bakımı ve temizliği için kapsamlı rehber. İstanbul Anadolu Yakası profesyonel çanta...", "theme": "mobilya", "reading_time": 1, "publish_date": "2025-01-16", "image_url": "/blog/deri-ve-kumas-canta-care-guide/featured-image.webp", "word_count": 249}, {"slug": "solmus-kiyafetlere-yeni-hayat-verme-guide", "title": "Solmuş Kıyafetlere Yeni Hayat Verme Rehberi", "summary": "Solmuş ve rengi atmış kıyafetlerinize profesyonel kumaş ve deri boyama ile yeni hayat verin. İstanbul Anadolu Yakası...", "theme": "mobilya", "reading_time": 2, "publish_date": "2025-01-16", "image_url": "/blog/solmus-kiyafetlere-yeni-hayat-verme-guide/featured-image.webp", "word_count": 312}, {"slug": "kumas-ve-deri-koltuk-temizligi-guide", "title": "Kumaş ve Deri Koltuk Temizliği Rehberi", "summary": "Kumaş ve deri koltuklarınızın doğru temizlik ve bakımı için kapsamlı rehber. İstanbul Anadolu Yakası profesyonel koltuk...", "theme": "mobilya", "reading_time": 1, "publish_date": "2025-01-16", "image_url": "/blog/kumas-ve-deri-koltuk-temizligi-guide/featured-image.webp", "word_count": 258}, {"slug": "evde-hali-carei-ve-professional-washing-guide", "title": "Evde Halı Bakımı ve Profesyonel Yıkama Rehberi", "summary": "Halılarınızı uzun ömürlü kullanmak için evde bakım ipuçları ve profesyonel halı yıkama hizmetinin önemi. İstanbul...", "theme": "hali", "reading_time": 1, "publish_date": "2025-01-15", "image_url": "/blog/evde-hali-carei-ve-professional-washing-guide/featured-image.webp", "word_count": 260}, {"slug": "hassas-kumaslar-dry-cleaning-guide", "title": "Hassas Kumaşlar İçin Kuru Temizleme Rehberi", "summary": "İpek, kaşmir, yün ve diğer hassas kumaşları kuru temizleme ile nasıl koruyabilirsiniz? İstanbul'da uzman kuru temizleme...", "theme": "kuru-temizleme", "reading_time": 1, "publish_date": "2025-01-15", "image_url": "/blog/hassas-kumaslar-dry-cleaning-guide/featured-image.webp", "word_count": 196}, {"slug": "complete-home-textile-maintenance-manual", "title": "Ev Tekstillerinin Kapsamlı Bakım ve Temizlik El Kitabı 2025", "summary": "Halıdan perdeye, koltuktan yatak takımına kadar tüm ev tekstillerinizin profesyonel bakım rehberi. 200+ sayfalık...", "theme": "gelinlik", "reading_time": 1, "publish_date": "2025-01-01", "image_url": "/blog/complete-home-textile-maintenance-manual/featured-image.webp", "word_count": 173}, {"slug": "ultimate-turkish-dry-cleaning-guide", "title": "Türkiye'nin En Kapsamlı Kuru Temizleme Rehberi 2025", "summary": "Türkiye'de kuru temizleme hakkında bilmeniz gereken her şey. Kumaş türleri, fiyatlar, teknolojiler ve uzman tavsiyeleri...", "theme": "kuru-temizleme", "reading_time": 2, "publish_date": "2025-01-01", "image_url": "/blog/ultimate-turkish-dry-cleaning-guide/featured-image.webp", "word_count": 312}, {"slug": "istanbul-seasonal-clothing-care-calendar", "title": "İstanbul İklim Şartlarına Göre Mevsimsel Kıyafet Bakım Takvimi 2025", "summary": "İstanbul'un özel iklim şartlarına göre hazırlanmış 12 aylık kıyafet bakım takvimi. Hangi ayda hangi kıyafetlere nasıl...", "theme": "kuru-temizleme", "reading_time": 1, "publish_date": "2025-01-01", "image_url": "/blog/istanbul-seasonal-clothing-care-calendar/featured-image.webp", "word_count": 264}];
+        const itemsPerPage = 12;
+        let currentPage = 1;
+        let filteredBlogs = [...blogsData];
+        
+        // DOM elementleri
+        const searchInput = document.getElementById('searchInput');
+        const blogGrid = document.getElementById('blogGrid');
+        const noResults = document.getElementById('noResults');
+        const pagination = document.getElementById('pagination');
+        
+        // Tema filtreleme
+        function filterByTheme(theme) {
+            // Tüm filter butonlarından active sınıfını kaldır
+            document.querySelectorAll('.filter-btn[data-theme]').forEach(btn => {
+                btn.classList.remove('active');
             });
+            
+            // Seçilen butona active sınıfı ekle
+            const activeBtn = document.querySelector(`[data-theme="${theme}"]`);
+            if (activeBtn) activeBtn.classList.add('active');
+            
+            // Filtreleme
+            if (theme === 'all') {
+                filteredBlogs = [...blogsData];
+            } else {
+                filteredBlogs = blogsData.filter(blog => blog.theme === theme);
+            }
+            
+            currentPage = 1;
+            displayBlogs();
+        }
+        
+        // Okuma süresi filtreleme
+        function filterByReadingTime(timeRange) {
+            // Reading time butonlarını güncelle
+            document.querySelectorAll('.filter-btn[data-time]').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            const activeBtn = document.querySelector(`[data-time="${timeRange}"]`);
+            if (activeBtn) activeBtn.classList.add('active');
+            
+            // Filtreleme
+            switch(timeRange) {
+                case 'quick':
+                    filteredBlogs = blogsData.filter(blog => blog.reading_time <= 5);
+                    break;
+                case 'medium':
+                    filteredBlogs = blogsData.filter(blog => blog.reading_time >= 6 && blog.reading_time <= 10);
+                    break;
+                case 'long':
+                    filteredBlogs = blogsData.filter(blog => blog.reading_time > 10);
+                    break;
+                default:
+                    filteredBlogs = [...blogsData];
+            }
+            
+            currentPage = 1;
+            displayBlogs();
+        }
+        
+        // Arama fonksiyonu
+        function searchBlogs() {
+            const query = searchInput.value.toLowerCase().trim();
+            
+            if (query === '') {
+                filteredBlogs = [...blogsData];
+            } else {
+                filteredBlogs = blogsData.filter(blog => 
+                    blog.title.toLowerCase().includes(query) ||
+                    blog.summary.toLowerCase().includes(query)
+                );
+            }
+            
+            currentPage = 1;
+            displayBlogs();
+        }
+        
+        // Blog kartlarını görüntüle
+        function displayBlogs() {
+            const startIndex = (currentPage - 1) * itemsPerPage;
+            const endIndex = startIndex + itemsPerPage;
+            const currentBlogs = filteredBlogs.slice(startIndex, endIndex);
+            
+            if (currentBlogs.length === 0) {
+                blogGrid.style.display = 'none';
+                noResults.style.display = 'block';
+                pagination.innerHTML = '';
+                return;
+            }
+            
+            blogGrid.style.display = 'grid';
+            noResults.style.display = 'none';
+            
+            // Blog kartlarını oluştur
+            blogGrid.innerHTML = currentBlogs.map(blog => createBlogCard(blog)).join('');
+            
+            // Sayfalandırma oluştur
+            createPagination();
+        }
+        
+        // Blog kartı oluştur
+        function createBlogCard(blog) {
+            const themeData = {"perde": {"name": "Perde Temizliği", "color": "#006a44", "icon": "🪟", "keywords": ["perde", "tül", "store", "dantel"]}, "mobilya": {"name": "Mobilya & Koltuk", "color": "#004d32", "icon": "🛋️", "keywords": ["koltuk", "kanepe", "mobilya", "deri"]}, "hali": {"name": "Halı Yıkama", "color": "#00623b", "icon": "🧽", "keywords": ["halı", "kilim", "carpet"]}, "kuru-temizleme": {"name": "Kuru Temizleme", "color": "#006a44", "icon": "👔", "keywords": ["kuru", "temizleme", "dry", "cleaning"]}, "gelinlik": {"name": "Özel Giyim", "color": "#f6ec3d", "icon": "👗", "keywords": ["gelinlik", "düğün", "özel"]}, "leke": {"name": "Leke Çıkarma", "color": "#004d32", "icon": "🧼", "keywords": ["leke", "çıkar", "stain"]}};
+            const theme = themeData[blog.theme] || themeData['kuru-temizleme'];
+            
+            return `
+                <article class="blog-card">
+                    <div class="blog-theme-badge" style="background: ${theme.color}">
+                        ${theme.icon} ${theme.name}
+                    </div>
+                    <img src="${blog.image_url}" alt="${blog.title}" class="blog-card-image" loading="lazy">
+                    <div class="blog-card-content">
+                        <a href="${blog.slug}/" class="blog-card-title">${blog.title}</a>
+                        <p class="blog-card-summary">${blog.summary}</p>
+                        <div class="blog-card-meta">
+                            <span>📅 ${formatDate(blog.publish_date)}</span>
+                            <span>⏱️ ${blog.reading_time} dk okuma</span>
+                        </div>
+                        <a href="${blog.slug}/" class="read-more-btn">Devamını Oku</a>
+                    </div>
+                </article>
+            `;
+        }
+        
+        // Tarih formatlama
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            return date.toLocaleDateString('tr-TR', options);
+        }
+        
+        // Sayfalandırma oluştur
+        function createPagination() {
+            const totalPages = Math.ceil(filteredBlogs.length / itemsPerPage);
+            
+            if (totalPages <= 1) {
+                pagination.innerHTML = '';
+                return;
+            }
+            
+            let paginationHTML = '';
+            
+            // Önceki sayfa
+            if (currentPage > 1) {
+                paginationHTML += `<a href="#" class="pagination-btn" onclick="changePage(${currentPage - 1})">← Önceki</a>`;
+            }
+            
+            // Sayfa numaraları
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === currentPage) {
+                    paginationHTML += `<span class="pagination-btn active">${i}</span>`;
+                } else {
+                    paginationHTML += `<a href="#" class="pagination-btn" onclick="changePage(${i})">${i}</a>`;
+                }
+            }
+            
+            // Sonraki sayfa
+            if (currentPage < totalPages) {
+                paginationHTML += `<a href="#" class="pagination-btn" onclick="changePage(${currentPage + 1})">Sonraki →</a>`;
+            }
+            
+            pagination.innerHTML = paginationHTML;
+        }
+        
+        // Sayfa değiştir
+        function changePage(page) {
+            currentPage = page;
+            displayBlogs();
+            // Sayfanın üstüne scroll
+            document.querySelector('.blog-controls').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Event listener'lar
+        searchInput.addEventListener('input', searchBlogs);
+        
+        // Tema filtre butonları
+        document.querySelectorAll('.filter-btn[data-theme]').forEach(btn => {
+            btn.addEventListener('click', () => filterByTheme(btn.dataset.theme));
+        });
+        
+        // Okuma süresi filtre butonları
+        document.querySelectorAll('.filter-btn[data-time]').forEach(btn => {
+            btn.addEventListener('click', () => filterByReadingTime(btn.dataset.time));
+        });
+        
+        // Sayfa yüklendiğinde
+        document.addEventListener('DOMContentLoaded', () => {
+            displayBlogs();
         });
     </script>
 </body>
