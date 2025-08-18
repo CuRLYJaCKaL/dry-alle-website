@@ -9,25 +9,25 @@
    ================================ */
 
 /* 1. CSS Variables (Loaded first for consistency) */
-@import url('./base/variables.css');
+@import url('./styles/base/variables.css');
 
 /* 2. Reset & Base Styles */
-@import url('./base/reset.css');
+@import url('./styles/base/reset.css');
 
 /* 3. Typography System */
-@import url('./base/typography.css');
+@import url('./styles/base/typography.css');
 
 /* 4. Layout Components */
-@import url('./layout/grid.css');
-@import url('./layout/header.css');
+@import url('./styles/layout/grid.css');
+@import url('./styles/layout/header.css');
 
 /* 5. UI Components */
-@import url('./components/buttons.css');
-@import url('./components/cards.css');
+@import url('./styles/components/buttons.css');
+@import url('./styles/components/cards.css');
 
 /* 6. Utility Classes (Loaded last to ensure highest specificity) */
-@import url('./utilities/spacing.css');
-@import url('./utilities/display.css');
+@import url('./styles/utilities/spacing.css');
+@import url('./styles/utilities/display.css');
 
 /* ================================
    REMAINING LEGACY STYLES
@@ -662,3 +662,7 @@ html {
   color: var(--color-white);
   text-decoration: underline;
 }
+
+/* ================================
+   TEMİZLENDİ - Backup stiller modüler dosyalara taşındı
+   ================================ */

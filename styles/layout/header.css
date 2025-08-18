@@ -530,3 +530,61 @@
 .nav-menu a:not(:hover):not(.active)::after {
   will-change: auto;
 }
+
+/* ================================
+   HERO SECTION - BACKUP RESTORE
+   ================================ */
+
+.hero {
+  position: relative;
+  height: 475px;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, transparent 0%, transparent 20%, rgba(255,255,255,0.05) 25%, rgba(255,255,255,0.15) 30%, rgba(255,255,255,0.3) 35%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,0.7) 43%, rgba(255,255,255,0.85) 46%, rgba(255,255,255,0.95) 48%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  z-index: 2;
+}
+
+.hero-image {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  transform: translateY(-50%);
+  z-index: 3;
+  color: #00623b;
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(255,255,255,0.8);
+}
