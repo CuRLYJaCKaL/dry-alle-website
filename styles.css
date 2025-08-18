@@ -1233,7 +1233,7 @@ html {
 }
 
 .premium-districts-container {
-    background-color: #e6e7e8;
+    background-color: white;
     max-width: 1650px;
     margin: 0 auto;
     padding: 40px 75px;
@@ -1267,8 +1267,8 @@ html {
 }
 
 .district-card {
-    background: #ffffff;
-    border: 2px solid #e8f5f0;
+    background: #e6e7e8; /* Corporate gray background */
+    border: 2px solid #d1d3d4;
     border-radius: 0; /* Matching your no-radius design */
     padding: 14px 12px; /* 40% smaller padding */
     text-align: center;
@@ -1282,7 +1282,8 @@ html {
 .district-card:hover {
     transform: translateY(-3px);
     border-color: #006a44;
-    box-shadow: 0 8px 25px rgba(0, 106, 68, 0.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    background: #dcdee0; /* Slightly darker gray on hover */
 }
 
 /* Icons removed for cleaner design */
