@@ -188,7 +188,8 @@
 }
 
 /* Blog Card - Service Card Uyumu */
-.blog-post-card {
+.blog-post-card,
+.modern-blog-card {
     background: #f0f0f0; /* Service-card uyumu */
     border-radius: 0; /* Köşeli */
     overflow: hidden;
@@ -199,7 +200,8 @@
     border: 2px solid transparent;
 }
 
-.blog-post-card:hover {
+.blog-post-card:hover,
+.modern-blog-card:hover {
     transform: translateY(-3px); /* Service-card hover uyumu */
     border-color: #00623B;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
@@ -217,7 +219,8 @@
     transform: scale(1.02); /* Service-card hover uyumu */
 }
 
-.blog-post-content {
+.blog-post-content,
+.blog-card-content {
     padding: 20px; /* Service-content uyumu */
     text-align: left;
     background: #e1e1e1; /* Service-content uyumu */
@@ -226,6 +229,99 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+/* Blog Card Components */
+.blog-card-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.modern-blog-card:hover .blog-card-image {
+    transform: scale(1.02);
+}
+
+.blog-card-category-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #00623B;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 0;
+}
+
+.blog-card-read-time {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+.blog-card-title {
+    color: #00623B;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-decoration: none;
+    display: block;
+}
+
+.blog-card-title:hover {
+    color: #004d2d;
+    text-decoration: underline;
+}
+
+.blog-card-excerpt {
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    font-size: 14px;
+    flex: 1;
+}
+
+.blog-card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: #666;
+}
+
+.blog-card-date,
+.blog-card-author {
+    font-size: 12px;
+    color: #666;
+}
+
+.blog-card-cta {
+    color: #00623B;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    margin-top: auto;
+}
+
+.blog-card-cta:hover {
+    color: #004d2d;
+    text-decoration: underline;
 }
 
 .blog-post-category {
