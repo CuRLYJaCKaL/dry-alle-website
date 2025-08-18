@@ -1,0 +1,591 @@
+/* 
+ * DryAlle Design System - Modern CSS Features
+ * Container Queries, Logical Properties, Advanced CSS
+ * 30-Year CSS Expert Implementation - Future Ready
+ */
+
+/* ================================
+   CONTAINER QUERIES - 2025 Ready
+   ================================ */
+
+@supports (container-type: inline-size) {
+  /* Define container contexts */
+  .container-query {
+    container-type: inline-size;
+    container-name: main;
+  }
+  
+  .card-container {
+    container-type: inline-size;
+    container-name: card;
+  }
+  
+  .sidebar-container {
+    container-type: inline-size;
+    container-name: sidebar;
+  }
+  
+  .hero-container {
+    container-type: inline-size;
+    container-name: hero;
+  }
+  
+  /* Container Query Rules */
+  @container main (min-width: 400px) {
+    .responsive-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .responsive-text {
+      font-size: var(--font-size-lg);
+    }
+  }
+  
+  @container main (min-width: 600px) {
+    .responsive-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .responsive-nav {
+      flex-direction: row;
+      gap: var(--spacing-6);
+    }
+  }
+  
+  @container main (min-width: 800px) {
+    .responsive-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .responsive-hero {
+      grid-template-columns: 2fr 1fr;
+      gap: var(--spacing-12);
+    }
+  }
+  
+  /* Card Container Queries */
+  @container card (min-width: 250px) {
+    .card-content {
+      padding: var(--spacing-4);
+    }
+    
+    .card-title {
+      font-size: var(--font-size-lg);
+    }
+  }
+  
+  @container card (min-width: 350px) {
+    .card-content {
+      padding: var(--spacing-6);
+    }
+    
+    .card-layout {
+      display: flex;
+      gap: var(--spacing-4);
+    }
+  }
+  
+  /* Sidebar Container Queries */
+  @container sidebar (min-width: 300px) {
+    .sidebar-nav {
+      display: block;
+    }
+    
+    .sidebar-content {
+      padding: var(--spacing-6);
+    }
+  }
+  
+  /* Hero Container Queries */
+  @container hero (min-width: 600px) {
+    .hero-layout {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+  }
+  
+  @container hero (min-width: 900px) {
+    .hero-layout {
+      grid-template-columns: 2fr 1fr;
+    }
+    
+    .hero-title {
+      font-size: var(--font-size-fluid-6xl);
+    }
+  }
+}
+
+/* ================================
+   LOGICAL PROPERTIES - International Ready
+   ================================ */
+
+/* Layout using logical properties */
+.logical-container {
+  margin-inline: auto;
+  padding-inline: var(--spacing-4);
+  max-inline-size: 1200px;
+}
+
+.logical-card {
+  margin-block-end: var(--spacing-6);
+  padding-block: var(--spacing-4);
+  padding-inline: var(--spacing-6);
+  border-inline-start: 3px solid var(--color-primary);
+}
+
+.logical-button {
+  margin-inline-end: var(--spacing-3);
+  padding-inline: var(--spacing-6);
+  padding-block: var(--spacing-3);
+}
+
+/* Text alignment using logical properties */
+.text-start { text-align: start; }
+.text-end { text-align: end; }
+
+/* Float using logical properties */
+.float-inline-start { float: inline-start; }
+.float-inline-end { float: inline-end; }
+
+/* Border using logical properties */
+.border-inline { border-inline: 1px solid var(--color-gray-300); }
+.border-block { border-block: 1px solid var(--color-gray-300); }
+.border-inline-start { border-inline-start: 1px solid var(--color-primary); }
+.border-inline-end { border-inline-end: 1px solid var(--color-primary); }
+.border-block-start { border-block-start: 1px solid var(--color-gray-300); }
+.border-block-end { border-block-end: 1px solid var(--color-gray-300); }
+
+/* Border radius using logical properties */
+.rounded-start { border-start-start-radius: var(--border-radius-base); border-end-start-radius: var(--border-radius-base); }
+.rounded-end { border-start-end-radius: var(--border-radius-base); border-end-end-radius: var(--border-radius-base); }
+
+/* ================================
+   CSS GRID ADVANCED FEATURES
+   ================================ */
+
+/* Subgrid support */
+@supports (grid-template-rows: subgrid) {
+  .subgrid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-6);
+  }
+  
+  .subgrid-item {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+  }
+}
+
+/* Grid with intrinsic sizing */
+.intrinsic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  gap: var(--spacing-6);
+}
+
+/* Grid with masonry layout (when supported) */
+@supports (grid-template-rows: masonry) {
+  .masonry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: masonry;
+    gap: var(--spacing-6);
+  }
+}
+
+/* ================================
+   ADVANCED FLEXBOX FEATURES
+   ================================ */
+
+/* Flex gap (modern browsers) */
+.flex-gap-2 { gap: var(--spacing-2); }
+.flex-gap-4 { gap: var(--spacing-4); }
+.flex-gap-6 { gap: var(--spacing-6); }
+
+/* Flex basis with intrinsic sizing */
+.flex-basis-content { flex-basis: content; }
+.flex-basis-fit-content { flex-basis: fit-content; }
+.flex-basis-max-content { flex-basis: max-content; }
+.flex-basis-min-content { flex-basis: min-content; }
+
+/* ================================
+   CSS CUSTOM SELECTORS (Future)
+   ================================ */
+
+/* When custom selectors are supported */
+@supports selector(:is()) {
+  .modern-input:is(:focus, :focus-within, :focus-visible) {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+  
+  .card:is(:hover, :focus-within) {
+    transform: var(--transform-hover-up);
+    box-shadow: var(--shadow-lg);
+  }
+}
+
+@supports selector(:where()) {
+  /* Low specificity styling */
+  :where(.btn) {
+    border: none;
+    cursor: pointer;
+    transition: var(--transition-base);
+  }
+  
+  :where(.card) {
+    border-radius: var(--border-radius-card);
+    overflow: hidden;
+  }
+}
+
+/* ================================
+   CSS NESTING (When Supported)
+   ================================ */
+
+@supports (selector(&)) {
+  .nested-component {
+    background: var(--color-white);
+    padding: var(--spacing-4);
+    
+    & .title {
+      color: var(--color-primary);
+      font-size: var(--font-size-xl);
+      
+      &:hover {
+        color: var(--color-primary-dark);
+      }
+    }
+    
+    & .content {
+      margin-top: var(--spacing-3);
+      
+      & p {
+        margin-bottom: var(--spacing-2);
+      }
+    }
+    
+    &:hover {
+      background: var(--color-gray-50);
+    }
+  }
+}
+
+/* ================================
+   ADVANCED COLOR FUNCTIONS
+   ================================ */
+
+/* Color-mix function (when supported) */
+@supports (color: color-mix(in srgb, red, blue)) {
+  .color-mix-primary {
+    background-color: color-mix(in srgb, var(--color-primary) 80%, var(--color-white) 20%);
+  }
+  
+  .color-mix-hover:hover {
+    background-color: color-mix(in srgb, var(--color-primary) 90%, var(--color-white) 10%);
+  }
+}
+
+/* Relative color syntax (future) */
+@supports (color: oklch(from var(--color-primary) l c h)) {
+  .relative-color-light {
+    background-color: oklch(from var(--color-primary) calc(l + 0.2) c h);
+  }
+  
+  .relative-color-dark {
+    background-color: oklch(from var(--color-primary) calc(l - 0.2) c h);
+  }
+}
+
+/* ================================
+   CSS LAYERS - Cascade Management
+   ================================ */
+
+@layer reset, base, components, utilities, overrides;
+
+@layer reset {
+  /* Reset styles have lowest priority */
+}
+
+@layer base {
+  /* Base styles */
+}
+
+@layer components {
+  /* Component styles */
+}
+
+@layer utilities {
+  /* Utility classes have high priority */
+}
+
+@layer overrides {
+  /* Override styles have highest priority */
+}
+
+/* ================================
+   SCROLL-DRIVEN ANIMATIONS
+   ================================ */
+
+@supports (animation-timeline: scroll()) {
+  .scroll-animation {
+    animation: fade-in-up linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+  
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* ================================
+   VIEW TRANSITIONS API
+   ================================ */
+
+@supports (view-transition-name: auto) {
+  .view-transition-card {
+    view-transition-name: card;
+  }
+  
+  .view-transition-hero {
+    view-transition-name: hero;
+  }
+  
+  .view-transition-nav {
+    view-transition-name: navigation;
+  }
+}
+
+/* ================================
+   ADVANCED MEDIA QUERIES
+   ================================ */
+
+/* Hover capability detection */
+@media (hover: hover) {
+  .hover-only:hover {
+    background-color: var(--color-gray-100);
+  }
+}
+
+@media (hover: none) {
+  .touch-device {
+    padding: var(--spacing-4); /* Larger touch targets */
+  }
+}
+
+/* Pointer precision detection */
+@media (pointer: fine) {
+  .fine-pointer {
+    cursor: pointer;
+  }
+}
+
+@media (pointer: coarse) {
+  .coarse-pointer {
+    min-height: 44px; /* Minimum touch target */
+    min-width: 44px;
+  }
+}
+
+/* Color scheme detection */
+@media (prefers-color-scheme: light) {
+  .theme-adaptive {
+    background-color: var(--color-white);
+    color: var(--color-gray-900);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .theme-adaptive {
+    background-color: var(--color-gray-900);
+    color: var(--color-white);
+  }
+}
+
+/* Contrast preference */
+@media (prefers-contrast: more) {
+  .high-contrast {
+    border: 2px solid;
+    background-color: var(--color-white);
+    color: var(--color-gray-900);
+  }
+}
+
+/* Motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .respect-motion-preference {
+    animation: none;
+    transition: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .motion-safe {
+    animation: fade-in-up 0.6s ease;
+    transition: all var(--transition-base);
+  }
+}
+
+/* Data saver mode */
+@media (prefers-reduced-data: reduce) {
+  .data-conscious {
+    background-image: none;
+  }
+}
+
+/* ================================
+   ADVANCED PSEUDO-CLASSES
+   ================================ */
+
+/* Focus-visible for better accessibility */
+.modern-focus:focus-visible {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 2px;
+  border-radius: var(--border-radius-sm);
+}
+
+/* Target pseudo-class */
+.target-highlight:target {
+  background-color: var(--color-secondary);
+  padding: var(--spacing-4);
+  border-radius: var(--border-radius-base);
+}
+
+/* Has pseudo-class (when supported) */
+@supports selector(:has()) {
+  .card:has(.highlighted) {
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .form:has(:invalid) {
+    border-color: red;
+  }
+  
+  .article:has(h2) {
+    padding-top: var(--spacing-6);
+  }
+}
+
+/* ================================
+   PERFORMANCE OPTIMIZATIONS
+   ================================ */
+
+/* Content visibility for performance */
+.lazy-content {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 500px;
+}
+
+/* Will-change optimization */
+.transform-performance {
+  will-change: transform;
+}
+
+.transform-performance:not(:hover):not(:focus) {
+  will-change: auto;
+}
+
+/* Containment for performance */
+.contained-component {
+  contain: layout style paint;
+}
+
+/* ================================
+   ACCESSIBILITY ENHANCEMENTS
+   ================================ */
+
+/* High contrast mode support */
+@media (forced-colors: active) {
+  .forced-colors {
+    border: 1px solid;
+    forced-color-adjust: none;
+  }
+}
+
+/* Reduced transparency mode */
+@media (prefers-reduced-transparency: reduce) {
+  .transparency-respect {
+    background-color: var(--color-white);
+    backdrop-filter: none;
+  }
+}
+
+/* ================================
+   BROWSER SUPPORT FALLBACKS
+   ================================ */
+
+/* Flexbox gap fallback */
+.flex-gap-fallback > * + * {
+  margin-inline-start: var(--spacing-4);
+}
+
+@supports (gap: 1rem) {
+  .flex-gap-fallback {
+    gap: var(--spacing-4);
+  }
+  
+  .flex-gap-fallback > * + * {
+    margin-inline-start: 0;
+  }
+}
+
+/* CSS Grid fallback */
+.grid-fallback {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-4);
+}
+
+.grid-fallback > * {
+  flex: 1 1 300px;
+}
+
+@supports (display: grid) {
+  .grid-fallback {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .grid-fallback > * {
+    flex: none;
+  }
+}
+
+/* ================================
+   FUTURE CSS FEATURES PREPARATION
+   ================================ */
+
+/* Switch function (future CSS) */
+@supports (font-size: switch()) {
+  .switch-responsive {
+    font-size: switch(
+      (available-inline-size < 300px) var(--font-size-sm);
+      (available-inline-size < 600px) var(--font-size-base);
+      default var(--font-size-lg);
+    );
+  }
+}
+
+/* Anchor positioning (future CSS) */
+@supports (anchor-name: --anchor) {
+  .anchor-element {
+    anchor-name: --my-anchor;
+  }
+  
+  .positioned-element {
+    position: absolute;
+    position-anchor: --my-anchor;
+    inset-area: block-end span-inline-end;
+  }
+}

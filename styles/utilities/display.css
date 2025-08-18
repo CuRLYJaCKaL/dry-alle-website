@@ -1,0 +1,418 @@
+/* 
+ * DryAlle Design System - Display & Visibility Utilities
+ * Modern CSS display properties and responsive visibility
+ * 30-Year CSS Expert Implementation
+ */
+
+/* ================================
+   DISPLAY UTILITIES
+   ================================ */
+
+.block { display: block; }
+.inline-block { display: inline-block; }
+.inline { display: inline; }
+.flex { display: flex; }
+.inline-flex { display: inline-flex; }
+.grid { display: grid; }
+.inline-grid { display: inline-grid; }
+.contents { display: contents; }
+.flow-root { display: flow-root; }
+.table { display: table; }
+.table-row { display: table-row; }
+.table-cell { display: table-cell; }
+.hidden { display: none; }
+
+/* ================================
+   VISIBILITY UTILITIES
+   ================================ */
+
+.visible { visibility: visible; }
+.invisible { visibility: hidden; }
+.collapse { visibility: collapse; }
+
+/* ================================
+   OVERFLOW UTILITIES
+   ================================ */
+
+.overflow-auto { overflow: auto; }
+.overflow-hidden { overflow: hidden; }
+.overflow-clip { overflow: clip; }
+.overflow-visible { overflow: visible; }
+.overflow-scroll { overflow: scroll; }
+
+.overflow-x-auto { overflow-x: auto; }
+.overflow-x-hidden { overflow-x: hidden; }
+.overflow-x-clip { overflow-x: clip; }
+.overflow-x-visible { overflow-x: visible; }
+.overflow-x-scroll { overflow-x: scroll; }
+
+.overflow-y-auto { overflow-y: auto; }
+.overflow-y-hidden { overflow-y: hidden; }
+.overflow-y-clip { overflow-y: clip; }
+.overflow-y-visible { overflow-y: visible; }
+.overflow-y-scroll { overflow-y: scroll; }
+
+/* ================================
+   POSITION UTILITIES
+   ================================ */
+
+.static { position: static; }
+.fixed { position: fixed; }
+.absolute { position: absolute; }
+.relative { position: relative; }
+.sticky { position: sticky; }
+
+/* ================================
+   TOP / RIGHT / BOTTOM / LEFT
+   ================================ */
+
+.inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+.inset-auto { top: auto; right: auto; bottom: auto; left: auto; }
+
+.top-0 { top: 0; }
+.top-auto { top: auto; }
+.top-1 { top: var(--spacing-1); }
+.top-2 { top: var(--spacing-2); }
+.top-3 { top: var(--spacing-3); }
+.top-4 { top: var(--spacing-4); }
+.top-1\/2 { top: 50%; }
+.top-full { top: 100%; }
+
+.right-0 { right: 0; }
+.right-auto { right: auto; }
+.right-1 { right: var(--spacing-1); }
+.right-2 { right: var(--spacing-2); }
+.right-3 { right: var(--spacing-3); }
+.right-4 { right: var(--spacing-4); }
+.right-1\/2 { right: 50%; }
+.right-full { right: 100%; }
+
+.bottom-0 { bottom: 0; }
+.bottom-auto { bottom: auto; }
+.bottom-1 { bottom: var(--spacing-1); }
+.bottom-2 { bottom: var(--spacing-2); }
+.bottom-3 { bottom: var(--spacing-3); }
+.bottom-4 { bottom: var(--spacing-4); }
+.bottom-1\/2 { bottom: 50%; }
+.bottom-full { bottom: 100%; }
+
+.left-0 { left: 0; }
+.left-auto { left: auto; }
+.left-1 { left: var(--spacing-1); }
+.left-2 { left: var(--spacing-2); }
+.left-3 { left: var(--spacing-3); }
+.left-4 { left: var(--spacing-4); }
+.left-1\/2 { left: 50%; }
+.left-full { left: 100%; }
+
+/* ================================
+   Z-INDEX UTILITIES
+   ================================ */
+
+.z-0 { z-index: 0; }
+.z-10 { z-index: 10; }
+.z-20 { z-index: 20; }
+.z-30 { z-index: 30; }
+.z-40 { z-index: 40; }
+.z-50 { z-index: 50; }
+.z-auto { z-index: auto; }
+
+/* Semantic z-index classes using design tokens */
+.z-dropdown { z-index: var(--z-index-dropdown); }
+.z-sticky { z-index: var(--z-index-sticky); }
+.z-fixed { z-index: var(--z-index-fixed); }
+.z-modal-backdrop { z-index: var(--z-index-modal-backdrop); }
+.z-modal { z-index: var(--z-index-modal); }
+.z-popover { z-index: var(--z-index-popover); }
+.z-tooltip { z-index: var(--z-index-tooltip); }
+.z-toast { z-index: var(--z-index-toast); }
+
+/* ================================
+   OPACITY UTILITIES
+   ================================ */
+
+.opacity-0 { opacity: 0; }
+.opacity-5 { opacity: 0.05; }
+.opacity-10 { opacity: 0.1; }
+.opacity-20 { opacity: 0.2; }
+.opacity-25 { opacity: 0.25; }
+.opacity-30 { opacity: 0.3; }
+.opacity-40 { opacity: 0.4; }
+.opacity-50 { opacity: 0.5; }
+.opacity-60 { opacity: 0.6; }
+.opacity-70 { opacity: 0.7; }
+.opacity-75 { opacity: 0.75; }
+.opacity-80 { opacity: 0.8; }
+.opacity-90 { opacity: 0.9; }
+.opacity-95 { opacity: 0.95; }
+.opacity-100 { opacity: 1; }
+
+/* ================================
+   POINTER EVENTS
+   ================================ */
+
+.pointer-events-none { pointer-events: none; }
+.pointer-events-auto { pointer-events: auto; }
+
+/* ================================
+   USER SELECT
+   ================================ */
+
+.select-none { user-select: none; }
+.select-text { user-select: text; }
+.select-all { user-select: all; }
+.select-auto { user-select: auto; }
+
+/* ================================
+   RESIZE
+   ================================ */
+
+.resize-none { resize: none; }
+.resize { resize: both; }
+.resize-y { resize: vertical; }
+.resize-x { resize: horizontal; }
+
+/* ================================
+   CURSOR UTILITIES
+   ================================ */
+
+.cursor-auto { cursor: auto; }
+.cursor-default { cursor: default; }
+.cursor-pointer { cursor: pointer; }
+.cursor-wait { cursor: wait; }
+.cursor-text { cursor: text; }
+.cursor-move { cursor: move; }
+.cursor-help { cursor: help; }
+.cursor-not-allowed { cursor: not-allowed; }
+.cursor-grab { cursor: grab; }
+.cursor-grabbing { cursor: grabbing; }
+
+/* ================================
+   RESPONSIVE DISPLAY UTILITIES
+   ================================ */
+
+@media (max-width: 480px) {
+  .mobile\:block { display: block; }
+  .mobile\:inline-block { display: inline-block; }
+  .mobile\:inline { display: inline; }
+  .mobile\:flex { display: flex; }
+  .mobile\:inline-flex { display: inline-flex; }
+  .mobile\:grid { display: grid; }
+  .mobile\:hidden { display: none; }
+  
+  .mobile\:visible { visibility: visible; }
+  .mobile\:invisible { visibility: hidden; }
+}
+
+@media (max-width: 768px) {
+  .tablet\:block { display: block; }
+  .tablet\:inline-block { display: inline-block; }
+  .tablet\:inline { display: inline; }
+  .tablet\:flex { display: flex; }
+  .tablet\:inline-flex { display: inline-flex; }
+  .tablet\:grid { display: grid; }
+  .tablet\:hidden { display: none; }
+  
+  .tablet\:visible { visibility: visible; }
+  .tablet\:invisible { visibility: hidden; }
+}
+
+@media (min-width: 769px) {
+  .desktop\:block { display: block; }
+  .desktop\:inline-block { display: inline-block; }
+  .desktop\:inline { display: inline; }
+  .desktop\:flex { display: flex; }
+  .desktop\:inline-flex { display: inline-flex; }
+  .desktop\:grid { display: grid; }
+  .desktop\:hidden { display: none; }
+  
+  .desktop\:visible { visibility: visible; }
+  .desktop\:invisible { visibility: hidden; }
+}
+
+/* ================================
+   PRINT UTILITIES
+   ================================ */
+
+@media print {
+  .print\:block { display: block; }
+  .print\:inline-block { display: inline-block; }
+  .print\:inline { display: inline; }
+  .print\:flex { display: flex; }
+  .print\:grid { display: grid; }
+  .print\:hidden { display: none; }
+  
+  .print\:visible { visibility: visible; }
+  .print\:invisible { visibility: hidden; }
+}
+
+/* ================================
+   SCREEN READER UTILITIES
+   ================================ */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.not-sr-only {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* ================================
+   ASPECT RATIO UTILITIES
+   ================================ */
+
+.aspect-auto { aspect-ratio: auto; }
+.aspect-square { aspect-ratio: 1 / 1; }
+.aspect-video { aspect-ratio: 16 / 9; }
+.aspect-photo { aspect-ratio: 4 / 3; }
+.aspect-portrait { aspect-ratio: 3 / 4; }
+.aspect-wide { aspect-ratio: 21 / 9; }
+
+/* ================================
+   OBJECT FIT & POSITION
+   ================================ */
+
+.object-contain { object-fit: contain; }
+.object-cover { object-fit: cover; }
+.object-fill { object-fit: fill; }
+.object-none { object-fit: none; }
+.object-scale-down { object-fit: scale-down; }
+
+.object-bottom { object-position: bottom; }
+.object-center { object-position: center; }
+.object-left { object-position: left; }
+.object-left-bottom { object-position: left bottom; }
+.object-left-top { object-position: left top; }
+.object-right { object-position: right; }
+.object-right-bottom { object-position: right bottom; }
+.object-right-top { object-position: right top; }
+.object-top { object-position: top; }
+
+/* ================================
+   ISOLATION
+   ================================ */
+
+.isolate { isolation: isolate; }
+.isolation-auto { isolation: auto; }
+
+/* ================================
+   MIX BLEND MODE
+   ================================ */
+
+.mix-blend-normal { mix-blend-mode: normal; }
+.mix-blend-multiply { mix-blend-mode: multiply; }
+.mix-blend-screen { mix-blend-mode: screen; }
+.mix-blend-overlay { mix-blend-mode: overlay; }
+.mix-blend-darken { mix-blend-mode: darken; }
+.mix-blend-lighten { mix-blend-mode: lighten; }
+.mix-blend-color-dodge { mix-blend-mode: color-dodge; }
+.mix-blend-color-burn { mix-blend-mode: color-burn; }
+.mix-blend-hard-light { mix-blend-mode: hard-light; }
+.mix-blend-soft-light { mix-blend-mode: soft-light; }
+.mix-blend-difference { mix-blend-mode: difference; }
+.mix-blend-exclusion { mix-blend-mode: exclusion; }
+.mix-blend-hue { mix-blend-mode: hue; }
+.mix-blend-saturation { mix-blend-mode: saturation; }
+.mix-blend-color { mix-blend-mode: color; }
+.mix-blend-luminosity { mix-blend-mode: luminosity; }
+
+/* ================================
+   BACKDROP FILTER
+   ================================ */
+
+.backdrop-blur-none { backdrop-filter: blur(0); }
+.backdrop-blur-sm { backdrop-filter: blur(4px); }
+.backdrop-blur { backdrop-filter: blur(8px); }
+.backdrop-blur-md { backdrop-filter: blur(12px); }
+.backdrop-blur-lg { backdrop-filter: blur(16px); }
+.backdrop-blur-xl { backdrop-filter: blur(24px); }
+.backdrop-blur-2xl { backdrop-filter: blur(40px); }
+.backdrop-blur-3xl { backdrop-filter: blur(64px); }
+
+/* ================================
+   WILL-CHANGE UTILITIES
+   ================================ */
+
+.will-change-auto { will-change: auto; }
+.will-change-scroll { will-change: scroll-position; }
+.will-change-contents { will-change: contents; }
+.will-change-transform { will-change: transform; }
+
+/* ================================
+   CONTAIN UTILITIES
+   ================================ */
+
+.contain-none { contain: none; }
+.contain-content { contain: content; }
+.contain-strict { contain: strict; }
+.contain-layout { contain: layout; }
+.contain-style { contain: style; }
+.contain-paint { contain: paint; }
+.contain-size { contain: size; }
+
+/* ================================
+   ACCESSIBILITY & HIGH CONTRAST
+   ================================ */
+
+@media (prefers-contrast: high) {
+  .hidden { 
+    border: 1px solid;
+  }
+  
+  .opacity-50,
+  .opacity-60,
+  .opacity-70 {
+    opacity: 1;
+  }
+}
+
+/* ================================
+   REDUCED MOTION
+   ================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .will-change-transform,
+  .will-change-scroll {
+    will-change: auto;
+  }
+}
+
+/* ================================
+   PERFORMANCE OPTIMIZATIONS
+   ================================ */
+
+/* GPU acceleration for positioned elements */
+.fixed,
+.absolute,
+.sticky {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+/* Optimize for paint performance */
+.overflow-hidden {
+  contain: paint;
+}
+
+/* Optimize scrolling performance */
+.overflow-auto,
+.overflow-scroll {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}

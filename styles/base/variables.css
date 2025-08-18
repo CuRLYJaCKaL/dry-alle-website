@@ -1,0 +1,288 @@
+/* 
+ * DryAlle Design System - CSS Custom Properties
+ * 30-Year CSS Expert Implementation
+ * Created: 2025 - Modern CSS Architecture
+ */
+
+:root {
+  /* ================================
+     COLOR PALETTE - Primary Brand
+     ================================ */
+  --color-primary: #006a44;
+  --color-primary-light: #22c55e;
+  --color-primary-dark: #004d32;
+  --color-primary-darker: #00623b;
+  
+  --color-secondary: #f6ec3d;
+  --color-secondary-light: #f8f068;
+  --color-secondary-dark: #FFD700;
+  
+  --color-accent: #22c55e;
+  --color-accent-light: #34d399;
+  --color-accent-dark: #059669;
+  
+  /* ================================
+     NEUTRAL COLORS - Grayscale
+     ================================ */
+  --color-white: #ffffff;
+  --color-gray-50: #f8f9fa;
+  --color-gray-100: #f1f3f4;
+  --color-gray-200: #e9ecef;
+  --color-gray-300: #e6e7e8;
+  --color-gray-400: #dcdee0;
+  --color-gray-500: #666666;
+  --color-gray-600: #555555;
+  --color-gray-700: #333333;
+  --color-gray-800: #2d2d2d;
+  --color-gray-900: #1a1a1a;
+  
+  /* Background Variants */
+  --color-bg-primary: var(--color-white);
+  --color-bg-secondary: var(--color-gray-50);
+  --color-bg-tertiary: var(--color-gray-100);
+  --color-bg-accent: var(--color-gray-200);
+  
+  /* Service Card Backgrounds */
+  --color-bg-card: #f0f0f0;
+  --color-bg-card-content: #e1e1e1;
+  --color-bg-card-hover: #e8e8e8;
+  
+  /* ================================
+     SPACING SYSTEM - 8px Base Unit
+     ================================ */
+  --spacing-1: 0.25rem;   /* 4px */
+  --spacing-2: 0.5rem;    /* 8px */
+  --spacing-3: 0.75rem;   /* 12px */
+  --spacing-4: 1rem;      /* 16px */
+  --spacing-5: 1.25rem;   /* 20px */
+  --spacing-6: 1.5rem;    /* 24px */
+  --spacing-8: 2rem;      /* 32px */
+  --spacing-10: 2.5rem;   /* 40px */
+  --spacing-12: 3rem;     /* 48px */
+  --spacing-16: 4rem;     /* 64px */
+  --spacing-20: 5rem;     /* 80px */
+  --spacing-24: 6rem;     /* 96px */
+  --spacing-32: 8rem;     /* 128px */
+  
+  /* Container Spacing */
+  --container-padding-mobile: var(--spacing-4);
+  --container-padding-tablet: var(--spacing-6);
+  --container-padding-desktop: var(--spacing-20);
+  
+  /* ================================
+     TYPOGRAPHY SYSTEM
+     ================================ */
+  --font-family-primary: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --font-family-display: 'Dancing Script', cursive;
+  --font-family-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Consolas', monospace;
+  
+  /* Font Sizes - Fluid Typography */
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 1.875rem;  /* 30px */
+  --font-size-4xl: 2.25rem;   /* 36px */
+  --font-size-5xl: 3rem;      /* 48px */
+  --font-size-6xl: 3.75rem;   /* 60px */
+  
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  
+  /* Line Heights */
+  --line-height-tight: 1.1;
+  --line-height-snug: 1.2;
+  --line-height-normal: 1.4;
+  --line-height-relaxed: 1.6;
+  --line-height-loose: 1.8;
+  
+  /* ================================
+     BORDER RADIUS SYSTEM
+     ================================ */
+  --border-radius-none: 0;
+  --border-radius-sm: 0.25rem;   /* 4px */
+  --border-radius-base: 0.5rem;  /* 8px */
+  --border-radius-md: 0.75rem;   /* 12px */
+  --border-radius-lg: 1rem;      /* 16px */
+  --border-radius-xl: 1.5rem;    /* 24px */
+  --border-radius-2xl: 2rem;     /* 32px */
+  --border-radius-full: 9999px;
+  
+  /* Component Specific */
+  --border-radius-button: var(--border-radius-xl);
+  --border-radius-card: var(--border-radius-md);
+  --border-radius-input: var(--border-radius-sm);
+  
+  /* ================================
+     SHADOWS & ELEVATION
+     ================================ */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  
+  /* Brand Specific Shadows */
+  --shadow-primary: 0 8px 25px rgba(0, 106, 68, 0.3);
+  --shadow-primary-lg: 0 12px 35px rgba(0, 106, 68, 0.4);
+  --shadow-secondary: 0 8px 25px rgba(246, 236, 61, 0.3);
+  
+  /* ================================
+     GRADIENTS - Optimized Performance
+     ================================ */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 50%, var(--color-primary) 100%);
+  --gradient-primary-reverse: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 50%, var(--color-primary-light) 100%);
+  --gradient-hero: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 50%, var(--color-primary-darker) 100%);
+  --gradient-card: linear-gradient(135deg, var(--color-white) 0%, var(--color-gray-50) 100%);
+  --gradient-accent: linear-gradient(90deg, var(--color-primary) 0%, var(--color-accent) 50%, var(--color-primary) 100%);
+  
+  /* Background Gradients */
+  --gradient-bg-light: linear-gradient(135deg, var(--color-gray-50) 0%, var(--color-gray-200) 100%);
+  --gradient-bg-hero: linear-gradient(to left, transparent 0%, transparent 20%, rgba(255,255,255,0.05) 25%, rgba(255,255,255,0.15) 30%, rgba(255,255,255,0.3) 35%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,0.7) 43%, rgba(255,255,255,0.85) 46%, rgba(255,255,255,0.95) 48%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  
+  /* ================================
+     TRANSITIONS & ANIMATIONS
+     ================================ */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  --transition-bounce: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  /* Hover Transforms */
+  --transform-hover-up: translateY(-3px);
+  --transform-hover-scale: scale(1.05);
+  --transform-hover-slight: translateY(-2px);
+  
+  /* ================================
+     Z-INDEX SCALE
+     ================================ */
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1020;
+  --z-index-fixed: 1030;
+  --z-index-modal-backdrop: 1040;
+  --z-index-modal: 1050;
+  --z-index-popover: 1060;
+  --z-index-tooltip: 1070;
+  --z-index-toast: 1080;
+  
+  /* ================================
+     BREAKPOINTS - Container Queries Ready
+     ================================ */
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+  
+  /* Container Max Widths */
+  --container-sm: 540px;
+  --container-md: 720px;
+  --container-lg: 960px;
+  --container-xl: 1140px;
+  --container-2xl: 1320px;
+  
+  /* ================================
+     COMPONENT SPECIFIC VARIABLES
+     ================================ */
+  
+  /* Buttons */
+  --button-height-sm: 2rem;      /* 32px */
+  --button-height-base: 2.5rem;  /* 40px */
+  --button-height-lg: 3rem;      /* 48px */
+  --button-padding-x-sm: var(--spacing-3);
+  --button-padding-x-base: var(--spacing-6);
+  --button-padding-x-lg: var(--spacing-8);
+  
+  /* Cards */
+  --card-padding: var(--spacing-6);
+  --card-gap: var(--spacing-6);
+  
+  /* Navigation */
+  --nav-height: 4rem;
+  --nav-gap: var(--spacing-20);
+  
+  /* Hero Section */
+  --hero-height: 475px;
+  --hero-content-max-width: 600px;
+  
+  /* ================================
+     ACCESSIBILITY & PREFERENCES
+     ================================ */
+  
+  /* Focus States */
+  --focus-ring-width: 2px;
+  --focus-ring-color: var(--color-secondary);
+  --focus-ring-offset: 2px;
+  
+  /* Motion Preferences */
+  --animation-duration: 0.3s;
+  --animation-easing: ease-in-out;
+}
+
+/* ================================
+   RESPONSIVE CUSTOM PROPERTIES
+   ================================ */
+
+@media (max-width: 768px) {
+  :root {
+    --font-size-4xl: 1.8rem;     /* Mobile: 36px → 28px */
+    --font-size-5xl: 2.2rem;     /* Mobile: 48px → 35px */
+    --font-size-6xl: 2.8rem;     /* Mobile: 60px → 45px */
+    
+    --container-padding: var(--container-padding-mobile);
+    --nav-gap: var(--spacing-4);
+    --hero-height: 400px;
+    
+    /* Mobile-optimized spacing */
+    --card-padding: var(--spacing-4);
+    --card-gap: var(--spacing-4);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  :root {
+    --container-padding: var(--container-padding-tablet);
+    --nav-gap: var(--spacing-12);
+  }
+}
+
+@media (min-width: 1025px) {
+  :root {
+    --container-padding: var(--container-padding-desktop);
+  }
+}
+
+/* ================================
+   DARK MODE PREPARATION
+   ================================ */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Future dark mode implementation */
+    --color-bg-primary: var(--color-gray-900);
+    --color-bg-secondary: var(--color-gray-800);
+    --color-text-primary: var(--color-gray-100);
+    --color-text-secondary: var(--color-gray-300);
+  }
+}
+
+/* ================================
+   REDUCED MOTION PREFERENCES
+   ================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0.01ms;
+    --transition-base: 0.01ms;
+    --transition-slow: 0.01ms;
+    --animation-duration: 0.01ms;
+  }
+}

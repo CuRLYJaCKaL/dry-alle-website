@@ -1,0 +1,414 @@
+/* 
+ * DryAlle Design System - Critical CSS
+ * Above-the-fold styles for immediate paint
+ * 30-Year CSS Expert Implementation - Optimized for Core Web Vitals
+ */
+
+/* ================================
+   CRITICAL VARIABLES (Inlined)
+   ================================ */
+
+:root {
+  /* Critical Colors - Most Used */
+  --color-primary: #006a44;
+  --color-secondary: #f6ec3d;
+  --color-white: #ffffff;
+  --color-gray-700: #333333;
+  --color-gray-300: #e6e7e8;
+  
+  /* Critical Spacing */
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  
+  /* Critical Typography */
+  --font-family-primary: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --font-family-display: 'Dancing Script', cursive;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-6xl: 3.75rem;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --line-height-tight: 1.1;
+  --line-height-normal: 1.4;
+  
+  /* Critical Layout */
+  --hero-height: 475px;
+  --nav-height: 4rem;
+  
+  /* Critical Transitions */
+  --transition-base: 0.3s ease;
+  
+  /* Critical Z-index */
+  --z-index-sticky: 1020;
+}
+
+/* ================================
+   CRITICAL RESET - Essential Only
+   ================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  color: var(--color-gray-700);
+  background-color: var(--color-white);
+  overflow-x: hidden;
+}
+
+/* ================================
+   CRITICAL LAYOUT - Above-the-fold
+   ================================ */
+
+/* Top Bar - Immediately visible */
+.top-bar {
+  background-color: var(--color-secondary);
+  padding: var(--spacing-2) 0;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-700);
+  position: relative;
+  z-index: var(--z-index-sticky);
+}
+
+.top-bar-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-16);
+}
+
+.top-bar strong {
+  font-weight: var(--font-weight-bold);
+  text-decoration: underline;
+}
+
+/* Header - Immediately visible */
+.header {
+  background-color: var(--color-primary) !important;
+  color: var(--color-white) !important;
+  position: relative;
+  z-index: var(--z-index-sticky);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-3) var(--spacing-16);
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* Logo - Critical for brand recognition */
+.logo svg {
+  display: block;
+  height: auto;
+  max-height: 105px;
+  width: auto;
+  max-width: 390px;
+}
+
+/* Navigation - Above-the-fold */
+.main-nav {
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gray-300);
+  position: relative;
+  z-index: var(--z-index-sticky);
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-5);
+  justify-content: flex-start;
+  gap: var(--spacing-20);
+}
+
+.nav-menu li {
+  padding: var(--spacing-3) 0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: var(--color-primary) !important;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: var(--transition-base);
+}
+
+/* Hero Section - Above-the-fold */
+.hero {
+  position: relative;
+  height: var(--hero-height);
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, transparent 0%, transparent 20%, rgba(255,255,255,0.05) 25%, rgba(255,255,255,0.15) 30%, rgba(255,255,255,0.3) 35%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,0.7) 43%, rgba(255,255,255,0.85) 46%, rgba(255,255,255,0.95) 48%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  z-index: 2;
+}
+
+.hero-image {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: var(--spacing-16);
+  transform: translateY(-50%);
+  z-index: 3;
+  color: var(--color-primary);
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: var(--font-size-6xl);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--spacing-5);
+  text-shadow: 2px 2px 4px rgba(255,255,255,0.8);
+}
+
+/* Contact Button - Critical CTA */
+.contact-button {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  color: var(--color-white);
+  cursor: pointer;
+  padding: var(--spacing-2) var(--spacing-4);
+  border-radius: var(--spacing-2);
+  transition: var(--transition-base);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+}
+
+.phone-icon {
+  font-size: var(--font-size-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================================
+   CRITICAL RESPONSIVE - Mobile First
+   ================================ */
+
+@media (max-width: 768px) {
+  .top-bar-content {
+    padding: 0 var(--spacing-5);
+    font-size: 12px;
+  }
+  
+  .header-container {
+    padding: var(--spacing-4) var(--spacing-5);
+  }
+  
+  .logo svg {
+    max-width: 280px;
+    max-height: 75px;
+  }
+  
+  .nav-menu {
+    flex-direction: column;
+    gap: 0;
+    padding: 0 var(--spacing-5);
+  }
+  
+  .nav-menu li {
+    padding: var(--spacing-3) 0;
+    border-bottom: 1px solid var(--color-gray-300);
+  }
+  
+  .nav-menu a {
+    font-size: var(--font-size-base);
+    text-transform: none;
+    letter-spacing: normal;
+  }
+  
+  .hero {
+    height: 400px;
+  }
+  
+  .hero-content {
+    left: var(--spacing-5);
+    right: var(--spacing-5);
+    max-width: none;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-bar {
+    padding: var(--spacing-2) 0;
+    font-size: 12px;
+  }
+  
+  .hero-title {
+    font-size: 1.75rem;
+  }
+  
+  .logo svg {
+    max-width: 240px;
+    max-height: 65px;
+  }
+}
+
+/* ================================
+   FONT LOADING OPTIMIZATION
+   ================================ */
+
+/* Preload critical fonts */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap; /* Critical for CLS prevention */
+  src: local('Roboto'), local('Roboto-Regular');
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap; /* Critical for CLS prevention */
+  src: local('Dancing Script Bold'), local('DancingScript-Bold');
+}
+
+/* ================================
+   PERFORMANCE OPTIMIZATIONS
+   ================================ */
+
+/* GPU acceleration for critical animations */
+.hero-content,
+.logo svg,
+.nav-menu a {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+/* Optimize critical path rendering */
+.hero,
+.header,
+.top-bar {
+  contain: layout style;
+}
+
+/* Prevent layout shifts */
+.hero-image {
+  content-visibility: auto;
+  contain-intrinsic-size: 800px 475px;
+}
+
+/* ================================
+   ACCESSIBILITY - Critical Only
+   ================================ */
+
+/* Focus management for keyboard users */
+.nav-menu a:focus-visible,
+.contact-button:focus-visible {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 2px;
+}
+
+/* Skip link for screen readers */
+.skip-to-main {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: var(--spacing-2) var(--spacing-4);
+  text-decoration: none;
+  z-index: 9999;
+}
+
+.skip-to-main:focus {
+  top: 6px;
+}
+
+/* ================================
+   REDUCED MOTION SUPPORT
+   ================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ================================
+   PRINT STYLES - Critical Only
+   ================================ */
+
+@media print {
+  .top-bar,
+  .nav-menu {
+    display: none;
+  }
+  
+  .hero {
+    height: auto;
+    background: white;
+  }
+  
+  .hero-content {
+    position: static;
+    transform: none;
+    color: black;
+  }
+}
