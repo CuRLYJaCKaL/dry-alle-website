@@ -1,10 +1,13 @@
-/* Blog Pages Styles */
+/* 
+ * Blog Pages Styles - Modern CSS Integration
+ * Using corporate design variables from main system
+ */
 
-/* Blog Hero Section */
+/* Blog Hero Section - Corporate Style */
 .blog-hero {
-    padding: 120px 0;
-    background: linear-gradient(135deg, #006a44 0%, #004d32 50%, #00623b 100%);
-    color: white;
+    padding: var(--spacing-32) 0;
+    background: var(--gradient-hero);
+    color: var(--color-white);
     text-align: center;
     position: relative;
     overflow: hidden;
