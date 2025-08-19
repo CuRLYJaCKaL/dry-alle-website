@@ -18,7 +18,7 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Kuru Temizleme & Halı Yıkama İstanbul | Dry Alle">
     <meta property="og:description" content="İstanbul Anadolu Yakası'nda 25 yıllık deneyimle kuru temizleme, halı yıkama, koltuk yıkama hizmeti. Ücretsiz kapıdan teslimat.">
-    <meta property="og:image" content="https://dryallekurutemizleme.com/asset/hero-image.png">
+    <meta property="og:image" content="https://dryallekurutemizleme.com/asset/hero-image.webp">
     <meta property="og:url" content="https://dryallekurutemizleme.com">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="tr_TR">
@@ -28,7 +28,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Kuru Temizleme Halı Yıkama Koltuk Yıkama İstanbul Kadıköy Ataşehir | Dry Alle">
     <meta name="twitter:description" content="İstanbul Anadolu Yakası'nda 25 yıllık deneyimle kuru temizleme, halı yıkama, koltuk yıkama hizmeti.">
-    <meta name="twitter:image" content="https://dryallekurutemizleme.com/asset/hero-image.png">
+    <meta name="twitter:image" content="https://dryallekurutemizleme.com/asset/hero-image.webp">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://dryallekurutemizleme.com/">
@@ -84,7 +84,7 @@
     </style>
     
     <!-- Preload Critical Resources -->
-    <link rel="preload" href="asset/hero-image.png" as="image" fetchpriority="high">
+    <link rel="preload" href="asset/hero-image-desktop.webp" as="image" fetchpriority="high">
     <link rel="preload" href="styles.css" as="style">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -327,7 +327,37 @@
         <!-- Hero Section -->
         <section class="hero">
             <div class="hero-background">
-                <img src="asset/hero-image.png" alt="İstanbul Anadolu Yakası Kuru Temizleme Hizmeti - Dry Alle" class="hero-image critical-image" width="800" height="600" style="object-fit: cover; max-width: 1200px; height: 600px;" fetchpriority="high" loading="eager" decoding="async">
+                <picture>
+    <source 
+        media="(max-width: 480px)" 
+        srcset="asset/hero-image-mobile.webp" 
+        type="image/webp">
+    <source 
+        media="(max-width: 768px)" 
+        srcset="asset/hero-image-tablet.webp" 
+        type="image/webp">
+    <source 
+        media="(max-width: 1200px)" 
+        srcset="asset/hero-image-desktop.webp" 
+        type="image/webp">
+    <source 
+        media="(max-width: 1600px)" 
+        srcset="asset/hero-image-large.webp" 
+        type="image/webp">
+    <source 
+        srcset="asset/hero-image-xlarge.webp" 
+        type="image/webp">
+    <img 
+        src="asset/hero-image.jpg" 
+        alt="İstanbul Anadolu Yakası Kuru Temizleme Hizmeti - Dry Alle" 
+        class="hero-image critical-image" 
+        width="800" 
+        height="600" 
+        style="object-fit: cover; max-width: 1200px; height: 600px;" 
+        fetchpriority="high" 
+        loading="eager" 
+        decoding="async">
+</picture>
             </div>
             <div class="hero-content">
                 <h1 class="hero-title">
