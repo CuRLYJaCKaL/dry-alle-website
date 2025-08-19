@@ -102,70 +102,148 @@
   transform: scale(1.02);
 }
 
-/* Blog Card Content */
+/* Blog Card Content - SEO-Optimized Flow */
 .blog-card-content,
 .blog-post-content {
-  padding: var(--spacing-5);
+  padding: var(--spacing-6) var(--spacing-5) var(--spacing-5);
   background: var(--color-bg-card-content);
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 150px;
+  min-height: 200px;
+  gap: var(--spacing-3);
 }
 
-/* Blog Card Title */
+/* 1. Category Badge - SEO Priority */
+.blog-card-category-badge {
+  position: absolute;
+  top: var(--spacing-3);
+  left: var(--spacing-3);
+  background: var(--color-primary-darker);
+  color: var(--color-white);
+  padding: var(--spacing-1) var(--spacing-2);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  border-radius: 0;
+  z-index: 2;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* 2. Blog Card Title - H3 for SEO Hierarchy */
 .blog-card-title,
 .blog-post-title {
   color: var(--color-primary-darker);
-  font-size: var(--font-size-lg);
-  font-weight: 600;
-  line-height: 1.3;
-  margin-bottom: var(--spacing-3);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-2);
   text-decoration: none;
   display: block;
+  order: 1;
+  /* SEO-friendly title sizing */
+  min-height: 48px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .blog-card-title:hover,
 .blog-post-title:hover {
   color: var(--color-primary-dark);
-  text-decoration: underline;
+  text-decoration: none;
+  transform: translateY(-1px);
+  transition: all var(--transition-base);
 }
 
-/* Blog Card Meta & Content */
+/* 3. Blog Card Excerpt - SEO Meta Description */
 .blog-card-excerpt,
 .blog-post-excerpt {
-  color: var(--color-gray-600);
+  color: var(--color-gray-700);
   font-size: var(--font-size-sm);
-  line-height: 1.4;
+  line-height: 1.5;
   margin-bottom: var(--spacing-4);
   flex: 1;
+  order: 2;
+  /* Consistent excerpt length for SEO */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 60px;
 }
 
+/* 4. Blog Card Meta - Structured Data Elements */
 .blog-card-meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: var(--spacing-4);
+  margin-bottom: var(--spacing-3);
   font-size: var(--font-size-xs);
   color: var(--color-gray-500);
+  order: 3;
+  padding-top: var(--spacing-2);
+  border-top: 1px solid var(--color-gray-200);
 }
 
-/* Blog Card CTA */
+.blog-card-date,
+.blog-card-author {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-1);
+  font-weight: 500;
+}
+
+.blog-card-read-time {
+  position: absolute;
+  top: var(--spacing-3);
+  right: var(--spacing-3);
+  background: rgba(0, 0, 0, 0.7);
+  color: var(--color-white);
+  padding: var(--spacing-1) var(--spacing-2);
+  font-size: var(--font-size-xs);
+  border-radius: 0;
+  z-index: 2;
+  font-weight: 500;
+}
+
+/* 5. Blog Card CTA - Call-to-Action Optimization */
 .blog-card-cta,
 .blog-post-link {
   color: var(--color-primary-darker);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: var(--font-size-sm);
-  transition: color var(--transition-base);
+  transition: all var(--transition-base);
   margin-top: auto;
+  order: 4;
+  padding: var(--spacing-2) 0;
+  border-top: 2px solid transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-card-cta:after,
+.blog-post-link:after {
+  content: '→';
+  font-size: var(--font-size-base);
+  transition: transform var(--transition-base);
 }
 
 .blog-card-cta:hover,
 .blog-post-link:hover {
   color: var(--color-primary-dark);
-  text-decoration: underline;
+  border-top-color: var(--color-primary-darker);
+  transform: translateY(-1px);
+}
+
+.blog-card-cta:hover:after,
+.blog-post-link:hover:after {
+  transform: translateX(3px);
 }
 
 /* No duplicate responsive rules - handled above */

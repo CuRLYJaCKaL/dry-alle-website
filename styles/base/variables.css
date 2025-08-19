@@ -67,7 +67,13 @@
   /* Container Spacing */
   --container-padding-mobile: var(--spacing-4);
   --container-padding-tablet: var(--spacing-6);
-  --container-padding-desktop: var(--spacing-20);
+  --container-padding-desktop: var(--spacing-8);
+  
+  /* Blog System Variables */
+  --blog-content-max-width: 1000px;
+  --blog-container-max-width: 1000px;
+  --blog-article-max-width: 750px;
+  --blog-sidebar-width: 300px;
   
   /* ================================
      TYPOGRAPHY SYSTEM
