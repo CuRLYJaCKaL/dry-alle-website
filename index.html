@@ -113,7 +113,7 @@
             "name": "Dry Alle Kuru Temizleme",
             "image": [
                 "https://dryallekurutemizleme.com/asset/hero-image.png",
-                "https://dryallekurutemizleme.com/asset/about-us.png"
+                "https://dryallekurutemizleme.com/asset/about-us-large.webp"
             ],
             "@id": "https://dryallekurutemizleme.com",
             "url": "https://dryallekurutemizleme.com",
@@ -753,7 +753,30 @@
                     <a href="#contact" class="learn-more-btn">Detaylı Bilgi ›</a>
                 </div>
                 <div class="contact-image">
-                    <img src="asset/about-us.png" alt="Dry Alle Kuru Temizleme - 25 Yıllık Deneyim İstanbul Anadolu Yakası" width="400" height="300" loading="lazy" decoding="async">
+                    <picture>
+    <source 
+        media="(max-width: 480px)" 
+        srcset="asset/about-us-small.webp" 
+        type="image/webp">
+    <source 
+        media="(max-width: 768px)" 
+        srcset="asset/about-us-medium.webp" 
+        type="image/webp">
+    <source 
+        media="(max-width: 1200px)" 
+        srcset="asset/about-us-large.webp" 
+        type="image/webp">
+    <source 
+        srcset="asset/about-us-xlarge.webp" 
+        type="image/webp">
+    <img 
+        src="asset/about-us.jpg" 
+        alt="Dry Alle Kuru Temizleme - 25 Yıllık Deneyim İstanbul Anadolu Yakası" 
+        width="400" 
+        height="300" 
+        loading="lazy" 
+        decoding="async">
+</picture>
                 </div>
             </div>
         </section>
