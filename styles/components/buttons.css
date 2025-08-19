@@ -406,18 +406,25 @@
 @media (min-width: 1200px) {
   .cta-buttons {
     gap: var(--spacing-6);
+    justify-content: center;
   }
   
   .cta-button.large {
-    min-width: 240px;
+    min-width: 280px;
     font-size: var(--font-size-xl);
+    flex: 0 0 auto;
   }
 }
 
 /* Desktop (1024px - 1199px) */
 @media (max-width: 1199px) and (min-width: 1024px) {
+  .cta-buttons {
+    justify-content: center;
+  }
+  
   .cta-button.large {
-    min-width: 220px;
+    min-width: 260px;
+    flex: 0 0 auto;
   }
 }
 

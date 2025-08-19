@@ -1003,11 +1003,13 @@
   font-weight: 400;
 }
 
-/* CTA Buttons in CTA Section - Centered */
+/* CTA Buttons in CTA Section - Always Centered */
 .cta-section .cta-buttons {
-  justify-content: center;
+  justify-content: center !important;
   margin-top: var(--spacing-8);
   gap: var(--spacing-6);
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .cta-section .cta-button {
