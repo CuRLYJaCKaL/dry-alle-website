@@ -941,72 +941,96 @@
     margin: 0;
 }
 
-/* CTA Section */
+/* CORPORATE CTA SECTION - CLEAN PROFESSIONAL DESIGN */
 .blog-cta {
     margin: 50px 0;
 }
 
 .cta-box {
-    background: linear-gradient(135deg, #00623B 0%, #004d32 100%);
-    padding: 40px;
+    background: #f0f0f0; /* Corporate service-card uyumu */
+    padding: 50px 40px;
     border-radius: 0; /* Köşeli tasarım */
     text-align: center;
-    color: white;
-    box-shadow: 0 8px 25px rgba(0, 98, 59, 0.2);
+    color: #333;
+    border: 2px solid #d1d3d4; /* Corporate border */
+    transition: all 0.3s ease;
+}
+
+.cta-box:hover {
+    border-color: #00623B;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .cta-box h3 {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    color: #00623B;
+    text-shadow: none;
+    line-height: 1.2;
 }
 
 .cta-box p {
-    font-size: 18px;
-    margin-bottom: 25px;
-    opacity: 0.95;
+    font-size: 20px;
+    margin-bottom: 35px;
+    color: #333;
+    opacity: 1;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
 }
 
 .cta-buttons {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .cta-button {
-    display: inline-block;
-    padding: 15px 30px;
-    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 35px;
+    font-weight: 700;
     text-decoration: none;
     transition: all 0.3s ease;
     font-size: 16px;
     border-radius: 0; /* Köşeli tasarım */
-    border: 2px solid transparent;
+    border: 3px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: relative;
+    overflow: hidden;
 }
 
 .cta-button.primary {
-    background-color: #f6ec3d;
+    background: #f6ec3d; /* Corporate sarı renk */
     color: #333;
     border-color: #f6ec3d;
 }
 
 .cta-button.primary:hover {
-    background-color: #f8f068;
+    background: #f8f068;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(246, 236, 61, 0.3);
+    border-color: #00623B;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .cta-button.secondary {
-    background-color: transparent;
+    background: #00623B; /* Corporate yeşil */
     color: white;
-    border-color: white;
+    border-color: #00623B;
 }
 
 .cta-button.secondary:hover {
-    background-color: white;
-    color: #00623B;
+    background: #006a44;
     transform: translateY(-2px);
+    border-color: #f6ec3d;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Related Articles */
@@ -1089,9 +1113,27 @@
         font-size: 30px;
     }
     
+    .cta-box {
+        padding: 40px 30px;
+    }
+    
+    .cta-box h3 {
+        font-size: 28px;
+    }
+    
+    .cta-box p {
+        font-size: 18px;
+    }
+    
     .cta-buttons {
         flex-direction: column;
         align-items: center;
+        gap: 20px;
+    }
+    
+    .cta-button {
+        padding: 16px 30px;
+        font-size: 15px;
     }
     
     .related-grid {
@@ -1122,8 +1164,34 @@
         font-size: 20px;
     }
     
+    .blog-cta {
+        padding: 15px;
+        margin: 40px 0;
+    }
+    
     .cta-box {
         padding: 30px 20px;
+    }
+    
+    .cta-box h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .cta-box p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    
+    .cta-buttons {
+        gap: 15px;
+        margin-top: 25px;
+    }
+    
+    .cta-button {
+        padding: 14px 25px;
+        font-size: 14px;
+        letter-spacing: 0.3px;
     }
     
     .related-articles {
@@ -1150,12 +1218,33 @@
         font-size: 20px;
     }
     
+    .blog-cta {
+        padding: 10px;
+        margin: 30px 0;
+    }
+    
+    .cta-box {
+        padding: 25px 15px;
+    }
+    
     .cta-box h3 {
-        font-size: 22px;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    
+    .cta-box p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .cta-buttons {
+        gap: 12px;
+        margin-top: 20px;
     }
     
     .cta-button {
-        padding: 12px 25px;
-        font-size: 14px;
+        padding: 12px 20px;
+        font-size: 13px;
+        letter-spacing: 0.2px;
     }
 }
