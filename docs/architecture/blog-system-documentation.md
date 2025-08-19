@@ -10,12 +10,20 @@ Bu doküman, DryAlle web sitesinin blog sisteminin MIT seviyesinde merkezi CSS m
 ```
 /styles/
 ├── base/
-│   ├── variables.css     # Renkler, spacing, font tanımları
-│   └── typography.css    # Blog makale tipografi sistemi
+│   ├── variables.css       # Renkler, spacing, font tanımları (200+ değişken)
+│   ├── reset.css          # Modern CSS reset
+│   └── typography.css     # Blog makale tipografi + service highlights
 ├── components/
-│   └── cards.css         # Blog kartları ve grid sistemi
-└── layout/
-    └── grid.css          # Blog layout, sidebar, container sistemi
+│   ├── buttons.css        # CTA butonları ve interaktif elementler
+│   ├── cards.css          # Blog kartları ve grid sistemi
+│   ├── layout.css         # Blog container & article layouts (YENİ)
+│   └── related-posts.css  # İlgili yazılar bölümü (YENİ)
+├── layout/
+│   ├── grid.css          # Ana grid sistemi
+│   └── header.css        # Site header ve navigasyon
+└── utilities/
+    ├── spacing.css       # Utility spacing classes
+    └── display.css       # Display ve visibility utilities
 ```
 
 ## 🎯 Blog Sistem Bileşenleri
@@ -90,10 +98,23 @@ Bu doküman, DryAlle web sitesinin blog sisteminin MIT seviyesinde merkezi CSS m
 .cta-button.primary         # Birincil buton
 .cta-button.secondary       # İkincil buton
 
-/* İlgili Makaleler */
-.related-articles           # Container
-.related-grid               # Grid sistemi
-.related-article            # Tekil makale kartı
+/* İlgili Makaleler (LEGACY - DEPRECATED) */
+.related-articles           # Eski container (kaldırıldı)
+.related-grid               # Eski grid sistemi (kaldırıldı)
+.related-article            # Eski makale kartı (kaldırıldı)
+
+/* YENİ İlgili Yazılar Sistemi */
+.related-posts-section      # Ana container (gradient background)
+.related-posts-container    # İçerik container (max-width: 1140px)
+.related-posts-header       # Başlık alanı (merkezi hizalama)
+.related-posts-grid         # 3 sütunlu responsive grid
+.related-post-card          # Modern kart tasarımı
+.related-post-image         # Kart görseli (220px height)
+.related-post-content       # Kart içeriği
+.related-post-category      # Kategori badge
+.related-post-title         # Kart başlığı
+.related-post-excerpt       # 3 satır açıklama (line-clamp)
+.related-post-footer        # Tarih ve "Devamını Oku" linki
 ```
 
 ### 3. Blog Sidebar Sistemi
@@ -174,14 +195,129 @@ Bu doküman, DryAlle web sitesinin blog sisteminin MIT seviyesinde merkezi CSS m
 - Spacing scale
 - Font definitions
 
+## 🆕 Son Güncellemeler (Ağustos 2025)
+
+### 1. İlgili Yazılar Bölümü - Komple Yeniden Tasarım ✅
+**Dosya:** `/styles/components/related-posts.css`
+
+#### Özellikler:
+- **🎨 Modern Kart Tasarımı:** Beyaz arkaplan, köşeli design, gradient shadows
+- **📱 Responsive Grid:** Desktop 3 sütun → Mobile 1 sütun
+- **🏷️ Kategori Badge:** Her kartda renkli kategori etiketi  
+- **📖 Smart Excerpt:** 3 satır otomatik kısaltma (webkit-line-clamp)
+- **🖼️ Optimized Images:** Unsplash integration, lazy loading
+- **⚡ Hover Effects:** translateY animation + shadow enhancement
+
+#### Implementation:
+```css
+/* Ana Container - Gradient Background */
+.related-posts-section {
+  background: linear-gradient(135deg, var(--color-gray-50) 0%, var(--color-gray-100) 100%);
+  padding: var(--spacing-16) 0;
+  border-top: 4px solid var(--color-primary-darker);
+}
+
+/* 3 Sütunlu Grid - Responsive */
+.related-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* Desktop */
+  gap: var(--spacing-8);
+}
+
+@media (max-width: 768px) {
+  .related-posts-grid {
+    grid-template-columns: 1fr;  /* Mobile */
+  }
+}
+
+/* Modern Kart Tasarımı */
+.related-post-card {
+  background: var(--color-white);
+  border: 3px solid var(--color-gray-300);
+  border-top: 4px solid var(--color-primary-darker);
+  box-shadow: 0 8px 25px rgba(0, 106, 68, 0.08);
+  transition: all var(--transition-base);
+}
+```
+
+### 2. Service Highlights Kartları - Critical Fix ✅
+**Dosya:** `/styles/base/typography.css`
+
+#### Problem Çözümleri:
+- **🚨 Grid Collapse Fixed:** Mobile CSS'te `display: block` → `display: grid`
+- **🎯 Font Visibility:** Beyaz yazı → Koyu yeşil (`var(--color-primary-darker)`)
+- **📐 Layout Consistency:** 3 kart yan yana sabit grid
+- **🎨 Color Contrast:** Arkaplan beyaz, yazılar okunabilir
+
+#### Güncellenmiş CSS:
+```css
+.service-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* Sabit 3 sütun */
+  gap: var(--spacing-6);
+  max-width: 900px;
+}
+
+.highlight {
+  background: var(--color-white);
+  border: 3px solid var(--color-primary-darker);
+  padding: var(--spacing-8) var(--spacing-6);
+}
+
+.highlight h4 {
+  color: var(--color-primary-darker) !important;
+  font-weight: 700 !important;
+}
+```
+
+### 3. Blog Layout System - New Architecture ✅ 
+**Dosya:** `/styles/components/layout.css`
+
+#### Yeni Sistem Özellikleri:
+- **🏗️ Dual Layout Support:** Standard blog + Article hero layouts
+- **📱 Mobile-First:** Responsive containers ve grid systems
+- **🎯 Guide Page Support:** Hero sections, TOC, comparison tables  
+- **🔧 Legacy Compatibility:** Eski HTML yapıları destekleniyor
+
+#### Layout Components:
+```css
+/* Blog Content System */
+.blog-content         # Ana blog container
+.blog-container       # İçerik wrapper (max-width: 1000px)
+.blog-post            # Makale wrapper
+.post-header          # Makale başlığı
+.post-content         # Makale içeriği
+
+/* Alternative Article Layout */
+.article-hero         # Hero section
+.article-content-grid # Sidebar + content grid
+.article-main         # Ana makale içeriği
+.article-sidebar      # Yan menü (sticky)
+```
+
+### 4. Footer Standardization - Complete ✅
+
+#### Blog Footer Unification:
+- **🎯 Standard Template:** Tüm blog sayfalarında tutarlı footer
+- **📝 Consistent Text:** "© 2025 Dry Alle Kuru Temizleme. Tüm hakları saklıdır."
+- **🏷️ Standard Comment:** `<!-- Footer - STANDARDIZED -->`
+
+**Güncellenen Sayfalar:**
+- Ana blog sayfası (`/blog/index.html`) 
+- İstanbul seasonal calendar
+- Ultimate guide sayfaları
+- Complete manual sayfaları
+- Tüm eksik footer'lar eklendi
+
 ## 🎯 Standartizasyon Durumu
 
 ### Tamamlanan Öğeler ✅
-- **55+ Blog Makalesi:** Standart header ile güncellendi
-- **Telefon Numaraları:** Tümü "0 (543) 352 74 74" olarak standartize edildi
-- **Breadcrumb Linkler:** "../blog/" → "../index.html" olarak düzeltildi
-- **CSS Referanslar:** Merkezi CSS sistemine geçirildi
-- **Corporate Tasarım:** Köşeli tasarım ve renk paleti uygulandı
+- **60+ Blog Sayfası:** Modernize edilmiş layout ve footer standardı
+- **İlgili Yazılar:** 8+ blog sayfasında yeni modern kart sistemi
+- **Service Highlights:** Grid ve tipografi sorunları çözüldü
+- **CSS Architecture:** MIT-level modular yapı tamamlandı
+- **Responsive Design:** Tüm breakpoint'lerde optimize edildi
+- **Corporate Branding:** Köşeli tasarım ve renk paleti tutarlı
 
 ### Blog Sayfaları Dizin Yapısı
 ```
@@ -303,12 +439,40 @@ Bu doküman, DryAlle web sitesinin blog sisteminin MIT seviyesinde merkezi CSS m
 **Problem:** Renkler standartlara uymuyor
 **Çözüm:** CSS custom properties kullanın: `var(--color-primary-darker)`
 
+## 🚀 Gelecek Geliştirmeler
+
+### Dinamik İçerik Sistemi (Roadmap)
+- **📊 JSON-Based Related Posts:** Merkezi makale veritabanından otomatik besleme
+- **🏷️ Category-Based Filtering:** Kategori bazında dinamik ilgili yazı önerisi
+- **📈 Analytics Integration:** En çok okunan makalelerin otomatik önerimi
+- **🔍 Search Integration:** Arama geçmişi bazında personalize öneriler
+
+### Performance Optimizations
+- **⚡ Critical CSS Inlining:** Above-the-fold CSS inline yükleme
+- **📦 CSS Bundle Optimization:** Component-based lazy loading
+- **🖼️ Image Optimization:** Next-gen formats (WebP, AVIF) ve responsive loading
+
 ## 📞 Teknik Destek
 
 Bu dokümantasyon güncel tutulacak ve yeni özellikler eklendiğinde güncellenecektir. Herhangi bir güncelleme gerektiğinde bu dokümanı AI asistanına okutarak hızlı ve hatasız işlem gerçekleştirebilirsiniz.
 
+### Kritik Dosyalar Listesi:
+```
+/styles/components/related-posts.css    # İlgili yazılar sistemi
+/styles/components/layout.css           # Blog layout mimarisi  
+/styles/base/typography.css             # Service highlights + blog typography
+/blog/template-related-posts.html       # Standardize edilmiş template
+```
+
 ---
 
 **Son Güncelleme:** 2025-08-19  
-**Versiyon:** 1.0  
-**Durum:** Merkezi mimari tamamlandı ✅
+**Versiyon:** 2.0 🆕  
+**Durum:** Gelişmiş merkezi mimari + modern bileşenler tamamlandı ✅
+
+**Yeni Özellikler:**
+- ✅ İlgili Yazılar Bölümü (Modern Card System)
+- ✅ Service Highlights Grid Fix
+- ✅ Blog Layout Architecture  
+- ✅ Footer Standardization
+- ✅ MIT-Level Component Structure

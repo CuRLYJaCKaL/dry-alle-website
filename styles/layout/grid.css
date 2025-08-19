@@ -434,14 +434,14 @@
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--spacing-7);
+  gap: var(--spacing-10);
   margin: var(--spacing-8) var(--spacing-1);
 }
 
 .services-grid-bottom {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--spacing-7);
+  gap: var(--spacing-10);
   margin: var(--spacing-8) var(--spacing-1) 0;
 }
 

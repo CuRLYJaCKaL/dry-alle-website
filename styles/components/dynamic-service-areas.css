@@ -1,0 +1,455 @@
+/*
+ * DryAlle Design System - Dynamic Service Areas Component
+ * İlgili Bölgeler Dinamik Kart Sistemi
+ * MIT-Level Architecture Compatible
+ */
+
+/* ================================
+   DYNAMIC SERVICE AREAS SECTION
+   ================================ */
+
+.service-areas-section {
+  background: linear-gradient(135deg, 
+    var(--color-white) 0%, 
+    var(--color-gray-50) 100%
+  );
+  padding: var(--spacing-16) 0;
+  margin-top: var(--spacing-16);
+  border-top: 1px solid var(--color-gray-200);
+}
+
+.service-areas-container {
+  max-width: var(--container-xl);
+  margin: 0 auto;
+  padding: 0 var(--spacing-5);
+}
+
+/* Section Header */
+.service-areas-header {
+  text-align: center;
+  margin-bottom: var(--spacing-12);
+}
+
+.service-areas-title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  color: var(--color-primary-darker);
+  margin-bottom: var(--spacing-4);
+  line-height: 1.2;
+}
+
+.service-areas-subtitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-600);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ================================
+   DYNAMIC 2x4 GRID SYSTEM
+   ================================ */
+
+.related-areas-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: var(--spacing-5);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual Area Card */
+.area-card {
+  background: var(--color-white);
+  border: 2px solid var(--color-gray-300);
+  border-left: 4px solid var(--color-primary-darker);
+  transition: all var(--transition-base);
+  position: relative;
+  overflow: hidden;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  will-change: transform;
+}
+
+.area-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(0, 98, 59, 0.05) 50%, 
+    transparent 100%
+  );
+  transition: left var(--transition-base);
+}
+
+.area-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-primary-darker);
+  box-shadow: 
+    0 12px 24px rgba(0, 98, 59, 0.15),
+    0 4px 8px rgba(0, 98, 59, 0.1);
+}
+
+.area-card:hover::before {
+  left: 100%;
+}
+
+/* Card Content */
+.area-card-content {
+  padding: var(--spacing-5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.area-card-title {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: var(--color-primary-darker);
+  margin-bottom: var(--spacing-2);
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.area-card-description {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  margin-bottom: var(--spacing-3);
+  line-height: 1.4;
+  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Service Badge */
+.area-service-badge {
+  display: inline-block;
+  padding: var(--spacing-1) var(--spacing-3);
+  background: var(--color-primary-darker);
+  color: var(--color-white);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 0; /* Corporate square design */
+  margin-bottom: var(--spacing-2);
+}
+
+/* Area Link */
+.area-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-2) var(--spacing-3);
+  background: transparent;
+  color: var(--color-primary-darker);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  border: 2px solid var(--color-primary-darker);
+  border-radius: 0; /* Corporate square design */
+  transition: all var(--transition-base);
+  position: relative;
+  overflow: hidden;
+  margin-top: auto;
+}
+
+.area-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--color-primary-darker);
+  transition: left var(--transition-base);
+  z-index: 0;
+}
+
+.area-link:hover {
+  color: var(--color-white);
+  transform: translateX(2px);
+}
+
+.area-link:hover::before {
+  left: 0;
+}
+
+.area-link span {
+  position: relative;
+  z-index: 1;
+}
+
+/* ================================
+   RESPONSIVE BREAKPOINTS
+   ================================ */
+
+/* Large Desktop (1200px+) - 2x4 Grid */
+@media (min-width: 1200px) {
+  .related-areas-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: var(--spacing-6);
+  }
+  
+  .area-card {
+    min-height: 160px;
+  }
+  
+  .area-card-content {
+    padding: var(--spacing-6);
+  }
+  
+  .area-card-title {
+    font-size: var(--font-size-lg);
+  }
+  
+  .area-card-description {
+    font-size: var(--font-size-base);
+  }
+}
+
+/* Desktop (1024px - 1199px) - 2x4 Compact */
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .related-areas-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: var(--spacing-4);
+  }
+  
+  .area-card {
+    min-height: 140px;
+  }
+}
+
+/* Tablet (768px - 1023px) - 2x2 Grid */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .related-areas-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: var(--spacing-5);
+  }
+  
+  .area-card {
+    min-height: 150px;
+  }
+  
+  .service-areas-title {
+    font-size: var(--font-size-2xl);
+  }
+  
+  .service-areas-subtitle {
+    font-size: var(--font-size-base);
+  }
+}
+
+/* Mobile (< 768px) - 1x8 Grid */
+@media (max-width: 767px) {
+  .service-areas-section {
+    padding: var(--spacing-12) 0;
+  }
+  
+  .related-areas-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    gap: var(--spacing-4);
+  }
+  
+  .area-card {
+    min-height: 120px;
+  }
+  
+  .area-card-content {
+    padding: var(--spacing-4);
+  }
+  
+  .area-card-title {
+    font-size: var(--font-size-sm);
+    -webkit-line-clamp: 1;
+  }
+  
+  .area-card-description {
+    font-size: var(--font-size-xs);
+    -webkit-line-clamp: 1;
+  }
+  
+  .service-areas-title {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-3);
+  }
+  
+  .service-areas-subtitle {
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--spacing-8);
+  }
+  
+  .service-areas-container {
+    padding: 0 var(--spacing-4);
+  }
+  
+  .area-service-badge {
+    font-size: 10px;
+    padding: var(--spacing-1) var(--spacing-2);
+  }
+  
+  .area-link {
+    padding: var(--spacing-1) var(--spacing-2);
+    font-size: var(--font-size-xs);
+  }
+}
+
+/* Small Mobile (< 480px) */
+@media (max-width: 479px) {
+  .area-card {
+    min-height: 100px;
+  }
+  
+  .area-card-content {
+    padding: var(--spacing-3);
+  }
+}
+
+/* ================================
+   DYNAMIC CONTENT CATEGORIES
+   ================================ */
+
+/* Kuru Temizleme Category */
+.area-card[data-category="kuru-temizleme"] .area-service-badge {
+  background: var(--color-primary-darker);
+}
+
+.area-card[data-category="kuru-temizleme"] .area-link {
+  border-color: var(--color-primary-darker);
+  color: var(--color-primary-darker);
+}
+
+/* Halı Yıkama Category */
+.area-card[data-category="hali-yikama"] .area-service-badge {
+  background: #dc2626; /* Red tone for carpets */
+}
+
+.area-card[data-category="hali-yikama"] .area-link {
+  border-color: #dc2626;
+  color: #dc2626;
+}
+
+.area-card[data-category="hali-yikama"] .area-link::before {
+  background: #dc2626;
+}
+
+/* Koltuk Yıkama Category */
+.area-card[data-category="koltuk-yikama"] .area-service-badge {
+  background: #2563eb; /* Blue tone for furniture */
+}
+
+.area-card[data-category="koltuk-yikama"] .area-link {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+.area-card[data-category="koltuk-yikama"] .area-link::before {
+  background: #2563eb;
+}
+
+/* Premium/Luxury Services */
+.area-card[data-category="premium"] .area-service-badge {
+  background: linear-gradient(45deg, var(--color-primary-darker), var(--color-primary));
+  color: var(--color-white);
+}
+
+.area-card[data-category="premium"] .area-link {
+  border: 2px solid var(--color-primary-darker);
+  background: linear-gradient(135deg, transparent 0%, rgba(246, 236, 61, 0.1) 100%);
+}
+
+/* ================================
+   ACCESSIBILITY & PERFORMANCE
+   ================================ */
+
+/* Focus Management */
+.area-link:focus {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  .area-card {
+    border-width: 3px;
+  }
+  
+  .area-link {
+    border-width: 3px;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .area-card:hover {
+    transform: none;
+  }
+  
+  .area-link:hover {
+    transform: none;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .service-areas-section {
+    background: none;
+  }
+  
+  .area-card {
+    border: 1px solid var(--color-gray-400);
+    break-inside: avoid;
+  }
+  
+  .area-link {
+    background: none;
+    color: var(--color-text);
+  }
+}
+
+/* ================================
+   PERFORMANCE OPTIMIZATIONS
+   ================================ */
+
+.related-areas-grid {
+  contain: layout;
+}
+
+.area-card {
+  contain: layout style;
+}
+
+/* GPU Acceleration */
+.area-card:hover {
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* ================================
+   ANIMATION DELAYS
+   ================================ */
+
+.area-card:nth-child(1) { animation-delay: 0.1s; }
+.area-card:nth-child(2) { animation-delay: 0.15s; }
+.area-card:nth-child(3) { animation-delay: 0.2s; }
+.area-card:nth-child(4) { animation-delay: 0.25s; }
+.area-card:nth-child(5) { animation-delay: 0.3s; }
+.area-card:nth-child(6) { animation-delay: 0.35s; }
+.area-card:nth-child(7) { animation-delay: 0.4s; }
+.area-card:nth-child(8) { animation-delay: 0.45s; }

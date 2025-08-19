@@ -1,0 +1,219 @@
+{
+  "serviceAreas": {
+    "kuru-temizleme": [
+      {
+        "id": "bagdat-caddesi-kuru-temizleme",
+        "title": "Bağdat Caddesi Kuru Temizleme",
+        "description": "Haute couture ve lüks giyim temizleme hizmeti",
+        "url": "/bolgeler/bagdat-caddesi-haute-couture.html",
+        "category": "premium",
+        "badge": "Haute Couture"
+      },
+      {
+        "id": "kadikoy-kuru-temizleme", 
+        "title": "Kadıköy Kuru Temizleme",
+        "description": "Merkezi konumda premium kıyafet bakımı",
+        "url": "/bolgeler/kadikoy-luxury-kiyafet.html",
+        "category": "kuru-temizleme",
+        "badge": "Premium"
+      },
+      {
+        "id": "uskudar-kuru-temizleme",
+        "title": "Üsküdar Kuru Temizleme", 
+        "description": "Tarihi yarımadada profesyonel tekstil bakımı",
+        "url": "/bolgeler/uskudar-luxury-kiyafet.html",
+        "category": "kuru-temizleme",
+        "badge": "Luxury"
+      },
+      {
+        "id": "acibadem-kuru-temizleme",
+        "title": "Acıbadem Kuru Temizleme",
+        "description": "Sağlık merkezi çevresinde kaliteli hizmet",
+        "url": "/bolgeler/acibadem-kuru-temizleme.html",
+        "category": "kuru-temizleme", 
+        "badge": "Kaliteli"
+      },
+      {
+        "id": "fenerbahce-kuru-temizleme",
+        "title": "Fenerbahçe Kuru Temizleme",
+        "description": "Sahil kesiminde özel kıyafet temizleme",
+        "url": "/bolgeler/fenerbahce-kuru-temizleme.html",
+        "category": "kuru-temizleme",
+        "badge": "Özel"
+      },
+      {
+        "id": "camlica-kuru-temizleme",
+        "title": "Çamlıca Kuru Temizleme",
+        "description": "Doğa içinde premium temizlik hizmeti", 
+        "url": "/bolgeler/camlica-kuru-temizleme.html",
+        "category": "kuru-temizleme",
+        "badge": "Premium"
+      },
+      {
+        "id": "kozyatagi-kuru-temizleme",
+        "title": "Kozyatağı Kuru Temizleme",
+        "description": "Modern yaşam alanında profesyonel hizmet",
+        "url": "/bolgeler/kozyatagi-kuru-temizleme.html",
+        "category": "kuru-temizleme", 
+        "badge": "Modern"
+      },
+      {
+        "id": "atasehir-premium-temizlik",
+        "title": "Ataşehir Premium Temizlik",
+        "description": "İş merkezi bölgesinde lüks hizmet",
+        "url": "/bolgeler/atasehir-premium-temizlik.html",
+        "category": "premium",
+        "badge": "Business"
+      }
+    ],
+    "hali-yikama": [
+      {
+        "id": "caddebostan-hali-yikama",
+        "title": "Caddebostan Halı Yıkama", 
+        "description": "Premium konutlarda halı temizleme hizmeti",
+        "url": "/bolgeler/caddebostan-hali-yikama.html",
+        "category": "hali-yikama",
+        "badge": "Premium"
+      },
+      {
+        "id": "suadiye-hali-yikama",
+        "title": "Suadiye Halı Yıkama",
+        "description": "Elit semtte antik halı bakım hizmeti",
+        "url": "/bolgeler/suadiye-hali-yikama.html", 
+        "category": "hali-yikama",
+        "badge": "Antik"
+      },
+      {
+        "id": "goztepe-hali-yikama",
+        "title": "Göztepe Halı Yıkama",
+        "description": "Modern halı temizleme teknolojisi",
+        "url": "/bolgeler/goztepe-hali-yikama.html",
+        "category": "hali-yikama", 
+        "badge": "Modern"
+      },
+      {
+        "id": "erenkoy-hali-yikama",
+        "title": "Erenköy Halı Yıkama",
+        "description": "Geleneksel ve çağdaş halı bakımı",
+        "url": "/bolgeler/erenkoy-hali-yikama.html",
+        "category": "hali-yikama",
+        "badge": "Geleneksel"
+      },
+      {
+        "id": "atasehir-hali-yikama",
+        "title": "Ataşehir Halı Yıkama",
+        "description": "İş dünyasına özel halı temizleme",
+        "url": "/bolgeler/atasehir-hali-yikama.html",
+        "category": "hali-yikama",
+        "badge": "Business"
+      },
+      {
+        "id": "altunizade-hali-yikama", 
+        "title": "Altunizade Halı Yıkama",
+        "description": "Merkezi konumda profesyonel hizmet",
+        "url": "/bolgeler/altunizade-hali-yikama.html",
+        "category": "hali-yikama",
+        "badge": "Merkezi"
+      },
+      {
+        "id": "uskudar-hali-yikama",
+        "title": "Üsküdar Halı Yıkama",
+        "description": "Tarihi dokuya uygun halı bakımı",
+        "url": "/bolgeler/uskudar-hali-yikama.html", 
+        "category": "hali-yikama",
+        "badge": "Tarihi"
+      },
+      {
+        "id": "umraniye-hali-yikama",
+        "title": "Ümraniye Halı Yıkama",
+        "description": "Geniş alan halı temizleme uzmanı",
+        "url": "/bolgeler/umraniye-hali-yikama.html",
+        "category": "hali-yikama",
+        "badge": "Uzman"
+      }
+    ],
+    "koltuk-yikama": [
+      {
+        "id": "bagdat-caddesi-koltuk-yikama",
+        "title": "Bağdat Caddesi Koltuk Yıkama",
+        "description": "Lüks mobilya temizleme hizmeti",
+        "url": "/bolgeler/bagdat-caddesi-koltuk-yikama.html",
+        "category": "koltuk-yikama",
+        "badge": "Lüks"
+      },
+      {
+        "id": "kadikoy-koltuk-yikama",
+        "title": "Kadıköy Koltuk Yıkama", 
+        "description": "Merkezi lokasyonda mobilya bakımı",
+        "url": "/bolgeler/kadikoy-koltuk-yikama.html",
+        "category": "koltuk-yikama",
+        "badge": "Merkezi"
+      },
+      {
+        "id": "uskudar-koltuk-yikama",
+        "title": "Üsküdar Koltuk Yıkama",
+        "description": "Antik mobilya özel bakım hizmeti",
+        "url": "/bolgeler/uskudar-koltuk-yikama.html",
+        "category": "koltuk-yikama", 
+        "badge": "Antik"
+      },
+      {
+        "id": "bostanci-koltuk-yikama",
+        "title": "Bostancı Koltuk Yıkama",
+        "description": "Modern koltuk temizleme teknikleri",
+        "url": "/bolgeler/bostanci-koltuk-yikama.html",
+        "category": "koltuk-yikama",
+        "badge": "Modern"
+      },
+      {
+        "id": "kalamis-koltuk-yikama",
+        "title": "Kalamış Koltuk Yıkama",
+        "description": "Sahil kesimi mobilya bakım uzmanı",
+        "url": "/bolgeler/kalamis-koltuk-yikama.html", 
+        "category": "koltuk-yikama",
+        "badge": "Uzman"
+      },
+      {
+        "id": "moda-koltuk-yikama",
+        "title": "Moda Koltuk Yıkama",
+        "description": "Şık mobilya temizleme hizmeti",
+        "url": "/bolgeler/moda-koltuk-yikama.html",
+        "category": "koltuk-yikama",
+        "badge": "Şık"
+      },
+      {
+        "id": "fikirtepe-koltuk-yikama",
+        "title": "Fikirtepe Koltuk Yıkama",
+        "description": "Yenilenme alanında mobilya hizmeti",
+        "url": "/bolgeler/fikirtepe-koltuk-yikama.html",
+        "category": "koltuk-yikama",
+        "badge": "Yenilik"
+      },
+      {
+        "id": "barbaros-koltuk-yikama", 
+        "title": "Barbaros Koltuk Yıkama",
+        "description": "Premium mobilya temizleme",
+        "url": "/bolgeler/barbaros-koltuk-yikama.html",
+        "category": "koltuk-yikama",
+        "badge": "Premium"
+      }
+    ]
+  },
+  "dynamicMapping": {
+    "rules": {
+      "sameCategory": {
+        "weight": 0.7,
+        "maxItems": 6
+      },
+      "relatedCategory": {
+        "weight": 0.3, 
+        "maxItems": 2
+      }
+    },
+    "categoryRelations": {
+      "kuru-temizleme": ["hali-yikama", "koltuk-yikama"],
+      "hali-yikama": ["koltuk-yikama", "kuru-temizleme"], 
+      "koltuk-yikama": ["hali-yikama", "kuru-temizleme"]
+    }
+  }
+}
