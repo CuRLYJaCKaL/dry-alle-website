@@ -399,10 +399,47 @@
 }
 
 /* ================================
-   RESPONSIVE BUTTON BEHAVIOR
+   RESPONSIVE DESIGN - CTA & GENERAL BUTTONS
    ================================ */
 
-@media (max-width: 768px) {
+/* Large Desktop (1200px+) */
+@media (min-width: 1200px) {
+  .cta-buttons {
+    gap: var(--spacing-6);
+  }
+  
+  .cta-button.large {
+    min-width: 240px;
+    font-size: var(--font-size-xl);
+  }
+}
+
+/* Desktop (1024px - 1199px) */
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .cta-button.large {
+    min-width: 220px;
+  }
+}
+
+/* Tablet (768px - 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .cta-buttons {
+    justify-content: center;
+    gap: var(--spacing-4);
+  }
+  
+  .cta-button {
+    min-width: 180px;
+  }
+  
+  .cta-button.large {
+    min-height: 52px;
+    min-width: 200px;
+  }
+}
+
+/* Mobile (< 768px) */
+@media (max-width: 767px) {
   .btn {
     min-height: 44px; /* iOS touch target minimum */
     font-size: var(--font-size-base);
@@ -411,6 +448,27 @@
   .btn-lg {
     min-height: 48px;
     font-size: var(--font-size-lg);
+  }
+  
+  /* CTA Buttons Mobile Optimization */
+  .cta-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--spacing-4);
+    width: 100%;
+  }
+  
+  .cta-button {
+    width: 100%;
+    min-width: auto;
+    max-width: 320px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  .cta-button.large {
+    min-height: 50px;
+    font-size: var(--font-size-base);
   }
   
   /* Full width buttons on mobile */
@@ -438,23 +496,39 @@
   }
 }
 
+/* Small Mobile (< 480px) */
+@media (max-width: 479px) {
+  .cta-button {
+    font-size: var(--font-size-sm);
+    padding: 0 var(--spacing-6);
+  }
+  
+  .cta-button.large {
+    min-height: 48px;
+    font-size: var(--font-size-base);
+  }
+}
+
 /* ================================
    ACCESSIBILITY ENHANCEMENTS
    ================================ */
 
 /* High contrast mode support */
 @media (prefers-contrast: high) {
-  .btn {
-    border-width: 2px;
+  .btn,
+  .cta-button {
+    border-width: 3px;
     border-style: solid;
   }
   
-  .btn-primary {
+  .btn-primary,
+  .cta-button.primary {
     border-color: var(--color-white);
   }
   
   .btn-secondary,
-  .btn-outline {
+  .btn-outline,
+  .cta-button.secondary {
     border-color: var(--color-primary);
   }
 }
@@ -462,11 +536,14 @@
 /* Reduced motion preferences */
 @media (prefers-reduced-motion: reduce) {
   .btn,
-  .btn::before {
+  .btn::before,
+  .cta-button,
+  .cta-button::before {
     transition: none;
   }
   
-  .btn:hover {
+  .btn:hover,
+  .cta-button:hover {
     transform: none;
   }
   
@@ -479,32 +556,249 @@
    LEGACY BUTTON CLASSES MAPPING
    ================================ */
 
-/* Map old classes to new system for backwards compatibility */
-.cta-button.primary { @extend .btn, .btn-primary; }
-.cta-button.secondary { @extend .btn, .btn-secondary; }
-.cta-button.large { @extend .btn-lg; }
-.search-btn { @extend .btn, .btn-accent, .btn-icon-only; }
-.locate-btn { @extend .btn, .btn-primary, .btn-icon-only; }
-.learn-more-btn { @extend .btn, .btn-link; }
-.service-link { @extend .btn, .btn-link; }
-.article-link { @extend .btn, .btn-link; }
-.category-link { @extend .btn, .btn-outline; }
+/* ================================
+   REGION PAGES CTA SYSTEM - MIT LEVEL
+   Dedicated CTA buttons for 36 region pages
+   ================================ */
+
+/* Base CTA Button for Region Pages */
+.cta-button {
+  /* Inherit base button foundation */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+  /* Typography - Enhanced for CTA impact */
+  font-family: var(--font-family-primary);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  
+  /* Layout - Optimized for region pages */
+  min-height: 48px;
+  padding: 0 var(--spacing-8);
+  min-width: 200px;
+  
+  /* Visual - Corporate square design */
+  border: 2px solid transparent;
+  border-radius: 2px; /* Slightly rounded for elegance */
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  
+  /* Transitions - Premium smooth experience */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Performance optimization */
+  will-change: transform, box-shadow;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+/* CTA Hover Animation Base */
+.cta-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(255, 255, 255, 0.25) 50%, 
+    transparent 100%
+  );
+  transition: left 0.5s ease;
+  z-index: 1;
+}
+
+.cta-button:hover::before {
+  left: 100%;
+}
+
+/* Content Layer */
+.cta-button > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* ================================
+   CTA BUTTON VARIANTS FOR REGIONS
+   ================================ */
+
+/* Primary CTA - Phone Buttons */
+.cta-button.primary {
+  background: linear-gradient(135deg, 
+    var(--color-primary-darker) 0%, 
+    #1a5d42 100%
+  );
+  color: var(--color-white);
+  border-color: var(--color-primary-darker);
+  box-shadow: 
+    0 8px 20px rgba(0, 98, 59, 0.25),
+    0 3px 8px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.cta-button.primary:hover {
+  background: linear-gradient(135deg, 
+    var(--color-primary) 0%, 
+    var(--color-primary-darker) 100%
+  );
+  color: var(--color-white);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 
+    0 15px 35px rgba(0, 98, 59, 0.35),
+    0 5px 15px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.cta-button.primary:active {
+  transform: translateY(-1px) scale(1.01);
+  box-shadow: 
+    0 8px 20px rgba(0, 98, 59, 0.25),
+    0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Secondary CTA - WhatsApp & Contact Buttons */
+.cta-button.secondary {
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.95) 0%, 
+    rgba(248, 249, 250, 0.9) 100%
+  );
+  color: var(--color-primary-darker);
+  border-color: var(--color-primary-darker);
+  box-shadow: 
+    0 6px 16px rgba(0, 98, 59, 0.15),
+    0 2px 6px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.cta-button.secondary:hover {
+  background: linear-gradient(135deg, 
+    var(--color-primary-darker) 0%, 
+    #1a5d42 100%
+  );
+  color: var(--color-white);
+  border-color: var(--color-primary-darker);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 
+    0 12px 30px rgba(0, 98, 59, 0.3),
+    0 4px 12px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.cta-button.secondary:active {
+  transform: translateY(-1px) scale(1.01);
+  box-shadow: 
+    0 6px 16px rgba(0, 98, 59, 0.15),
+    0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Large Size Variant for Region Pages */
+.cta-button.large {
+  min-height: 56px;
+  padding: 0 var(--spacing-10);
+  font-size: var(--font-size-lg);
+  font-weight: 800;
+  min-width: 220px;
+}
+
+/* ================================
+   CTA BUTTONS CONTAINER
+   ================================ */
+
+.cta-buttons {
+  display: flex;
+  gap: var(--spacing-5);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin: var(--spacing-6) 0;
+}
+
+/* ================================
+   FOCUS & ACCESSIBILITY
+   ================================ */
+
+.cta-button:focus-visible {
+  outline: 3px solid var(--color-secondary);
+  outline-offset: 3px;
+  box-shadow: 
+    0 8px 20px rgba(0, 98, 59, 0.25),
+    0 3px 8px rgba(0, 0, 0, 0.1),
+    0 0 0 3px var(--color-secondary);
+}
+
+/* ================================
+   LEGACY SYSTEM MAPPING (Working CSS)
+   ================================ */
+
+/* These map old classes to new system - REAL CSS not Sass */
+.search-btn { 
+  @apply btn btn-accent btn-icon-only; 
+}
+.locate-btn { 
+  @apply btn btn-primary btn-icon-only; 
+}
+.learn-more-btn { 
+  @apply btn btn-link; 
+}
+.service-link { 
+  @apply btn btn-link; 
+}
+.article-link { 
+  @apply btn btn-link; 
+}
+.category-link { 
+  @apply btn btn-outline; 
+}
 
 /* ================================
    PERFORMANCE OPTIMIZATIONS
    ================================ */
 
 /* GPU acceleration for smoother animations */
-.btn {
+.btn,
+.cta-button {
   transform: translate3d(0, 0, 0);
 }
 
 /* Optimize for paint performance */
 .btn:hover,
-.btn:focus {
+.btn:focus,
+.cta-button:hover,
+.cta-button:focus {
   will-change: transform, box-shadow;
 }
 
-.btn:not(:hover):not(:focus) {
+.btn:not(:hover):not(:focus),
+.cta-button:not(:hover):not(:focus) {
   will-change: auto;
+}
+
+/* ================================
+   PRINT STYLES FOR CTA BUTTONS
+   ================================ */
+
+@media print {
+  .cta-button {
+    background: none !important;
+    color: var(--color-text) !important;
+    border: 2px solid var(--color-text) !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+  
+  .cta-button::before {
+    display: none;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    gap: var(--spacing-2);
+  }
 }
