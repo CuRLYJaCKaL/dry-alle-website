@@ -734,12 +734,14 @@
    ================================ */
 
 .cta-buttons {
-  display: flex;
+  display: flex !important;
   gap: var(--spacing-5);
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: var(--spacing-6) 0;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: var(--spacing-6) auto !important;
+  width: 100% !important;
+  text-align: center;
 }
 
 /* ================================

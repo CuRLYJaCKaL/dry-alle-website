@@ -980,6 +980,7 @@
   padding: 0 var(--spacing-5);
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 .cta-content h2 {
@@ -1005,11 +1006,14 @@
 
 /* CTA Buttons in CTA Section - Always Centered */
 .cta-section .cta-buttons {
+  display: flex !important;
   justify-content: center !important;
-  margin-top: var(--spacing-8);
+  align-items: center !important;
+  margin: var(--spacing-8) auto 0 auto !important;
   gap: var(--spacing-6);
-  align-items: center;
   flex-wrap: wrap;
+  text-align: center;
+  width: 100% !important;
 }
 
 .cta-section .cta-button {
