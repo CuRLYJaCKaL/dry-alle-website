@@ -1,0 +1,173 @@
+{
+  "categories": {
+    "kuru-temizleme": {
+      "name": "Kuru Temizleme",
+      "color": "#00623B",
+      "articles": [
+        {
+          "id": "professional-laundry-vs-home-washing",
+          "title": "Professional Laundry Vs Home Washing: Uzman Rehberi",
+          "url": "/blog/professional-laundry-vs-home-washing/",
+          "excerpt": "İstanbul'da profesyonel kuru temizleme vs ev yıkama karşılaştırması. 25 yıllık deneyimle hangi yöntemi seçmelisiniz?",
+          "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=220&fit=crop&auto=format&q=80",
+          "date": "17 Ocak 2025",
+          "tags": ["kuru temizleme", "profesyonel temizlik", "ev yıkama", "karşılaştırma"],
+          "readTime": "8 dakika"
+        },
+        {
+          "id": "kuru-temizleme-sureci-rehberi",
+          "title": "Kuru Temizleme Süreci: Adım Adım Rehber",
+          "url": "/blog/kuru-temizleme-sureci-rehberi/",
+          "excerpt": "Profesyonel kuru temizleme sürecinin tüm aşamalarını detaylı olarak inceleyin. Modern teknoloji ve çevreci yaklaşım.",
+          "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=400&h=220&fit=crop&auto=format&q=80",
+          "date": "14 Ocak 2025",
+          "tags": ["kuru temizleme süreci", "profesyonel temizlik", "teknoloji"],
+          "readTime": "10 dakika"
+        },
+        {
+          "id": "delicate-kumaslar-bakimi",
+          "title": "İpek ve Kaşmir Bakımı: Uzman Rehberi",
+          "url": "/blog/delicate-kumaslar-bakimi/",
+          "excerpt": "Değerli kumaşlarınızın bakımı için özel teknikler. İpek, kaşmir ve yün ürünleri nasıl korunur?",
+          "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=220&fit=crop&auto=format&q=80",
+          "date": "12 Ocak 2025",
+          "tags": ["ipek bakımı", "kaşmir", "delicate kumaş", "özel bakım"],
+          "readTime": "7 dakika"
+        },
+        {
+          "id": "mevsimsel-kiyafet-bakimi",
+          "title": "Mevsimsel Kıyafet Bakımı ve Saklama",
+          "url": "/blog/mevsimsel-kiyafet-bakimi/",
+          "excerpt": "İstanbul'un iklim koşullarında mevsimlik kıyafetlerinizi nasıl hazırlayıp saklamalısınız?",
+          "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=400&h=220&fit=crop&auto=format&q=80",
+          "date": "10 Ocak 2025",
+          "tags": ["mevsimsel bakım", "kıyafet saklama", "istanbul iklim"],
+          "readTime": "6 dakika"
+        }
+      ]
+    },
+    "koltuk-yikama": {
+      "name": "Koltuk Yıkama",
+      "color": "#2563eb",
+      "articles": [
+        {
+          "id": "kumas-ve-deri-koltuk-temizligi-guide",
+          "title": "Kumaş ve Deri Koltuk Temizliği Rehberi",
+          "url": "/blog/kumas-ve-deri-koltuk-temizligi-guide/",
+          "excerpt": "Kumaş ve deri koltuklarınızın doğru temizlik ve bakımı için uzman tavsiyeleri. 25 yıllık deneyimle güvenli temizlik.",
+          "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=220&fit=crop&auto=format&q=80",
+          "date": "16 Ocak 2025",
+          "tags": ["koltuk temizliği", "deri bakım", "kumaş koltuk", "mobilya bakımı"],
+          "readTime": "12 dakika"
+        },
+        {
+          "id": "koltuk-leke-cikartma-rehberi",
+          "title": "Koltuk Leke Çıkartma: A'dan Z'ye Rehber",
+          "url": "/blog/koltuk-leke-cikartma-rehberi/",
+          "excerpt": "Her türlü koltuk lekesi için pratik çözümler. Yağ, içecek, kan lekelerini nasıl çıkaracaksınız?",
+          "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=220&fit=crop&auto=format&q=80",
+          "date": "13 Ocak 2025",
+          "tags": ["leke çıkartma", "koltuk lekeleri", "acil müdahale"],
+          "readTime": "9 dakika"
+        },
+        {
+          "id": "pet-friendly-koltuk-temizligi",
+          "title": "Pet Sahipleri İçin Koltuk Bakım Rehberi",
+          "url": "/blog/pet-friendly-koltuk-temizligi/",
+          "excerpt": "Evcil hayvan sahibi ailelerin koltuk temizliği sorunlarına özel çözümler. Tüy, koku ve leke önlemleri.",
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=220&fit=crop&auto=format&q=80",
+          "date": "11 Ocak 2025",
+          "tags": ["pet friendly", "evcil hayvan", "koltuk tüyü", "koku giderme"],
+          "readTime": "8 dakika"
+        },
+        {
+          "id": "antik-mobilya-bakimi",
+          "title": "Antik ve Vintage Mobilya Bakımı",
+          "url": "/blog/antik-mobilya-bakimi/",
+          "excerpt": "Tarihi ve değerli mobilyalarınız için özel bakım teknikleri. Restorasyon ve koruma yöntemleri.",
+          "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400&h=220&fit=crop&auto=format&q=80",
+          "date": "9 Ocak 2025",
+          "tags": ["antik mobilya", "vintage", "restorasyon", "koruma"],
+          "readTime": "11 dakika"
+        }
+      ]
+    },
+    "hali-yikama": {
+      "name": "Halı Yıkama",
+      "color": "#dc2626",
+      "articles": [
+        {
+          "id": "antik-hali-bakimi",
+          "title": "Antik ve El Dokuma Halı Bakımı",
+          "url": "/blog/antik-hali-bakimi/",
+          "excerpt": "Değerli antika halılarınızın uzun ömürlü korunması için özel bakım teknikleri ve profesyonel yaklaşım.",
+          "image": "https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?w=400&h=220&fit=crop&auto=format&q=80",
+          "date": "15 Ocak 2025",
+          "tags": ["antik halı", "el dokuma", "halı bakımı", "restorasyon"],
+          "readTime": "13 dakika"
+        },
+        {
+          "id": "leke-cikartma-rehberi-hali",
+          "title": "Halıdan Leke Çıkartma: Pratik Yöntemler",
+          "url": "/blog/leke-cikartma-rehberi-hali/",
+          "excerpt": "Halınızdaki çay, kahve, şarap ve diğer lekeler için acil müdahale teknikleri ve ev çözümleri.",
+          "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=400&h=220&fit=crop&auto=format&q=80",
+          "date": "13 Ocak 2025",
+          "tags": ["halı leke", "leke çıkartma", "ev çözümleri", "acil müdahale"],
+          "readTime": "7 dakika"
+        },
+        {
+          "id": "istanbul-iklim-hali-bakimi",
+          "title": "İstanbul İkliminde Halı Bakımı",
+          "url": "/blog/istanbul-iklim-hali-bakimi/",
+          "excerpt": "İstanbul'un nemli havasında halılarınızı küf ve kokudan nasıl koruursunuz? Mevsimsel bakım takvimi.",
+          "image": "https://images.unsplash.com/photo-1493663284031-b7e3aaa4b29d?w=400&h=220&fit=crop&auto=format&q=80",
+          "date": "11 Ocak 2025",
+          "tags": ["istanbul iklim", "nem koruma", "küf önleme", "mevsimsel bakım"],
+          "readTime": "9 dakika"
+        }
+      ]
+    }
+  },
+  "seo_strategy": {
+    "primary_goals": [
+      "Blog-to-blog internal linking güçlendirmesi",
+      "Topical authority (konu otoritesi) geliştirme",
+      "User engagement ve dwell time artışı",
+      "Semantic SEO ve entity-based optimization"
+    ],
+    "content_clustering": {
+      "hub_pages": [
+        "/blog/professional-laundry-vs-home-washing/ (kuru temizleme hub)",
+        "/blog/kumas-ve-deri-koltuk-temizligi-guide/ (koltuk yıkama hub)",
+        "/blog/antik-hali-bakimi/ (halı yıkama hub)"
+      ],
+      "spoke_pages": "Her kategorinin alt makaleleri hub'a ve birbirlerine link verir"
+    },
+    "link_distribution": {
+      "same_category": "3 makale, 70% relevance",
+      "related_categories": "1-2 makale, 30% relevance",
+      "external_links": "Sadece authority siteler (max 1 per article)"
+    }
+  },
+  "implementation_priority": [
+    {
+      "phase": "1",
+      "action": "Mevcut blog sayfalarındaki hizmet linklerini blog linklerine çevir",
+      "pages": ["professional-laundry-vs-home-washing", "kumas-ve-deri-koltuk-temizligi-guide"],
+      "estimated_time": "2 hours"
+    },
+    {
+      "phase": "2", 
+      "action": "Kategori-based template sistem kurulumu",
+      "benefit": "Otomatik doğru içerik gösterimi",
+      "estimated_time": "4 hours"
+    },
+    {
+      "phase": "3",
+      "action": "Yeni blog makaleleri yazımı (eksik olan sayfalar)",
+      "priority_articles": ["kuru-temizleme-sureci-rehberi", "koltuk-leke-cikartma-rehberi"],
+      "estimated_time": "8-10 hours per article"
+    }
+  ]
+}
