@@ -50,6 +50,113 @@
 }
 
 /* ================================
+   BLOG LAYOUT SYSTEM - INTEGRATED
+   ================================ */
+
+/* Blog Main Container */
+.blog-container,
+.modern-blog-container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: var(--spacing-10);
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: var(--spacing-10) var(--spacing-19);
+  background: var(--color-white);
+}
+
+/* Blog Main Content */
+.blog-main-content {
+  background: var(--color-white);
+}
+
+.blog-main-header {
+  margin-bottom: var(--spacing-10);
+  text-align: center;
+  padding: var(--spacing-10) 0;
+  border-bottom: 3px solid var(--color-gray-100);
+  background: var(--color-white);
+  position: relative;
+}
+
+/* Blog Sidebar */
+.blog-sidebar {
+  background: var(--color-bg-card);
+  border: 2px solid var(--color-gray-300);
+  border-radius: 0; /* Corporate square design */
+  padding: var(--spacing-8) var(--spacing-6);
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+}
+
+/* Blog Stats */
+.blog-stats {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-10);
+  flex-wrap: wrap;
+}
+
+.blog-stat {
+  text-align: center;
+  padding: var(--spacing-5);
+  background: var(--color-bg-card);
+  border: 2px solid var(--color-gray-300);
+  border-radius: 0; /* Corporate square design */
+  min-width: 120px;
+}
+
+.blog-stat-number {
+  display: block;
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  color: var(--color-primary-darker);
+  line-height: 1;
+}
+
+.blog-stat-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  font-weight: 500;
+  margin-top: var(--spacing-1);
+}
+
+/* Responsive Blog Layout */
+@media (max-width: 1024px) {
+  .blog-container,
+  .modern-blog-container {
+    grid-template-columns: 250px 1fr;
+    gap: var(--spacing-8);
+    padding: var(--spacing-8) var(--spacing-5);
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-container,
+  .modern-blog-container {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-8);
+    padding: var(--spacing-5) var(--spacing-4);
+  }
+  
+  .blog-sidebar {
+    position: static;
+    order: 2;
+  }
+  
+  .blog-stats {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-5);
+  }
+  
+  .blog-stat {
+    max-width: 200px;
+  }
+}
+
+/* ================================
    CSS GRID SYSTEM
    ================================ */
 

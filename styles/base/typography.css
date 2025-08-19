@@ -45,6 +45,51 @@
 }
 
 /* ================================
+   BLOG-SPECIFIC TYPOGRAPHY
+   ================================ */
+
+/* Blog main title - high contrast, readable design */
+.blog-main-title {
+  color: var(--color-primary-darker);
+  font-size: var(--font-size-6xl-fluid);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #00623B 0%, #004d32 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: titleShine 3s ease-in-out infinite;
+  position: relative;
+}
+
+@keyframes titleShine {
+  0%, 100% { background-position: 200% 200%; }
+  50% { background-position: 0% 0%; }
+}
+
+/* Fallback for browsers that don't support background-clip: text */
+@supports not (background-clip: text) {
+  .blog-main-title {
+    background: none;
+    -webkit-text-fill-color: unset;
+    color: var(--color-primary-darker);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.blog-main-subtitle {
+  color: var(--color-gray-600);
+  font-size: var(--font-size-lg-fluid);
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+/* ================================
    TYPOGRAPHY SCALE CLASSES
    ================================ */
 
