@@ -221,8 +221,8 @@
 
 .service-details-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: var(--spacing-12);
+  grid-template-columns: 4fr 1fr;
+  gap: var(--spacing-8);
   max-width: var(--container-xl);
   margin: 0 auto;
   padding: 0 var(--spacing-5);
@@ -325,34 +325,28 @@
   letter-spacing: 0.01em;
 }
 
-/* Category Cards - Premium Modern Design */
+/* Category Cards - Corporate Grid System */
 .clothing-categories {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--spacing-10);
-  margin-top: var(--spacing-16);
-  padding: var(--spacing-6) 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-6);
+  margin-top: var(--spacing-8);
+  padding: var(--spacing-4) 0;
 }
 
 .category-card {
-  background: linear-gradient(145deg, 
-    #ffffff 0%, 
-    rgba(251, 252, 253, 0.98) 25%,
-    rgba(248, 250, 252, 0.95) 75%,
-    rgba(245, 248, 251, 0.92) 100%
-  );
-  border: 1px solid rgba(203, 213, 225, 0.5);
-  border-left: 8px solid var(--color-primary-darker);
-  border-radius: 12px;
-  padding: var(--spacing-10);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  background: #e1e1e1;
+  border: none;
+  border-radius: 0;
+  padding: var(--spacing-6);
+  transition: transform 0.3s ease;
   position: relative;
   overflow: hidden;
-  box-shadow: 
-    0 15px 35px rgba(0, 98, 59, 0.08),
-    0 6px 14px rgba(0, 0, 0, 0.05),
-    inset 0 2px 0 rgba(255, 255, 255, 0.9),
-    inset 0 -1px 0 rgba(0, 98, 59, 0.03);
+  box-shadow: none;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .category-card::after {
@@ -647,12 +641,12 @@
     max-width: 1400px;
   }
   
-  .hero-features {
-    grid-template-columns: repeat(4, 1fr);
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
   
   .clothing-categories {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -663,8 +657,12 @@
     gap: var(--spacing-8);
   }
   
-  .hero-features {
-    grid-template-columns: repeat(4, 1fr);
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .clothing-categories {
+    grid-template-columns: repeat(2, 1fr);
   }
   
   .service-content-main,
@@ -751,9 +749,15 @@
     font-size: var(--font-size-base);
   }
   
+  .clothing-categories {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-4);
+  }
+  
   .category-card {
     text-align: left;
-    padding: var(--spacing-6);
+    padding: var(--spacing-5);
+    min-height: 140px;
   }
   
   .category-content h4,
