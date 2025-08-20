@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiyat Listesi - Dry Alle Kuru Temizleme</title>
+    
+    <!-- CSS Imports - MIT-Level Modular System -->
+    <link rel="stylesheet" href="styles/base/reset.css">
+    <link rel="stylesheet" href="styles/base/variables.css">
+    <link rel="stylesheet" href="styles/base/typography.css">
+    <link rel="stylesheet" href="styles/layout/grid.css">
+    <link rel="stylesheet" href="styles/components/cards.css">
+    <link rel="stylesheet" href="styles/components/buttons.css">
+    <link rel="stylesheet" href="styles/components/navigation.css">
+    <link rel="stylesheet" href="styles/components/layout.css">
+    <!-- Pricing Module CSS -->
+    <link rel="stylesheet" href="styles/components/pricing.css">
+    <link rel="stylesheet" href="styles/components/pricing-filters.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Dry Alle Kuru Temizleme fiyat listesi. İstanbul'da en uygun fiyatlarla kuru temizleme, ütüleme, yıkama hizmetleri.">
+    <meta name="keywords" content="kuru temizleme fiyatları, ütüleme fiyatları, yıkama fiyatları, İstanbul kuru temizleme">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Dry Alle Kuru Temizleme",
+        "description": "İstanbul'da profesyonel kuru temizleme hizmetleri",
+        "url": "https://dryallekurutemizleme.com/fiyatlar.html",
+        "telephone": "+90-216-XXX-XXXX",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "İstanbul",
+            "addressCountry": "TR"
+        },
+        "priceRange": "35₺-3500₺",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Kuru Temizleme Hizmetleri",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Kuru Temizleme"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <svg width="390" height="105" viewBox="0 0 390 105" xmlns="http://www.w3.org/2000/svg">
+                        <text x="195" y="58" font-family="Dancing Script, cursive" font-size="60" font-weight="700" fill="#f6ec3d" text-anchor="middle">Dry Alle</text>
+                        <text x="195" y="86" font-family="Roboto, sans-serif" font-size="16" font-weight="600" fill="white" letter-spacing="2px" text-anchor="middle">KURU TEMİZLEME</text>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="contact-button">
+                <div class="phone-icon">📞</div>
+                <span>İletişim</span>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul class="nav-menu">
+                <li><a href="index.html#services">Hizmetlerimiz</a></li>
+                <li><a href="index.html#about">Hakkımızda</a></li>
+                <li><a href="blog/index.html">Blog</a></li>
+                <li><a href="fiyatlar.html" class="active">Fiyatlar</a></li>
+                <li><a href="index.html#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Modern Pricing Layout (Following Blog Pattern) -->
+    <div class="modern-blog-container">
+        <!-- Pricing Sidebar (Category Filters) -->
+        <aside class="pricing-sidebar">
+            <h2>Hizmet Kategorileri</h2>
+            
+            <!-- Modern Search -->
+            <div class="pricing-search-container">
+                <div class="pricing-search-icon">🔍</div>
+                <input type="text" class="pricing-search-input" id="serviceSearch" placeholder="Hizmet arayın...">
+            </div>
+            
+            <!-- Service Categories with Expandable Subcategories -->
+            <ul class="pricing-categories-list">
+                <!-- Tümü - No subcategories -->
+                <li class="pricing-category-item">
+                    <a href="#" class="pricing-category-link active" data-category="all">
+                        <span>Tümü</span>
+                        <span class="pricing-category-count">18</span>
+                    </a>
+                </li>
+                
+                <!-- Erkek Giyim with Subcategories -->
+                <li class="pricing-expandable-category">
+                    <div class="pricing-category-main-link" data-category="erkek-giyim">
+                        <span>👨 ERKEK GİYİM</span>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="pricing-category-count">4</span>
+                            <span class="pricing-category-arrow">▶</span>
+                        </div>
+                    </div>
+                    <div class="pricing-subcategories">
+                        <a href="#" class="subcategory-link" data-subcategory="erkek-ust-giyim">
+                            <span>ÜST GİYİM</span>
+                            <span class="subcategory-count">2</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="erkek-alt-giyim">
+                            <span>ALT GİYİM</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="erkek-takim-elbise">
+                            <span>TAKIM ELBİSE</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                    </div>
+                </li>
+                
+                <!-- Kadın Giyim with Subcategories -->
+                <li class="category-item">
+                    <div class="category-main-link" data-category="kadin-giyim">
+                        <span>👩 KADIN GİYİM</span>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="blog-category-count">3</span>
+                            <span class="category-arrow">▶</span>
+                        </div>
+                    </div>
+                    <div class="subcategories">
+                        <a href="#" class="subcategory-link" data-subcategory="kadin-ust-giyim">
+                            <span>ÜST GİYİM</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="kadin-elbise-takim">
+                            <span>ELBİSE & TAKIM</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="kadin-ozel-giyim">
+                            <span>ÖZEL GİYİM</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                    </div>
+                </li>
+                
+                <!-- Çocuk Giyim -->
+                <li class="category-item">
+                    <div class="category-main-link" data-category="cocuk-giyim">
+                        <span>👶 ÇOCUK GİYİM</span>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="blog-category-count">1</span>
+                            <span class="category-arrow">▶</span>
+                        </div>
+                    </div>
+                    <div class="subcategories">
+                        <a href="#" class="subcategory-link" data-subcategory="cocuk-ozel-gunler">
+                            <span>ÖZEL GÜNLER</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                    </div>
+                </li>
+                
+                <!-- Ev Tekstili -->
+                <li class="category-item">
+                    <div class="category-main-link" data-category="ev-tekstili">
+                        <span>🏠 EV TEKSTİLİ</span>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="blog-category-count">9</span>
+                            <span class="category-arrow">▶</span>
+                        </div>
+                    </div>
+                    <div class="subcategories">
+                        <a href="#" class="subcategory-link" data-subcategory="hali-kilim">
+                            <span>HALI & KİLİM</span>
+                            <span class="subcategory-count">3</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="mobilya-tekstili">
+                            <span>MOBİLYA TEKSTİLİ</span>
+                            <span class="subcategory-count">3</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="perde-tul">
+                            <span>PERDE & TÜL</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="yatak-takimi">
+                            <span>YATAK TAKIMI</span>
+                            <span class="subcategory-count">2</span>
+                        </a>
+                    </div>
+                </li>
+                
+                <!-- Özel Temizleme -->
+                <li class="category-item">
+                    <div class="category-main-link" data-category="ozel-temizleme">
+                        <span>⭐ ÖZEL TEMİZLEME</span>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="blog-category-count">1</span>
+                            <span class="category-arrow">▶</span>
+                        </div>
+                    </div>
+                    <div class="subcategories">
+                        <a href="#" class="subcategory-link" data-subcategory="canta-ayakkabi">
+                            <span>ÇANTA & AYAKKABI</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            
+            <!-- Process Filters -->
+            <div style="margin-top: var(--spacing-8); padding: var(--spacing-4); background: var(--color-gray-50); border: 2px solid var(--color-gray-300);">
+                <h3 style="color: var(--color-primary-darker); font-size: var(--font-size-base); margin-bottom: var(--spacing-4); text-align: center;">İşlem Türü</h3>
+                <div style="display: flex; flex-direction: column; gap: var(--spacing-2);">
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="all" checked style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Tümü</span>
+                    </label>
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="kuru-temizleme" style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Kuru Temizleme</span>
+                    </label>
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="yikama" style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Yıkama</span>
+                    </label>
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="utuleme" style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Ütüleme</span>
+                    </label>
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="hali-yikama" style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Halı Yıkama</span>
+                    </label>
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="yerinde-temizleme" style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Yerinde Temizleme</span>
+                    </label>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- Main Pricing Content -->
+        <main class="blog-main-content">
+            <!-- Price Cards Grid (Following Blog Pattern) -->
+            <div class="pricing-grid" id="priceGrid">
+                <!-- Price cards will be generated by JavaScript -->
+                <div class="pricing-loading">
+                    <p>Fiyat listesi yükleniyor...</p>
+                </div>
+            </div>
+            
+            <!-- No Results -->
+            <div class="pricing-no-results" id="noResults" style="display: none;">
+                <div class="pricing-no-results-icon">🔍</div>
+                <h3>Aradığınız hizmet bulunamadı</h3>
+                <p>Farklı anahtar kelimeler deneyebilir veya kategorilerden birini seçebilirsiniz.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary" onclick="filterByCategory('erkek-giyim')">Erkek Giyim</a>
+                    <a href="#" class="btn btn-outline" onclick="filterByCategory('kadin-giyim')">Kadın Giyim</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2025 Dry Alle Kuru Temizleme. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript - MIT-Level Modular System -->
+    <script src="js/pricing-data.js"></script>
+    <script src="js/pricing-filters.js"></script>
+    <script src="js/pricing-display.js"></script>
+</body>
+</html>

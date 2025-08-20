@@ -1,0 +1,367 @@
+/* 
+ * DryAlle Design System - Pricing Filter Components
+ * Category & Process Filter System
+ * MIT-Level Architecture Implementation
+ */
+
+/* ================================
+   FILTER SIDEBAR FOUNDATION
+   ================================ */
+
+.pricing-sidebar {
+  /* Extends blog-sidebar system */
+  background: var(--color-bg-card);
+  border: 2px solid var(--color-gray-300);
+  border-radius: 0; /* Corporate square design */
+  padding: var(--spacing-8) var(--spacing-6);
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+}
+
+.pricing-sidebar h2 {
+  color: var(--color-primary-darker);
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-6);
+  text-align: center;
+  border-bottom: 2px solid var(--color-primary-darker);
+  padding-bottom: var(--spacing-3);
+}
+
+/* ================================
+   SEARCH COMPONENT
+   ================================ */
+
+.pricing-search-container {
+  position: relative;
+  margin-bottom: var(--spacing-8);
+}
+
+.pricing-search-input {
+  width: 100%;
+  padding: 12px 40px 12px 15px;
+  border: 2px solid var(--color-gray-300);
+  border-radius: 0; /* Corporate square design */
+  font-size: var(--font-size-sm);
+  background: var(--color-white);
+  transition: border-color var(--transition-base);
+}
+
+.pricing-search-input:focus {
+  outline: none;
+  border-color: var(--color-primary-darker);
+}
+
+.pricing-search-input::placeholder {
+  color: var(--color-gray-500);
+  font-style: italic;
+}
+
+.pricing-search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-gray-500);
+  font-size: 16px;
+  pointer-events: none;
+}
+
+/* ================================
+   CATEGORY LIST SYSTEM
+   ================================ */
+
+.pricing-categories-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-category-item {
+  margin-bottom: var(--spacing-2);
+}
+
+/* Simple Category Links */
+.pricing-category-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: var(--color-white);
+  border: 2px solid var(--color-gray-300);
+  border-radius: 0; /* Corporate square design */
+  color: var(--color-gray-700);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  transition: all var(--transition-base);
+  cursor: pointer;
+}
+
+.pricing-category-link:hover,
+.pricing-category-link.active {
+  background: var(--color-bg-card-content);
+  border-color: var(--color-primary-darker);
+  color: var(--color-primary-darker);
+  transform: translateY(-1px);
+}
+
+.blog-category-count {
+  background: var(--color-primary-darker);
+  color: var(--color-white);
+  padding: 4px 8px;
+  border-radius: 0; /* Corporate square design */
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+}
+
+/* ================================
+   EXPANDABLE CATEGORY SYSTEM
+   ================================ */
+
+.category-item {
+  margin-bottom: var(--spacing-2);
+}
+
+.category-main-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: var(--color-white);
+  border: 2px solid var(--color-gray-300);
+  border-radius: 0;
+  color: var(--color-gray-700);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  transition: all var(--transition-base);
+  cursor: pointer;
+}
+
+.category-main-link:hover,
+.category-main-link.active {
+  background: var(--color-bg-card-content);
+  border-color: var(--color-primary-darker);
+  color: var(--color-primary-darker);
+}
+
+.category-arrow {
+  transition: transform var(--transition-base);
+  font-size: 12px;
+  margin-left: var(--spacing-2);
+}
+
+.category-arrow.expanded {
+  transform: rotate(90deg);
+}
+
+/* ================================
+   SUBCATEGORY SYSTEM
+   ================================ */
+
+.subcategories {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-base);
+  background: var(--color-gray-50);
+  border-left: 2px solid var(--color-gray-300);
+  border-right: 2px solid var(--color-gray-300);
+  border-bottom: 2px solid var(--color-gray-300);
+}
+
+.subcategories.expanded {
+  max-height: 300px;
+}
+
+.subcategory-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 25px;
+  background: var(--color-gray-50);
+  color: var(--color-gray-600);
+  text-decoration: none;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  transition: all var(--transition-base);
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.subcategory-link:hover,
+.subcategory-link.active {
+  background: var(--color-white);
+  color: var(--color-primary-darker);
+  padding-left: 30px;
+}
+
+.subcategory-count {
+  background: var(--color-gray-400);
+  color: var(--color-gray-700);
+  padding: 2px 6px;
+  border-radius: 0;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+}
+
+/* ================================
+   PROCESS FILTER SYSTEM
+   ================================ */
+
+.pricing-process-filters {
+  margin-top: var(--spacing-8);
+  padding: var(--spacing-4);
+  background: var(--color-gray-50);
+  border: 2px solid var(--color-gray-300);
+  border-radius: 0; /* Corporate square design */
+}
+
+.pricing-process-filters h3 {
+  color: var(--color-primary-darker);
+  font-size: var(--font-size-base);
+  margin-bottom: var(--spacing-4);
+  text-align: center;
+  font-weight: 600;
+}
+
+.pricing-process-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+.pricing-process-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  cursor: pointer;
+  padding: var(--spacing-1) 0;
+  transition: all var(--transition-base);
+}
+
+.pricing-process-item:hover {
+  color: var(--color-primary-darker);
+}
+
+.pricing-process-checkbox {
+  accent-color: var(--color-primary);
+  width: 16px;
+  height: 16px;
+}
+
+.pricing-process-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-700);
+  cursor: pointer;
+  user-select: none;
+}
+
+.pricing-process-item:hover .pricing-process-label {
+  color: var(--color-primary-darker);
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+   ================================ */
+
+/* Tablet Design */
+@media (max-width: 1024px) {
+  .pricing-sidebar {
+    padding: var(--spacing-6) var(--spacing-5);
+  }
+  
+  .pricing-search-input {
+    padding: 10px 35px 10px 12px;
+  }
+  
+  .pricing-category-link,
+  .category-main-link {
+    padding: 10px 12px;
+    font-size: var(--font-size-xs);
+  }
+}
+
+/* Mobile Design */
+@media (max-width: 768px) {
+  .pricing-sidebar {
+    position: static;
+    order: 2;
+    margin-top: var(--spacing-8);
+    padding: var(--spacing-5) var(--spacing-4);
+  }
+  
+  .pricing-search-container {
+    margin-bottom: var(--spacing-6);
+  }
+  
+  .pricing-process-filters {
+    margin-top: var(--spacing-6);
+    padding: var(--spacing-3);
+  }
+  
+  .subcategories.expanded {
+    max-height: 200px;
+  }
+}
+
+/* ================================
+   PERFORMANCE OPTIMIZATIONS
+   ================================ */
+
+.pricing-categories-list,
+.pricing-process-filters {
+  contain: layout;
+}
+
+.subcategories {
+  contain: layout style;
+}
+
+/* ================================
+   ACCESSIBILITY ENHANCEMENTS
+   ================================ */
+
+.pricing-category-link:focus,
+.category-main-link:focus,
+.subcategory-link:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.pricing-search-input:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Screen reader support */
+.category-arrow::before {
+  content: attr(aria-label);
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .pricing-sidebar,
+  .pricing-category-link,
+  .category-main-link,
+  .subcategories {
+    border-color: var(--color-gray-900);
+    border-width: 3px;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .category-arrow,
+  .subcategories,
+  .pricing-category-link,
+  .category-main-link,
+  .subcategory-link {
+    transition: none;
+  }
+}

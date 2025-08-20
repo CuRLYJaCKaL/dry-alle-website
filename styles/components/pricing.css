@@ -1,0 +1,344 @@
+/* 
+ * DryAlle Design System - Pricing Components
+ * Multi-Service Pricing Cards System
+ * MIT-Level Architecture Implementation
+ */
+
+/* ================================
+   PRICING CARD FOUNDATION
+   ================================ */
+
+/* Pricing Card - Extends Base Card System */
+.pricing-card {
+  /* Inherits from base .card foundation */
+  @extend .card;
+  
+  /* Pricing-specific dimensions - User specified design */
+  min-height: 400px; /* Minimum height for 200px image + content */
+  height: auto; /* Allow dynamic height based on service count */
+  display: flex;
+  flex-direction: column;
+  
+  /* Corporate square design */
+  border-radius: 0;
+  border: 2px solid transparent;
+  
+  /* Enhanced hover state */
+  transition: all var(--transition-base);
+  will-change: transform, border-color, box-shadow;
+}
+
+.pricing-card:hover {
+  transform: var(--transform-hover-up);
+  border-color: var(--color-primary-darker);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ================================
+   MULTI-SERVICE CARD COMPONENTS
+   ================================ */
+
+/* Card Image Area - User specified: 200px height (+20px increase) */
+.pricing-card-image {
+  width: 100%;
+  height: 200px; /* User specified: 200px görsel (artış +20px) */
+  background: var(--color-gray-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid var(--color-gray-300);
+}
+
+.pricing-image-placeholder {
+  font-size: 48px;
+  color: var(--color-gray-400);
+  opacity: 0.7;
+  transition: all var(--transition-base);
+}
+
+.pricing-card:hover .pricing-image-placeholder {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Card Content Area - User specified: Kompakt tasarım */
+.pricing-card-content {
+  padding: var(--spacing-3) var(--spacing-4); /* Daha kısa padding */
+  background: var(--color-bg-card-content);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px; /* Minimum remaining space after 200px image */
+}
+
+.pricing-card-header {
+  margin-bottom: var(--spacing-2); /* Kompakt başlık */
+  padding: var(--spacing-2) 0;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.pricing-card-title {
+  color: var(--color-primary-darker);
+  font-size: var(--font-size-base); /* Kompakt başlık için küçük font */
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+  text-align: center; /* Kompakt başlık merkezli */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  
+  /* Single line title for compact design */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ================================
+   SERVICE LIST COMPONENTS
+   ================================ */
+
+/* User specified: Tam genişlik liste */
+.pricing-service-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1px; /* Minimal gap for compact design */
+  margin: 0 -var(--spacing-4); /* Full width - extends to card edges */
+}
+
+.pricing-service-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-2-5) var(--spacing-4); /* Optimized padding for better spacing */
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-gray-200); /* Full width divider */
+  transition: all var(--transition-base);
+  font-size: var(--font-size-sm);
+  min-height: 44px; /* Consistent row height for better alignment */
+  
+  /* Corporate square design - no border radius */
+  border-radius: 0;
+  margin: 0; /* Full width alignment */
+}
+
+.pricing-service-row:hover {
+  background: rgba(0, 106, 68, 0.08);
+  border-left: 3px solid var(--color-primary);
+  padding-left: calc(var(--spacing-4) - 3px); /* Adjust padding for border */
+}
+
+.pricing-service-row:last-child {
+  border-bottom: none;
+}
+
+.pricing-service-name {
+  font-weight: 500;
+  color: var(--color-gray-700);
+  text-transform: capitalize;
+  flex: 1;
+}
+
+.pricing-service-price {
+  font-weight: 700;
+  color: var(--color-primary-darker);
+  font-size: var(--font-size-base);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+/* Popular Service Badge */
+.pricing-popular-badge {
+  background: var(--color-accent);
+  color: var(--color-primary-darker);
+  padding: 2px 6px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  border-radius: 0; /* Corporate square */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ================================
+   CARD FOOTER - USER SPECIFIED: KOMPAKT FOOTER
+   ================================ */
+
+.pricing-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-2) var(--spacing-4);
+  background: var(--color-gray-50);
+  border-top: 1px solid var(--color-gray-200);
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-600);
+}
+
+.pricing-footer-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-1);
+  font-weight: 600;
+}
+
+.pricing-footer-brand::before {
+  content: "🏢";
+  font-size: 14px;
+}
+
+.pricing-footer-quality {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-1);
+  font-weight: 500;
+  color: var(--color-primary-darker);
+}
+
+.pricing-footer-quality::before {
+  content: "💎";
+  font-size: 12px;
+}
+
+/* ================================
+   PRICING GRID LAYOUT
+   ================================ */
+
+.pricing-grid {
+  /* Extends blog-grid system */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px; /* Harmonized with service-grid spacing */
+  margin: 30px 0;
+}
+
+/* ================================
+   PRICING STATES
+   ================================ */
+
+.pricing-loading {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: var(--spacing-3xl);
+  color: var(--color-gray-600);
+  font-size: var(--font-size-lg);
+}
+
+.pricing-no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: var(--spacing-4xl) var(--spacing-4);
+  color: var(--color-gray-600);
+}
+
+.pricing-no-results h3 {
+  color: var(--color-primary-darker);
+  margin-bottom: var(--spacing-4);
+  font-size: var(--font-size-2xl);
+}
+
+.pricing-no-results p {
+  margin-bottom: var(--spacing-6);
+  color: var(--color-gray-500);
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+   ================================ */
+
+/* Tablet Design */
+@media (max-width: 1024px) {
+  .pricing-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .pricing-card {
+    height: 360px;
+  }
+  
+  .pricing-card-image {
+    height: 180px;
+  }
+}
+
+/* Mobile Design */
+@media (max-width: 768px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin: 20px 0;
+  }
+  
+  .pricing-card {
+    height: auto;
+    min-height: 320px;
+  }
+  
+  .pricing-card-image {
+    height: 160px;
+  }
+  
+  .pricing-card-content {
+    padding: var(--spacing-4);
+    height: auto;
+  }
+  
+  .pricing-service-row {
+    padding: var(--spacing-3);
+    font-size: var(--font-size-base);
+  }
+}
+
+/* ================================
+   PERFORMANCE OPTIMIZATIONS
+   ================================ */
+
+.pricing-card {
+  contain: layout style;
+  transform: translate3d(0, 0, 0);
+}
+
+.pricing-card:hover {
+  will-change: transform, box-shadow;
+}
+
+.pricing-card:not(:hover) {
+  will-change: auto;
+}
+
+/* ================================
+   ACCESSIBILITY ENHANCEMENTS
+   ================================ */
+
+.pricing-card:focus-within {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-offset);
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .pricing-card {
+    border-width: 2px;
+    border-color: var(--color-gray-900);
+  }
+  
+  .pricing-service-row {
+    border-left-width: 4px;
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .pricing-card,
+  .pricing-service-row,
+  .pricing-image-placeholder {
+    transition: none;
+  }
+  
+  .pricing-card:hover {
+    transform: none;
+  }
+}
