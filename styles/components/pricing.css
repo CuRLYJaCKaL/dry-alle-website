@@ -8,12 +8,12 @@
    PRICING CARD FOUNDATION
    ================================ */
 
-/* Modern Pricing Card Design */
+/* Corporate Square Pricing Card Design */
 .pricing-card {
-  /* Premium card foundation */
+  /* Premium card foundation - Corporate square design */
   background: linear-gradient(135deg, #ffffff 0%, #fafafa 100%);
-  border-radius: 16px;
-  border: 1px solid rgba(0, 106, 68, 0.1);
+  border-radius: 0; /* Corporate square design */
+  border: 2px solid rgba(0, 106, 68, 0.1);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   
   /* Layout structure */
@@ -55,7 +55,7 @@
    MULTI-SERVICE CARD COMPONENTS
    ================================ */
 
-/* Modern Card Image Area */
+/* Corporate Square Card Image Area */
 .pricing-card-image {
   width: 100%;
   height: 200px;
@@ -65,7 +65,7 @@
   justify-content: center;
   position: relative;
   overflow: hidden;
-  border-radius: 16px 16px 0 0;
+  border-bottom: 2px solid rgba(0, 106, 68, 0.1);
 }
 
 .pricing-card-image::before {
@@ -93,7 +93,7 @@
   filter: drop-shadow(0 4px 12px rgba(0, 106, 68, 0.2));
 }
 
-/* Modern Card Content Area */
+/* Corporate Square Card Content Area */
 .pricing-card-content {
   padding: var(--spacing-5) var(--spacing-5);
   background: white;
@@ -101,7 +101,6 @@
   display: flex;
   flex-direction: column;
   min-height: 220px;
-  border-radius: 0 0 16px 16px;
 }
 
 .pricing-card-header {
@@ -163,7 +162,7 @@
   align-items: center;
   padding: var(--spacing-3-5) var(--spacing-4);
   background: rgba(248, 249, 250, 0.5);
-  border-radius: 12px;
+  border-radius: 0; /* Corporate square design */
   margin-bottom: var(--spacing-2);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   font-size: var(--font-size-sm);
@@ -242,10 +241,9 @@
   align-items: center;
   padding: var(--spacing-3) var(--spacing-5);
   background: linear-gradient(135deg, rgba(248, 249, 250, 0.8) 0%, rgba(255, 255, 255, 0.9) 100%);
-  border-top: 1px solid rgba(0, 106, 68, 0.08);
+  border-top: 2px solid rgba(0, 106, 68, 0.08);
   font-size: var(--font-size-xs);
   color: var(--color-gray-600);
-  border-radius: 0 0 16px 16px;
   margin-top: auto;
 }
 
