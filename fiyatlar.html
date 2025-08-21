@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/base/variables.css">
     <link rel="stylesheet" href="styles/base/typography.css">
     <link rel="stylesheet" href="styles/layout/grid.css">
+    <link rel="stylesheet" href="styles/layout/header.css">
     <link rel="stylesheet" href="styles/components/cards.css">
     <link rel="stylesheet" href="styles/components/buttons.css">
     <link rel="stylesheet" href="styles/components/navigation.css">
@@ -59,8 +60,8 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="main-header">
-        <div class="header-content">
+    <header class="header">
+        <div class="header-container">
             <div class="logo">
                 <a href="index.html">
                     <svg width="390" height="105" viewBox="0 0 390 105" xmlns="http://www.w3.org/2000/svg">
@@ -224,36 +225,6 @@
                 </li>
             </ul>
             
-            <!-- Process Filters -->
-            <div style="margin-top: var(--spacing-8); padding: var(--spacing-4); background: var(--color-gray-50); border: 2px solid var(--color-gray-300);">
-                <h3 style="color: var(--color-primary-darker); font-size: var(--font-size-base); margin-bottom: var(--spacing-4); text-align: center;">İşlem Türü</h3>
-                <div style="display: flex; flex-direction: column; gap: var(--spacing-2);">
-                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
-                        <input type="checkbox" data-process="all" checked style="accent-color: var(--color-primary);">
-                        <span style="font-size: var(--font-size-sm);">Tümü</span>
-                    </label>
-                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
-                        <input type="checkbox" data-process="kuru-temizleme" style="accent-color: var(--color-primary);">
-                        <span style="font-size: var(--font-size-sm);">Kuru Temizleme</span>
-                    </label>
-                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
-                        <input type="checkbox" data-process="yikama" style="accent-color: var(--color-primary);">
-                        <span style="font-size: var(--font-size-sm);">Yıkama</span>
-                    </label>
-                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
-                        <input type="checkbox" data-process="utuleme" style="accent-color: var(--color-primary);">
-                        <span style="font-size: var(--font-size-sm);">Ütüleme</span>
-                    </label>
-                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
-                        <input type="checkbox" data-process="hali-yikama" style="accent-color: var(--color-primary);">
-                        <span style="font-size: var(--font-size-sm);">Halı Yıkama</span>
-                    </label>
-                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
-                        <input type="checkbox" data-process="yerinde-temizleme" style="accent-color: var(--color-primary);">
-                        <span style="font-size: var(--font-size-sm);">Yerinde Temizleme</span>
-                    </label>
-                </div>
-            </div>
         </aside>
         
         <!-- Main Pricing Content -->
