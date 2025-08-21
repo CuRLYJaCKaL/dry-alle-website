@@ -9,38 +9,17 @@
    ================================ */
 
 .pricing-sidebar {
-  /* Scrollable sidebar in normal position */
+  /* Fixed height sidebar - no scroll */
   background: var(--color-bg-card);
   border: 2px solid var(--color-gray-300);
   border-radius: 0;
   padding: var(--spacing-8) var(--spacing-6);
   height: fit-content;
-  max-height: calc(100vh - 150px);
   position: sticky;
   top: 20px;
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--color-primary-darker) var(--color-gray-200);
+  overflow: visible;
 }
 
-/* Custom scrollbar for webkit browsers */
-.pricing-sidebar::-webkit-scrollbar {
-  width: 8px;
-}
-
-.pricing-sidebar::-webkit-scrollbar-track {
-  background: var(--color-gray-200);
-  border-radius: 4px;
-}
-
-.pricing-sidebar::-webkit-scrollbar-thumb {
-  background: var(--color-primary-darker);
-  border-radius: 4px;
-}
-
-.pricing-sidebar::-webkit-scrollbar-thumb:hover {
-  background: var(--color-primary);
-}
 
 .pricing-sidebar h2 {
   color: var(--color-primary-darker);
