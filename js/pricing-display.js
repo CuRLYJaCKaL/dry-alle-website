@@ -21,6 +21,9 @@ class PricingDisplay {
             return;
         }
         
+        // Update category counts first
+        this.updateCategoryCounts();
+        
         // Show initial data
         this.updateDisplay(window.PricingData.multiServicePricingData);
         
