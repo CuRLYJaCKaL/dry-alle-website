@@ -104,11 +104,6 @@ class PricingDisplay {
                     serviceRows +
                 '</div>' +
             '</div>' +
-            // User specified: Kompakt footer
-            '<div class="pricing-card-footer">' +
-                '<div class="pricing-footer-brand">Dry Alle</div>' +
-                '<div class="pricing-footer-quality">Premium</div>' +
-            '</div>' +
         '</article>';
     }
 
@@ -119,7 +114,7 @@ class PricingDisplay {
                 '<span class="pricing-service-name">' + this.getProcessDisplayName(service.type) + '</span>' +
                 '<span class="pricing-service-price">' + 
                     service.price + '₺' + 
-                    (service.popular ? '<span class="pricing-popular-badge">🔥</span>' : '') + 
+                    (service.popular ? '<span class="pricing-popular-badge">POPÜLER</span>' : '') + 
                 '</span>' +
             '</div>'
         ).join('');

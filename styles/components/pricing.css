@@ -209,26 +209,23 @@
 
 /* Popular Service Badge */
 .pricing-popular-badge {
-  background: linear-gradient(135deg, var(--color-accent) 0%, #ffd700 100%);
+  background: linear-gradient(135deg, rgba(0, 106, 68, 0.1) 0%, rgba(246, 236, 61, 0.15) 100%);
   color: var(--color-primary-darker);
-  padding: 3px 8px;
+  padding: 4px 10px;
   font-size: var(--font-size-xs);
-  font-weight: 700;
-  border-radius: 2px;
+  font-weight: 600;
+  border-radius: 0; /* Corporate square design */
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  box-shadow: 0 1px 3px rgba(255, 215, 0, 0.3);
-  border: 1px solid rgba(255, 215, 0, 0.4);
-  animation: subtle-glow 2s ease-in-out infinite alternate;
+  letter-spacing: 0.8px;
+  border: 1px solid rgba(0, 106, 68, 0.2);
+  opacity: 0.85;
+  transition: all 0.3s ease;
 }
 
-@keyframes subtle-glow {
-  from {
-    box-shadow: 0 1px 3px rgba(255, 215, 0, 0.3);
-  }
-  to {
-    box-shadow: 0 1px 6px rgba(255, 215, 0, 0.5);
-  }
+.pricing-service-row:hover .pricing-popular-badge {
+  opacity: 1;
+  background: linear-gradient(135deg, rgba(0, 106, 68, 0.15) 0%, rgba(246, 236, 61, 0.2) 100%);
+  border-color: rgba(0, 106, 68, 0.3);
 }
 
 /* ================================
