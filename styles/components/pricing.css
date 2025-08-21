@@ -207,25 +207,33 @@
   letter-spacing: 0.5px;
 }
 
-/* Popular Service Badge */
-.pricing-popular-badge {
-  background: linear-gradient(135deg, rgba(0, 106, 68, 0.1) 0%, rgba(246, 236, 61, 0.15) 100%);
-  color: var(--color-primary-darker);
-  padding: 4px 10px;
-  font-size: var(--font-size-xs);
-  font-weight: 600;
-  border-radius: 0; /* Corporate square design */
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  border: 1px solid rgba(0, 106, 68, 0.2);
-  opacity: 0.85;
-  transition: all 0.3s ease;
+/* Popular Service Indicator - Sophisticated gradient bar */
+.pricing-popular-indicator {
+  position: absolute;
+  right: -2px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, 
+    rgba(246, 236, 61, 0.8) 0%, 
+    rgba(0, 106, 68, 0.6) 50%, 
+    rgba(246, 236, 61, 0.8) 100%);
+  opacity: 0.6;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 0 2px 2px 0;
 }
 
-.pricing-service-row:hover .pricing-popular-badge {
+.pricing-service-row {
+  position: relative;
+}
+
+.pricing-service-row:hover .pricing-popular-indicator {
   opacity: 1;
-  background: linear-gradient(135deg, rgba(0, 106, 68, 0.15) 0%, rgba(246, 236, 61, 0.2) 100%);
-  border-color: rgba(0, 106, 68, 0.3);
+  width: 4px;
+  background: linear-gradient(180deg, 
+    rgba(246, 236, 61, 1) 0%, 
+    rgba(0, 106, 68, 0.8) 50%, 
+    rgba(246, 236, 61, 1) 100%);
 }
 
 /* ================================
@@ -277,7 +285,7 @@
   /* Extends blog-grid system */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 28px; /* Harmonized with service-grid spacing */
+  gap: 22px; /* Reduced gap for wider cards */
   margin: 30px 0;
 }
 

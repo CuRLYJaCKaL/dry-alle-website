@@ -114,7 +114,7 @@ class PricingDisplay {
                 '<span class="pricing-service-name">' + this.getProcessDisplayName(service.type) + '</span>' +
                 '<span class="pricing-service-price">' + 
                     service.price + '₺' + 
-                    (service.popular ? '<span class="pricing-popular-badge">POPÜLER</span>' : '') + 
+                    (service.popular ? '<span class="pricing-popular-indicator"></span>' : '') + 
                 '</span>' +
             '</div>'
         ).join('');
