@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiyat Listesi - Dry Alle Kuru Temizleme</title>
+    
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="styles/base/reset.css">
+    <link rel="stylesheet" href="styles/base/variables.css">
+    <link rel="stylesheet" href="styles/base/typography.css">
+    <link rel="stylesheet" href="styles/layout/grid.css">
+    <link rel="stylesheet" href="styles/components/cards.css">
+    <link rel="stylesheet" href="styles/components/buttons.css">
+    <link rel="stylesheet" href="styles/components/navigation.css">
+    <link rel="stylesheet" href="styles/components/layout.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Dry Alle Kuru Temizleme fiyat listesi. İstanbul'da en uygun fiyatlarla kuru temizleme, ütüleme, yıkama hizmetleri.">
+    <meta name="keywords" content="kuru temizleme fiyatları, ütüleme fiyatları, yıkama fiyatları, İstanbul kuru temizleme">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Dry Alle Kuru Temizleme",
+        "description": "İstanbul'da profesyonel kuru temizleme hizmetleri",
+        "url": "https://dryallekurutemizleme.com/fiyatlar.html",
+        "telephone": "+90-216-XXX-XXXX",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "İstanbul",
+            "addressCountry": "TR"
+        },
+        "priceRange": "35₺-3500₺",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Kuru Temizleme Hizmetleri",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Kuru Temizleme"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <style>
+        /* Pricing-specific styles */
+        .multi-service-card {
+            background: var(--color-bg-card);
+            border: 2px solid transparent;
+            border-radius: 0;
+            overflow: hidden;
+            transition: all var(--transition-base);
+            display: flex;
+            flex-direction: column;
+            height: 380px;
+            will-change: transform, border-color, box-shadow;
+        }
+
+        .multi-service-card:hover {
+            transform: var(--transform-hover-up);
+            border-color: var(--color-primary-darker);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .multi-service-image {
+            width: 100%;
+            height: 200px;
+            background: var(--color-gray-200);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .image-placeholder {
+            font-size: 48px;
+            color: var(--color-gray-400);
+            opacity: 0.7;
+        }
+
+        .multi-service-content {
+            padding: var(--spacing-5);
+            background: var(--color-bg-card-content);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 180px;
+        }
+
+        .multi-service-header {
+            margin-bottom: var(--spacing-3);
+        }
+
+        .multi-service-title {
+            color: var(--color-primary-darker);
+            font-size: var(--font-size-lg);
+            font-weight: 700;
+            line-height: 1.2;
+            margin: 0;
+            min-height: 44px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .multi-service-list {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-2);
+        }
+
+        .service-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--spacing-2) var(--spacing-3);
+            background: rgba(0, 106, 68, 0.05);
+            border-left: 3px solid transparent;
+            transition: all var(--transition-base);
+            font-size: var(--font-size-sm);
+        }
+
+        .service-row:hover {
+            border-left-color: var(--color-primary);
+            background: rgba(0, 106, 68, 0.1);
+        }
+
+        .service-name {
+            font-weight: 500;
+            color: var(--color-gray-700);
+            text-transform: capitalize;
+        }
+
+        .service-price {
+            font-weight: 700;
+            color: var(--color-primary-darker);
+            font-size: var(--font-size-base);
+        }
+
+        .popular-badge {
+            background: var(--color-accent);
+            color: var(--color-primary-darker);
+            padding: 2px 6px;
+            font-size: var(--font-size-xs);
+            font-weight: 600;
+            margin-left: var(--spacing-2);
+            border-radius: 0;
+        }
+
+        .pricing-loading {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 40px;
+            color: var(--color-gray-600);
+        }
+
+        .pricing-no-results {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--color-gray-600);
+        }
+
+        .pricing-no-results h3 {
+            color: var(--color-primary-darker);
+            margin-bottom: var(--spacing-4);
+        }
+
+        /* Category styles */
+        .category-item {
+            margin-bottom: var(--spacing-2);
+        }
+
+        .category-main-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 15px;
+            background: var(--color-white);
+            border: 2px solid var(--color-gray-300);
+            border-radius: 0;
+            color: var(--color-gray-700);
+            text-decoration: none;
+            font-size: var(--font-size-sm);
+            font-weight: 500;
+            transition: all var(--transition-base);
+            cursor: pointer;
+        }
+
+        .category-main-link:hover,
+        .category-main-link.active {
+            background: var(--color-bg-card-content);
+            border-color: var(--color-primary-darker);
+            color: var(--color-primary-darker);
+        }
+
+        .category-arrow {
+            transition: transform var(--transition-base);
+            font-size: 12px;
+        }
+
+        .category-arrow.expanded {
+            transform: rotate(90deg);
+        }
+
+        .subcategories {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height var(--transition-base);
+            background: var(--color-gray-50);
+        }
+
+        .subcategories.expanded {
+            max-height: 300px;
+        }
+
+        .subcategory-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 25px;
+            background: var(--color-gray-50);
+            color: var(--color-gray-600);
+            text-decoration: none;
+            font-size: var(--font-size-xs);
+            font-weight: 500;
+            transition: all var(--transition-base);
+            border-bottom: 1px solid var(--color-gray-200);
+        }
+
+        .subcategory-link:hover,
+        .subcategory-link.active {
+            background: var(--color-white);
+            color: var(--color-primary-darker);
+            padding-left: 30px;
+        }
+
+        .subcategory-count {
+            background: var(--color-gray-400);
+            color: var(--color-gray-700);
+            padding: 2px 6px;
+            border-radius: 0;
+            font-size: var(--font-size-xs);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <svg width="390" height="105" viewBox="0 0 390 105" xmlns="http://www.w3.org/2000/svg">
+                        <text x="195" y="58" font-family="Dancing Script, cursive" font-size="60" font-weight="700" fill="#f6ec3d" text-anchor="middle">Dry Alle</text>
+                        <text x="195" y="86" font-family="Roboto, sans-serif" font-size="16" font-weight="600" fill="white" letter-spacing="2px" text-anchor="middle">KURU TEMİZLEME</text>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="contact-button">
+                <div class="phone-icon">📞</div>
+                <span>İletişim</span>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul class="nav-menu">
+                <li><a href="index.html#services">Hizmetlerimiz</a></li>
+                <li><a href="index.html#about">Hakkımızda</a></li>
+                <li><a href="blog/index.html">Blog</a></li>
+                <li><a href="fiyatlar.html" class="active">Fiyatlar</a></li>
+                <li><a href="index.html#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Modern Pricing Layout (Following Blog Pattern) -->
+    <div class="modern-blog-container">
+        <!-- Pricing Sidebar (Category Filters) -->
+        <aside class="blog-sidebar">
+            <h2>Hizmet Kategorileri</h2>
+            
+            <!-- Modern Search -->
+            <div class="modern-search-container">
+                <div class="modern-search-icon">🔍</div>
+                <input type="text" class="modern-search-input" id="serviceSearch" placeholder="Hizmet arayın...">
+            </div>
+            
+            <!-- Service Categories with Expandable Subcategories -->
+            <ul class="blog-categories-list">
+                <!-- Tümü - No subcategories -->
+                <li class="blog-category-item">
+                    <a href="#" class="blog-category-link active" data-category="all">
+                        <span>Tümü</span>
+                        <span class="blog-category-count">18</span>
+                    </a>
+                </li>
+                
+                <!-- Erkek Giyim with Subcategories -->
+                <li class="category-item">
+                    <div class="category-main-link" data-category="erkek-giyim">
+                        <span>👨 ERKEK GİYİM</span>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="blog-category-count">4</span>
+                            <span class="category-arrow">▶</span>
+                        </div>
+                    </div>
+                    <div class="subcategories">
+                        <a href="#" class="subcategory-link" data-subcategory="erkek-ust-giyim">
+                            <span>ÜST GİYİM</span>
+                            <span class="subcategory-count">2</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="erkek-alt-giyim">
+                            <span>ALT GİYİM</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="erkek-takim-elbise">
+                            <span>TAKIM ELBİSE</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                    </div>
+                </li>
+                
+                <!-- Kadın Giyim with Subcategories -->
+                <li class="category-item">
+                    <div class="category-main-link" data-category="kadin-giyim">
+                        <span>👩 KADIN GİYİM</span>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="blog-category-count">3</span>
+                            <span class="category-arrow">▶</span>
+                        </div>
+                    </div>
+                    <div class="subcategories">
+                        <a href="#" class="subcategory-link" data-subcategory="kadin-ust-giyim">
+                            <span>ÜST GİYİM</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="kadin-elbise-takim">
+                            <span>ELBİSE & TAKIM</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="kadin-ozel-giyim">
+                            <span>ÖZEL GİYİM</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                    </div>
+                </li>
+                
+                <!-- Çocuk Giyim -->
+                <li class="category-item">
+                    <div class="category-main-link" data-category="cocuk-giyim">
+                        <span>👶 ÇOCUK GİYİM</span>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="blog-category-count">1</span>
+                            <span class="category-arrow">▶</span>
+                        </div>
+                    </div>
+                    <div class="subcategories">
+                        <a href="#" class="subcategory-link" data-subcategory="cocuk-ozel-gunler">
+                            <span>ÖZEL GÜNLER</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                    </div>
+                </li>
+                
+                <!-- Ev Tekstili -->
+                <li class="category-item">
+                    <div class="category-main-link" data-category="ev-tekstili">
+                        <span>🏠 EV TEKSTİLİ</span>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="blog-category-count">9</span>
+                            <span class="category-arrow">▶</span>
+                        </div>
+                    </div>
+                    <div class="subcategories">
+                        <a href="#" class="subcategory-link" data-subcategory="hali-kilim">
+                            <span>HALI & KİLİM</span>
+                            <span class="subcategory-count">3</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="mobilya-tekstili">
+                            <span>MOBİLYA TEKSTİLİ</span>
+                            <span class="subcategory-count">3</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="perde-tul">
+                            <span>PERDE & TÜL</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                        <a href="#" class="subcategory-link" data-subcategory="yatak-takimi">
+                            <span>YATAK TAKIMI</span>
+                            <span class="subcategory-count">2</span>
+                        </a>
+                    </div>
+                </li>
+                
+                <!-- Özel Temizleme -->
+                <li class="category-item">
+                    <div class="category-main-link" data-category="ozel-temizleme">
+                        <span>⭐ ÖZEL TEMİZLEME</span>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="blog-category-count">1</span>
+                            <span class="category-arrow">▶</span>
+                        </div>
+                    </div>
+                    <div class="subcategories">
+                        <a href="#" class="subcategory-link" data-subcategory="canta-ayakkabi">
+                            <span>ÇANTA & AYAKKABI</span>
+                            <span class="subcategory-count">1</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            
+            <!-- Process Filters -->
+            <div style="margin-top: var(--spacing-8); padding: var(--spacing-4); background: var(--color-gray-50); border: 2px solid var(--color-gray-300);">
+                <h3 style="color: var(--color-primary-darker); font-size: var(--font-size-base); margin-bottom: var(--spacing-4); text-align: center;">İşlem Türü</h3>
+                <div style="display: flex; flex-direction: column; gap: var(--spacing-2);">
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="all" checked style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Tümü</span>
+                    </label>
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="kuru-temizleme" style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Kuru Temizleme</span>
+                    </label>
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="yikama" style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Yıkama</span>
+                    </label>
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="utuleme" style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Ütüleme</span>
+                    </label>
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="hali-yikama" style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Halı Yıkama</span>
+                    </label>
+                    <label style="display: flex; align-items: center; gap: var(--spacing-2); cursor: pointer;">
+                        <input type="checkbox" data-process="yerinde-temizleme" style="accent-color: var(--color-primary);">
+                        <span style="font-size: var(--font-size-sm);">Yerinde Temizleme</span>
+                    </label>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- Main Pricing Content -->
+        <main class="blog-main-content">
+            <!-- Price Cards Grid (Following Blog Pattern) -->
+            <div class="modern-blog-grid" id="priceGrid">
+                <!-- Price cards will be generated by JavaScript -->
+                <div class="pricing-loading" style="grid-column: 1 / -1; text-align: center; padding: 40px;">
+                    <p>Fiyat listesi yükleniyor...</p>
+                </div>
+            </div>
+            
+            <!-- No Results -->
+            <div class="pricing-no-results" id="noResults" style="display: none;">
+                <div class="pricing-no-results-icon">🔍</div>
+                <h3>Aradığınız hizmet bulunamadı</h3>
+                <p>Farklı anahtar kelimeler deneyebilir veya kategorilerden birini seçebilirsiniz.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary" onclick="filterByCategory('erkek-giyim')">Erkek Giyim</a>
+                    <a href="#" class="btn btn-outline" onclick="filterByCategory('kadin-giyim')">Kadın Giyim</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2025 Dry Alle Kuru Temizleme. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // New Multi-Service Data Structure
+        const multiServiceData = [
+            {
+                name: "EŞOFMAN TAKIM",
+                category: "erkek-giyim",
+                subcategory: "erkek-alt-giyim",
+                services: [
+                    { type: "kuru-temizleme", price: 150, popular: true },
+                    { type: "yikama", price: 120, popular: false },
+                    { type: "utuleme", price: 75, popular: false }
+                ]
+            },
+            {
+                name: "TAKIM ELBİSE (2 PARÇA)",
+                category: "erkek-giyim", 
+                subcategory: "erkek-takim-elbise",
+                services: [
+                    { type: "kuru-temizleme", price: 280, popular: true },
+                    { type: "utuleme", price: 140, popular: false },
+                    { type: "boyama", price: 450, popular: false }
+                ]
+            },
+            {
+                name: "GÖMLEKli ERKEK",
+                category: "erkek-giyim",
+                subcategory: "erkek-ust-giyim", 
+                services: [
+                    { type: "kuru-temizleme", price: 95, popular: true },
+                    { type: "yikama", price: 75, popular: false },
+                    { type: "utuleme", price: 45, popular: true }
+                ]
+            },
+            {
+                name: "CEKET ERKEK",
+                category: "erkek-giyim",
+                subcategory: "erkek-ust-giyim",
+                services: [
+                    { type: "kuru-temizleme", price: 190, popular: true },
+                    { type: "utuleme", price: 95, popular: false }
+                ]
+            },
+            {
+                name: "ELBİSE KADIN (NORMAL)",
+                category: "kadin-giyim",
+                subcategory: "kadin-elbise-takim",
+                services: [
+                    { type: "kuru-temizleme", price: 165, popular: true },
+                    { type: "yikama", price: 135, popular: false },
+                    { type: "utuleme", price: 85, popular: false }
+                ]
+            },
+            {
+                name: "BLUZ KADIN",
+                category: "kadin-giyim",
+                subcategory: "kadin-ust-giyim",
+                services: [
+                    { type: "kuru-temizleme", price: 95, popular: true },
+                    { type: "yikama", price: 75, popular: false },
+                    { type: "utuleme", price: 45, popular: true }
+                ]
+            },
+            {
+                name: "GELİNLİK",
+                category: "kadin-giyim",
+                subcategory: "kadin-ozel-giyim",
+                services: [
+                    { type: "kuru-temizleme", price: 950, popular: true },
+                    { type: "leke-cikarma", price: 285, popular: false },
+                    { type: "utuleme", price: 190, popular: false }
+                ]
+            },
+            {
+                name: "ÇOCUK ELBİSESİ",
+                category: "cocuk-giyim",
+                subcategory: "cocuk-ozel-gunler",
+                services: [
+                    { type: "kuru-temizleme", price: 135, popular: true },
+                    { type: "yikama", price: 95, popular: false },
+                    { type: "utuleme", price: 65, popular: false }
+                ]
+            },
+            {
+                name: "HALI (m² Başına)",
+                category: "ev-tekstili",
+                subcategory: "hali-kilim",
+                services: [
+                    { type: "hali-yikama", price: 45, popular: true },
+                    { type: "hali-tamiri", price: 85, popular: false },
+                    { type: "sacak-tamiri", price: 25, popular: false },
+                    { type: "hali-boyama", price: 120, popular: false }
+                ]
+            },
+            {
+                name: "KOLTUK TEMİZLİĞİ (Yerinde)",
+                category: "ev-tekstili",
+                subcategory: "mobilya-tekstili",
+                services: [
+                    { type: "yerinde-temizleme", price: 285, popular: true },
+                    { type: "leke-cikarma", price: 125, popular: false },
+                    { type: "antibakteriyel", price: 85, popular: false }
+                ]
+            },
+            {
+                name: "PERDE (m² Başına)",
+                category: "ev-tekstili",
+                subcategory: "perde-tul",
+                services: [
+                    { type: "kuru-temizleme", price: 35, popular: true },
+                    { type: "yikama", price: 28, popular: false },
+                    { type: "utuleme", price: 18, popular: false }
+                ]
+            },
+            {
+                name: "DERİ CEKET",
+                category: "ozel-temizleme",
+                subcategory: "canta-ayakkabi",
+                services: [
+                    { type: "kuru-temizleme", price: 385, popular: true },
+                    { type: "deri-boyama", price: 575, popular: false },
+                    { type: "leke-cikarma", price: 195, popular: false }
+                ]
+            },
+            {
+                name: "KİLİM (m² Başına)",
+                category: "ev-tekstili",
+                subcategory: "hali-kilim",
+                services: [
+                    { type: "yikama", price: 35, popular: true },
+                    { type: "kuru-temizleme", price: 45, popular: false },
+                    { type: "sacak-tamiri", price: 20, popular: false }
+                ]
+            },
+            {
+                name: "YATAK ÖRTÜSÜ",
+                category: "ev-tekstili",
+                subcategory: "yatak-takimi",
+                services: [
+                    { type: "kuru-temizleme", price: 185, popular: true },
+                    { type: "yikama", price: 145, popular: false },
+                    { type: "utuleme", price: 85, popular: false }
+                ]
+            },
+            {
+                name: "ÇARŞAF TAKIMI",
+                category: "ev-tekstili",
+                subcategory: "yatak-takimi",
+                services: [
+                    { type: "yikama", price: 95, popular: true },
+                    { type: "utuleme", price: 65, popular: false },
+                    { type: "kuru-temizleme", price: 125, popular: false }
+                ]
+            },
+            {
+                name: "KANEPE TEMİZLİĞİ (3lü)",
+                category: "ev-tekstili",
+                subcategory: "mobilya-tekstili",
+                services: [
+                    { type: "yerinde-temizleme", price: 385, popular: true },
+                    { type: "antibakteriyel", price: 125, popular: false },
+                    { type: "leke-cikarma", price: 165, popular: false }
+                ]
+            },
+            {
+                name: "BERJER TEMİZLİĞİ",
+                category: "ev-tekstili",
+                subcategory: "mobilya-tekstili",
+                services: [
+                    { type: "yerinde-temizleme", price: 185, popular: true },
+                    { type: "leke-cikarma", price: 95, popular: false },
+                    { type: "antibakteriyel", price: 65, popular: false }
+                ]
+            },
+            {
+                name: "ŞİLTE (Çift Kişilik)",
+                category: "ev-tekstili",
+                subcategory: "hali-kilim",
+                services: [
+                    { type: "yerinde-temizleme", price: 285, popular: true },
+                    { type: "antibakteriyel", price: 95, popular: false },
+                    { type: "leke-cikarma", price: 125, popular: false }
+                ]
+            }
+        ];
+
+        // Use new multi-service data structure
+        let filteredData = [...multiServiceData];
+        let currentCategory = 'all';
+        let currentProcesses = ['all'];
+
+        // DOM elements
+        const priceGrid = document.getElementById('priceGrid');
+        const noResults = document.getElementById('noResults');
+        const searchInput = document.getElementById('serviceSearch');
+
+        // Helper functions
+        function getCategoryDisplayName(category) {
+            const categoryMap = {
+                'erkek-giyim': 'Erkek Giyim',
+                'kadin-giyim': 'Kadın Giyim',
+                'cocuk-giyim': 'Çocuk Giyim',
+                'ev-tekstili': 'Ev Tekstili',
+                'ozel-temizleme': 'Özel Temizleme'
+            };
+            return categoryMap[category] || category;
+        }
+
+        function getSubcategoryDisplayName(subcategory) {
+            const subcategoryMap = {
+                'erkek-ust-giyim': 'Üst Giyim',
+                'erkek-alt-giyim': 'Alt Giyim',
+                'erkek-takim-elbise': 'Takım Elbise',
+                'kadin-ust-giyim': 'Üst Giyim',
+                'kadin-elbise-takim': 'Elbise & Takım',
+                'kadin-ozel-giyim': 'Özel Giyim',
+                'cocuk-ozel-gunler': 'Özel Günler',
+                'hali-kilim': 'Halı & Kilim',
+                'mobilya-tekstili': 'Mobilya Tekstili',
+                'perde-tul': 'Perde & Tül',
+                'yatak-takimi': 'Yatak Takımı',
+                'canta-ayakkabi': 'Çanta & Ayakkabi'
+            };
+            return subcategoryMap[subcategory] || subcategory;
+        }
+
+        function getProcessDisplayName(process) {
+            const processMap = {
+                'kuru-temizleme': 'Kuru Temizleme',
+                'yikama': 'Yıkama',
+                'utuleme': 'Ütüleme',
+                'hali-yikama': 'Halı Yıkama',
+                'yerinde-temizleme': 'Yerinde Temizleme',
+                'leke-cikarma': 'Leke Çıkarma',
+                'boyama': 'Boyama',
+                'deri-boyama': 'Deri Boyama',
+                'hali-tamiri': 'Halı Tamiri',
+                'sacak-tamiri': 'Saçak Tamiri',
+                'hali-boyama': 'Halı Boyama',
+                'antibakteriyel': 'Antibakteriyel'
+            };
+            return processMap[process] || process;
+        }
+
+        // Category filtering
+        function filterByCategory(category) {
+            currentCategory = category;
+            
+            // Update active category
+            document.querySelectorAll('.blog-category-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            document.querySelector(`[data-category="${category}"]`).classList.add('active');
+            
+            applyFilters();
+        }
+
+        // Process filtering
+        function updateProcessFilters() {
+            const checkboxes = document.querySelectorAll('input[data-process]');
+            const allCheckbox = document.querySelector('input[data-process="all"]');
+            
+            if (allCheckbox.checked) {
+                currentProcesses = ['all'];
+                checkboxes.forEach(cb => {
+                    if (cb !== allCheckbox) cb.checked = false;
+                });
+            } else {
+                currentProcesses = Array.from(checkboxes)
+                    .filter(cb => cb.checked && cb.dataset.process !== 'all')
+                    .map(cb => cb.dataset.process);
+                
+                if (currentProcesses.length === 0) {
+                    allCheckbox.checked = true;
+                    currentProcesses = ['all'];
+                }
+            }
+            
+            applyFilters();
+        }
+
+        // Search functionality
+        function searchServices() {
+            const query = searchInput.value.toLowerCase().trim();
+            applyFilters(query);
+        }
+
+        // Subcategory system
+        function toggleSubcategories(categoryElement) {
+            const subcategoriesDiv = categoryElement.nextElementSibling;
+            const arrow = categoryElement.querySelector('.category-arrow');
+            
+            // Close all other subcategories
+            document.querySelectorAll('.subcategories.expanded').forEach(sub => {
+                if (sub !== subcategoriesDiv) {
+                    sub.classList.remove('expanded');
+                    const otherArrow = sub.previousElementSibling.querySelector('.category-arrow');
+                    otherArrow.classList.remove('expanded');
+                }
+            });
+            
+            // Toggle current subcategory
+            subcategoriesDiv.classList.toggle('expanded');
+            arrow.classList.toggle('expanded');
+            
+            // Also filter by this main category
+            const category = categoryElement.dataset.category;
+            filterByCategory(category);
+        }
+
+        // Subcategory filtering
+        function filterBySubcategory(subcategory) {
+            // Update active subcategory
+            document.querySelectorAll('.subcategory-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            document.querySelector(`[data-subcategory="${subcategory}"]`).classList.add('active');
+            
+            // Filter data by subcategory
+            applyFilters('', subcategory);
+        }
+
+        // Updated apply filters to handle multi-service structure and subcategories
+        function applyFilters(searchQuery = '', subcategory = null) {
+            filteredData = multiServiceData.filter(item => {
+                // Category filter
+                const categoryMatch = currentCategory === 'all' || item.category === currentCategory;
+                
+                // Subcategory filter (if specified)
+                let subcategoryMatch = true;
+                if (subcategory) {
+                    subcategoryMatch = item.subcategory === subcategory;
+                }
+                
+                // Process filter - check if any service in the item matches
+                let processMatch = true;
+                if (!currentProcesses.includes('all')) {
+                    processMatch = item.services.some(service => 
+                        currentProcesses.includes(service.type)
+                    );
+                }
+                
+                // Search filter - search in item name and service types
+                const searchMatch = searchQuery === '' || 
+                    item.name.toLowerCase().includes(searchQuery) ||
+                    item.services.some(service => service.type.toLowerCase().includes(searchQuery));
+                
+                return categoryMatch && subcategoryMatch && processMatch && searchMatch;
+            });
+            
+            displayPrices();
+        }
+
+        // Display filtered prices as multi-service cards
+        function displayPrices() {
+            if (filteredData.length === 0) {
+                priceGrid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+            
+            priceGrid.style.display = 'grid';
+            noResults.style.display = 'none';
+            
+            // Sort by category, then by name
+            filteredData.sort((a, b) => {
+                if (a.category !== b.category) return a.category.localeCompare(b.category);
+                return a.name.localeCompare(b.name);
+            });
+            
+            const priceCards = filteredData.map(item => {
+                const categoryName = getCategoryDisplayName(item.category);
+                const subcategoryName = getSubcategoryDisplayName(item.subcategory);
+                
+                // Sort services with popular ones first, then by SEO order
+                const sortedServices = [...item.services].sort((a, b) => {
+                    // Popular services first
+                    if (a.popular && !b.popular) return -1;
+                    if (!a.popular && b.popular) return 1;
+                    
+                    // Then by SEO ranking (most searched)
+                    const seoOrder = ['kuru-temizleme', 'yikama', 'utuleme', 'hali-yikama', 'leke-cikarma', 'boyama', 'deri-boyama'];
+                    const aIndex = seoOrder.indexOf(a.type);
+                    const bIndex = seoOrder.indexOf(b.type);
+                    
+                    if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
+                    if (aIndex !== -1) return -1;
+                    if (bIndex !== -1) return 1;
+                    
+                    return a.type.localeCompare(b.type);
+                });
+
+                // Create service rows HTML
+                const serviceRows = sortedServices.map(service => `
+                    <div class="service-row">
+                        <span class="service-name">${getProcessDisplayName(service.type)}</span>
+                        <span class="service-price">${service.price}₺${service.popular ? '<span class="popular-badge">POPÜLER</span>' : ''}</span>
+                    </div>
+                `).join('');
+
+                // Image placeholder icon
+                const imageIcon = '📷';
+
+                // SEO Structured Data
+                const structuredData = {
+                    "@context": "https://schema.org",
+                    "@type": "Product",
+                    "name": item.name,
+                    "category": categoryName,
+                    "offers": sortedServices.map(service => ({
+                        "@type": "Offer",
+                        "name": getProcessDisplayName(service.type),
+                        "price": service.price,
+                        "priceCurrency": "TRY"
+                    })),
+                    "brand": {
+                        "@type": "Organization",
+                        "name": "Dry Alle Kuru Temizleme"
+                    }
+                };
+
+                return `
+                    <article class="multi-service-card" itemscope itemtype="https://schema.org/Product">
+                        <script type="application/ld+json">${JSON.stringify(structuredData)}</script>
+                        <div class="multi-service-image">
+                            <div class="image-placeholder">${imageIcon}</div>
+                        </div>
+                        <div class="multi-service-content">
+                            <div class="multi-service-header">
+                                <h3 class="multi-service-title" itemprop="name">${item.name}</h3>
+                            </div>
+                            <div class="multi-service-list">
+                                ${serviceRows}
+                            </div>
+                        </div>
+                    </article>
+                `;
+            }).join('');
+            
+            priceGrid.innerHTML = priceCards;
+        }
+
+        // Event listeners
+        // Handle 'Tümü' category link (simple click)
+        document.querySelectorAll('.blog-category-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                filterByCategory(link.dataset.category);
+                
+                // Close all subcategories when selecting 'Tümü'
+                document.querySelectorAll('.subcategories.expanded').forEach(sub => {
+                    sub.classList.remove('expanded');
+                    const arrow = sub.previousElementSibling.querySelector('.category-arrow');
+                    arrow.classList.remove('expanded');
+                });
+                
+                // Remove active from main categories and subcategories
+                document.querySelectorAll('.category-main-link').forEach(mainLink => {
+                    mainLink.classList.remove('active');
+                });
+                document.querySelectorAll('.subcategory-link').forEach(subLink => {
+                    subLink.classList.remove('active');
+                });
+            });
+        });
+
+        // Handle expandable category main links
+        document.querySelectorAll('.category-main-link').forEach(mainLink => {
+            mainLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                toggleSubcategories(mainLink);
+                
+                // Remove active from simple blog category links
+                document.querySelectorAll('.blog-category-link').forEach(link => {
+                    link.classList.remove('active');
+                });
+                
+                // Add active to this main category
+                document.querySelectorAll('.category-main-link').forEach(link => {
+                    link.classList.remove('active');
+                });
+                mainLink.classList.add('active');
+            });
+        });
+
+        // Handle subcategory links
+        document.querySelectorAll('.subcategory-link').forEach(subLink => {
+            subLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                filterBySubcategory(subLink.dataset.subcategory);
+            });
+        });
+
+        document.querySelectorAll('input[data-process]').forEach(checkbox => {
+            checkbox.addEventListener('change', updateProcessFilters);
+        });
+
+        searchInput.addEventListener('input', searchServices);
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            displayPrices();
+        });
+    </script>
+</body>
+</html>

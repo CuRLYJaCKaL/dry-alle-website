@@ -73,6 +73,22 @@
   background: var(--color-white);
 }
 
+/* Pricing Page Layout - Full height independent sections */
+.modern-blog-container.pricing-layout {
+  display: block;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  background: var(--color-white);
+}
+
+.pricing-main-content {
+  margin-left: 300px;
+  padding: 40px;
+  min-height: 100vh;
+  background: var(--color-white);
+}
+
 /* Blog Main Content */
 .blog-main-content {
   background: var(--color-white);
@@ -228,6 +244,26 @@
     grid-template-columns: 1fr;
     gap: 30px;
     padding: 20px 15px;
+  }
+  
+  .modern-blog-container.pricing-layout {
+    display: block;
+    padding: 0;
+  }
+  
+  .pricing-sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+    order: 2;
+    border-right: none;
+    border-bottom: 2px solid var(--color-gray-300);
+  }
+  
+  .pricing-main-content {
+    margin-left: 0;
+    padding: 20px;
+    order: 1;
   }
   
   .blog-sidebar {

@@ -9,16 +9,18 @@
    ================================ */
 
 .pricing-sidebar {
-  /* Extends blog-sidebar system */
+  /* Full height sidebar without card constraints */
   background: var(--color-bg-card);
-  border: 2px solid var(--color-gray-300);
-  border-radius: 0; /* Corporate square design */
-  padding: var(--spacing-8) var(--spacing-6);
-  height: calc(100vh - 120px);
-  max-height: 800px;
-  position: sticky;
-  top: 20px;
+  border-right: 2px solid var(--color-gray-300);
+  border-radius: 0;
+  padding: var(--spacing-6) var(--spacing-4);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
   overflow-y: auto;
+  z-index: 100;
   scrollbar-width: thin;
   scrollbar-color: var(--color-primary-darker) var(--color-gray-200);
 }
