@@ -67,3 +67,37 @@ RewriteRule ^blog/pillar\-content/ultimate\-turkish\-dry\-cleaning\-guide\\\.htm
 RewriteRule ^blog/utu\-hizmetleri/ev\-utusu\-vs\-profesyonel\-utu\-hizmeti\\\.html$ /blog/ev-utusu-vs-professional-utu-hizmeti/ [R=301,L]
 
 # End Blog URL Redirects
+
+# ========================================
+# 404 ERROR HANDLING & USER REDIRECTION
+# ========================================
+
+# Mevcut olmayan sayfalara gelen ziyaretçileri ana sayfaya yönlendir
+ErrorDocument 404 /index.html
+
+# Türkçe karakterli URL'ler için özel yönlendirmeler
+RewriteRule ^i-leti[şs]im/?$ / [R=301,L]
+RewriteRule ^iletisim/?$ / [R=301,L]
+RewriteRule ^contact/?$ / [R=301,L]
+RewriteRule ^hakkimizda/?$ / [R=301,L]
+RewriteRule ^hakkımızda/?$ / [R=301,L]
+RewriteRule ^about/?$ / [R=301,L]
+RewriteRule ^galeri/?$ / [R=301,L]
+RewriteRule ^gallery/?$ / [R=301,L]
+RewriteRule ^referanslar/?$ / [R=301,L]
+RewriteRule ^references/?$ / [R=301,L]
+RewriteRule ^iletişim/?$ / [R=301,L]
+
+# Eski sayfa yapısından gelebilecek istekler
+RewriteRule ^services/?$ /hizmetler/kuru-temizleme.html [R=301,L]
+RewriteRule ^pricing/?$ /fiyatlar.html [R=301,L]
+RewriteRule ^blog-old/?(.*)$ /blog/ [R=301,L]
+
+# SEO için: Çift slash'ları tek slash'a çevir
+RewriteRule ^(.*)//(.*)$ /$1/$2 [R=301,L]
+
+# Trailing slash normalizasyonu (HTML dosyalar hariç)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.html$
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*)$ /$1/ [R=301,L]
