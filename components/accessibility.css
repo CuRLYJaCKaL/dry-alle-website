@@ -1,0 +1,315 @@
+/* ==============================================
+   DRY ALLE - ACCESSIBILITY COMPONENT
+   MIT Architecture Compatible
+   WCAG 2.1 AA Compliance - Merkezi Erişilebilirlik Sistemi
+   ============================================== */
+
+/* CSS Custom Properties - Mevcut variables.css ile uyumlu */
+:root {
+    --accessibility-primary: var(--primary-green, #006a44);
+    --accessibility-focus-shadow: rgba(0, 106, 68, 0.3);
+    --accessibility-error: #dc3545;
+    --accessibility-text-muted: #718096;
+    --accessibility-text-light: #4a5568;
+    --accessibility-focus-width: 2px;
+    --accessibility-touch-target: 44px;
+}
+
+/* ==============================================
+   1. SKIP NAVIGATION - Keyboard Users
+   ============================================== */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: var(--accessibility-primary);
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    z-index: 1000;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: top 0.15s ease-in-out;
+}
+
+.skip-link:focus {
+    top: 6px;
+}
+
+/* ==============================================
+   2. FOCUS MANAGEMENT - Keyboard Navigation
+   ============================================== */
+
+/* Universal Focus Reset - Clean slate */
+*:focus {
+    outline: none;
+}
+
+/* Focus States for Interactive Elements */
+.nav-menu a:focus,
+.cta-button:focus,
+.contact-button:focus,
+.btn:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+.pricing-category-link:focus,
+[tabindex]:focus {
+    outline: var(--accessibility-focus-width) solid var(--accessibility-primary);
+    outline-offset: var(--accessibility-focus-width);
+    border-radius: 4px;
+}
+
+/* Enhanced Focus for Critical Actions */
+.cta-button:focus,
+.contact-button:focus,
+[href^="tel:"]:focus,
+[href*="whatsapp"]:focus {
+    box-shadow: 0 0 0 3px var(--accessibility-focus-shadow);
+}
+
+/* ==============================================
+   3. SCREEN READER SUPPORT
+   ============================================== */
+
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* ==============================================
+   4. FORM ACCESSIBILITY - MIT Compatible
+   ============================================== */
+
+.form-label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: var(--text-dark, #333);
+}
+
+.required {
+    color: var(--accessibility-error);
+    font-weight: bold;
+}
+
+.form-help {
+    font-size: 0.875rem;
+    color: var(--accessibility-text-muted);
+    margin-top: 4px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-error {
+    color: var(--accessibility-error);
+    font-size: 0.875rem;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.form-error::before {
+    content: "⚠️";
+    margin-right: 4px;
+}
+
+/* Input Validation States */
+input[aria-invalid="true"],
+textarea[aria-invalid="true"],
+select[aria-invalid="true"] {
+    border-color: var(--accessibility-error);
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+/* ==============================================
+   5. INTERACTIVE STATES
+   ============================================== */
+
+/* Disabled States */
+button[disabled],
+.btn[disabled],
+.cta-button[disabled],
+input[disabled],
+textarea[disabled],
+select[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* ==============================================
+   6. COLOR CONTRAST & TYPOGRAPHY
+   ============================================== */
+
+.text-light {
+    color: var(--accessibility-text-light);
+}
+
+.text-muted {
+    color: var(--accessibility-text-muted);
+}
+
+/* Enhanced Link Accessibility */
+a {
+    color: var(--accessibility-primary);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+    color: var(--primary-dark, #004d32);
+    text-decoration-color: currentColor;
+}
+
+/* ==============================================
+   7. MOBILE TOUCH TARGETS - WCAG AAA
+   ============================================== */
+
+@media (max-width: 768px) {
+    /* Minimum 44px touch targets */
+    .contact-button,
+    .cta-button,
+    .nav-menu a,
+    button,
+    .btn,
+    [role="button"],
+    [tabindex="0"] {
+        min-height: var(--accessibility-touch-target);
+        min-width: var(--accessibility-touch-target);
+        padding: 12px 16px;
+        position: relative;
+    }
+    
+    /* Phone and WhatsApp links */
+    [href^="tel:"],
+    [href*="whatsapp"],
+    .phone-link,
+    .whatsapp-link {
+        display: inline-flex;
+        align-items: center;
+        min-height: var(--accessibility-touch-target);
+        padding: 8px 12px;
+    }
+}
+
+/* ==============================================
+   8. LOADING & ANIMATION STATES
+   ============================================== */
+
+.loading {
+    position: relative;
+}
+
+.loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid var(--bg-gray-300, #e2e8f0);
+    border-top: 2px solid var(--accessibility-primary);
+    border-radius: 50%;
+    animation: accessibility-spin 1s linear infinite;
+}
+
+@keyframes accessibility-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ==============================================
+   9. PROGRESSIVE ENHANCEMENT - User Preferences
+   ============================================== */
+
+/* Reduced Motion Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    
+    .skip-link {
+        transition: none;
+    }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    .cta-button,
+    .contact-button,
+    .btn {
+        border: 2px solid currentColor;
+        background: transparent;
+        color: var(--accessibility-primary);
+    }
+    
+    .nav-menu a {
+        border-bottom: 1px solid transparent;
+        font-weight: 600;
+    }
+    
+    .nav-menu a:hover,
+    .nav-menu a:focus {
+        border-bottom-color: currentColor;
+        background: var(--accessibility-primary);
+        color: white;
+    }
+}
+
+/* ==============================================
+   10. COMPONENT FOCUS MANAGEMENT
+   ============================================== */
+
+/* Focus Within for Complex Components */
+.pricing-sidebar:focus-within,
+.service-sidebar:focus-within,
+.blog-sidebar:focus-within {
+    box-shadow: 0 0 0 2px var(--accessibility-focus-shadow);
+    border-radius: 8px;
+}
+
+/* ==============================================
+   11. ARIA LIVE REGIONS - Dynamic Content
+   ============================================== */
+
+.sr-live-polite {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+}
+
+/* Search Results Announcement */
+.search-results-announcement {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* ==============================================
+   MIT ARCHITECTURE INTEGRATION COMPLETE
+   Tüm accessibility özellikler merkezi olarak yönetiliyor
+   ============================================== */

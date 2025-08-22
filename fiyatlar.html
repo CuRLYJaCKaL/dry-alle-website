@@ -156,6 +156,9 @@
     <link rel="stylesheet" href="styles/components/pricing-filters.css">
     <link rel="stylesheet" href="styles/components/pricing-faq.css">
     
+    <!-- Accessibility Component - MIT Architecture -->
+    <link rel="stylesheet" href="components/accessibility.css">
+    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
     
@@ -393,8 +396,11 @@
     
 </head>
 <body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Ana içeriğe geç</a>
+    
     <!-- Header -->
-    <header class="header">
+    <header class="header" role="banner">
         <div class="header-container">
             <div class="logo">
                 <a href="index.html">
@@ -405,34 +411,41 @@
                 </a>
             </div>
             
-            <div class="contact-button">
-                <div class="phone-icon">📞</div>
+            <button class="contact-button" aria-label="Telefon ile iletişim kurun" onclick="window.location.href='tel:+905433527474'">
+                <div class="phone-icon" aria-hidden="true">📞</div>
                 <span>İletişim</span>
-            </div>
+            </button>
         </div>
         
         <!-- Navigation -->
-        <nav class="main-nav">
-            <ul class="nav-menu">
-                <li><a href="index.html#services">Hizmetlerimiz</a></li>
-                <li><a href="index.html#about">Hakkımızda</a></li>
-                <li><a href="blog/index.html">Blog</a></li>
-                <li><a href="fiyatlar.html" class="active">Fiyatlar</a></li>
-                <li><a href="index.html#contact">İletişim</a></li>
+        <nav class="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
+            <ul class="nav-menu" role="menubar">
+                <li role="none"><a href="index.html#services" role="menuitem">Hizmetlerimiz</a></li>
+                <li role="none"><a href="index.html#about" role="menuitem">Hakkımızda</a></li>
+                <li role="none"><a href="blog/index.html" role="menuitem">Blog</a></li>
+                <li role="none"><a href="fiyatlar.html" class="active" role="menuitem" aria-current="page">Fiyatlar</a></li>
+                <li role="none"><a href="index.html#contact" role="menuitem">İletişim</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Modern Pricing Layout (Following Blog Pattern) -->
+    <!-- Main Content -->
+    <main id="main-content" role="main">
     <div class="modern-blog-container">
         <!-- Pricing Sidebar (Category Filters) -->
-        <aside class="pricing-sidebar">
+        <aside class="pricing-sidebar" role="complementary" aria-label="Hizmet kategorileri ve filtreleme">
             <h2>Hizmet Kategorileri</h2>
             
             <!-- Modern Search -->
             <div class="pricing-search-container">
-                <div class="pricing-search-icon">🔍</div>
-                <input type="text" class="pricing-search-input" id="serviceSearch" placeholder="Hizmet arayın...">
+                <label for="serviceSearch" class="sr-only">Hizmet arayın</label>
+                <div class="pricing-search-icon" aria-hidden="true">🔍</div>
+                <input type="text" 
+                       class="pricing-search-input" 
+                       id="serviceSearch" 
+                       placeholder="Hizmet arayın..."
+                       aria-describedby="search-help">
+                <div id="search-help" class="sr-only">Aradığınız hizmetin adını yazın</div>
             </div>
             
             <!-- Service Categories with Expandable Subcategories -->
@@ -645,6 +658,7 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer class="main-footer">
