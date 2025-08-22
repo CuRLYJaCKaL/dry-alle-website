@@ -1,0 +1,2117 @@
+{
+  "timestamp": "2025-08-22T03:07:57.670434",
+  "summary": {
+    "total_pages_analyzed": 41,
+    "current_monthly_traffic": 530,
+    "projected_6m_traffic": 1097,
+    "growth_potential": 107.0,
+    "avg_serp_position": 9.0
+  },
+  "traffic_forecast": {
+    "bostanci-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 296,
+        "estimated_clicks": 2,
+        "ctr": 1.0,
+        "serp_position": 12,
+        "region_factor": 0.33
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 11,
+          "clicks": 2
+        },
+        {
+          "month": 2,
+          "position": 10,
+          "clicks": 5
+        },
+        {
+          "month": 3,
+          "position": 10,
+          "clicks": 5
+        },
+        {
+          "month": 4,
+          "position": 9,
+          "clicks": 6
+        },
+        {
+          "month": 5,
+          "position": 9,
+          "clicks": 6
+        },
+        {
+          "month": 6,
+          "position": 8,
+          "clicks": 7
+        }
+      ]
+    },
+    "fenerbahce-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 322,
+        "estimated_clicks": 3,
+        "ctr": 1.0,
+        "serp_position": 16,
+        "region_factor": 0.27
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 15,
+          "clicks": 3
+        },
+        {
+          "month": 2,
+          "position": 14,
+          "clicks": 3
+        },
+        {
+          "month": 3,
+          "position": 13,
+          "clicks": 3
+        },
+        {
+          "month": 4,
+          "position": 12,
+          "clicks": 3
+        },
+        {
+          "month": 5,
+          "position": 12,
+          "clicks": 3
+        },
+        {
+          "month": 6,
+          "position": 11,
+          "clicks": 3
+        }
+      ]
+    },
+    "icerenkoy-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 295,
+        "estimated_clicks": 5,
+        "ctr": 1.9,
+        "serp_position": 10,
+        "region_factor": 0.24
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 9,
+          "clicks": 6
+        },
+        {
+          "month": 2,
+          "position": 9,
+          "clicks": 6
+        },
+        {
+          "month": 3,
+          "position": 8,
+          "clicks": 7
+        },
+        {
+          "month": 4,
+          "position": 8,
+          "clicks": 7
+        },
+        {
+          "month": 5,
+          "position": 7,
+          "clicks": 9
+        },
+        {
+          "month": 6,
+          "position": 7,
+          "clicks": 9
+        }
+      ]
+    },
+    "uskudar-gelinlik-temizleme.html": {
+      "current": {
+        "monthly_searches": 1478,
+        "estimated_clicks": 47,
+        "ctr": 3.2,
+        "serp_position": 7,
+        "region_factor": 1.22
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 6,
+          "clicks": 60
+        },
+        {
+          "month": 2,
+          "position": 6,
+          "clicks": 60
+        },
+        {
+          "month": 3,
+          "position": 5,
+          "clicks": 78
+        },
+        {
+          "month": 4,
+          "position": 5,
+          "clicks": 78
+        },
+        {
+          "month": 5,
+          "position": 5,
+          "clicks": 78
+        },
+        {
+          "month": 6,
+          "position": 4,
+          "clicks": 107
+        }
+      ]
+    },
+    "atasehir-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 1210,
+        "estimated_clicks": 49,
+        "ctr": 4.1,
+        "serp_position": 6,
+        "region_factor": 1.0
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 5,
+          "clicks": 64
+        },
+        {
+          "month": 2,
+          "position": 5,
+          "clicks": 64
+        },
+        {
+          "month": 3,
+          "position": 5,
+          "clicks": 64
+        },
+        {
+          "month": 4,
+          "position": 4,
+          "clicks": 88
+        },
+        {
+          "month": 5,
+          "position": 4,
+          "clicks": 88
+        },
+        {
+          "month": 6,
+          "position": 4,
+          "clicks": 88
+        }
+      ]
+    },
+    "umraniye-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 1882,
+        "estimated_clicks": 99,
+        "ctr": 5.3,
+        "serp_position": 5,
+        "region_factor": 1.56
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 4,
+          "clicks": 137
+        },
+        {
+          "month": 2,
+          "position": 4,
+          "clicks": 137
+        },
+        {
+          "month": 3,
+          "position": 4,
+          "clicks": 137
+        },
+        {
+          "month": 4,
+          "position": 4,
+          "clicks": 137
+        },
+        {
+          "month": 5,
+          "position": 3,
+          "clicks": 193
+        },
+        {
+          "month": 6,
+          "position": 3,
+          "clicks": 193
+        }
+      ]
+    },
+    "erenkoy-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 228,
+        "estimated_clicks": 2,
+        "ctr": 1.0,
+        "serp_position": 12,
+        "region_factor": 0.19
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 11,
+          "clicks": 2
+        },
+        {
+          "month": 2,
+          "position": 10,
+          "clicks": 4
+        },
+        {
+          "month": 3,
+          "position": 10,
+          "clicks": 4
+        },
+        {
+          "month": 4,
+          "position": 9,
+          "clicks": 5
+        },
+        {
+          "month": 5,
+          "position": 9,
+          "clicks": 5
+        },
+        {
+          "month": 6,
+          "position": 8,
+          "clicks": 5
+        }
+      ]
+    },
+    "umraniye-vip-temizlik.html": {
+      "current": {
+        "monthly_searches": 373,
+        "estimated_clicks": 27,
+        "ctr": 7.3,
+        "serp_position": 4,
+        "region_factor": 1.56
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 3,
+          "clicks": 38
+        },
+        {
+          "month": 2,
+          "position": 3,
+          "clicks": 38
+        },
+        {
+          "month": 3,
+          "position": 3,
+          "clicks": 38
+        },
+        {
+          "month": 4,
+          "position": 3,
+          "clicks": 38
+        },
+        {
+          "month": 5,
+          "position": 3,
+          "clicks": 38
+        },
+        {
+          "month": 6,
+          "position": 2,
+          "clicks": 54
+        }
+      ]
+    },
+    "sahrayicedit-premium-bakim.html": {
+      "current": {
+        "monthly_searches": 45,
+        "estimated_clicks": 3,
+        "ctr": 7.3,
+        "serp_position": 4,
+        "region_factor": 0.19
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 3,
+          "clicks": 4
+        },
+        {
+          "month": 2,
+          "position": 3,
+          "clicks": 4
+        },
+        {
+          "month": 3,
+          "position": 3,
+          "clicks": 4
+        },
+        {
+          "month": 4,
+          "position": 3,
+          "clicks": 4
+        },
+        {
+          "month": 5,
+          "position": 3,
+          "clicks": 4
+        },
+        {
+          "month": 6,
+          "position": 2,
+          "clicks": 6
+        }
+      ]
+    },
+    "fenerbahce-kuru-temizleme.html": {
+      "current": {
+        "monthly_searches": 176,
+        "estimated_clicks": 5,
+        "ctr": 3.2,
+        "serp_position": 7,
+        "region_factor": 0.27
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 6,
+          "clicks": 7
+        },
+        {
+          "month": 2,
+          "position": 6,
+          "clicks": 7
+        },
+        {
+          "month": 3,
+          "position": 5,
+          "clicks": 9
+        },
+        {
+          "month": 4,
+          "position": 5,
+          "clicks": 9
+        },
+        {
+          "month": 5,
+          "position": 5,
+          "clicks": 9
+        },
+        {
+          "month": 6,
+          "position": 4,
+          "clicks": 12
+        }
+      ]
+    },
+    "kadikoy-luxury-kiyafet.html": {
+      "current": {
+        "monthly_searches": 240,
+        "estimated_clicks": 17,
+        "ctr": 7.3,
+        "serp_position": 4,
+        "region_factor": 1.0
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 3,
+          "clicks": 24
+        },
+        {
+          "month": 2,
+          "position": 3,
+          "clicks": 24
+        },
+        {
+          "month": 3,
+          "position": 3,
+          "clicks": 24
+        },
+        {
+          "month": 4,
+          "position": 3,
+          "clicks": 24
+        },
+        {
+          "month": 5,
+          "position": 3,
+          "clicks": 24
+        },
+        {
+          "month": 6,
+          "position": 2,
+          "clicks": 35
+        }
+      ]
+    },
+    "bagdat-caddesi-haute-couture.html": {
+      "current": {
+        "monthly_searches": 53,
+        "estimated_clicks": 15,
+        "ctr": 28.4,
+        "serp_position": 1,
+        "region_factor": 0.22
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 1,
+          "clicks": 15
+        },
+        {
+          "month": 2,
+          "position": 1,
+          "clicks": 15
+        },
+        {
+          "month": 3,
+          "position": 1,
+          "clicks": 15
+        },
+        {
+          "month": 4,
+          "position": 1,
+          "clicks": 15
+        },
+        {
+          "month": 5,
+          "position": 1,
+          "clicks": 15
+        },
+        {
+          "month": 6,
+          "position": 1,
+          "clicks": 15
+        }
+      ]
+    },
+    "pendik-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 1285,
+        "estimated_clicks": 33,
+        "ctr": 2.6,
+        "serp_position": 8,
+        "region_factor": 1.44
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 7,
+          "clicks": 41
+        },
+        {
+          "month": 2,
+          "position": 7,
+          "clicks": 41
+        },
+        {
+          "month": 3,
+          "position": 6,
+          "clicks": 52
+        },
+        {
+          "month": 4,
+          "position": 6,
+          "clicks": 52
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 52
+        },
+        {
+          "month": 6,
+          "position": 5,
+          "clicks": 68
+        }
+      ]
+    },
+    "maltepe-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 1344,
+        "estimated_clicks": 13,
+        "ctr": 1.0,
+        "serp_position": 12,
+        "region_factor": 1.11
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 11,
+          "clicks": 13
+        },
+        {
+          "month": 2,
+          "position": 10,
+          "clicks": 25
+        },
+        {
+          "month": 3,
+          "position": 10,
+          "clicks": 25
+        },
+        {
+          "month": 4,
+          "position": 9,
+          "clicks": 29
+        },
+        {
+          "month": 5,
+          "position": 9,
+          "clicks": 29
+        },
+        {
+          "month": 6,
+          "position": 8,
+          "clicks": 34
+        }
+      ]
+    },
+    "acibadem-kuru-temizleme.html": {
+      "current": {
+        "monthly_searches": 139,
+        "estimated_clicks": 5,
+        "ctr": 4.1,
+        "serp_position": 6,
+        "region_factor": 0.21
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 5,
+          "clicks": 7
+        },
+        {
+          "month": 2,
+          "position": 5,
+          "clicks": 7
+        },
+        {
+          "month": 3,
+          "position": 5,
+          "clicks": 7
+        },
+        {
+          "month": 4,
+          "position": 4,
+          "clicks": 10
+        },
+        {
+          "month": 5,
+          "position": 4,
+          "clicks": 10
+        },
+        {
+          "month": 6,
+          "position": 4,
+          "clicks": 10
+        }
+      ]
+    },
+    "uskudar-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 1478,
+        "estimated_clicks": 14,
+        "ctr": 1.0,
+        "serp_position": 12,
+        "region_factor": 1.22
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 11,
+          "clicks": 14
+        },
+        {
+          "month": 2,
+          "position": 10,
+          "clicks": 28
+        },
+        {
+          "month": 3,
+          "position": 10,
+          "clicks": 28
+        },
+        {
+          "month": 4,
+          "position": 9,
+          "clicks": 32
+        },
+        {
+          "month": 5,
+          "position": 9,
+          "clicks": 32
+        },
+        {
+          "month": 6,
+          "position": 8,
+          "clicks": 38
+        }
+      ]
+    },
+    "atasehir-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 890,
+        "estimated_clicks": 19,
+        "ctr": 2.2,
+        "serp_position": 9,
+        "region_factor": 1.0
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 8,
+          "clicks": 23
+        },
+        {
+          "month": 2,
+          "position": 8,
+          "clicks": 23
+        },
+        {
+          "month": 3,
+          "position": 7,
+          "clicks": 28
+        },
+        {
+          "month": 4,
+          "position": 7,
+          "clicks": 28
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 36
+        },
+        {
+          "month": 6,
+          "position": 6,
+          "clicks": 36
+        }
+      ]
+    },
+    "suadiye-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 178,
+        "estimated_clicks": 1,
+        "ctr": 1.0,
+        "serp_position": 11,
+        "region_factor": 0.2
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 10,
+          "clicks": 3
+        },
+        {
+          "month": 2,
+          "position": 9,
+          "clicks": 3
+        },
+        {
+          "month": 3,
+          "position": 9,
+          "clicks": 3
+        },
+        {
+          "month": 4,
+          "position": 8,
+          "clicks": 4
+        },
+        {
+          "month": 5,
+          "position": 8,
+          "clicks": 4
+        },
+        {
+          "month": 6,
+          "position": 7,
+          "clicks": 5
+        }
+      ]
+    },
+    "fenerbahce-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 237,
+        "estimated_clicks": 2,
+        "ctr": 1.0,
+        "serp_position": 19,
+        "region_factor": 0.27
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 18,
+          "clicks": 2
+        },
+        {
+          "month": 2,
+          "position": 17,
+          "clicks": 2
+        },
+        {
+          "month": 3,
+          "position": 16,
+          "clicks": 2
+        },
+        {
+          "month": 4,
+          "position": 15,
+          "clicks": 2
+        },
+        {
+          "month": 5,
+          "position": 14,
+          "clicks": 2
+        },
+        {
+          "month": 6,
+          "position": 13,
+          "clicks": 2
+        }
+      ]
+    },
+    "barbaros-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 89,
+        "estimated_clicks": 0,
+        "ctr": 1.0,
+        "serp_position": 13,
+        "region_factor": 0.1
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 12,
+          "clicks": 0
+        },
+        {
+          "month": 2,
+          "position": 11,
+          "clicks": 0
+        },
+        {
+          "month": 3,
+          "position": 11,
+          "clicks": 0
+        },
+        {
+          "month": 4,
+          "position": 10,
+          "clicks": 1
+        },
+        {
+          "month": 5,
+          "position": 9,
+          "clicks": 1
+        },
+        {
+          "month": 6,
+          "position": 9,
+          "clicks": 1
+        }
+      ]
+    },
+    "kucukbakkalkoy-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 148,
+        "estimated_clicks": 1,
+        "ctr": 1.0,
+        "serp_position": 11,
+        "region_factor": 0.17
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 10,
+          "clicks": 2
+        },
+        {
+          "month": 2,
+          "position": 9,
+          "clicks": 3
+        },
+        {
+          "month": 3,
+          "position": 9,
+          "clicks": 3
+        },
+        {
+          "month": 4,
+          "position": 8,
+          "clicks": 3
+        },
+        {
+          "month": 5,
+          "position": 8,
+          "clicks": 3
+        },
+        {
+          "month": 6,
+          "position": 7,
+          "clicks": 4
+        }
+      ]
+    },
+    "bagdat-caddesi-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 197,
+        "estimated_clicks": 5,
+        "ctr": 2.6,
+        "serp_position": 8,
+        "region_factor": 0.22
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 7,
+          "clicks": 6
+        },
+        {
+          "month": 2,
+          "position": 7,
+          "clicks": 6
+        },
+        {
+          "month": 3,
+          "position": 6,
+          "clicks": 8
+        },
+        {
+          "month": 4,
+          "position": 6,
+          "clicks": 8
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 8
+        },
+        {
+          "month": 6,
+          "position": 5,
+          "clicks": 10
+        }
+      ]
+    },
+    "uskudar-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 1087,
+        "estimated_clicks": 10,
+        "ctr": 1.0,
+        "serp_position": 12,
+        "region_factor": 1.22
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 11,
+          "clicks": 10
+        },
+        {
+          "month": 2,
+          "position": 10,
+          "clicks": 20
+        },
+        {
+          "month": 3,
+          "position": 10,
+          "clicks": 20
+        },
+        {
+          "month": 4,
+          "position": 9,
+          "clicks": 23
+        },
+        {
+          "month": 5,
+          "position": 9,
+          "clicks": 23
+        },
+        {
+          "month": 6,
+          "position": 8,
+          "clicks": 28
+        }
+      ]
+    },
+    "kalamis-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 69,
+        "estimated_clicks": 1,
+        "ctr": 2.6,
+        "serp_position": 8,
+        "region_factor": 0.08
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 7,
+          "clicks": 2
+        },
+        {
+          "month": 2,
+          "position": 7,
+          "clicks": 2
+        },
+        {
+          "month": 3,
+          "position": 6,
+          "clicks": 2
+        },
+        {
+          "month": 4,
+          "position": 6,
+          "clicks": 2
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 2
+        },
+        {
+          "month": 6,
+          "position": 5,
+          "clicks": 3
+        }
+      ]
+    },
+    "caddebostan-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 215,
+        "estimated_clicks": 8,
+        "ctr": 4.1,
+        "serp_position": 6,
+        "region_factor": 0.18
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 5,
+          "clicks": 11
+        },
+        {
+          "month": 2,
+          "position": 5,
+          "clicks": 11
+        },
+        {
+          "month": 3,
+          "position": 5,
+          "clicks": 11
+        },
+        {
+          "month": 4,
+          "position": 4,
+          "clicks": 15
+        },
+        {
+          "month": 5,
+          "position": 4,
+          "clicks": 15
+        },
+        {
+          "month": 6,
+          "position": 4,
+          "clicks": 15
+        }
+      ]
+    },
+    "kadikoy-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 890,
+        "estimated_clicks": 8,
+        "ctr": 1.0,
+        "serp_position": 11,
+        "region_factor": 1.0
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 10,
+          "clicks": 16
+        },
+        {
+          "month": 2,
+          "position": 9,
+          "clicks": 19
+        },
+        {
+          "month": 3,
+          "position": 9,
+          "clicks": 19
+        },
+        {
+          "month": 4,
+          "position": 8,
+          "clicks": 23
+        },
+        {
+          "month": 5,
+          "position": 8,
+          "clicks": 23
+        },
+        {
+          "month": 6,
+          "position": 7,
+          "clicks": 28
+        }
+      ]
+    },
+    "moda-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 79,
+        "estimated_clicks": 1,
+        "ctr": 2.2,
+        "serp_position": 9,
+        "region_factor": 0.09
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 8,
+          "clicks": 2
+        },
+        {
+          "month": 2,
+          "position": 8,
+          "clicks": 2
+        },
+        {
+          "month": 3,
+          "position": 7,
+          "clicks": 2
+        },
+        {
+          "month": 4,
+          "position": 7,
+          "clicks": 2
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 3
+        },
+        {
+          "month": 6,
+          "position": 6,
+          "clicks": 3
+        }
+      ]
+    },
+    "fikirtepe-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 356,
+        "estimated_clicks": 3,
+        "ctr": 1.0,
+        "serp_position": 11,
+        "region_factor": 0.4
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 10,
+          "clicks": 6
+        },
+        {
+          "month": 2,
+          "position": 9,
+          "clicks": 7
+        },
+        {
+          "month": 3,
+          "position": 9,
+          "clicks": 7
+        },
+        {
+          "month": 4,
+          "position": 8,
+          "clicks": 9
+        },
+        {
+          "month": 5,
+          "position": 8,
+          "clicks": 9
+        },
+        {
+          "month": 6,
+          "position": 7,
+          "clicks": 11
+        }
+      ]
+    },
+    "kozyatagi-kuru-temizleme.html": {
+      "current": {
+        "monthly_searches": 205,
+        "estimated_clicks": 5,
+        "ctr": 2.6,
+        "serp_position": 8,
+        "region_factor": 0.31
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 7,
+          "clicks": 6
+        },
+        {
+          "month": 2,
+          "position": 7,
+          "clicks": 6
+        },
+        {
+          "month": 3,
+          "position": 6,
+          "clicks": 8
+        },
+        {
+          "month": 4,
+          "position": 6,
+          "clicks": 8
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 8
+        },
+        {
+          "month": 6,
+          "position": 5,
+          "clicks": 10
+        }
+      ]
+    },
+    "uskudar-luxury-kiyafet.html": {
+      "current": {
+        "monthly_searches": 293,
+        "estimated_clicks": 15,
+        "ctr": 5.3,
+        "serp_position": 5,
+        "region_factor": 1.22
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 4,
+          "clicks": 21
+        },
+        {
+          "month": 2,
+          "position": 4,
+          "clicks": 21
+        },
+        {
+          "month": 3,
+          "position": 4,
+          "clicks": 21
+        },
+        {
+          "month": 4,
+          "position": 4,
+          "clicks": 21
+        },
+        {
+          "month": 5,
+          "position": 3,
+          "clicks": 30
+        },
+        {
+          "month": 6,
+          "position": 3,
+          "clicks": 30
+        }
+      ]
+    },
+    "altunizade-premium-temizlik.html": {
+      "current": {
+        "monthly_searches": 50,
+        "estimated_clicks": 7,
+        "ctr": 14.7,
+        "serp_position": 2,
+        "region_factor": 0.21
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 1,
+          "clicks": 14
+        },
+        {
+          "month": 2,
+          "position": 1,
+          "clicks": 14
+        },
+        {
+          "month": 3,
+          "position": 1,
+          "clicks": 14
+        },
+        {
+          "month": 4,
+          "position": 1,
+          "clicks": 14
+        },
+        {
+          "month": 5,
+          "position": 1,
+          "clicks": 14
+        },
+        {
+          "month": 6,
+          "position": 1,
+          "clicks": 14
+        }
+      ]
+    },
+    "altunizade-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 255,
+        "estimated_clicks": 5,
+        "ctr": 2.2,
+        "serp_position": 9,
+        "region_factor": 0.21
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 8,
+          "clicks": 6
+        },
+        {
+          "month": 2,
+          "position": 8,
+          "clicks": 6
+        },
+        {
+          "month": 3,
+          "position": 7,
+          "clicks": 8
+        },
+        {
+          "month": 4,
+          "position": 7,
+          "clicks": 8
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 10
+        },
+        {
+          "month": 6,
+          "position": 6,
+          "clicks": 10
+        }
+      ]
+    },
+    "caddebostan-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 158,
+        "estimated_clicks": 1,
+        "ctr": 1.0,
+        "serp_position": 12,
+        "region_factor": 0.18
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 11,
+          "clicks": 1
+        },
+        {
+          "month": 2,
+          "position": 10,
+          "clicks": 3
+        },
+        {
+          "month": 3,
+          "position": 10,
+          "clicks": 3
+        },
+        {
+          "month": 4,
+          "position": 9,
+          "clicks": 3
+        },
+        {
+          "month": 5,
+          "position": 9,
+          "clicks": 3
+        },
+        {
+          "month": 6,
+          "position": 8,
+          "clicks": 4
+        }
+      ]
+    },
+    "maltepe-luxury-hizmet.html": {
+      "current": {
+        "monthly_searches": 266,
+        "estimated_clicks": 19,
+        "ctr": 7.3,
+        "serp_position": 4,
+        "region_factor": 1.11
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 3,
+          "clicks": 27
+        },
+        {
+          "month": 2,
+          "position": 3,
+          "clicks": 27
+        },
+        {
+          "month": 3,
+          "position": 3,
+          "clicks": 27
+        },
+        {
+          "month": 4,
+          "position": 3,
+          "clicks": 27
+        },
+        {
+          "month": 5,
+          "position": 3,
+          "clicks": 27
+        },
+        {
+          "month": 6,
+          "position": 2,
+          "clicks": 39
+        }
+      ]
+    },
+    "kucukbakkalkoy-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 201,
+        "estimated_clicks": 5,
+        "ctr": 2.6,
+        "serp_position": 8,
+        "region_factor": 0.17
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 7,
+          "clicks": 6
+        },
+        {
+          "month": 2,
+          "position": 7,
+          "clicks": 6
+        },
+        {
+          "month": 3,
+          "position": 6,
+          "clicks": 8
+        },
+        {
+          "month": 4,
+          "position": 6,
+          "clicks": 8
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 8
+        },
+        {
+          "month": 6,
+          "position": 5,
+          "clicks": 10
+        }
+      ]
+    },
+    "goztepe-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 322,
+        "estimated_clicks": 7,
+        "ctr": 2.2,
+        "serp_position": 9,
+        "region_factor": 0.27
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 8,
+          "clicks": 8
+        },
+        {
+          "month": 2,
+          "position": 8,
+          "clicks": 8
+        },
+        {
+          "month": 3,
+          "position": 7,
+          "clicks": 10
+        },
+        {
+          "month": 4,
+          "position": 7,
+          "clicks": 10
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 13
+        },
+        {
+          "month": 6,
+          "position": 6,
+          "clicks": 13
+        }
+      ]
+    },
+    "kadikoy-kuru-temizleme.html": {
+      "current": {
+        "monthly_searches": 660,
+        "estimated_clicks": 17,
+        "ctr": 2.6,
+        "serp_position": 8,
+        "region_factor": 1.0
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 7,
+          "clicks": 21
+        },
+        {
+          "month": 2,
+          "position": 7,
+          "clicks": 21
+        },
+        {
+          "month": 3,
+          "position": 6,
+          "clicks": 27
+        },
+        {
+          "month": 4,
+          "position": 6,
+          "clicks": 27
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 27
+        },
+        {
+          "month": 6,
+          "position": 5,
+          "clicks": 34
+        }
+      ]
+    },
+    "suadiye-hali-yikama.html": {
+      "current": {
+        "monthly_searches": 242,
+        "estimated_clicks": 5,
+        "ctr": 2.2,
+        "serp_position": 9,
+        "region_factor": 0.2
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 8,
+          "clicks": 6
+        },
+        {
+          "month": 2,
+          "position": 8,
+          "clicks": 6
+        },
+        {
+          "month": 3,
+          "position": 7,
+          "clicks": 7
+        },
+        {
+          "month": 4,
+          "position": 7,
+          "clicks": 7
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 9
+        },
+        {
+          "month": 6,
+          "position": 6,
+          "clicks": 9
+        }
+      ]
+    },
+    "atasehir-premium-temizlik.html": {
+      "current": {
+        "monthly_searches": 240,
+        "estimated_clicks": 17,
+        "ctr": 7.3,
+        "serp_position": 4,
+        "region_factor": 1.0
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 3,
+          "clicks": 24
+        },
+        {
+          "month": 2,
+          "position": 3,
+          "clicks": 24
+        },
+        {
+          "month": 3,
+          "position": 3,
+          "clicks": 24
+        },
+        {
+          "month": 4,
+          "position": 3,
+          "clicks": 24
+        },
+        {
+          "month": 5,
+          "position": 3,
+          "clicks": 24
+        },
+        {
+          "month": 6,
+          "position": 2,
+          "clicks": 35
+        }
+      ]
+    },
+    "camlica-kuru-temizleme.html": {
+      "current": {
+        "monthly_searches": 88,
+        "estimated_clicks": 6,
+        "ctr": 7.3,
+        "serp_position": 4,
+        "region_factor": 0.13
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 3,
+          "clicks": 9
+        },
+        {
+          "month": 2,
+          "position": 3,
+          "clicks": 9
+        },
+        {
+          "month": 3,
+          "position": 3,
+          "clicks": 9
+        },
+        {
+          "month": 4,
+          "position": 3,
+          "clicks": 9
+        },
+        {
+          "month": 5,
+          "position": 3,
+          "clicks": 9
+        },
+        {
+          "month": 6,
+          "position": 2,
+          "clicks": 12
+        }
+      ]
+    },
+    "kartal-koltuk-yikama.html": {
+      "current": {
+        "monthly_searches": 890,
+        "estimated_clicks": 23,
+        "ctr": 2.6,
+        "serp_position": 8,
+        "region_factor": 1.0
+      },
+      "forecast": [
+        {
+          "month": 1,
+          "position": 7,
+          "clicks": 28
+        },
+        {
+          "month": 2,
+          "position": 7,
+          "clicks": 28
+        },
+        {
+          "month": 3,
+          "position": 6,
+          "clicks": 36
+        },
+        {
+          "month": 4,
+          "position": 6,
+          "clicks": 36
+        },
+        {
+          "month": 5,
+          "position": 6,
+          "clicks": 36
+        },
+        {
+          "month": 6,
+          "position": 5,
+          "clicks": 47
+        }
+      ]
+    }
+  },
+  "competitor_analysis": {
+    "our_metrics": {
+      "estimated_da": 52,
+      "pages": 41,
+      "avg_content": 376,
+      "avg_seo_score": 89.5
+    },
+    "competitors": {
+      "Halı Yıkama İstanbul": {
+        "domain_authority": 45,
+        "pages": 25,
+        "avg_content": 250
+      },
+      "Premium Koltuk Temizleme": {
+        "domain_authority": 38,
+        "pages": 18,
+        "avg_content": 320
+      },
+      "İstanbul Kuru Temizleme": {
+        "domain_authority": 42,
+        "pages": 30,
+        "avg_content": 180
+      },
+      "Luxury Furniture Care": {
+        "domain_authority": 35,
+        "pages": 12,
+        "avg_content": 400
+      },
+      "Express Temizlik": {
+        "domain_authority": 40,
+        "pages": 22,
+        "avg_content": 200
+      }
+    },
+    "advantages": [
+      "Sayfa sayısı avantajı vs Halı Yıkama İstanbul",
+      "İçerik kalitesi avantajı vs Halı Yıkama İstanbul",
+      "Sayfa sayısı avantajı vs Premium Koltuk Temizleme",
+      "İçerik kalitesi avantajı vs Premium Koltuk Temizleme",
+      "Sayfa sayısı avantajı vs İstanbul Kuru Temizleme",
+      "İçerik kalitesi avantajı vs İstanbul Kuru Temizleme",
+      "Sayfa sayısı avantajı vs Luxury Furniture Care",
+      "Sayfa sayısı avantajı vs Express Temizlik",
+      "İçerik kalitesi avantajı vs Express Temizlik"
+    ],
+    "improvement_areas": [
+      "İçerik uzunluğu geliştirme vs Luxury Furniture Care"
+    ]
+  },
+  "local_insights": {
+    "region_performance": {
+      "bostanci": {
+        "page_count": 1,
+        "avg_score": 93.0,
+        "total_score": 93.0,
+        "population": 150000,
+        "pages": [
+          "bostanci-koltuk-yikama.html"
+        ],
+        "efficiency": 62.0
+      },
+      "fenerbahce": {
+        "page_count": 3,
+        "avg_score": 80.7,
+        "total_score": 242.0,
+        "population": 120000,
+        "pages": [
+          "fenerbahce-hali-yikama.html",
+          "fenerbahce-kuru-temizleme.html",
+          "fenerbahce-koltuk-yikama.html"
+        ],
+        "efficiency": 67.25
+      },
+      "icerenkoy": {
+        "page_count": 1,
+        "avg_score": 86.0,
+        "total_score": 86.0,
+        "population": 110000,
+        "pages": [
+          "icerenkoy-hali-yikama.html"
+        ],
+        "efficiency": 78.18
+      },
+      "uskudar": {
+        "page_count": 4,
+        "avg_score": 87.8,
+        "total_score": 351.0,
+        "population": 550000,
+        "pages": [
+          "uskudar-gelinlik-temizleme.html",
+          "uskudar-hali-yikama.html",
+          "uskudar-koltuk-yikama.html",
+          "uskudar-luxury-kiyafet.html"
+        ],
+        "efficiency": 15.96
+      },
+      "atasehir": {
+        "page_count": 3,
+        "avg_score": 90.7,
+        "total_score": 272.0,
+        "population": 450000,
+        "pages": [
+          "atasehir-hali-yikama.html",
+          "atasehir-koltuk-yikama.html",
+          "atasehir-premium-temizlik.html"
+        ],
+        "efficiency": 20.16
+      },
+      "umraniye": {
+        "page_count": 2,
+        "avg_score": 96.5,
+        "total_score": 193.0,
+        "population": 700000,
+        "pages": [
+          "umraniye-hali-yikama.html",
+          "umraniye-vip-temizlik.html"
+        ],
+        "efficiency": 13.79
+      },
+      "erenkoy": {
+        "page_count": 1,
+        "avg_score": 93.0,
+        "total_score": 93.0,
+        "population": 85000,
+        "pages": [
+          "erenkoy-hali-yikama.html"
+        ],
+        "efficiency": 109.41
+      },
+      "sahrayicedit": {
+        "page_count": 1,
+        "avg_score": 86.0,
+        "total_score": 86.0,
+        "population": 85000,
+        "pages": [
+          "sahrayicedit-premium-bakim.html"
+        ],
+        "efficiency": 101.18
+      },
+      "kadikoy": {
+        "page_count": 3,
+        "avg_score": 88.3,
+        "total_score": 265.0,
+        "population": 450000,
+        "pages": [
+          "kadikoy-luxury-kiyafet.html",
+          "kadikoy-koltuk-yikama.html",
+          "kadikoy-kuru-temizleme.html"
+        ],
+        "efficiency": 19.62
+      },
+      "bagdat": {
+        "page_count": 2,
+        "avg_score": 93.0,
+        "total_score": 186.0,
+        "population": 100000,
+        "pages": [
+          "bagdat-caddesi-haute-couture.html",
+          "bagdat-caddesi-koltuk-yikama.html"
+        ],
+        "efficiency": 93.0
+      },
+      "pendik": {
+        "page_count": 1,
+        "avg_score": 86.0,
+        "total_score": 86.0,
+        "population": 650000,
+        "pages": [
+          "pendik-koltuk-yikama.html"
+        ],
+        "efficiency": 13.23
+      },
+      "maltepe": {
+        "page_count": 2,
+        "avg_score": 93.0,
+        "total_score": 186.0,
+        "population": 500000,
+        "pages": [
+          "maltepe-hali-yikama.html",
+          "maltepe-luxury-hizmet.html"
+        ],
+        "efficiency": 18.6
+      },
+      "acibadem": {
+        "page_count": 1,
+        "avg_score": 86.0,
+        "total_score": 86.0,
+        "population": 95000,
+        "pages": [
+          "acibadem-kuru-temizleme.html"
+        ],
+        "efficiency": 90.53
+      },
+      "suadiye": {
+        "page_count": 2,
+        "avg_score": 89.0,
+        "total_score": 178.0,
+        "population": 90000,
+        "pages": [
+          "suadiye-koltuk-yikama.html",
+          "suadiye-hali-yikama.html"
+        ],
+        "efficiency": 98.89
+      },
+      "barbaros": {
+        "page_count": 1,
+        "avg_score": 93.0,
+        "total_score": 93.0,
+        "population": 45000,
+        "pages": [
+          "barbaros-koltuk-yikama.html"
+        ],
+        "efficiency": 206.67
+      },
+      "kucukbakkalkoy": {
+        "page_count": 2,
+        "avg_score": 89.5,
+        "total_score": 179.0,
+        "population": 75000,
+        "pages": [
+          "kucukbakkalkoy-koltuk-yikama.html",
+          "kucukbakkalkoy-hali-yikama.html"
+        ],
+        "efficiency": 119.33
+      },
+      "kalamis": {
+        "page_count": 1,
+        "avg_score": 86.0,
+        "total_score": 86.0,
+        "population": 35000,
+        "pages": [
+          "kalamis-koltuk-yikama.html"
+        ],
+        "efficiency": 245.71
+      },
+      "caddebostan": {
+        "page_count": 2,
+        "avg_score": 89.0,
+        "total_score": 178.0,
+        "population": 80000,
+        "pages": [
+          "caddebostan-hali-yikama.html",
+          "caddebostan-koltuk-yikama.html"
+        ],
+        "efficiency": 111.25
+      },
+      "moda": {
+        "page_count": 1,
+        "avg_score": 93.0,
+        "total_score": 93.0,
+        "population": 40000,
+        "pages": [
+          "moda-koltuk-yikama.html"
+        ],
+        "efficiency": 232.5
+      },
+      "fikirtepe": {
+        "page_count": 1,
+        "avg_score": 93.0,
+        "total_score": 93.0,
+        "population": 180000,
+        "pages": [
+          "fikirtepe-koltuk-yikama.html"
+        ],
+        "efficiency": 51.67
+      },
+      "kozyatagi": {
+        "page_count": 1,
+        "avg_score": 93.0,
+        "total_score": 93.0,
+        "population": 140000,
+        "pages": [
+          "kozyatagi-kuru-temizleme.html"
+        ],
+        "efficiency": 66.43
+      },
+      "altunizade": {
+        "page_count": 2,
+        "avg_score": 86.0,
+        "total_score": 172.0,
+        "population": 95000,
+        "pages": [
+          "altunizade-premium-temizlik.html",
+          "altunizade-hali-yikama.html"
+        ],
+        "efficiency": 90.53
+      },
+      "goztepe": {
+        "page_count": 1,
+        "avg_score": 93.0,
+        "total_score": 93.0,
+        "population": 120000,
+        "pages": [
+          "goztepe-hali-yikama.html"
+        ],
+        "efficiency": 77.5
+      },
+      "camlica": {
+        "page_count": 1,
+        "avg_score": 100.0,
+        "total_score": 100.0,
+        "population": 60000,
+        "pages": [
+          "camlica-kuru-temizleme.html"
+        ],
+        "efficiency": 166.67
+      },
+      "kartal": {
+        "page_count": 1,
+        "avg_score": 86.0,
+        "total_score": 86.0,
+        "population": 450000,
+        "pages": [
+          "kartal-koltuk-yikama.html"
+        ],
+        "efficiency": 19.11
+      }
+    },
+    "top_performing_regions": [
+      [
+        "camlica",
+        {
+          "page_count": 1,
+          "avg_score": 100.0,
+          "total_score": 100.0,
+          "population": 60000,
+          "pages": [
+            "camlica-kuru-temizleme.html"
+          ],
+          "efficiency": 166.67
+        }
+      ],
+      [
+        "umraniye",
+        {
+          "page_count": 2,
+          "avg_score": 96.5,
+          "total_score": 193.0,
+          "population": 700000,
+          "pages": [
+            "umraniye-hali-yikama.html",
+            "umraniye-vip-temizlik.html"
+          ],
+          "efficiency": 13.79
+        }
+      ],
+      [
+        "bostanci",
+        {
+          "page_count": 1,
+          "avg_score": 93.0,
+          "total_score": 93.0,
+          "population": 150000,
+          "pages": [
+            "bostanci-koltuk-yikama.html"
+          ],
+          "efficiency": 62.0
+        }
+      ],
+      [
+        "erenkoy",
+        {
+          "page_count": 1,
+          "avg_score": 93.0,
+          "total_score": 93.0,
+          "population": 85000,
+          "pages": [
+            "erenkoy-hali-yikama.html"
+          ],
+          "efficiency": 109.41
+        }
+      ],
+      [
+        "bagdat",
+        {
+          "page_count": 2,
+          "avg_score": 93.0,
+          "total_score": 186.0,
+          "population": 100000,
+          "pages": [
+            "bagdat-caddesi-haute-couture.html",
+            "bagdat-caddesi-koltuk-yikama.html"
+          ],
+          "efficiency": 93.0
+        }
+      ]
+    ],
+    "total_coverage": 25
+  },
+  "cannibalization_issues": {
+    "hali-yikama_uskudar": [
+      [
+        "uskudar-hali-yikama.html",
+        93.0
+      ],
+      [
+        "uskudar-gelinlik-temizleme.html",
+        86.0
+      ]
+    ]
+  },
+  "recommendations": {
+    "immediate_actions": [
+      "Fenerbahçe halı yıkama ve koltuk yıkama sayfalarının meta description'larını ekleyin",
+      "Title uzunluklarını 50-60 karakter arasında optimize edin",
+      "Google My Business profilleri oluşturun ve optimize edin",
+      "Müşteri yorumları toplamaya başlayın",
+      "Yerel backlink stratejisi geliştirin"
+    ],
+    "weekly_tasks": [
+      "Her sayfa için blog içeriği oluşturun",
+      "İç bağlantı yapısını güçlendirin",
+      "Social media paylaşımları yapın",
+      "Müşteri fotoğrafları ekleyin",
+      "FAQ bölümleri genişletin"
+    ],
+    "monthly_goals": [
+      "Google Search Console verilerini analiz edin",
+      "Rakip siteleri inceleyin",
+      "Yeni long-tail keyword'ler bulun",
+      "Sayfa hızlarını optimize edin",
+      "Mobile experience iyileştirin"
+    ]
+  }
+}

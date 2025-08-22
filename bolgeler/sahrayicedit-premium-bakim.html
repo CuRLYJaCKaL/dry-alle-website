@@ -20,6 +20,7 @@
     {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
+        "@id": "#breadcrumb",
         "itemListElement": [
             {
                 "@type": "ListItem",
@@ -48,6 +49,7 @@
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "#localbusiness",
         "name": "Dry Alle Premium Bakim - Sahrayicedit",
         "description": "Sahrayicedit'de premium bakim hizmeti. Premium care ve business center service.",
         "address": {
@@ -60,12 +62,54 @@
         },
         "telephone": "+90-543-352-7474",
         "url": "https://dryallekurutemizleme.com",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.9789,
+            "longitude": 29.0394
+        },
         "areaServed": {
             "@type": "Place",
             "name": "Sahrayicedit"
         },
         "priceRange": "$$$",
-        "openingHours": "Mo-Sa 09:00-18:00"
+        "openingHours": "Mo-Sa 09:00-18:00",
+        "paymentAccepted": ["Cash", "CreditCard", "DebitCard"],
+        "currenciesAccepted": "TRY",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "VIP Premium Hizmetler",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Luxury Temizlik Hizmetleri"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <!-- WebPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Sahrayıcedit Premium Bakım | Dry Alle",
+        "description": "Sahrayıcedit'de premium bakım hizmeti. Premium care, high-end temizleme, business center service. Kapıdan alıp getiriyoruz.",
+        "url": "https://dryallekurutemizleme.com/bolgeler/sahrayicedit-premium-bakim.html",
+        "mainEntity": {
+            "@id": "#localbusiness"
+        },
+        "inLanguage": "tr-TR",
+        "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://dryallekurutemizleme.com"
+        },
+        "breadcrumb": {
+            "@id": "#breadcrumb"
+        }
     }
     </script>
 </head>

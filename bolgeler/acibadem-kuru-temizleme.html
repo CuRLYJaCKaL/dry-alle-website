@@ -20,6 +20,7 @@
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "#localbusiness",
         "name": "Dry Alle Kuru Temizleme - Acıbadem",
         "description": "Acıbadem'de profesyonel kuru temizleme hizmeti. Takım elbise, elbise, palto temizleme uzmanı. Ücretsiz kapıdan teslimat.",
         "address": {
@@ -35,12 +36,32 @@
         "sameAs": [
             "https://dryallekurutemizleme.com/bolgeler/acibadem-kuru-temizleme.html"
         ],
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.9874,
+            "longitude": 29.0384
+        },
         "areaServed": {
             "@type": "Place",
             "name": "Acıbadem"
         },
-        "priceRange": "$$",
-        "openingHours": "Mo-Sa 09:00-18:00"
+        "priceRange": "$$$",
+        "openingHours": "Mo-Sa 09:00-18:00",
+        "paymentAccepted": ["Cash", "CreditCard", "DebitCard"],
+        "currenciesAccepted": "TRY",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Kuru Temizleme Hizmetleri",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Premium Kuru Temizleme"
+                    }
+                }
+            ]
+        }
     }
     </script>
     
@@ -49,6 +70,7 @@
     {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
+        "@id": "#breadcrumb",
         "itemListElement": [
             {
                 "@type": "ListItem",
@@ -69,6 +91,44 @@
                 "item": "https://dryallekurutemizleme.com/bolgeler/acibadem-kuru-temizleme.html"
             }
         ]
+    }
+    </script>
+    
+    <!-- WebPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Acıbadem Kuru Temizleme | Dry Alle",
+        "description": "Acıbadem'de profesyonel kuru temizleme hizmeti. Takım elbise, elbise, palto, gömlek temizleme uzmanı. 25 yıllık deneyim, ücretsiz kapıdan teslimat.",
+        "url": "https://dryallekurutemizleme.com/bolgeler/acibadem-kuru-temizleme.html",
+        "mainEntity": {
+            "@id": "#localbusiness"
+        },
+        "inLanguage": "tr-TR",
+        "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://dryallekurutemizleme.com"
+        },
+        "breadcrumb": {
+            "@id": "#breadcrumb"
+        }
+    }
+    </script>
+    
+    <!-- WebPage Schema for AI Enhancement -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Acıbadem Kuru Temizleme | Dry Alle",
+        "description": "Acıbadem'de profesyonel kuru temizleme hizmeti. Takım elbise, elbise, palto temizleme uzmanı. Ücretsiz kapıdan teslimat.",
+        "url": "https://dryallekurutemizleme.com/bolgeler/acibadem-kuru-temizleme.html",
+        "inLanguage": "tr-TR",
+        "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://dryallekurutemizleme.com"
+        }
     }
     </script>
 </head>

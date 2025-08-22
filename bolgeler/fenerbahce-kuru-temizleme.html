@@ -20,6 +20,7 @@
     {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
+        "@id": "#breadcrumb",
         "itemListElement": [
             {
                 "@type": "ListItem",
@@ -48,6 +49,7 @@
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "#localbusiness",
         "name": "Dry Alle Kuru Temizleme - Fenerbahçe",
         "description": "Fenerbahçe'de profesyonel kuru temizleme hizmeti. Takım elbise, gömlek, spor kıyafet temizleme hizmeti.",
         "address": {
@@ -60,12 +62,54 @@
         },
         "telephone": "+90-543-352-7474",
         "url": "https://dryallekurutemizleme.com",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.9644,
+            "longitude": 29.0375
+        },
         "areaServed": {
             "@type": "Place",
             "name": "Fenerbahçe"
         },
-        "priceRange": "$$",
-        "openingHours": "Mo-Sa 09:00-18:00"
+        "priceRange": "$$$",
+        "openingHours": "Mo-Sa 09:00-18:00",
+        "paymentAccepted": ["Cash", "CreditCard", "DebitCard"],
+        "currenciesAccepted": "TRY",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Kuru Temizleme Hizmetleri",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Premium Kuru Temizleme"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <!-- WebPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Fenerbahçe Kuru Temizleme | Dry Alle",
+        "description": "Fenerbahçe'de profesyonel kuru temizleme hizmeti. Takım elbise temizleme, gömlek temizleme, spor kıyafet temizlik. Kapıdan alıp getiriyoruz.",
+        "url": "https://dryallekurutemizleme.com/bolgeler/fenerbahce-kuru-temizleme.html",
+        "mainEntity": {
+            "@id": "#localbusiness"
+        },
+        "inLanguage": "tr-TR",
+        "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://dryallekurutemizleme.com"
+        },
+        "breadcrumb": {
+            "@id": "#breadcrumb"
+        }
     }
     </script>
 </head>

@@ -1,0 +1,1059 @@
+{
+  "summary": {
+    "total_files_analyzed": 36,
+    "files_with_issues": 36,
+    "clean_files": 0,
+    "overall_health_score": 0.0
+  },
+  "title_analysis": {
+    "total_files": 36,
+    "long_titles_count": 4,
+    "short_titles_count": 0,
+    "optimal_titles_count": 32,
+    "long_titles": [
+      {
+        "file": "atasehir-premium-temizlik.html",
+        "length": 71,
+        "title": "Ataşehir Premium İş Kıyafetleri | Dry Alle | Business Center VIP Hizmet"
+      },
+      {
+        "file": "bagdat-caddesi-haute-couture.html",
+        "length": 72,
+        "title": "Bağdat Caddesi Haute Couture Bakımı | Dry Alle | En Lüks Kıyafet Hizmeti"
+      },
+      {
+        "file": "bagdat-caddesi-koltuk-yikama.html",
+        "length": 71,
+        "title": "Bağdat Caddesi Koltuk Yıkama | Dry Alle | VIP Prestij Mobilya Temizleme"
+      },
+      {
+        "file": "icerenkoy-hali-yikama.html",
+        "length": 104,
+        "title": "İçerenköy Contemporary Art Halı Collection | Premium Gallery-Quality Cleaning | Dry Alle Luxury Services"
+      }
+    ],
+    "short_titles": []
+  },
+  "meta_description_analysis": {
+    "total_files": 36,
+    "missing_count": 0,
+    "short_count": 36,
+    "long_count": 0,
+    "optimal_count": 0,
+    "missing_descriptions": [],
+    "short_descriptions": [
+      {
+        "file": "acibadem-kuru-temizleme.html",
+        "length": 8,
+        "description": "Acıbadem"
+      },
+      {
+        "file": "altunizade-hali-yikama.html",
+        "length": 10,
+        "description": "Altunizade"
+      },
+      {
+        "file": "altunizade-premium-temizlik.html",
+        "length": 10,
+        "description": "Altunizade"
+      },
+      {
+        "file": "atasehir-hali-yikama.html",
+        "length": 8,
+        "description": "Ataşehir"
+      },
+      {
+        "file": "atasehir-premium-temizlik.html",
+        "length": 8,
+        "description": "Ataşehir"
+      },
+      {
+        "file": "bagdat-caddesi-haute-couture.html",
+        "length": 14,
+        "description": "Bağdat Caddesi"
+      },
+      {
+        "file": "bagdat-caddesi-koltuk-yikama.html",
+        "length": 14,
+        "description": "Bağdat Caddesi"
+      },
+      {
+        "file": "barbaros-koltuk-yikama.html",
+        "length": 8,
+        "description": "Barbaros"
+      },
+      {
+        "file": "bostanci-koltuk-yikama.html",
+        "length": 8,
+        "description": "Bostancı"
+      },
+      {
+        "file": "caddebostan-hali-yikama.html",
+        "length": 11,
+        "description": "Caddebostan"
+      },
+      {
+        "file": "camlica-kuru-temizleme.html",
+        "length": 7,
+        "description": "Çamlıca"
+      },
+      {
+        "file": "erenkoy-hali-yikama.html",
+        "length": 7,
+        "description": "Erenköy"
+      },
+      {
+        "file": "fenerbahce-kuru-temizleme.html",
+        "length": 10,
+        "description": "Fenerbahçe"
+      },
+      {
+        "file": "fikirtepe-koltuk-yikama.html",
+        "length": 9,
+        "description": "Fikirtepe"
+      },
+      {
+        "file": "goztepe-hali-yikama.html",
+        "length": 7,
+        "description": "Göztepe"
+      },
+      {
+        "file": "icerenkoy-hali-yikama.html",
+        "length": 9,
+        "description": "İçerenköy"
+      },
+      {
+        "file": "kadikoy-koltuk-yikama.html",
+        "length": 7,
+        "description": "Kadıköy"
+      },
+      {
+        "file": "kadikoy-kuru-temizleme.html",
+        "length": 7,
+        "description": "Kadıköy"
+      },
+      {
+        "file": "kadikoy-luxury-kiyafet.html",
+        "length": 7,
+        "description": "Kadıköy"
+      },
+      {
+        "file": "kalamis-koltuk-yikama.html",
+        "length": 7,
+        "description": "Kalamış"
+      },
+      {
+        "file": "kartal-koltuk-yikama.html",
+        "length": 6,
+        "description": "Kartal"
+      },
+      {
+        "file": "kozyatagi-kuru-temizleme.html",
+        "length": 9,
+        "description": "Kozyatağı"
+      },
+      {
+        "file": "kucukbakkalkoy-hali-yikama.html",
+        "length": 14,
+        "description": "Küçükbakkalköy"
+      },
+      {
+        "file": "kucukbakkalkoy-koltuk-yikama.html",
+        "length": 14,
+        "description": "Kucukbakkalkoy"
+      },
+      {
+        "file": "maltepe-hali-yikama.html",
+        "length": 7,
+        "description": "Maltepe"
+      },
+      {
+        "file": "maltepe-luxury-hizmet.html",
+        "length": 7,
+        "description": "Maltepe"
+      },
+      {
+        "file": "moda-koltuk-yikama.html",
+        "length": 4,
+        "description": "Moda"
+      },
+      {
+        "file": "pendik-koltuk-yikama.html",
+        "length": 6,
+        "description": "Pendik"
+      },
+      {
+        "file": "sahrayicedit-premium-bakim.html",
+        "length": 12,
+        "description": "Sahrayicedit"
+      },
+      {
+        "file": "suadiye-hali-yikama.html",
+        "length": 7,
+        "description": "Suadiye"
+      },
+      {
+        "file": "umraniye-hali-yikama.html",
+        "length": 8,
+        "description": "Ümraniye"
+      },
+      {
+        "file": "umraniye-vip-temizlik.html",
+        "length": 8,
+        "description": "Umraniye"
+      },
+      {
+        "file": "uskudar-gelinlik-temizleme.html",
+        "length": 7,
+        "description": "Üsküdar"
+      },
+      {
+        "file": "uskudar-hali-yikama.html",
+        "length": 7,
+        "description": "Üsküdar"
+      },
+      {
+        "file": "uskudar-koltuk-yikama.html",
+        "length": 7,
+        "description": "Üsküdar"
+      },
+      {
+        "file": "uskudar-luxury-kiyafet.html",
+        "length": 7,
+        "description": "Üsküdar"
+      }
+    ],
+    "long_descriptions": []
+  },
+  "schema_analysis": {
+    "missing_breadcrumb_count": 2,
+    "missing_local_business_count": 0,
+    "missing_breadcrumb": [
+      {
+        "file": "acibadem-kuru-temizleme.html"
+      },
+      {
+        "file": "kozyatagi-kuru-temizleme.html"
+      }
+    ],
+    "missing_local_business": []
+  },
+  "encoding_analysis": {
+    "issues_count": 0,
+    "encoding_issues": []
+  },
+  "priority_fixes": [
+    {
+      "file_name": "acibadem-kuru-temizleme.html",
+      "priority_score": 15,
+      "fix_categories": [
+        "Missing BreadcrumbList Schema",
+        "Meta Description Too Short"
+      ],
+      "total_issues": 2
+    },
+    {
+      "file_name": "kozyatagi-kuru-temizleme.html",
+      "priority_score": 15,
+      "fix_categories": [
+        "Missing BreadcrumbList Schema",
+        "Meta Description Too Short"
+      ],
+      "total_issues": 2
+    },
+    {
+      "file_name": "atasehir-premium-temizlik.html",
+      "priority_score": 13,
+      "fix_categories": [
+        "Title Too Long",
+        "Meta Description Too Short"
+      ],
+      "total_issues": 2
+    },
+    {
+      "file_name": "bagdat-caddesi-haute-couture.html",
+      "priority_score": 13,
+      "fix_categories": [
+        "Title Too Long",
+        "Meta Description Too Short"
+      ],
+      "total_issues": 2
+    },
+    {
+      "file_name": "bagdat-caddesi-koltuk-yikama.html",
+      "priority_score": 13,
+      "fix_categories": [
+        "Title Too Long",
+        "Meta Description Too Short"
+      ],
+      "total_issues": 2
+    },
+    {
+      "file_name": "icerenkoy-hali-yikama.html",
+      "priority_score": 13,
+      "fix_categories": [
+        "Title Too Long",
+        "Meta Description Too Short"
+      ],
+      "total_issues": 2
+    },
+    {
+      "file_name": "altunizade-hali-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "altunizade-premium-temizlik.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "atasehir-hali-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "barbaros-koltuk-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "bostanci-koltuk-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "caddebostan-hali-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "camlica-kuru-temizleme.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "erenkoy-hali-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "fenerbahce-kuru-temizleme.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "fikirtepe-koltuk-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "goztepe-hali-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "kadikoy-koltuk-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "kadikoy-kuru-temizleme.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "kadikoy-luxury-kiyafet.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "kalamis-koltuk-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "kartal-koltuk-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "kucukbakkalkoy-hali-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "kucukbakkalkoy-koltuk-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "maltepe-hali-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "maltepe-luxury-hizmet.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "moda-koltuk-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "pendik-koltuk-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "sahrayicedit-premium-bakim.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "suadiye-hali-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "umraniye-hali-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "umraniye-vip-temizlik.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "uskudar-gelinlik-temizleme.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "uskudar-hali-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "uskudar-koltuk-yikama.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    },
+    {
+      "file_name": "uskudar-luxury-kiyafet.html",
+      "priority_score": 5,
+      "fix_categories": [
+        "Meta Description Too Short"
+      ],
+      "total_issues": 1
+    }
+  ],
+  "detailed_results": [
+    {
+      "file_name": "acibadem-kuru-temizleme.html",
+      "title_length": 62,
+      "meta_description_length": 8,
+      "has_breadcrumb_schema": false,
+      "has_local_business_schema": true,
+      "issues_count": 2,
+      "issues": [
+        "Meta description too short: 8 chars (<120)",
+        "Missing BreadcrumbList schema"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 8)",
+        "Add BreadcrumbList structured data"
+      ]
+    },
+    {
+      "file_name": "altunizade-hali-yikama.html",
+      "title_length": 62,
+      "meta_description_length": 10,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 10 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 10)"
+      ]
+    },
+    {
+      "file_name": "altunizade-premium-temizlik.html",
+      "title_length": 66,
+      "meta_description_length": 10,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 10 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 10)"
+      ]
+    },
+    {
+      "file_name": "atasehir-hali-yikama.html",
+      "title_length": 64,
+      "meta_description_length": 8,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 8 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 8)"
+      ]
+    },
+    {
+      "file_name": "atasehir-premium-temizlik.html",
+      "title_length": 71,
+      "meta_description_length": 8,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 2,
+      "issues": [
+        "Title too long: 71 chars (>70)",
+        "Meta description too short: 8 chars (<120)"
+      ],
+      "recommendations": [
+        "Shorten title to ≤70 characters (currently 71)",
+        "Expand meta description to 120-160 chars (currently 8)"
+      ]
+    },
+    {
+      "file_name": "bagdat-caddesi-haute-couture.html",
+      "title_length": 72,
+      "meta_description_length": 14,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 2,
+      "issues": [
+        "Title too long: 72 chars (>70)",
+        "Meta description too short: 14 chars (<120)"
+      ],
+      "recommendations": [
+        "Shorten title to ≤70 characters (currently 72)",
+        "Expand meta description to 120-160 chars (currently 14)"
+      ]
+    },
+    {
+      "file_name": "bagdat-caddesi-koltuk-yikama.html",
+      "title_length": 71,
+      "meta_description_length": 14,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 2,
+      "issues": [
+        "Title too long: 71 chars (>70)",
+        "Meta description too short: 14 chars (<120)"
+      ],
+      "recommendations": [
+        "Shorten title to ≤70 characters (currently 71)",
+        "Expand meta description to 120-160 chars (currently 14)"
+      ]
+    },
+    {
+      "file_name": "barbaros-koltuk-yikama.html",
+      "title_length": 54,
+      "meta_description_length": 8,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 8 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 8)"
+      ]
+    },
+    {
+      "file_name": "bostanci-koltuk-yikama.html",
+      "title_length": 58,
+      "meta_description_length": 8,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 8 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 8)"
+      ]
+    },
+    {
+      "file_name": "caddebostan-hali-yikama.html",
+      "title_length": 56,
+      "meta_description_length": 11,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 11 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 11)"
+      ]
+    },
+    {
+      "file_name": "camlica-kuru-temizleme.html",
+      "title_length": 56,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "erenkoy-hali-yikama.html",
+      "title_length": 60,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "fenerbahce-kuru-temizleme.html",
+      "title_length": 61,
+      "meta_description_length": 10,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 10 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 10)"
+      ]
+    },
+    {
+      "file_name": "fikirtepe-koltuk-yikama.html",
+      "title_length": 61,
+      "meta_description_length": 9,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 9 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 9)"
+      ]
+    },
+    {
+      "file_name": "goztepe-hali-yikama.html",
+      "title_length": 49,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "icerenkoy-hali-yikama.html",
+      "title_length": 104,
+      "meta_description_length": 9,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 2,
+      "issues": [
+        "Title too long: 104 chars (>70)",
+        "Meta description too short: 9 chars (<120)"
+      ],
+      "recommendations": [
+        "Shorten title to ≤70 characters (currently 104)",
+        "Expand meta description to 120-160 chars (currently 9)"
+      ]
+    },
+    {
+      "file_name": "kadikoy-koltuk-yikama.html",
+      "title_length": 65,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "kadikoy-kuru-temizleme.html",
+      "title_length": 68,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "kadikoy-luxury-kiyafet.html",
+      "title_length": 69,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "kalamis-koltuk-yikama.html",
+      "title_length": 62,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "kartal-koltuk-yikama.html",
+      "title_length": 66,
+      "meta_description_length": 6,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 6 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 6)"
+      ]
+    },
+    {
+      "file_name": "kozyatagi-kuru-temizleme.html",
+      "title_length": 59,
+      "meta_description_length": 9,
+      "has_breadcrumb_schema": false,
+      "has_local_business_schema": true,
+      "issues_count": 2,
+      "issues": [
+        "Meta description too short: 9 chars (<120)",
+        "Missing BreadcrumbList schema"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 9)",
+        "Add BreadcrumbList structured data"
+      ]
+    },
+    {
+      "file_name": "kucukbakkalkoy-hali-yikama.html",
+      "title_length": 68,
+      "meta_description_length": 14,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 14 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 14)"
+      ]
+    },
+    {
+      "file_name": "kucukbakkalkoy-koltuk-yikama.html",
+      "title_length": 67,
+      "meta_description_length": 14,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 14 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 14)"
+      ]
+    },
+    {
+      "file_name": "maltepe-hali-yikama.html",
+      "title_length": 61,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "maltepe-luxury-hizmet.html",
+      "title_length": 57,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "moda-koltuk-yikama.html",
+      "title_length": 61,
+      "meta_description_length": 4,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 4 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 4)"
+      ]
+    },
+    {
+      "file_name": "pendik-koltuk-yikama.html",
+      "title_length": 64,
+      "meta_description_length": 6,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 6 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 6)"
+      ]
+    },
+    {
+      "file_name": "sahrayicedit-premium-bakim.html",
+      "title_length": 63,
+      "meta_description_length": 12,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 12 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 12)"
+      ]
+    },
+    {
+      "file_name": "suadiye-hali-yikama.html",
+      "title_length": 58,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "umraniye-hali-yikama.html",
+      "title_length": 59,
+      "meta_description_length": 8,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 8 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 8)"
+      ]
+    },
+    {
+      "file_name": "umraniye-vip-temizlik.html",
+      "title_length": 57,
+      "meta_description_length": 8,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 8 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 8)"
+      ]
+    },
+    {
+      "file_name": "uskudar-gelinlik-temizleme.html",
+      "title_length": 64,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "uskudar-hali-yikama.html",
+      "title_length": 61,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "uskudar-koltuk-yikama.html",
+      "title_length": 65,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    },
+    {
+      "file_name": "uskudar-luxury-kiyafet.html",
+      "title_length": 65,
+      "meta_description_length": 7,
+      "has_breadcrumb_schema": true,
+      "has_local_business_schema": true,
+      "issues_count": 1,
+      "issues": [
+        "Meta description too short: 7 chars (<120)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 chars (currently 7)"
+      ]
+    }
+  ]
+}

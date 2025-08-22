@@ -1,0 +1,4159 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-08-22 00:14:26",
+    "analyzer_version": "2.0",
+    "directory_analyzed": "/Users/macos/Documents/Projeler/DryAlle/bolgeler",
+    "analysis_type": "comprehensive_fresh_analysis"
+  },
+  "summary_statistics": {
+    "total_pages": 36,
+    "perfect_titles": 36,
+    "good_descriptions": 30,
+    "breadcrumb_schema_count": 36,
+    "localbusiness_schema_count": 36,
+    "canonical_urls": 36,
+    "avg_seo_score": 8.72,
+    "pages_with_issues": 6,
+    "top_performers": [
+      [
+        "acibadem-kuru-temizleme.html",
+        8.8
+      ],
+      [
+        "altunizade-hali-yikama.html",
+        8.8
+      ],
+      [
+        "altunizade-premium-temizlik.html",
+        8.8
+      ],
+      [
+        "atasehir-hali-yikama.html",
+        8.8
+      ],
+      [
+        "atasehir-premium-temizlik.html",
+        8.8
+      ]
+    ],
+    "pages_needing_attention": [
+      [
+        "icerenkoy-hali-yikama.html",
+        8.3
+      ],
+      [
+        "kartal-koltuk-yikama.html",
+        8.3
+      ],
+      [
+        "maltepe-luxury-hizmet.html",
+        8.3
+      ],
+      [
+        "pendik-koltuk-yikama.html",
+        8.3
+      ],
+      [
+        "umraniye-vip-temizlik.html",
+        8.3
+      ]
+    ]
+  },
+  "detailed_results": {
+    "acibadem-kuru-temizleme.html": {
+      "filename": "acibadem-kuru-temizleme.html",
+      "meta_tags": {
+        "title": {
+          "content": "Acıbadem Kuru Temizleme | Dry Alle | Ücretsiz Kapıdan Teslimat",
+          "length": 62,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Acıbadem'de profesyonel kuru temizleme hizmeti. Takım elbise, elbise, palto, gömlek temizleme uzmanı. 25 yıllık deneyim, ücretsiz kapıdan teslimat.",
+          "length": 147,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "acıbadem kuru temizleme, acıbadem takım elbise temizleme, acıbadem elbise temizleme, acıbadem palto temizleme, acıbadem gömlek temizleme, acıbadem gelinlik temizleme, acıbadem kapıdan teslimat",
+          "count": 7,
+          "list": [
+            "acıbadem kuru temizleme",
+            "acıbadem takım elbise temizleme",
+            "acıbadem elbise temizleme",
+            "acıbadem palto temizleme",
+            "acıbadem gömlek temizleme",
+            "acıbadem gelinlik temizleme",
+            "acıbadem kapıdan teslimat"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "localbusiness",
+          "breadcrumblist"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/acibadem-kuru-temizleme.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/acibadem-kuru-temizleme.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Acıbadem'de Kuru Temizleme",
+          "length": 26,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 335,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 8,
+          "service_mentions": 29,
+          "location_density": 2.3880597014925375,
+          "service_density": 8.656716417910449,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "altunizade-hali-yikama.html": {
+      "filename": "altunizade-hali-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Altunizade Halı Yıkama | Dry Alle | Lüks Halı Temizleme Uzmanı",
+          "length": 62,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Altunizade'de lüks halı yıkama hizmeti. Designer halı yıkama, premium halı temizleme, yün halı yıkama ve ipek halı temizlik. Modern teknoloji.",
+          "length": 142,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "altunizade halı yıkama, altunizade designer halı yıkama, altunizade premium halı temizleme, altunizade yün halı yıkama, altunizade ipek halı temizlik, altunizade halı temizleme",
+          "count": 6,
+          "list": [
+            "altunizade halı yıkama",
+            "altunizade designer halı yıkama",
+            "altunizade premium halı temizleme",
+            "altunizade yün halı yıkama",
+            "altunizade ipek halı temizlik",
+            "altunizade halı temizleme"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/altunizade-hali-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/altunizade-hali-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Altunizade'de Lüks Halı Yıkama",
+          "length": 30,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 374,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 43,
+          "location_density": 5.080213903743315,
+          "service_density": 11.497326203208557,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "altunizade-premium-temizlik.html": {
+      "filename": "altunizade-premium-temizlik.html",
+      "meta_tags": {
+        "title": {
+          "content": "Altunizade Premium Temizlik | Dry Alle | High-End Cleaning Service",
+          "length": 66,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Altunizade'de premium temizlik hizmeti. High-end kuru temizleme, luxury kiyafet bakimi, ozel hizmetler. Kapidan alip getiriyoruz.",
+          "length": 129,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "altunizade premium temizlik, altunizade luxury temizleme, altunizade high-end service, altunizade premium kuru temizleme, altunizade elite cleaning",
+          "count": 5,
+          "list": [
+            "altunizade premium temizlik",
+            "altunizade luxury temizleme",
+            "altunizade high-end service",
+            "altunizade premium kuru temizleme",
+            "altunizade elite cleaning"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/altunizade-premium-temizlik.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 0,
+          "total_links": 18
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/altunizade-premium-temizlik.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Altunizade'de Premium Temizlik",
+          "length": 30,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 356,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 20,
+          "service_mentions": 57,
+          "location_density": 5.617977528089887,
+          "service_density": 16.01123595505618,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "atasehir-hali-yikama.html": {
+      "filename": "atasehir-hali-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Ataşehir Halı Yıkama | Dry Alle | Business Halı Temizleme Uzmanı",
+          "length": 64,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "description": {
+          "content": "Ataşehir'de business halı yıkama hizmeti. Kurumsal halılar, ofis tekstilleri için özel bakım. Executive halı temizleme hizmeti. Kapıdan alıp getiriyoruz.",
+          "length": 153,
+          "is_optimal": true,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "ataşehir halı yıkama, ataşehir business halı yıkama, ataşehir kurumsal halı temizleme, ataşehir ofis halı bakımı, ataşehir executive halı yıkama",
+          "count": 5,
+          "list": [
+            "ataşehir halı yıkama",
+            "ataşehir business halı yıkama",
+            "ataşehir kurumsal halı temizleme",
+            "ataşehir ofis halı bakımı",
+            "ataşehir executive halı yıkama"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/atasehir-hali-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/atasehir-hali-yikama.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Ataşehir'de Business Halı Yıkama",
+          "length": 32,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 373,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 20,
+          "service_mentions": 47,
+          "location_density": 5.361930294906166,
+          "service_density": 12.600536193029491,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "atasehir-premium-temizlik.html": {
+      "filename": "atasehir-premium-temizlik.html",
+      "meta_tags": {
+        "title": {
+          "content": "Ataşehir Premium Temizlik | Dry Alle | Business VIP Hizmet",
+          "length": 58,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "description": {
+          "content": "Ataşehir'de premium iş kıyafetleri temizleme hizmeti. Business center'lar için VIP hizmet. Executive wear cleaning. Kapıdan alıp getiriyoruz.",
+          "length": 141,
+          "is_optimal": true,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "ataşehir premium iş kıyafetleri, ataşehir business center temizleme, ataşehir executive wear cleaning, ataşehir vip iş hizmeti, ataşehir corporate clothing care",
+          "count": 5,
+          "list": [
+            "ataşehir premium iş kıyafetleri",
+            "ataşehir business center temizleme",
+            "ataşehir executive wear cleaning",
+            "ataşehir vip iş hizmeti",
+            "ataşehir corporate clothing care"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/atasehir-premium-temizlik.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/atasehir-premium-temizlik.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Ataşehir'de Premium İş Kıyafetleri",
+          "length": 34,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 371,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 20,
+          "service_mentions": 33,
+          "location_density": 5.3908355795148255,
+          "service_density": 8.89487870619946,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "bagdat-caddesi-haute-couture.html": {
+      "filename": "bagdat-caddesi-haute-couture.html",
+      "meta_tags": {
+        "title": {
+          "content": "Bağdat Caddesi Haute Couture | Dry Alle | Luxury Fashion Care",
+          "length": 61,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "description": {
+          "content": "Bağdat Caddesi'nde haute couture temizleme hizmeti. Designer kıyafet temizleme, lüks elbise temizleme, couture gown temizlik. Kapıdan alıp getiriyoruz.",
+          "length": 151,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "bağdat caddesi haute couture temizleme, bağdat caddesi designer kıyafet temizleme, bağdat caddesi lüks elbise temizleme, bağdat caddesi couture gown temizlik, bağdat caddesi runway kıyafet temizleme, bağdat caddesi celebrity dress temizleme",
+          "count": 6,
+          "list": [
+            "bağdat caddesi haute couture temizleme",
+            "bağdat caddesi designer kıyafet temizleme",
+            "bağdat caddesi lüks elbise temizleme",
+            "bağdat caddesi couture gown temizlik",
+            "bağdat caddesi runway kıyafet temizleme",
+            "bağdat caddesi celebrity dress temizleme"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/bagdat-caddesi-haute-couture.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/bagdat-caddesi-haute-couture.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": false
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Bağdat Caddesi'nde Haute Couture Bakımı",
+          "length": 39,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 384,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 22,
+          "service_mentions": 34,
+          "location_density": 5.729166666666666,
+          "service_density": 8.854166666666668,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "bagdat-caddesi-koltuk-yikama.html": {
+      "filename": "bagdat-caddesi-koltuk-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Bağdat Caddesi Koltuk Yıkama | Dry Alle | VIP Mobilya Bakım",
+          "length": 59,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Bağdat Caddesi'nde VIP prestij mobilya temizleme hizmeti. Luxury koltuklar, premium mobilyalar için özel bakım. Prestij mobilya temizliği. Kapıdan alıp getiriyoruz.",
+          "length": 164,
+          "is_optimal": false,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "bağdat caddesi koltuk yıkama, bağdat caddesi vip mobilya temizleme, bağdat caddesi prestij koltuk yıkama, bağdat caddesi luxury mobilya bakımı, bağdat caddesi premium furniture cleaning",
+          "count": 5,
+          "list": [
+            "bağdat caddesi koltuk yıkama",
+            "bağdat caddesi vip mobilya temizleme",
+            "bağdat caddesi prestij koltuk yıkama",
+            "bağdat caddesi luxury mobilya bakımı",
+            "bağdat caddesi premium furniture cleaning"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/bagdat-caddesi-koltuk-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/bagdat-caddesi-koltuk-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Bağdat Caddesi'nde VIP Prestij Mobilya Temizleme",
+          "length": 48,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 393,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 38,
+          "location_density": 4.8346055979643765,
+          "service_density": 9.669211195928753,
+          "is_optimal": false
+        }
+      },
+      "issues": [
+        "Meta description too long (164 chars)"
+      ],
+      "strengths": [
+        "Optimal title length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.3
+    },
+    "barbaros-koltuk-yikama.html": {
+      "filename": "barbaros-koltuk-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Barbaros Koltuk Yıkama | Dry Alle | VIP Mobilya Bakımı",
+          "length": 54,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Barbaros'ta VIP koltuk yıkama hizmeti. Luxury mobilya bakımı ve premium koltuk temizliği. Exclusive müşteri hizmetleri. Kapıdan alıp getiriyoruz.",
+          "length": 145,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "barbaros koltuk yıkama, barbaros vip koltuk yıkama, barbaros luxury mobilya temizleme, barbaros premium koltuk bakımı, barbaros exclusive mobilya yıkama",
+          "count": 5,
+          "list": [
+            "barbaros koltuk yıkama",
+            "barbaros vip koltuk yıkama",
+            "barbaros luxury mobilya temizleme",
+            "barbaros premium koltuk bakımı",
+            "barbaros exclusive mobilya yıkama"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/barbaros-koltuk-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/barbaros-koltuk-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Barbaros'ta VIP Koltuk Yıkama",
+          "length": 29,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 381,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 41,
+          "location_density": 4.986876640419948,
+          "service_density": 10.761154855643044,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "bostanci-koltuk-yikama.html": {
+      "filename": "bostanci-koltuk-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Bostancı Koltuk Yıkama | Dry Alle | Lüks Mobilya Temizleme",
+          "length": 58,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Bostancı'da premium koltuk yıkama hizmeti. Designer mobilyalar için özel bakım. Deri, kumaş, antika koltuklar. Evinizde profesyonel hizmet.",
+          "length": 139,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "bostancı koltuk yıkama, bostancı furniture cleaning, bostancı deri koltuk temizleme, bostancı premium mobilya bakımı, bostancı koltuk kapıdan teslimat",
+          "count": 5,
+          "list": [
+            "bostancı koltuk yıkama",
+            "bostancı furniture cleaning",
+            "bostancı deri koltuk temizleme",
+            "bostancı premium mobilya bakımı",
+            "bostancı koltuk kapıdan teslimat"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/bostanci-koltuk-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/bostanci-koltuk-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Bostancı'da Premium Koltuk Yıkama",
+          "length": 33,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 372,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 20,
+          "service_mentions": 37,
+          "location_density": 5.376344086021505,
+          "service_density": 9.946236559139784,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "caddebostan-hali-yikama.html": {
+      "filename": "caddebostan-hali-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Caddebostan Halı Yıkama | Dry Alle | Lüks Halı Temizleme",
+          "length": 56,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Caddebostan'da profesyonel halı yıkama hizmeti. Lüks ve antik halılar için özel bakım. Kapıdan alıp getiriyoruz. Premium hizmet.",
+          "length": 128,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "caddebostan halı yıkama, caddebostan carpet cleaning, caddebostan antik halı yıkama, caddebostan lüks halı temizleme, caddebostan halı kapıdan teslimat",
+          "count": 5,
+          "list": [
+            "caddebostan halı yıkama",
+            "caddebostan carpet cleaning",
+            "caddebostan antik halı yıkama",
+            "caddebostan lüks halı temizleme",
+            "caddebostan halı kapıdan teslimat"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/caddebostan-hali-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/caddebostan-hali-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Caddebostan'da Halı Yıkama",
+          "length": 26,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 362,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 37,
+          "location_density": 5.248618784530387,
+          "service_density": 10.220994475138122,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "camlica-kuru-temizleme.html": {
+      "filename": "camlica-kuru-temizleme.html",
+      "meta_tags": {
+        "title": {
+          "content": "Çamlıca Kuru Temizleme | Dry Alle | Elite Kıyafet Bakımı",
+          "length": 56,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Çamlıca'da elit kuru temizleme hizmeti. Takım elbise temizleme, gömlek temizleme, elbise temizlik ve designer kıyafet temizleme. VIP kapıdan teslimat.",
+          "length": 150,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "çamlıca kuru temizleme, çamlıca takım elbise temizleme, çamlıca gömlek temizleme, çamlıca elbise temizlik, çamlıca designer kıyafet temizleme, çamlıca palto temizleme",
+          "count": 6,
+          "list": [
+            "çamlıca kuru temizleme",
+            "çamlıca takım elbise temizleme",
+            "çamlıca gömlek temizleme",
+            "çamlıca elbise temizlik",
+            "çamlıca designer kıyafet temizleme",
+            "çamlıca palto temizleme"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/camlica-kuru-temizleme.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/camlica-kuru-temizleme.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Çamlıca'da Elite Kuru Temizleme",
+          "length": 31,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 364,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 29,
+          "location_density": 5.21978021978022,
+          "service_density": 7.967032967032966,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "erenkoy-hali-yikama.html": {
+      "filename": "erenkoy-hali-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Erenköy Halı Yıkama | Dry Alle | Antik Halı Temizleme Uzmanı",
+          "length": 60,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Erenköy'de antik halı yıkama hizmeti. Değerli halı koleksiyonları için özel bakım. El dokuması, vintage halılar. Kapıdan alıp getiriyoruz.",
+          "length": 138,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "erenköy halı yıkama, erenköy antik halı yıkama, erenköy vintage halı temizleme, erenköy el dokuması halı bakımı, erenköy değerli halı yıkama",
+          "count": 5,
+          "list": [
+            "erenköy halı yıkama",
+            "erenköy antik halı yıkama",
+            "erenköy vintage halı temizleme",
+            "erenköy el dokuması halı bakımı",
+            "erenköy değerli halı yıkama"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/erenkoy-hali-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/erenkoy-hali-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Erenköy'de Antik Halı Yıkama",
+          "length": 28,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 368,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 20,
+          "service_mentions": 30,
+          "location_density": 5.434782608695652,
+          "service_density": 8.152173913043478,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "fenerbahce-kuru-temizleme.html": {
+      "filename": "fenerbahce-kuru-temizleme.html",
+      "meta_tags": {
+        "title": {
+          "content": "Fenerbahçe Kuru Temizleme | Dry Alle | Premium Kıyafet Bakımı",
+          "length": 61,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Fenerbahçe'de profesyonel kuru temizleme hizmeti. Takım elbise temizleme, gömlek temizleme, spor kıyafet temizlik. Kapıdan alıp getiriyoruz.",
+          "length": 140,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "fenerbahçe kuru temizleme, fenerbahçe takım elbise temizleme, fenerbahçe gömlek temizleme, fenerbahçe spor kıyafet temizlik, fenerbahçe forma temizleme, fenerbahçe palto temizleme",
+          "count": 6,
+          "list": [
+            "fenerbahçe kuru temizleme",
+            "fenerbahçe takım elbise temizleme",
+            "fenerbahçe gömlek temizleme",
+            "fenerbahçe spor kıyafet temizlik",
+            "fenerbahçe forma temizleme",
+            "fenerbahçe palto temizleme"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/fenerbahce-kuru-temizleme.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/fenerbahce-kuru-temizleme.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Fenerbahçe'de Kuru Temizleme",
+          "length": 28,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 342,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 21,
+          "service_mentions": 31,
+          "location_density": 6.140350877192982,
+          "service_density": 9.064327485380117,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "fikirtepe-koltuk-yikama.html": {
+      "filename": "fikirtepe-koltuk-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Fikirtepe Koltuk Yıkama | Dry Alle | Modern Mobilya Temizliği",
+          "length": 61,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Fikirtepe'de modern koltuk yıkama hizmeti. Çağdaş mobilya temizliği ve innovative koltuk bakımı. Smart temizlik teknolojileri. Kapıdan alıp getiriyoruz.",
+          "length": 152,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "fikirtepe koltuk yıkama, fikirtepe modern koltuk yıkama, fikirtepe çağdaş mobilya temizleme, fikirtepe smart koltuk bakımı, fikirtepe teknolojik mobilya yıkama",
+          "count": 5,
+          "list": [
+            "fikirtepe koltuk yıkama",
+            "fikirtepe modern koltuk yıkama",
+            "fikirtepe çağdaş mobilya temizleme",
+            "fikirtepe smart koltuk bakımı",
+            "fikirtepe teknolojik mobilya yıkama"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/fikirtepe-koltuk-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/fikirtepe-koltuk-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Fikirtepe'de Modern Koltuk Temizliği",
+          "length": 36,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 373,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 34,
+          "location_density": 5.093833780160858,
+          "service_density": 9.115281501340483,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "goztepe-hali-yikama.html": {
+      "filename": "goztepe-hali-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Göztepe Halı Yıkama | Dry Alle | Lüks Halı Bakımı",
+          "length": 49,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Göztepe'de modern lüks halı yıkama hizmeti. Designer halı koleksiyonları için profesyonel bakım. Çağdaş temizlik teknolojileri. Kapıdan alıp getiriyoruz.",
+          "length": 153,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "göztepe halı yıkama, göztepe lüks halı yıkama, göztepe designer halı temizleme, göztepe modern halı bakımı, göztepe premium halı yıkama",
+          "count": 5,
+          "list": [
+            "göztepe halı yıkama",
+            "göztepe lüks halı yıkama",
+            "göztepe designer halı temizleme",
+            "göztepe modern halı bakımı",
+            "göztepe premium halı yıkama"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/goztepe-hali-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/goztepe-hali-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Göztepe'de Lüks Halı Bakımı",
+          "length": 27,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 372,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 39,
+          "location_density": 5.10752688172043,
+          "service_density": 10.483870967741936,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "icerenkoy-hali-yikama.html": {
+      "filename": "icerenkoy-hali-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "İçerenköy Halı Yıkama | Dry Alle | Contemporary Art Collection",
+          "length": 62,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "İçerenköy'de contemporary art halı collection restoration. Gallery-quality cleaning for artistic masterpieces. Museum-standard preservation. White-glove consultation service.",
+          "length": 174,
+          "is_optimal": false,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "içerenköy contemporary art halı, gallery quality carpet cleaning, artistic masterpiece restoration, modern art collection care, museum-standard preservation, luxury art furniture cleaning",
+          "count": 6,
+          "list": [
+            "içerenköy contemporary art halı",
+            "gallery quality carpet cleaning",
+            "artistic masterpiece restoration",
+            "modern art collection care",
+            "museum-standard preservation",
+            "luxury art furniture cleaning"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/icerenkoy-hali-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/icerenkoy-hali-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "İçerenköy Contemporary Art Collection Restoration",
+          "length": 49,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 12,
+          "total_headings": 16,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 474,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 38,
+          "location_density": 4.008438818565401,
+          "service_density": 8.016877637130802,
+          "is_optimal": false
+        }
+      },
+      "issues": [
+        "Meta description too long (174 chars)"
+      ],
+      "strengths": [
+        "Optimal title length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.3
+    },
+    "kadikoy-koltuk-yikama.html": {
+      "filename": "kadikoy-koltuk-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Kadıköy Koltuk Yıkama | Dry Alle | Sanat Mobilya Temizleme Uzmanı",
+          "length": 65,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "description": {
+          "content": "Kadıköy'de sanat mobilya temizleme hizmeti. Antik ve designer koltuklar için özel bakım. Sanatsal mobilya temizliği. Kapıdan alıp getiriyoruz.",
+          "length": 142,
+          "is_optimal": true,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "kadıköy koltuk yıkama, kadıköy sanat mobilya temizleme, kadıköy antik koltuk yıkama, kadıköy designer mobilya bakımı, kadıköy artistic furniture cleaning",
+          "count": 5,
+          "list": [
+            "kadıköy koltuk yıkama",
+            "kadıköy sanat mobilya temizleme",
+            "kadıköy antik koltuk yıkama",
+            "kadıköy designer mobilya bakımı",
+            "kadıköy artistic furniture cleaning"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/kadikoy-koltuk-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/kadikoy-koltuk-yikama.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Kadıköy'de Sanat Mobilya Temizleme",
+          "length": 34,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 370,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 16,
+          "location_density": 5.135135135135135,
+          "service_density": 4.324324324324325,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "kadikoy-kuru-temizleme.html": {
+      "filename": "kadikoy-kuru-temizleme.html",
+      "meta_tags": {
+        "title": {
+          "content": "Kadıköy Kuru Temizleme | Dry Alle | Premium Merkezi Lokasyon Hizmeti",
+          "length": 68,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "description": {
+          "content": "Kadıköy'de premium kuru temizleme hizmeti. Takım elbise temizleme, gömlek temizleme, elbise temizlik ve designer kıyafet temizleme. Kapıdan teslimat.",
+          "length": 149,
+          "is_optimal": true,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "kadıköy kuru temizleme, kadıköy takım elbise temizleme, kadıköy gömlek temizleme, kadıköy elbise temizlik, kadıköy designer kıyafet temizleme, kadıköy blazer temizleme",
+          "count": 6,
+          "list": [
+            "kadıköy kuru temizleme",
+            "kadıköy takım elbise temizleme",
+            "kadıköy gömlek temizleme",
+            "kadıköy elbise temizlik",
+            "kadıköy designer kıyafet temizleme",
+            "kadıköy blazer temizleme"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/kadikoy-kuru-temizleme.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/kadikoy-kuru-temizleme.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Kadıköy'de Premium Kuru Temizleme",
+          "length": 33,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 363,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 20,
+          "service_mentions": 41,
+          "location_density": 5.5096418732782375,
+          "service_density": 11.294765840220386,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "kadikoy-luxury-kiyafet.html": {
+      "filename": "kadikoy-luxury-kiyafet.html",
+      "meta_tags": {
+        "title": {
+          "content": "Kadıköy Luxury Kıyafet Bakımı | Dry Alle | Designer Kıyafet Temizleme",
+          "length": 69,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": false
+        },
+        "description": {
+          "content": "Kadıköy'de luxury kıyafet temizleme ve bakımı hizmeti. Chanel, Dior, Prada, Armani temizleme. Designer kıyafet temizleme uzmanı. Kapıdan alıp getiriyoruz.",
+          "length": 154,
+          "is_optimal": true,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "kadıköy luxury kıyafet temizleme, kadıköy chanel dior prada temizleme, kadıköy armani hugo boss temizleme, kadıköy designer kıyafet bakımı, kadıköy premium marka temizleme, kadıköy luxury clothing cleaning",
+          "count": 6,
+          "list": [
+            "kadıköy luxury kıyafet temizleme",
+            "kadıköy chanel dior prada temizleme",
+            "kadıköy armani hugo boss temizleme",
+            "kadıköy designer kıyafet bakımı",
+            "kadıköy premium marka temizleme",
+            "kadıköy luxury clothing cleaning"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/kadikoy-luxury-kiyafet.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/kadikoy-luxury-kiyafet.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": false
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Kadıköy'de Luxury Kıyafet Bakımı",
+          "length": 32,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 375,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 42,
+          "location_density": 5.066666666666666,
+          "service_density": 11.200000000000001,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "kalamis-koltuk-yikama.html": {
+      "filename": "kalamis-koltuk-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Kalamış Koltuk Yıkama | Dry Alle | Evinizde Profesyonel Hizmet",
+          "length": 62,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Kalamış'ta koltuk yıkama hizmeti. Evinizde profesyonel kumaş ve deri koltuk temizliği. Leke çıkarma garantisi, hijyenik temizlik.",
+          "length": 129,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "kalamış koltuk yıkama, kalamış furniture cleaning, kalamış koltuk temizliği, kalamış deri koltuk yıkama, kalamış kumaş koltuk temizleme",
+          "count": 5,
+          "list": [
+            "kalamış koltuk yıkama",
+            "kalamış furniture cleaning",
+            "kalamış koltuk temizliği",
+            "kalamış deri koltuk yıkama",
+            "kalamış kumaş koltuk temizleme"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/kalamis-koltuk-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/kalamis-koltuk-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Kalamış'ta Koltuk Yıkama",
+          "length": 24,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 341,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 36,
+          "location_density": 5.571847507331378,
+          "service_density": 10.557184750733137,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "kartal-koltuk-yikama.html": {
+      "filename": "kartal-koltuk-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Kartal Koltuk Yıkama | Dry Alle | Premium Kalite Mobilya Temizleme",
+          "length": 66,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "description": {
+          "content": "Kartal'da premium kalite mobilya temizleme hizmeti. Yüksek kalite koltuklar, superior mobilyalar için özel bakım. Premium mobilya temizliği. Kapıdan alıp getiriyoruz.",
+          "length": 166,
+          "is_optimal": false,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "kartal koltuk yıkama, kartal premium mobilya temizleme, kartal kalite koltuk yıkama, kartal superior mobilya bakımı, kartal high quality furniture cleaning",
+          "count": 5,
+          "list": [
+            "kartal koltuk yıkama",
+            "kartal premium mobilya temizleme",
+            "kartal kalite koltuk yıkama",
+            "kartal superior mobilya bakımı",
+            "kartal high quality furniture cleaning"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/kartal-koltuk-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/kartal-koltuk-yikama.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Kartal'da Premium Kalite Mobilya Temizleme",
+          "length": 42,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 385,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 44,
+          "location_density": 4.935064935064935,
+          "service_density": 11.428571428571429,
+          "is_optimal": false
+        }
+      },
+      "issues": [
+        "Meta description too long (166 chars)"
+      ],
+      "strengths": [
+        "Optimal title length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.3
+    },
+    "kozyatagi-kuru-temizleme.html": {
+      "filename": "kozyatagi-kuru-temizleme.html",
+      "meta_tags": {
+        "title": {
+          "content": "Kozyatağı Kuru Temizleme | Dry Alle | Modern Kıyafet Bakımı",
+          "length": 59,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Kozyatağı'da modern kuru temizleme hizmeti. Takım elbise temizleme, iş gömlek temizleme, blazer temizlik ve iş kıyafet temizleme. Hızlı teslimat.",
+          "length": 145,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "kozyatağı kuru temizleme, kozyatağı takım elbise temizleme, kozyatağı iş gömlek temizleme, kozyatağı blazer temizlik, kozyatağı iş kıyafet temizleme, kozyatağı palto temizleme",
+          "count": 6,
+          "list": [
+            "kozyatağı kuru temizleme",
+            "kozyatağı takım elbise temizleme",
+            "kozyatağı iş gömlek temizleme",
+            "kozyatağı blazer temizlik",
+            "kozyatağı iş kıyafet temizleme",
+            "kozyatağı palto temizleme"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "localbusiness",
+          "breadcrumblist"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/kozyatagi-kuru-temizleme.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 2,
+          "total_links": 21
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/kozyatagi-kuru-temizleme.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Kozyatağı'da Kuru Temizleme",
+          "length": 27,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 333,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 21,
+          "service_mentions": 27,
+          "location_density": 6.306306306306306,
+          "service_density": 8.108108108108109,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "kucukbakkalkoy-hali-yikama.html": {
+      "filename": "kucukbakkalkoy-hali-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Küçükbakkalköy Halı Yıkama | Dry Alle | Modern Halı Temizleme Uzmanı",
+          "length": 68,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Küçükbakkalköy'de modern halı yıkama hizmeti. Teknolojik halılar, smart home tekstilleri için özel bakım. İnovatif temizlik çözümleri. Kapıdan alıp getiriyoruz.",
+          "length": 160,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "küçükbakkalköy halı yıkama, küçükbakkalköy modern halı yıkama, küçükbakkalköy teknolojik halı temizleme, küçükbakkalköy smart halı bakımı, küçükbakkalköy inovatif halı yıkama",
+          "count": 5,
+          "list": [
+            "küçükbakkalköy halı yıkama",
+            "küçükbakkalköy modern halı yıkama",
+            "küçükbakkalköy teknolojik halı temizleme",
+            "küçükbakkalköy smart halı bakımı",
+            "küçükbakkalköy inovatif halı yıkama"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/kucukbakkalkoy-hali-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/kucukbakkalkoy-hali-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Küçükbakkalköy'de Modern Halı Yıkama",
+          "length": 36,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 377,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 40,
+          "location_density": 5.039787798408488,
+          "service_density": 10.610079575596817,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "kucukbakkalkoy-koltuk-yikama.html": {
+      "filename": "kucukbakkalkoy-koltuk-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Kucukbakkalkoy Koltuk Yikama | Dry Alle | Furniture Care Specialist",
+          "length": 67,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "description": {
+          "content": "Kucukbakkalkoy'de koltuk yikama hizmeti. Furniture care specialist, premium mobilya temizleme, lux koltuk bakimi. Kapidan alip getiriyoruz.",
+          "length": 139,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "kucukbakkalkoy koltuk yikama, kucukbakkalkoy furniture cleaning, kucukbakkalkoy mobilya temizleme, kucukbakkalkoy upholstery cleaning, kucukbakkalkoy sofa care",
+          "count": 5,
+          "list": [
+            "kucukbakkalkoy koltuk yikama",
+            "kucukbakkalkoy furniture cleaning",
+            "kucukbakkalkoy mobilya temizleme",
+            "kucukbakkalkoy upholstery cleaning",
+            "kucukbakkalkoy sofa care"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/kucukbakkalkoy-koltuk-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 0,
+          "total_links": 18
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/kucukbakkalkoy-koltuk-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Kucukbakkalkoy'de Koltuk Yikama",
+          "length": 31,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 359,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 7,
+          "service_mentions": 31,
+          "location_density": 1.9498607242339834,
+          "service_density": 8.635097493036211,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "maltepe-hali-yikama.html": {
+      "filename": "maltepe-hali-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Maltepe Halı Yıkama | Dry Alle | Marina Halı Temizleme Uzmanı",
+          "length": 61,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "description": {
+          "content": "Maltepe'de marina halı yıkama hizmeti. Sahil yaşamına uygun halılar, deniz temalı tasarımlar için özel bakım. Marina halı temizleme. Kapıdan alıp getiriyoruz.",
+          "length": 158,
+          "is_optimal": true,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "maltepe halı yıkama, maltepe marina halı yıkama, maltepe sahil halı temizleme, maltepe deniz halı bakımı, maltepe coastal halı yıkama",
+          "count": 5,
+          "list": [
+            "maltepe halı yıkama",
+            "maltepe marina halı yıkama",
+            "maltepe sahil halı temizleme",
+            "maltepe deniz halı bakımı",
+            "maltepe coastal halı yıkama"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/maltepe-hali-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/maltepe-hali-yikama.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Maltepe'de Marina Halı Yıkama",
+          "length": 29,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 384,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 39,
+          "location_density": 4.947916666666666,
+          "service_density": 10.15625,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "maltepe-luxury-hizmet.html": {
+      "filename": "maltepe-luxury-hizmet.html",
+      "meta_tags": {
+        "title": {
+          "content": "Maltepe Luxury Hizmet | Dry Alle | Luxury Care Excellence",
+          "length": 57,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": false
+        },
+        "description": {
+          "content": "Maltepe'de luxury hizmet. Luxury care, premium temizleme, diamond service. Kapidan alip getiriyoruz.",
+          "length": 100,
+          "is_optimal": false,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "maltepe luxury hizmet, maltepe luxury care, maltepe premium service, maltepe diamond cleaning, maltepe elite temizleme",
+          "count": 5,
+          "list": [
+            "maltepe luxury hizmet",
+            "maltepe luxury care",
+            "maltepe premium service",
+            "maltepe diamond cleaning",
+            "maltepe elite temizleme"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/maltepe-luxury-hizmet.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 0,
+          "total_links": 18
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/maltepe-luxury-hizmet.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": false
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Maltepe'de Luxury Hizmet",
+          "length": 24,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 337,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 20,
+          "service_mentions": 58,
+          "location_density": 5.934718100890208,
+          "service_density": 17.210682492581604,
+          "is_optimal": false
+        }
+      },
+      "issues": [
+        "Meta description too short (100 chars)"
+      ],
+      "strengths": [
+        "Optimal title length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.3
+    },
+    "moda-koltuk-yikama.html": {
+      "filename": "moda-koltuk-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Moda Koltuk Yıkama | Dry Alle | Chic Mobilya Temizleme Uzmanı",
+          "length": 61,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Moda'da chic mobilya temizleme hizmeti. Trendy koltuklar, modern tasarım mobilyalar için özel bakım. Chic mobilya temizliği. Kapıdan alıp getiriyoruz.",
+          "length": 150,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "moda koltuk yıkama, moda chic mobilya temizleme, moda trendy koltuk yıkama, moda modern mobilya bakımı, moda stylish furniture cleaning",
+          "count": 5,
+          "list": [
+            "moda koltuk yıkama",
+            "moda chic mobilya temizleme",
+            "moda trendy koltuk yıkama",
+            "moda modern mobilya bakımı",
+            "moda stylish furniture cleaning"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/moda-koltuk-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/moda-koltuk-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Moda'da Chic Mobilya Temizleme",
+          "length": 30,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 363,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 24,
+          "location_density": 5.234159779614325,
+          "service_density": 6.6115702479338845,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "pendik-koltuk-yikama.html": {
+      "filename": "pendik-koltuk-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Pendik Koltuk Yıkama | Dry Alle | Marina Sahil Mobilya Temizleme",
+          "length": 64,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "description": {
+          "content": "Pendik'te marina sahil mobilya temizleme hizmeti. Deniz kenarı koltuklar, coastal mobilyalar için özel bakım. Marina mobilya temizliği. Kapıdan alıp getiriyoruz.",
+          "length": 161,
+          "is_optimal": false,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "pendik koltuk yıkama, pendik marina mobilya temizleme, pendik sahil koltuk yıkama, pendik coastal mobilya bakımı, pendik marina furniture cleaning",
+          "count": 5,
+          "list": [
+            "pendik koltuk yıkama",
+            "pendik marina mobilya temizleme",
+            "pendik sahil koltuk yıkama",
+            "pendik coastal mobilya bakımı",
+            "pendik marina furniture cleaning"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/pendik-koltuk-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/pendik-koltuk-yikama.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Pendik'te Marina Sahil Mobilya Temizleme",
+          "length": 40,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 367,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 21,
+          "location_density": 5.177111716621254,
+          "service_density": 5.722070844686648,
+          "is_optimal": false
+        }
+      },
+      "issues": [
+        "Meta description too long (161 chars)"
+      ],
+      "strengths": [
+        "Optimal title length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.3
+    },
+    "sahrayicedit-premium-bakim.html": {
+      "filename": "sahrayicedit-premium-bakim.html",
+      "meta_tags": {
+        "title": {
+          "content": "Sahrayicedit Premium Bakim | Dry Alle | Premium Care Excellence",
+          "length": 63,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "description": {
+          "content": "Sahrayicedit'de premium bakim hizmeti. Premium care, high-end temizleme, business center service. Kapidan alip getiriyoruz.",
+          "length": 123,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "sahrayicedit premium bakim, sahrayicedit premium care, sahrayicedit business center cleaning, sahrayicedit corporate service, sahrayicedit elite temizleme",
+          "count": 5,
+          "list": [
+            "sahrayicedit premium bakim",
+            "sahrayicedit premium care",
+            "sahrayicedit business center cleaning",
+            "sahrayicedit corporate service",
+            "sahrayicedit elite temizleme"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/sahrayicedit-premium-bakim.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 0,
+          "total_links": 18
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/sahrayicedit-premium-bakim.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": false
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Sahrayicedit'de Premium Bakim",
+          "length": 29,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 340,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 6,
+          "service_mentions": 45,
+          "location_density": 1.7647058823529411,
+          "service_density": 13.23529411764706,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "suadiye-hali-yikama.html": {
+      "filename": "suadiye-hali-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Suadiye Halı Yıkama | Dry Alle | Ücretsiz Kapıdan Teslimat",
+          "length": 58,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Suadiye'de en kaliteli halı yıkama hizmeti. Antik, modern, ipek halılar için özel yıkama. Kapıdan alıp getiriyoruz. 25 yıllık deneyim.",
+          "length": 134,
+          "is_optimal": true,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "suadiye halı yıkama, suadiye carpet cleaning, suadiye antik halı yıkama, suadiye ipek halı temizleme, suadiye halı kapıdan teslimat",
+          "count": 5,
+          "list": [
+            "suadiye halı yıkama",
+            "suadiye carpet cleaning",
+            "suadiye antik halı yıkama",
+            "suadiye ipek halı temizleme",
+            "suadiye halı kapıdan teslimat"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/suadiye-hali-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/suadiye-hali-yikama.html",
+          "has_hyphens": true,
+          "has_location": false,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Suadiye'de Halı Yıkama",
+          "length": 22,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 354,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 18,
+          "service_mentions": 33,
+          "location_density": 5.084745762711865,
+          "service_density": 9.322033898305085,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "umraniye-hali-yikama.html": {
+      "filename": "umraniye-hali-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Ümraniye Halı Yıkama | Dry Alle | VIP Halı Temizleme Uzmanı",
+          "length": 59,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "description": {
+          "content": "Ümraniye'de VIP halı yıkama hizmeti. Kraliyet halıları, exclusive koleksiyonlar için özel bakım. VIP halı temizleme hizmeti. Kapıdan alıp getiriyoruz.",
+          "length": 150,
+          "is_optimal": true,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "ümraniye halı yıkama, ümraniye vip halı yıkama, ümraniye kraliyet halı temizleme, ümraniye exclusive halı bakımı, ümraniye luxury halı yıkama",
+          "count": 5,
+          "list": [
+            "ümraniye halı yıkama",
+            "ümraniye vip halı yıkama",
+            "ümraniye kraliyet halı temizleme",
+            "ümraniye exclusive halı bakımı",
+            "ümraniye luxury halı yıkama"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/umraniye-hali-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/umraniye-hali-yikama.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Ümraniye'de VIP Halı Yıkama",
+          "length": 27,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 376,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 41,
+          "location_density": 5.053191489361701,
+          "service_density": 10.904255319148938,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "umraniye-vip-temizlik.html": {
+      "filename": "umraniye-vip-temizlik.html",
+      "meta_tags": {
+        "title": {
+          "content": "Umraniye VIP Temizlik | Dry Alle | VIP Service Excellence",
+          "length": 57,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "description": {
+          "content": "Umraniye'de VIP temizlik hizmeti. VIP service, premium kuru temizleme, luxury bakim. Kapidan alip getiriyoruz.",
+          "length": 110,
+          "is_optimal": false,
+          "has_location": false,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "umraniye vip temizlik, umraniye vip service, umraniye premium cleaning, umraniye luxury service, umraniye elite temizleme",
+          "count": 5,
+          "list": [
+            "umraniye vip temizlik",
+            "umraniye vip service",
+            "umraniye premium cleaning",
+            "umraniye luxury service",
+            "umraniye elite temizleme"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/umraniye-vip-temizlik.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 0,
+          "total_links": 18
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/umraniye-vip-temizlik.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Umraniye'de VIP Temizlik",
+          "length": 24,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 340,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 8,
+          "service_mentions": 44,
+          "location_density": 2.3529411764705883,
+          "service_density": 12.941176470588237,
+          "is_optimal": false
+        }
+      },
+      "issues": [
+        "Meta description too short (110 chars)"
+      ],
+      "strengths": [
+        "Optimal title length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.3
+    },
+    "uskudar-gelinlik-temizleme.html": {
+      "filename": "uskudar-gelinlik-temizleme.html",
+      "meta_tags": {
+        "title": {
+          "content": "Üsküdar Gelinlik Temizleme | Dry Alle | Özel Günler Hassas Bakım",
+          "length": 64,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": false
+        },
+        "description": {
+          "content": "Üsküdar'da gelinlik temizleme hizmeti. Özel günler için hassas bakım, düğün elbisesi temizleme. Wedding dress cleaning. Kapıdan alıp getiriyoruz.",
+          "length": 145,
+          "is_optimal": true,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "üsküdar gelinlik temizleme, üsküdar düğün elbisesi temizleme, üsküdar wedding dress cleaning, üsküdar özel günler temizleme, üsküdar bridal dress cleaning",
+          "count": 5,
+          "list": [
+            "üsküdar gelinlik temizleme",
+            "üsküdar düğün elbisesi temizleme",
+            "üsküdar wedding dress cleaning",
+            "üsküdar özel günler temizleme",
+            "üsküdar bridal dress cleaning"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/uskudar-gelinlik-temizleme.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/uskudar-gelinlik-temizleme.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": false
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Üsküdar'da Gelinlik Temizleme",
+          "length": 29,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 347,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 39,
+          "location_density": 5.475504322766571,
+          "service_density": 11.239193083573488,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "uskudar-hali-yikama.html": {
+      "filename": "uskudar-hali-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Üsküdar Halı Yıkama | Dry Alle | Tarihi Halı Temizleme Uzmanı",
+          "length": 61,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "description": {
+          "content": "Üsküdar'da tarihi ve antik halı yıkama hizmeti. Osmanlı dönemi halıları için özel bakım. Saray halıları, el dokuması koleksiyonlar. Kapıdan alıp getiriyoruz.",
+          "length": 157,
+          "is_optimal": true,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "üsküdar halı yıkama, üsküdar antik halı yıkama, üsküdar tarihi halı temizleme, üsküdar osmanlı halı bakımı, üsküdar saray halı yıkama",
+          "count": 5,
+          "list": [
+            "üsküdar halı yıkama",
+            "üsküdar antik halı yıkama",
+            "üsküdar tarihi halı temizleme",
+            "üsküdar osmanlı halı bakımı",
+            "üsküdar saray halı yıkama"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/uskudar-hali-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/uskudar-hali-yikama.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Üsküdar'da Tarihi Halı Yıkama",
+          "length": 29,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 361,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 26,
+          "location_density": 5.263157894736842,
+          "service_density": 7.202216066481995,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "uskudar-koltuk-yikama.html": {
+      "filename": "uskudar-koltuk-yikama.html",
+      "meta_tags": {
+        "title": {
+          "content": "Üsküdar Koltuk Yıkama | Dry Alle | Antik Mobilya Temizleme Uzmanı",
+          "length": 65,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": true
+        },
+        "description": {
+          "content": "Üsküdar'da antik mobilya temizleme hizmeti. Tarihi koltuklar, klasik mobilyalar için özel bakım. Vintage mobilya temizleme. Kapıdan alıp getiriyoruz.",
+          "length": 149,
+          "is_optimal": true,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "üsküdar koltuk yıkama, üsküdar antik mobilya temizleme, üsküdar tarihi koltuk yıkama, üsküdar klasik mobilya bakımı, üsküdar vintage mobilya temizleme",
+          "count": 5,
+          "list": [
+            "üsküdar koltuk yıkama",
+            "üsküdar antik mobilya temizleme",
+            "üsküdar tarihi koltuk yıkama",
+            "üsküdar klasik mobilya bakımı",
+            "üsküdar vintage mobilya temizleme"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/uskudar-koltuk-yikama.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 1,
+          "total_links": 19
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/uskudar-koltuk-yikama.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": true
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Üsküdar'da Antik Mobilya Temizleme",
+          "length": 34,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": true,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 366,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 19,
+          "service_mentions": 20,
+          "location_density": 5.191256830601093,
+          "service_density": 5.46448087431694,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    },
+    "uskudar-luxury-kiyafet.html": {
+      "filename": "uskudar-luxury-kiyafet.html",
+      "meta_tags": {
+        "title": {
+          "content": "Uskudar Luxury Kiyafet Bakimi | Dry Alle | Designer Clothing Care",
+          "length": 65,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "description": {
+          "content": "Üsküdar'da luxury kıyafet temizleme hizmeti. Haute couture, designer giysi temizleme, premium kıyafet bakımı. Kapıdan alıp getiriyoruz.",
+          "length": 135,
+          "is_optimal": true,
+          "has_location": true,
+          "has_cta": false
+        },
+        "keywords": {
+          "content": "üsküdar luxury kıyafet temizleme, üsküdar designer giysi temizleme, üsküdar haute couture temizleme, üsküdar premium kıyafet bakımı, üsküdar luxury clothing cleaning",
+          "count": 5,
+          "list": [
+            "üsküdar luxury kıyafet temizleme",
+            "üsküdar designer giysi temizleme",
+            "üsküdar haute couture temizleme",
+            "üsküdar premium kıyafet bakımı",
+            "üsküdar luxury clothing cleaning"
+          ],
+          "is_optimal": true
+        },
+        "open_graph": {}
+      },
+      "schema_markup": {
+        "json_ld_count": 2,
+        "breadcrumb_schema": true,
+        "localbusiness_schema": true,
+        "service_schema": false,
+        "organization_schema": false,
+        "webpage_schema": false,
+        "postaladdress_schema": false,
+        "contactpoint_schema": false,
+        "schemas_found": [
+          "breadcrumblist",
+          "localbusiness"
+        ],
+        "syntax_errors": []
+      },
+      "technical_seo": {
+        "canonical_url": {
+          "present": true,
+          "url": "https://dryallekurutemizleme.com/bolgeler/uskudar-luxury-kiyafet.html"
+        },
+        "charset": {
+          "present": true,
+          "value": "UTF-8"
+        },
+        "turkish_characters": {
+          "present": true,
+          "encoding_issues": [],
+          "properly_encoded": true
+        },
+        "internal_links": {
+          "count": 16,
+          "external_count": 0,
+          "total_links": 18
+        },
+        "url_structure": {
+          "url": "https://dryallekurutemizleme.com/bolgeler/uskudar-luxury-kiyafet.html",
+          "has_hyphens": true,
+          "has_location": true,
+          "has_service": false
+        }
+      },
+      "content_analysis": {
+        "h1": {
+          "content": "Uskudar'da Luxury Kiyafet Bakimi",
+          "length": 32,
+          "count": 1,
+          "is_optimal": true,
+          "has_location": false,
+          "has_service": false
+        },
+        "headings": {
+          "h2_count": 3,
+          "h3_count": 11,
+          "total_headings": 15,
+          "proper_hierarchy": true
+        },
+        "word_count": {
+          "total": 370,
+          "is_optimal": true,
+          "category": "good"
+        },
+        "keyword_density": {
+          "location_mentions": 7,
+          "service_mentions": 46,
+          "location_density": 1.891891891891892,
+          "service_density": 12.432432432432433,
+          "is_optimal": false
+        }
+      },
+      "issues": [],
+      "strengths": [
+        "Optimal title length",
+        "Optimal meta description length",
+        "BreadcrumbList schema present",
+        "LocalBusiness schema present",
+        "Canonical URL present",
+        "Proper Turkish character encoding",
+        "Single H1 tag present",
+        "Adequate word count"
+      ],
+      "seo_score": 8.8
+    }
+  },
+  "recommendations": [
+    "Optimize 6 meta descriptions to 120-160 character range"
+  ],
+  "improvement_opportunities": [
+    "Meta description too long (164 chars) (affects 1 pages)",
+    "Meta description too long (174 chars) (affects 1 pages)",
+    "Meta description too long (166 chars) (affects 1 pages)",
+    "Meta description too short (100 chars) (affects 1 pages)",
+    "Meta description too long (161 chars) (affects 1 pages)",
+    "Meta description too short (110 chars) (affects 1 pages)"
+  ]
+}

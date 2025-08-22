@@ -20,6 +20,7 @@
     {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
+        "@id": "#breadcrumb",
         "itemListElement": [
             {
                 "@type": "ListItem",
@@ -48,6 +49,7 @@
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "#localbusiness",
         "name": "Dry Alle Haute Couture Bakımı - Bağdat Caddesi",
         "description": "Bağdat Caddesi'nde haute couture temizleme hizmeti. Designer kıyafet temizleme, lüks elbise temizlik ve couture gown temizleme hizmeti.",
         "address": {
@@ -60,12 +62,54 @@
         },
         "telephone": "+90-543-352-7474",
         "url": "https://dryallekurutemizleme.com",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.9711,
+            "longitude": 29.0375
+        },
         "areaServed": {
             "@type": "Place",
             "name": "Bağdat Caddesi"
         },
         "priceRange": "$$$$",
-        "openingHours": "Mo-Sa 09:00-18:00"
+        "openingHours": "Mo-Sa 09:00-18:00",
+        "paymentAccepted": ["Cash", "CreditCard", "DebitCard"],
+        "currenciesAccepted": "TRY",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "VIP Premium Hizmetler",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Luxury Temizlik Hizmetleri"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <!-- WebPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Bağdat Caddesi Haute Couture | Dry Alle",
+        "description": "Bağdat Caddesi'nde haute couture temizleme hizmeti. Designer kıyafet temizleme, lüks elbise temizleme, couture gown temizlik. Kapıdan alıp getiriyoruz.",
+        "url": "https://dryallekurutemizleme.com/bolgeler/bagdat-caddesi-haute-couture.html",
+        "mainEntity": {
+            "@id": "#localbusiness"
+        },
+        "inLanguage": "tr-TR",
+        "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://dryallekurutemizleme.com"
+        },
+        "breadcrumb": {
+            "@id": "#breadcrumb"
+        }
     }
     </script>
 </head>

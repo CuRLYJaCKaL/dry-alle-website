@@ -20,6 +20,7 @@
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "#localbusiness",
         "name": "Dry Alle Kuru Temizleme - Kozyatağı",
         "description": "Kozyatağı'da modern kuru temizleme hizmeti. Takım elbise, iş gömlek, blazer ve iş kıyafet temizleme hizmeti.",
         "address": {
@@ -32,12 +33,32 @@
         },
         "telephone": "+90-543-352-7474",
         "url": "https://dryallekurutemizleme.com",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.9744,
+            "longitude": 29.1083
+        },
         "areaServed": {
             "@type": "Place",
             "name": "Kozyatağı"
         },
-        "priceRange": "$$",
-        "openingHours": "Mo-Sa 09:00-18:00"
+        "priceRange": "$$$",
+        "openingHours": "Mo-Sa 09:00-18:00",
+        "paymentAccepted": ["Cash", "CreditCard", "DebitCard"],
+        "currenciesAccepted": "TRY",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Kuru Temizleme Hizmetleri",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Premium Kuru Temizleme"
+                    }
+                }
+            ]
+        }
     }
     </script>
     
@@ -46,6 +67,7 @@
     {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
+        "@id": "#breadcrumb",
         "itemListElement": [
             {
                 "@type": "ListItem",
@@ -66,6 +88,28 @@
                 "item": "https://dryallekurutemizleme.com/bolgeler/kozyatagi-kuru-temizleme.html"
             }
         ]
+    }
+    </script>
+    
+    <!-- WebPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Kozyatağı Kuru Temizleme | Dry Alle",
+        "description": "Kozyatağı'da modern kuru temizleme hizmeti. Takım elbise temizleme, iş gömlek temizleme, blazer temizlik ve iş kıyafet temizleme. Hızlı teslimat.",
+        "url": "https://dryallekurutemizleme.com/bolgeler/kozyatagi-kuru-temizleme.html",
+        "mainEntity": {
+            "@id": "#localbusiness"
+        },
+        "inLanguage": "tr-TR",
+        "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://dryallekurutemizleme.com"
+        },
+        "breadcrumb": {
+            "@id": "#breadcrumb"
+        }
     }
     </script>
 </head>
