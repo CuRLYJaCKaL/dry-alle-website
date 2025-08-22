@@ -1,0 +1,2626 @@
+[
+  {
+    "filename": "acibadem-kuru-temizleme.html",
+    "title": "Acıbadem Kuru Temizleme | Dry Alle | Ücretsiz Kapıdan Teslimat",
+    "description": "Acıbadem",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "acibadem",
+      "service_from_filename": "kuru-temizleme",
+      "coordinates": "40.9667;29.0333",
+      "placename": "Acıbadem, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 4,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "altunizade-hali-yikama.html",
+    "title": "Altunizade Halı Yıkama | Dry Alle",
+    "description": "Altunizade",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "altunizade",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "41.0156;29.0661",
+      "placename": "Altunizade, Üsküdar, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "altunizade-premium-temizlik.html",
+    "title": "Altunizade Premium Temizlik | Dry Alle | High-End Cleaning Service",
+    "description": "Altunizade",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "altunizade",
+      "service_from_filename": "premium-service",
+      "coordinates": "41.0156;29.0661",
+      "placename": "Altunizade, Üsküdar, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "atasehir-hali-yikama.html",
+    "title": "Ataşehir Halı Yıkama | Dry Alle",
+    "description": "Ataşehir",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "atasehir",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "41.0188;29.1264",
+      "placename": "Ataşehir, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "atasehir-koltuk-yikama.html",
+    "title": "Ataşehir Koltuk Yıkama | Dry Alle | Business Mobilya Temizleme",
+    "description": "Ataşehir",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "atasehir",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "41.0188;29.1264",
+      "placename": "Ataşehir, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "atasehir-premium-temizlik.html",
+    "title": "Ataşehir Premium Temizlik | Dry Alle | Business VIP Hizmet",
+    "description": "Ataşehir",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "atasehir",
+      "service_from_filename": "premium-service",
+      "coordinates": "41.0188;29.1264",
+      "placename": "Ataşehir, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "bagdat-caddesi-haute-couture.html",
+    "title": "Bağdat Caddesi Haute Couture | Dry Alle | Luxury Fashion Care",
+    "description": "Bağdat Caddesi",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "bagdat-caddesi",
+      "service_from_filename": "haute-couture",
+      "coordinates": "40.9667;29.0667",
+      "placename": "Bağdat Caddesi, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "bagdat-caddesi-koltuk-yikama.html",
+    "title": "Bağdat Caddesi Koltuk Yıkama | Dry Alle | VIP Mobilya Bakım",
+    "description": "Bağdat Caddesi",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "bagdat-caddesi",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.9667;29.0667",
+      "placename": "Bağdat Caddesi, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "barbaros-koltuk-yikama.html",
+    "title": "Barbaros Koltuk Yıkama | Dry Alle | VIP Mobilya Bakımı",
+    "description": "Barbaros",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "barbaros",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "41.0392;29.0067",
+      "placename": "Barbaros, Beşiktaş, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "bostanci-koltuk-yikama.html",
+    "title": "Bostancı Koltuk Yıkama | Dry Alle | Lüks Mobilya Temizleme",
+    "description": "Bostancı",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "bostanci",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.9588;29.0944",
+      "placename": "Bostancı, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "caddebostan-hali-yikama.html",
+    "title": "Caddebostan Halı Yıkama | Dry Alle | Lüks Halı Temizleme",
+    "description": "Caddebostan",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "caddebostan",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "40.9656;29.0933",
+      "placename": "Caddebostan, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "caddebostan-koltuk-yikama.html",
+    "title": "Caddebostan Koltuk Yıkama | Dry Alle | Koltuk Temizleme",
+    "description": "Caddebostan",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "caddebostan",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.9656;29.0933",
+      "placename": "Caddebostan, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "camlica-kuru-temizleme.html",
+    "title": "Çamlıca Kuru Temizleme | Dry Alle | Elite Kıyafet Bakımı",
+    "description": "Çamlıca",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "camlica",
+      "service_from_filename": "kuru-temizleme",
+      "coordinates": "41.0194;29.0664",
+      "placename": "Çamlıca, Üsküdar, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "erenkoy-hali-yikama.html",
+    "title": "Erenköy Halı Yıkama | Dry Alle | Antik Halı Temizleme Uzmanı",
+    "description": "Erenköy",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "erenkoy",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "40.9772;29.0725",
+      "placename": "Erenköy, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "fenerbahce-hali-yikama.html",
+    "title": "Fenerbahçe Halı Yıkama | Dry Alle",
+    "description": "Fenerbahçe",
+    "meta_tags_count": 20,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "fenerbahce",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "40.9633;29.0467",
+      "placename": "Fenerbahçe, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "fenerbahce-koltuk-yikama.html",
+    "title": "Fenerbahçe Koltuk Yıkama | Dry Alle | Koltuk Temizleme",
+    "description": "Fenerbahçe",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "fenerbahce",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.9633;29.0467",
+      "placename": "Fenerbahçe, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "fenerbahce-kuru-temizleme.html",
+    "title": "Fenerbahçe Kuru Temizleme | Dry Alle | Premium Kıyafet Bakımı",
+    "description": "Fenerbahçe",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "fenerbahce",
+      "service_from_filename": "kuru-temizleme",
+      "coordinates": "40.9633;29.0467",
+      "placename": "Fenerbahçe, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "fikirtepe-koltuk-yikama.html",
+    "title": "Fikirtepe Koltuk Yıkama | Dry Alle | Modern Mobilya Temizliği",
+    "description": "Fikirtepe",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "fikirtepe",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.9689;29.0533",
+      "placename": "Fikirtepe, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "goztepe-hali-yikama.html",
+    "title": "Göztepe Halı Yıkama Uzmanı | Dry Alle | Lüks Halı Bakımı",
+    "description": "Göztepe",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "goztepe",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "40.9839;29.0564",
+      "placename": "Göztepe, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "icerenkoy-hali-yikama.html",
+    "title": "İçerenköy Halı Yıkama | Dry Alle",
+    "description": "İçerenköy",
+    "meta_tags_count": 20,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "icerenkoy",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "40.9711;29.0778",
+      "placename": "İçerenköy, Ataşehir, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "kadikoy-koltuk-yikama.html",
+    "title": "Kadıköy Koltuk Yıkama | Dry Alle",
+    "description": "Kadıköy",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "kadikoy",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.9903;29.0275",
+      "placename": "Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "kadikoy-kuru-temizleme.html",
+    "title": "Kadıköy Kuru Temizleme | Dry Alle",
+    "description": "Kadıköy",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "kadikoy",
+      "service_from_filename": "kuru-temizleme",
+      "coordinates": "40.9903;29.0275",
+      "placename": "Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "kadikoy-luxury-kiyafet.html",
+    "title": "Kadıköy Luxury Kıyafet | Dry Alle",
+    "description": "Kadıköy",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "kadikoy",
+      "service_from_filename": "premium-service",
+      "coordinates": "40.9903;29.0275",
+      "placename": "Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "kalamis-koltuk-yikama.html",
+    "title": "Kalamış Koltuk Yıkama | Dry Alle | Evinizde Profesyonel Hizmet",
+    "description": "Kalamış",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "kalamis",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.9628;29.0394",
+      "placename": "Kalamış, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "kartal-koltuk-yikama.html",
+    "title": "Kartal Koltuk Yıkama | Dry Alle",
+    "description": "Kartal",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "kartal",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.9092;29.1822",
+      "placename": "Kartal, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "kozyatagi-kuru-temizleme.html",
+    "title": "Kozyatağı Kuru Temizleme | Dry Alle | Modern Kıyafet Bakımı",
+    "description": "Kozyatağı",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "kozyatagi",
+      "service_from_filename": "kuru-temizleme",
+      "coordinates": "40.9711;29.0778",
+      "placename": "Kozyatağı, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "kucukbakkalkoy-hali-yikama.html",
+    "title": "Küçükbakkalköy Halı Yıkama | Dry Alle",
+    "description": "Küçükbakkalköy",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "kucukbakkalkoy",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "40.9756;29.0853",
+      "placename": "Küçükbakkalköy, Ataşehir, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "kucukbakkalkoy-koltuk-yikama.html",
+    "title": "Küçükbakkalköy Koltuk Yıkama | Dry Alle",
+    "description": "Küçükbakkalköy",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "kucukbakkalkoy",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.9756;29.0853",
+      "placename": "Küçükbakkalköy, Ataşehir, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "maltepe-hali-yikama.html",
+    "title": "Maltepe Halı Yıkama | Dry Alle | Marina Halı Temizleme Uzmanı",
+    "description": "Maltepe",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "maltepe",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "40.9333;29.1333",
+      "placename": "Maltepe, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "maltepe-luxury-hizmet.html",
+    "title": "Maltepe Luxury Hizmet | Dry Alle | Luxury Care Excellence",
+    "description": "Maltepe",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "maltepe",
+      "service_from_filename": "premium-service",
+      "coordinates": "40.9333;29.1333",
+      "placename": "Maltepe, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "moda-koltuk-yikama.html",
+    "title": "Moda Koltuk Yıkama | Dry Alle | Chic Mobilya Temizleme Uzmanı",
+    "description": "Moda",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "moda",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.9800;29.0333",
+      "placename": "Moda, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "pendik-koltuk-yikama.html",
+    "title": "Pendik Koltuk Yıkama | Dry Alle | Marina Sahil Mobilya Temizleme",
+    "description": "Pendik",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "pendik",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.8783;29.2322",
+      "placename": "Pendik, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "sahrayicedit-premium-bakim.html",
+    "title": "Sahrayıcedit Kaliteli Bakım | Dry Alle | Yüksek Kalite Hizmet",
+    "description": "Sahrayıcedit",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "sahrayicedit",
+      "service_from_filename": "premium-service",
+      "coordinates": "40.9667;29.0667",
+      "placename": "Sahrayıcedit, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "suadiye-hali-yikama.html",
+    "title": "Suadiye Halı Yıkama | Dry Alle | Ücretsiz Kapıdan Teslimat",
+    "description": "Suadiye",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "suadiye",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "40.9583;29.0567",
+      "placename": "Suadiye, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "suadiye-koltuk-yikama.html",
+    "title": "Suadiye Koltuk Yıkama | Dry Alle | Koltuk Temizleme",
+    "description": "Suadiye",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "suadiye",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "40.9583;29.0567",
+      "placename": "Suadiye, Kadıköy, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "umraniye-hali-yikama.html",
+    "title": "Ümraniye Halı Yıkama | Dry Alle | VIP Halı Temizleme Uzmanı",
+    "description": "Ümraniye",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "umraniye",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "41.0167;29.1167",
+      "placename": "Ümraniye, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "umraniye-vip-temizlik.html",
+    "title": "Ümraniye VIP Temizlik | Dry Alle | VIP Service Excellence",
+    "description": "Ümraniye",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "umraniye",
+      "service_from_filename": "specialized-service",
+      "coordinates": "41.0167;29.1167",
+      "placename": "Ümraniye, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "uskudar-gelinlik-temizleme.html",
+    "title": "Üsküdar Gelinlik Temizleme | Dry Alle",
+    "description": "Üsküdar",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "uskudar",
+      "service_from_filename": "gelinlik-temizleme",
+      "coordinates": "41.0214;29.0144",
+      "placename": "Üsküdar, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "uskudar-hali-yikama.html",
+    "title": "Üsküdar Halı Yıkama | Dry Alle",
+    "description": "Üsküdar",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "uskudar",
+      "service_from_filename": "hali-yikama",
+      "coordinates": "41.0214;29.0144",
+      "placename": "Üsküdar, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "uskudar-koltuk-yikama.html",
+    "title": "Üsküdar Koltuk Yıkama | Dry Alle",
+    "description": "Üsküdar",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "uskudar",
+      "service_from_filename": "koltuk-yikama",
+      "coordinates": "41.0214;29.0144",
+      "placename": "Üsküdar, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  },
+  {
+    "filename": "uskudar-luxury-kiyafet.html",
+    "title": "Üsküdar Luxury Kıyafet Bakımı | Dry Alle | Designer Clothing Care",
+    "description": "Üsküdar",
+    "meta_tags_count": 21,
+    "critical_css": {
+      "has_inline_styles": true,
+      "has_css_variables": true,
+      "has_mobile_styles": true,
+      "score": 3
+    },
+    "geo_signals": {
+      "checks": {
+        "geo_region": true,
+        "geo_placename": true,
+        "geo_position": true,
+        "icbm": true,
+        "location_tracking": true
+      },
+      "score": 5,
+      "total": 5
+    },
+    "performance": {
+      "checks": {
+        "font_preload": true,
+        "critical_css": true,
+        "service_worker": true,
+        "web_vitals": true,
+        "lcp_attributes": true,
+        "mobile_optimized": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "pwa_signals": {
+      "checks": {
+        "mobile_web_app_title": true,
+        "apple_touch_fullscreen": true,
+        "format_detection": true,
+        "theme_color": true,
+        "apple_mobile_capable": true,
+        "msapplication_tile": true
+      },
+      "score": 6,
+      "total": 6
+    },
+    "location_info": {
+      "location_from_filename": "uskudar",
+      "service_from_filename": "premium-service",
+      "coordinates": "41.0214;29.0144",
+      "placename": "Üsküdar, İstanbul"
+    },
+    "schema_markup": {
+      "has_local_business": true,
+      "has_webpage": true,
+      "has_breadcrumb": true,
+      "json_ld_count": 3,
+      "score": 3
+    },
+    "overall_score": 100.0,
+    "total_achieved": 23,
+    "total_possible": 23,
+    "status": "PERFECT"
+  }
+]

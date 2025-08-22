@@ -34,6 +34,9 @@
 @import url('./styles/utilities/spacing.css');
 @import url('./styles/utilities/display.css');
 
+/* 7. Mobile SEO Enhancements (Non-Breaking Performance Optimizations) */
+@import url('./styles/enhancements/mobile-seo.css');
+
 /* ================================
    REMAINING LEGACY STYLES
    Gradually migrate these to component files
