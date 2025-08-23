@@ -179,6 +179,9 @@
         }
     </style>
     
+    <!-- Accessibility Component - MIT Architecture -->
+    <link rel="stylesheet" href="../components/accessibility.css">
+    
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" />
 
@@ -318,6 +321,8 @@
 </script>
 </head>
 <body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Ana içeriğe geç</a>
 
 <!-- Yellow Top Bar -->
 <div class="top-bar">
@@ -354,16 +359,20 @@
         </ul>
     </nav>
 </header>
+<!-- Main Content -->
+<main id="main-content" role="main">
 <!-- Modern Blog Layout -->
 <div class="modern-blog-container">
     <!-- Blog Sidebar -->
-    <aside class="blog-sidebar">
+    <aside class="blog-sidebar" role="complementary" aria-label="Blog kategorileri ve arama">
         <h2>Kategoriler</h2>
         
         <!-- Modern Search -->
         <div class="modern-search-container">
-            <div class="modern-search-icon">🔍</div>
-            <input type="text" class="modern-search-input" id="searchInput" placeholder="68 uzman makale arasında arayın...">
+            <label for="searchInput" class="sr-only">Blog makaleleri arayın</label>
+            <div class="modern-search-icon" aria-hidden="true">🔍</div>
+            <input type="text" class="modern-search-input" id="searchInput" placeholder="68 uzman makale arasında arayın..." aria-describedby="search-help">
+            <div id="search-help" class="sr-only">Arama yapmak için kategori veya makale başlığı yazın</div>
         </div>
         
         <!-- Blog Categories -->
@@ -674,8 +683,10 @@
     <!-- GTM Component - Ana Tracking Sistemi -->
     <script src="../components/gtm.js"></script>
     
+    </main>
+    
     <!-- Footer - STANDARDIZED -->
-    <footer class="main-footer">
+    <footer class="main-footer" role="contentinfo">
         <div class="container">
             <p>© 2025 Dry Alle Kuru Temizleme. Tüm hakları saklıdır.</p>
         </div>

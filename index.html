@@ -470,34 +470,34 @@
     </div>
 
     <!-- Main Header -->
-    <header class="header">
+    <header class="header" role="banner">
         <div class="header-container">
             <div class="logo">
-                <svg width="390" height="105" viewBox="0 0 390 105" xmlns="http://www.w3.org/2000/svg">
+                <svg width="390" height="105" viewBox="0 0 390 105" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dry Alle Kuru Temizleme Logo">
                     <text x="195" y="58" font-family="Dancing Script, cursive" font-size="60" font-weight="700" fill="#f6ec3d" text-anchor="middle">Dry Alle</text>
                     <text x="195" y="86" font-family="Roboto, sans-serif" font-size="16" font-weight="600" fill="white" letter-spacing="2px" text-anchor="middle">KURU TEMİZLEME</text>
                 </svg>
             </div>
             
-            <div class="contact-button">
-                <div class="phone-icon">📞</div>
+            <button class="contact-button" aria-label="Telefon ile iletişim kurun" onclick="window.location.href='tel:+905433527474'">
+                <div class="phone-icon" aria-hidden="true">📞</div>
                 <span>İletişim</span>
-            </div>
+            </button>
         </div>
         
         <!-- Navigation -->
-        <nav class="main-nav">
-            <ul class="nav-menu">
-                <li><a href="#services">Hizmetlerimiz</a></li>
-                <li><a href="#about">Hakkımızda</a></li>
-                <li><a href="blog/">Blog</a></li>
-                <li><a href="fiyatlar.html">Fiyatlar</a></li>
-                <li><a href="#contact">İletişim</a></li>
+        <nav class="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
+            <ul class="nav-menu" role="menubar">
+                <li role="none"><a href="#services" role="menuitem">Hizmetlerimiz</a></li>
+                <li role="none"><a href="#about" role="menuitem">Hakkımızda</a></li>
+                <li role="none"><a href="blog/" role="menuitem">Blog</a></li>
+                <li role="none"><a href="fiyatlar.html" role="menuitem">Fiyatlar</a></li>
+                <li role="none"><a href="#contact" role="menuitem">İletişim</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main id="main-content" role="main">
         <!-- Hero Section -->
         <section class="hero">
             <div class="hero-background">
