@@ -174,8 +174,18 @@
     <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="styles.css"></noscript>
     
-    <!-- Preload Critical Resources -->
-    <link rel="preload" href="asset/hero-image-desktop.webp" as="image" fetchpriority="high">
+    <!-- Preload Critical Resources - Responsive Hero Images -->
+    <link rel="preload" href="asset/hero-image-mobile.webp" as="image" media="(max-width: 480px)" fetchpriority="high">
+    <link rel="preload" href="asset/hero-image-tablet.webp" as="image" media="(min-width: 481px) and (max-width: 768px)" fetchpriority="high">
+    <link rel="preload" href="asset/hero-image-desktop.webp" as="image" media="(min-width: 769px) and (max-width: 1200px)" fetchpriority="high">
+    <link rel="preload" href="asset/hero-image-large.webp" as="image" media="(min-width: 1201px) and (max-width: 1600px)" fetchpriority="high">
+    <link rel="preload" href="asset/hero-image-xlarge.webp" as="image" media="(min-width: 1601px)" fetchpriority="high">
+    
+    <!-- Preload Critical Above-the-fold Images -->
+    <link rel="preload" href="asset/about-us-small.webp" as="image" media="(max-width: 480px)">
+    <link rel="preload" href="asset/about-us-medium.webp" as="image" media="(min-width: 481px) and (max-width: 768px)">
+    <link rel="preload" href="asset/about-us-large.webp" as="image" media="(min-width: 769px) and (max-width: 1200px)">
+    <link rel="preload" href="asset/about-us-xlarge.webp" as="image" media="(min-width: 1201px)">
     
     <!-- Performance Hints -->
     <meta name="theme-color" content="#006a44">
