@@ -10,43 +10,53 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="google-site-verification" content="evzDi5K1Ehev79As5pauzwJzazgZJjIIZWFAiJvy8MA" />    
+    
     <!-- SEO Meta Tags -->
-    <title>Çanta Temizleme İstanbul Acıbadem | Dry Alle</title>
-    <meta name="description" content="İstanbul'un elit semtlerinde çanta temizleme hizmeti. Deri çanta, kumaş çanta, valiz ve bavul temizliği. Ücretsiz kapıdan teslimat. 25 yıllık deneyim.">
-    <meta name="keywords" content="çanta temizleme acıbadem, deri çanta temizleme suadiye, valiz temizleme kalamış, bavul temizleme fenerbahçe, el çantası temizleme caddebostan, sırt çantası temizleme erenköy, çanta bakımı kozyatağı">
+    <title>Kumaş ve Deri Boyama İstanbul | Dry Alle</title>
+    <meta name="description" content="İstanbul'un elit semtlerinde kumaş ve deri boyama hizmeti. Solmuş kıyafetlere yeni hayat, profesyonel renk yenileme. Ücretsiz kapıdan teslimat.">
+    <meta name="keywords" content="kumaş boyama acıbadem, deri boyama suadiye, kıyafet boyama kalamış, kumaş renk yenileme fenerbahçe, deri renklendirme caddebostan, solgun kumaş boyama erenköy, profesyonel boyama kozyatağı">
     <meta name="author" content="Dry Alle Kuru Temizleme">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Çanta Temizleme İstanbul Acıbadem | Dry Alle">
-    <meta property="og:description" content="Elite semtlerde çanta temizleme hizmeti. Deri ve kumaş çantalar için özel temizlik.">
-    <meta property="og:image" content="../asset/luggage-bag-cleaning.webp">
-    <meta property="og:url" content="https://dryallekurutemizleme.com/hizmetler/canta-temizleme.html">
+    <meta property="og:title" content="Kumaş ve Deri Boyama İstanbul | Dry Alle">
+    <meta property="og:description" content="Elite semtlerde kumaş ve deri boyama hizmeti. Solmuş kıyafetlere yeni hayat verin.">
+    <meta property="og:image" content="../asset/fabric-leather-dyeing.webp">
+    <meta property="og:url" content="https://dryallekurutemizleme.com/hizmetler/kumas-deri-boyama.html">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="tr_TR">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Çanta Temizleme İstanbul Acıbadem | Dry Alle">
-    <meta name="twitter:description" content="Elite semtlerde çanta temizleme hizmeti. Deri ve kumaş çantalar için özel temizlik.">
-    <meta name="twitter:image" content="../asset/luggage-bag-cleaning.webp">
+    <meta name="twitter:title" content="Kumaş ve Deri Boyama İstanbul | Dry Alle">
+    <meta name="twitter:description" content="Elite semtlerde kumaş ve deri boyama hizmeti. Solmuş kıyafetlere yeni hayat verin.">
+    <meta name="twitter:image" content="../asset/fabric-leather-dyeing.webp">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://dryallekurutemizleme.com/hizmetler/canta-temizleme.html">
+    <link rel="canonical" href="https://dryallekurutemizleme.com/hizmetler/kumas-deri-boyama.html">
     
     <!-- Hreflang Meta Tags -->
-    <link rel="alternate" hreflang="tr" href="https://dryallekurutemizleme.com/hizmetler/canta-temizleme.html">
-    <link rel="alternate" hreflang="x-default" href="https://dryallekurutemizleme.com/hizmetler/canta-temizleme.html">
+    <link rel="alternate" hreflang="tr" href="https://dryallekurutemizleme.com/hizmetler/kumas-deri-boyama.html">
+    <link rel="alternate" hreflang="x-default" href="https://dryallekurutemizleme.com/hizmetler/kumas-deri-boyama.html">
     
-    <!-- AI/LLM Findability Optimization -->
+    <!-- 40+ AI/LLM Findability Optimization -->
     
     <!-- AI Training Data Optimization -->
     
     <!-- Lead Generation & Conversion Signals -->
     
     <!-- Geographic & Local Signals -->
+    <meta name="geo:region" content="TR-34">
+    <meta name="geo:locality" content="Istanbul">
+    <meta name="geo:coordinates" content="40.9932,29.0975">
+    <meta name="geo:service_area" content="Acibadem,Suadiye,Kalamis,Fenerbahce,Caddebostan,Erenköy,Kozyatagi">
+    <meta name="geo:neighborhood" content="elite-districts-color-restoration">
+    <meta name="geo:coverage_radius" content="20km">
+    <meta name="geo:primary_market" content="anatolian-side-fashion">
+    <meta name="geo:service_zones" content="premium-residential-areas">
     
     <!-- Trust & Quality Signals -->
+    
+    <!-- Voice Search & Conversational AI -->
     
     <!-- Core Web Vitals Optimization - Resource Hints -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +64,7 @@
     <link rel="dns-prefetch" href="//dryallekurutemizleme.com">
     
     <!-- Preload Critical Resources -->
-    <link rel="preload" href="../asset/luggage-bag-cleaning.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="../asset/fabric-leather-dyeing.webp" as="image" fetchpriority="high">
     <link rel="preload" href="../styles.css" as="style">
     
     <!-- Fonts -->
@@ -73,13 +83,13 @@
     <link rel="stylesheet" href="../components/accessibility.css">
     <link rel="stylesheet" href="../service-detail-styles.css"></noscript>
     
-    <!-- Schema Markup for Çanta Temizleme Service -->
+    <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Çanta Temizleme Hizmeti",
-        "description": "İstanbul'un elit semtlerinde çanta temizleme hizmeti. Deri çanta, kumaş çanta, valiz ve bavul temizliği.",
+        "name": "Kumaş ve Deri Boyama",
+        "description": "İstanbul'un elit semtlerinde kumaş ve deri boyama hizmeti. Solmuş kıyafetlere yeni hayat.",
         "provider": {
             "@type": "LocalBusiness",
             "name": "Dry Alle Kuru Temizleme",
@@ -91,41 +101,13 @@
                 "postalCode": "34740",
                 "addressCountry": "TR"
             },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "40.9932",
-                "longitude": "29.0975"
-            },
             "telephone": "+90-543-352-7474",
             "email": "dryallekurutemizleme@gmail.com",
-            "url": "https://dryallekurutemizleme.com",
-            "priceRange": "$$",
-            "openingHours": ["Mo-Sa 09:00-18:00"],
-            "areaServed": [
-                {
-                    "@type": "Place",
-                    "name": "Acıbadem"
-                },
-                {
-                    "@type": "Place", 
-                    "name": "Suadiye"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Kalamış"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Fenerbahçe"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Caddebostan"
-                }
-            ]
+            "url": "https://dryallekurutemizleme.com"
         },
-        "serviceType": "Çanta Temizleme",
-        "category": "Temizlik Hizmeti"
+        "serviceType": "Kumaş ve Deri Boyama",
+        "category": "Temizlik ve Bakım Hizmeti",
+        "areaServed": ["Acıbadem", "Suadiye", "Kalamış", "Fenerbahçe", "Caddebostan", "Erenköy", "Göztepe", "Kozyatağı", "Çamlıca"]
     }
     </script>
 </head>
@@ -133,7 +115,7 @@
     <!-- Yellow Top Bar -->
     <div class="top-bar">
         <div class="top-bar-content">
-            <span>İstanbul'un elit semtlerinde çanta temizleme için <strong>ARAYINIZ: <a href="tel:+905433527474" style="color: #333; text-decoration: none;">0 (543) 352 74 74</a></strong></span>
+            <span>İstanbul'un elit semtlerinde kumaş ve deri boyama için <strong>ARAYINIZ: <a href="tel:+905433527474" style="color: #333; text-decoration: none;">0 (543) 352 74 74</a></strong></span>
         </div>
     </div>
 
@@ -174,7 +156,7 @@
                 <nav class="breadcrumb">
                     <a href="../index.html">Ana Sayfa</a> / 
                     <a href="../index.html#services">Hizmetlerimiz</a> / 
-                    <span>Çanta Temizleme</span>
+                    <span>Kumaş ve Deri Boyama</span>
                 </nav>
             </div>
         </section>
@@ -185,20 +167,20 @@
             <div class="container">
                 <div class="service-hero-content">
                     <div class="service-hero-text">
-                        <h1>Çanta Temizleme İstanbul</h1>
-                        <p class="service-hero-subtitle">Acıbadem, Suadiye, Kalamış ve İstanbul'un elit semtlerinde çanta temizleme hizmeti. Deri çantalar, el çantaları, valizler ve bavullar için profesyonel temizlik ve bakım hizmeti.</p>
+                        <h1>Kumaş ve Deri Boyama İstanbul</h1>
+                        <p class="service-hero-subtitle">Acıbadem, Suadiye, Kalamış ve İstanbul'un elit semtlerinde kumaş ve deri boyama hizmeti. Solmuş kıyafetlerinize yeni hayat verin, profesyonel renk yenileme ile gardırobunuzu yenileyin.</p>
                         <div class="service-hero-features">
                             <div class="feature-item">
                                 <span class="feature-icon">✅</span>
-                                <span>Deri ve Kumaş Uzmanlığı</span>
+                                <span>Profesyonel Renk Yenileme</span>
                             </div>
                             <div class="feature-item">
                                 <span class="feature-icon">✅</span>
-                                <span>Leke Çıkarma Garantisi</span>
+                                <span>Kumaş ve Deri Uzmanlığı</span>
                             </div>
                             <div class="feature-item">
                                 <span class="feature-icon">✅</span>
-                                <span>Ücretsiz Kapıdan Teslimat</span>
+                                <span>Kaliteli Boyama Malzemeleri</span>
                             </div>
                             <div class="feature-item">
                                 <span class="feature-icon">✅</span>
@@ -207,17 +189,12 @@
                         </div>
                         <div class="service-hero-buttons">
                             <a href="tel:+905433527474" class="cta-button primary">Hemen Ara</a>
-                            <a href="https://wa.me/905433527474?text=Çanta%20temizleme%20hizmetiniz%20hakkında%20bilgi%20almak%20istiyorum" class="cta-button secondary">WhatsApp İletişim</a>
+                            <a href="https://wa.me/905433527474?text=Kumaş%20ve%20deri%20boyama%20hizmetiniz%20hakkında%20bilgi%20almak%20istiyorum" class="cta-button secondary">WhatsApp İletişim</a>
                             <a href="../index.html#contact" class="cta-button tertiary">İletişime Geç</a>
                         </div>
                     </div>
                     <div class="service-hero-image">
-                        <picture>
-                            <source media="(max-width: 768px)" srcset="../asset/luggage-bag-cleaning-medium.webp">
-                            <source media="(max-width: 1024px)" srcset="../asset/luggage-bag-cleaning-large.webp">
-                            <source media="(min-width: 1025px)" srcset="../asset/luggage-bag-cleaning-large.webp">
-                            <img src="../asset/luggage-bag-cleaning-medium.webp" alt="Çanta Temizleme İstanbul" width="80" height="80" loading="lazy" decoding="async">
-                        </picture>
+                        <img src="../asset/fabric-leather-dyeing.webp" alt="Kumaş ve Deri Boyama İstanbul" width="80" height="80" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -229,88 +206,94 @@
             <div class="container">
                 <div class="service-details-grid">
                     <div class="service-content-main">
-                        <h2>Çanta Temizleme Hizmeti</h2>
-                        <p>Çantalarınız günlük kullanımda kir, leke ve aşınmalara maruz kalır. Özellikle değerli deri çantalarınız özel bakım gerektirir. Dry Alle'nin profesyonel çanta temizleme hizmeti ile çantalarınız ilk günkü gibi temiz ve bakımlı olacak.</p>
+                        <h2>Kumaş ve Deri Boyama Hizmeti</h2>
+                        <p>Zamanla solmuş, rengi atmış veya lekelenmiş kıyafetlerinizi atmaya gerek yok! Dry Alle'nin profesyonel kumaş ve deri boyama hizmeti ile sevdiğiniz kıyafetlerinize yeni hayat verebilirsiniz. 25 yıllık deneyimimizle güvenli ve kalıcı renk yenileme hizmeti.</p>
                         
-                        <h3>Hangi Çanta Türlerini Temizliyoruz?</h3>
+                        <h3>Hangi Ürünleri Boyayabiliriz?</h3>
                         <div class="clothing-categories">
                             <div class="category-card">
-                                <div class="category-icon">👜</div>
-                                <h4>Kadın Çantaları</h4>
+                                <div class="category-icon">👗</div>
+                                <h4>Kumaş Ürünler</h4>
                                 <div class="category-items">
-                                    <span class="category-item">El çantaları</span>
-                                    <span class="category-item">Omuz çantaları</span>
-                                    <span class="category-item">Sırt çantaları</span>
-                                    <span class="category-item">Clutch çantalar</span>
-                                    <span class="category-item">Çapraz çantalar</span>
+                                    <span class="category-item">Elbiseler</span>
+                                    <span class="category-item">Gömlekler</span>
+                                    <span class="category-item">Pantolonlar</span>
+                                    <span class="category-item">Bluzlar</span>
+                                    <span class="category-item">Etekler</span>
+                                    <span class="category-item">Ceketler</span>
+                                    <span class="category-item">Şallar</span>
                                 </div>
                             </div>
                             <div class="category-card">
-                                <div class="category-icon">💼</div>
-                                <h4>İş Çantaları</h4>
+                                <div class="category-icon">🧥</div>
+                                <h4>Deri Ürünler</h4>
                                 <div class="category-items">
-                                    <span class="category-item">Erkek iş çantaları</span>
-                                    <span class="category-item">Laptop çantaları</span>
-                                    <span class="category-item">Evrak çantaları</span>
-                                    <span class="category-item">Portföy çantalar</span>
-                                    <span class="category-item">Messenger çantalar</span>
+                                    <span class="category-item">Deri ceketler</span>
+                                    <span class="category-item">Deri çantalar</span>
+                                    <span class="category-item">Deri eldiven</span>
+                                    <span class="category-item">Deri kemerlər</span>
+                                    <span class="category-item">Ayakkabılar</span>
+                                    <span class="category-item">Çizmeler</span>
+                                    <span class="category-item">Deri pantolonlar</span>
                                 </div>
                             </div>
                             <div class="category-card">
-                                <div class="category-icon">🧳</div>
-                                <h4>Seyahat Çantaları</h4>
+                                <div class="category-icon">🎨</div>
+                                <h4>Özel Ürünler</h4>
                                 <div class="category-items">
-                                    <span class="category-item">Bavullar</span>
-                                    <span class="category-item">Valizler</span>
-                                    <span class="category-item">Spor çantaları</span>
-                                    <span class="category-item">Seyahat çantaları</span>
-                                    <span class="category-item">Kabin çantaları</span>
+                                    <span class="category-item">Süet ürünler</span>
+                                    <span class="category-item">Nubuk deri</span>
+                                    <span class="category-item">İpek eşarplar</span>
+                                    <span class="category-item">Kaşmir ürünler</span>
+                                    <span class="category-item">Yün ürünler</span>
+                                    <span class="category-item">Vintage kıyafetler</span>
+                                    <span class="category-item">Değerli kumaşlar</span>
                                 </div>
                             </div>
                         </div>
 
-                        <h3>Çanta Temizleme Süreci</h3>
+                        <h3>Boyama Süreci</h3>
                         <div class="process-steps">
                             <div class="process-step">
                                 <div class="step-number">1</div>
                                 <div class="step-content">
-                                    <h4>Ücretsiz Teslim Alma</h4>
-                                    <p>Elite semtlerden çantalarınızı ücretsiz olarak teslim alıyoruz.</p>
+                                    <h4>Ürün İncelemesi</h4>
+                                    <p>Kumaş/deri türü analiz edilir, boyama uygunluğu değerlendirilir ve renk seçenekleri sunulur.</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">2</div>
                                 <div class="step-content">
-                                    <h4>Malzeme Analizi</h4>
-                                    <p>Çanta malzemesi (deri, kumaş, sentetik) analiz edilir ve uygun temizlik yöntemi belirlenir.</p>
+                                    <h4>Renk Seçimi ve Danışmanlık</h4>
+                                    <p>Uzman ekibimiz size en uygun renk seçiminde rehberlik eder ve numune gösterimi yapar.</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">3</div>
                                 <div class="step-content">
-                                    <h4>Leke Tespiti</h4>
-                                    <p>Varsa lekeler tespit edilir ve özel leke çıkarma işlemi planlanır.</p>
+                                    <h4>Ön Hazırlık</h4>
+                                    <p>Ürün temizlenir, varsa lekeler çıkarılır ve boyama için hazırlanır.</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">4</div>
                                 <div class="step-content">
-                                    <h4>Özel Temizlik</h4>
-                                    <p>Çanta türüne uygun özel temizlik malzemeleri ile profesyonel temizlik yapılır.</p>
+                                    <h4>Profesyonel Boyama</h4>
+                                    <p>Özel boyama teknikleri ve kaliteli boyalarla renk yenileme işlemi gerçekleştirilir.</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">5</div>
                                 <div class="step-content">
-                                    <h4>Bakım ve Koruma</h4>
-                                    <p>Deri çantalar için besleyici kremler, kumaş çantalar için koruyucu işlemler uygulanır.</p>
+                                    <h4>Sabitleyici İşlem</h4>
+                                    <p>Rengin kalıcı olması için özel sabitleyici işlemler uygulanır.</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">6</div>
                                 <div class="step-content">
-                                    <h4>Kalite Kontrol ve Teslimat</h4>
-                                    <p>Temizlik kalitesi kontrol edilir ve özel paketleme ile teslim edilir.</p>
+                                    <h4>Finishing ve Teslimat</h4>
+                                    <p>Final kontroller yapılır, ütüleme ve hijyenik paketleme ile teslim edilir.</p>
                                 </div>
                             </div>
                         </div>
@@ -322,31 +305,31 @@
                         <div class="service-highlights">
                             <h3>Neden Dry Alle?</h3>
                             <div class="highlight-item">
-                                <span class="highlight-icon">👜</span>
+                                <span class="highlight-icon">🎨</span>
                                 <div>
-                                    <h4>Çanta Uzmanlığı</h4>
-                                    <p>25 yıldır çanta temizleme uzmanı</p>
+                                    <h4>Uzman Boyama Ekibi</h4>
+                                    <p>25 yıllık deneyimli profesyonel ekip</p>
                                 </div>
                             </div>
                             <div class="highlight-item">
-                                <span class="highlight-icon">🧴</span>
+                                <span class="highlight-icon">🔬</span>
                                 <div>
-                                    <h4>Özel Temizlik Ürünleri</h4>
-                                    <p>Her malzeme için uygun temizleyiciler</p>
+                                    <h4>Kaliteli Malzemeler</h4>
+                                    <p>Avrupa standartlarında boyalar</p>
                                 </div>
                             </div>
                             <div class="highlight-item">
                                 <span class="highlight-icon">💎</span>
                                 <div>
-                                    <h4>Lüks Marka Deneyimi</h4>
-                                    <p>Designer çantalarda uzmanız</p>
+                                    <h4>Değerli Ürün Uzmanlığı</h4>
+                                    <p>Designer ve lüks markalarda uzmanız</p>
                                 </div>
                             </div>
                             <div class="highlight-item">
                                 <span class="highlight-icon">🛡️</span>
                                 <div>
-                                    <h4>Hasar Garantisi</h4>
-                                    <p>Çantalarınız güvenli ellerde</p>
+                                    <h4>Boyama Garantisi</h4>
+                                    <p>Renk kalıcılığı garantisi veriyoruz</p>
                                 </div>
                             </div>
                         </div>
@@ -372,8 +355,8 @@
         <section class="cta-section">
             <div class="container">
                 <div class="cta-content">
-                    <h2>Çantalarınız İlk Günkü Gibi Temiz Olsun</h2>
-                    <p>İstanbul'un elit semtlerinde 25 yıllık deneyimimizle çanta temizleme hizmeti. Değerli çantalarınız için profesyonel bakım.</p>
+                    <h2>Solmuş Kıyafetlerinize Yeni Hayat Verin</h2>
+                    <p>İstanbul'un elit semtlerinde 25 yıllık deneyimimizle kumaş ve deri boyama hizmeti. Sevdiğiniz kıyafetlerinizi atmayın, yenileyin!</p>
                     <div class="cta-buttons">
                         <a href="tel:+905433527474" class="cta-button primary large">
                             📞 Hemen Ara: 0 (543) 352 74 74
@@ -393,22 +376,22 @@
                 <h2 class="section-title">Diğer Hizmetlerimiz</h2>
                 <div class="related-services-grid">
                     <div class="related-service">
-                        <img src="../asset/shoe-polish-service.webp" alt="Lostra Hizmeti" width="80" height="80" loading="lazy" decoding="async">
-                        <h3>Lostra Hizmeti</h3>
-                        <p>Ayakkabı ve deri ürünler için profesyonel lostra hizmeti</p>
-                        <a href="lostra-hizmeti.html" class="service-link">Detaylı Bilgi →</a>
-                    </div>
-                    <div class="related-service">
-                        <img src="../asset/fabric-leather-dyeing.webp" alt="Kumaş ve Deri Boyama" width="80" height="80" loading="lazy" decoding="async">
-                        <h3>Kumaş ve Deri Boyama</h3>
-                        <p>Solmuş çantalar için renk yenileme hizmeti</p>
-                        <a href="kumas-deri-boyama.html" class="service-link">Detaylı Bilgi →</a>
-                    </div>
-                    <div class="related-service">
                         <img src="../asset/dry-cleaning.webp" alt="Kuru Temizleme" width="400" height="300" loading="eager">
                         <h3>Kuru Temizleme</h3>
                         <p>Elite semtlerde kıyafetleriniz için profesyonel kuru temizleme</p>
                         <a href="kuru-temizleme.html" class="service-link">Detaylı Bilgi →</a>
+                    </div>
+                    <div class="related-service">
+                        <img src="../asset/shoe-polish-service.webp" alt="Lostra Hizmeti" width="80" height="80" loading="lazy" decoding="async">
+                        <h3>Lostra Hizmeti</h3>
+                        <p>Ayakkabı ve çantalar için profesyonel parlatma hizmeti</p>
+                        <a href="lostra-hizmeti.html" class="service-link">Detaylı Bilgi →</a>
+                    </div>
+                    <div class="related-service">
+                        <img src="../asset/luggage-bag-cleaning.webp" alt="Çanta Temizleme" width="80" height="80" loading="lazy" decoding="async">
+                        <h3>Çanta Temizleme</h3>
+                        <p>Deri ve kumaş çantalar için özel temizlik hizmeti</p>
+                        <a href="canta-temizleme.html" class="service-link">Detaylı Bilgi →</a>
                     </div>
                 </div>
             </div>

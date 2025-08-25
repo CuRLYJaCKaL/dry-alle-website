@@ -10,7 +10,7 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="google-site-verification" content="evzDi5K1Ehev79As5pauzwJzazgZJjIIZWFAiJvy8MA" />    
+    
     <!-- SEO Meta Tags -->
     <title>Kuru Temizleme Hizmeti İstanbul | Dry Alle</title>
     <meta name="description" content="İstanbul Kadıköy ve Ataşehir'de profesyonel kuru temizleme hizmeti. Modern teknoloji ve çevreci çözümlerle giysileriniz güvenli ellerde. Ücretsiz kapıdan teslimat.">
@@ -40,6 +40,8 @@
     <!-- Pinterest Rich Pins -->
     <meta name="pinterest-rich-pin" content="true">
     <meta property="og:image:alt" content="İstanbul Kadıköy Ataşehir Kuru Temizleme Hizmeti">
+    <meta name="article:section" content="Kuru Temizleme Hizmetleri">
+    <meta name="article:tag" content="kuru temizleme, kadıköy, ataşehir, istanbul">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://dryallekurutemizleme.com/hizmetler/kuru-temizleme.html">
@@ -55,10 +57,17 @@
     <!-- Lead Generation & Conversion Signals -->
     
     <!-- Geographic & Local Signals -->
+    <meta name="geo:region" content="TR-34">
+    <meta name="geo:locality" content="Istanbul">
+    <meta name="geo:coordinates" content="40.9932,29.0975">
+    <meta name="geo:service_area" content="Kadikoy,Atasehir,Fikirtepe,Fenerbahce">
+    <meta name="geo:neighborhood" content="kadikoy-atasehir-premium-areas">
     
     <!-- Trust & Quality Signals -->
     
     <!-- Enhanced Voice Search & Conversational AI -->
+    <meta name="geo:pickup_schedule" content="flexible-timing">
+    <meta name="geo:delivery_speed" content="same-day-available">
     
     <!-- Core Web Vitals Optimization - Resource Hints -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

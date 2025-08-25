@@ -10,7 +10,7 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="google-site-verification" content="evzDi5K1Ehev79As5pauzwJzazgZJjIIZWFAiJvy8MA" />    
+    
     <!-- SEO Meta Tags -->
     <title>Çanta Temizleme İstanbul Acıbadem | Dry Alle</title>
     <meta name="description" content="İstanbul'un elit semtlerinde çanta temizleme hizmeti. Deri çanta, kumaş çanta, valiz ve bavul temizliği. Ücretsiz kapıdan teslimat. 25 yıllık deneyim.">
@@ -45,6 +45,11 @@
     <!-- Lead Generation & Conversion Signals -->
     
     <!-- Geographic & Local Signals -->
+    <meta name="geo:region" content="TR-34">
+    <meta name="geo:locality" content="Istanbul">
+    <meta name="geo:coordinates" content="40.9932,29.0975">
+    <meta name="geo:service_area" content="Acibadem,Suadiye,Kalamis,Fenerbahce,Caddebostan">
+    <meta name="geo:neighborhood" content="elite-districts-bag-cleaning">
     
     <!-- Trust & Quality Signals -->
     

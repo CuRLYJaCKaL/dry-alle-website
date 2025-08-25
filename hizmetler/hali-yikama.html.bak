@@ -10,7 +10,7 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="google-site-verification" content="evzDi5K1Ehev79As5pauzwJzazgZJjIIZWFAiJvy8MA" />    
+    
     <!-- SEO Meta Tags -->
     <title>Halı Yıkama Hizmeti İstanbul | Dry Alle</title>
     <meta name="description" content="İstanbul Kadıköy ve Ataşehir'de profesyonel halı yıkama hizmeti. Leke çıkarma, derin temizlik ve hijyenik yıkama. Ücretsiz kapıdan teslimat.">
@@ -40,6 +40,8 @@
     <!-- Pinterest Rich Pins -->
     <meta name="pinterest-rich-pin" content="true">
     <meta property="og:image:alt" content="İstanbul Kadıköy Ataşehir Halı Yıkama Hizmeti">
+    <meta name="article:section" content="Halı Yıkama Hizmetleri">
+    <meta name="article:tag" content="halı yıkama, kadıköy, ataşehir, istanbul">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://dryallekurutemizleme.com/hizmetler/hali-yikama.html">
@@ -55,6 +57,11 @@
     <!-- Lead Generation & Conversion Signals -->
     
     <!-- Geographic & Local Signals -->
+    <meta name="geo:region" content="TR-34">
+    <meta name="geo:locality" content="Istanbul">
+    <meta name="geo:coordinates" content="40.9932,29.0975">
+    <meta name="geo:service_area" content="Kadikoy,Atasehir,Fikirtepe,Fenerbahce">
+    <meta name="geo:neighborhood" content="kadikoy-atasehir-carpet-cleaning">
     
     <!-- Trust & Quality Signals -->
     
