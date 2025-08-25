@@ -10,6 +10,13 @@ class PricingDisplay {
         this.noResults = document.getElementById('noResults');
         this.loadingElement = document.querySelector('.pricing-loading');
         
+        // Pagination settings
+        this.itemsPerPage = 10;
+        this.currentPage = 1;
+        this.totalItems = 0;
+        this.currentData = [];
+        this.allData = [];
+        
         // Initialize display on load
         this.initialize();
     }
@@ -33,7 +40,7 @@ class PricingDisplay {
         }
     }
 
-    // Main display update method
+    // Main display update method with pagination
     updateDisplay(filteredData) {
         if (!this.priceGrid || !this.noResults) {
             console.error('Required DOM elements not found');
@@ -45,8 +52,13 @@ class PricingDisplay {
             return;
         }
         
+        // Store data for pagination
+        this.allData = filteredData;
+        this.totalItems = filteredData.length;
+        this.currentPage = 1;
+        
         this.showResults();
-        this.renderPricingCards(filteredData);
+        this.renderPaginatedCards();
     }
 
     // Show no results state
@@ -61,16 +73,72 @@ class PricingDisplay {
         this.noResults.style.display = 'none';
     }
 
-    // Render pricing cards
-    renderPricingCards(data) {
+    // Render paginated pricing cards
+    renderPaginatedCards() {
         // Sort by category, then by name
-        const sortedData = [...data].sort((a, b) => {
+        const sortedData = [...this.allData].sort((a, b) => {
             if (a.category !== b.category) return a.category.localeCompare(b.category);
             return a.name.localeCompare(b.name);
         });
         
-        const cardsHTML = sortedData.map(item => this.createPricingCard(item)).join('');
-        this.priceGrid.innerHTML = cardsHTML;
+        // Calculate current page data
+        const startIndex = (this.currentPage - 1) * this.itemsPerPage;
+        const endIndex = startIndex + this.itemsPerPage;
+        const currentPageData = sortedData.slice(0, endIndex); // Show from beginning to current page
+        
+        const cardsHTML = currentPageData.map(item => this.createPricingCard(item)).join('');
+        
+        // Create pagination controls
+        const paginationHTML = this.createPaginationControls(sortedData.length);
+        
+        this.priceGrid.innerHTML = cardsHTML + paginationHTML;
+        
+        // Bind load more button event
+        this.bindLoadMoreEvent();
+    }
+
+    // Create pagination controls
+    createPaginationControls(totalItems) {
+        const currentlyShowing = this.currentPage * this.itemsPerPage;
+        const hasMore = currentlyShowing < totalItems;
+        
+        if (!hasMore) {
+            return '<div class="pricing-pagination-info">' +
+                '<p class="pricing-total-info">Toplam ' + totalItems + ' hizmet gösteriliyor</p>' +
+            '</div>';
+        }
+        
+        return '<div class="pricing-pagination-controls">' +
+            '<div class="pricing-load-more-container">' +
+                '<button class="pricing-load-more-btn" id="loadMoreBtn">' +
+                    '<span class="load-more-icon">⬇️</span>' +
+                    '<span>Daha Fazla Göster (' + (totalItems - currentlyShowing) + ' hizmet kaldı)</span>' +
+                '</button>' +
+                '<div class="pricing-pagination-info">' +
+                    '<p>Gösterilen: ' + currentlyShowing + ' / ' + totalItems + ' hizmet</p>' +
+                '</div>' +
+            '</div>' +
+        '</div>';
+    }
+
+    // Bind load more button event
+    bindLoadMoreEvent() {
+        const loadMoreBtn = document.getElementById('loadMoreBtn');
+        if (loadMoreBtn) {
+            loadMoreBtn.addEventListener('click', () => {
+                this.currentPage++;
+                this.renderPaginatedCards();
+                
+                // Smooth scroll to new content
+                setTimeout(() => {
+                    const newCards = this.priceGrid.querySelectorAll('.pricing-card');
+                    const targetCard = newCards[newCards.length - this.itemsPerPage];
+                    if (targetCard) {
+                        targetCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }, 100);
+            });
+        }
     }
 
     // Create individual pricing card HTML
