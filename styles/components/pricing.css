@@ -93,6 +93,23 @@
   filter: drop-shadow(0 4px 12px rgba(0, 106, 68, 0.2));
 }
 
+/* Real Service Image Styling */
+.pricing-service-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+  filter: brightness(1.1) saturate(1.1);
+}
+
+.pricing-card:hover .pricing-service-image {
+  transform: scale(1.05);
+  filter: brightness(1.2) saturate(1.2);
+}
+
 /* Corporate Square Card Content Area */
 .pricing-card-content {
   padding: var(--spacing-5) var(--spacing-5);

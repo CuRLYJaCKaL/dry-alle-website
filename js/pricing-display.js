@@ -211,9 +211,12 @@ class PricingDisplay {
         // User specified design: 200px image, compact layout
         return '<article class="pricing-card" itemscope itemtype="https://schema.org/Product">' +
             '<script type="application/ld+json">' + JSON.stringify(structuredData) + '</script>' +
-            // User specified: 200px görsel area
+            // User specified: 200px görsel area with real images
             '<div class="pricing-card-image">' +
-                '<div class="pricing-image-placeholder">👔</div>' +
+                (item.image ? 
+                    '<img src="' + item.image + '" alt="' + item.name + ' - Dry Alle Kuru Temizleme" loading="lazy" class="pricing-service-image">' :
+                    '<div class="pricing-image-placeholder">👔</div>'
+                ) +
             '</div>' +
             '<div class="pricing-card-content">' +
                 // User specified: Kompakt başlık

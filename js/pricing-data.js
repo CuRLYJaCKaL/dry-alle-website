@@ -98,6 +98,7 @@ const multiServicePricingData = [
         name: "HALI (m² Başına)",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1572123979839-3749e9973aba?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 45, popular: true },
             { type: "hali-tamiri", price: 85, popular: false },
@@ -110,6 +111,7 @@ const multiServicePricingData = [
         name: "KOLTUK TEMİZLİĞİ (Yerinde)",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
+        image: "https://images.unsplash.com/photo-1686178827149-6d55c72d81df?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 285, popular: true },
             { type: "leke-cikarma", price: 125, popular: false },
@@ -121,6 +123,7 @@ const multiServicePricingData = [
         name: "PERDE (m² Başına)",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://plus.unsplash.com/premium_photo-1673152979215-69b97746b05e?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 35, popular: true },
             { type: "yikama", price: 28, popular: false },
@@ -143,6 +146,7 @@ const multiServicePricingData = [
         name: "KİLİM (m² Başına)",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1531162805941-58330188d75c?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yikama", price: 35, popular: true },
             { type: "kuru-temizleme", price: 45, popular: false },
@@ -154,6 +158,7 @@ const multiServicePricingData = [
         name: "YATAK ÖRTÜSÜ",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1606855637183-ea2a00b6f15f?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 185, popular: true },
             { type: "yikama", price: 145, popular: false },
