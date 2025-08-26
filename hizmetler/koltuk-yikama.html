@@ -73,6 +73,34 @@
     <link rel="stylesheet" href="../components/accessibility.css">
     <link rel="stylesheet" href="../service-detail-styles.css"></noscript>
     
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://dryallekurutemizleme.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Hizmetlerimiz",
+                "item": "https://dryallekurutemizleme.com/#services"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Koltuk Yıkama",
+                "item": "https://dryallekurutemizleme.com/hizmetler/koltuk-yikama.html"
+            }
+        ]
+    }
+    </script>
+    
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
@@ -131,7 +159,6 @@
             ],
             "priceRange": "$$",
             "openingHours": ["Mo-Sa 09:00-18:00"],
-            "servesCuisine": [],
             "areaServed": [
                 {
                     "@type": "Place",
@@ -160,7 +187,53 @@
             ]
         },
         "serviceType": "Koltuk Yıkama",
-        "category": "Temizlik Hizmeti"
+        "category": "Temizlik Hizmeti",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Koltuk Yıkama Hizmetleri",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Kumaş Koltuk Yıkama",
+                        "description": "Kumaş döşemeli koltuklar için hassas yıkama ve hijyen hizmeti"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Deri Koltuk Temizleme",
+                        "description": "Deri koltuklar için özel temizlik ve koruyucu bakım uygulaması"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Chester Koltuk Yıkama",
+                        "description": "Antika ve lüks chester koltuklar için profesyonel temizlik"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Berjer Temizleme",
+                        "description": "Tek kişilik berjer ve dinlenme koltuklarında uzman temizlik"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Köşe Takımı Yıkama",
+                        "description": "Büyük köşe takımları için kapsamlı temizlik ve hijyen hizmeti"
+                    }
+                }
+            ]
+        }
     }
     </script>
 </head>
