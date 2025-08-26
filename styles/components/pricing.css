@@ -419,10 +419,10 @@
 }
 
 /* ================================
-   PAGINATION CONTROLS
+   INFINITE SCROLL SYSTEM
    ================================ */
 
-.pricing-pagination-controls {
+.pricing-scroll-status {
   grid-column: 1 / -1;
   margin: 40px 0 20px 0;
   display: flex;
@@ -431,139 +431,212 @@
   width: 100%;
 }
 
-.pricing-load-more-container {
+.pricing-scroll-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
   width: 100%;
   max-width: 500px;
+  padding: 0 20px;
 }
 
-.pricing-load-more-btn {
-  /* Modern button design */
-  background: linear-gradient(135deg, var(--color-primary) 0%, #005a40 100%);
-  color: white;
-  border: none;
-  padding: 16px 32px;
-  border-radius: 12px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  min-height: 56px;
-  
-  /* Modern shadows and transitions */
-  box-shadow: 0 4px 20px rgba(0, 106, 68, 0.3);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  will-change: transform, box-shadow;
-  
-  /* Responsive width */
+.scroll-progress-bar {
   width: 100%;
   max-width: 400px;
+  height: 6px;
+  background: rgba(0, 106, 68, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
 }
 
-.pricing-load-more-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(0, 106, 68, 0.4);
-  background: linear-gradient(135deg, #007850 0%, #005a40 100%);
+.scroll-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-primary) 0%, #22c55e 100%);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+  position: relative;
 }
 
-.pricing-load-more-btn:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 15px rgba(0, 106, 68, 0.3);
+.scroll-progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.3) 100%);
+  animation: shine 2s infinite ease-in-out;
 }
 
-.load-more-icon {
-  font-size: 18px;
-  animation: bounce 2s infinite ease-in-out;
+@keyframes shine {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
 }
 
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-4px);
-  }
-  60% {
-    transform: translateY(-2px);
-  }
-}
-
-.pricing-pagination-info {
-  text-align: center;
+.scroll-status-text {
   color: var(--color-gray-600);
   font-size: 14px;
-  font-weight: 500;
-  opacity: 0.8;
-  margin-top: 8px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
 }
 
-.pricing-total-info {
+.scroll-hint {
+  color: var(--color-gray-500);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  opacity: 0.8;
+}
+
+/* Completed state */
+.pricing-scroll-status.completed .pricing-total-info {
   color: var(--color-primary);
   font-weight: 600;
   font-size: 16px;
   text-align: center;
-  margin: 20px 0;
-  padding: 16px 24px;
+  margin: 0;
+  padding: 20px 24px;
   background: rgba(0, 106, 68, 0.05);
-  border-radius: 8px;
+  border-radius: 12px;
   border: 1px solid rgba(0, 106, 68, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
-/* Mobile responsive pagination */
-@media (max-width: 768px) {
-  .pricing-pagination-controls {
-    margin: 30px 16px 20px 16px;
-  }
-  
-  .pricing-load-more-btn {
-    padding: 14px 24px;
-    font-size: 15px;
-    min-height: 50px;
-  }
-  
-  .load-more-icon {
-    font-size: 16px;
-  }
-  
-  .pricing-pagination-info {
-    font-size: 13px;
-    padding: 0 16px;
-  }
+.status-icon {
+  font-size: 18px;
 }
 
-/* Loading state for pagination */
-.pricing-load-more-btn:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-  transform: none !important;
+/* Infinite scroll loader */
+.infinite-scroll-loader {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 30px 20px;
+  margin: 20px 0;
 }
 
-.pricing-load-more-btn.loading {
-  position: relative;
-  color: transparent;
-}
-
-.pricing-load-more-btn.loading::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 20px;
-  height: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-top: 2px solid white;
+.loader-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(0, 106, 68, 0.1);
+  border-top: 3px solid var(--color-primary);
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
 
+.loader-text {
+  color: var(--color-gray-600);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
 @keyframes spin {
-  0% { transform: translate(-50%, -50%) rotate(0deg); }
-  100% { transform: translate(-50%, -50%) rotate(360deg); }
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Scroll hint animation */
+.scroll-hint {
+  animation: pulse 3s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+/* Mobile responsive infinite scroll */
+@media (max-width: 768px) {
+  .pricing-scroll-status {
+    margin: 30px 16px 20px 16px;
+  }
+  
+  .pricing-scroll-info {
+    gap: 10px;
+    padding: 0 16px;
+  }
+  
+  .scroll-status-text {
+    font-size: 13px;
+  }
+  
+  .scroll-hint {
+    font-size: 11px;
+  }
+  
+  .pricing-total-info {
+    padding: 16px 20px;
+    font-size: 15px;
+  }
+  
+  .infinite-scroll-loader {
+    padding: 20px 16px;
+    margin: 16px 0;
+  }
+  
+  .loader-spinner {
+    width: 32px;
+    height: 32px;
+    border-width: 2px;
+  }
+  
+  .loader-text {
+    font-size: 13px;
+  }
+}
+
+/* Smooth loading transitions */
+.pricing-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+.pricing-card:nth-child(odd) {
+  animation-delay: 0.1s;
+}
+
+.pricing-card:nth-child(even) {
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Performance optimizations for infinite scroll */
+.pricing-card {
+  contain: layout style;
+  will-change: transform, opacity;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .scroll-progress-fill,
+  .loader-spinner,
+  .scroll-hint,
+  .pricing-card {
+    animation: none !important;
+    transition: none !important;
+  }
+  
+  .pricing-card {
+    opacity: 1;
+    transform: none;
+  }
 }

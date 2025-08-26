@@ -10,15 +10,19 @@ class PricingDisplay {
         this.noResults = document.getElementById('noResults');
         this.loadingElement = document.querySelector('.pricing-loading');
         
-        // Pagination settings
+        // Infinite scroll settings
         this.itemsPerPage = 10;
         this.currentPage = 1;
         this.totalItems = 0;
         this.currentData = [];
         this.allData = [];
+        this.isLoading = false;
         
         // Initialize display on load
         this.initialize();
+        
+        // Initialize infinite scroll
+        this.initializeInfiniteScroll();
     }
 
     // Initialize the display system
@@ -88,56 +92,105 @@ class PricingDisplay {
         
         const cardsHTML = currentPageData.map(item => this.createPricingCard(item)).join('');
         
-        // Create pagination controls
-        const paginationHTML = this.createPaginationControls(sortedData.length);
+        // Create scroll status display
+        const statusHTML = this.createScrollStatus(sortedData.length);
         
-        this.priceGrid.innerHTML = cardsHTML + paginationHTML;
-        
-        // Bind load more button event
-        this.bindLoadMoreEvent();
+        this.priceGrid.innerHTML = cardsHTML + statusHTML;
     }
 
-    // Create pagination controls
-    createPaginationControls(totalItems) {
+    // Create infinite scroll status display
+    createScrollStatus(totalItems) {
         const currentlyShowing = this.currentPage * this.itemsPerPage;
         const hasMore = currentlyShowing < totalItems;
         
         if (!hasMore) {
-            return '<div class="pricing-pagination-info">' +
-                '<p class="pricing-total-info">Toplam ' + totalItems + ' hizmet gösteriliyor</p>' +
+            return '<div class="pricing-scroll-status completed">' +
+                '<div class="pricing-total-info">' +
+                    '<span class="status-icon">✅</span>' +
+                    '<p>Tüm hizmetler yüklendi • Toplam ' + totalItems + ' hizmet</p>' +
+                '</div>' +
             '</div>';
         }
         
-        return '<div class="pricing-pagination-controls">' +
-            '<div class="pricing-load-more-container">' +
-                '<button class="pricing-load-more-btn" id="loadMoreBtn">' +
-                    '<span class="load-more-icon">⬇️</span>' +
-                    '<span>Daha Fazla Göster (' + (totalItems - currentlyShowing) + ' hizmet kaldı)</span>' +
-                '</button>' +
-                '<div class="pricing-pagination-info">' +
-                    '<p>Gösterilen: ' + currentlyShowing + ' / ' + totalItems + ' hizmet</p>' +
+        return '<div class="pricing-scroll-status loading" id="scrollStatus">' +
+            '<div class="pricing-scroll-info">' +
+                '<div class="scroll-progress-bar">' +
+                    '<div class="scroll-progress-fill" style="width: ' + Math.round((currentlyShowing / totalItems) * 100) + '%"></div>' +
                 '</div>' +
+                '<p class="scroll-status-text">Gösterilen: ' + currentlyShowing + ' / ' + totalItems + ' hizmet</p>' +
+                '<p class="scroll-hint">Daha fazla görmek için aşağı kaydırın</p>' +
             '</div>' +
         '</div>';
     }
 
-    // Bind load more button event
-    bindLoadMoreEvent() {
-        const loadMoreBtn = document.getElementById('loadMoreBtn');
-        if (loadMoreBtn) {
-            loadMoreBtn.addEventListener('click', () => {
-                this.currentPage++;
-                this.renderPaginatedCards();
-                
-                // Smooth scroll to new content
-                setTimeout(() => {
-                    const newCards = this.priceGrid.querySelectorAll('.pricing-card');
-                    const targetCard = newCards[newCards.length - this.itemsPerPage];
-                    if (targetCard) {
-                        targetCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    }
-                }, 100);
-            });
+    // Initialize infinite scroll functionality  
+    initializeInfiniteScroll() {
+        let scrollTimeout;
+        
+        window.addEventListener('scroll', () => {
+            // Throttle scroll events
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                this.handleScroll();
+            }, 100);
+        });
+    }
+
+    // Handle scroll event for infinite loading
+    handleScroll() {
+        if (this.isLoading || !this.allData.length) return;
+        
+        const currentlyShowing = this.currentPage * this.itemsPerPage;
+        const hasMore = currentlyShowing < this.allData.length;
+        
+        if (!hasMore) return;
+        
+        // Check if user scrolled near bottom
+        const scrollPosition = window.innerHeight + window.scrollY;
+        const documentHeight = document.documentElement.offsetHeight;
+        const threshold = 800; // Load when 800px from bottom
+        
+        if (scrollPosition >= documentHeight - threshold) {
+            this.loadMoreItems();
+        }
+    }
+
+    // Load more items automatically
+    loadMoreItems() {
+        if (this.isLoading) return;
+        
+        this.isLoading = true;
+        this.showLoadingIndicator();
+        
+        // Simulate loading delay for smooth UX
+        setTimeout(() => {
+            this.currentPage++;
+            this.renderPaginatedCards();
+            this.isLoading = false;
+            this.hideLoadingIndicator();
+        }, 300);
+    }
+
+    // Show loading indicator
+    showLoadingIndicator() {
+        const existingLoader = document.getElementById('infiniteLoader');
+        if (existingLoader) return;
+        
+        const loader = document.createElement('div');
+        loader.id = 'infiniteLoader';
+        loader.className = 'infinite-scroll-loader';
+        loader.innerHTML = 
+            '<div class="loader-spinner"></div>' +
+            '<p class="loader-text">Yeni hizmetler yükleniyor...</p>';
+        
+        this.priceGrid.appendChild(loader);
+    }
+
+    // Hide loading indicator  
+    hideLoadingIndicator() {
+        const loader = document.getElementById('infiniteLoader');
+        if (loader) {
+            loader.remove();
         }
     }
 
