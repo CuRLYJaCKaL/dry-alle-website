@@ -170,6 +170,7 @@ const multiServicePricingData = [
         name: "ÇARŞAF TAKIMI",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yikama", price: 95, popular: true },
             { type: "utuleme", price: 65, popular: false },
@@ -181,6 +182,7 @@ const multiServicePricingData = [
         name: "KANEPE TEMİZLİĞİ (3lü)",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
+        image: "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 385, popular: true },
             { type: "antibakteriyel", price: 125, popular: false },
@@ -192,6 +194,7 @@ const multiServicePricingData = [
         name: "BERJER TEMİZLİĞİ",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
+        image: "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 185, popular: true },
             { type: "leke-cikarma", price: 95, popular: false },
@@ -203,6 +206,7 @@ const multiServicePricingData = [
         name: "ŞİLTE (Çift Kişilik)",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://plus.unsplash.com/premium_photo-1670475326413-f69f74397650?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 285, popular: true },
             { type: "antibakteriyel", price: 95, popular: false },
@@ -264,6 +268,7 @@ const multiServicePricingData = [
         name: "NEVRESİM ÇİFT KİŞİLİK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "utuleme", price: 200, popular: false },
@@ -275,6 +280,7 @@ const multiServicePricingData = [
         name: "NEVRESİM TEK KİŞİLİK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 450, popular: true },
             { type: "utuleme", price: 200, popular: false },
@@ -332,6 +338,7 @@ const multiServicePricingData = [
         name: "PERDE FON ÇİFT KAT",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1556909077-f9ee849077d6?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 125, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -343,6 +350,7 @@ const multiServicePricingData = [
         name: "PERDE FON TEK KAT",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 100, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -354,6 +362,7 @@ const multiServicePricingData = [
         name: "PİKE",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1631049465209-4763a8b39c75?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 400, popular: false },
@@ -365,6 +374,7 @@ const multiServicePricingData = [
         name: "PUF",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
+        image: "https://images.unsplash.com/photo-1536639240649-1f0949e7993d?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 450, popular: true }
         ]
@@ -385,6 +395,7 @@ const multiServicePricingData = [
         name: "SANDALYE TEMİZLEME TAM",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
+        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 300, popular: true }
         ]
@@ -394,6 +405,7 @@ const multiServicePricingData = [
         name: "SANDALYE TEMİZLEME YARIM",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
+        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 250, popular: true }
         ]
@@ -412,6 +424,7 @@ const multiServicePricingData = [
         name: "STOR",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yikama", price: 153, popular: true }
         ]
@@ -460,6 +473,7 @@ const multiServicePricingData = [
         name: "TÜL",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 50, popular: true },
             { type: "utuleme", price: 40, popular: false },
@@ -471,6 +485,7 @@ const multiServicePricingData = [
         name: "TÜL STORE ST DAHİL",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "yikama", price: 450, popular: true }
@@ -493,6 +508,7 @@ const multiServicePricingData = [
         name: "VİSCON HALI",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 350, popular: true }
         ]
@@ -502,6 +518,7 @@ const multiServicePricingData = [
         name: "VİSKON YASTIK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "yikama", price: 500, popular: true }
@@ -512,6 +529,7 @@ const multiServicePricingData = [
         name: "YATAK BAŞLIĞI ÇİFT",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 1000, popular: true }
         ]
@@ -521,6 +539,7 @@ const multiServicePricingData = [
         name: "YATAK BAŞLIĞI TEK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 750, popular: true }
         ]
@@ -530,6 +549,7 @@ const multiServicePricingData = [
         name: "YATAK PEDİ",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1556911261-6bd341186b2f?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "yikama", price: 600, popular: true },
@@ -541,6 +561,7 @@ const multiServicePricingData = [
         name: "YATAK YIKAMA ÇİFT",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1631049035463-0c1b2c00cd15?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 2500, popular: true }
         ]
@@ -550,6 +571,7 @@ const multiServicePricingData = [
         name: "YATAK YIKAMA TEK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1540992419738-e3e6ee117e4b?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 2000, popular: true }
         ]
@@ -559,6 +581,7 @@ const multiServicePricingData = [
         name: "YERİNDE HALI YIKAMA",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 250, popular: true }
         ]
@@ -568,6 +591,7 @@ const multiServicePricingData = [
         name: "YORGAN TEK KİŞİLİK YÜN /PAMUK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1549497538-303791108f95?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 700, popular: true },
             { type: "yikama", price: 700, popular: true }
@@ -589,6 +613,7 @@ const multiServicePricingData = [
         name: "ZEBRA PERDE",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa0?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yikama", price: 450, popular: true }
         ]
@@ -598,6 +623,7 @@ const multiServicePricingData = [
         name: "ZEBRA TÜL",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yikama", price: 450, popular: true }
         ]
@@ -957,6 +983,7 @@ const multiServicePricingData = [
         name: "HALI MAKİNE",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1565402748461-9d1acca80e5f?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 200, popular: true }
         ]
@@ -966,6 +993,7 @@ const multiServicePricingData = [
         name: "HALI NEPAL",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 300, popular: true }
         ]
@@ -975,6 +1003,7 @@ const multiServicePricingData = [
         name: "HALI SHAGY",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 250, popular: true }
         ]
@@ -984,6 +1013,7 @@ const multiServicePricingData = [
         name: "HALI STEP",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 350, popular: true }
         ]
@@ -993,6 +1023,7 @@ const multiServicePricingData = [
         name: "HALI MAKİNE YÜNÜ",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 250, popular: true }
         ]
@@ -1002,6 +1033,7 @@ const multiServicePricingData = [
         name: "BATTANİYE",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 300, popular: false },
@@ -1013,6 +1045,7 @@ const multiServicePricingData = [
         name: "BORNOZ",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
             { type: "utuleme", price: 150, popular: false },
@@ -1035,6 +1068,7 @@ const multiServicePricingData = [
         name: "ÇARŞAF",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "yikama", price: 190, popular: true }
@@ -1079,6 +1113,7 @@ const multiServicePricingData = [
         name: "HAVLU BÜYÜK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 200, popular: true }
         ]
@@ -1089,6 +1124,7 @@ const multiServicePricingData = [
         name: "HAVLU BÜYÜK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "utuleme", price: 100, popular: false },
             { type: "yikama", price: 100, popular: true }
@@ -1099,6 +1135,7 @@ const multiServicePricingData = [
         name: "HAVLU KÜÇÜK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1556911261-6bd341186b2f?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
             { type: "utuleme", price: 50, popular: false },
@@ -1110,6 +1147,7 @@ const multiServicePricingData = [
         name: "KAZ TÜYÜ YASTIK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 700, popular: true },
             { type: "yikama", price: 600, popular: true }
@@ -1120,6 +1158,7 @@ const multiServicePricingData = [
         name: "NEVRESİM TAKIMI",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1564540574859-0dfb63985925?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 400, popular: false },
@@ -1131,6 +1170,7 @@ const multiServicePricingData = [
         name: "PERDE KADİFE",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -1142,6 +1182,7 @@ const multiServicePricingData = [
         name: "PERDE STOR ST DAHİL",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -1153,6 +1194,7 @@ const multiServicePricingData = [
         name: "PERDE STOR ST HARİÇ",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 200, popular: true },
             { type: "yikama", price: 200, popular: true }
@@ -1163,6 +1205,7 @@ const multiServicePricingData = [
         name: "PERDE KATLMALI ST DAHİL",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -1174,6 +1217,7 @@ const multiServicePricingData = [
         name: "PERDE KATLMALI ST HARİÇ",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 200, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -1185,6 +1229,7 @@ const multiServicePricingData = [
         name: "PERDE TÜL BÜYÜK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1548777123-48b458ae8503?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "utuleme", price: 400, popular: false },
@@ -1196,6 +1241,7 @@ const multiServicePricingData = [
         name: "PERDE TÜL KÜÇÜK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1594736797933-d0d5ad6ad9c9?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 300, popular: false },
@@ -1207,6 +1253,7 @@ const multiServicePricingData = [
         name: "PERDE TÜL ORTA",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 800, popular: true },
             { type: "utuleme", price: 350, popular: false },
@@ -1218,6 +1265,7 @@ const multiServicePricingData = [
         name: "PERDE ZEBRA ST DAHİL",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "yikama", price: 153, popular: true }
@@ -1228,6 +1276,7 @@ const multiServicePricingData = [
         name: "PERDE ZEBRA ST HARİÇ",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 200, popular: true },
             { type: "yikama", price: 136, popular: true }
@@ -1238,6 +1287,7 @@ const multiServicePricingData = [
         name: "PERDE KETEN",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1536431311719-398b6704d4cc?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 100, popular: true },
             { type: "utuleme", price: 85, popular: false },
@@ -1249,6 +1299,7 @@ const multiServicePricingData = [
         name: "PERDE SATEN",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 100, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -1293,6 +1344,7 @@ const multiServicePricingData = [
         name: "YASTIK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 450, popular: true },
             { type: "utuleme", price: 50, popular: false },
@@ -1304,6 +1356,7 @@ const multiServicePricingData = [
         name: "YASTIK YÜZÜ",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1493666438817-866a91353ca9?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 100, popular: true },
             { type: "hali-yikama", price: 150, popular: false }
@@ -1314,6 +1367,7 @@ const multiServicePricingData = [
         name: "YATAK ÖRTÜSÜ GÜNLÜK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 650, popular: true },
             { type: "utuleme", price: 250, popular: false },
@@ -1325,6 +1379,7 @@ const multiServicePricingData = [
         name: "YATAK ÖRTÜSÜ ÖZEL",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "yikama", price: 600, popular: true }
@@ -1335,6 +1390,7 @@ const multiServicePricingData = [
         name: "YORGAN ELYAF ÇK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "yikama", price: 600, popular: true }
@@ -1345,6 +1401,7 @@ const multiServicePricingData = [
         name: "YORGAN ELYAF TK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "yikama", price: 600, popular: true }
@@ -1355,6 +1412,7 @@ const multiServicePricingData = [
         name: "YORGAN KAZ TÜYÜ",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "yikama", price: 750, popular: true }
@@ -1365,6 +1423,7 @@ const multiServicePricingData = [
         name: "YORGAN YÜZÜ",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1631049035463-0c1b2c00cd15?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 400, popular: true },
             { type: "utuleme", price: 200, popular: false },
@@ -1376,6 +1435,7 @@ const multiServicePricingData = [
         name: "YORGAN PAMUK-YÜN",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1489171078254-c3365d6e359f?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "yikama", price: 700, popular: true }
@@ -1386,6 +1446,7 @@ const multiServicePricingData = [
         name: "HAVLU",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1580058572462-c61e6551e6c4?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
             { type: "utuleme", price: 50, popular: false },
@@ -1397,6 +1458,7 @@ const multiServicePricingData = [
         name: "BATTANİYE BATTAL",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 700, popular: true },
             { type: "yikama", price: 510, popular: true }
@@ -1438,6 +1500,7 @@ const multiServicePricingData = [
         name: "MİNDER YÜZÜ",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
+        image: "https://plus.unsplash.com/premium_photo-1705843600829-15448713dcb1?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true }
         ]
@@ -1447,6 +1510,7 @@ const multiServicePricingData = [
         name: "KOLTUK ÖRTÜSÜ",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
+        image: "https://images.unsplash.com/photo-1738858363243-fa738c9bab55?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true }
         ]
@@ -1456,6 +1520,7 @@ const multiServicePricingData = [
         name: "BANYO KİLİMİ",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 400, popular: true },
             { type: "yikama", price: 340, popular: true }
@@ -1466,6 +1531,7 @@ const multiServicePricingData = [
         name: "YORGAN KUŞTÜYÜ",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "yikama", price: 750, popular: true }
@@ -1544,6 +1610,7 @@ const multiServicePricingData = [
         name: "BATTANİYE TK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1540062768-0e1b88c9439e?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "yikama", price: 425, popular: true }
@@ -1554,6 +1621,7 @@ const multiServicePricingData = [
         name: "BATTANİYE YÜN ÇK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1525926929834-d6cc6c595d5d?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 800, popular: true },
             { type: "yikama", price: 680, popular: true }
@@ -1564,6 +1632,7 @@ const multiServicePricingData = [
         name: "BATTANİYE YÜN TK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1578928375647-4db6db47c1f8?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 800, popular: true },
             { type: "yikama", price: 595, popular: true }
@@ -1706,6 +1775,7 @@ const multiServicePricingData = [
         name: "DURUMLU MASA ÖRTÜSÜ",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
             { type: "utuleme", price: 150, popular: false },
@@ -1859,6 +1929,7 @@ const multiServicePricingData = [
         name: "MASA ÖRTÜSÜ",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
+        image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
             { type: "utuleme", price: 150, popular: false },
@@ -2211,6 +2282,7 @@ const multiServicePricingData = [
         name: "HALI YIKAMASI M2",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1565564040510-6b9bf33b6c1a?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 250, popular: true }
         ]
@@ -2220,6 +2292,7 @@ const multiServicePricingData = [
         name: "HALI DOKUMA M2",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
+        image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 400, popular: true }
         ]
@@ -3164,6 +3237,7 @@ const multiServicePricingData = [
         name: "PERDE OTO DAKİL",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 125, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -3175,6 +3249,7 @@ const multiServicePricingData = [
         name: "PERDE EVSEL DAKİL",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 125, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -3423,6 +3498,7 @@ const multiServicePricingData = [
         name: "PERDE İPEK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
             { type: "utuleme", price: 100, popular: false },
@@ -3831,6 +3907,7 @@ const multiServicePricingData = [
         name: "YATAK ÖRTÜS SİNGLE",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "utuleme", price: 200, popular: false },
@@ -3842,6 +3919,7 @@ const multiServicePricingData = [
         name: "YATAK ÖRTÜS DOUBLE",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1564540574859-0dfb63985925?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 650, popular: true },
             { type: "utuleme", price: 250, popular: false },
@@ -3853,6 +3931,7 @@ const multiServicePricingData = [
         name: "YASTIK DÜZ",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1540992419738-e3e6ee117e4b?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 450, popular: true },
             { type: "utuleme", price: 50, popular: false },
@@ -3864,6 +3943,7 @@ const multiServicePricingData = [
         name: "YASTIK NAKIŞLI",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "utuleme", price: 100, popular: false },
@@ -3875,6 +3955,7 @@ const multiServicePricingData = [
         name: "YASTIK SATEN",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "utuleme", price: 100, popular: false },
@@ -3886,6 +3967,7 @@ const multiServicePricingData = [
         name: "YASTIK İPEK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 150, popular: false },

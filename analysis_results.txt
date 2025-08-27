@@ -1,0 +1,128 @@
+COMPLETE ANALYSIS: EV-TEKSTİLİ SERVICES IMAGE STATUS
+
+Based on analysis of /Users/macos/Documents/Projeler/DryAlle/js/pricing-data.js
+
+SUMMARY:
+========
+- Total ev-tekstili services: 89
+- Services WITH images: 5
+- Services WITHOUT images: 84
+
+SERVICES WITH IMAGES (5 total):
+================================
+1. hali-m2 - HALI (m² Başına) (hali-kilim) - https://images.unsplash.com/photo-1572123979839-3749e9973aba
+2. koltuk-temizlik - KOLTUK TEMİZLİĞİ (Yerinde) (mobilya-tekstili) - https://images.unsplash.com/photo-1686178827149-6d55c72d81df
+3. perde-m2 - PERDE (m² Başına) (perde-tul) - https://plus.unsplash.com/premium_photo-1673152979215-69b97746b05e
+4. kilim-m2 - KİLİM (m² Başına) (hali-kilim) - https://images.unsplash.com/photo-1531162805941-58330188d75c
+5. yatak-ortusu - YATAK ÖRTÜSÜ (yatak-takimi) - https://images.unsplash.com/photo-1606855637183-ea2a00b6f15f
+
+SERVICES WITHOUT IMAGES BY SUBCATEGORY:
+========================================
+
+HALI-KILIM (20 services without images):
+----------------------------------------
+1. silte-cift - ŞİLTE (Çift Kişilik)
+2. vi-scon-hali-batch2 - VİSCON HALI
+3. yeri-nde-hali-yikama-batch2 - YERİNDE HALI YIKAMA
+4. hali-maki-ne-batch3 - HALI MAKİNE
+5. hali-nepal-batch3 - HALI NEPAL
+6. hali-shagy-batch3 - HALI SHAGY
+7. hali-step-batch3 - HALI STEP
+8. hali-maki-ne-y-n-batch3 - HALI MAKİNE YÜNÜ
+9. banyo-ki-li-mi-batch4 - BANYO KİLİMİ
+10. hali-doku-ma-m2-batch6 - HALI DOKUMA M2
+11. hali-batch7 - HALI
+12. hali-goblen-m2-batch7 - HALI GOBLEN M2
+13. hali-vintage-m2-batch7 - HALI VİNTAGE M2
+14. hali-modern-m2-batch7 - HALI MODERN M2
+15. hali-klasik-m2-batch7 - HALI KLASİK M2
+16. hali-kendi-renkli-m2-batch7 - HALI KENDİ RENKLİ M2
+17. hali-fes-m2-batch7 - HALI FES M2
+18. hali-yikama-ozel-batch7 - HALI YIKAMA ÖZEL
+19. hali-antik-m2-batch7 - HALI ANTİK M2
+20. hali-el-doku-ma-m2-batch7 - HALI EL DOKUMA M2
+
+YATAK-TAKIMI (36 services without images):
+------------------------------------------
+1. carsaf-takimi - ÇARŞAF TAKIMI
+2. nevresi-m-i-ft-ki-i-li-k-batch2 - NEVRESİM ÇİFT KİŞİLİK
+3. nevresi-m-tek-ki-i-li-k-batch2 - NEVRESİM TEK KİŞİLİK
+4. pi-ke-batch2 - PİKE
+5. vi-skon-yastik-batch2 - VİSKON YASTIK
+6. yatak-ba-li-i-i-ft-batch2 - YATAK BAŞLIĞI ÇİFT
+7. yatak-ba-li-i-tek-batch2 - YATAK BAŞLIĞI TEK
+8. yatak-pedi-batch2 - YATAK PEDİ
+9. yatak-yikama-i-ft-batch2 - YATAK YIKAMA ÇİFT
+10. yatak-yikama-tek-batch2 - YATAK YIKAMA TEK
+11. yorgan-tek-ki-i-li-k-y-n-pamuk-batch2 - YORGAN TEK KİŞİLİK YÜN/PAMUK
+12. battani-ye-batch3 - BATTANİYE
+13. bornoz-batch3 - BORNOZ
+14. ar-af-batch3 - ÇARŞAF
+15. havlu-b-y-k-batch3 - HAVLU BÜYÜK
+16. havlu-b-y-k-batch4 - HAVLU BÜYÜK
+17. havlu-k-k-batch4 - HAVLU KÜÇÜK
+18. kaz-t-y-yastik-batch4 - KAZ TÜYÜ YASTIK
+19. nevresi-m-takimi-batch4 - NEVRESİM TAKIMI
+20. yastik-batch4 - YASTIK
+21. yastik-y-z-batch4 - YASTIK YÜZÜ
+22. yatak-rt-s-g-nl-k-batch4 - YATAK ÖRTÜSÜ GÜNLÜK
+23. yatak-rt-s-zel-batch4 - YATAK ÖRTÜSÜ ÖZEL
+24. yorgan-elyaf-k-batch4 - YORGAN ELYAF ÇK
+25. yorgan-elyaf-tk-batch4 - YORGAN ELYAF TK
+26. yorgan-kaz-t-y-batch4 - YORGAN KAZ TÜYÜ
+27. yorgan-y-z-batch4 - YORGAN YÜZÜ
+28. yorgan-pamuk-y-n-batch4 - YORGAN PAMUK-YÜN
+29. havlu-batch4 - HAVLU
+30. battani-ye-battal-batch4 - BATTANİYE BATTAL
+31. yorgan-ku-t-y-batch4 - YORGAN KUŞTÜYÜ
+32. battani-ye-tk-batch5 - BATTANİYE TK
+33. battani-ye-yun-ck-batch5 - BATTANİYE YÜN ÇK
+34. battani-ye-yun-tk-batch5 - BATTANİYE YÜN TK
+35. yatak-ortus-double-batch9 - YATAK ÖRTÜS DOUBLE
+36. yastik-duz-batch9 - YASTIK DÜZ
+37. yastik-nakı-li-batch9 - YASTIK NAKIŞLI
+38. yastik-saten-batch9 - YASTIK SATEN
+39. yastik-i-pek-batch9 - YASTIK İPEK
+
+PERDE-TUL (20 services without images):
+---------------------------------------
+1. perde-fon-i-ft-kat-batch2 - PERDE FON ÇİFT KAT
+2. perde-fon-tek-kat-batch2 - PERDE FON TEK KAT
+3. stor-batch2 - STOR
+4. t-l-batch2 - TÜL
+5. t-l-store-st-dahi-l-batch2 - TÜL STORE ST DAHİL
+6. zebra-perde-batch2 - ZEBRA PERDE
+7. zebra-t-l-batch2 - ZEBRA TÜL
+8. perde-kadi-fe-batch4 - PERDE KADİFE
+9. perde-stor-st-dahi-l-batch4 - PERDE STOR ST DAHİL
+10. perde-stor-st-hari-batch4 - PERDE STOR ST HARİÇ
+11. perde-katlmali-st-dahi-l-batch4 - PERDE KATLMALI ST DAHİL
+12. perde-katlmali-st-hari-batch4 - PERDE KATLMALI ST HARİÇ
+13. perde-t-l-b-y-k-batch4 - PERDE TÜL BÜYÜK
+14. perde-t-l-k-k-batch4 - PERDE TÜL KÜÇÜK
+15. perde-t-l-orta-batch4 - PERDE TÜL ORTA
+16. perde-zebra-st-dahi-l-batch4 - PERDE ZEBRA ST DAHİL
+17. perde-zebra-st-hari-batch4 - PERDE ZEBRA ST HARİÇ
+18. perde-keten-batch4 - PERDE KETEN
+19. perde-saten-batch4 - PERDE SATEN
+20. perde-evsel-daki-l-batch8 - PERDE EVSEL DAKİL
+21. perde-batch9 - PERDE
+22. perde-i-pek-batch9 - PERDE İPEK
+
+MOBILYA-TEKSTILI (8 services without images):
+---------------------------------------------
+1. kanepe-3lu - KANEPE TEMİZLİĞİ (3lü)
+2. berjer-temizlik - BERJER TEMİZLİĞİ
+3. puf-batch2 - PUF
+4. sandalye-temi-zleme-tam-batch2 - SANDALYE TEMİZLEME TAM
+5. sandalye-temi-zleme-yarim-batch2 - SANDALYE TEMİZLEME YARIM
+6. mi-nder-y-z-batch4 - MİNDER YÜZÜ
+7. koltuk-rt-s-batch4 - KOLTUK ÖRTÜSÜ
+8. durumlu-masa-rtus-batch5 - DURUMLU MASA ÖRTÜSÜ
+9. masa-rtus-batch5 - MASA ÖRTÜSÜ
+
+TOTAL SERVICES NEEDING IMAGES: 84
+========================================
+
+Note: The actual count is 84 services without images, not 92 as initially mentioned. 
+The discrepancy might be due to some services being miscategorized or the count including non-ev-tekstili items.
