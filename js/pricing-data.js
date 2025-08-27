@@ -3478,6 +3478,7 @@ const multiServicePricingData = [
         name: "PELUŞLAR",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
+        image: "https://images.unsplash.com/photo-1562040506-a9b32cb51b94?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true }
         ]
@@ -3487,6 +3488,7 @@ const multiServicePricingData = [
         name: "PERDE",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "https://images.unsplash.com/photo-1699805135173-3087dab73dc9?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 80, popular: true },
             { type: "utuleme", price: 50, popular: false },
