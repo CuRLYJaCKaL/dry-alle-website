@@ -164,16 +164,35 @@ function shuffleArray(array) {
 /**
  * Generate HTML for a single region card
  */
-function generateRegionCard(region) {
+function generateRegionCard(region, currentService) {
     return `
-        <div class="district-card">
-            <div class="district-content">
-                <h3 class="district-title">${region.title}</h3>
-                <p class="district-description">${region.description}</p>
-                <a href="${region.url}" class="district-link">Hizmet Al ›</a>
+        <div class="area-card" data-category="${currentService}">
+            <div class="area-card-content">
+                <div class="area-service-badge">${getServiceBadgeText(currentService)}</div>
+                <h3 class="area-card-title">${region.title}</h3>
+                <p class="area-card-description">${region.description}</p>
+                <a href="${region.url}" class="area-link"><span>Hizmet Al ›</span></a>
             </div>
         </div>
     `;
+}
+
+/**
+ * Get service badge text
+ */
+function getServiceBadgeText(serviceType) {
+    const badgeTexts = {
+        'kuru-temizleme': 'KURU TEMİZLEME',
+        'hali-yikama': 'HALI YIKAMA', 
+        'koltuk-yikama': 'KOLTUK YIKAMA',
+        'perde-temizleme': 'PERDE TEMİZLEME',
+        'utu-hizmetleri': 'ÜTÜ HİZMETİ',
+        'ev-tekstili-temizligi': 'EV TEKSTİLİ',
+        'canta-temizleme': 'ÇANTA TEMİZLEME',
+        'kumas-deri-boyama': 'KUMAŞ BOYAMA',
+        'lostra-hizmeti': 'LOSTRA HİZMETİ'
+    };
+    return badgeTexts[serviceType] || 'HİZMET';
 }
 
 /**
@@ -181,19 +200,45 @@ function generateRegionCard(region) {
  */
 function generateServiceRegionsSection(currentService) {
     const relevantRegions = getRelevantRegions(currentService);
-    const regionsHTML = relevantRegions.map(region => generateRegionCard(region)).join('');
+    const regionsHTML = relevantRegions.map(region => generateRegionCard(region, currentService)).join('');
     
     return `
-        <section class="premium-districts service-regions">
-            <div class="premium-districts-container">
-                <h2 class="districts-title">Hizmet Bölgelerimiz</h2>
-                <p class="districts-subtitle">Anadolu Yakası'nın premium semtlerinde kaliteli kuru temizleme hizmetleri</p>
-                <div class="districts-grid">
+        <section class="service-areas-section">
+            <div class="service-areas-container">
+                <div class="service-areas-header">
+                    <h2 class="service-areas-title">Hizmet Bölgelerimiz</h2>
+                    <p class="service-areas-subtitle">Anadolu Yakası'nın premium semtlerinde kaliteli kuru temizleme hizmetleri</p>
+                </div>
+                <div class="related-areas-grid">
                     ${regionsHTML}
                 </div>
             </div>
         </section>
     `;
+}
+
+/**
+ * Generate schema markup for service regions
+ */
+function generateRegionsSchema(currentService, relevantRegions) {
+    const areaServedSchema = relevantRegions.map(region => ({
+        "@type": "Place",
+        "name": region.title.split(' ')[0], // Extract neighborhood name
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": region.title.split(' ')[0],
+            "addressRegion": "İstanbul",
+            "addressCountry": "TR"
+        }
+    }));
+
+    return {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": `${getServiceBadgeText(currentService)} Hizmeti`,
+        "serviceType": getServiceBadgeText(currentService),
+        "areaServed": areaServedSchema
+    };
 }
 
 /**
@@ -204,13 +249,21 @@ function initServiceRegions() {
     const relatedServicesSection = document.querySelector('.related-services');
     
     if (!relatedServicesSection) {
-        console.warn('Related services section not found');
         return;
     }
+    
+    const relevantRegions = getRelevantRegions(currentService);
     
     // Generate and insert service regions section
     const serviceRegionsHTML = generateServiceRegionsSection(currentService);
     relatedServicesSection.insertAdjacentHTML('afterend', serviceRegionsHTML);
+    
+    // Add schema markup for regions
+    const regionsSchema = generateRegionsSchema(currentService, relevantRegions);
+    const scriptElement = document.createElement('script');
+    scriptElement.type = 'application/ld+json';
+    scriptElement.textContent = JSON.stringify(regionsSchema);
+    document.head.appendChild(scriptElement);
     
     // Add loaded class for animation
     setTimeout(() => {
