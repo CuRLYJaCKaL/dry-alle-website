@@ -94,7 +94,7 @@ const multiServicePricingData = [
         name: "ÇOCUK ELBİSESİ",
         category: "cocuk-giyim",
         subcategory: "cocuk-ozel-gunler",
-        image: "https://images.unsplash.com/photo-1503944583220-79d8926ad5d2?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 135, popular: true },
             { type: "yikama", price: 95, popular: false },
@@ -393,7 +393,7 @@ const multiServicePricingData = [
         name: "PUF",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
-        image: "https://images.unsplash.com/photo-1506629905607-bb5c12c3c04a?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 450, popular: true }
         ]

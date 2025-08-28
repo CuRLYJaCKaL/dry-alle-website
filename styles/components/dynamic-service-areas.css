@@ -22,6 +22,7 @@
   max-width: var(--container-xl);
   margin: 0 auto;
   padding: 0 var(--spacing-5);
+  text-align: center;
 }
 
 /* Section Header */
@@ -57,6 +58,8 @@
   gap: var(--spacing-5);
   max-width: 1200px;
   margin: 0 auto;
+  justify-content: center;
+  align-items: stretch;
 }
 
 /* Individual Area Card */
