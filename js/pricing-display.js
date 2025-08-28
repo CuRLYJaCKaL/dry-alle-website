@@ -10,8 +10,8 @@ class PricingDisplay {
         this.noResults = document.getElementById('noResults');
         this.loadingElement = document.querySelector('.pricing-loading');
         
-        // Infinite scroll settings
-        this.itemsPerPage = 10;
+        // Pagination settings (20 items per page)
+        this.itemsPerPage = 20;
         this.currentPage = 1;
         this.totalItems = 0;
         this.currentData = [];
@@ -21,8 +21,8 @@ class PricingDisplay {
         // Initialize display on load
         this.initialize();
         
-        // Initialize infinite scroll
-        this.initializeInfiniteScroll();
+        // Initialize pagination controls
+        this.initializePagination();
     }
 
     // Initialize the display system
@@ -85,113 +85,131 @@ class PricingDisplay {
             return a.name.localeCompare(b.name);
         });
         
-        // Calculate current page data
+        // Calculate current page data (only current page items)
         const startIndex = (this.currentPage - 1) * this.itemsPerPage;
         const endIndex = startIndex + this.itemsPerPage;
-        const currentPageData = sortedData.slice(0, endIndex); // Show from beginning to current page
+        const currentPageData = sortedData.slice(startIndex, endIndex); // Show only current page
         
         const cardsHTML = currentPageData.map(item => this.createPricingCard(item)).join('');
         
-        // Create scroll status display
-        const statusHTML = this.createScrollStatus(sortedData.length);
+        // Create pagination navigation
+        const paginationHTML = this.createPaginationControls(sortedData.length);
         
-        this.priceGrid.innerHTML = cardsHTML + statusHTML;
+        this.priceGrid.innerHTML = cardsHTML + paginationHTML;
     }
 
-    // Create infinite scroll status display
-    createScrollStatus(totalItems) {
-        const currentlyShowing = this.currentPage * this.itemsPerPage;
-        const hasMore = currentlyShowing < totalItems;
+    // Create pagination controls
+    createPaginationControls(totalItems) {
+        const totalPages = Math.ceil(totalItems / this.itemsPerPage);
         
-        if (!hasMore) {
-            return '<div class="pricing-scroll-status completed">' +
-                '<div class="pricing-total-info">' +
-                    '<span class="status-icon">✅</span>' +
-                    '<p>Tüm hizmetler yüklendi • Toplam ' + totalItems + ' hizmet</p>' +
-                '</div>' +
+        if (totalPages <= 1) {
+            return '<div class="pricing-info">' +
+                '<p class="total-services">Toplam ' + totalItems + ' hizmet</p>' +
             '</div>';
         }
         
-        return '<div class="pricing-scroll-status loading" id="scrollStatus">' +
-            '<div class="pricing-scroll-info">' +
-                '<div class="scroll-progress-bar">' +
-                    '<div class="scroll-progress-fill" style="width: ' + Math.round((currentlyShowing / totalItems) * 100) + '%"></div>' +
-                '</div>' +
-                '<p class="scroll-status-text">Gösterilen: ' + currentlyShowing + ' / ' + totalItems + ' hizmet</p>' +
-                '<p class="scroll-hint">Daha fazla görmek için aşağı kaydırın</p>' +
+        const startIndex = (this.currentPage - 1) * this.itemsPerPage + 1;
+        const endIndex = Math.min(this.currentPage * this.itemsPerPage, totalItems);
+        
+        let paginationHTML = '<div class="pagination-wrapper">' +
+            '<div class="pagination-info">' +
+                '<p>' + startIndex + '-' + endIndex + ' / ' + totalItems + ' hizmet</p>' +
             '</div>' +
-        '</div>';
+            '<div class="pagination-controls">';
+        
+        // Previous button
+        if (this.currentPage > 1) {
+            paginationHTML += '<button class="pagination-btn prev-btn" onclick="window.PricingDisplay.goToPage(' + (this.currentPage - 1) + ')">◀ Önceki</button>';
+        }
+        
+        // Page numbers
+        const maxVisible = 5;
+        let startPage = Math.max(1, this.currentPage - 2);
+        let endPage = Math.min(totalPages, startPage + maxVisible - 1);
+        
+        if (endPage - startPage < maxVisible - 1) {
+            startPage = Math.max(1, endPage - maxVisible + 1);
+        }
+        
+        if (startPage > 1) {
+            paginationHTML += '<button class="pagination-btn page-btn" onclick="window.PricingDisplay.goToPage(1)">1</button>';
+            if (startPage > 2) paginationHTML += '<span class="pagination-dots">...</span>';
+        }
+        
+        for (let i = startPage; i <= endPage; i++) {
+            const activeClass = i === this.currentPage ? ' active' : '';
+            paginationHTML += '<button class="pagination-btn page-btn' + activeClass + '" onclick="window.PricingDisplay.goToPage(' + i + ')">' + i + '</button>';
+        }
+        
+        if (endPage < totalPages) {
+            if (endPage < totalPages - 1) paginationHTML += '<span class="pagination-dots">...</span>';
+            paginationHTML += '<button class="pagination-btn page-btn" onclick="window.PricingDisplay.goToPage(' + totalPages + ')">' + totalPages + '</button>';
+        }
+        
+        // Next button
+        if (this.currentPage < totalPages) {
+            paginationHTML += '<button class="pagination-btn next-btn" onclick="window.PricingDisplay.goToPage(' + (this.currentPage + 1) + ')">Sonraki ▶</button>';
+        }
+        
+        paginationHTML += '</div></div>';
+        return paginationHTML;
     }
 
-    // Initialize infinite scroll functionality  
-    initializeInfiniteScroll() {
-        let scrollTimeout;
+    // Initialize pagination functionality
+    initializePagination() {
+        // Remove any scroll listeners and setup pagination
+        window.removeEventListener('scroll', this.handleScroll);
         
-        window.addEventListener('scroll', () => {
-            // Throttle scroll events
-            clearTimeout(scrollTimeout);
-            scrollTimeout = setTimeout(() => {
-                this.handleScroll();
-            }, 100);
-        });
+        // Expose goToPage method globally
+        window.PricingDisplay.goToPage = this.goToPage.bind(this);
     }
 
-    // Handle scroll event for infinite loading
-    handleScroll() {
-        if (this.isLoading || !this.allData.length) return;
+    // Navigate to specific page
+    goToPage(pageNumber) {
+        if (pageNumber < 1 || pageNumber > Math.ceil(this.allData.length / this.itemsPerPage)) {
+            return;
+        }
         
-        const currentlyShowing = this.currentPage * this.itemsPerPage;
-        const hasMore = currentlyShowing < this.allData.length;
+        this.currentPage = pageNumber;
+        this.renderPaginatedCards();
         
-        if (!hasMore) return;
-        
-        // Check if user scrolled near bottom
-        const scrollPosition = window.innerHeight + window.scrollY;
-        const documentHeight = document.documentElement.offsetHeight;
-        const threshold = 800; // Load when 800px from bottom
-        
-        if (scrollPosition >= documentHeight - threshold) {
-            this.loadMoreItems();
+        // Scroll to top of results
+        const priceGrid = document.getElementById('priceGrid');
+        if (priceGrid) {
+            priceGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     }
 
-    // Load more items automatically
-    loadMoreItems() {
-        if (this.isLoading) return;
+    // Handle pagination navigation
+    handlePageNavigation() {
+        // Smooth page transitions
+        this.priceGrid.style.opacity = '0.7';
         
-        this.isLoading = true;
-        this.showLoadingIndicator();
-        
-        // Simulate loading delay for smooth UX
         setTimeout(() => {
-            this.currentPage++;
             this.renderPaginatedCards();
-            this.isLoading = false;
-            this.hideLoadingIndicator();
-        }, 300);
+            this.priceGrid.style.opacity = '1';
+        }, 150);
     }
 
-    // Show loading indicator
-    showLoadingIndicator() {
-        const existingLoader = document.getElementById('infiniteLoader');
-        if (existingLoader) return;
+    // Pagination helper: Get current page info
+    getCurrentPageInfo() {
+        const totalPages = Math.ceil(this.allData.length / this.itemsPerPage);
+        const startIndex = (this.currentPage - 1) * this.itemsPerPage + 1;
+        const endIndex = Math.min(this.currentPage * this.itemsPerPage, this.allData.length);
         
-        const loader = document.createElement('div');
-        loader.id = 'infiniteLoader';
-        loader.className = 'infinite-scroll-loader';
-        loader.innerHTML = 
-            '<div class="loader-spinner"></div>' +
-            '<p class="loader-text">Yeni hizmetler yükleniyor...</p>';
-        
-        this.priceGrid.appendChild(loader);
+        return {
+            currentPage: this.currentPage,
+            totalPages,
+            startIndex,
+            endIndex,
+            totalItems: this.allData.length
+        };
     }
 
-    // Hide loading indicator  
-    hideLoadingIndicator() {
-        const loader = document.getElementById('infiniteLoader');
-        if (loader) {
-            loader.remove();
-        }
+    // Update page display smoothly
+    updatePageDisplay() {
+        this.priceGrid.style.transition = 'opacity 0.2s ease';
+        this.renderPaginatedCards();
     }
 
     // Create individual pricing card HTML
