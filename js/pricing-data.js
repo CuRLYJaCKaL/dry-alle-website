@@ -142,6 +142,7 @@ const multiServicePricingData = [
         name: "DERİ CEKET",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 385, popular: true },
             { type: "deri-boyama", price: 575, popular: false },
@@ -304,6 +305,7 @@ const multiServicePricingData = [
         name: "OVERLOK NORMAL",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 150, popular: false }
         ]
@@ -313,6 +315,7 @@ const multiServicePricingData = [
         name: "OVERLOK YÜN",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 200, popular: false }
         ]
@@ -451,6 +454,7 @@ const multiServicePricingData = [
         name: "TADİLAT",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 200, popular: true }
         ]
@@ -472,6 +476,7 @@ const multiServicePricingData = [
         name: "TERZİ TADİLAT",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 200, popular: true }
         ]
@@ -481,6 +486,7 @@ const multiServicePricingData = [
         name: "TUHAFİYE İP/ DÜĞME VS. ÖDEMESİ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1589756823695-278bc8766896?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yikama", price: 119, popular: true },
             { type: "yerinde-temizleme", price: 500, popular: false }
@@ -935,6 +941,7 @@ const multiServicePricingData = [
         name: "DERİ ELBİSE",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1566479179817-be0b9f71c8c9?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "utuleme", price: 500, popular: false },
@@ -971,6 +978,7 @@ const multiServicePricingData = [
         name: "MONT DERİ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "utuleme", price: 500, popular: false },
@@ -982,6 +990,7 @@ const multiServicePricingData = [
         name: "CEKET DERİ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "utuleme", price: 500, popular: false },
@@ -993,6 +1002,7 @@ const multiServicePricingData = [
         name: "CEKET SÜET",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "utuleme", price: 500, popular: false },
@@ -1005,6 +1015,7 @@ const multiServicePricingData = [
         name: "CEKET NUBUK",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "utuleme", price: 500, popular: false },
@@ -1017,6 +1028,7 @@ const multiServicePricingData = [
         name: "MONT NUBUK",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 2000, popular: true },
             { type: "utuleme", price: 500, popular: false },
@@ -1543,6 +1555,7 @@ const multiServicePricingData = [
         name: "NUBUK ELBİSE",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 2000, popular: true }
         ]
@@ -1594,6 +1607,7 @@ const multiServicePricingData = [
         name: "ÇANTA",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 700, popular: true },
             { type: "yikama", price: 680, popular: true },
@@ -1605,6 +1619,7 @@ const multiServicePricingData = [
         name: "ÇANTA DERİ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "yikama", price: 765, popular: true },
@@ -1616,6 +1631,7 @@ const multiServicePricingData = [
         name: "ÇANTA SÜET",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "yikama", price: 765, popular: true },
@@ -1629,6 +1645,7 @@ const multiServicePricingData = [
         name: "AYAKKABI",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "yikama", price: 765, popular: true },
@@ -1652,6 +1669,7 @@ const multiServicePricingData = [
         name: "DERİ AYAKKABI",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -1732,6 +1750,7 @@ const multiServicePricingData = [
         name: "BERMUDA DERİ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1506629905607-bb5c12c3c04a?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "utuleme", price: 500, popular: false },
@@ -1767,6 +1786,7 @@ const multiServicePricingData = [
         name: "ÇANTA KETEN",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "yikama", price: 425, popular: true },
@@ -1778,6 +1798,7 @@ const multiServicePricingData = [
         name: "ÇANTA KUMAŞ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "yikama", price: 425, popular: true },
@@ -2088,6 +2109,7 @@ const multiServicePricingData = [
         name: "SPOR AYAKKABI",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "yikama", price: 416, popular: true }
@@ -2195,6 +2217,7 @@ const multiServicePricingData = [
         name: "AYAKKABI BEZ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "yikama", price: 425, popular: true }
@@ -2205,6 +2228,7 @@ const multiServicePricingData = [
         name: "AYAKKABI KUMAŞ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "yikama", price: 425, popular: true }
@@ -2215,6 +2239,7 @@ const multiServicePricingData = [
         name: "AYAKKABI SÜET",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -2451,6 +2476,7 @@ const multiServicePricingData = [
         name: "ELDİVEN DERİ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yikama", price: 190, popular: true },
             { type: "boyama", price: 170, popular: false }
@@ -2461,6 +2487,7 @@ const multiServicePricingData = [
         name: "ELDİVEN SÜET",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 400, popular: true },
             { type: "yikama", price: 190, popular: true },
@@ -2702,6 +2729,7 @@ const multiServicePricingData = [
         name: "KÜRKLU CEKET",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1548883354-c4e3ab3ac5c4?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 2000, popular: true },
             { type: "yikama", price: 1500, popular: true }
@@ -2712,6 +2740,7 @@ const multiServicePricingData = [
         name: "KÜRKLU KABAN",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1548883354-c4e3ab3ac5c4?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 2500, popular: true },
             { type: "yikama", price: 1785, popular: true }
@@ -2722,6 +2751,7 @@ const multiServicePricingData = [
         name: "KÜRKLU MONT",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 2000, popular: true },
             { type: "yikama", price: 1500, popular: true }
@@ -2732,6 +2762,7 @@ const multiServicePricingData = [
         name: "KÜRKLU YELEK",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "yikama", price: 1071, popular: true }
@@ -2742,6 +2773,7 @@ const multiServicePricingData = [
         name: "KÜRK",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1548883354-c4e3ab3ac5c4?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 3000, popular: true },
             { type: "yikama", price: 2142, popular: true }
@@ -2924,6 +2956,7 @@ const multiServicePricingData = [
         name: "KABAN DERİ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yikama", price: 1750, popular: true }
         ]
@@ -2956,6 +2989,7 @@ const multiServicePricingData = [
         name: "KABAN SÜET",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1750, popular: true },
             { type: "yikama", price: 1750, popular: true }
@@ -2966,6 +3000,7 @@ const multiServicePricingData = [
         name: "KABAN YAKA-KOL KÜRKLÜ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1548883354-c4e3ab3ac5c4?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "yikama", price: 476, popular: true }
@@ -2976,6 +3011,7 @@ const multiServicePricingData = [
         name: "KABAN YAKASI KÜRKLU",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "yikama", price: 425, popular: true }
@@ -3107,6 +3143,7 @@ const multiServicePricingData = [
         name: "KOLTUKALTI DERİSİ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 714, popular: true }
@@ -3117,6 +3154,7 @@ const multiServicePricingData = [
         name: "KOLTUKALTI DERİ ELBİSE",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1566479179817-be0b9f71c8c9?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "yikama", price: 1071, popular: true }
@@ -3127,6 +3165,7 @@ const multiServicePricingData = [
         name: "KOLTUKALTI DERİ CEKET",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "yikama", price: 1071, popular: true }
@@ -3137,6 +3176,7 @@ const multiServicePricingData = [
         name: "KOLTUKALTI DERİ PANTOLON",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 714, popular: true }
@@ -3243,6 +3283,7 @@ const multiServicePricingData = [
         name: "YAKA-KOL KÜRK",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1548883354-c4e3ab3ac5c4?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "yikama", price: 535, popular: true }
@@ -3655,6 +3696,7 @@ const multiServicePricingData = [
         name: "ULTRA SON ISITMA",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true }
         ]
@@ -3762,6 +3804,7 @@ const multiServicePricingData = [
         name: "SÜET TERLİK",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "yikama", price: 425, popular: true }
@@ -3783,6 +3826,7 @@ const multiServicePricingData = [
         name: "TERLİK DERİ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "yikama", price: 357, popular: true }
@@ -3793,6 +3837,7 @@ const multiServicePricingData = [
         name: "SÜET AYAKKABI",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -3804,6 +3849,7 @@ const multiServicePricingData = [
         name: "SÜET BOT",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -3815,6 +3861,7 @@ const multiServicePricingData = [
         name: "SÜET ÇİZME",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -3826,6 +3873,7 @@ const multiServicePricingData = [
         name: "SÜET KOVBOY",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -3837,6 +3885,7 @@ const multiServicePricingData = [
         name: "SÜET ŞAPO",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 400, popular: true },
             { type: "yikama", price: 285, popular: true }
@@ -3847,6 +3896,7 @@ const multiServicePricingData = [
         name: "DERİ TERLİK",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "yikama", price: 357, popular: true }
@@ -3857,6 +3907,7 @@ const multiServicePricingData = [
         name: "DERİ AYAKKABI",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -3868,6 +3919,7 @@ const multiServicePricingData = [
         name: "DERİ BOT",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -3879,6 +3931,7 @@ const multiServicePricingData = [
         name: "DERİ ÇİZME",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -3890,6 +3943,7 @@ const multiServicePricingData = [
         name: "DERİ KOVBOY",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -3901,6 +3955,7 @@ const multiServicePricingData = [
         name: "DERİ ŞAPO",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
+        image: "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 400, popular: true },
             { type: "yikama", price: 285, popular: true }
