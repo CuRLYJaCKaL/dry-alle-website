@@ -94,6 +94,7 @@ const multiServicePricingData = [
         name: "ÇOCUK ELBİSESİ",
         category: "cocuk-giyim",
         subcategory: "cocuk-ozel-gunler",
+        image: "https://images.unsplash.com/photo-1503944583220-79d8926ad5d2?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 135, popular: true },
             { type: "yikama", price: 95, popular: false },
@@ -392,7 +393,7 @@ const multiServicePricingData = [
         name: "PUF",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
-        image: "https://images.unsplash.com/photo-1586796676467-f8fdf4c45f4a?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1506629905607-bb5c12c3c04a?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yerinde-temizleme", price: 450, popular: true }
         ]
@@ -1137,6 +1138,7 @@ const multiServicePricingData = [
         name: "ÇOCUK ELBİSE",
         category: "cocuk-giyim",
         subcategory: "cocuk-ozel-gunler",
+        image: "https://images.unsplash.com/photo-1566568897286-8cbc0c61fc5d?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
             { type: "utuleme", price: 100, popular: false },
@@ -1532,6 +1534,7 @@ const multiServicePricingData = [
         name: "ÇOCUK ABİYE",
         category: "cocuk-giyim",
         subcategory: "cocuk-ozel-gunler",
+        image: "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "utuleme", price: 200, popular: false },
@@ -2251,6 +2254,7 @@ const multiServicePricingData = [
         name: "ÇOCUK GÖMLEK",
         category: "cocuk-giyim",
         subcategory: "cocuk-ozel-gunler",
+        image: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 200, popular: true },
             { type: "utuleme", price: 50, popular: false },
@@ -2262,6 +2266,7 @@ const multiServicePricingData = [
         name: "ÇOCUK PANTOLON",
         category: "cocuk-giyim",
         subcategory: "cocuk-ozel-gunler",
+        image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 200, popular: true },
             { type: "utuleme", price: 50, popular: false },
@@ -2273,6 +2278,7 @@ const multiServicePricingData = [
         name: "ÇOCUK CEKET",
         category: "cocuk-giyim",
         subcategory: "cocuk-ozel-gunler",
+        image: "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 60, popular: false },
