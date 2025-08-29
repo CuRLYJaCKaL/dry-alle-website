@@ -166,12 +166,11 @@ function shuffleArray(array) {
  */
 function generateRegionCard(region, currentService) {
     return `
-        <div class="area-card" data-category="${currentService}">
-            <div class="area-card-content">
-                <div class="area-service-badge">${getServiceBadgeText(currentService)}</div>
-                <h3 class="area-card-title">${region.title}</h3>
-                <p class="area-card-description">${region.description}</p>
-                <a href="${region.url}" class="area-link"><span>Hizmet Al ›</span></a>
+        <div class="district-card">
+            <div class="district-content">
+                <h3>${region.title}</h3>
+                <p>${region.description}</p>
+                <a href="${region.url}" class="district-link">Hizmet Al ›</a>
             </div>
         </div>
     `;
@@ -203,13 +202,11 @@ function generateServiceRegionsSection(currentService) {
     const regionsHTML = relevantRegions.map(region => generateRegionCard(region, currentService)).join('');
     
     return `
-        <section class="service-areas-section">
-            <div class="service-areas-container">
-                <div class="service-areas-header">
-                    <h2 class="service-areas-title">Hizmet Bölgelerimiz</h2>
-                    <p class="service-areas-subtitle">Anadolu Yakası'nın premium semtlerinde kaliteli kuru temizleme hizmetleri</p>
-                </div>
-                <div class="related-areas-grid">
+        <section class="premium-districts">
+            <div class="premium-districts-container">
+                <h2 class="districts-title">Hizmet Bölgelerimiz</h2>
+                <p class="districts-subtitle">Anadolu Yakası'nın premium semtlerinde kaliteli kuru temizleme hizmetleri</p>
+                <div class="districts-grid">
                     ${regionsHTML}
                 </div>
             </div>
@@ -245,18 +242,27 @@ function generateRegionsSchema(currentService, relevantRegions) {
  * Initialize service regions display
  */
 function initServiceRegions() {
+    console.log('🚀 Service regions initialized');
     const currentService = getCurrentServiceType();
+    console.log('📍 Current service:', currentService);
+    
     const relatedServicesSection = document.querySelector('.related-services');
+    console.log('🔍 Related services section found:', !!relatedServicesSection);
     
     if (!relatedServicesSection) {
+        console.error('❌ Related services section not found');
         return;
     }
     
     const relevantRegions = getRelevantRegions(currentService);
+    console.log('🏢 Relevant regions:', relevantRegions.length);
     
     // Generate and insert service regions section
     const serviceRegionsHTML = generateServiceRegionsSection(currentService);
+    console.log('📝 Generated HTML length:', serviceRegionsHTML.length);
+    
     relatedServicesSection.insertAdjacentHTML('afterend', serviceRegionsHTML);
+    console.log('✅ Service regions section inserted');
     
     // Add schema markup for regions
     const regionsSchema = generateRegionsSchema(currentService, relevantRegions);
@@ -264,14 +270,7 @@ function initServiceRegions() {
     scriptElement.type = 'application/ld+json';
     scriptElement.textContent = JSON.stringify(regionsSchema);
     document.head.appendChild(scriptElement);
-    
-    // Add loaded class for animation
-    setTimeout(() => {
-        const regionsGrid = document.querySelector('.service-regions .districts-grid');
-        if (regionsGrid) {
-            regionsGrid.classList.add('districts-loaded');
-        }
-    }, 100);
+    console.log('📊 Schema markup added');
 }
 
 /**

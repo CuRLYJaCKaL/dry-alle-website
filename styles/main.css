@@ -177,7 +177,7 @@
 }
 
 .elite-neighborhoods .container {
-  max-width: 1200px;
+  max-width: var(--container-xl);
   margin: 0 auto;
   padding: 0;
 }
@@ -604,6 +604,12 @@ html {
   text-decoration: underline;
 }
 
+/* Related Services Section Spacing Fix */
+.related-services {
+  margin-bottom: 0;
+  padding-bottom: var(--spacing-4);
+}
+
 /* ================================
    FOOTER
    ================================ */
@@ -615,7 +621,7 @@ html {
 }
 
 .footer-content {
-  max-width: 1200px;
+  max-width: var(--container-xl);
   margin: 0 auto;
   padding: 0 var(--spacing-10);
 }

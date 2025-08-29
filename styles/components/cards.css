@@ -710,7 +710,7 @@
   grid-template-columns: repeat(4, 1fr);
   gap: var(--spacing-6);
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: var(--container-xl);
 }
 
 /* ================================

@@ -193,6 +193,7 @@
 .district-link:hover {
   transform: translateX(2px);
   box-shadow: 0 4px 12px rgba(0, 98, 59, 0.3);
+  color: var(--color-white);
 }
 
 .district-link:hover::before {

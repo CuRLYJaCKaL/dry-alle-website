@@ -719,10 +719,8 @@
 
 /* Service Areas Container */
 .service-areas-container {
-  margin: var(--spacing-10) 0;
   padding: var(--spacing-8);
   background: var(--color-gray-50);
-  border-radius: var(--border-radius-lg);
   border: 2px solid var(--color-gray-200);
 }
 
