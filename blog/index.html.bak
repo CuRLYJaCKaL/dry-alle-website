@@ -11,7 +11,7 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><title>Blog | Dry Alle Kuru Temizleme - Profesyonel Tekstil Bakım Rehberleri</title>
-<meta content="İstanbul kuru temizleme, halı yıkama, mobilya temizliği uzman rehberleri. 25 yıl deneyimle hazırlanmış kapsamlı blog yazıları. Ücretsiz tekstil bakım rehberi." name="description"/>
+<meta content="İstanbul'da kuru temizleme, halı yıkama, mobilya temizliği hakkında uzman rehberleri. 25 yıllık deneyimle hazırlanmış kapsamlı blog yazıları." name="description"/>
 <meta content="kuru temizleme blog, halı yıkama rehberi, mobilya temizliği, perde temizleme, leke çıkarma" name="keywords"/>
 
 <!-- 2025+ AI/LLM FINDABILITY OPTIMIZATION -->
@@ -325,7 +325,7 @@
         <ul class="nav-menu" role="menubar">
             <li role="none"><a href="../index.html#services" role="menuitem">Hizmetlerimiz</a></li>
             <li role="none"><a href="../index.html#about" role="menuitem">Hakkımızda</a></li>
-            <li role="none"><a href="index.html" role="menuitem">Blog</a></li>
+            <li role="none"><a href="index.html" class="active">Blog</a></li>
             <li role="none"><a href="../fiyatlar.html" role="menuitem">Fiyatlar</a></li>
             <li role="none"><a href="../index.html#contact" role="menuitem">İletişim</a></li>
         </ul>

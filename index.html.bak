@@ -451,7 +451,6 @@
         <!-- Navigation -->
         <nav class="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
             <ul class="nav-menu" role="menubar">
-                <li role="none"><a href="index.html" role="menuitem">Ana Sayfa</a></li>
                 <li role="none"><a href="#services" role="menuitem">Hizmetlerimiz</a></li>
                 <li role="none"><a href="#about" role="menuitem">Hakkımızda</a></li>
                 <li role="none"><a href="blog/" role="menuitem">Blog</a></li>
