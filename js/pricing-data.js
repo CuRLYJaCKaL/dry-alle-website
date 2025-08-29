@@ -918,7 +918,7 @@ const multiServicePricingData = [
         name: "GÖMLEK İPEK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-1722109876543?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1589635020161-67a31d5b93e0?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
             { type: "utuleme", price: 85, popular: false },
@@ -1660,7 +1660,7 @@ const multiServicePricingData = [
         name: "ATLET",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-1723210987654?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1571508508669-f9c18df0e138?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 100, popular: true },
             { type: "utuleme", price: 50, popular: false },
@@ -1765,7 +1765,7 @@ const multiServicePricingData = [
         name: "BONE",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-1722109876543?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
             { type: "utuleme", price: 50, popular: false },
@@ -2290,7 +2290,7 @@ const multiServicePricingData = [
         name: "FISTAN",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-1722109876543?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 100, popular: false },
@@ -2482,7 +2482,7 @@ const multiServicePricingData = [
         name: "ELDİVEN DERİ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
-        image: "https://images.unsplash.com/photo-1722109876543?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1506629905607-bb5c12c3c04a?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yikama", price: 190, popular: true },
             { type: "boyama", price: 170, popular: false }
