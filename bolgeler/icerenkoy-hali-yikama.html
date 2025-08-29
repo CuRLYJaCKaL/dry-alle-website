@@ -136,6 +136,61 @@
     .service-hero-content{display:grid;grid-template-columns:2fr 1fr;gap:var(--spacing-10);align-items:center;max-width:1140px;margin:0 auto;padding:0 var(--spacing-5)}
     /* Mobile critical styles */
     @media (max-width:767px){.service-hero-content{grid-template-columns:1fr;text-align:center;gap:var(--spacing-6);padding:0 var(--spacing-4)}}
+    
+    /* Enhanced Mobile Responsive - Additional Breakpoints */
+    @media (max-width: 480px) {
+        .service-hero-content h1 { 
+            font-size: 1.5rem; 
+            margin-bottom: 1rem; 
+        }
+        .service-hero-content p { 
+            font-size: 0.95rem; 
+            line-height: 1.5; 
+        }
+        .feature-grid, .highlight-grid { 
+            grid-template-columns: 1fr; 
+            gap: 1rem; 
+        }
+        .feature-item, .highlight-item { 
+            padding: 12px; 
+            text-align: center; 
+        }
+        .cta-button { 
+            width: 100%; 
+            min-height: 48px; 
+            padding: 14px; 
+            font-size: 16px; 
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .service-hero-content { 
+            padding: 0 2rem; 
+        }
+        .feature-grid { 
+            grid-template-columns: repeat(2, 1fr); 
+        }
+        .highlight-grid { 
+            grid-template-columns: repeat(2, 1fr); 
+        }
+    }
+    
+    /* Touch-friendly interactive elements */
+    @media (hover: none) and (pointer: coarse) {
+        .cta-button, .contact-button {
+            min-height: 44px;
+            padding: 12px 20px;
+            -webkit-tap-highlight-color: rgba(246, 236, 61, 0.3);
+        }
+    }
+    
+    /* High-DPI display optimization */
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .service-hero-image, .feature-image {
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+        }
+    }
     </style>
     
     <!-- Styles - Preload Critical CSS -->
