@@ -2789,7 +2789,7 @@ const multiServicePricingData = [
         id: "likralı-tulum-batch7",
         name: "LİKRALI TULUM",
         category: "erkek-giyim",
-        subcategory: "erkek-ust-giyim",
+        subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-730000000744?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
@@ -3180,8 +3180,8 @@ const multiServicePricingData = [
     {
         id: "koltukalti-deri-pantolon-batch8",
         name: "KOLTUKALTI DERİ PANTOLON",
-        category: "ozel-temizleme",
-        subcategory: "canta-ayakkabi",
+        category: "erkek-giyim",
+        subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
@@ -3347,7 +3347,7 @@ const multiServicePricingData = [
         id: "uyku-tulum-batch8",
         name: "UYKU TULUM",
         category: "erkek-giyim",
-        subcategory: "erkek-ust-giyim",
+        subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1607562076644-eaa0a80a3064?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
