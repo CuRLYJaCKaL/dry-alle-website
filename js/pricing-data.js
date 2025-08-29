@@ -796,7 +796,7 @@ const multiServicePricingData = [
         name: "YELEK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-8000000000001?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 200, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -1232,7 +1232,7 @@ const multiServicePricingData = [
         name: "PERDE KADİFE",
         category: "ev-tekstili",
         subcategory: "perde-tul",
-        image: "https://images.unsplash.com/photo-8000000000002?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -1466,7 +1466,7 @@ const multiServicePricingData = [
         name: "YORGAN ELYAF TK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
-        image: "https://images.unsplash.com/photo-8000000000002?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "yikama", price: 600, popular: true }
@@ -2028,7 +2028,7 @@ const multiServicePricingData = [
         name: "MASA ÖRTÜSÜ",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
-        image: "https://images.unsplash.com/photo-8000000000002?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
             { type: "utuleme", price: 150, popular: false },
@@ -4353,7 +4353,7 @@ const multiServicePricingData = [
         name: "ZOOM ELBİSE",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-8000000000001?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "utuleme", price: 200, popular: false },
