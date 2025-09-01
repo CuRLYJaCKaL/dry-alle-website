@@ -23,7 +23,7 @@ const multiServicePricingData = [
         name: "TAKIM ELBİSE (2 PARÇA)",
         category: "erkek-giyim", 
         subcategory: "erkek-takim-elbise",
-        image: "https://images.unsplash.com/photo-8000000000001?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 280, popular: true },
             { type: "utuleme", price: 140, popular: false },
@@ -94,7 +94,7 @@ const multiServicePricingData = [
         name: "ÇOCUK ELBİSESİ",
         category: "cocuk-giyim",
         subcategory: "cocuk-ozel-gunler",
-        image: "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 135, popular: true },
             { type: "yikama", price: 95, popular: false },

@@ -71,6 +71,7 @@
   margin: 0 auto;
   padding: 40px 20px;
   background: var(--color-white);
+  align-items: start;
 }
 
 
