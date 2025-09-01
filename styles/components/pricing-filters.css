@@ -80,7 +80,7 @@
   margin: 0;
 }
 
-.pricing-category-item {
+.pricing-category-item, .category-item {
   margin-bottom: var(--spacing-2);
 }
 
@@ -122,11 +122,11 @@
    EXPANDABLE CATEGORY SYSTEM
    ================================ */
 
-.category-item {
+.pricing-category-item, .category-item {
   margin-bottom: var(--spacing-2);
 }
 
-.category-main-link {
+.pricing-category-link {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -142,8 +142,8 @@
   cursor: pointer;
 }
 
-.category-main-link:hover,
-.category-main-link.active {
+.pricing-category-link:hover,
+.pricing-category-link.active {
   background: var(--color-bg-card-content);
   border-color: var(--color-primary-darker);
   color: var(--color-primary-darker);
@@ -278,7 +278,7 @@
   }
   
   .pricing-category-link,
-  .category-main-link {
+  .pricing-category-link {
     padding: 10px 12px;
     font-size: var(--font-size-xs);
   }
@@ -327,7 +327,7 @@
    ================================ */
 
 .pricing-category-link:focus,
-.category-main-link:focus,
+.pricing-category-link:focus,
 .subcategory-link:focus {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
@@ -352,7 +352,7 @@
 @media (prefers-contrast: high) {
   .pricing-sidebar,
   .pricing-category-link,
-  .category-main-link,
+  .pricing-category-link,
   .subcategories {
     border-color: var(--color-gray-900);
     border-width: 3px;
@@ -364,7 +364,7 @@
   .category-arrow,
   .subcategories,
   .pricing-category-link,
-  .category-main-link,
+  .pricing-category-link,
   .subcategory-link {
     transition: none;
   }
