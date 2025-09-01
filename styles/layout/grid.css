@@ -73,21 +73,6 @@
   background: var(--color-white);
 }
 
-/* Pricing Page Layout - Full height independent sections */
-.modern-blog-container.pricing-layout {
-  display: block;
-  max-width: none;
-  margin: 0;
-  padding: 0;
-  background: var(--color-white);
-}
-
-.pricing-main-content {
-  margin-left: 300px;
-  padding: 40px;
-  min-height: 100vh;
-  background: var(--color-white);
-}
 
 /* Blog Main Content */
 .blog-main-content {

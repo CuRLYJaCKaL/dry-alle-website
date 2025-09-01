@@ -98,28 +98,28 @@ class PricingDisplay {
         this.priceGrid.innerHTML = cardsHTML + paginationHTML;
     }
 
-    // Create pagination controls
+    // Create pagination controls - Blog style
     createPaginationControls(totalItems) {
         const totalPages = Math.ceil(totalItems / this.itemsPerPage);
         
         if (totalPages <= 1) {
-            return '<div class="pricing-info">' +
-                '<p class="total-services">Toplam ' + totalItems + ' hizmet</p>' +
+            return '<div class="blog-nav-section">' +
+                '<p class="total-services">Toplam ' + totalItems + ' hizmet görüntüleniyor</p>' +
             '</div>';
         }
         
         const startIndex = (this.currentPage - 1) * this.itemsPerPage + 1;
         const endIndex = Math.min(this.currentPage * this.itemsPerPage, totalItems);
         
-        let paginationHTML = '<div class="pagination-wrapper">' +
+        let paginationHTML = '<div class="blog-nav-section">' +
             '<div class="pagination-info">' +
-                '<p>' + startIndex + '-' + endIndex + ' / ' + totalItems + ' hizmet</p>' +
+                '<p class="services-count">' + startIndex + '-' + endIndex + ' / ' + totalItems + ' hizmet</p>' +
             '</div>' +
-            '<div class="pagination-controls">';
+            '<div class="pagination-nav">';
         
-        // Previous button
+        // Previous button - Blog style
         if (this.currentPage > 1) {
-            paginationHTML += '<button class="pagination-btn prev-btn" onclick="window.PricingDisplay.goToPage(' + (this.currentPage - 1) + ')">◀ Önceki</button>';
+            paginationHTML += '<button class="blog-nav-btn prev-btn" onclick="window.PricingDisplay.goToPage(' + (this.currentPage - 1) + ')">◀ Önceki</button>';
         }
         
         // Page numbers
@@ -132,23 +132,23 @@ class PricingDisplay {
         }
         
         if (startPage > 1) {
-            paginationHTML += '<button class="pagination-btn page-btn" onclick="window.PricingDisplay.goToPage(1)">1</button>';
-            if (startPage > 2) paginationHTML += '<span class="pagination-dots">...</span>';
+            paginationHTML += '<button class="blog-nav-btn page-btn" onclick="window.PricingDisplay.goToPage(1)">1</button>';
+            if (startPage > 2) paginationHTML += '<span class="page-dots">...</span>';
         }
         
         for (let i = startPage; i <= endPage; i++) {
             const activeClass = i === this.currentPage ? ' active' : '';
-            paginationHTML += '<button class="pagination-btn page-btn' + activeClass + '" onclick="window.PricingDisplay.goToPage(' + i + ')">' + i + '</button>';
+            paginationHTML += '<button class="blog-nav-btn page-btn' + activeClass + '" onclick="window.PricingDisplay.goToPage(' + i + ')">' + i + '</button>';
         }
         
         if (endPage < totalPages) {
-            if (endPage < totalPages - 1) paginationHTML += '<span class="pagination-dots">...</span>';
-            paginationHTML += '<button class="pagination-btn page-btn" onclick="window.PricingDisplay.goToPage(' + totalPages + ')">' + totalPages + '</button>';
+            if (endPage < totalPages - 1) paginationHTML += '<span class="page-dots">...</span>';
+            paginationHTML += '<button class="blog-nav-btn page-btn" onclick="window.PricingDisplay.goToPage(' + totalPages + ')">' + totalPages + '</button>';
         }
         
-        // Next button
+        // Next button - Blog style
         if (this.currentPage < totalPages) {
-            paginationHTML += '<button class="pagination-btn next-btn" onclick="window.PricingDisplay.goToPage(' + (this.currentPage + 1) + ')">Sonraki ▶</button>';
+            paginationHTML += '<button class="blog-nav-btn next-btn" onclick="window.PricingDisplay.goToPage(' + (this.currentPage + 1) + ')">Sonraki ▶</button>';
         }
         
         paginationHTML += '</div></div>';
