@@ -75,10 +75,17 @@ class PricingFilters {
 
     // Subcategory filtering system
     initializeSubcategoryFilters() {
-        document.querySelectorAll('.subcategory-link').forEach(subLink => {
+        const subcategoryLinks = document.querySelectorAll('.subcategory-link');
+        console.log(`🔧 DEBUG: Found ${subcategoryLinks.length} subcategory links`);
+        
+        subcategoryLinks.forEach((subLink, index) => {
+            const subcategory = subLink.dataset.subcategory;
+            console.log(`🔧 DEBUG: Link ${index + 1} - subcategory: "${subcategory}"`);
+            
             subLink.addEventListener('click', (e) => {
                 e.preventDefault();
-                this.filterBySubcategory(subLink.dataset.subcategory);
+                console.log(`🎯 CLICKED: Subcategory "${subcategory}"`);
+                this.filterBySubcategory(subcategory);
             });
         });
     }
@@ -96,6 +103,7 @@ class PricingFilters {
 
     // Filter by subcategory
     filterBySubcategory(subcategory) {
+        console.log(`🎯 FILTERING BY SUBCATEGORY: "${subcategory}"`);
         this.currentSubcategory = subcategory;
         
         // Determine parent category from subcategory
@@ -238,6 +246,8 @@ class PricingFilters {
 
     // Apply all filters and trigger display update
     applyFilters(searchQuery = this.searchQuery, subcategory = this.currentSubcategory) {
+        console.log(`🔍 APPLYING FILTERS: category="${this.currentCategory}", subcategory="${subcategory}"`);
+        
         if (!window.PricingData) {
             console.error('PricingData not loaded');
             return;
@@ -268,6 +278,11 @@ class PricingFilters {
             
             return categoryMatch && subcategoryMatch && processMatch && searchMatch;
         });
+        
+        console.log(`🎯 FILTERED RESULTS: ${filteredData.length} items found`);
+        if (subcategory) {
+            console.log(`   └── For subcategory "${subcategory}": ${filteredData.map(item => item.name).slice(0, 3).join(', ')}...`);
+        }
         
         // Trigger display update
         if (window.PricingDisplay) {
