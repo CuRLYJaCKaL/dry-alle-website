@@ -98,8 +98,39 @@ class PricingFilters {
     filterBySubcategory(subcategory) {
         this.currentSubcategory = subcategory;
         
+        // Determine parent category from subcategory
+        const categoryMap = {
+            'erkek-ust-giyim': 'erkek-giyim',
+            'erkek-alt-giyim': 'erkek-giyim', 
+            'erkek-takim-elbise': 'erkek-giyim',
+            'kadin-ust-giyim': 'kadin-giyim',
+            'kadin-elbise-takim': 'kadin-giyim',
+            'kadin-ozel-giyim': 'kadin-giyim',
+            'cocuk-ozel-gunler': 'cocuk-giyim',
+            'hali-kilim': 'ev-tekstili',
+            'mobilya-tekstili': 'ev-tekstili',
+            'perde-tul': 'ev-tekstili',
+            'yatak-takimi': 'ev-tekstili',
+            'canta-ayakkabi': 'ozel-temizleme'
+        };
+        
+        // Set parent category
+        this.currentCategory = categoryMap[subcategory] || 'all';
+        
         // Update UI active states
         this.updateSubcategoryActiveStates(subcategory);
+        this.updateCategoryActiveStates(this.currentCategory);
+        
+        // Ensure parent category subcategories are expanded
+        const parentCategoryLink = document.querySelector(`[data-category="${this.currentCategory}"].category-main-link`);
+        if (parentCategoryLink) {
+            const subcategoriesDiv = parentCategoryLink.nextElementSibling;
+            const arrow = parentCategoryLink.querySelector('.category-arrow');
+            if (subcategoriesDiv && !subcategoriesDiv.classList.contains('expanded')) {
+                subcategoriesDiv.classList.add('expanded');
+                if (arrow) arrow.classList.add('expanded');
+            }
+        }
         
         this.applyFilters('', subcategory);
     }
@@ -174,10 +205,15 @@ class PricingFilters {
 
     // Update category active states
     updateCategoryActiveStates(category) {
+        // Clear all category active states
         document.querySelectorAll('.pricing-category-link').forEach(link => {
             link.classList.remove('active');
         });
+        document.querySelectorAll('.category-main-link').forEach(link => {
+            link.classList.remove('active');
+        });
         
+        // Set active state for current category
         const activeLink = document.querySelector(`[data-category="${category}"]`);
         if (activeLink) activeLink.classList.add('active');
     }
