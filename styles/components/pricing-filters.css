@@ -9,26 +9,27 @@
    ================================ */
 
 .pricing-sidebar {
-  /* Fixed height sidebar - no scroll */
+  /* Compact sidebar - proper alignment */
   background: var(--color-bg-card);
   border: 2px solid var(--color-gray-300);
   border-radius: 0;
-  padding: var(--spacing-8) var(--spacing-6);
+  padding: var(--spacing-6) var(--spacing-5);
   height: fit-content;
   position: sticky;
   top: 20px;
   overflow: visible;
+  align-self: flex-start;
 }
 
 
 .pricing-sidebar h2 {
   color: var(--color-primary-darker);
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-xl);
   font-weight: 700;
-  margin-bottom: var(--spacing-6);
+  margin-bottom: var(--spacing-5);
   text-align: center;
   border-bottom: 2px solid var(--color-primary-darker);
-  padding-bottom: var(--spacing-3);
+  padding-bottom: var(--spacing-2);
 }
 
 /* ================================

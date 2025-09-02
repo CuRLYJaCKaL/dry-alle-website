@@ -95,7 +95,22 @@ class PricingDisplay {
         // Create pagination navigation
         const paginationHTML = this.createPaginationControls(sortedData.length);
         
-        this.priceGrid.innerHTML = cardsHTML + paginationHTML;
+        this.priceGrid.innerHTML = cardsHTML;
+        
+        // Add pagination to main content area, centered below cards
+        const paginationContainer = document.querySelector('.blog-main-content');
+        let existingPagination = paginationContainer.querySelector('.pagination-center-wrapper');
+        if (existingPagination) {
+            existingPagination.remove();
+        }
+        
+        if (paginationHTML.trim()) {
+            const paginationWrapper = document.createElement('div');
+            paginationWrapper.className = 'pagination-center-wrapper';
+            paginationWrapper.style.cssText = 'display: flex; justify-content: center; margin-top: 40px; width: 100%;';
+            paginationWrapper.innerHTML = paginationHTML;
+            paginationContainer.appendChild(paginationWrapper);
+        }
     }
 
     // Create pagination controls - Blog style
