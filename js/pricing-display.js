@@ -20,9 +20,6 @@ class PricingDisplay {
         
         // Initialize display on load
         this.initialize();
-        
-        // Initialize pagination controls
-        this.initializePagination();
     }
 
     // Initialize the display system
@@ -60,6 +57,9 @@ class PricingDisplay {
         this.allData = filteredData;
         this.totalItems = filteredData.length;
         this.currentPage = 1;
+        
+        // Initialize pagination after window.PricingDisplay is available
+        this.initializePagination();
         
         this.showResults();
         this.renderPaginatedCards();
@@ -176,7 +176,9 @@ class PricingDisplay {
         window.removeEventListener('scroll', this.handleScroll);
         
         // Expose goToPage method globally
-        window.PricingDisplay.goToPage = this.goToPage.bind(this);
+        if (window.PricingDisplay) {
+            window.PricingDisplay.goToPage = this.goToPage.bind(this);
+        }
     }
 
     // Navigate to specific page
