@@ -3061,7 +3061,7 @@ const multiServicePricingData = [
         name: "KAYAK MONTUU",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000071?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "yikama", price: 500, popular: true }
@@ -3072,7 +3072,7 @@ const multiServicePricingData = [
         name: "MONT KOŞUM",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000072?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "yikama", price: 600, popular: true }
@@ -3406,7 +3406,7 @@ const multiServicePricingData = [
         name: "ÜST JAPON YAĞLIĞI",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000061?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 100, popular: false },
@@ -3613,7 +3613,7 @@ const multiServicePricingData = [
         name: "TUTMAL CEKET",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000041?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
             { type: "utuleme", price: 150, popular: false },
@@ -3639,7 +3639,7 @@ const multiServicePricingData = [
         name: "TUTMAL TAKIM",
         category: "erkek-giyim",
         subcategory: "erkek-takim-elbise",
-        image: "https://images.unsplash.com/photo-730000000032?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594938298603?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 300, popular: false },
@@ -3995,7 +3995,7 @@ const multiServicePricingData = [
         name: "TEK TARAFLI YUNİFORM",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000062?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -4044,7 +4044,7 @@ const multiServicePricingData = [
         name: "UNİFORM",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000063?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -4056,7 +4056,7 @@ const multiServicePricingData = [
         name: "UZUN GÖMLEK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000033?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 85, popular: false },
@@ -4068,7 +4068,7 @@ const multiServicePricingData = [
         name: "VESTAN",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000042?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 100, popular: false },
@@ -4292,7 +4292,7 @@ const multiServicePricingData = [
         name: "ZİP ELBİSE",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000043?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "utuleme", price: 200, popular: false },
