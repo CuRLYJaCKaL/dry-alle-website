@@ -510,7 +510,7 @@ const multiServicePricingData = [
         name: "TÜL STORE ST DAHİL",
         category: "ev-tekstili",
         subcategory: "perde-tul",
-        image: "https://images.unsplash.com/photo-730000000707?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "yikama", price: 450, popular: true }
@@ -544,7 +544,7 @@ const multiServicePricingData = [
         name: "VİSKON YASTIK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
-        image: "https://images.unsplash.com/photo-730000000708?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1556821840?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "yikama", price: 500, popular: true }
@@ -847,7 +847,7 @@ const multiServicePricingData = [
         name: "DÖPİYES",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000709?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1473966968600?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 650, popular: true },
             { type: "utuleme", price: 300, popular: false },
@@ -3690,7 +3690,7 @@ const multiServicePricingData = [
         name: "VİSCO TAKIM",
         category: "erkek-giyim",
         subcategory: "erkek-takim-elbise",
-        image: "https://images.unsplash.com/photo-730000000710-c3d4e5f6a7b8?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594633312681-c3d4e5f6a7b8?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 300, popular: false },
@@ -3937,7 +3937,7 @@ const multiServicePricingData = [
         name: "DERİ ÇİZME",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
-        image: "https://images.unsplash.com/photo-730000000711?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
