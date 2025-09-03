@@ -3736,7 +3736,7 @@ const multiServicePricingData = [
         name: "PERDE İPEK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
-        image: "https://images.unsplash.com/photo-730000000728?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
             { type: "utuleme", price: 100, popular: false },
@@ -3748,7 +3748,7 @@ const multiServicePricingData = [
         name: "PİJAMA 2 PAR.",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000747?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1581338834647-b0fb40704e21?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "utuleme", price: 150, popular: false },
@@ -3770,7 +3770,7 @@ const multiServicePricingData = [
         name: "PİJAMA 2 PAR.SATEN",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000729?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1524863479829-916d8e77f114?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true }
         ]
@@ -3790,7 +3790,7 @@ const multiServicePricingData = [
         name: "PİJAMA TEK PARÇ.",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000742?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1559582930-2d0ec769e767?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true }
         ]
@@ -3821,7 +3821,7 @@ const multiServicePricingData = [
         name: "TERLİK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000735?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "yikama", price: 255, popular: true }
@@ -3855,7 +3855,7 @@ const multiServicePricingData = [
         name: "SÜET BOT",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
-        image: "https://images.unsplash.com/photo-730000000731?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -3867,7 +3867,7 @@ const multiServicePricingData = [
         name: "SÜET ÇİZME",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
-        image: "https://images.unsplash.com/photo-730000000733?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -3913,7 +3913,7 @@ const multiServicePricingData = [
         name: "DERİ AYAKKABI",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
-        image: "https://images.unsplash.com/photo-730000000736?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -3949,7 +3949,7 @@ const multiServicePricingData = [
         name: "DERİ KOVBOY",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
-        image: "https://images.unsplash.com/photo-730000000723?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "yikama", price: 595, popular: true },
@@ -4019,7 +4019,7 @@ const multiServicePricingData = [
         name: "TİK GÖMLEK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000521?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 60, popular: false },
