@@ -131,7 +131,7 @@ const multiServicePricingData = [
         name: "PERDE (m² Başına)",
         category: "ev-tekstili",
         subcategory: "perde-tul",
-        image: "https://plus.unsplash.com/premium_photo-1673152979215-69b97746b05e?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "kuru-temizleme", price: 35, popular: true },
             { type: "yikama", price: 28, popular: false },
@@ -203,7 +203,7 @@ const multiServicePricingData = [
         name: "BERJER TEMİZLİĞİ",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
-        image: "https://images.unsplash.com/photo-8000000000002?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "yerinde-temizleme", price: 185, popular: true },
             { type: "leke-cikarma", price: 95, popular: false },
@@ -215,7 +215,7 @@ const multiServicePricingData = [
         name: "ŞİLTE (Çift Kişilik)",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
-        image: "https://plus.unsplash.com/premium_photo-1670475326413-f69f74397650?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "yerinde-temizleme", price: 285, popular: true },
             { type: "antibakteriyel", price: 95, popular: false },
@@ -534,7 +534,7 @@ const multiServicePricingData = [
         name: "VİSCON HALI",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
-        image: "https://images.unsplash.com/photo-8000000000009?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "hali-yikama", price: 350, popular: true }
         ]
@@ -686,7 +686,7 @@ const multiServicePricingData = [
         name: "GÖMLEK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-8000000000010?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -724,7 +724,7 @@ const multiServicePricingData = [
         name: "KRAVAT",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-8000000000008?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
             { type: "utuleme", price: 50, popular: false },
@@ -1568,7 +1568,7 @@ const multiServicePricingData = [
         name: "MİNDER YÜZÜ",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
-        image: "https://plus.unsplash.com/premium_photo-1705843600829-15448713dcb1?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true }
         ]
@@ -1610,7 +1610,7 @@ const multiServicePricingData = [
         name: "ÇANTA",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
-        image: "https://images.unsplash.com/photo-8000000000007?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "kuru-temizleme", price: 700, popular: true },
             { type: "yikama", price: 680, popular: true },
@@ -1741,7 +1741,7 @@ const multiServicePricingData = [
         name: "BERMUDA",
         category: "erkek-giyim",
         subcategory: "erkek-alt-giyim",
-        image: "https://images.unsplash.com/photo-8000000000003?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -3138,7 +3138,7 @@ const multiServicePricingData = [
         name: "KAPŞONLU SWEATSHİRT",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-8000000000006?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "yikama", price: 250, popular: true }
@@ -3324,7 +3324,7 @@ const multiServicePricingData = [
         name: "SMOKİN ERKEK",
         category: "erkek-giyim",
         subcategory: "erkek-takim-elbise",
-        image: "https://images.unsplash.com/photo-8000000000004?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 350, popular: false },
@@ -3562,7 +3562,7 @@ const multiServicePricingData = [
         name: "TULA ELBİSE",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-8000000000005?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "utuleme", price: 200, popular: false },
