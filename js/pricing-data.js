@@ -1777,7 +1777,7 @@ const multiServicePricingData = [
         name: "BRA / SÜTİYEN",
         category: "kadin-giyim",
         subcategory: "kadin-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000101?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594938298603?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
             { type: "utuleme", price: 50, popular: false },
@@ -1967,7 +1967,7 @@ const multiServicePricingData = [
         name: "JEANS PANTOLON",
         category: "erkek-giyim",
         subcategory: "erkek-alt-giyim",
-        image: "https://images.unsplash.com/photo-730000000102?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1473966968600?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 70, popular: false },
@@ -2376,7 +2376,7 @@ const multiServicePricingData = [
         name: "KETEN PANTOLONU",
         category: "erkek-giyim",
         subcategory: "erkek-alt-giyim",
-        image: "https://images.unsplash.com/photo-730000000103?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1473966968600?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 85, popular: false },
@@ -2482,7 +2482,7 @@ const multiServicePricingData = [
         name: "ELDİVEN DERİ",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
-        image: "https://images.unsplash.com/photo-730000000201?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1544966503?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "yikama", price: 190, popular: true },
             { type: "boyama", price: 170, popular: false }
@@ -2675,7 +2675,7 @@ const multiServicePricingData = [
         name: "JEANS GÖMLEK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000104?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -2768,7 +2768,7 @@ const multiServicePricingData = [
         name: "KÜRKLU YELEK",
         category: "ozel-temizleme",
         subcategory: "canta-ayakkabi",
-        image: "https://images.unsplash.com/photo-730000000301?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1544966503?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "yikama", price: 1071, popular: true }
@@ -3502,7 +3502,7 @@ const multiServicePricingData = [
         name: "TRİKO CEKET",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000105?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
             { type: "utuleme", price: 150, popular: false },
@@ -3550,7 +3550,7 @@ const multiServicePricingData = [
         name: "TULA PANTOLON",
         category: "erkek-giyim",
         subcategory: "erkek-alt-giyim",
-        image: "https://images.unsplash.com/photo-730000000106?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1473966968600?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 70, popular: false },
@@ -3780,7 +3780,7 @@ const multiServicePricingData = [
         name: "PİJAMA ALT",
         category: "erkek-giyim",
         subcategory: "erkek-alt-giyim",
-        image: "https://images.unsplash.com/photo-730000000202?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1473966968600?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true }
         ]
@@ -4007,7 +4007,7 @@ const multiServicePricingData = [
         name: "TİFORT",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000203?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 200, popular: true },
             { type: "utuleme", price: 60, popular: false },
