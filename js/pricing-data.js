@@ -1051,7 +1051,7 @@ const multiServicePricingData = [
         name: "HALI NEPAL",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
-        image: "https://images.unsplash.com/photo-730000000011?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1558618666?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 300, popular: true }
         ]
@@ -1071,7 +1071,7 @@ const multiServicePricingData = [
         name: "HALI STEP",
         category: "ev-tekstili",
         subcategory: "hali-kilim",
-        image: "https://images.unsplash.com/photo-730000000012?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1558618666?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "hali-yikama", price: 350, popular: true }
         ]
@@ -1861,7 +1861,7 @@ const multiServicePricingData = [
         name: "DURUMLU MASA ÖRTÜSÜ",
         category: "ev-tekstili",
         subcategory: "mobilya-tekstili",
-        image: "https://images.unsplash.com/photo-730000000013?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1555041469?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
             { type: "utuleme", price: 150, popular: false },
@@ -2004,7 +2004,7 @@ const multiServicePricingData = [
         name: "KUŞAK / KEMERİ",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000001?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 200, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -3229,7 +3229,7 @@ const multiServicePricingData = [
         name: "VİNTAGE KABAN",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000021?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 650, popular: true },
             { type: "utuleme", price: 200, popular: false },
@@ -3253,7 +3253,7 @@ const multiServicePricingData = [
         name: "VTAKIM",
         category: "erkek-giyim",
         subcategory: "erkek-takim-elbise",
-        image: "https://images.unsplash.com/photo-730000000022?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594938298603?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 300, popular: false },
@@ -3626,7 +3626,7 @@ const multiServicePricingData = [
         name: "TUTMAL PANTOLON",
         category: "erkek-giyim",
         subcategory: "erkek-alt-giyim",
-        image: "https://images.unsplash.com/photo-730000000031?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1473966968600?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 70, popular: false },
@@ -4266,7 +4266,7 @@ const multiServicePricingData = [
         name: "ZİP GÖMLEK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000002?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 60, popular: false },
@@ -4330,7 +4330,7 @@ const multiServicePricingData = [
         name: "ZİP KABAN",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
-        image: "https://images.unsplash.com/photo-730000000023?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 150, popular: false },
@@ -4392,7 +4392,7 @@ const multiServicePricingData = [
         name: "ZOOM TAKIM",
         category: "erkek-giyim",
         subcategory: "erkek-takim-elbise",
-        image: "https://images.unsplash.com/photo-730000000003?w=400&auto=format&fm=webp&q=75",
+        image: "https://images.unsplash.com/photo-1594938298603?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 300, popular: false },
