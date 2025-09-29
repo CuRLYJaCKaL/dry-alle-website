@@ -1,4 +1,7 @@
-<svg width="32" height="32" viewBox="0 0 390 105" xmlns="http://www.w3.org/2000/svg">
-    <rect width="390" height="105" fill="#006a44"/>
-    <text x="195" y="58" font-family="Dancing Script, cursive" font-size="60" font-weight="700" fill="#f6ec3d" text-anchor="middle">DA</text>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <!-- Arka plan - yeşil daire -->
+    <circle cx="256" cy="256" r="256" fill="#006a44"/>
+
+    <!-- Logo metni - Dry Alle baş harfleri -->
+    <text x="256" y="320" font-family="Dancing Script, cursive" font-size="180" font-weight="700" fill="#f6ec3d" text-anchor="middle">DA</text>
 </svg>
