@@ -1,0 +1,28 @@
+{
+    "name": "Dry Alle Kuru Temizleme",
+    "short_name": "Dry Alle",
+    "description": "İstanbul Anadolu Yakası'nda 25 yıl deneyimle kuru temizleme, halı yıkama, koltuk yıkama hizmeti",
+    "icons": [
+        {
+            "src": "asset/favicon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "asset/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "asset/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#006a44",
+    "background_color": "#006a44",
+    "display": "standalone",
+    "start_url": "/",
+    "scope": "/"
+}
