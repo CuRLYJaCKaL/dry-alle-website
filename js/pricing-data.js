@@ -13,9 +13,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1621976360623-004223992275?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "yikama", price: 120, popular: false },
-            { type: "utuleme", price: 75, popular: false }
+            { type: "kuru-temizleme", price: 600, popular: true },
+            { type: "yikama", price: 600, popular: false },
+            { type: "utuleme", price: 250, popular: false }
         ]
     },
     {
@@ -25,9 +25,9 @@ const multiServicePricingData = [
         subcategory: "erkek-takim-elbise",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 280, popular: true },
-            { type: "utuleme", price: 140, popular: false },
-            { type: "boyama", price: 450, popular: false }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 750, popular: false },
+            { type: "boyama", price: 350, popular: false }
         ]
     },
     {
@@ -37,9 +37,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&auto=format&fm=webp&q=75", 
         services: [
-            { type: "kuru-temizleme", price: 95, popular: true },
-            { type: "yikama", price: 75, popular: false },
-            { type: "utuleme", price: 45, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "yikama", price: 300, popular: false },
+            { type: "utuleme", price: 150, popular: true }
         ]
     },
     {
@@ -49,8 +49,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 190, popular: true },
-            { type: "utuleme", price: 95, popular: false }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 250, popular: false }
         ]
     },
     {
@@ -60,9 +60,9 @@ const multiServicePricingData = [
         subcategory: "kadin-elbise-takim",
         image: "https://images.unsplash.com/photo-1542295669297-4d352b042bca?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 165, popular: true },
-            { type: "yikama", price: 135, popular: false },
-            { type: "utuleme", price: 85, popular: false }
+            { type: "kuru-temizleme", price: 600, popular: true },
+            { type: "yikama", price: 600, popular: false },
+            { type: "utuleme", price: 300, popular: false }
         ]
     },
     {
@@ -72,9 +72,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1685278463552-51396b0a6287?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 95, popular: true },
-            { type: "yikama", price: 75, popular: false },
-            { type: "utuleme", price: 45, popular: true }
+            { type: "kuru-temizleme", price: 350, popular: true },
+            { type: "yikama", price: 350, popular: false },
+            { type: "utuleme", price: 150, popular: true }
         ]
     },
     {
@@ -84,9 +84,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ozel-giyim",
         image: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 950, popular: true },
-            { type: "leke-cikarma", price: 285, popular: false },
-            { type: "utuleme", price: 190, popular: false }
+            { type: "kuru-temizleme", price: 2500, popular: true },
+            { type: "leke-cikarma", price: 2500, popular: false },
+            { type: "utuleme", price: 1000, popular: false }
         ]
     },
     {
@@ -96,9 +96,9 @@ const multiServicePricingData = [
         subcategory: "cocuk-ozel-gunler",
         image: "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 135, popular: true },
-            { type: "yikama", price: 95, popular: false },
-            { type: "utuleme", price: 65, popular: false }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "yikama", price: 500, popular: false },
+            { type: "utuleme", price: 250, popular: false }
         ]
     },
     {
@@ -108,10 +108,10 @@ const multiServicePricingData = [
         subcategory: "hali-kilim",
         image: "https://images.unsplash.com/photo-1572123979839-3749e9973aba?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "hali-yikama", price: 45, popular: true },
-            { type: "hali-tamiri", price: 85, popular: false },
-            { type: "sacak-tamiri", price: 25, popular: false },
-            { type: "hali-boyama", price: 120, popular: false }
+            { type: "hali-yikama", price: 200, popular: true },
+            { type: "hali-tamiri", price: 2000, popular: false },
+            { type: "sacak-tamiri", price: 2000, popular: false },
+            { type: "hali-boyama", price: 5000, popular: false }
         ]
     },
     {
@@ -121,9 +121,9 @@ const multiServicePricingData = [
         subcategory: "mobilya-tekstili",
         image: "https://images.unsplash.com/photo-1686178827149-6d55c72d81df?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yerinde-temizleme", price: 285, popular: true },
-            { type: "leke-cikarma", price: 125, popular: false },
-            { type: "antibakteriyel", price: 85, popular: false }
+            { type: "yerinde-temizleme", price: 3000, popular: true },
+            { type: "leke-cikarma", price: 3000, popular: false },
+            { type: "antibakteriyel", price: 3000, popular: false }
         ]
     },
     {
@@ -133,9 +133,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
-            { type: "kuru-temizleme", price: 35, popular: true },
-            { type: "yikama", price: 28, popular: false },
-            { type: "utuleme", price: 18, popular: false }
+            { type: "kuru-temizleme", price: 50, popular: true },
+            { type: "yikama", price: 50, popular: false },
+            { type: "utuleme", price: 30, popular: false }
         ]
     },
     {
@@ -145,9 +145,9 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1576869842043-928d2afe2480?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 385, popular: true },
-            { type: "deri-boyama", price: 575, popular: false },
-            { type: "leke-cikarma", price: 195, popular: false }
+            { type: "kuru-temizleme", price: 1500, popular: true },
+            { type: "deri-boyama", price: 2500, popular: false },
+            { type: "leke-cikarma", price: 1500, popular: false }
         ]
     },
     {
@@ -157,9 +157,9 @@ const multiServicePricingData = [
         subcategory: "hali-kilim",
         image: "https://images.unsplash.com/photo-1531162805941-58330188d75c?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yikama", price: 35, popular: true },
-            { type: "kuru-temizleme", price: 45, popular: false },
-            { type: "sacak-tamiri", price: 20, popular: false }
+            { type: "yikama", price: 350, popular: true },
+            { type: "kuru-temizleme", price: 350, popular: false },
+            { type: "sacak-tamiri", price: 2000, popular: false }
         ]
     },
     {
@@ -169,9 +169,9 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1606855637183-ea2a00b6f15f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 185, popular: true },
-            { type: "yikama", price: 145, popular: false },
-            { type: "utuleme", price: 85, popular: false }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "yikama", price: 1000, popular: false },
+            { type: "utuleme", price: 500, popular: false }
         ]
     },
     {
@@ -181,9 +181,9 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yikama", price: 95, popular: true },
-            { type: "utuleme", price: 65, popular: false },
-            { type: "kuru-temizleme", price: 125, popular: false }
+            { type: "yikama", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "kuru-temizleme", price: 500, popular: false }
         ]
     },
     {
@@ -193,9 +193,9 @@ const multiServicePricingData = [
         subcategory: "mobilya-tekstili",
         image: "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yerinde-temizleme", price: 385, popular: true },
-            { type: "antibakteriyel", price: 125, popular: false },
-            { type: "leke-cikarma", price: 165, popular: false }
+            { type: "yerinde-temizleme", price: 2000, popular: true },
+            { type: "antibakteriyel", price: 2000, popular: false },
+            { type: "leke-cikarma", price: 2000, popular: false }
         ]
     },
     {
@@ -205,9 +205,9 @@ const multiServicePricingData = [
         subcategory: "mobilya-tekstili",
         image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
-            { type: "yerinde-temizleme", price: 185, popular: true },
-            { type: "leke-cikarma", price: 95, popular: false },
-            { type: "antibakteriyel", price: 65, popular: false }
+            { type: "yerinde-temizleme", price: 1000, popular: true },
+            { type: "leke-cikarma", price: 1000, popular: false },
+            { type: "antibakteriyel", price: 1000, popular: false }
         ]
     },
     {
@@ -217,9 +217,9 @@ const multiServicePricingData = [
         subcategory: "hali-kilim",
         image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
-            { type: "yerinde-temizleme", price: 285, popular: true },
-            { type: "antibakteriyel", price: 95, popular: false },
-            { type: "leke-cikarma", price: 125, popular: false }
+            { type: "yerinde-temizleme", price: 350, popular: true },
+            { type: "antibakteriyel", price: 350, popular: false },
+            { type: "leke-cikarma", price: 350, popular: false }
         ]
     },
     // Batch 2: Excel entries 101-200 (48 items)
@@ -230,7 +230,7 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-f6g7h8i9j000f7890?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yerinde-temizleme", price: 1000, popular: false }
+            { type: "yerinde-temizleme", price: 1500, popular: false }
         ]
     },
     {
@@ -240,8 +240,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-j6k7l8m9n000f7890?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yikama", price: 357, popular: true },
-            { type: "yerinde-temizleme", price: 1000, popular: false }
+            { type: "yikama", price: 1500, popular: true },
+            { type: "yerinde-temizleme", price: 1500, popular: false }
         ]
     },
     {
@@ -251,8 +251,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -262,8 +262,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1551334787-21e2d38b3d9e?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 850, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 1250, popular: true },
+            { type: "yikama", price: 1250, popular: true }
         ]
     },
     {
@@ -274,7 +274,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "yikama", price: 476, popular: true }
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -285,8 +285,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1595516966504-797e68c1c89e?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 300, popular: true }
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -297,8 +297,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-u1v2w3x4y500f7890?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 450, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 300, popular: true }
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -308,7 +308,7 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "hali-yikama", price: 150, popular: false }
+            { type: "hali-yikama", price: 250, popular: false }
         ]
     },
     {
@@ -318,7 +318,7 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "hali-yikama", price: 200, popular: false }
+            { type: "hali-yikama", price: 400, popular: false }
         ]
     },
     {
@@ -328,7 +328,7 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "boyama", price: 300, popular: false }
+            { type: "boyama", price: 450, popular: false }
         ]
     },
     {
@@ -338,7 +338,7 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1583623733237-4d9153fb1824?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true }
+            { type: "kuru-temizleme", price: 350, popular: true }
         ]
     },
     {
@@ -348,8 +348,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1445205170230-053b83016050?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 595, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -359,9 +359,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 125, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 95, popular: true }
+            { type: "kuru-temizleme", price: 150, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -371,9 +371,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1726543210987?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 100, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 83, popular: true }
+            { type: "kuru-temizleme", price: 125, popular: true },
+            { type: "utuleme", price: 75, popular: false },
+            { type: "yikama", price: 125, popular: true }
         ]
     },
     {
@@ -385,7 +385,7 @@ const multiServicePricingData = [
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 400, popular: false },
-            { type: "yikama", price: 595, popular: true }
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -405,9 +405,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1722109876543?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
+            { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 250, popular: false },
-            { type: "yikama", price: 357, popular: true }
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -417,7 +417,7 @@ const multiServicePricingData = [
         subcategory: "mobilya-tekstili",
         image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yerinde-temizleme", price: 300, popular: true }
+            { type: "yerinde-temizleme", price: 350, popular: true }
         ]
     },
     {
@@ -427,7 +427,7 @@ const multiServicePricingData = [
         subcategory: "mobilya-tekstili",
         image: "https://images.unsplash.com/photo-1550972958-d17c476b78f2?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yerinde-temizleme", price: 250, popular: true }
+            { type: "yerinde-temizleme", price: 300, popular: true }
         ]
     },
     {
@@ -437,7 +437,7 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-a1b2c3d4e500f7890?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "boyama", price: 200, popular: false }
+            { type: "boyama", price: 400, popular: false }
         ]
     },
     {
@@ -447,7 +447,7 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yikama", price: 153, popular: true }
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -457,7 +457,7 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true }
         ]
     },
     {
@@ -467,9 +467,9 @@ const multiServicePricingData = [
         subcategory: "erkek-takim-elbise",
         image: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 357, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -479,7 +479,7 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1621759711492-c4803e1db95b?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true }
         ]
     },
     {
@@ -489,8 +489,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1724321098765?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yikama", price: 119, popular: true },
-            { type: "yerinde-temizleme", price: 500, popular: false }
+            { type: "yikama", price: 200, popular: true },
+            { type: "yerinde-temizleme", price: 200, popular: false }
         ]
     },
     {
@@ -500,9 +500,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 50, popular: true },
-            { type: "utuleme", price: 40, popular: false },
-            { type: "yikama", price: 450, popular: true }
+            { type: "kuru-temizleme", price: 60, popular: true },
+            { type: "utuleme", price: 30, popular: false },
+            { type: "yikama", price: 60, popular: true }
         ]
     },
     {
@@ -512,8 +512,8 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "yikama", price: 450, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -523,10 +523,10 @@ const multiServicePricingData = [
         subcategory: "kadin-elbise-takim",
         image: "https://images.unsplash.com/photo-1664151100543-831e51069d1f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 357, popular: true },
-            { type: "boyama", price: 450, popular: false }
+            { type: "kuru-temizleme", price: 600, popular: true },
+            { type: "utuleme", price: 300, popular: false },
+            { type: "yikama", price: 600, popular: true },
+            { type: "boyama", price: 700, popular: false }
         ]
     },
     {
@@ -536,7 +536,7 @@ const multiServicePricingData = [
         subcategory: "hali-kilim",
         image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
-            { type: "hali-yikama", price: 350, popular: true }
+            { type: "hali-yikama", price: 400, popular: true }
         ]
     },
     {
@@ -547,7 +547,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1556821840?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 500, popular: true }
+            { type: "yikama", price: 600, popular: true }
         ]
     },
     {
@@ -557,7 +557,7 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1727654321098?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yerinde-temizleme", price: 1000, popular: true }
+            { type: "yerinde-temizleme", price: 1500, popular: true }
         ]
     },
     {
@@ -567,7 +567,7 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yerinde-temizleme", price: 750, popular: true }
+            { type: "yerinde-temizleme", price: 1000, popular: true }
         ]
     },
     {
@@ -578,7 +578,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1556911261-6bd341186b2f?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "yikama", price: 600, popular: true },
+            { type: "yikama", price: 750, popular: true },
             { type: "yerinde-temizleme", price: 2000, popular: false }
         ]
     },
@@ -589,7 +589,7 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1631049035463-0c1b2c00cd15?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yerinde-temizleme", price: 2500, popular: true }
+            { type: "yerinde-temizleme", price: 3000, popular: true }
         ]
     },
     {
@@ -599,7 +599,7 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1540992419738-e3e6ee117e4b?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yerinde-temizleme", price: 2000, popular: true }
+            { type: "yerinde-temizleme", price: 2500, popular: true }
         ]
     },
     {
@@ -609,7 +609,7 @@ const multiServicePricingData = [
         subcategory: "hali-kilim",
         image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yerinde-temizleme", price: 250, popular: true }
+            { type: "yerinde-temizleme", price: 300, popular: true }
         ]
     },
     {
@@ -619,8 +619,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1549497538-303791108f95?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 700, popular: true },
-            { type: "yikama", price: 700, popular: true }
+            { type: "kuru-temizleme", price: 800, popular: true },
+            { type: "yikama", price: 800, popular: true }
         ]
     },
     {
@@ -631,8 +631,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 450, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 350, popular: true }
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -642,7 +642,7 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa0?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yikama", price: 450, popular: true }
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -652,7 +652,7 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yikama", price: 450, popular: true }
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -662,10 +662,10 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 350, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 450, popular: true },
+            { type: "boyama", price: 750, popular: false }
         ]
     },
     {
@@ -675,10 +675,10 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1542272454315-7ad86d1b8ed8?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 142, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true },
+            { type: "boyama", price: 450, popular: false }
         ]
     },
     {
@@ -688,10 +688,10 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 153, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true },
+            { type: "boyama", price: 450, popular: false }
         ]
     },
     {
@@ -701,10 +701,10 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 150, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true },
+            { type: "boyama", price: 450, popular: false }
         ]
     },
     {
@@ -714,9 +714,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1723210987654?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 250, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -726,9 +726,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 150, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -738,10 +738,10 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 600, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 350, popular: false },
+            { type: "yikama", price: 750, popular: true },
+            { type: "boyama", price: 750, popular: false }
         ]
     },
     {
@@ -751,8 +751,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 150, popular: false }
+            { type: "kuru-temizleme", price: 800, popular: true },
+            { type: "utuleme", price: 350, popular: false }
         ]
     },
     // Batch 3: Excel entries 201-300 (36 items)
@@ -763,7 +763,7 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yikama", price: 425, popular: true }
+            { type: "yikama", price: 800, popular: true }
         ]
     },
     {
@@ -773,9 +773,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1506629905607-bb5c12c3c04a?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 750, popular: true },
+            { type: "kuru-temizleme", price: 850, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 850, popular: true },
             { type: "boyama", price: 500, popular: false }
         ]
     },
@@ -786,9 +786,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1585487000143-66b1526316f7?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 800, popular: true },
+            { type: "utuleme", price: 350, popular: false },
+            { type: "yikama", price: 800, popular: true }
         ]
     },
     {
@@ -798,9 +798,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 200, popular: true }
+            { type: "kuru-temizleme", price: 400, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -810,10 +810,10 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1604445759020-96c93fa61557?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 153, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 350, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 350, popular: true },
+            { type: "boyama", price: 450, popular: false }
         ]
     },
     {
@@ -823,10 +823,10 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1564362286575-5e7c0dd6e7e4?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 250, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 350, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 350, popular: true },
+            { type: "boyama", price: 450, popular: false }
         ]
     },
     {
@@ -836,10 +836,10 @@ const multiServicePricingData = [
         subcategory: "kadin-elbise-takim",
         image: "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 400, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 600, popular: true },
+            { type: "utuleme", price: 300, popular: false },
+            { type: "yikama", price: 600, popular: true },
+            { type: "boyama", price: 800, popular: false }
         ]
     },
     {
@@ -849,9 +849,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1473966968600?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 650, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 350, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -861,9 +861,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 800, popular: true },
-            { type: "utuleme", price: 250, popular: false },
-            { type: "yikama", price: 800, popular: true }
+            { type: "kuru-temizleme", price: 850, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 850, popular: true }
         ]
     },
     {
@@ -873,9 +873,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1525457136159-8878648a7ad0?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 800, popular: true },
-            { type: "utuleme", price: 119, popular: false },
-            { type: "yikama", price: 800, popular: true }
+            { type: "kuru-temizleme", price: 950, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 950, popular: true }
         ]
     },
     {
@@ -885,9 +885,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 200, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -897,7 +897,7 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1578632292335-df3abbb0d586?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
+            { type: "kuru-temizleme", price: 300, popular: true },
             { type: "yikama", price: 150, popular: true }
         ]
     },
@@ -908,9 +908,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1589755814680-461c8b7fbc2b?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 150, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -920,9 +920,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1589635020161-67a31d5b93e0?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 85, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -933,8 +933,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1566479179817-be0b9f71c8c9?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 850, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 850, popular: true }
         ]
     },
     {
@@ -944,10 +944,10 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1578852428516-6d13d4ea2969?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "utuleme", price: 500, popular: false },
-            { type: "yikama", price: 714, popular: true },
-            { type: "boyama", price: 1500, popular: false }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "utuleme", price: 1000, popular: false },
+            { type: "yikama", price: 2000, popular: true },
+            { type: "boyama", price: 4000, popular: false }
         ]
     },
     {
@@ -957,9 +957,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ozel-giyim",
         image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 900, popular: true },
-            { type: "utuleme", price: 350, popular: false },
-            { type: "yikama", price: 900, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -969,9 +969,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ozel-giyim",
         image: "https://images.unsplash.com/photo-1529636798458-92182e662485?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 2000, popular: true },
-            { type: "utuleme", price: 750, popular: false },
-            { type: "yikama", price: 1547, popular: true }
+            { type: "kuru-temizleme", price: 3000, popular: true },
+            { type: "utuleme", price: 1500, popular: false },
+            { type: "yikama", price: 3000, popular: true }
         ]
     },
     {
@@ -981,9 +981,9 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1548883354-c4e3ab3ac5c4?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "utuleme", price: 500, popular: false },
-            { type: "yikama", price: 1500, popular: true }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "utuleme", price: 1000, popular: false },
+            { type: "yikama", price: 2000, popular: true }
         ]
     },
     {
@@ -993,9 +993,9 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "utuleme", price: 500, popular: false },
-            { type: "yikama", price: 952, popular: true }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "utuleme", price: 1000, popular: false },
+            { type: "yikama", price: 2000, popular: true }
         ]
     },
     {
@@ -1005,10 +1005,10 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "utuleme", price: 500, popular: false },
-            { type: "yikama", price: 1500, popular: true },
-            { type: "boyama", price: 1500, popular: false }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "utuleme", price: 1000, popular: false },
+            { type: "yikama", price: 2000, popular: true },
+            { type: "boyama", price: 4000, popular: false }
         ]
     },
     {
@@ -1018,10 +1018,10 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "utuleme", price: 500, popular: false },
-            { type: "yikama", price: 1500, popular: true },
-            { type: "boyama", price: 1500, popular: false }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "utuleme", price: 1000, popular: false },
+            { type: "yikama", price: 2000, popular: true },
+            { type: "boyama", price: 3000, popular: false }
         ]
     },
     {
@@ -1032,8 +1032,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 2000, popular: true },
-            { type: "utuleme", price: 500, popular: false },
-            { type: "yikama", price: 952, popular: true }
+            { type: "utuleme", price: 1000, popular: false },
+            { type: "yikama", price: 2000, popular: true }
         ]
     },
     {
@@ -1053,7 +1053,7 @@ const multiServicePricingData = [
         subcategory: "hali-kilim",
         image: "https://images.unsplash.com/photo-1558618666?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "hali-yikama", price: 300, popular: true }
+            { type: "hali-yikama", price: 450, popular: true }
         ]
     },
     {
@@ -1063,7 +1063,7 @@ const multiServicePricingData = [
         subcategory: "hali-kilim",
         image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "hali-yikama", price: 250, popular: true }
+            { type: "hali-yikama", price: 350, popular: true }
         ]
     },
     {
@@ -1073,7 +1073,7 @@ const multiServicePricingData = [
         subcategory: "hali-kilim",
         image: "https://images.unsplash.com/photo-1558618666?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "hali-yikama", price: 350, popular: true }
+            { type: "hali-yikama", price: 450, popular: true }
         ]
     },
     {
@@ -1083,7 +1083,7 @@ const multiServicePricingData = [
         subcategory: "hali-kilim",
         image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "hali-yikama", price: 250, popular: true }
+            { type: "hali-yikama", price: 300, popular: true }
         ]
     },
     {
@@ -1093,9 +1093,9 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 425, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 350, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -1105,9 +1105,9 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -1117,9 +1117,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 100, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 85, popular: true }
+            { type: "kuru-temizleme", price: 150, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -1129,8 +1129,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "yikama", price: 190, popular: true }
+            { type: "kuru-temizleme", price: 350, popular: true },
+            { type: "yikama", price: 350, popular: true }
         ]
     },
     {
@@ -1140,10 +1140,10 @@ const multiServicePricingData = [
         subcategory: "cocuk-ozel-gunler",
         image: "https://images.unsplash.com/photo-1566568897286-8cbc0c61fc5d?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 255, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true },
+            { type: "boyama", price: 750, popular: false }
         ]
     },
     {
@@ -1153,9 +1153,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1586440913080-97f5f5e7d5d7?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 50, popular: true },
+            { type: "kuru-temizleme", price: 100, popular: true },
             { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 35, popular: true }
+            { type: "yikama", price: 100, popular: true }
         ]
     },
     {
@@ -1165,9 +1165,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -1177,7 +1177,7 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true }
+            { type: "kuru-temizleme", price: 350, popular: true }
         ]
     },
     // Batch 4: Excel entries 301-400 (40 items)
@@ -1188,8 +1188,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1629903652409-9b34c5bb4b20?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 100, popular: true }
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 350, popular: true }
         ]
     },
     {
@@ -1199,9 +1199,9 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 47, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -1211,8 +1211,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 700, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -1222,9 +1222,9 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1564540574859-0dfb63985925?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 400, popular: false },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 1200, popular: true },
+            { type: "utuleme", price: 600, popular: false },
+            { type: "yikama", price: 1200, popular: true }
         ]
     },
     {
@@ -1235,8 +1235,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 95, popular: true }
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -1246,9 +1246,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 250, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -1258,8 +1258,8 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "yikama", price: 200, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -1269,9 +1269,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 107, popular: true }
+            { type: "kuru-temizleme", price: 400, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -1281,9 +1281,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 83, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -1293,9 +1293,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1548777123-48b458ae8503?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1000, popular: true },
-            { type: "utuleme", price: 400, popular: false },
-            { type: "yikama", price: 595, popular: true }
+            { type: "kuru-temizleme", price: 1200, popular: true },
+            { type: "utuleme", price: 600, popular: false },
+            { type: "yikama", price: 1200, popular: true }
         ]
     },
     {
@@ -1305,9 +1305,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1594736797933-d0d5ad6ad9c9?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 357, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -1317,9 +1317,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 800, popular: true },
-            { type: "utuleme", price: 350, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -1329,8 +1329,8 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "yikama", price: 153, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -1340,8 +1340,8 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "yikama", price: 136, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -1351,9 +1351,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1536431311719-398b6704d4cc?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 100, popular: true },
-            { type: "utuleme", price: 85, popular: false },
-            { type: "yikama", price: 85, popular: true }
+            { type: "kuru-temizleme", price: 150, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -1363,9 +1363,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1507038732509-8b4d20e31eec?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 100, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 83, popular: true }
+            { type: "kuru-temizleme", price: 200, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 200, popular: true }
         ]
     },
     {
@@ -1375,9 +1375,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1583496661160-fb5886a13d24?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 250, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 300, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -1387,9 +1387,9 @@ const multiServicePricingData = [
         subcategory: "erkek-takim-elbise",
         image: "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "utuleme", price: 350, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 1250, popular: true },
+            { type: "utuleme", price: 750, popular: false },
+            { type: "yikama", price: 1250, popular: true }
         ]
     },
     {
@@ -1399,9 +1399,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-s_o1gLvLMyo?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 200, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -1412,8 +1412,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-f6g7h8i9j001f7890?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 450, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 300, popular: true }
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -1423,8 +1423,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1493666438817-866a91353ca9?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 100, popular: true },
-            { type: "hali-yikama", price: 150, popular: false }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "hali-yikama", price: 400, popular: false }
         ]
     },
     {
@@ -1434,9 +1434,9 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1728765432109?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 650, popular: true },
-            { type: "utuleme", price: 250, popular: false },
-            { type: "yikama", price: 450, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -1447,7 +1447,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "yikama", price: 1500, popular: true }
         ]
     },
     {
@@ -1457,8 +1457,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -1468,8 +1468,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -1479,8 +1479,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "yikama", price: 750, popular: true }
+            { type: "kuru-temizleme", price: 1200, popular: true },
+            { type: "yikama", price: 1200, popular: true }
         ]
     },
     {
@@ -1490,9 +1490,9 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 400, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 450, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 300, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -1502,8 +1502,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1489171078254-c3365d6e359f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "yikama", price: 700, popular: true }
+            { type: "kuru-temizleme", price: 850, popular: true },
+            { type: "yikama", price: 850, popular: true }
         ]
     },
     {
@@ -1514,8 +1514,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1580058572462-c61e6551e6c4?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 47, popular: true }
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -1525,8 +1525,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 700, popular: true },
-            { type: "yikama", price: 510, popular: true }
+            { type: "kuru-temizleme", price: 800, popular: true },
+            { type: "yikama", price: 800, popular: true }
         ]
     },
     {
@@ -1536,9 +1536,9 @@ const multiServicePricingData = [
         subcategory: "cocuk-ozel-gunler",
         image: "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 357, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -1548,9 +1548,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1560563410-4dc4d41eb8d7?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 250, popular: true }
+            { type: "kuru-temizleme", price: 400, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -1591,7 +1591,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 400, popular: true },
-            { type: "yikama", price: 340, popular: true }
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -1601,8 +1601,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-j6k7l8m9n001f7890?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "yikama", price: 750, popular: true }
+            { type: "kuru-temizleme", price: 1200, popular: true },
+            { type: "yikama", price: 1200, popular: true }
         ]
     },
     {
@@ -1612,9 +1612,9 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
-            { type: "kuru-temizleme", price: 700, popular: true },
-            { type: "yikama", price: 680, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "yikama", price: 1000, popular: true },
+            { type: "boyama", price: 2000, popular: false }
         ]
     },
     {
@@ -1624,9 +1624,9 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "yikama", price: 765, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "yikama", price: 2000, popular: true },
+            { type: "boyama", price: 2500, popular: false }
         ]
     },
     {
@@ -1636,9 +1636,9 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1622470953794-aa9c70b0fb9d?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "yikama", price: 765, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "yikama", price: 2000, popular: true },
+            { type: "boyama", price: 2500, popular: false }
         ]
     },
     
@@ -1650,9 +1650,9 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1725432109876?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "yikama", price: 765, popular: true },
-            { type: "lostra", price: 750, popular: false }
+            { type: "kuru-temizleme", price: 900, popular: true },
+            { type: "yikama", price: 900, popular: true },
+            { type: "lostra", price: 1000, popular: false }
         ]
     },
     {
@@ -1662,9 +1662,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1571508508669-f9c18df0e138?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 100, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 76, popular: true }
+            { type: "kuru-temizleme", price: 200, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 200, popular: true }
         ]
     },
     {
@@ -1675,8 +1675,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
-            { type: "yikama", price: 595, popular: true },
-            { type: "lostra", price: 750, popular: false }
+            { type: "yikama", price: 1000, popular: true },
+            { type: "lostra", price: 1000, popular: false }
         ]
     },
     {
@@ -1686,8 +1686,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1540062768-0e1b88c9439e?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 425, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -1697,8 +1697,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1525926929834-d6cc6c595d5d?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 800, popular: true },
-            { type: "yikama", price: 680, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -1708,8 +1708,8 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1578928375647-4db6db47c1f8?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 800, popular: true },
-            { type: "yikama", price: 595, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -1719,9 +1719,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 170, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -1732,8 +1732,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 127, popular: true }
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -1744,8 +1744,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-s_o1gLvLMyo?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -1755,9 +1755,9 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1606108294687-efc93b0beb2b?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "utuleme", price: 500, popular: false },
-            { type: "yikama", price: 510, popular: true }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "utuleme", price: 1000, popular: false },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -1768,8 +1768,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-kVg2DQTAK7c?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 127, popular: true }
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -1779,9 +1779,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1594938298603?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 110, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -1791,9 +1791,9 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1553735903-3d9b5e0a8ae4?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "yikama", price: 425, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true },
+            { type: "boyama", price: 750, popular: false }
         ]
     },
     {
@@ -1803,9 +1803,9 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "yikama", price: 425, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true },
+            { type: "boyama", price: 750, popular: false }
         ]
     },
     {
@@ -1815,9 +1815,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 127, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -1827,9 +1827,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1516826957135-700dedea698c?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 127, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -1841,7 +1841,7 @@ const multiServicePricingData = [
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 170, popular: true }
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -1851,9 +1851,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 650, popular: true },
-            { type: "utuleme", price: 250, popular: false },
-            { type: "yikama", price: 425, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -1863,9 +1863,9 @@ const multiServicePricingData = [
         subcategory: "mobilya-tekstili",
         image: "https://images.unsplash.com/photo-1555041469?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 300, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -1876,8 +1876,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1540479859555-17af45c78602?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 127, popular: true }
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -1899,9 +1899,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1594736797933-d0ecedb717e0?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -1911,9 +1911,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1562137369-1a1a0bc66744?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 350, popular: true },
+            { type: "utuleme", price: 125, popular: false },
+            { type: "yikama", price: 350, popular: true }
         ]
     },
     {
@@ -1924,8 +1924,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1599740490944-601ef84aba32?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 170, popular: true }
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -1935,9 +1935,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 127, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -1957,9 +1957,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1729876543210?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 110, popular: true }
+            { type: "kuru-temizleme", price: 350, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 350, popular: true }
         ]
     },
     {
@@ -1969,10 +1969,10 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1473966968600?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 204, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true },
+            { type: "boyama", price: 450, popular: false }
         ]
     },
     {
@@ -1983,8 +1983,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "utuleme", price: 250, popular: false },
-            { type: "yikama", price: 510, popular: true }
+            { type: "utuleme", price: 350, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -1995,7 +1995,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1560472355-536de3962603?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
+            { type: "utuleme", price: 100, popular: false },
             { type: "yikama", price: 150, popular: true }
         ]
     },
@@ -2006,9 +2006,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 153, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -2020,7 +2020,7 @@ const multiServicePricingData = [
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
             { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 170, popular: true }
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -2030,9 +2030,9 @@ const multiServicePricingData = [
         subcategory: "mobilya-tekstili",
         image: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -2042,9 +2042,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 127, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -2054,9 +2054,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 153, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -2066,9 +2066,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 153, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -2078,9 +2078,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1560269999-cef6ebd23ad3?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 170, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     
@@ -2092,7 +2092,7 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1668028554853-f83cac89ce0f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yikama", price: 309, popular: true }
+            { type: "yikama", price: 650, popular: true }
         ]
     },
     {
@@ -2102,9 +2102,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-f6g7h8i9j002f7890?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 450, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 300, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -2114,8 +2114,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "yikama", price: 416, popular: true }
+            { type: "kuru-temizleme", price: 900, popular: true },
+            { type: "yikama", price: 900, popular: true }
         ]
     },
     {
@@ -2125,8 +2125,8 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 300, popular: false },
             { type: "yikama", price: 300, popular: true },
             { type: "boyama", price: 300, popular: false }
         ]
@@ -2149,8 +2149,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1551043750-4b1f82bbcbf3?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "yikama", price: 450, popular: true }
+            { type: "kuru-temizleme", price: 800, popular: true },
+            { type: "yikama", price: 800, popular: true }
         ]
     },
     {
@@ -2160,10 +2160,10 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1623609163859-ca93c959b98a?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 450, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 400, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 600, popular: true },
+            { type: "utuleme", price: 350, popular: false },
+            { type: "yikama", price: 600, popular: true },
+            { type: "boyama", price: 750, popular: false }
         ]
     },
     {
@@ -2173,9 +2173,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1620975686657-d718b88ce86a?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 250, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -2185,9 +2185,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 200, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2197,10 +2197,10 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 250, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true },
+            { type: "boyama", price: 450, popular: false }
         ]
     },
     {
@@ -2210,9 +2210,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1651047666890-8eab731ee345?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 650, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 350, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -2222,8 +2222,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "yikama", price: 425, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -2233,8 +2233,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "yikama", price: 425, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -2245,7 +2245,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1567207877210-e8bb99098b9e?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
-            { type: "yikama", price: 595, popular: true },
+            { type: "yikama", price: 1000, popular: true },
             { type: "boyama", price: 750, popular: false }
         ]
     },
@@ -2256,9 +2256,9 @@ const multiServicePricingData = [
         subcategory: "cocuk-ozel-gunler",
         image: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 119, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2268,9 +2268,9 @@ const multiServicePricingData = [
         subcategory: "cocuk-ozel-gunler",
         image: "https://images.unsplash.com/photo-1503919005314-30d93d07d823?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 119, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2280,9 +2280,9 @@ const multiServicePricingData = [
         subcategory: "cocuk-ozel-gunler",
         image: "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 400, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -2292,9 +2292,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 300, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 238, popular: true }
+            { type: "kuru-temizleme", price: 600, popular: true },
+            { type: "utuleme", price: 300, popular: false },
+            { type: "yikama", price: 600, popular: true }
         ]
     },
     {
@@ -2304,10 +2304,10 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1620451334581-1ccebce2f2d2?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 153, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true },
+            { type: "boyama", price: 450, popular: false }
         ]
     },
     {
@@ -2317,10 +2317,10 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 350, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 450, popular: true },
+            { type: "boyama", price: 750, popular: false }
         ]
     },
     {
@@ -2331,8 +2331,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-bQPCaWpx6e4?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 350, popular: true }
+            { type: "utuleme", price: 450, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -2344,7 +2344,7 @@ const multiServicePricingData = [
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 663, popular: true }
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -2356,7 +2356,7 @@ const multiServicePricingData = [
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 663, popular: true }
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -2367,7 +2367,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1578041089447-2ffc6fa20138?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 150, popular: false },
+            { type: "utuleme", price: 300, popular: false },
             { type: "yikama", price: 600, popular: true }
         ]
     },
@@ -2378,9 +2378,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1473966968600?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 85, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2390,9 +2390,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2402,9 +2402,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1571019612922-0ba824358c0b?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 85, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -2424,7 +2424,7 @@ const multiServicePricingData = [
         subcategory: "hali-kilim",
         image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "hali-yikama", price: 400, popular: true }
+            { type: "hali-yikama", price: 450, popular: true }
         ]
     },
     {
@@ -2434,9 +2434,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-u1v2w3x4y502f7890?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 85, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2447,8 +2447,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1578681994506-b8f463449011?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -2458,9 +2458,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1566479179817-fb2cfe3b95c6?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 350, popular: true }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -2470,9 +2470,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1587554801582-8b67bbf87cfa?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     
@@ -2484,8 +2484,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1544966503?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yikama", price: 190, popular: true },
-            { type: "boyama", price: 170, popular: false }
+            { type: "yikama", price: 350, popular: true },
+            { type: "boyama", price: 500, popular: false }
         ]
     },
     {
@@ -2496,8 +2496,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 400, popular: true },
-            { type: "yikama", price: 190, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "yikama", price: 400, popular: true },
+            { type: "boyama", price: 1000, popular: false }
         ]
     },
     {
@@ -2507,9 +2507,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1607453998774-d533f65dac99?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 300, popular: true }
+            { type: "kuru-temizleme", price: 700, popular: true },
+            { type: "utuleme", price: 350, popular: false },
+            { type: "yikama", price: 700, popular: true }
         ]
     },
     {
@@ -2519,9 +2519,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 700, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 300, popular: true }
+            { type: "kuru-temizleme", price: 900, popular: true },
+            { type: "utuleme", price: 450, popular: false },
+            { type: "yikama", price: 900, popular: true }
         ]
     },
     {
@@ -2531,10 +2531,10 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1580657018950-c7f7d6a6d990?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 100, popular: false },
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
             { type: "yikama", price: 300, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "boyama", price: 450, popular: false }
         ]
     },
     {
@@ -2545,8 +2545,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 85, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 350, popular: true }
         ]
     },
     {
@@ -2557,8 +2557,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 425, popular: true }
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -2568,9 +2568,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 170, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -2580,9 +2580,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1548861216-17dd1ac80d5f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2592,9 +2592,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1714338733982-9b7fabf5db88?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 663, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -2604,9 +2604,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1583743089695-4b816a340f82?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 85, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -2616,9 +2616,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1742794572842-6836a8d0b11b?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 650, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 900, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 900, popular: true }
         ]
     },
     {
@@ -2628,9 +2628,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 85, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -2640,9 +2640,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 400, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -2652,9 +2652,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 350, popular: true }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -2664,10 +2664,10 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 250, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 450, popular: true },
+            { type: "boyama", price: 500, popular: false }
         ]
     },
     {
@@ -2677,9 +2677,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2691,7 +2691,7 @@ const multiServicePricingData = [
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "yikama", price: 600, popular: true }
         ]
     },
     {
@@ -2701,9 +2701,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2713,9 +2713,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 350, popular: true }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -2725,9 +2725,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 595, popular: true }
+            { type: "kuru-temizleme", price: 1500, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1500, popular: true }
         ]
     },
     {
@@ -2737,7 +2737,7 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1624378515195-6bbdb73dff1a?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "yikama", price: 1500, popular: true }
         ]
     },
@@ -2748,8 +2748,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1544957992-20514f595d6f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 2500, popular: true },
-            { type: "yikama", price: 1785, popular: true }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "yikama", price: 2000, popular: true }
         ]
     },
     {
@@ -2759,7 +2759,7 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "yikama", price: 1500, popular: true }
         ]
     },
@@ -2771,7 +2771,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1544966503?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "yikama", price: 1071, popular: true }
+            { type: "yikama", price: 1500, popular: true }
         ]
     },
     {
@@ -2781,8 +2781,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1580169980201-5c064f8f8045?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 3000, popular: true },
-            { type: "yikama", price: 2142, popular: true }
+            { type: "kuru-temizleme", price: 2500, popular: true },
+            { type: "yikama", price: 2500, popular: true }
         ]
     },
     {
@@ -2792,10 +2792,10 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1549062572-544a64fb0c56?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 357, popular: true },
-            { type: "boyama", price: 450, popular: false }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 350, popular: false },
+            { type: "yikama", price: 750, popular: true },
+            { type: "boyama", price: 750, popular: false }
         ]
     },
     {
@@ -2805,9 +2805,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2817,9 +2817,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 900, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 900, popular: true }
         ]
     },
     {
@@ -2829,9 +2829,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1580357954932-9ab60251977c?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 800, popular: true },
-            { type: "utuleme", price: 250, popular: false },
-            { type: "yikama", price: 714, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -2842,8 +2842,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1554898291-1541914077c5?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 425, popular: true }
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -2853,9 +2853,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -2865,9 +2865,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1636565024907-6f105fd5b52e?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1200, popular: true },
-            { type: "utuleme", price: 500, popular: false },
-            { type: "yikama", price: 952, popular: true }
+            { type: "kuru-temizleme", price: 2500, popular: true },
+            { type: "utuleme", price: 750, popular: false },
+            { type: "yikama", price: 2500, popular: true }
         ]
     },
     {
@@ -2877,9 +2877,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1717777918255-ac7f0c913fb0?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 650, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 1500, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1500, popular: true }
         ]
     },
     {
@@ -2889,9 +2889,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1722109876543-a1b2c3d4e5f6?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 300, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 238, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -2901,9 +2901,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1574180566232-aaad1b5b8450?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 350, popular: true }
+            { type: "kuru-temizleme", price: 400, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -2913,9 +2913,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1615873968403-89e068629265?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2925,9 +2925,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -2937,10 +2937,10 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1723210987654-b2c3d4e5f6a7?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 357, popular: true },
-            { type: "boyama", price: 450, popular: false }
+            { type: "kuru-temizleme", price: 600, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 600, popular: true },
+            { type: "boyama", price: 750, popular: false }
         ]
     },
     {
@@ -2950,9 +2950,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1571019612845-b9c5a150f7c9?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     
@@ -2964,7 +2964,7 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "yikama", price: 1750, popular: true }
+            { type: "yikama", price: 2500, popular: true }
         ]
     },
     {
@@ -2974,8 +2974,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -2985,8 +2985,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1578662932900-239b8d4954d6?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 800, popular: true },
-            { type: "utuleme", price: 200, popular: false },
+            { type: "kuru-temizleme", price: 900, popular: true },
+            { type: "utuleme", price: 500, popular: false },
             { type: "yikama", price: 544, popular: true }
         ]
     },
@@ -2997,8 +2997,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1750, popular: true },
-            { type: "yikama", price: 1750, popular: true }
+            { type: "kuru-temizleme", price: 2500, popular: true },
+            { type: "yikama", price: 2500, popular: true }
         ]
     },
     {
@@ -3008,8 +3008,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 900, popular: true },
+            { type: "yikama", price: 900, popular: true }
         ]
     },
     {
@@ -3020,7 +3020,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1583743814966-8936f37f4678?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "yikama", price: 425, popular: true }
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -3030,8 +3030,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 700, popular: true },
-            { type: "yikama", price: 700, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -3041,8 +3041,8 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1000, popular: true },
-            { type: "yikama", price: 1000, popular: true }
+            { type: "kuru-temizleme", price: 1500, popular: true },
+            { type: "yikama", price: 1500, popular: true }
         ]
     },
     {
@@ -3063,8 +3063,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "yikama", price: 500, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -3074,8 +3074,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -3085,8 +3085,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -3096,8 +3096,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -3107,8 +3107,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -3118,8 +3118,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 600, popular: true }
+            { type: "kuru-temizleme", price: 3000, popular: true },
+            { type: "yikama", price: 3000, popular: true }
         ]
     },
     {
@@ -3129,8 +3129,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1543076447-215ad9ba6923?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "yikama", price: 350, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -3140,8 +3140,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "yikama", price: 250, popular: true }
+            { type: "kuru-temizleme", price: 400, popular: true },
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -3152,7 +3152,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1582142306909-195724d2fed7?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
-            { type: "yikama", price: 714, popular: true }
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -3162,8 +3162,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1615412704336-86740e7273ee?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "yikama", price: 1071, popular: true }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "yikama", price: 2000, popular: true }
         ]
     },
     {
@@ -3173,8 +3173,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1581101767703-c9547ab3fc25?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1500, popular: true },
-            { type: "yikama", price: 1071, popular: true }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "yikama", price: 2000, popular: true }
         ]
     },
     {
@@ -3184,8 +3184,8 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 1000, popular: true },
-            { type: "yikama", price: 714, popular: true }
+            { type: "kuru-temizleme", price: 2000, popular: true },
+            { type: "yikama", price: 2000, popular: true }
         ]
     },
     {
@@ -3196,8 +3196,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 425, popular: true }
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -3207,9 +3207,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1678935908871-a72d8380baaa?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 650, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -3220,8 +3220,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 425, popular: true }
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -3231,9 +3231,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 650, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 425, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 100, popular: true }
         ]
     },
     {
@@ -3243,9 +3243,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1583743089695-4b816a340f82?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 650, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 425, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -3255,9 +3255,9 @@ const multiServicePricingData = [
         subcategory: "erkek-takim-elbise",
         image: "https://images.unsplash.com/photo-1594938298603?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 595, popular: true }
+            { type: "kuru-temizleme", price: 1500, popular: true },
+            { type: "utuleme", price: 750, popular: false },
+            { type: "yikama", price: 1500, popular: true }
         ]
     },
     {
@@ -3267,9 +3267,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1649976390492-324d0c60beed?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 200, popular: true }
+            { type: "kuru-temizleme", price: 400, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -3279,9 +3279,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 200, popular: true }
+            { type: "kuru-temizleme", price: 400, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -3292,7 +3292,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "yikama", price: 535, popular: true }
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -3303,8 +3303,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 595, popular: true }
+            { type: "utuleme", price: 450, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -3314,9 +3314,9 @@ const multiServicePricingData = [
         subcategory: "erkek-takim-elbise",
         image: "https://images.unsplash.com/photo-1600850056064-a8b380df8395?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 357, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 450, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -3326,9 +3326,9 @@ const multiServicePricingData = [
         subcategory: "erkek-takim-elbise",
         image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "utuleme", price: 350, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 1200, popular: true },
+            { type: "utuleme", price: 600, popular: false },
+            { type: "yikama", price: 1200, popular: true }
         ]
     },
     {
@@ -3338,9 +3338,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1592853625511-ad0edcc69c07?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "utuleme", price: 350, popular: false },
-            { type: "yikama", price: 476, popular: true }
+            { type: "kuru-temizleme", price: 1200, popular: true },
+            { type: "utuleme", price: 600, popular: false },
+            { type: "yikama", price: 1200, popular: true }
         ]
     },
     {
@@ -3350,9 +3350,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1607562076644-eaa0a80a3064?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 300, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 238, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -3362,7 +3362,7 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-a1b2c3d4e502f7890?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true }
         ]
     },
     {
@@ -3372,9 +3372,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 127, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -3384,9 +3384,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 200, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 170, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -3396,9 +3396,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-f6g7h8i9j003f7890?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 300, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 238, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -3408,9 +3408,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 300, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 238, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -3420,9 +3420,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1617171728-5bf6e67dec0a?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 100, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 85, popular: true }
+            { type: "kuru-temizleme", price: 150, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -3432,9 +3432,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 750, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 663, popular: true }
+            { type: "kuru-temizleme", price: 850, popular: true },
+            { type: "utuleme", price: 400, popular: false },
+            { type: "yikama", price: 850, popular: true }
         ]
     },
     {
@@ -3444,9 +3444,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1628009658182-6df033109021?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 450, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 400, popular: true }
+            { type: "kuru-temizleme", price: 600, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 600, popular: true }
         ]
     },
     {
@@ -3456,9 +3456,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 125, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 95, popular: true }
+            { type: "kuru-temizleme", price: 150, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -3468,9 +3468,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 125, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 95, popular: true }
+            { type: "kuru-temizleme", price: 150, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -3480,9 +3480,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 85, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -3492,9 +3492,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -3504,9 +3504,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1507003211169?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -3516,9 +3516,9 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-a1b2c3d4e503f7890?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "kuru-temizleme", price: 400, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 400, popular: true }
         ]
     },
     {
@@ -3653,10 +3653,10 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 357, popular: true },
-            { type: "boyama", price: 450, popular: false }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1000, popular: true },
+            { type: "boyama", price: 2000, popular: false }
         ]
     },
     {
@@ -3666,10 +3666,10 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 350, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true },
+            { type: "boyama", price: 2000, popular: false }
         ]
     },
     {
@@ -3679,10 +3679,10 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 204, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 400, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 400, popular: true },
+            { type: "boyama", price: 1000, popular: false }
         ]
     },
     {
@@ -3692,9 +3692,9 @@ const multiServicePricingData = [
         subcategory: "erkek-takim-elbise",
         image: "https://images.unsplash.com/photo-1594633312681-c3d4e5f6a7b8?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 357, popular: true }
+            { type: "kuru-temizleme", price: 1200, popular: true },
+            { type: "utuleme", price: 600, popular: false },
+            { type: "yikama", price: 1200, popular: true }
         ]
     },
     {
@@ -3726,9 +3726,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1699805135173-3087dab73dc9?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 80, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 71, popular: true }
+            { type: "kuru-temizleme", price: 150, popular: true },
+            { type: "utuleme", price: 100, popular: false },
+            { type: "yikama", price: 150, popular: true }
         ]
     },
     {
@@ -3738,9 +3738,9 @@ const multiServicePricingData = [
         subcategory: "perde-tul",
         image: "https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 150, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 119, popular: true }
+            { type: "kuru-temizleme", price: 250, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 250, popular: true }
         ]
     },
     {
@@ -3750,9 +3750,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1581338834647-b0fb40704e21?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 107, popular: true }
+            { type: "kuru-temizleme", price: 600, popular: true },
+            { type: "utuleme", price: 300, popular: false },
+            { type: "yikama", price: 600, popular: true }
         ]
     },
     {
@@ -3762,7 +3762,7 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1607532792764-d99e8d4f0de6?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 650, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true }
         ]
     },
     {
@@ -3772,7 +3772,7 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1524863479829-916d8e77f114?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true }
         ]
     },
     {
@@ -3782,7 +3782,7 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1473966968600?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true }
+            { type: "kuru-temizleme", price: 350, popular: true }
         ]
     },
     {
@@ -3792,7 +3792,7 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1559582930-2d0ec769e767?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true }
+            { type: "kuru-temizleme", price: 350, popular: true }
         ]
     },
     {
@@ -3802,7 +3802,7 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 300, popular: true }
+            { type: "kuru-temizleme", price: 400, popular: true }
         ]
     },
     {
@@ -3813,7 +3813,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "yikama", price: 425, popular: true }
+            { type: "yikama", price: 600, popular: true }
         ]
     },
     {
@@ -3823,8 +3823,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 300, popular: true },
-            { type: "yikama", price: 255, popular: true }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -3834,8 +3834,8 @@ const multiServicePricingData = [
         subcategory: "canta-ayakkabi",
         image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "yikama", price: 357, popular: true }
+            { type: "kuru-temizleme", price: 750, popular: true },
+            { type: "yikama", price: 750, popular: true }
         ]
     },
     {
@@ -3846,7 +3846,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
-            { type: "yikama", price: 595, popular: true },
+            { type: "yikama", price: 1000, popular: true },
             { type: "boyama", price: 750, popular: false }
         ]
     },
@@ -3858,7 +3858,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
-            { type: "yikama", price: 595, popular: true },
+            { type: "yikama", price: 1000, popular: true },
             { type: "boyama", price: 750, popular: false }
         ]
     },
@@ -3870,7 +3870,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
-            { type: "yikama", price: 595, popular: true },
+            { type: "yikama", price: 1000, popular: true },
             { type: "boyama", price: 750, popular: false }
         ]
     },
@@ -3882,7 +3882,7 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
-            { type: "yikama", price: 595, popular: true },
+            { type: "yikama", price: 1000, popular: true },
             { type: "boyama", price: 750, popular: false }
         ]
     },
@@ -3974,9 +3974,9 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1599585297038-d93bb5a09f33?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 60, popular: false },
-            { type: "yikama", price: 250, popular: true }
+            { type: "kuru-temizleme", price: 350, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 350, popular: true }
         ]
     },
     {
@@ -3986,8 +3986,8 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1583691921979-37e96bb62b5b?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "yikama", price: 250, popular: true }
+            { type: "kuru-temizleme", price: 350, popular: true },
+            { type: "yikama", price: 350, popular: true }
         ]
     },
     {
@@ -4034,9 +4034,9 @@ const multiServicePricingData = [
         subcategory: "kadin-ust-giyim",
         image: "https://images.unsplash.com/photo-1582125169590-59f4985fb32a?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 300, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 238, popular: true }
+            { type: "kuru-temizleme", price: 450, popular: true },
+            { type: "utuleme", price: 200, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -4059,8 +4059,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1594633312681?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
-            { type: "utuleme", price: 85, popular: false },
-            { type: "yikama", price: 204, popular: true }
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true }
         ]
     },
     {
@@ -4146,10 +4146,10 @@ const multiServicePricingData = [
         subcategory: "erkek-ust-giyim",
         image: "https://images.unsplash.com/photo-1544922280-ad14c68bd1fd?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 350, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 350, popular: true },
-            { type: "boyama", price: 500, popular: false }
+            { type: "kuru-temizleme", price: 500, popular: true },
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true },
+            { type: "boyama", price: 2000, popular: false }
         ]
     },
     {
@@ -4159,10 +4159,10 @@ const multiServicePricingData = [
         subcategory: "erkek-alt-giyim",
         image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 250, popular: true },
-            { type: "utuleme", price: 70, popular: false },
-            { type: "yikama", price: 204, popular: true },
-            { type: "boyama", price: 300, popular: false }
+            { type: "kuru-temizleme", price: 300, popular: true },
+            { type: "utuleme", price: 150, popular: false },
+            { type: "yikama", price: 300, popular: true },
+            { type: "boyama", price: 1500, popular: false }
         ]
     },
     {
@@ -4172,9 +4172,9 @@ const multiServicePricingData = [
         subcategory: "erkek-takim-elbise",
         image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 300, popular: false },
-            { type: "yikama", price: 357, popular: true }
+            { type: "kuru-temizleme", price: 1200, popular: true },
+            { type: "utuleme", price: 600, popular: false },
+            { type: "yikama", price: 1200, popular: true }
         ]
     },
     {
@@ -4184,9 +4184,9 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 200, popular: false },
-            { type: "yikama", price: 340, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
@@ -4196,9 +4196,9 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 650, popular: true },
-            { type: "utuleme", price: 250, popular: false },
-            { type: "yikama", price: 450, popular: true }
+            { type: "kuru-temizleme", price: 1500, popular: true },
+            { type: "utuleme", price: 750, popular: false },
+            { type: "yikama", price: 1500, popular: true }
         ]
     },
     {
@@ -4209,8 +4209,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 450, popular: true },
-            { type: "utuleme", price: 50, popular: false },
-            { type: "yikama", price: 300, popular: true }
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 450, popular: true }
         ]
     },
     {
@@ -4221,8 +4221,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 340, popular: true }
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -4233,8 +4233,8 @@ const multiServicePricingData = [
         image: "https://images.unsplash.com/photo-1524863479829-916d8e77f114?w=400&auto=format&fm=webp&q=75",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
-            { type: "utuleme", price: 100, popular: false },
-            { type: "yikama", price: 340, popular: true }
+            { type: "utuleme", price: 250, popular: false },
+            { type: "yikama", price: 500, popular: true }
         ]
     },
     {
@@ -4244,9 +4244,9 @@ const multiServicePricingData = [
         subcategory: "yatak-takimi",
         image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400&auto=format&fm=webp&q=75",
         services: [
-            { type: "kuru-temizleme", price: 600, popular: true },
-            { type: "utuleme", price: 150, popular: false },
-            { type: "yikama", price: 425, popular: true }
+            { type: "kuru-temizleme", price: 1000, popular: true },
+            { type: "utuleme", price: 500, popular: false },
+            { type: "yikama", price: 1000, popular: true }
         ]
     },
     {
