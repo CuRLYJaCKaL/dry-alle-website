@@ -642,5 +642,52 @@
     <script src="js/pricing-data.js"></script>
     <script src="js/pricing-filters.js"></script>
     <script src="js/pricing-display.js"></script>
+
+    <!-- FAQ Accordion Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const faqItems = document.querySelectorAll('.pricing-faq-item');
+
+        faqItems.forEach(item => {
+            const question = item.querySelector('.pricing-faq-question');
+
+            // Make question focusable for accessibility
+            question.setAttribute('tabindex', '0');
+            question.setAttribute('role', 'button');
+            question.setAttribute('aria-expanded', 'false');
+
+            // Click handler
+            question.addEventListener('click', function() {
+                const isActive = item.classList.contains('active');
+
+                // Close all other items
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                        otherItem.querySelector('.pricing-faq-question').setAttribute('aria-expanded', 'false');
+                    }
+                });
+
+                // Toggle current item
+                item.classList.toggle('active');
+                question.setAttribute('aria-expanded', !isActive);
+            });
+
+            // Keyboard handler (Enter/Space)
+            question.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    question.click();
+                }
+            });
+        });
+
+        // Open first FAQ item by default
+        if (faqItems.length > 0) {
+            faqItems[0].classList.add('active');
+            faqItems[0].querySelector('.pricing-faq-question').setAttribute('aria-expanded', 'true');
+        }
+    });
+    </script>
 </body>
 </html>

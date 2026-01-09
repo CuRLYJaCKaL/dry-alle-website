@@ -1,0 +1,288 @@
+/*
+ * DryAlle Design System - Pricing FAQ Component
+ * Accordion-style FAQ section for pricing page
+ * Consistent with brand design system
+ */
+
+/* ================================
+   FAQ SECTION CONTAINER
+   ================================ */
+
+.pricing-faq-section {
+  background: var(--color-gray-50);
+  padding: var(--spacing-16) 0;
+  margin-top: var(--spacing-12);
+}
+
+/* ================================
+   FAQ HEADER
+   ================================ */
+
+.pricing-faq-header {
+  text-align: center;
+  margin-bottom: var(--spacing-12);
+}
+
+.pricing-faq-header h2 {
+  color: var(--color-primary);
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+  line-height: var(--line-height-tight);
+}
+
+.pricing-faq-header p {
+  color: var(--color-gray-600);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-normal);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: var(--line-height-relaxed);
+}
+
+/* ================================
+   FAQ GRID LAYOUT
+   ================================ */
+
+.pricing-faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-6);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ================================
+   FAQ ITEM - Accordion Style
+   ================================ */
+
+.pricing-faq-item {
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  border-left: 4px solid var(--color-primary);
+  transition: all var(--transition-base);
+  overflow: hidden;
+}
+
+.pricing-faq-item:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-md);
+}
+
+.pricing-faq-item.active {
+  border-left-color: var(--color-secondary);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ================================
+   FAQ QUESTION - Clickable Header
+   ================================ */
+
+.pricing-faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: var(--spacing-5) var(--spacing-6);
+  cursor: pointer;
+  background: var(--color-white);
+  transition: background var(--transition-base);
+  gap: var(--spacing-4);
+}
+
+.pricing-faq-question:hover {
+  background: var(--color-gray-50);
+}
+
+.pricing-faq-item.active .pricing-faq-question {
+  background: linear-gradient(135deg, #f8fffe 0%, #f0f9f7 100%);
+}
+
+.pricing-faq-question h3 {
+  color: var(--color-primary-darker);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-normal);
+  margin: 0;
+  flex: 1;
+  transition: color var(--transition-base);
+}
+
+.pricing-faq-question:hover h3 {
+  color: var(--color-primary);
+}
+
+/* ================================
+   FAQ ICON - Plus/Minus Toggle
+   ================================ */
+
+.pricing-faq-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  transition: all var(--transition-base);
+  flex-shrink: 0;
+}
+
+.pricing-faq-question:hover .pricing-faq-icon {
+  background: var(--color-primary-dark);
+  transform: scale(1.05);
+}
+
+.pricing-faq-item.active .pricing-faq-icon {
+  background: var(--color-secondary);
+  color: var(--color-primary-darker);
+  transform: rotate(45deg);
+}
+
+/* ================================
+   FAQ ANSWER - Collapsible Content
+   ================================ */
+
+.pricing-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  background: linear-gradient(135deg, #fafcfb 0%, #f5f7f6 100%);
+}
+
+.pricing-faq-item.active .pricing-faq-answer {
+  max-height: 300px;
+  padding: 0 var(--spacing-6) var(--spacing-5);
+}
+
+.pricing-faq-answer p {
+  color: var(--color-gray-700);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-loose);
+  margin: 0;
+  padding-top: var(--spacing-4);
+  border-top: 1px solid var(--color-gray-200);
+}
+
+/* ================================
+   RESPONSIVE - Tablet
+   ================================ */
+
+@media (max-width: 1024px) {
+  .pricing-faq-grid {
+    grid-template-columns: 1fr;
+    max-width: 700px;
+  }
+
+  .pricing-faq-section {
+    padding: var(--spacing-12) 0;
+  }
+
+  .pricing-faq-header {
+    margin-bottom: var(--spacing-8);
+  }
+}
+
+/* ================================
+   RESPONSIVE - Mobile
+   ================================ */
+
+@media (max-width: 768px) {
+  .pricing-faq-section {
+    padding: var(--spacing-10) 0;
+    margin-top: var(--spacing-8);
+  }
+
+  .pricing-faq-header h2 {
+    font-size: var(--font-size-2xl);
+  }
+
+  .pricing-faq-header p {
+    font-size: var(--font-size-base);
+    padding: 0 var(--spacing-4);
+  }
+
+  .pricing-faq-grid {
+    gap: var(--spacing-4);
+    padding: 0 var(--spacing-4);
+  }
+
+  .pricing-faq-question {
+    padding: var(--spacing-4) var(--spacing-5);
+  }
+
+  .pricing-faq-question h3 {
+    font-size: var(--font-size-sm);
+  }
+
+  .pricing-faq-icon {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    font-size: var(--font-size-lg);
+  }
+
+  .pricing-faq-item.active .pricing-faq-answer {
+    padding: 0 var(--spacing-5) var(--spacing-4);
+  }
+
+  .pricing-faq-answer p {
+    font-size: var(--font-size-xs);
+  }
+}
+
+/* ================================
+   ACCESSIBILITY
+   ================================ */
+
+.pricing-faq-question:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: -2px;
+}
+
+.pricing-faq-item:focus-within {
+  z-index: 1;
+}
+
+/* Keyboard navigation indicator */
+.pricing-faq-question[tabindex="0"]:focus {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: -2px;
+}
+
+/* ================================
+   REDUCED MOTION
+   ================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .pricing-faq-answer {
+    transition: none;
+  }
+
+  .pricing-faq-icon {
+    transition: none;
+  }
+
+  .pricing-faq-item,
+  .pricing-faq-question {
+    transition: none;
+  }
+}
+
+/* ================================
+   HIGH CONTRAST MODE
+   ================================ */
+
+@media (prefers-contrast: high) {
+  .pricing-faq-item {
+    border-width: 2px;
+    border-color: var(--color-gray-900);
+  }
+
+  .pricing-faq-icon {
+    border: 2px solid var(--color-gray-900);
+  }
+}
