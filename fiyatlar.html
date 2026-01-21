@@ -150,6 +150,14 @@
             .mobile-filter-toggle:active{transform:scale(0.98)}
             .mobile-filter-toggle .filter-icon{font-size:16px}
 
+            /* Body lock when filter is open - prevents background scroll */
+            body.filter-open{
+                overflow:hidden !important;
+                position:fixed !important;
+                width:100% !important;
+                height:100% !important
+            }
+
             /* Hide desktop sidebar on mobile, show only filter bar */
             .pricing-sidebar{display:none !important}
             .pricing-sidebar.mobile-open{
@@ -161,10 +169,11 @@
                 bottom:0;
                 background:#fff;
                 z-index:9999;
-                overflow-y:auto;
+                overflow-y:scroll;
                 -webkit-overflow-scrolling:touch;
-                padding:70px 16px 16px 16px;
-                animation:slideDown 0.25s ease
+                padding:70px 16px 100px 16px;
+                animation:slideDown 0.25s ease;
+                overscroll-behavior:contain
             }
             .pricing-sidebar.mobile-open h2{display:block;font-size:18px;margin-bottom:16px;padding-top:8px}
             .pricing-sidebar.mobile-open .pricing-search-container{display:none}
@@ -841,12 +850,18 @@
         const mobileSearchInput = document.getElementById('mobileServiceSearch');
         const desktopSearchInput = document.getElementById('serviceSearch');
 
+        let scrollPosition = 0;
+
         function openFilter() {
+            // Store current scroll position
+            scrollPosition = window.pageYOffset;
+            document.body.style.top = `-${scrollPosition}px`;
+            document.body.classList.add('filter-open');
+
             pricingSidebar.classList.add('mobile-open');
             filterClose.classList.add('visible');
             filterToggle.setAttribute('aria-expanded', 'true');
             filterToggle.querySelector('.filter-icon').textContent = '✕';
-            document.body.style.overflow = 'hidden';
         }
 
         function closeFilter() {
@@ -854,7 +869,11 @@
             filterClose.classList.remove('visible');
             filterToggle.setAttribute('aria-expanded', 'false');
             filterToggle.querySelector('.filter-icon').textContent = '☰';
-            document.body.style.overflow = '';
+
+            // Restore scroll position
+            document.body.classList.remove('filter-open');
+            document.body.style.top = '';
+            window.scrollTo(0, scrollPosition);
         }
 
         if (filterToggle && pricingSidebar) {
