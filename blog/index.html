@@ -159,14 +159,17 @@
         }
 
         /* Mobile Menu Critical CSS */
-        .mobile-menu-toggle{display:none;background:#f6ec3d;border:none;color:#333;font-size:20px;cursor:pointer;padding:10px 14px;border-radius:6px;font-weight:bold}
-        .mobile-menu-toggle:hover{background-color:#e5db2c}
+        .mobile-menu-toggle{display:none;background:#f6ec3d;border:none;color:#333;font-size:24px;cursor:pointer;padding:8px 12px;border-radius:4px;font-weight:bold;flex-shrink:0}
+        .header-separator{display:none;height:4px;background:#f6ec3d}
         @media (max-width: 768px) {
-            .header-container{padding:10px 15px;flex-wrap:nowrap}
-            .logo svg{max-width:180px;max-height:50px}
-            .contact-button{display:none}
-            .mobile-menu-toggle{display:flex;align-items:center;gap:6px}
-            .main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:white;box-shadow:0 4px 12px rgba(0,0,0,0.15);z-index:1000}
+            .header{position:relative}
+            .header-container{display:flex !important;flex-wrap:nowrap !important;justify-content:space-between !important;align-items:center !important;padding:12px 15px !important;gap:10px}
+            .logo{flex-shrink:1;min-width:0}
+            .logo svg{width:160px !important;height:auto !important;max-width:160px !important;max-height:45px !important}
+            .contact-button{display:none !important}
+            .mobile-menu-toggle{display:flex !important;align-items:center;justify-content:center}
+            .header-separator{display:block}
+            .main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:white;box-shadow:0 4px 12px rgba(0,0,0,0.15);z-index:1000;border-top:3px solid #f6ec3d}
             .main-nav.open{display:block}
             .nav-menu{flex-direction:column;gap:0;padding:0}
             .nav-menu li{padding:0;border-bottom:1px solid #e6e7e8}
@@ -363,6 +366,8 @@
             <li role="none"><a href="../index.html#contact" role="menuitem">İletişim</a></li>
         </ul>
     </nav>
+    <!-- Yellow separator line - visible on mobile -->
+    <div class="header-separator" aria-hidden="true"></div>
 </header>
 <!-- Main Content -->
 <main id="main-content" role="main">
