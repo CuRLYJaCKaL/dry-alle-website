@@ -101,17 +101,15 @@ class PricingFilters {
         // Determine parent category from subcategory
         const categoryMap = {
             'erkek-ust-giyim': 'erkek-giyim',
-            'erkek-alt-giyim': 'erkek-giyim', 
+            'erkek-alt-giyim': 'erkek-giyim',
             'erkek-takim-elbise': 'erkek-giyim',
             'kadin-ust-giyim': 'kadin-giyim',
-            'kadin-elbise-takim': 'kadin-giyim',
             'kadin-ozel-giyim': 'kadin-giyim',
-            'cocuk-ozel-gunler': 'cocuk-giyim',
-            'hali-kilim': 'ev-tekstili',
-            'mobilya-tekstili': 'ev-tekstili',
+            'mont-kaban': 'dis-giyim',
             'perde-tul': 'ev-tekstili',
             'yatak-takimi': 'ev-tekstili',
-            'canta-ayakkabi': 'ozel-temizleme'
+            'deri-kurk': 'ozel-temizleme',
+            'aksesuar-genel': 'aksesuar'
         };
         
         // Set parent category

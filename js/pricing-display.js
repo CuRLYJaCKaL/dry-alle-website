@@ -389,9 +389,10 @@ class PricingDisplay {
             'all': data.length,
             'erkek-giyim': data.filter(item => item.category === 'erkek-giyim').length,
             'kadin-giyim': data.filter(item => item.category === 'kadin-giyim').length,
-            'cocuk-giyim': data.filter(item => item.category === 'cocuk-giyim').length,
+            'dis-giyim': data.filter(item => item.category === 'dis-giyim').length,
             'ev-tekstili': data.filter(item => item.category === 'ev-tekstili').length,
-            'ozel-temizleme': data.filter(item => item.category === 'ozel-temizleme').length
+            'ozel-temizleme': data.filter(item => item.category === 'ozel-temizleme').length,
+            'aksesuar': data.filter(item => item.category === 'aksesuar').length
         };
         
         // Update subcategory counts
