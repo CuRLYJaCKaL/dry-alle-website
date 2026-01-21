@@ -10,6 +10,7 @@ const multiServicePricingData = [
         name: "TAKIM ELBİSE",
         category: "erkek-giyim",
         subcategory: "erkek-takim-elbise",
+        image: "asset/products/takim-elbise.jpg",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 375, popular: false }
@@ -20,6 +21,7 @@ const multiServicePricingData = [
         name: "SMOKİN",
         category: "erkek-giyim",
         subcategory: "erkek-takim-elbise",
+        image: "asset/products/smokin.jpg",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "utuleme", price: 500, popular: false }
@@ -30,6 +32,7 @@ const multiServicePricingData = [
         name: "CEKET",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
+        image: "asset/products/ceket.jpg",
         services: [
             { type: "kuru-temizleme", price: 450, popular: true },
             { type: "utuleme", price: 225, popular: false }
@@ -40,6 +43,7 @@ const multiServicePricingData = [
         name: "YELEK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
+        image: "asset/products/yelek.jpg",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
             { type: "utuleme", price: 175, popular: false }
@@ -50,6 +54,7 @@ const multiServicePricingData = [
         name: "ŞİŞME YELEK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
+        image: "asset/products/sisme-yelek.jpg",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 300, popular: false }
@@ -60,6 +65,7 @@ const multiServicePricingData = [
         name: "GÖMLEK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
+        image: "asset/products/gomlek.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -70,6 +76,7 @@ const multiServicePricingData = [
         name: "KAZAK",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
+        image: "asset/products/kazak.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -80,6 +87,7 @@ const multiServicePricingData = [
         name: "PANTOLON",
         category: "erkek-giyim",
         subcategory: "erkek-alt-giyim",
+        image: "asset/products/pantolon.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -90,6 +98,7 @@ const multiServicePricingData = [
         name: "ETEK",
         category: "kadin-giyim",
         subcategory: "kadin-ust-giyim",
+        image: "asset/products/etek.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -100,6 +109,7 @@ const multiServicePricingData = [
         name: "BLUZ",
         category: "kadin-giyim",
         subcategory: "kadin-ust-giyim",
+        image: "asset/products/bluz.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -110,6 +120,7 @@ const multiServicePricingData = [
         name: "HIRKA",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
+        image: "asset/products/hirka.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -120,6 +131,7 @@ const multiServicePricingData = [
         name: "SÜVETER",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
+        image: "asset/products/suveter.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -130,6 +142,7 @@ const multiServicePricingData = [
         name: "TİŞÖRT",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
+        image: "asset/products/tisort.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -140,6 +153,7 @@ const multiServicePricingData = [
         name: "BAYAN ELBİSE",
         category: "kadin-giyim",
         subcategory: "kadin-ozel-giyim",
+        image: "asset/products/bayan-elbise.jpg",
         services: [
             { type: "kuru-temizleme", price: 500, popular: true },
             { type: "utuleme", price: 250, popular: false }
@@ -150,6 +164,7 @@ const multiServicePricingData = [
         name: "ABİYE",
         category: "kadin-giyim",
         subcategory: "kadin-ozel-giyim",
+        image: "asset/products/abiye.jpg",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "utuleme", price: 500, popular: false }
@@ -160,6 +175,7 @@ const multiServicePricingData = [
         name: "GELİNLİK",
         category: "kadin-giyim",
         subcategory: "kadin-ozel-giyim",
+        image: "asset/products/gelinlik.jpg",
         services: [
             { type: "kuru-temizleme", price: 2500, popular: true },
             { type: "utuleme", price: 1250, popular: false }
@@ -170,6 +186,7 @@ const multiServicePricingData = [
         name: "NİŞAN-KINA KIYAFETİ",
         category: "kadin-giyim",
         subcategory: "kadin-ozel-giyim",
+        image: "asset/products/nisankina-kiyafeti.jpg",
         services: [
             { type: "kuru-temizleme", price: 2500, popular: true },
             { type: "utuleme", price: 1250, popular: false }
@@ -180,6 +197,7 @@ const multiServicePricingData = [
         name: "GECE ELBİSESİ",
         category: "kadin-giyim",
         subcategory: "kadin-ozel-giyim",
+        image: "asset/products/gece-elbisesi.jpg",
         services: [
             { type: "kuru-temizleme", price: 800, popular: true },
             { type: "utuleme", price: 400, popular: false }
@@ -190,6 +208,7 @@ const multiServicePricingData = [
         name: "KUŞ TÜYÜ MONT- KABAN",
         category: "dis-giyim",
         subcategory: "mont-kaban",
+        image: "asset/products/kus-tuyu-mont-kaban.jpg",
         services: [
             { type: "kuru-temizleme", price: 900, popular: true },
             { type: "utuleme", price: 450, popular: false }
@@ -200,6 +219,7 @@ const multiServicePricingData = [
         name: "MONT",
         category: "dis-giyim",
         subcategory: "mont-kaban",
+        image: "asset/products/mont.jpg",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 375, popular: false }
@@ -210,6 +230,7 @@ const multiServicePricingData = [
         name: "KABAN",
         category: "dis-giyim",
         subcategory: "mont-kaban",
+        image: "asset/products/kaban.jpg",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 375, popular: false }
@@ -220,6 +241,7 @@ const multiServicePricingData = [
         name: "PARDESÜ",
         category: "dis-giyim",
         subcategory: "mont-kaban",
+        image: "asset/products/pardesu.jpg",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 375, popular: false }
@@ -230,6 +252,7 @@ const multiServicePricingData = [
         name: "TRENÇKOT",
         category: "dis-giyim",
         subcategory: "mont-kaban",
+        image: "asset/products/trenckot.jpg",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 375, popular: false }
@@ -240,6 +263,7 @@ const multiServicePricingData = [
         name: "EŞOFMAN TAKIM",
         category: "erkek-giyim",
         subcategory: "erkek-takim-elbise",
+        image: "asset/products/esofman-takim.jpg",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 300, popular: false }
@@ -250,6 +274,7 @@ const multiServicePricingData = [
         name: "EŞOFMAN ALT",
         category: "erkek-giyim",
         subcategory: "erkek-alt-giyim",
+        image: "asset/products/esofman-alt.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -260,6 +285,7 @@ const multiServicePricingData = [
         name: "EŞOFMAN ÜST",
         category: "erkek-giyim",
         subcategory: "erkek-alt-giyim",
+        image: "asset/products/esofman-ust.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -270,6 +296,7 @@ const multiServicePricingData = [
         name: "SWEAT",
         category: "erkek-giyim",
         subcategory: "erkek-ust-giyim",
+        image: "asset/products/sweat.jpg",
         services: [
             { type: "kuru-temizleme", price: 350, popular: true },
             { type: "utuleme", price: 175, popular: false }
@@ -280,6 +307,7 @@ const multiServicePricingData = [
         name: "ATKI",
         category: "aksesuar",
         subcategory: "aksesuar-genel",
+        image: "asset/products/atki.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -290,6 +318,7 @@ const multiServicePricingData = [
         name: "ŞAPKA",
         category: "aksesuar",
         subcategory: "aksesuar-genel",
+        image: "asset/products/sapka.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -300,6 +329,7 @@ const multiServicePricingData = [
         name: "ELDİVEN",
         category: "aksesuar",
         subcategory: "aksesuar-genel",
+        image: "asset/products/eldiven.jpg",
         services: [
             { type: "kuru-temizleme", price: 300, popular: true },
             { type: "utuleme", price: 150, popular: false }
@@ -310,6 +340,7 @@ const multiServicePricingData = [
         name: "YORGAN ELYAF",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "asset/products/yorgan-elyaf.jpg",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 375, popular: false }
@@ -320,6 +351,7 @@ const multiServicePricingData = [
         name: "YORGAN YÜN",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "asset/products/yorgan-yun.jpg",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "utuleme", price: 500, popular: false }
@@ -330,6 +362,7 @@ const multiServicePricingData = [
         name: "YORGAN PAMUK",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "asset/products/yorgan-pamuk.jpg",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "utuleme", price: 500, popular: false }
@@ -340,6 +373,7 @@ const multiServicePricingData = [
         name: "YORGAN KUŞ TÜYÜ",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "asset/products/yorgan-kus-tuyu.jpg",
         services: [
             { type: "kuru-temizleme", price: 1250, popular: true },
             { type: "utuleme", price: 625, popular: false }
@@ -350,6 +384,7 @@ const multiServicePricingData = [
         name: "BATTANİYE NORMAL",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "asset/products/battaniye-normal.jpg",
         services: [
             { type: "kuru-temizleme", price: 750, popular: true },
             { type: "utuleme", price: 375, popular: false }
@@ -360,6 +395,7 @@ const multiServicePricingData = [
         name: "BATTANİYE BATTAL",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "asset/products/battaniye-battal.jpg",
         services: [
             { type: "kuru-temizleme", price: 900, popular: true },
             { type: "utuleme", price: 450, popular: false }
@@ -370,6 +406,7 @@ const multiServicePricingData = [
         name: "BATTANİYE YÜN",
         category: "ev-tekstili",
         subcategory: "yatak-takimi",
+        image: "asset/products/battaniye-yun.jpg",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "utuleme", price: 500, popular: false }
@@ -380,6 +417,7 @@ const multiServicePricingData = [
         name: "TÜL PERDE KÜÇÜK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/tul-perde-kucuk.jpg",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 300, popular: false }
@@ -390,6 +428,7 @@ const multiServicePricingData = [
         name: "TÜL PERDE ORTA",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/tul-perde-orta.jpg",
         services: [
             { type: "kuru-temizleme", price: 800, popular: true },
             { type: "utuleme", price: 400, popular: false }
@@ -400,6 +439,7 @@ const multiServicePricingData = [
         name: "TÜL PERDE BÜYÜK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/tul-perde-buyuk.jpg",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "utuleme", price: 500, popular: false }
@@ -410,6 +450,7 @@ const multiServicePricingData = [
         name: "TÜL PERDE BATTAL",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/tul-perde-battal.jpg",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "utuleme", price: 750, popular: false }
@@ -420,6 +461,7 @@ const multiServicePricingData = [
         name: "GÜNEŞLİK KÜÇÜK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/guneslik-kucuk.jpg",
         services: [
             { type: "kuru-temizleme", price: 600, popular: true },
             { type: "utuleme", price: 300, popular: false }
@@ -430,6 +472,7 @@ const multiServicePricingData = [
         name: "GÜNEŞLİK ORTA",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/guneslik-orta.jpg",
         services: [
             { type: "kuru-temizleme", price: 800, popular: true },
             { type: "utuleme", price: 400, popular: false }
@@ -440,6 +483,7 @@ const multiServicePricingData = [
         name: "GÜNEŞLİK BÜYÜK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/guneslik-buyuk.jpg",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "utuleme", price: 500, popular: false }
@@ -450,6 +494,7 @@ const multiServicePricingData = [
         name: "GÜNEŞLİK BATTAL",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/guneslik-battal.jpg",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "utuleme", price: 750, popular: false }
@@ -460,6 +505,7 @@ const multiServicePricingData = [
         name: "FON PERDE TK KÜÇÜK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/fon-perde-tk-kucuk.jpg",
         services: [
             { type: "kuru-temizleme", price: 1000, popular: true },
             { type: "utuleme", price: 500, popular: false }
@@ -470,6 +516,7 @@ const multiServicePricingData = [
         name: "FON PERDE ÇK KÜÇÜK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/fon-perde-ck-kucuk.jpg",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "utuleme", price: 750, popular: false }
@@ -480,6 +527,7 @@ const multiServicePricingData = [
         name: "FON PERDE TK BÜYÜK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/fon-perde-tk-buyuk.jpg",
         services: [
             { type: "kuru-temizleme", price: 1500, popular: true },
             { type: "utuleme", price: 750, popular: false }
@@ -490,6 +538,7 @@ const multiServicePricingData = [
         name: "FON PERDE ÇK BÜYÜK",
         category: "ev-tekstili",
         subcategory: "perde-tul",
+        image: "asset/products/fon-perde-ck-buyuk.jpg",
         services: [
             { type: "kuru-temizleme", price: 2000, popular: true },
             { type: "utuleme", price: 1000, popular: false }
@@ -500,6 +549,7 @@ const multiServicePricingData = [
         name: "DERİ MONT",
         category: "ozel-temizleme",
         subcategory: "deri-kurk",
+        image: "asset/products/deri-mont.jpg",
         services: [
             { type: "kuru-temizleme", price: 2000, popular: true },
             { type: "utuleme", price: 1000, popular: false }
@@ -510,6 +560,7 @@ const multiServicePricingData = [
         name: "DERİ CEKET",
         category: "ozel-temizleme",
         subcategory: "deri-kurk",
+        image: "asset/products/deri-ceket.jpg",
         services: [
             { type: "kuru-temizleme", price: 2000, popular: true },
             { type: "utuleme", price: 1000, popular: false }
@@ -520,6 +571,7 @@ const multiServicePricingData = [
         name: "KÜRK KISA",
         category: "ozel-temizleme",
         subcategory: "deri-kurk",
+        image: "asset/products/kurk-kisa.jpg",
         services: [
             { type: "kuru-temizleme", price: 2500, popular: true },
             { type: "utuleme", price: 1250, popular: false }
@@ -530,6 +582,7 @@ const multiServicePricingData = [
         name: "KÜRK UZUN",
         category: "ozel-temizleme",
         subcategory: "deri-kurk",
+        image: "asset/products/kurk-uzun.jpg",
         services: [
             { type: "kuru-temizleme", price: 3000, popular: true },
             { type: "utuleme", price: 1500, popular: false }
