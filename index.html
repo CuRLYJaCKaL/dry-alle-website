@@ -115,45 +115,125 @@
         .cta-button{display:inline-block;padding:15px 30px;font-weight:600;text-decoration:none;transition:all 0.3s ease;font-size:16px}
         .cta-button.primary{background-color:#f6ec3d;color:#333}
         .cta-button.secondary{background-color:transparent;color:white;border:2px solid #f6ec3d}
+        /* =============================================
+           MOBILE UI/UX - 8px Grid System Standards
+           iOS HIG & Material Design Compliant
+           ============================================= */
         .mobile-menu-toggle{display:none;background:#f6ec3d;border:none;color:#333;font-size:24px;cursor:pointer;padding:8px 12px;border-radius:4px;font-weight:bold;flex-shrink:0}
-        /* Yellow separator between header and hero */
         .header-separator{display:none;height:4px;background:#f6ec3d}
+
         @media (max-width: 768px) {
-            /* Force header items on ONE LINE */
+            /* === HEADER - Compact & Clean === */
             .header{position:relative}
-            .header-container{display:flex !important;flex-wrap:nowrap !important;justify-content:space-between !important;align-items:center !important;padding:12px 15px !important;gap:10px}
-            .top-bar-content{padding:0 15px}
-            /* Smaller logo on mobile */
+            .header-container{
+                display:flex !important;
+                flex-wrap:nowrap !important;
+                justify-content:space-between !important;
+                align-items:center !important;
+                padding:12px 16px !important; /* 16px = iOS standard edge padding */
+                gap:8px
+            }
+            .top-bar-content{padding:0 16px;font-size:13px}
             .logo{flex-shrink:1;min-width:0}
-            .logo svg{width:160px !important;height:auto !important;max-width:160px !important;max-height:45px !important}
-            /* Hide contact button, show hamburger */
+            .logo svg{width:140px !important;height:auto !important;max-width:140px !important;max-height:40px !important}
             .contact-button{display:none !important}
-            .mobile-menu-toggle{display:flex !important;align-items:center;justify-content:center}
-            /* Yellow separator visible on mobile */
+            .mobile-menu-toggle{display:flex !important;align-items:center;justify-content:center;min-width:44px;min-height:44px} /* 44px = minimum touch target */
             .header-separator{display:block}
-            /* Navigation dropdown */
-            .main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:white;box-shadow:0 4px 12px rgba(0,0,0,0.15);z-index:1000;border-top:3px solid #f6ec3d}
+
+            /* === NAVIGATION DROPDOWN === */
+            .main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:white;box-shadow:0 4px 16px rgba(0,0,0,0.15);z-index:1000;border-top:3px solid #f6ec3d}
             .main-nav.open{display:block}
             .nav-menu{flex-direction:column;gap:0;padding:0}
             .nav-menu li{padding:0;border-bottom:1px solid #e6e7e8}
-            .nav-menu a{display:block;padding:15px 20px;font-size:16px}
-            .hero{padding:40px 15px}
-            .hero-text h1{font-size:2rem}
-            .hero-text p{font-size:1.1rem}
-            .hero-buttons{flex-direction:column;gap:15px}
-            .cta-button{padding:12px 25px;font-size:15px}
-            .contact-button{padding:10px 15px;font-size:14px}
-            .hero-background,.hero-image{display:none}
-            .hero{height:auto;background:#006a44}
-            .hero-content{position:relative;left:auto;top:auto;transform:none;padding:30px 15px;max-width:100%;text-align:center}
-            .hero-title{color:white;text-shadow:none;font-size:1.8rem;margin-bottom:20px}
-            .hero-contact{color:white}
-            .hero-contact h3{color:#f6ec3d;font-size:1.3rem;margin-bottom:15px}
-            .contact-info{display:flex;flex-direction:column;gap:12px;align-items:center}
-            .contact-item{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.1);padding:12px 20px;border-radius:8px;width:100%;max-width:300px;justify-content:center}
-            .contact-icon{font-size:20px}
-            .contact-text{color:white !important;text-decoration:none;font-size:16px;font-weight:500}
-            .contact-text:hover{text-decoration:underline}
+            .nav-menu a{display:block;padding:16px 20px;font-size:16px;min-height:48px}
+
+            /* === HERO SECTION - CENTERED LAYOUT === */
+            .hero-background,.hero-image{display:none !important}
+            .hero{height:auto !important;background:#006a44 !important;padding:0 !important}
+            .hero-content{
+                position:relative !important;
+                left:auto !important;
+                top:auto !important;
+                transform:none !important;
+                padding:32px 16px 40px !important; /* Top:32 Sides:16 Bottom:40 */
+                max-width:100% !important;
+                text-align:center !important;
+                display:flex;
+                flex-direction:column;
+                align-items:center
+            }
+
+            /* === HERO TITLE - Centered Typography === */
+            .hero-title{
+                color:white !important;
+                text-shadow:none !important;
+                font-size:1.5rem !important; /* 24px */
+                line-height:1.3 !important;
+                margin-bottom:24px !important;
+                text-align:center !important;
+                font-weight:700
+            }
+
+            /* === CONTACT CTA SECTION === */
+            .hero-contact{
+                color:white;
+                width:100%;
+                max-width:320px;
+                text-align:center
+            }
+            .hero-contact h3{
+                color:#f6ec3d;
+                font-size:1.1rem;
+                margin-bottom:16px;
+                font-weight:600
+            }
+            .contact-info{
+                display:flex;
+                flex-direction:column;
+                gap:12px;
+                align-items:center;
+                width:100%
+            }
+            .contact-item{
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                gap:12px;
+                background:rgba(255,255,255,0.12);
+                padding:14px 20px;
+                border-radius:8px;
+                width:100%;
+                min-height:48px; /* Touch target */
+                border:1px solid rgba(255,255,255,0.2)
+            }
+            .contact-item:active{background:rgba(255,255,255,0.2)}
+            .contact-icon{font-size:18px;flex-shrink:0}
+            .contact-text{
+                color:white !important;
+                text-decoration:none;
+                font-size:15px;
+                font-weight:500
+            }
+
+            /* === SERVICE ICONS - Side by Side === */
+            .service-icons{padding:24px 16px !important}
+            .service-icon-container{
+                display:flex !important;
+                flex-direction:row !important;
+                flex-wrap:wrap !important;
+                justify-content:center !important;
+                gap:16px !important
+            }
+            .service-icon-item{
+                flex:1 1 45% !important;
+                max-width:160px !important;
+                min-width:120px !important;
+                padding:16px 8px !important;
+                text-align:center
+            }
+            .service-icon-item h4{font-size:12px !important;margin-top:8px}
+            .service-icon-item .icon{width:40px !important;height:40px !important}
+            .service-icon-item .icon svg{width:24px !important;height:24px !important}
         }
     </style>
     

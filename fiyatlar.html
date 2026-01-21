@@ -104,21 +104,23 @@
     
     <!-- Critical Mobile-First CSS for Pricing Page -->
     <style>
+        /* Mobile UI/UX - 8px Grid System */
         .mobile-menu-toggle{display:none;background:#f6ec3d;border:none;color:#333;font-size:24px;cursor:pointer;padding:8px 12px;border-radius:4px;font-weight:bold;flex-shrink:0}
         .header-separator{display:none;height:4px;background:#f6ec3d}
         @media (max-width: 768px) {
             .header{position:relative}
-            .header-container{display:flex !important;flex-wrap:nowrap !important;justify-content:space-between !important;align-items:center !important;padding:12px 15px !important;gap:10px}
+            .header-container{display:flex !important;flex-wrap:nowrap !important;justify-content:space-between !important;align-items:center !important;padding:12px 16px !important;gap:8px}
+            .top-bar-content{padding:0 16px;font-size:13px}
             .logo{flex-shrink:1;min-width:0}
-            .logo svg{width:160px !important;height:auto !important;max-width:160px !important;max-height:45px !important}
+            .logo svg{width:140px !important;height:auto !important;max-width:140px !important;max-height:40px !important}
             .contact-button{display:none !important}
-            .mobile-menu-toggle{display:flex !important;align-items:center;justify-content:center}
+            .mobile-menu-toggle{display:flex !important;align-items:center;justify-content:center;min-width:44px;min-height:44px}
             .header-separator{display:block}
-            .main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:white;box-shadow:0 4px 12px rgba(0,0,0,0.15);z-index:1000;border-top:3px solid #f6ec3d}
+            .main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:white;box-shadow:0 4px 16px rgba(0,0,0,0.15);z-index:1000;border-top:3px solid #f6ec3d}
             .main-nav.open{display:block}
             .nav-menu{flex-direction:column;gap:0;padding:0}
             .nav-menu li{padding:0;border-bottom:1px solid #e6e7e8}
-            .nav-menu a{display:block;padding:15px 20px;font-size:16px;text-transform:none}
+            .nav-menu a{display:block;padding:16px 20px;font-size:16px;text-transform:none;min-height:48px}
         }
     </style>
 
