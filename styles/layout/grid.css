@@ -228,14 +228,20 @@
   .blog-container,
   .modern-blog-container {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 20px;
     padding: 20px 15px;
   }
-  
-  
-  .blog-sidebar {
+
+  /* E-commerce UX Standard: Filters should be at TOP on mobile */
+  .blog-sidebar,
+  .pricing-sidebar {
     position: static;
-    order: 2;
+    order: -1; /* Put sidebar FIRST (above main content) */
+  }
+
+  /* Main content comes after sidebar */
+  .blog-main-content {
+    order: 1;
   }
   
   .blog-stats {

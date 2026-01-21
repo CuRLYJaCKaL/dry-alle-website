@@ -292,12 +292,12 @@
   }
 }
 
-/* Mobile Design */
+/* Mobile Design - E-commerce UX Standard: Filters at TOP */
 @media (max-width: 768px) {
   .pricing-sidebar {
     position: static;
-    order: 2;
-    margin-top: var(--spacing-8);
+    order: -1; /* FIRST on mobile - filters should be at top */
+    margin-bottom: var(--spacing-4);
     padding: var(--spacing-5) var(--spacing-4);
     height: auto;
     max-height: none;

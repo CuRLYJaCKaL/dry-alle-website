@@ -103,7 +103,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
     
     <!-- Critical Mobile-First CSS for Pricing Page -->
-    
+    <style>
+        .mobile-menu-toggle{display:none;background:#f6ec3d;border:none;color:#333;font-size:20px;cursor:pointer;padding:10px 14px;border-radius:6px;font-weight:bold}
+        .mobile-menu-toggle:hover{background-color:#e5db2c}
+        @media (max-width: 768px) {
+            .header-container{padding:10px 15px;flex-wrap:nowrap}
+            .logo svg{max-width:180px;max-height:50px}
+            .contact-button{display:none}
+            .mobile-menu-toggle{display:flex;align-items:center;gap:6px}
+            .main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:white;box-shadow:0 4px 12px rgba(0,0,0,0.15);z-index:1000}
+            .main-nav.open{display:block}
+            .nav-menu{flex-direction:column;gap:0;padding:0}
+            .nav-menu li{padding:0;border-bottom:1px solid #e6e7e8}
+            .nav-menu a{display:block;padding:15px 20px;font-size:16px;text-transform:none}
+        }
+    </style>
+
     <!-- Enhanced Structured Data for 2025+ AI/LLM Pricing Optimization -->
     <script type="application/ld+json">
     [
