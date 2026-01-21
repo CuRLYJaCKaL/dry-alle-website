@@ -79,10 +79,9 @@ class PricingDisplay {
 
     // Render paginated pricing cards
     renderPaginatedCards() {
-        // Sort by category, then by name
+        // Sort by custom sortOrder field
         const sortedData = [...this.allData].sort((a, b) => {
-            if (a.category !== b.category) return a.category.localeCompare(b.category);
-            return a.name.localeCompare(b.name);
+            return (a.sortOrder || 999) - (b.sortOrder || 999);
         });
         
         // Calculate current page data (only current page items)
