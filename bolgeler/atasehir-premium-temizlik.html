@@ -12,8 +12,8 @@
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     
     <!-- 2025+ AI/LLM SEO OPTIMIZATION: 40+ Meta Tags Implementation -->
-    <title>Ataşehir Kuru Temizleme | Takım 280₺ Gömlek 95₺ | Plaza Ofis Teslimat | Dry Alle</title>
-    <meta name="description" content="Ataşehir'de kuru temizleme: Takım 280₺, Gömlek 95₺, Elbise 165₺. Watergarden, Palladium, Agora plazalarına ofis teslimat. Kurumsal firma anlaşması %15 indirim. 25 yıl deneyim: 0543 352 74 74">
+    <title>Ataşehir Kuru Temizleme | Takım 750₺ Gömlek 300₺ | Plaza Ofis Teslimat | Dry Alle</title>
+    <meta name="description" content="Ataşehir'de kuru temizleme: Takım 750₺, Gömlek 300₺, Elbise 165₺. Watergarden, Palladium, Agora plazalarına ofis teslimat. Kurumsal firma anlaşması %15 indirim. 25 yıl deneyim: 0543 352 74 74">
     <meta name="keywords" content="atasehir premium temizlik, atasehir professional service, atasehir expert care, atasehir quality cleaning">
     
     <!-- AI/LLM Entity Recognition Signals -->
@@ -316,7 +316,7 @@
                 "name": "Ataşehir'de kuru temizleme fiyatları ne kadar?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Ataşehir'deki kuru temizleme fiyatlarımız: Takım elbise 280₺, Gömlek 95₺, Elbise 165₺, Blazer/Ceket 180₺, Pantolon 110₺, Kravat 45₺. Kurumsal firma anlaşması yapan şirketlere %15 indirim. Plaza ve ofis teslimatı ücretsizdir. Toplu siparişlerde ek indirimler mevcuttur."
+                    "text": "Ataşehir'deki kuru temizleme fiyatlarımız: Takım elbise 750₺, Gömlek 300₺, Elbise 165₺, Blazer/Ceket 180₺, Pantolon 110₺, Kravat 45₺. Kurumsal firma anlaşması yapan şirketlere %15 indirim. Plaza ve ofis teslimatı ücretsizdir. Toplu siparişlerde ek indirimler mevcuttur."
                 }
             },
             {
@@ -394,7 +394,7 @@
                         "@type": "Service",
                         "name": "Takım Elbise Kuru Temizleme"
                     },
-                    "price": "280",
+                    "price": "750",
                     "priceCurrency": "TRY"
                 },
                 {
@@ -403,7 +403,7 @@
                         "@type": "Service",
                         "name": "Gömlek Kuru Temizleme"
                     },
-                    "price": "95",
+                    "price": "300",
                     "priceCurrency": "TRY"
                 },
                 {
@@ -504,8 +504,14 @@
             </div>
         </div>
         
+        
+            <button class="mobile-menu-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-icon">☰</span>
+            </button>
+        </div>
+
         <!-- Navigation -->
-        <nav class="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
+        <nav class="main-nav" id="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
             <ul class="nav-menu" role="menubar">
                 <li role="none"><a href="../index.html" role="menuitem">Ana Sayfa</a></li>
                 <li role="none"><a href="../index.html#services" role="menuitem">Hizmetlerimiz</a></li>
@@ -535,7 +541,7 @@
                 <div class="service-hero-content">
                     <div class="service-hero-text">
                         <h1>Ataşehir Kuru Temizleme | Plaza ve İş Merkezleri Özel Servis</h1>
-                        <p class="service-hero-subtitle">Ataşehir plaza ve iş merkezlerine özel kuru temizleme: Takım 280₺, Gömlek 95₺, Elbise 165₺. Watergarden, Palladium, Agora'ya sabah/akşam ofis teslimat. Kurumsal firma anlaşması %15 indirim. 25 yıl deneyim, ücretsiz alım-teslim.</p>
+                        <p class="service-hero-subtitle">Ataşehir plaza ve iş merkezlerine özel kuru temizleme: Takım 750₺, Gömlek 300₺, Elbise 165₺. Watergarden, Palladium, Agora'ya sabah/akşam ofis teslimat. Kurumsal firma anlaşması %15 indirim. 25 yıl deneyim, ücretsiz alım-teslim.</p>
                         
                         <div class="local-features">
                             <h3>Premium İş Uzmanı</h3>
@@ -859,5 +865,29 @@
     <!-- GTM Component - Ana Tracking Sistemi -->
     <script src="../components/gtm.js"></script>
 
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (menuToggle && mainNav) {
+            menuToggle.addEventListener('click', function() {
+                const isOpen = mainNav.classList.toggle('open');
+                menuToggle.setAttribute('aria-expanded', isOpen);
+                menuToggle.querySelector('.hamburger-icon').textContent = isOpen ? '✕' : '☰';
+            });
+
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                    menuToggle.querySelector('.hamburger-icon').textContent = '☰';
+                });
+            });
+        }
+    });
+    </script>
 </body>
 </html>

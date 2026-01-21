@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sitesi Teklifi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 30px;
+            background: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+
+        .header-info {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 20px;
+            margin: 30px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        h3 {
+            color: #3498db;
+            font-size: 18px;
+            margin: 25px 0 10px 0;
+        }
+
+        .intro {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .package {
+            background: #fff;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            page-break-inside: avoid;
+        }
+
+        .package-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .package-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .package-price {
+            background: #3498db;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .package.featured {
+            border-color: #3498db;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.2);
+        }
+
+        .package.featured .package-price {
+            background: #27ae60;
+        }
+
+        .package ul {
+            list-style: none;
+            margin: 15px 0;
+        }
+
+        .package li {
+            padding: 6px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .package li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .package .not-included li:before {
+            content: "○";
+            color: #999;
+        }
+
+        .package-note {
+            background: #f8f9fa;
+            padding: 12px 15px;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #666;
+            margin-top: 15px;
+        }
+
+        .sub-title {
+            font-weight: bold;
+            color: #555;
+            margin: 15px 0 8px 0;
+            font-size: 14px;
+        }
+
+        /* Comparison Table */
+        .comparison {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        .comparison th {
+            background: #3498db;
+            color: white;
+            padding: 12px 10px;
+            text-align: center;
+        }
+
+        .comparison th:first-child {
+            text-align: left;
+        }
+
+        .comparison td {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            text-align: center;
+        }
+
+        .comparison td:first-child {
+            text-align: left;
+            font-weight: 500;
+        }
+
+        .comparison tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        .check {
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .cross {
+            color: #999;
+        }
+
+        /* Info boxes */
+        .info-box {
+            background: #e8f4fd;
+            border-left: 4px solid #3498db;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .info-box h4 {
+            color: #2980b9;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .info-box p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Reference */
+        .reference {
+            background: #f0f0f0;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 25px 0;
+            text-align: center;
+        }
+
+        .reference a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #888;
+            font-size: 13px;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                padding: 20px;
+            }
+
+            .package {
+                break-inside: avoid;
+            }
+
+            .page-break {
+                page-break-before: always;
+            }
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Kuru Temizleme Web Sitesi Teklifi</h1>
+    <div class="header-info">
+        <strong>Bölge:</strong> Sarıyer / Tarabya<br>
+        <strong>Tarih:</strong> ___________
+    </div>
+
+    <div class="intro">
+        Profesyonel kuru temizleme işiniz için modern, hızlı ve<br>
+        <strong>Google'da üst sıralarda çıkacak</strong> bir web sitesi.
+    </div>
+
+    <!-- PAKET 1 -->
+    <div class="package page-break">
+        <div class="package-header">
+            <span class="package-title">Paket 1: Temel Site</span>
+            <span class="package-price">15.000 TL (tek seferlik)</span>
+        </div>
+
+        <div class="sub-title">Neler Dahil:</div>
+        <ul>
+            <li>Modern tasarımlı web sitesi</li>
+            <li>8 hizmet sayfası (halı yıkama, koltuk, perde vs.)</li>
+            <li>16 bölge sayfası (Sarıyer, Tarabya, Yeniköy vs.)</li>
+            <li>8 blog yazısı</li>
+            <li>Google SEO puanı 85+</li>
+            <li>Mobil uyumlu tasarım</li>
+            <li>WhatsApp butonu</li>
+            <li>Google Harita</li>
+            <li>Ücretsiz hosting</li>
+        </ul>
+
+        <div class="sub-title">Dahil Değil:</div>
+        <ul class="not-included">
+            <li>Domain (yıllık ~300-400 TL)</li>
+            <li>Kurumsal mail (~70 TL/ay - isteğe bağlı)</li>
+            <li>Sonradan ekleme/güncelleme</li>
+        </ul>
+
+        <div class="package-note">
+            Site teslim edilir, iş tamamlanır.
+        </div>
+    </div>
+
+    <!-- PAKET 2 -->
+    <div class="package featured page-break">
+        <div class="package-header">
+            <span class="package-title">Paket 2: Bakımlı Site</span>
+            <span class="package-price">20.000 TL + Aylık 20$</span>
+        </div>
+
+        <div class="sub-title">Neler Dahil:</div>
+        <ul>
+            <li>Paket 1'deki her şey</li>
+            <li>Domain hediye (ilk yıl)</li>
+            <li>AI aramalarına uyumluluk (ChatGPT, Google AI vs.)</li>
+        </ul>
+
+        <div class="sub-title">Her Ay 20$ Karşılığı:</div>
+        <ul>
+            <li>+4 yeni bölge sayfası VEYA +2 blog ekleme</li>
+            <li>SEO takibi ve iyileştirme</li>
+            <li>Teknik destek</li>
+        </ul>
+
+        <div class="package-note">
+            Kurumsal mail isteğe bağlı (~70 TL/ay).
+        </div>
+    </div>
+
+    <!-- PAKET 3 -->
+    <div class="package page-break">
+        <div class="package-header">
+            <span class="package-title">Paket 3: Admin Panelli Site</span>
+            <span class="package-price">30.000 TL + Aylık 20$</span>
+        </div>
+
+        <div class="sub-title">Neler Dahil:</div>
+        <ul>
+            <li>Paket 1'deki her şey</li>
+            <li>Admin paneli (kendiniz güncelleme yapabilirsiniz)</li>
+            <li>Blog ekleme/düzenleme</li>
+            <li>Bölge sayfası ekleme</li>
+            <li>Fiyat güncelleme</li>
+            <li>Hizmet düzenleme</li>
+            <li>1 saat kullanım eğitimi</li>
+        </ul>
+
+        <div class="sub-title">Aylık 20$ Nedir:</div>
+        <ul>
+            <li>Hosting (sunucu)</li>
+            <li>Teknik altyapı desteği</li>
+        </ul>
+
+        <div class="package-note">
+            Domain ve kurumsal mail ayrıca (~300-400 TL/yıl + ~70 TL/ay).
+        </div>
+    </div>
+
+    <!-- KARŞILAŞTIRMA TABLOSU -->
+    <h2 class="page-break">Paket Karşılaştırması</h2>
+    <table class="comparison">
+        <tr>
+            <th></th>
+            <th>Paket 1</th>
+            <th>Paket 2</th>
+            <th>Paket 3</th>
+        </tr>
+        <tr>
+            <td>Kurulum</td>
+            <td>15.000 TL</td>
+            <td>20.000 TL</td>
+            <td>30.000 TL</td>
+        </tr>
+        <tr>
+            <td>Aylık</td>
+            <td class="cross">-</td>
+            <td>20$</td>
+            <td>20$</td>
+        </tr>
+        <tr>
+            <td>Bölge Sayısı</td>
+            <td>16</td>
+            <td>16 (+4/ay)</td>
+            <td>16 (sınırsız ekleme)</td>
+        </tr>
+        <tr>
+            <td>Blog Sayısı</td>
+            <td>8</td>
+            <td>8 (+2/ay)</td>
+            <td>8 (sınırsız ekleme)</td>
+        </tr>
+        <tr>
+            <td>SEO Puanı</td>
+            <td>85+</td>
+            <td>85+</td>
+            <td>85+</td>
+        </tr>
+        <tr>
+            <td>Domain</td>
+            <td>Ayrı</td>
+            <td class="check">Hediye</td>
+            <td>Ayrı</td>
+        </tr>
+        <tr>
+            <td>Bakım Desteği</td>
+            <td class="cross">Yok</td>
+            <td class="check">Var</td>
+            <td class="cross">Yok</td>
+        </tr>
+        <tr>
+            <td>Kendi Güncellemeniz</td>
+            <td class="cross">Hayır</td>
+            <td class="cross">Hayır</td>
+            <td class="check">Evet</td>
+        </tr>
+    </table>
+
+    <!-- BÖLGE BİLGİSİ -->
+    <div class="info-box">
+        <h4>Bölge Sayfaları Neden Önemli?</h4>
+        <p>
+            Biri Google'a <strong>"Tarabya halı yıkama"</strong> yazdığında siteniz çıksın diye her bölge için ayrı sayfa yapıyoruz.<br><br>
+            <strong>16 bölge = 16 farklı aramada görünme şansı.</strong><br><br>
+            Paket 2'de her ay 4 tane daha ekleniyor → 1 yılda 48 bölge daha = <strong>toplam 64 bölge sayfası.</strong>
+        </p>
+    </div>
+
+    <!-- KURUMSAL MAİL -->
+    <div class="info-box">
+        <h4>Kurumsal Mail</h4>
+        <p>
+            <strong>info@firmaadi.com</strong> şeklinde profesyonel mail adresi.<br>
+            Google Workspace üzerinden, aylık ~70 TL.<br>
+            İsteğe bağlı, tüm paketlere eklenebilir.
+        </p>
+    </div>
+
+    <!-- REFERANS -->
+    <div class="reference">
+        <strong>Referans:</strong> <a href="https://dryallekurutemizleme.com" target="_blank">DryAlleKuruTemizleme.com</a><br>
+        <span style="font-size: 13px; color: #666;">Aynı mantıkta hazırlanmış site</span>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <strong>Not:</strong> Fiyatlar TL bazında sabittir.
+    </div>
+
+</body>
+</html>

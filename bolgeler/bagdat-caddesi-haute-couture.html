@@ -10,8 +10,8 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">    <!-- Ultra-Specific Local SEO Meta Tags -->
-    <title>Bağdat Caddesi Kuru Temizleme | Takım Elbise 280₺ Gömlek 95₺ | Suadiye Erenköy | Dry Alle</title>
-    <meta name="description" content="Bağdat Caddesi'nde kuru temizleme: Takım elbise 280₺, Gömlek 95₺, Elbise 165₺. Suadiye-Erenköy-Caddebostan ücretsiz alım-teslim. Designer kıyafet bakımı. Ara: 0543 352 74 74">
+    <title>Bağdat Caddesi Kuru Temizleme | Takım Elbise 750₺ Gömlek 300₺ | Suadiye Erenköy | Dry Alle</title>
+    <meta name="description" content="Bağdat Caddesi'nde kuru temizleme: Takım elbise 750₺, Gömlek 300₺, Elbise 165₺. Suadiye-Erenköy-Caddebostan ücretsiz alım-teslim. Designer kıyafet bakımı. Ara: 0543 352 74 74">
     <meta name="keywords" content="bağdat caddesi haute couture temizleme, bağdat caddesi designer kıyafet temizleme, bağdat caddesi lüks elbise temizleme, bağdat caddesi couture gown temizlik, bağdat caddesi runway kıyafet temizleme, bağdat caddesi celebrity dress temizleme">
     
     <!-- Canonical URL -->
@@ -276,7 +276,7 @@
                 "name": "Bağdat Caddesi'nde kuru temizleme fiyatları ne kadar?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Bağdat Caddesi bölgesindeki kuru temizleme fiyatlarımız: Takım elbise 280₺, Gömlek 95₺, Elbise 165₺, Blazer/Ceket 180₺, Pantolon 110₺. Designer ve lüks markalara özel bakım hizmetimiz mevcuttur. Tüm fiyatlar ücretsiz kapıdan alım-teslim dahildir."
+                    "text": "Bağdat Caddesi bölgesindeki kuru temizleme fiyatlarımız: Takım elbise 750₺, Gömlek 300₺, Elbise 165₺, Blazer/Ceket 180₺, Pantolon 110₺. Designer ve lüks markalara özel bakım hizmetimiz mevcuttur. Tüm fiyatlar ücretsiz kapıdan alım-teslim dahildir."
                 }
             },
             {
@@ -360,7 +360,7 @@
             {
                 "@type": "Offer",
                 "name": "Takım Elbise Kuru Temizleme",
-                "price": "280",
+                "price": "750",
                 "priceCurrency": "TRY",
                 "availability": "https://schema.org/InStock",
                 "validFrom": "2025-01-01",
@@ -369,7 +369,7 @@
             {
                 "@type": "Offer",
                 "name": "Gömlek Kuru Temizleme",
-                "price": "95",
+                "price": "300",
                 "priceCurrency": "TRY",
                 "availability": "https://schema.org/InStock",
                 "validFrom": "2025-01-01",
@@ -408,7 +408,7 @@
                                 "@type": "Service",
                                 "name": "Takım Elbise"
                             },
-                            "price": "280",
+                            "price": "750",
                             "priceCurrency": "TRY"
                         },
                         {
@@ -417,7 +417,7 @@
                                 "@type": "Service",
                                 "name": "Gömlek"
                             },
-                            "price": "95",
+                            "price": "300",
                             "priceCurrency": "TRY"
                         }
                     ]
@@ -488,8 +488,14 @@
             </div>
         </div>
         
+        
+            <button class="mobile-menu-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-icon">☰</span>
+            </button>
+        </div>
+
         <!-- Navigation -->
-        <nav class="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
+        <nav class="main-nav" id="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
             <ul class="nav-menu" role="menubar">
                 <li role="none"><a href="../index.html" role="menuitem">Ana Sayfa</a></li>
                 <li role="none"><a href="../index.html#services" role="menuitem">Hizmetlerimiz</a></li>
@@ -519,7 +525,7 @@
                 <div class="service-hero-content">
                     <div class="service-hero-text">
                         <h1>Bağdat Caddesi Kuru Temizleme | Designer & Klasik Kıyafet Bakımı</h1>
-                        <p class="service-hero-subtitle">Suadiye, Erenköy, Caddebostan'da profesyonel kuru temizleme. Takım elbise 280₺, Gömlek 95₺, Designer kıyafetler özel bakım. 25 yıl deneyim, ücretsiz kapıdan alım-teslim.</p>
+                        <p class="service-hero-subtitle">Suadiye, Erenköy, Caddebostan'da profesyonel kuru temizleme. Takım elbise 750₺, Gömlek 300₺, Designer kıyafetler özel bakım. 25 yıl deneyim, ücretsiz kapıdan alım-teslim.</p>
                         
                         <div class="local-features">
                             <h3>Haute Couture Uzmanı</h3>
@@ -857,5 +863,29 @@
     <!-- GTM Component - Ana Tracking Sistemi -->
     <script src="../components/gtm.js"></script>
 
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (menuToggle && mainNav) {
+            menuToggle.addEventListener('click', function() {
+                const isOpen = mainNav.classList.toggle('open');
+                menuToggle.setAttribute('aria-expanded', isOpen);
+                menuToggle.querySelector('.hamburger-icon').textContent = isOpen ? '✕' : '☰';
+            });
+
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                    menuToggle.querySelector('.hamburger-icon').textContent = '☰';
+                });
+            });
+        }
+    });
+    </script>
 </body>
 </html>

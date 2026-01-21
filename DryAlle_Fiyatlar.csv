@@ -1,0 +1,881 @@
+﻿ID;Ürün Adı;Kategori;Alt Kategori;Hizmet Türü;Fiyat (TL);Popüler
+esofman-takim;EŞOFMAN TAKIM;erkek-giyim;erkek-alt-giyim;kuru-temizleme;600;EVET
+esofman-takim;EŞOFMAN TAKIM;erkek-giyim;erkek-alt-giyim;yikama;600;HAYIR
+esofman-takim;EŞOFMAN TAKIM;erkek-giyim;erkek-alt-giyim;utuleme;250;HAYIR
+takim-elbise;TAKIM ELBİSE (2 PARÇA);erkek-giyim;erkek-takim-elbise;kuru-temizleme;750;EVET
+takim-elbise;TAKIM ELBİSE (2 PARÇA);erkek-giyim;erkek-takim-elbise;utuleme;750;HAYIR
+takim-elbise;TAKIM ELBİSE (2 PARÇA);erkek-giyim;erkek-takim-elbise;boyama;350;HAYIR
+gomlek-erkek;GÖMLEK ERKEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+gomlek-erkek;GÖMLEK ERKEK;erkek-giyim;erkek-ust-giyim;yikama;300;HAYIR
+gomlek-erkek;GÖMLEK ERKEK;erkek-giyim;erkek-ust-giyim;utuleme;150;EVET
+ceket-erkek;CEKET ERKEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;450;EVET
+ceket-erkek;CEKET ERKEK;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+elbise-kadin;ELBİSE KADIN (NORMAL);kadin-giyim;kadin-elbise-takim;kuru-temizleme;600;EVET
+elbise-kadin;ELBİSE KADIN (NORMAL);kadin-giyim;kadin-elbise-takim;yikama;600;HAYIR
+elbise-kadin;ELBİSE KADIN (NORMAL);kadin-giyim;kadin-elbise-takim;utuleme;300;HAYIR
+bluz-kadin;BLUZ KADIN;kadin-giyim;kadin-ust-giyim;kuru-temizleme;350;EVET
+bluz-kadin;BLUZ KADIN;kadin-giyim;kadin-ust-giyim;yikama;350;HAYIR
+bluz-kadin;BLUZ KADIN;kadin-giyim;kadin-ust-giyim;utuleme;150;EVET
+gelinlik;GELİNLİK;kadin-giyim;kadin-ozel-giyim;kuru-temizleme;2500;EVET
+gelinlik;GELİNLİK;kadin-giyim;kadin-ozel-giyim;leke-cikarma;2500;HAYIR
+gelinlik;GELİNLİK;kadin-giyim;kadin-ozel-giyim;utuleme;1000;HAYIR
+cocuk-elbise;ÇOCUK ELBİSESİ;cocuk-giyim;cocuk-ozel-gunler;kuru-temizleme;500;EVET
+cocuk-elbise;ÇOCUK ELBİSESİ;cocuk-giyim;cocuk-ozel-gunler;yikama;500;HAYIR
+cocuk-elbise;ÇOCUK ELBİSESİ;cocuk-giyim;cocuk-ozel-gunler;utuleme;250;HAYIR
+hali-m2;HALI (m² Başına);ev-tekstili;hali-kilim;hali-yikama;200;EVET
+hali-m2;HALI (m² Başına);ev-tekstili;hali-kilim;hali-tamiri;2000;HAYIR
+hali-m2;HALI (m² Başına);ev-tekstili;hali-kilim;sacak-tamiri;2000;HAYIR
+hali-m2;HALI (m² Başına);ev-tekstili;hali-kilim;hali-boyama;5000;HAYIR
+koltuk-temizlik;KOLTUK TEMİZLİĞİ (Yerinde);ev-tekstili;mobilya-tekstili;yerinde-temizleme;3000;EVET
+koltuk-temizlik;KOLTUK TEMİZLİĞİ (Yerinde);ev-tekstili;mobilya-tekstili;leke-cikarma;3000;HAYIR
+koltuk-temizlik;KOLTUK TEMİZLİĞİ (Yerinde);ev-tekstili;mobilya-tekstili;antibakteriyel;3000;HAYIR
+perde-m2;PERDE (m² Başına);ev-tekstili;perde-tul;kuru-temizleme;50;EVET
+perde-m2;PERDE (m² Başına);ev-tekstili;perde-tul;yikama;50;HAYIR
+perde-m2;PERDE (m² Başına);ev-tekstili;perde-tul;utuleme;30;HAYIR
+deri-ceket;DERİ CEKET;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1500;EVET
+deri-ceket;DERİ CEKET;ozel-temizleme;canta-ayakkabi;deri-boyama;2500;HAYIR
+deri-ceket;DERİ CEKET;ozel-temizleme;canta-ayakkabi;leke-cikarma;1500;HAYIR
+kilim-m2;KİLİM (m² Başına);ev-tekstili;hali-kilim;yikama;350;EVET
+kilim-m2;KİLİM (m² Başına);ev-tekstili;hali-kilim;kuru-temizleme;350;HAYIR
+kilim-m2;KİLİM (m² Başına);ev-tekstili;hali-kilim;sacak-tamiri;2000;HAYIR
+yatak-ortusu;YATAK ÖRTÜSÜ;ev-tekstili;yatak-takimi;kuru-temizleme;1000;EVET
+yatak-ortusu;YATAK ÖRTÜSÜ;ev-tekstili;yatak-takimi;yikama;1000;HAYIR
+yatak-ortusu;YATAK ÖRTÜSÜ;ev-tekstili;yatak-takimi;utuleme;500;HAYIR
+carsaf-takimi;ÇARŞAF TAKIMI;ev-tekstili;yatak-takimi;yikama;500;EVET
+carsaf-takimi;ÇARŞAF TAKIMI;ev-tekstili;yatak-takimi;utuleme;250;HAYIR
+carsaf-takimi;ÇARŞAF TAKIMI;ev-tekstili;yatak-takimi;kuru-temizleme;500;HAYIR
+kanepe-3lu;KANEPE TEMİZLİĞİ (3lü);ev-tekstili;mobilya-tekstili;yerinde-temizleme;2000;EVET
+kanepe-3lu;KANEPE TEMİZLİĞİ (3lü);ev-tekstili;mobilya-tekstili;antibakteriyel;2000;HAYIR
+kanepe-3lu;KANEPE TEMİZLİĞİ (3lü);ev-tekstili;mobilya-tekstili;leke-cikarma;2000;HAYIR
+berjer-temizlik;BERJER TEMİZLİĞİ;ev-tekstili;mobilya-tekstili;yerinde-temizleme;1000;EVET
+berjer-temizlik;BERJER TEMİZLİĞİ;ev-tekstili;mobilya-tekstili;leke-cikarma;1000;HAYIR
+berjer-temizlik;BERJER TEMİZLİĞİ;ev-tekstili;mobilya-tekstili;antibakteriyel;1000;HAYIR
+silte-cift;ŞİLTE (Çift Kişilik);ev-tekstili;hali-kilim;yerinde-temizleme;350;EVET
+silte-cift;ŞİLTE (Çift Kişilik);ev-tekstili;hali-kilim;antibakteriyel;350;HAYIR
+silte-cift;ŞİLTE (Çift Kişilik);ev-tekstili;hali-kilim;leke-cikarma;350;HAYIR
+mi-nder-tadi-lat-elyaflama-batch2;MİNDER TADİLAT ELYAFLAMA;erkek-giyim;erkek-ust-giyim;yerinde-temizleme;1500;HAYIR
+mi-nder-tadi-lat-d-meleme-batch2;MİNDER TADİLAT/DÜĞMELEME;erkek-giyim;erkek-ust-giyim;yikama;1500;EVET
+mi-nder-tadi-lat-d-meleme-batch2;MİNDER TADİLAT/DÜĞMELEME;erkek-giyim;erkek-ust-giyim;yerinde-temizleme;1500;HAYIR
+mont-kap-onlu-batch2;MONT KAPŞONLU;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+mont-kap-onlu-batch2;MONT KAPŞONLU;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+motorcu-montu-batch2;MOTORCU MONTU;erkek-giyim;erkek-ust-giyim;kuru-temizleme;1250;EVET
+motorcu-montu-batch2;MOTORCU MONTU;erkek-giyim;erkek-ust-giyim;yikama;1250;EVET
+muhteli-f-temi-zleme-batch2;MUHTELİF TEMİZLEME;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+muhteli-f-temi-zleme-batch2;MUHTELİF TEMİZLEME;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+nevresi-m-i-ft-ki-i-li-k-batch2;NEVRESİM ÇİFT KİŞİLİK;ev-tekstili;yatak-takimi;kuru-temizleme;500;EVET
+nevresi-m-i-ft-ki-i-li-k-batch2;NEVRESİM ÇİFT KİŞİLİK;ev-tekstili;yatak-takimi;utuleme;250;HAYIR
+nevresi-m-i-ft-ki-i-li-k-batch2;NEVRESİM ÇİFT KİŞİLİK;ev-tekstili;yatak-takimi;yikama;500;EVET
+nevresi-m-tek-ki-i-li-k-batch2;NEVRESİM TEK KİŞİLİK;ev-tekstili;yatak-takimi;kuru-temizleme;450;EVET
+nevresi-m-tek-ki-i-li-k-batch2;NEVRESİM TEK KİŞİLİK;ev-tekstili;yatak-takimi;utuleme;250;HAYIR
+nevresi-m-tek-ki-i-li-k-batch2;NEVRESİM TEK KİŞİLİK;ev-tekstili;yatak-takimi;yikama;450;EVET
+overlok-normal-batch2;OVERLOK NORMAL;ozel-temizleme;canta-ayakkabi;hali-yikama;250;HAYIR
+overlok-y-n-batch2;OVERLOK YÜN;ozel-temizleme;canta-ayakkabi;hali-yikama;400;HAYIR
+pantolon-boyama-batch2;PANTOLON BOYAMA;erkek-giyim;erkek-alt-giyim;boyama;450;HAYIR
+pantolon-grubu-batch2;PANTOLON GRUBU;erkek-giyim;erkek-alt-giyim;kuru-temizleme;350;EVET
+pelu-mont-batch2;PELUŞ MONT;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+pelu-mont-batch2;PELUŞ MONT;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+perde-fon-i-ft-kat-batch2;PERDE FON ÇİFT KAT;ev-tekstili;perde-tul;kuru-temizleme;150;EVET
+perde-fon-i-ft-kat-batch2;PERDE FON ÇİFT KAT;ev-tekstili;perde-tul;utuleme;100;HAYIR
+perde-fon-i-ft-kat-batch2;PERDE FON ÇİFT KAT;ev-tekstili;perde-tul;yikama;150;EVET
+perde-fon-tek-kat-batch2;PERDE FON TEK KAT;ev-tekstili;perde-tul;kuru-temizleme;125;EVET
+perde-fon-tek-kat-batch2;PERDE FON TEK KAT;ev-tekstili;perde-tul;utuleme;75;HAYIR
+perde-fon-tek-kat-batch2;PERDE FON TEK KAT;ev-tekstili;perde-tul;yikama;125;EVET
+pi-ke-batch2;PİKE;ev-tekstili;yatak-takimi;kuru-temizleme;750;EVET
+pi-ke-batch2;PİKE;ev-tekstili;yatak-takimi;utuleme;400;HAYIR
+pi-ke-batch2;PİKE;ev-tekstili;yatak-takimi;yikama;750;EVET
+puf-batch2;PUF;ev-tekstili;mobilya-tekstili;yerinde-temizleme;450;EVET
+robte-ambir-batch2;ROBTEŞAMBIR;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+robte-ambir-batch2;ROBTEŞAMBIR;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+robte-ambir-batch2;ROBTEŞAMBIR;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+sandalye-temi-zleme-tam-batch2;SANDALYE TEMİZLEME TAM;ev-tekstili;mobilya-tekstili;yerinde-temizleme;350;EVET
+sandalye-temi-zleme-yarim-batch2;SANDALYE TEMİZLEME YARIM;ev-tekstili;mobilya-tekstili;yerinde-temizleme;300;EVET
+apka-boyama-batch2;ŞAPKA BOYAMA;erkek-giyim;erkek-ust-giyim;boyama;400;HAYIR
+stor-batch2;STOR;ev-tekstili;perde-tul;yikama;300;EVET
+tadi-lat-batch2;TADİLAT;ozel-temizleme;canta-ayakkabi;kuru-temizleme;500;EVET
+takim-elbi-se-batch2;TAKIM ELBİSE;erkek-giyim;erkek-takim-elbise;kuru-temizleme;750;EVET
+takim-elbi-se-batch2;TAKIM ELBİSE;erkek-giyim;erkek-takim-elbise;utuleme;400;HAYIR
+takim-elbi-se-batch2;TAKIM ELBİSE;erkek-giyim;erkek-takim-elbise;yikama;750;EVET
+terzi-tadi-lat-batch2;TERZİ TADİLAT;ozel-temizleme;canta-ayakkabi;kuru-temizleme;300;EVET
+tuhafi-ye-i-p-d-me-vs-demesi-batch2;TUHAFİYE İP/ DÜĞME VS. ÖDEMESİ;ozel-temizleme;canta-ayakkabi;yikama;200;EVET
+tuhafi-ye-i-p-d-me-vs-demesi-batch2;TUHAFİYE İP/ DÜĞME VS. ÖDEMESİ;ozel-temizleme;canta-ayakkabi;yerinde-temizleme;200;HAYIR
+t-l-batch2;TÜL;ev-tekstili;perde-tul;kuru-temizleme;60;EVET
+t-l-batch2;TÜL;ev-tekstili;perde-tul;utuleme;30;HAYIR
+t-l-batch2;TÜL;ev-tekstili;perde-tul;yikama;60;EVET
+t-l-store-st-dahi-l-batch2;TÜL STORE ST DAHİL;ev-tekstili;perde-tul;kuru-temizleme;300;EVET
+t-l-store-st-dahi-l-batch2;TÜL STORE ST DAHİL;ev-tekstili;perde-tul;yikama;300;EVET
+tulum-elbi-se-batch2;TULUM ELBİSE;kadin-giyim;kadin-elbise-takim;kuru-temizleme;600;EVET
+tulum-elbi-se-batch2;TULUM ELBİSE;kadin-giyim;kadin-elbise-takim;utuleme;300;HAYIR
+tulum-elbi-se-batch2;TULUM ELBİSE;kadin-giyim;kadin-elbise-takim;yikama;600;EVET
+tulum-elbi-se-batch2;TULUM ELBİSE;kadin-giyim;kadin-elbise-takim;boyama;700;HAYIR
+vi-scon-hali-batch2;VİSCON HALI;ev-tekstili;hali-kilim;hali-yikama;400;EVET
+vi-skon-yastik-batch2;VİSKON YASTIK;ev-tekstili;yatak-takimi;kuru-temizleme;600;EVET
+vi-skon-yastik-batch2;VİSKON YASTIK;ev-tekstili;yatak-takimi;yikama;600;EVET
+yatak-ba-li-i-i-ft-batch2;YATAK BAŞLIĞI ÇİFT;ev-tekstili;yatak-takimi;yerinde-temizleme;1500;EVET
+yatak-ba-li-i-tek-batch2;YATAK BAŞLIĞI TEK;ev-tekstili;yatak-takimi;yerinde-temizleme;1000;EVET
+yatak-pedi-batch2;YATAK PEDİ;ev-tekstili;yatak-takimi;kuru-temizleme;750;EVET
+yatak-pedi-batch2;YATAK PEDİ;ev-tekstili;yatak-takimi;yikama;750;EVET
+yatak-pedi-batch2;YATAK PEDİ;ev-tekstili;yatak-takimi;yerinde-temizleme;2000;HAYIR
+yatak-yikama-i-ft-batch2;YATAK YIKAMA ÇİFT;ev-tekstili;yatak-takimi;yerinde-temizleme;3000;EVET
+yatak-yikama-tek-batch2;YATAK YIKAMA TEK;ev-tekstili;yatak-takimi;yerinde-temizleme;2500;EVET
+yeri-nde-hali-yikama-batch2;YERİNDE HALI YIKAMA;ev-tekstili;hali-kilim;yerinde-temizleme;300;EVET
+yorgan-tek-ki-i-li-k-y-n-pamuk-batch2;YORGAN TEK KİŞİLİK YÜN /PAMUK;ev-tekstili;yatak-takimi;kuru-temizleme;800;EVET
+yorgan-tek-ki-i-li-k-y-n-pamuk-batch2;YORGAN TEK KİŞİLİK YÜN /PAMUK;ev-tekstili;yatak-takimi;yikama;800;EVET
+y-n-omuz-ali-batch2;YÜN OMUZ ŞALI;kadin-giyim;kadin-ust-giyim;kuru-temizleme;450;EVET
+y-n-omuz-ali-batch2;YÜN OMUZ ŞALI;kadin-giyim;kadin-ust-giyim;utuleme;250;HAYIR
+y-n-omuz-ali-batch2;YÜN OMUZ ŞALI;kadin-giyim;kadin-ust-giyim;yikama;450;EVET
+zebra-perde-batch2;ZEBRA PERDE;ev-tekstili;perde-tul;yikama;300;EVET
+zebra-t-l-batch2;ZEBRA TÜL;ev-tekstili;perde-tul;yikama;300;EVET
+ceket-batch2;CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;450;EVET
+ceket-batch2;CEKET;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+ceket-batch2;CEKET;erkek-giyim;erkek-ust-giyim;yikama;450;EVET
+ceket-batch2;CEKET;erkek-giyim;erkek-ust-giyim;boyama;750;HAYIR
+pantolon-batch2;PANTOLON;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+pantolon-batch2;PANTOLON;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+pantolon-batch2;PANTOLON;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+pantolon-batch2;PANTOLON;erkek-giyim;erkek-alt-giyim;boyama;450;HAYIR
+g-mlek-batch2;GÖMLEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+g-mlek-batch2;GÖMLEK;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+g-mlek-batch2;GÖMLEK;erkek-giyim;erkek-ust-giyim;yikama;300;EVET
+g-mlek-batch2;GÖMLEK;erkek-giyim;erkek-ust-giyim;boyama;450;HAYIR
+t-shi-rt-batch2;T-SHİRT;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+t-shi-rt-batch2;T-SHİRT;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+t-shi-rt-batch2;T-SHİRT;erkek-giyim;erkek-ust-giyim;yikama;300;EVET
+t-shi-rt-batch2;T-SHİRT;erkek-giyim;erkek-ust-giyim;boyama;450;HAYIR
+kazak-batch2;KAZAK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+kazak-batch2;KAZAK;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+kazak-batch2;KAZAK;erkek-giyim;erkek-ust-giyim;yikama;300;EVET
+kravat-batch2;KRAVAT;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+kravat-batch2;KRAVAT;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+kravat-batch2;KRAVAT;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+mont-batch2;MONT;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+mont-batch2;MONT;erkek-giyim;erkek-ust-giyim;utuleme;350;HAYIR
+mont-batch2;MONT;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+mont-batch2;MONT;erkek-giyim;erkek-ust-giyim;boyama;750;HAYIR
+kaban-batch2;KABAN;erkek-giyim;erkek-ust-giyim;kuru-temizleme;800;EVET
+kaban-batch2;KABAN;erkek-giyim;erkek-ust-giyim;utuleme;350;HAYIR
+kaban-batch3;KABAN;erkek-giyim;erkek-ust-giyim;yikama;800;EVET
+pardes-batch3;PARDESÜ;erkek-giyim;erkek-ust-giyim;kuru-temizleme;850;EVET
+pardes-batch3;PARDESÜ;erkek-giyim;erkek-ust-giyim;utuleme;400;HAYIR
+pardes-batch3;PARDESÜ;erkek-giyim;erkek-ust-giyim;yikama;850;EVET
+pardes-batch3;PARDESÜ;erkek-giyim;erkek-ust-giyim;boyama;500;HAYIR
+manto-palto-batch3;MANTO - PALTO;kadin-giyim;kadin-ust-giyim;kuru-temizleme;800;EVET
+manto-palto-batch3;MANTO - PALTO;kadin-giyim;kadin-ust-giyim;utuleme;350;HAYIR
+manto-palto-batch3;MANTO - PALTO;kadin-giyim;kadin-ust-giyim;yikama;800;EVET
+yelek-batch3;YELEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;400;EVET
+yelek-batch3;YELEK;erkek-giyim;erkek-ust-giyim;utuleme;200;HAYIR
+yelek-batch3;YELEK;erkek-giyim;erkek-ust-giyim;yikama;400;EVET
+bluz-batch3;BLUZ;kadin-giyim;kadin-ust-giyim;kuru-temizleme;350;EVET
+bluz-batch3;BLUZ;kadin-giyim;kadin-ust-giyim;utuleme;150;HAYIR
+bluz-batch3;BLUZ;kadin-giyim;kadin-ust-giyim;yikama;350;EVET
+bluz-batch3;BLUZ;kadin-giyim;kadin-ust-giyim;boyama;450;HAYIR
+etek-batch3;ETEK;kadin-giyim;kadin-ust-giyim;kuru-temizleme;350;EVET
+etek-batch3;ETEK;kadin-giyim;kadin-ust-giyim;utuleme;150;HAYIR
+etek-batch3;ETEK;kadin-giyim;kadin-ust-giyim;yikama;350;EVET
+etek-batch3;ETEK;kadin-giyim;kadin-ust-giyim;boyama;450;HAYIR
+bayan-elbi-se-batch3;BAYAN ELBİSE;kadin-giyim;kadin-elbise-takim;kuru-temizleme;600;EVET
+bayan-elbi-se-batch3;BAYAN ELBİSE;kadin-giyim;kadin-elbise-takim;utuleme;300;HAYIR
+bayan-elbi-se-batch3;BAYAN ELBİSE;kadin-giyim;kadin-elbise-takim;yikama;600;EVET
+bayan-elbi-se-batch3;BAYAN ELBİSE;kadin-giyim;kadin-elbise-takim;boyama;800;HAYIR
+d-pi-yes-batch3;DÖPİYES;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+d-pi-yes-batch3;DÖPİYES;erkek-giyim;erkek-ust-giyim;utuleme;350;HAYIR
+d-pi-yes-batch3;DÖPİYES;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+mont-kaz-t-y-batch3;MONT KAZ TÜYÜ;erkek-giyim;erkek-ust-giyim;kuru-temizleme;850;EVET
+mont-kaz-t-y-batch3;MONT KAZ TÜYÜ;erkek-giyim;erkek-ust-giyim;utuleme;500;HAYIR
+mont-kaz-t-y-batch3;MONT KAZ TÜYÜ;erkek-giyim;erkek-ust-giyim;yikama;850;EVET
+kaban-kaz-t-y-batch3;KABAN KAZ TÜYÜ;erkek-giyim;erkek-ust-giyim;kuru-temizleme;950;EVET
+kaban-kaz-t-y-batch3;KABAN KAZ TÜYÜ;erkek-giyim;erkek-ust-giyim;utuleme;500;HAYIR
+kaban-kaz-t-y-batch3;KABAN KAZ TÜYÜ;erkek-giyim;erkek-ust-giyim;yikama;950;EVET
+al-batch3;ŞAL;kadin-giyim;kadin-ust-giyim;kuru-temizleme;300;EVET
+al-batch3;ŞAL;kadin-giyim;kadin-ust-giyim;utuleme;150;HAYIR
+al-batch3;ŞAL;kadin-giyim;kadin-ust-giyim;yikama;300;EVET
+atki-batch3;ATKI;kadin-giyim;kadin-ust-giyim;kuru-temizleme;300;EVET
+atki-batch3;ATKI;kadin-giyim;kadin-ust-giyim;yikama;150;EVET
+e-arp-batch3;EŞARP;kadin-giyim;kadin-ust-giyim;kuru-temizleme;300;EVET
+e-arp-batch3;EŞARP;kadin-giyim;kadin-ust-giyim;utuleme;150;HAYIR
+e-arp-batch3;EŞARP;kadin-giyim;kadin-ust-giyim;yikama;300;EVET
+g-mlek-i-pek-batch3;GÖMLEK İPEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;450;EVET
+g-mlek-i-pek-batch3;GÖMLEK İPEK;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+g-mlek-i-pek-batch3;GÖMLEK İPEK;erkek-giyim;erkek-ust-giyim;yikama;450;EVET
+zel-elbi-se-batch3;ÖZEL ELBİSE;kadin-giyim;kadin-ozel-giyim;kuru-temizleme;850;EVET
+zel-elbi-se-batch3;ÖZEL ELBİSE;kadin-giyim;kadin-ozel-giyim;utuleme;400;HAYIR
+zel-elbi-se-batch3;ÖZEL ELBİSE;kadin-giyim;kadin-ozel-giyim;yikama;850;EVET
+deri-elbi-se-batch3;DERİ ELBİSE;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+deri-elbi-se-batch3;DERİ ELBİSE;ozel-temizleme;canta-ayakkabi;utuleme;1000;HAYIR
+deri-elbi-se-batch3;DERİ ELBİSE;ozel-temizleme;canta-ayakkabi;yikama;2000;EVET
+deri-elbi-se-batch3;DERİ ELBİSE;ozel-temizleme;canta-ayakkabi;boyama;4000;HAYIR
+abi-ye-elbi-se-batch3;ABİYE ELBİSE;kadin-giyim;kadin-ozel-giyim;kuru-temizleme;1000;EVET
+abi-ye-elbi-se-batch3;ABİYE ELBİSE;kadin-giyim;kadin-ozel-giyim;utuleme;500;HAYIR
+abi-ye-elbi-se-batch3;ABİYE ELBİSE;kadin-giyim;kadin-ozel-giyim;yikama;1000;EVET
+geli-nli-k-batch3;GELİNLİK;kadin-giyim;kadin-ozel-giyim;kuru-temizleme;3000;EVET
+geli-nli-k-batch3;GELİNLİK;kadin-giyim;kadin-ozel-giyim;utuleme;1500;HAYIR
+geli-nli-k-batch3;GELİNLİK;kadin-giyim;kadin-ozel-giyim;yikama;3000;EVET
+mont-deri-batch3;MONT DERİ;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+mont-deri-batch3;MONT DERİ;ozel-temizleme;canta-ayakkabi;utuleme;1000;HAYIR
+mont-deri-batch3;MONT DERİ;ozel-temizleme;canta-ayakkabi;yikama;2000;EVET
+ceket-deri-batch3;CEKET DERİ;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+ceket-deri-batch3;CEKET DERİ;ozel-temizleme;canta-ayakkabi;utuleme;1000;HAYIR
+ceket-deri-batch3;CEKET DERİ;ozel-temizleme;canta-ayakkabi;yikama;2000;EVET
+ceket-s-et-batch3;CEKET SÜET;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+ceket-s-et-batch3;CEKET SÜET;ozel-temizleme;canta-ayakkabi;utuleme;1000;HAYIR
+ceket-s-et-batch3;CEKET SÜET;ozel-temizleme;canta-ayakkabi;yikama;2000;EVET
+ceket-s-et-batch3;CEKET SÜET;ozel-temizleme;canta-ayakkabi;boyama;4000;HAYIR
+ceket-nubuk-batch3;CEKET NUBUK;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+ceket-nubuk-batch3;CEKET NUBUK;ozel-temizleme;canta-ayakkabi;utuleme;1000;HAYIR
+ceket-nubuk-batch3;CEKET NUBUK;ozel-temizleme;canta-ayakkabi;yikama;2000;EVET
+ceket-nubuk-batch3;CEKET NUBUK;ozel-temizleme;canta-ayakkabi;boyama;3000;HAYIR
+mont-nubuk-batch3;MONT NUBUK;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+mont-nubuk-batch3;MONT NUBUK;ozel-temizleme;canta-ayakkabi;utuleme;1000;HAYIR
+mont-nubuk-batch3;MONT NUBUK;ozel-temizleme;canta-ayakkabi;yikama;2000;EVET
+hali-maki-ne-batch3;HALI MAKİNE;ev-tekstili;hali-kilim;hali-yikama;200;EVET
+hali-nepal-batch3;HALI NEPAL;ev-tekstili;hali-kilim;hali-yikama;450;EVET
+hali-shagy-batch3;HALI SHAGY;ev-tekstili;hali-kilim;hali-yikama;350;EVET
+hali-step-batch3;HALI STEP;ev-tekstili;hali-kilim;hali-yikama;450;EVET
+hali-maki-ne-y-n-batch3;HALI MAKİNE YÜNÜ;ev-tekstili;hali-kilim;hali-yikama;300;EVET
+battani-ye-batch3;BATTANİYE;ev-tekstili;yatak-takimi;kuru-temizleme;750;EVET
+battani-ye-batch3;BATTANİYE;ev-tekstili;yatak-takimi;utuleme;350;HAYIR
+battani-ye-batch3;BATTANİYE;ev-tekstili;yatak-takimi;yikama;750;EVET
+bornoz-batch3;BORNOZ;ev-tekstili;yatak-takimi;kuru-temizleme;450;EVET
+bornoz-batch3;BORNOZ;ev-tekstili;yatak-takimi;utuleme;200;HAYIR
+bornoz-batch3;BORNOZ;ev-tekstili;yatak-takimi;yikama;400;EVET
+boxer-batch3;BOXER;erkek-giyim;erkek-ust-giyim;kuru-temizleme;150;EVET
+boxer-batch3;BOXER;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+boxer-batch3;BOXER;erkek-giyim;erkek-ust-giyim;yikama;150;EVET
+ar-af-batch3;ÇARŞAF;ev-tekstili;yatak-takimi;kuru-temizleme;350;EVET
+ar-af-batch3;ÇARŞAF;ev-tekstili;yatak-takimi;yikama;350;EVET
+ocuk-elbi-se-batch3;ÇOCUK ELBİSE;cocuk-giyim;cocuk-ozel-gunler;kuru-temizleme;500;EVET
+ocuk-elbi-se-batch3;ÇOCUK ELBİSE;cocuk-giyim;cocuk-ozel-gunler;utuleme;250;HAYIR
+ocuk-elbi-se-batch3;ÇOCUK ELBİSE;cocuk-giyim;cocuk-ozel-gunler;yikama;500;EVET
+ocuk-elbi-se-batch3;ÇOCUK ELBİSE;cocuk-giyim;cocuk-ozel-gunler;boyama;750;HAYIR
+orap-batch3;ÇORAP;erkek-giyim;erkek-ust-giyim;kuru-temizleme;100;EVET
+orap-batch3;ÇORAP;erkek-giyim;erkek-ust-giyim;utuleme;50;HAYIR
+orap-batch3;ÇORAP;erkek-giyim;erkek-ust-giyim;yikama;100;EVET
+c-bbe-kep-batch3;CÜBBE - KEP;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+c-bbe-kep-batch3;CÜBBE - KEP;erkek-giyim;erkek-ust-giyim;utuleme;400;HAYIR
+c-bbe-kep-batch3;CÜBBE - KEP;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+havlu-b-y-k-batch3;HAVLU BÜYÜK;ev-tekstili;yatak-takimi;kuru-temizleme;350;EVET
+havlu-b-y-k-batch4;HAVLU BÜYÜK;ev-tekstili;yatak-takimi;utuleme;200;HAYIR
+havlu-b-y-k-batch4;HAVLU BÜYÜK;ev-tekstili;yatak-takimi;yikama;350;EVET
+havlu-k-k-batch4;HAVLU KÜÇÜK;ev-tekstili;yatak-takimi;kuru-temizleme;250;EVET
+havlu-k-k-batch4;HAVLU KÜÇÜK;ev-tekstili;yatak-takimi;utuleme;150;HAYIR
+havlu-k-k-batch4;HAVLU KÜÇÜK;ev-tekstili;yatak-takimi;yikama;250;EVET
+kaz-t-y-yastik-batch4;KAZ TÜYÜ YASTIK;ev-tekstili;yatak-takimi;kuru-temizleme;750;EVET
+kaz-t-y-yastik-batch4;KAZ TÜYÜ YASTIK;ev-tekstili;yatak-takimi;yikama;750;EVET
+nevresi-m-takimi-batch4;NEVRESİM TAKIMI;ev-tekstili;yatak-takimi;kuru-temizleme;1200;EVET
+nevresi-m-takimi-batch4;NEVRESİM TAKIMI;ev-tekstili;yatak-takimi;utuleme;600;HAYIR
+nevresi-m-takimi-batch4;NEVRESİM TAKIMI;ev-tekstili;yatak-takimi;yikama;1200;EVET
+perde-kadi-fe-batch4;PERDE KADİFE;ev-tekstili;perde-tul;kuru-temizleme;150;EVET
+perde-kadi-fe-batch4;PERDE KADİFE;ev-tekstili;perde-tul;utuleme;100;HAYIR
+perde-kadi-fe-batch4;PERDE KADİFE;ev-tekstili;perde-tul;yikama;150;EVET
+perde-stor-st-dahi-l-batch4;PERDE STOR ST DAHİL;ev-tekstili;perde-tul;kuru-temizleme;300;EVET
+perde-stor-st-dahi-l-batch4;PERDE STOR ST DAHİL;ev-tekstili;perde-tul;utuleme;150;HAYIR
+perde-stor-st-dahi-l-batch4;PERDE STOR ST DAHİL;ev-tekstili;perde-tul;yikama;300;EVET
+perde-stor-st-hari-batch4;PERDE STOR ST HARİÇ;ev-tekstili;perde-tul;kuru-temizleme;250;EVET
+perde-stor-st-hari-batch4;PERDE STOR ST HARİÇ;ev-tekstili;perde-tul;yikama;250;EVET
+perde-katlmali-st-dahi-l-batch4;PERDE KATLMALI ST DAHİL;ev-tekstili;perde-tul;kuru-temizleme;400;EVET
+perde-katlmali-st-dahi-l-batch4;PERDE KATLMALI ST DAHİL;ev-tekstili;perde-tul;utuleme;200;HAYIR
+perde-katlmali-st-dahi-l-batch4;PERDE KATLMALI ST DAHİL;ev-tekstili;perde-tul;yikama;400;EVET
+perde-katlmali-st-hari-batch4;PERDE KATLMALI ST HARİÇ;ev-tekstili;perde-tul;kuru-temizleme;300;EVET
+perde-katlmali-st-hari-batch4;PERDE KATLMALI ST HARİÇ;ev-tekstili;perde-tul;utuleme;150;HAYIR
+perde-katlmali-st-hari-batch4;PERDE KATLMALI ST HARİÇ;ev-tekstili;perde-tul;yikama;300;EVET
+perde-t-l-b-y-k-batch4;PERDE TÜL BÜYÜK;ev-tekstili;perde-tul;kuru-temizleme;1200;EVET
+perde-t-l-b-y-k-batch4;PERDE TÜL BÜYÜK;ev-tekstili;perde-tul;utuleme;600;HAYIR
+perde-t-l-b-y-k-batch4;PERDE TÜL BÜYÜK;ev-tekstili;perde-tul;yikama;1200;EVET
+perde-t-l-k-k-batch4;PERDE TÜL KÜÇÜK;ev-tekstili;perde-tul;kuru-temizleme;750;EVET
+perde-t-l-k-k-batch4;PERDE TÜL KÜÇÜK;ev-tekstili;perde-tul;utuleme;400;HAYIR
+perde-t-l-k-k-batch4;PERDE TÜL KÜÇÜK;ev-tekstili;perde-tul;yikama;750;EVET
+perde-t-l-orta-batch4;PERDE TÜL ORTA;ev-tekstili;perde-tul;kuru-temizleme;1000;EVET
+perde-t-l-orta-batch4;PERDE TÜL ORTA;ev-tekstili;perde-tul;utuleme;500;HAYIR
+perde-t-l-orta-batch4;PERDE TÜL ORTA;ev-tekstili;perde-tul;yikama;1000;EVET
+perde-zebra-st-dahi-l-batch4;PERDE ZEBRA ST DAHİL;ev-tekstili;perde-tul;kuru-temizleme;300;EVET
+perde-zebra-st-dahi-l-batch4;PERDE ZEBRA ST DAHİL;ev-tekstili;perde-tul;yikama;250;EVET
+perde-zebra-st-hari-batch4;PERDE ZEBRA ST HARİÇ;ev-tekstili;perde-tul;kuru-temizleme;300;EVET
+perde-zebra-st-hari-batch4;PERDE ZEBRA ST HARİÇ;ev-tekstili;perde-tul;yikama;250;EVET
+perde-keten-batch4;PERDE KETEN;ev-tekstili;perde-tul;kuru-temizleme;150;EVET
+perde-keten-batch4;PERDE KETEN;ev-tekstili;perde-tul;utuleme;100;HAYIR
+perde-keten-batch4;PERDE KETEN;ev-tekstili;perde-tul;yikama;150;EVET
+perde-saten-batch4;PERDE SATEN;ev-tekstili;perde-tul;kuru-temizleme;200;EVET
+perde-saten-batch4;PERDE SATEN;ev-tekstili;perde-tul;utuleme;100;HAYIR
+perde-saten-batch4;PERDE SATEN;ev-tekstili;perde-tul;yikama;200;EVET
+etek-pi-leli-batch4;ETEK PİLELİ;kadin-giyim;kadin-ust-giyim;kuru-temizleme;500;EVET
+etek-pi-leli-batch4;ETEK PİLELİ;kadin-giyim;kadin-ust-giyim;utuleme;300;HAYIR
+etek-pi-leli-batch4;ETEK PİLELİ;kadin-giyim;kadin-ust-giyim;yikama;500;EVET
+si-moki-n-batch4;SİMOKİN;erkek-giyim;erkek-takim-elbise;kuru-temizleme;1250;EVET
+si-moki-n-batch4;SİMOKİN;erkek-giyim;erkek-takim-elbise;utuleme;750;HAYIR
+si-moki-n-batch4;SİMOKİN;erkek-giyim;erkek-takim-elbise;yikama;1250;EVET
+ort-batch4;ŞORT;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+ort-batch4;ŞORT;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+ort-batch4;ŞORT;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+yastik-batch4;YASTIK;ev-tekstili;yatak-takimi;kuru-temizleme;450;EVET
+yastik-batch4;YASTIK;ev-tekstili;yatak-takimi;utuleme;200;HAYIR
+yastik-batch4;YASTIK;ev-tekstili;yatak-takimi;yikama;450;EVET
+yastik-y-z-batch4;YASTIK YÜZÜ;ev-tekstili;yatak-takimi;kuru-temizleme;250;EVET
+yastik-y-z-batch4;YASTIK YÜZÜ;ev-tekstili;yatak-takimi;hali-yikama;400;HAYIR
+yatak-rt-s-g-nl-k-batch4;YATAK ÖRTÜSÜ GÜNLÜK;ev-tekstili;yatak-takimi;kuru-temizleme;750;EVET
+yatak-rt-s-g-nl-k-batch4;YATAK ÖRTÜSÜ GÜNLÜK;ev-tekstili;yatak-takimi;utuleme;400;HAYIR
+yatak-rt-s-g-nl-k-batch4;YATAK ÖRTÜSÜ GÜNLÜK;ev-tekstili;yatak-takimi;yikama;750;EVET
+yatak-rt-s-zel-batch4;YATAK ÖRTÜSÜ ÖZEL;ev-tekstili;yatak-takimi;kuru-temizleme;1500;EVET
+yatak-rt-s-zel-batch4;YATAK ÖRTÜSÜ ÖZEL;ev-tekstili;yatak-takimi;yikama;1500;EVET
+yorgan-elyaf-k-batch4;YORGAN ELYAF ÇK;ev-tekstili;yatak-takimi;kuru-temizleme;750;EVET
+yorgan-elyaf-k-batch4;YORGAN ELYAF ÇK;ev-tekstili;yatak-takimi;yikama;750;EVET
+yorgan-elyaf-tk-batch4;YORGAN ELYAF TK;ev-tekstili;yatak-takimi;kuru-temizleme;750;EVET
+yorgan-elyaf-tk-batch4;YORGAN ELYAF TK;ev-tekstili;yatak-takimi;yikama;750;EVET
+yorgan-kaz-t-y-batch4;YORGAN KAZ TÜYÜ;ev-tekstili;yatak-takimi;kuru-temizleme;1200;EVET
+yorgan-kaz-t-y-batch4;YORGAN KAZ TÜYÜ;ev-tekstili;yatak-takimi;yikama;1200;EVET
+yorgan-y-z-batch4;YORGAN YÜZÜ;ev-tekstili;yatak-takimi;kuru-temizleme;500;EVET
+yorgan-y-z-batch4;YORGAN YÜZÜ;ev-tekstili;yatak-takimi;utuleme;300;HAYIR
+yorgan-y-z-batch4;YORGAN YÜZÜ;ev-tekstili;yatak-takimi;yikama;300;EVET
+yorgan-pamuk-y-n-batch4;YORGAN PAMUK-YÜN;ev-tekstili;yatak-takimi;kuru-temizleme;850;EVET
+yorgan-pamuk-y-n-batch4;YORGAN PAMUK-YÜN;ev-tekstili;yatak-takimi;yikama;850;EVET
+havlu-batch4;HAVLU;ev-tekstili;yatak-takimi;kuru-temizleme;150;EVET
+havlu-batch4;HAVLU;ev-tekstili;yatak-takimi;utuleme;100;HAYIR
+havlu-batch4;HAVLU;ev-tekstili;yatak-takimi;yikama;150;EVET
+battani-ye-battal-batch4;BATTANİYE BATTAL;ev-tekstili;yatak-takimi;kuru-temizleme;800;EVET
+battani-ye-battal-batch4;BATTANİYE BATTAL;ev-tekstili;yatak-takimi;yikama;800;EVET
+ocuk-abi-ye-batch4;ÇOCUK ABİYE;cocuk-giyim;cocuk-ozel-gunler;kuru-temizleme;750;EVET
+ocuk-abi-ye-batch4;ÇOCUK ABİYE;cocuk-giyim;cocuk-ozel-gunler;utuleme;400;HAYIR
+ocuk-abi-ye-batch4;ÇOCUK ABİYE;cocuk-giyim;cocuk-ozel-gunler;yikama;750;EVET
+hirka-batch4;HIRKA;kadin-giyim;kadin-ust-giyim;kuru-temizleme;400;EVET
+hirka-batch4;HIRKA;kadin-giyim;kadin-ust-giyim;utuleme;150;HAYIR
+hirka-batch4;HIRKA;kadin-giyim;kadin-ust-giyim;yikama;400;EVET
+nubuk-elbi-se-batch4;NUBUK ELBİSE;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+mi-nder-y-z-batch4;MİNDER YÜZÜ;ev-tekstili;mobilya-tekstili;kuru-temizleme;250;EVET
+koltuk-rt-s-batch4;KOLTUK ÖRTÜSÜ;ev-tekstili;mobilya-tekstili;kuru-temizleme;500;EVET
+banyo-ki-li-mi-batch4;BANYO KİLİMİ;ev-tekstili;hali-kilim;kuru-temizleme;400;EVET
+banyo-ki-li-mi-batch4;BANYO KİLİMİ;ev-tekstili;hali-kilim;yikama;400;EVET
+yorgan-ku-t-y-batch4;YORGAN KUŞTÜYÜ;ev-tekstili;yatak-takimi;kuru-temizleme;1200;EVET
+yorgan-ku-t-y-batch4;YORGAN KUŞTÜYÜ;ev-tekstili;yatak-takimi;yikama;1200;EVET
+anta-batch4;ÇANTA;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1000;EVET
+anta-batch4;ÇANTA;ozel-temizleme;canta-ayakkabi;yikama;1000;EVET
+anta-batch4;ÇANTA;ozel-temizleme;canta-ayakkabi;boyama;2000;HAYIR
+anta-deri-batch4;ÇANTA DERİ;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+anta-deri-batch4;ÇANTA DERİ;ozel-temizleme;canta-ayakkabi;yikama;2000;EVET
+anta-deri-batch4;ÇANTA DERİ;ozel-temizleme;canta-ayakkabi;boyama;2500;HAYIR
+anta-s-et-batch4;ÇANTA SÜET;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+anta-s-et-batch4;ÇANTA SÜET;ozel-temizleme;canta-ayakkabi;yikama;2000;EVET
+anta-s-et-batch4;ÇANTA SÜET;ozel-temizleme;canta-ayakkabi;boyama;2500;HAYIR
+ayakkabi-batch5;AYAKKABI;ozel-temizleme;canta-ayakkabi;kuru-temizleme;900;EVET
+ayakkabi-batch5;AYAKKABI;ozel-temizleme;canta-ayakkabi;yikama;900;EVET
+ayakkabi-batch5;AYAKKABI;ozel-temizleme;canta-ayakkabi;lostra;1000;HAYIR
+atlet-batch5;ATLET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;200;EVET
+atlet-batch5;ATLET;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+atlet-batch5;ATLET;erkek-giyim;erkek-ust-giyim;yikama;200;EVET
+deri-ayakkabi-batch5;DERİ AYAKKABI;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1000;EVET
+deri-ayakkabi-batch5;DERİ AYAKKABI;ozel-temizleme;canta-ayakkabi;yikama;1000;EVET
+deri-ayakkabi-batch5;DERİ AYAKKABI;ozel-temizleme;canta-ayakkabi;lostra;1000;HAYIR
+battani-ye-tk-batch5;BATTANİYE TK;ev-tekstili;yatak-takimi;kuru-temizleme;750;EVET
+battani-ye-tk-batch5;BATTANİYE TK;ev-tekstili;yatak-takimi;yikama;750;EVET
+battani-ye-yun-ck-batch5;BATTANİYE YÜN ÇK;ev-tekstili;yatak-takimi;kuru-temizleme;1000;EVET
+battani-ye-yun-ck-batch5;BATTANİYE YÜN ÇK;ev-tekstili;yatak-takimi;yikama;1000;EVET
+battani-ye-yun-tk-batch5;BATTANİYE YÜN TK;ev-tekstili;yatak-takimi;kuru-temizleme;1000;EVET
+battani-ye-yun-tk-batch5;BATTANİYE YÜN TK;ev-tekstili;yatak-takimi;yikama;1000;EVET
+bayrak-batch5;BAYRAK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+bayrak-batch5;BAYRAK;erkek-giyim;erkek-ust-giyim;utuleme;200;HAYIR
+bayrak-batch5;BAYRAK;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+bere-batch5;BERE;erkek-giyim;erkek-ust-giyim;kuru-temizleme;150;EVET
+bere-batch5;BERE;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+bere-batch5;BERE;erkek-giyim;erkek-ust-giyim;yikama;150;EVET
+bermuda-batch5;BERMUDA;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+bermuda-batch5;BERMUDA;erkek-giyim;erkek-alt-giyim;utuleme;100;HAYIR
+bermuda-batch5;BERMUDA;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+bermuda-deri-batch5;BERMUDA DERİ;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+bermuda-deri-batch5;BERMUDA DERİ;ozel-temizleme;canta-ayakkabi;utuleme;1000;HAYIR
+bermuda-deri-batch5;BERMUDA DERİ;ozel-temizleme;canta-ayakkabi;yikama;1000;EVET
+bone-batch5;BONE;erkek-giyim;erkek-ust-giyim;kuru-temizleme;150;EVET
+bone-batch5;BONE;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+bone-batch5;BONE;erkek-giyim;erkek-ust-giyim;yikama;150;EVET
+bra-suti-yen-batch5;BRA / SÜTİYEN;kadin-giyim;kadin-ust-giyim;kuru-temizleme;250;EVET
+bra-suti-yen-batch5;BRA / SÜTİYEN;kadin-giyim;kadin-ust-giyim;utuleme;100;HAYIR
+bra-suti-yen-batch5;BRA / SÜTİYEN;kadin-giyim;kadin-ust-giyim;yikama;250;EVET
+canta-keten-batch5;ÇANTA KETEN;ozel-temizleme;canta-ayakkabi;kuru-temizleme;750;EVET
+canta-keten-batch5;ÇANTA KETEN;ozel-temizleme;canta-ayakkabi;yikama;750;EVET
+canta-keten-batch5;ÇANTA KETEN;ozel-temizleme;canta-ayakkabi;boyama;750;HAYIR
+canta-kuma-batch5;ÇANTA KUMAŞ;ozel-temizleme;canta-ayakkabi;kuru-temizleme;750;EVET
+canta-kuma-batch5;ÇANTA KUMAŞ;ozel-temizleme;canta-ayakkabi;yikama;750;EVET
+canta-kuma-batch5;ÇANTA KUMAŞ;ozel-temizleme;canta-ayakkabi;boyama;750;HAYIR
+ci-cek-batch5;ÇİÇEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+ci-cek-batch5;ÇİÇEK;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+ci-cek-batch5;ÇİÇEK;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+cicek-yaka-batch5;ÇİÇEK YAKA;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+cicek-yaka-batch5;ÇİÇEK YAKA;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+cicek-yaka-batch5;ÇİÇEK YAKA;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+detay-i-leme-batch5;DETAY İŞLEME;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+detay-i-leme-batch5;DETAY İŞLEME;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+detay-i-leme-batch5;DETAY İŞLEME;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+dog-um-elbi-sesi-batch5;DOĞUM ELBİSESİ;kadin-giyim;kadin-ust-giyim;kuru-temizleme;750;EVET
+dog-um-elbi-sesi-batch5;DOĞUM ELBİSESİ;kadin-giyim;kadin-ust-giyim;utuleme;400;HAYIR
+dog-um-elbi-sesi-batch5;DOĞUM ELBİSESİ;kadin-giyim;kadin-ust-giyim;yikama;750;EVET
+durumlu-masa-rtus-batch5;DURUMLU MASA ÖRTÜSÜ;ev-tekstili;mobilya-tekstili;kuru-temizleme;500;EVET
+durumlu-masa-rtus-batch5;DURUMLU MASA ÖRTÜSÜ;ev-tekstili;mobilya-tekstili;utuleme;300;HAYIR
+durumlu-masa-rtus-batch5;DURUMLU MASA ÖRTÜSÜ;ev-tekstili;mobilya-tekstili;yikama;500;EVET
+eldi-ven-batch5;ELDİVEN;erkek-giyim;erkek-ust-giyim;kuru-temizleme;150;EVET
+eldi-ven-batch5;ELDİVEN;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+eldi-ven-batch5;ELDİVEN;erkek-giyim;erkek-ust-giyim;yikama;150;EVET
+esofman-alt-batch5;EŞOFMAN ALT;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+esofman-alt-batch5;EŞOFMAN ALT;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+esofman-alt-batch5;EŞOFMAN ALT;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+esofman-ust-batch5;EŞOFMAN ÜST;erkek-giyim;erkek-ust-giyim;kuru-temizleme;350;EVET
+esofman-ust-batch5;EŞOFMAN ÜST;erkek-giyim;erkek-ust-giyim;utuleme;125;HAYIR
+esofman-ust-batch5;EŞOFMAN ÜST;erkek-giyim;erkek-ust-giyim;yikama;350;EVET
+fanila-batch5;FANİLA;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+fanila-batch5;FANİLA;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+fanila-batch5;FANİLA;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+fular-batch5;FULAR;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+fular-batch5;FULAR;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+fular-batch5;FULAR;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+gardrop-aylık-batch5;GARDROP AYLIK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;2000;EVET
+jartiyer-batch5;JARTİYER;kadin-giyim;kadin-ust-giyim;kuru-temizleme;350;EVET
+jartiyer-batch5;JARTİYER;kadin-giyim;kadin-ust-giyim;utuleme;100;HAYIR
+jartiyer-batch5;JARTİYER;kadin-giyim;kadin-ust-giyim;yikama;350;EVET
+jeans-pantolon-batch5;JEANS PANTOLON;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+jeans-pantolon-batch5;JEANS PANTOLON;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+jeans-pantolon-batch5;JEANS PANTOLON;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+jeans-pantolon-batch5;JEANS PANTOLON;erkek-giyim;erkek-alt-giyim;boyama;450;HAYIR
+kimono-batch5;KİMONO;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+kimono-batch5;KİMONO;erkek-giyim;erkek-ust-giyim;utuleme;350;HAYIR
+kimono-batch5;KİMONO;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+kravat-papyon-batch5;KRAVAT / PAPYON;erkek-giyim;erkek-ust-giyim;kuru-temizleme;150;EVET
+kravat-papyon-batch5;KRAVAT / PAPYON;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+kravat-papyon-batch5;KRAVAT / PAPYON;erkek-giyim;erkek-ust-giyim;yikama;150;EVET
+kus-eri-batch5;KUŞAK / KEMERİ;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+kus-eri-batch5;KUŞAK / KEMERİ;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+kus-eri-batch5;KUŞAK / KEMERİ;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+mant-lla-batch5;MANTİLLA;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+mant-lla-batch5;MANTİLLA;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+mant-lla-batch5;MANTİLLA;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+masa-rtus-batch5;MASA ÖRTÜSÜ;ev-tekstili;mobilya-tekstili;kuru-temizleme;500;EVET
+masa-rtus-batch5;MASA ÖRTÜSÜ;ev-tekstili;mobilya-tekstili;utuleme;250;HAYIR
+masa-rtus-batch5;MASA ÖRTÜSÜ;ev-tekstili;mobilya-tekstili;yikama;500;EVET
+mayo-bikni-batch5;MAYO / BİKİNİ;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+mayo-bikni-batch5;MAYO / BİKİNİ;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+mayo-bikni-batch5;MAYO / BİKİNİ;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+musli-n-batch5;MÜSLİN;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+musli-n-batch5;MÜSLİN;erkek-giyim;erkek-ust-giyim;utuleme;200;HAYIR
+musli-n-batch5;MÜSLİN;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+apka-batch5;ŞAPKA;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+apka-batch5;ŞAPKA;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+apka-batch5;ŞAPKA;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+ort-mayo-batch5;ŞORT / MAYO;erkek-giyim;erkek-alt-giyim;kuru-temizleme;250;EVET
+ort-mayo-batch5;ŞORT / MAYO;erkek-giyim;erkek-alt-giyim;utuleme;100;HAYIR
+ort-mayo-batch5;ŞORT / MAYO;erkek-giyim;erkek-alt-giyim;yikama;250;EVET
+ferace-batch6;FERACE;kadin-giyim;kadin-ust-giyim;yikama;650;EVET
+trenckot-batch6;TRENCKOT;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+trenckot-batch6;TRENCKOT;erkek-giyim;erkek-ust-giyim;utuleme;300;HAYIR
+trenckot-batch6;TRENCKOT;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+spor-ayakkabi-batch6;SPOR AYAKKABI;ozel-temizleme;canta-ayakkabi;kuru-temizleme;900;EVET
+spor-ayakkabi-batch6;SPOR AYAKKABI;ozel-temizleme;canta-ayakkabi;yikama;900;EVET
+esofman-batch6;EŞOFMAN;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+esofman-batch6;EŞOFMAN;erkek-giyim;erkek-alt-giyim;utuleme;300;HAYIR
+esofman-batch6;EŞOFMAN;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+esofman-batch6;EŞOFMAN;erkek-giyim;erkek-alt-giyim;boyama;300;HAYIR
+kaban-akri-li-k-batch6;KABAN AKRİLİK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;800;EVET
+kaban-akri-li-k-batch6;KABAN AKRİLİK;erkek-giyim;erkek-ust-giyim;yikama;800;EVET
+anorak-batch6;ANORAK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;800;EVET
+anorak-batch6;ANORAK;erkek-giyim;erkek-ust-giyim;yikama;800;EVET
+elbi-se-batch6;ELBİSE;kadin-giyim;kadin-ust-giyim;kuru-temizleme;600;EVET
+elbi-se-batch6;ELBİSE;kadin-giyim;kadin-ust-giyim;utuleme;350;HAYIR
+elbi-se-batch6;ELBİSE;kadin-giyim;kadin-ust-giyim;yikama;600;EVET
+elbi-se-batch6;ELBİSE;kadin-giyim;kadin-ust-giyim;boyama;750;HAYIR
+kar-i-k-batch6;KARDİĞAN;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+kar-i-k-batch6;KARDİĞAN;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+kar-i-k-batch6;KARDİĞAN;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+sort-batch6;ŞORT;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+sort-batch6;ŞORT;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+sort-batch6;ŞORT;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+etek-batch6;ETEK;kadin-giyim;kadin-ust-giyim;kuru-temizleme;300;EVET
+etek-batch6;ETEK;kadin-giyim;kadin-ust-giyim;utuleme;150;HAYIR
+etek-batch6;ETEK;kadin-giyim;kadin-ust-giyim;yikama;300;EVET
+etek-batch6;ETEK;kadin-giyim;kadin-ust-giyim;boyama;450;HAYIR
+elbi-se-i-pek-batch6;ELBİSE İPEK;kadin-giyim;kadin-ust-giyim;kuru-temizleme;750;EVET
+elbi-se-i-pek-batch6;ELBİSE İPEK;kadin-giyim;kadin-ust-giyim;utuleme;350;HAYIR
+elbi-se-i-pek-batch6;ELBİSE İPEK;kadin-giyim;kadin-ust-giyim;yikama;750;EVET
+ayakkabi-bez-batch6;AYAKKABI BEZ;ozel-temizleme;canta-ayakkabi;kuru-temizleme;750;EVET
+ayakkabi-bez-batch6;AYAKKABI BEZ;ozel-temizleme;canta-ayakkabi;yikama;750;EVET
+ayakkabi-kuma-batch6;AYAKKABI KUMAŞ;ozel-temizleme;canta-ayakkabi;kuru-temizleme;750;EVET
+ayakkabi-kuma-batch6;AYAKKABI KUMAŞ;ozel-temizleme;canta-ayakkabi;yikama;750;EVET
+ayakkabi-s-et-batch6;AYAKKABI SÜET;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1000;EVET
+ayakkabi-s-et-batch6;AYAKKABI SÜET;ozel-temizleme;canta-ayakkabi;yikama;1000;EVET
+ayakkabi-s-et-batch6;AYAKKABI SÜET;ozel-temizleme;canta-ayakkabi;boyama;750;HAYIR
+ocuk-g-mlek-batch6;ÇOCUK GÖMLEK;cocuk-giyim;cocuk-ozel-gunler;kuru-temizleme;300;EVET
+ocuk-g-mlek-batch6;ÇOCUK GÖMLEK;cocuk-giyim;cocuk-ozel-gunler;utuleme;150;HAYIR
+ocuk-g-mlek-batch6;ÇOCUK GÖMLEK;cocuk-giyim;cocuk-ozel-gunler;yikama;300;EVET
+ocuk-pantolon-batch6;ÇOCUK PANTOLON;cocuk-giyim;cocuk-ozel-gunler;kuru-temizleme;300;EVET
+ocuk-pantolon-batch6;ÇOCUK PANTOLON;cocuk-giyim;cocuk-ozel-gunler;utuleme;150;HAYIR
+ocuk-pantolon-batch6;ÇOCUK PANTOLON;cocuk-giyim;cocuk-ozel-gunler;yikama;300;EVET
+ocuk-ceket-batch6;ÇOCUK CEKET;cocuk-giyim;cocuk-ozel-gunler;kuru-temizleme;400;EVET
+ocuk-ceket-batch6;ÇOCUK CEKET;cocuk-giyim;cocuk-ozel-gunler;utuleme;250;HAYIR
+ocuk-ceket-batch6;ÇOCUK CEKET;cocuk-giyim;cocuk-ozel-gunler;yikama;400;EVET
+fistan-batch6;FISTAN;erkek-giyim;erkek-ust-giyim;kuru-temizleme;600;EVET
+fistan-batch6;FISTAN;erkek-giyim;erkek-ust-giyim;utuleme;300;HAYIR
+fistan-batch6;FISTAN;erkek-giyim;erkek-ust-giyim;yikama;600;EVET
+g-mlek-pamuk-batch6;GÖMLEK PAMUK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+g-mlek-pamuk-batch6;GÖMLEK PAMUK;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+g-mlek-pamuk-batch6;GÖMLEK PAMUK;erkek-giyim;erkek-ust-giyim;yikama;300;EVET
+g-mlek-pamuk-batch6;GÖMLEK PAMUK;erkek-giyim;erkek-ust-giyim;boyama;450;HAYIR
+eketler-batch6;CEKETLER;erkek-giyim;erkek-ust-giyim;kuru-temizleme;450;EVET
+eketler-batch6;CEKETLER;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+eketler-batch6;CEKETLER;erkek-giyim;erkek-ust-giyim;yikama;450;EVET
+eketler-batch6;CEKETLER;erkek-giyim;erkek-ust-giyim;boyama;750;HAYIR
+eaket-denim-batch6;CEKET DENİM;erkek-giyim;erkek-ust-giyim;kuru-temizleme;350;EVET
+eaket-denim-batch6;CEKET DENİM;erkek-giyim;erkek-ust-giyim;utuleme;450;HAYIR
+eaket-denim-batch6;CEKET DENİM;erkek-giyim;erkek-ust-giyim;yikama;450;EVET
+abi-ye-etek-batch6;ABİYE ETEK;kadin-giyim;kadin-ust-giyim;kuru-temizleme;750;EVET
+abi-ye-etek-batch6;ABİYE ETEK;kadin-giyim;kadin-ust-giyim;utuleme;300;HAYIR
+abi-ye-etek-batch6;ABİYE ETEK;kadin-giyim;kadin-ust-giyim;yikama;750;EVET
+abi-ye-u-st-batch6;ABİYE ÜST;kadin-giyim;kadin-ust-giyim;kuru-temizleme;750;EVET
+abi-ye-u-st-batch6;ABİYE ÜST;kadin-giyim;kadin-ust-giyim;utuleme;300;HAYIR
+abi-ye-u-st-batch6;ABİYE ÜST;kadin-giyim;kadin-ust-giyim;yikama;750;EVET
+mont-yaga-ur-batch6;MONT YAĞMURLUK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;600;EVET
+mont-yaga-ur-batch6;MONT YAĞMURLUK;erkek-giyim;erkek-ust-giyim;utuleme;300;HAYIR
+mont-yaga-ur-batch6;MONT YAĞMURLUK;erkek-giyim;erkek-ust-giyim;yikama;600;EVET
+keten-pantolonu-batch6;KETEN PANTOLONU;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+keten-pantolonu-batch6;KETEN PANTOLONU;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+keten-pantolonu-batch6;KETEN PANTOLONU;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+poli-ester-pantolon-batch6;POLİESTER PANTOLON;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+poli-ester-pantolon-batch6;POLİESTER PANTOLON;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+poli-ester-pantolon-batch6;POLİESTER PANTOLON;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+kar-i-an-i-pek-batch6;KARDİGAN İPEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+kar-i-an-i-pek-batch6;KARDİGAN İPEK;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+kar-i-an-i-pek-batch6;KARDİGAN İPEK;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+halı-y-kamasi-m2-batch6;HALI YIKAMASI M2;ev-tekstili;hali-kilim;hali-yikama;250;EVET
+hali-doku-ma-m2-batch6;HALI DOKUMA M2;ev-tekstili;hali-kilim;hali-yikama;450;EVET
+keten-g-mle-i-batch6;KETEN GÖMLEĞİ;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+keten-g-mle-i-batch6;KETEN GÖMLEĞİ;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+keten-g-mle-i-batch6;KETEN GÖMLEĞİ;erkek-giyim;erkek-ust-giyim;yikama;300;EVET
+spor-giyim-batch6;SPOR GİYİM;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+spor-giyim-batch6;SPOR GİYİM;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+spor-giyim-batch6;SPOR GİYİM;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+spor-eek-batch6;SPOR CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;450;EVET
+spor-eek-batch6;SPOR CEKET;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+spor-eek-batch6;SPOR CEKET;erkek-giyim;erkek-ust-giyim;yikama;450;EVET
+spor-pantolon-batch6;SPOR PANTOLON;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+spor-pantolon-batch6;SPOR PANTOLON;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+spor-pantolon-batch6;SPOR PANTOLON;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+eldi-ven-deri-batch7;ELDİVEN DERİ;ozel-temizleme;canta-ayakkabi;yikama;350;EVET
+eldi-ven-deri-batch7;ELDİVEN DERİ;ozel-temizleme;canta-ayakkabi;boyama;500;HAYIR
+eldi-ven-suet-batch7;ELDİVEN SÜET;ozel-temizleme;canta-ayakkabi;kuru-temizleme;400;EVET
+eldi-ven-suet-batch7;ELDİVEN SÜET;ozel-temizleme;canta-ayakkabi;yikama;400;EVET
+eldi-ven-suet-batch7;ELDİVEN SÜET;ozel-temizleme;canta-ayakkabi;boyama;1000;HAYIR
+esofman-2-li-tak-batch7;ESOFMAN 2'Lİ TAK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;700;EVET
+esofman-2-li-tak-batch7;ESOFMAN 2'Lİ TAK;erkek-giyim;erkek-ust-giyim;utuleme;350;HAYIR
+esofman-2-li-tak-batch7;ESOFMAN 2'Lİ TAK;erkek-giyim;erkek-ust-giyim;yikama;700;EVET
+esofman-3-lu-takim-batch7;ESOFMAN 3'LU TAKIM;erkek-giyim;erkek-ust-giyim;kuru-temizleme;900;EVET
+esofman-3-lu-takim-batch7;ESOFMAN 3'LU TAKIM;erkek-giyim;erkek-ust-giyim;utuleme;450;HAYIR
+esofman-3-lu-takim-batch7;ESOFMAN 3'LU TAKIM;erkek-giyim;erkek-ust-giyim;yikama;900;EVET
+esofman-tek-batch7;ESOFMAN TEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+esofman-tek-batch7;ESOFMAN TEK;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+esofman-tek-batch7;ESOFMAN TEK;erkek-giyim;erkek-ust-giyim;yikama;300;EVET
+esofman-tek-batch7;ESOFMAN TEK;erkek-giyim;erkek-ust-giyim;boyama;450;HAYIR
+esarp-i-pek-batch7;EŞARP İPEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;350;EVET
+esarp-i-pek-batch7;EŞARP İPEK;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+esarp-i-pek-batch7;EŞARP İPEK;erkek-giyim;erkek-ust-giyim;yikama;350;EVET
+fantezi-ceket-batch7;FANTEZİ CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+fantezi-ceket-batch7;FANTEZİ CEKET;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+fantezi-ceket-batch7;FANTEZİ CEKET;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+futbol-forması-batch7;FUTBOL FORMASI;erkek-giyim;erkek-ust-giyim;kuru-temizleme;250;EVET
+futbol-forması-batch7;FUTBOL FORMASI;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+futbol-forması-batch7;FUTBOL FORMASI;erkek-giyim;erkek-ust-giyim;yikama;250;EVET
+gabardin-pantolon-batch7;GABARDİN PANTOLON;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+gabardin-pantolon-batch7;GABARDİN PANTOLON;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+gabardin-pantolon-batch7;GABARDİN PANTOLON;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+gotik-elbi-se-batch7;GOTİK ELBİSE;kadin-giyim;kadin-ust-giyim;kuru-temizleme;1000;EVET
+gotik-elbi-se-batch7;GOTİK ELBİSE;kadin-giyim;kadin-ust-giyim;utuleme;500;HAYIR
+gotik-elbi-se-batch7;GOTİK ELBİSE;kadin-giyim;kadin-ust-giyim;yikama;1000;EVET
+hırka-i-pek-batch7;HIRKA İPEK;kadin-giyim;kadin-ust-giyim;kuru-temizleme;450;EVET
+hırka-i-pek-batch7;HIRKA İPEK;kadin-giyim;kadin-ust-giyim;utuleme;250;HAYIR
+hırka-i-pek-batch7;HIRKA İPEK;kadin-giyim;kadin-ust-giyim;yikama;450;EVET
+i-pek-elbi-se-batch7;İPEK ELBİSE;kadin-giyim;kadin-ust-giyim;kuru-temizleme;900;EVET
+i-pek-elbi-se-batch7;İPEK ELBİSE;kadin-giyim;kadin-ust-giyim;utuleme;400;HAYIR
+i-pek-elbi-se-batch7;İPEK ELBİSE;kadin-giyim;kadin-ust-giyim;yikama;900;EVET
+i-pek-etek-batch7;İPEK ETEK;kadin-giyim;kadin-ust-giyim;kuru-temizleme;450;EVET
+i-pek-etek-batch7;İPEK ETEK;kadin-giyim;kadin-ust-giyim;utuleme;250;HAYIR
+i-pek-etek-batch7;İPEK ETEK;kadin-giyim;kadin-ust-giyim;yikama;450;EVET
+jakar-kuma-batch7;JAKAR KUMAŞ;erkek-giyim;erkek-ust-giyim;kuru-temizleme;400;EVET
+jakar-kuma-batch7;JAKAR KUMAŞ;erkek-giyim;erkek-ust-giyim;utuleme;200;HAYIR
+jakar-kuma-batch7;JAKAR KUMAŞ;erkek-giyim;erkek-ust-giyim;yikama;400;EVET
+jeans-ceket-batch7;JEANS CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;450;EVET
+jeans-ceket-batch7;JEANS CEKET;erkek-giyim;erkek-ust-giyim;utuleme;200;HAYIR
+jeans-ceket-batch7;JEANS CEKET;erkek-giyim;erkek-ust-giyim;yikama;450;EVET
+jeans-etek-batch7;JEANS ETEK;kadin-giyim;kadin-ust-giyim;kuru-temizleme;450;EVET
+jeans-etek-batch7;JEANS ETEK;kadin-giyim;kadin-ust-giyim;utuleme;200;HAYIR
+jeans-etek-batch7;JEANS ETEK;kadin-giyim;kadin-ust-giyim;yikama;450;EVET
+jeans-etek-batch7;JEANS ETEK;kadin-giyim;kadin-ust-giyim;boyama;500;HAYIR
+jeans-g-mlek-batch7;JEANS GÖMLEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+jeans-g-mlek-batch7;JEANS GÖMLEK;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+jeans-g-mlek-batch7;JEANS GÖMLEK;erkek-giyim;erkek-ust-giyim;yikama;300;EVET
+kombinezon-batch7;KOMBİNEZON;erkek-giyim;erkek-ust-giyim;kuru-temizleme;600;EVET
+kombinezon-batch7;KOMBİNEZON;erkek-giyim;erkek-ust-giyim;utuleme;200;HAYIR
+kombinezon-batch7;KOMBİNEZON;erkek-giyim;erkek-ust-giyim;yikama;600;EVET
+kordon-g-mlek-batch7;KORDON GÖMLEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+kordon-g-mlek-batch7;KORDON GÖMLEK;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+kordon-g-mlek-batch7;KORDON GÖMLEK;erkek-giyim;erkek-ust-giyim;yikama;300;EVET
+kot-ceket-batch7;KOT CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;450;EVET
+kot-ceket-batch7;KOT CEKET;erkek-giyim;erkek-ust-giyim;utuleme;200;HAYIR
+kot-ceket-batch7;KOT CEKET;erkek-giyim;erkek-ust-giyim;yikama;450;EVET
+kostum-takım-batch7;KOSTÜM TAKIM;kadin-giyim;kadin-ust-giyim;kuru-temizleme;1500;EVET
+kostum-takım-batch7;KOSTÜM TAKIM;kadin-giyim;kadin-ust-giyim;utuleme;500;HAYIR
+kostum-takım-batch7;KOSTÜM TAKIM;kadin-giyim;kadin-ust-giyim;yikama;1500;EVET
+k-rklu-ceket-batch7;KÜRKLU CEKET;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1500;EVET
+k-rklu-ceket-batch7;KÜRKLU CEKET;ozel-temizleme;canta-ayakkabi;yikama;1500;EVET
+k-rklu-kaban-batch7;KÜRKLU KABAN;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+k-rklu-kaban-batch7;KÜRKLU KABAN;ozel-temizleme;canta-ayakkabi;yikama;2000;EVET
+k-rklu-mont-batch7;KÜRKLU MONT;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1500;EVET
+k-rklu-mont-batch7;KÜRKLU MONT;ozel-temizleme;canta-ayakkabi;yikama;1500;EVET
+k-rklu-yelek-batch7;KÜRKLU YELEK;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1500;EVET
+k-rklu-yelek-batch7;KÜRKLU YELEK;ozel-temizleme;canta-ayakkabi;yikama;1500;EVET
+k-rk-batch7;KÜRK;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2500;EVET
+k-rk-batch7;KÜRK;ozel-temizleme;canta-ayakkabi;yikama;2500;EVET
+likralı-tulum-batch7;LİKRALI TULUM;erkek-giyim;erkek-alt-giyim;kuru-temizleme;750;EVET
+likralı-tulum-batch7;LİKRALI TULUM;erkek-giyim;erkek-alt-giyim;utuleme;350;HAYIR
+likralı-tulum-batch7;LİKRALI TULUM;erkek-giyim;erkek-alt-giyim;yikama;750;EVET
+likralı-tulum-batch7;LİKRALI TULUM;erkek-giyim;erkek-alt-giyim;boyama;750;HAYIR
+lycra-pantolon-batch7;LYCRA PANTOLON;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+lycra-pantolon-batch7;LYCRA PANTOLON;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+lycra-pantolon-batch7;LYCRA PANTOLON;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+maksi-elbi-se-batch7;MAKSİ ELBİSE;kadin-giyim;kadin-ust-giyim;kuru-temizleme;900;EVET
+maksi-elbi-se-batch7;MAKSİ ELBİSE;kadin-giyim;kadin-ust-giyim;utuleme;400;HAYIR
+maksi-elbi-se-batch7;MAKSİ ELBİSE;kadin-giyim;kadin-ust-giyim;yikama;900;EVET
+mani-battal-mont-batch7;MANİ BATTAL MONT;erkek-giyim;erkek-ust-giyim;kuru-temizleme;1000;EVET
+mani-battal-mont-batch7;MANİ BATTAL MONT;erkek-giyim;erkek-ust-giyim;utuleme;500;HAYIR
+mani-battal-mont-batch7;MANİ BATTAL MONT;erkek-giyim;erkek-ust-giyim;yikama;1000;EVET
+moda-ceket-batch7;MODA CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+moda-ceket-batch7;MODA CEKET;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+moda-ceket-batch7;MODA CEKET;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+nakı-li-etek-batch7;NAKIŞLI ETEK;kadin-giyim;kadin-ust-giyim;kuru-temizleme;500;EVET
+nakı-li-etek-batch7;NAKIŞLI ETEK;kadin-giyim;kadin-ust-giyim;utuleme;250;HAYIR
+nakı-li-etek-batch7;NAKIŞLI ETEK;kadin-giyim;kadin-ust-giyim;yikama;500;EVET
+ni-an-elbi-sesi-batch7;NİŞAN ELBİSESİ;kadin-giyim;kadin-ust-giyim;kuru-temizleme;2500;EVET
+ni-an-elbi-sesi-batch7;NİŞAN ELBİSESİ;kadin-giyim;kadin-ust-giyim;utuleme;750;HAYIR
+ni-an-elbi-sesi-batch7;NİŞAN ELBİSESİ;kadin-giyim;kadin-ust-giyim;yikama;2500;EVET
+organze-elbi-se-batch7;ORGANZE ELBİSE;kadin-giyim;kadin-ust-giyim;kuru-temizleme;1500;EVET
+organze-elbi-se-batch7;ORGANZE ELBİSE;kadin-giyim;kadin-ust-giyim;utuleme;500;HAYIR
+organze-elbi-se-batch7;ORGANZE ELBİSE;kadin-giyim;kadin-ust-giyim;yikama;1500;EVET
+pijama-elbi-sesi-batch7;PİJAMA ELBİSESİ;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+pijama-elbi-sesi-batch7;PİJAMA ELBİSESİ;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+pijama-elbi-sesi-batch7;PİJAMA ELBİSESİ;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+polar-ceket-batch7;POLAR CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;400;EVET
+polar-ceket-batch7;POLAR CEKET;erkek-giyim;erkek-ust-giyim;utuleme;200;HAYIR
+polar-ceket-batch7;POLAR CEKET;erkek-giyim;erkek-ust-giyim;yikama;400;EVET
+polar-pantolon-batch7;POLAR PANTOLON;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+polar-pantolon-batch7;POLAR PANTOLON;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+polar-pantolon-batch7;POLAR PANTOLON;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+popli-n-g-mlek-batch7;POPLİN GÖMLEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+popli-n-g-mlek-batch7;POPLİN GÖMLEK;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+popli-n-g-mlek-batch7;POPLİN GÖMLEK;erkek-giyim;erkek-ust-giyim;yikama;300;EVET
+salopet-batch7;SALOPET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;600;EVET
+salopet-batch7;SALOPET;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+salopet-batch7;SALOPET;erkek-giyim;erkek-ust-giyim;yikama;600;EVET
+salopet-batch7;SALOPET;erkek-giyim;erkek-ust-giyim;boyama;750;HAYIR
+sıfı-r-yakali-g-mlek-batch7;SIFIR YAKALI GÖMLEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+sıfı-r-yakali-g-mlek-batch7;SIFIR YAKALI GÖMLEK;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+sıfı-r-yakali-g-mlek-batch7;SIFIR YAKALI GÖMLEK;erkek-giyim;erkek-ust-giyim;yikama;300;EVET
+kaban-deri-batch8;KABAN DERİ;ozel-temizleme;canta-ayakkabi;yikama;2500;EVET
+kaban-kapsonlu-batch8;KABAN KAPŞONLU;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+kaban-kapsonlu-batch8;KABAN KAPŞONLU;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+kaban-kaz-tuyu-batch8;KABAN KAZ TÜYÜ;erkek-giyim;erkek-ust-giyim;kuru-temizleme;900;EVET
+kaban-kaz-tuyu-batch8;KABAN KAZ TÜYÜ;erkek-giyim;erkek-ust-giyim;utuleme;500;HAYIR
+kaban-kaz-tuyu-batch8;KABAN KAZ TÜYÜ;erkek-giyim;erkek-ust-giyim;yikama;544;EVET
+kaban-suet-batch8;KABAN SÜET;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2500;EVET
+kaban-suet-batch8;KABAN SÜET;ozel-temizleme;canta-ayakkabi;yikama;2500;EVET
+kaban-yaka-kol-kurklu-batch8;KABAN YAKA-KOL KÜRKLÜ;ozel-temizleme;canta-ayakkabi;kuru-temizleme;900;EVET
+kaban-yaka-kol-kurklu-batch8;KABAN YAKA-KOL KÜRKLÜ;ozel-temizleme;canta-ayakkabi;yikama;900;EVET
+kaban-yakasi-kurklu-batch8;KABAN YAKASI KÜRKLU;ozel-temizleme;canta-ayakkabi;kuru-temizleme;750;EVET
+kaban-yakasi-kurklu-batch8;KABAN YAKASI KÜRKLU;ozel-temizleme;canta-ayakkabi;yikama;750;EVET
+mont-kayak-batch8;MONT KAYAK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;1000;EVET
+mont-kayak-batch8;MONT KAYAK;erkek-giyim;erkek-ust-giyim;yikama;1000;EVET
+kayak-tak-2-par-batch8;KAYAK TAK.2 PAR.;erkek-giyim;erkek-alt-giyim;kuru-temizleme;1500;EVET
+kayak-tak-2-par-batch8;KAYAK TAK.2 PAR.;erkek-giyim;erkek-alt-giyim;yikama;1500;EVET
+kayak-pantolonu-batch8;KAYAK PANTOLONU;erkek-giyim;erkek-alt-giyim;kuru-temizleme;500;EVET
+kayak-pantolonu-batch8;KAYAK PANTOLONU;erkek-giyim;erkek-alt-giyim;yikama;500;EVET
+kayak-montuu-batch8;KAYAK MONTUU;erkek-giyim;erkek-ust-giyim;kuru-temizleme;1000;EVET
+kayak-montuu-batch8;KAYAK MONTUU;erkek-giyim;erkek-ust-giyim;yikama;1000;EVET
+mont-kosum-batch8;MONT KOŞUM;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+mont-kosum-batch8;MONT KOŞUM;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+mont-spor-batch8;MONT SPOR;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+mont-spor-batch8;MONT SPOR;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+mont-terli-k-batch8;MONT TERLİK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+mont-terli-k-batch8;MONT TERLİK;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+mont-kı-li-k-batch8;MONT KIŞLIK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+mont-kı-li-k-batch8;MONT KIŞLIK;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+mont-astar-batch8;MONT ASTAR;erkek-giyim;erkek-ust-giyim;kuru-temizleme;3000;EVET
+mont-astar-batch8;MONT ASTAR;erkek-giyim;erkek-ust-giyim;yikama;3000;EVET
+kapsonlu-ceket-batch8;KAPŞONLU CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+kapsonlu-ceket-batch8;KAPŞONLU CEKET;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+kapsonlu-sweatshirt-batch8;KAPŞONLU SWEATSHİRT;erkek-giyim;erkek-ust-giyim;kuru-temizleme;400;EVET
+kapsonlu-sweatshirt-batch8;KAPŞONLU SWEATSHİRT;erkek-giyim;erkek-ust-giyim;yikama;400;EVET
+koltukalti-deri-si-batch8;KOLTUKALTI DERİSİ;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1000;EVET
+koltukalti-deri-si-batch8;KOLTUKALTI DERİSİ;ozel-temizleme;canta-ayakkabi;yikama;1000;EVET
+koltukalti-deri-elbi-se-batch8;KOLTUKALTI DERİ ELBİSE;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+koltukalti-deri-elbi-se-batch8;KOLTUKALTI DERİ ELBİSE;ozel-temizleme;canta-ayakkabi;yikama;2000;EVET
+koltukalti-deri-ceket-batch8;KOLTUKALTI DERİ CEKET;ozel-temizleme;canta-ayakkabi;kuru-temizleme;2000;EVET
+koltukalti-deri-ceket-batch8;KOLTUKALTI DERİ CEKET;ozel-temizleme;canta-ayakkabi;yikama;2000;EVET
+koltukalti-deri-pantolon-batch8;KOLTUKALTI DERİ PANTOLON;erkek-giyim;erkek-alt-giyim;kuru-temizleme;2000;EVET
+koltukalti-deri-pantolon-batch8;KOLTUKALTI DERİ PANTOLON;erkek-giyim;erkek-alt-giyim;yikama;2000;EVET
+uzun-ceket-batch8;UZUN CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+uzun-ceket-batch8;UZUN CEKET;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+uzun-ceket-batch8;UZUN CEKET;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+vintage-elbi-se-batch8;VİNTAGE ELBİSE;kadin-giyim;kadin-ust-giyim;kuru-temizleme;1000;EVET
+vintage-elbi-se-batch8;VİNTAGE ELBİSE;kadin-giyim;kadin-ust-giyim;utuleme;500;HAYIR
+vintage-elbi-se-batch8;VİNTAGE ELBİSE;kadin-giyim;kadin-ust-giyim;yikama;1000;EVET
+vintage-ceket-batch8;VİNTAGE CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+vintage-ceket-batch8;VİNTAGE CEKET;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+vintage-ceket-batch8;VİNTAGE CEKET;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+vintage-kaban-batch8;VİNTAGE KABAN;erkek-giyim;erkek-ust-giyim;kuru-temizleme;1000;EVET
+vintage-kaban-batch8;VİNTAGE KABAN;erkek-giyim;erkek-ust-giyim;utuleme;500;HAYIR
+vintage-kaban-batch8;VİNTAGE KABAN;erkek-giyim;erkek-ust-giyim;yikama;100;EVET
+vintage-mont-batch8;VİNTAGE MONT;erkek-giyim;erkek-ust-giyim;kuru-temizleme;1000;EVET
+vintage-mont-batch8;VİNTAGE MONT;erkek-giyim;erkek-ust-giyim;utuleme;500;HAYIR
+vintage-mont-batch8;VİNTAGE MONT;erkek-giyim;erkek-ust-giyim;yikama;1000;EVET
+vtakim-batch8;VTAKIM;erkek-giyim;erkek-takim-elbise;kuru-temizleme;1500;EVET
+vtakim-batch8;VTAKIM;erkek-giyim;erkek-takim-elbise;utuleme;750;HAYIR
+vtakim-batch8;VTAKIM;erkek-giyim;erkek-takim-elbise;yikama;1500;EVET
+yelek-kadin-batch8;YELEK KADIN;kadin-giyim;kadin-ust-giyim;kuru-temizleme;400;EVET
+yelek-kadin-batch8;YELEK KADIN;kadin-giyim;kadin-ust-giyim;utuleme;200;HAYIR
+yelek-kadin-batch8;YELEK KADIN;kadin-giyim;kadin-ust-giyim;yikama;400;EVET
+yelek-erkek-batch8;YELEK ERKEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;400;EVET
+yelek-erkek-batch8;YELEK ERKEK;erkek-giyim;erkek-ust-giyim;utuleme;200;HAYIR
+yelek-erkek-batch8;YELEK ERKEK;erkek-giyim;erkek-ust-giyim;yikama;400;EVET
+yaka-kol-kur-k-batch8;YAKA-KOL KÜRK;ozel-temizleme;canta-ayakkabi;kuru-temizleme;750;EVET
+yaka-kol-kur-k-batch8;YAKA-KOL KÜRK;ozel-temizleme;canta-ayakkabi;yikama;750;EVET
+takim-elbi-se-kadin-batch8;TAKIM ELBİSE KADIN;kadin-giyim;kadin-ust-giyim;kuru-temizleme;750;EVET
+takim-elbi-se-kadin-batch8;TAKIM ELBİSE KADIN;kadin-giyim;kadin-ust-giyim;utuleme;450;HAYIR
+takim-elbi-se-kadin-batch8;TAKIM ELBİSE KADIN;kadin-giyim;kadin-ust-giyim;yikama;750;EVET
+takim-elbi-se-erkek-batch8;TAKIM ELBİSE ERKEK;erkek-giyim;erkek-takim-elbise;kuru-temizleme;750;EVET
+takim-elbi-se-erkek-batch8;TAKIM ELBİSE ERKEK;erkek-giyim;erkek-takim-elbise;utuleme;450;HAYIR
+takim-elbi-se-erkek-batch8;TAKIM ELBİSE ERKEK;erkek-giyim;erkek-takim-elbise;yikama;750;EVET
+smokin-erkek-batch8;SMOKİN ERKEK;erkek-giyim;erkek-takim-elbise;kuru-temizleme;1200;EVET
+smokin-erkek-batch8;SMOKİN ERKEK;erkek-giyim;erkek-takim-elbise;utuleme;600;HAYIR
+smokin-erkek-batch8;SMOKİN ERKEK;erkek-giyim;erkek-takim-elbise;yikama;1200;EVET
+smokin-kadin-batch8;SMOKİN KADIN;kadin-giyim;kadin-ust-giyim;kuru-temizleme;1200;EVET
+smokin-kadin-batch8;SMOKİN KADIN;kadin-giyim;kadin-ust-giyim;utuleme;600;HAYIR
+smokin-kadin-batch8;SMOKİN KADIN;kadin-giyim;kadin-ust-giyim;yikama;1200;EVET
+uyku-tulum-batch8;UYKU TULUM;erkek-giyim;erkek-alt-giyim;kuru-temizleme;1000;EVET
+uyku-tulum-batch8;UYKU TULUM;erkek-giyim;erkek-alt-giyim;utuleme;500;HAYIR
+uyku-tulum-batch8;UYKU TULUM;erkek-giyim;erkek-alt-giyim;yikama;1000;EVET
+terzi-tadi-lat-batch8;TERZİ TADİLAT;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+ust-balik-agzi-batch8;ÜST BALIK AĞZI;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+ust-balik-agzi-batch8;ÜST BALIK AĞZI;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+ust-balik-agzi-batch8;ÜST BALIK AĞZI;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+ust-gundu-z-batch8;ÜST GÜNDÜZ;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+ust-gundu-z-batch8;ÜST GÜNDÜZ;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+ust-gundu-z-batch8;ÜST GÜNDÜZ;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+ust-gece-batch8;ÜST GECE;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+ust-gece-batch8;ÜST GECE;erkek-giyim;erkek-ust-giyim;utuleme;400;HAYIR
+ust-gece-batch8;ÜST GECE;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+ust-japon-yagligi-batch8;ÜST JAPON YAĞLIĞI;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+ust-japon-yagligi-batch8;ÜST JAPON YAĞLIĞI;erkek-giyim;erkek-ust-giyim;utuleme;400;HAYIR
+ust-japon-yagligi-batch8;ÜST JAPON YAĞLIĞI;erkek-giyim;erkek-ust-giyim;yikama;750;EVET
+ust-kilot-batch8;ÜST KILOT;erkek-giyim;erkek-ust-giyim;kuru-temizleme;150;EVET
+ust-kilot-batch8;ÜST KILOT;erkek-giyim;erkek-ust-giyim;utuleme;100;HAYIR
+ust-kilot-batch8;ÜST KILOT;erkek-giyim;erkek-ust-giyim;yikama;150;EVET
+ust-elbise-gece-batch8;ÜST ELBİSE GECE;kadin-giyim;kadin-ust-giyim;kuru-temizleme;850;EVET
+ust-elbise-gece-batch8;ÜST ELBİSE GECE;kadin-giyim;kadin-ust-giyim;utuleme;400;HAYIR
+ust-elbise-gece-batch8;ÜST ELBİSE GECE;kadin-giyim;kadin-ust-giyim;yikama;850;EVET
+ust-elbise-gundu-z-batch8;ÜST ELBİSE GÜNDÜZ;kadin-giyim;kadin-ust-giyim;kuru-temizleme;600;EVET
+ust-elbise-gundu-z-batch8;ÜST ELBİSE GÜNDÜZ;kadin-giyim;kadin-ust-giyim;utuleme;250;HAYIR
+ust-elbise-gundu-z-batch8;ÜST ELBİSE GÜNDÜZ;kadin-giyim;kadin-ust-giyim;yikama;600;EVET
+perde-oto-daki-l-batch8;PERDE OTO DAKİL;ev-tekstili;perde-tul;kuru-temizleme;150;EVET
+perde-oto-daki-l-batch8;PERDE OTO DAKİL;ev-tekstili;perde-tul;utuleme;100;HAYIR
+perde-oto-daki-l-batch8;PERDE OTO DAKİL;ev-tekstili;perde-tul;yikama;150;EVET
+perde-evsel-daki-l-batch8;PERDE EVSEL DAKİL;ev-tekstili;perde-tul;kuru-temizleme;150;EVET
+perde-evsel-daki-l-batch8;PERDE EVSEL DAKİL;ev-tekstili;perde-tul;utuleme;100;HAYIR
+perde-evsel-daki-l-batch8;PERDE EVSEL DAKİL;ev-tekstili;perde-tul;yikama;150;EVET
+ust-gundu-z-i-pek-batch8;ÜST GÜNDÜZ İPEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;450;EVET
+ust-gundu-z-i-pek-batch8;ÜST GÜNDÜZ İPEK;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+ust-gundu-z-i-pek-batch8;ÜST GÜNDÜZ İPEK;erkek-giyim;erkek-ust-giyim;yikama;450;EVET
+triko-elbi-se-batch8;TRİKO ELBİSE;erkek-giyim;erkek-ust-giyim;kuru-temizleme;450;EVET
+triko-elbi-se-batch8;TRİKO ELBİSE;erkek-giyim;erkek-ust-giyim;utuleme;200;HAYIR
+triko-elbi-se-batch8;TRİKO ELBİSE;erkek-giyim;erkek-ust-giyim;yikama;450;EVET
+triko-ceket-batch8;TRİKO CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+triko-ceket-batch8;TRİKO CEKET;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+triko-ceket-batch8;TRİKO CEKET;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+triko-pantolon-batch8;TRİKO PANTOLON;erkek-giyim;erkek-alt-giyim;kuru-temizleme;400;EVET
+triko-pantolon-batch8;TRİKO PANTOLON;erkek-giyim;erkek-alt-giyim;utuleme;200;HAYIR
+triko-pantolon-batch8;TRİKO PANTOLON;erkek-giyim;erkek-alt-giyim;yikama;400;EVET
+visco-elbi-se-batch8;VİSCO ELBİSE;erkek-giyim;erkek-ust-giyim;kuru-temizleme;1000;EVET
+visco-elbi-se-batch8;VİSCO ELBİSE;erkek-giyim;erkek-ust-giyim;utuleme;500;HAYIR
+visco-elbi-se-batch8;VİSCO ELBİSE;erkek-giyim;erkek-ust-giyim;yikama;1000;EVET
+visco-elbi-se-batch8;VİSCO ELBİSE;erkek-giyim;erkek-ust-giyim;boyama;2000;HAYIR
+visco-ceket-batch8;VİSCO CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+visco-ceket-batch8;VİSCO CEKET;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+visco-ceket-batch8;VİSCO CEKET;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+visco-ceket-batch8;VİSCO CEKET;erkek-giyim;erkek-ust-giyim;boyama;2000;HAYIR
+visco-pantolon-batch8;VİSCO PANTOLON;erkek-giyim;erkek-alt-giyim;kuru-temizleme;400;EVET
+visco-pantolon-batch8;VİSCO PANTOLON;erkek-giyim;erkek-alt-giyim;utuleme;200;HAYIR
+visco-pantolon-batch8;VİSCO PANTOLON;erkek-giyim;erkek-alt-giyim;yikama;400;EVET
+visco-pantolon-batch8;VİSCO PANTOLON;erkek-giyim;erkek-alt-giyim;boyama;1000;HAYIR
+visco-takim-batch8;VİSCO TAKIM;erkek-giyim;erkek-takim-elbise;kuru-temizleme;1200;EVET
+visco-takim-batch8;VİSCO TAKIM;erkek-giyim;erkek-takim-elbise;utuleme;600;HAYIR
+visco-takim-batch8;VİSCO TAKIM;erkek-giyim;erkek-takim-elbise;yikama;1200;EVET
+peluslar-batch9;PELUŞLAR;ev-tekstili;mobilya-tekstili;kuru-temizleme;500;EVET
+perde-batch9;PERDE;ev-tekstili;perde-tul;kuru-temizleme;150;EVET
+perde-batch9;PERDE;ev-tekstili;perde-tul;utuleme;100;HAYIR
+perde-batch9;PERDE;ev-tekstili;perde-tul;yikama;150;EVET
+perde-i-pek-batch9;PERDE İPEK;ev-tekstili;perde-tul;kuru-temizleme;250;EVET
+perde-i-pek-batch9;PERDE İPEK;ev-tekstili;perde-tul;utuleme;150;HAYIR
+perde-i-pek-batch9;PERDE İPEK;ev-tekstili;perde-tul;yikama;250;EVET
+pi-jama-2-par-batch9;PİJAMA 2 PAR.;erkek-giyim;erkek-ust-giyim;kuru-temizleme;600;EVET
+pi-jama-2-par-batch9;PİJAMA 2 PAR.;erkek-giyim;erkek-ust-giyim;utuleme;300;HAYIR
+pi-jama-2-par-batch9;PİJAMA 2 PAR.;erkek-giyim;erkek-ust-giyim;yikama;600;EVET
+pi-jama-2-par-i-pek-batch9;PİJAMA 2 PAR.İPEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+pi-jama-2-par-saten-batch9;PİJAMA 2 PAR.SATEN;erkek-giyim;erkek-ust-giyim;kuru-temizleme;750;EVET
+pi-jama-alt-batch9;PİJAMA ALT;erkek-giyim;erkek-alt-giyim;kuru-temizleme;350;EVET
+pi-jama-tek-parc-batch9;PİJAMA TEK PARÇ.;erkek-giyim;erkek-ust-giyim;kuru-temizleme;350;EVET
+pi-jama-ust-batch9;PİJAMA ÜST;erkek-giyim;erkek-ust-giyim;kuru-temizleme;400;EVET
+suet-terli-k-batch9;SÜET TERLİK;ozel-temizleme;canta-ayakkabi;kuru-temizleme;600;EVET
+suet-terli-k-batch9;SÜET TERLİK;ozel-temizleme;canta-ayakkabi;yikama;600;EVET
+terli-k-batch9;TERLİK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+terli-k-batch9;TERLİK;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+terli-k-deri-batch9;TERLİK DERİ;ozel-temizleme;canta-ayakkabi;kuru-temizleme;750;EVET
+terli-k-deri-batch9;TERLİK DERİ;ozel-temizleme;canta-ayakkabi;yikama;750;EVET
+suet-ayakkabi-batch9;SÜET AYAKKABI;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1000;EVET
+suet-ayakkabi-batch9;SÜET AYAKKABI;ozel-temizleme;canta-ayakkabi;yikama;1000;EVET
+suet-ayakkabi-batch9;SÜET AYAKKABI;ozel-temizleme;canta-ayakkabi;boyama;750;HAYIR
+suet-bot-batch9;SÜET BOT;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1000;EVET
+suet-bot-batch9;SÜET BOT;ozel-temizleme;canta-ayakkabi;yikama;1000;EVET
+suet-bot-batch9;SÜET BOT;ozel-temizleme;canta-ayakkabi;boyama;750;HAYIR
+suet-cizme-batch9;SÜET ÇİZME;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1000;EVET
+suet-cizme-batch9;SÜET ÇİZME;ozel-temizleme;canta-ayakkabi;yikama;1000;EVET
+suet-cizme-batch9;SÜET ÇİZME;ozel-temizleme;canta-ayakkabi;boyama;750;HAYIR
+suet-kovboy-batch9;SÜET KOVBOY;ozel-temizleme;canta-ayakkabi;kuru-temizleme;1000;EVET
+suet-kovboy-batch9;SÜET KOVBOY;ozel-temizleme;canta-ayakkabi;yikama;1000;EVET
+suet-kovboy-batch9;SÜET KOVBOY;ozel-temizleme;canta-ayakkabi;boyama;750;HAYIR
+sweatshirt-batch9;SWEATSHİRT;erkek-giyim;erkek-ust-giyim;kuru-temizleme;350;EVET
+sweatshirt-batch9;SWEATSHİRT;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+sweatshirt-batch9;SWEATSHİRT;erkek-giyim;erkek-ust-giyim;yikama;350;EVET
+sweatshirt-kapsonlu-batch9;SWEATSHİRT KAPŞONLU;erkek-giyim;erkek-ust-giyim;kuru-temizleme;350;EVET
+sweatshirt-kapsonlu-batch9;SWEATSHİRT KAPŞONLU;erkek-giyim;erkek-ust-giyim;yikama;350;EVET
+tunik-batch9;TUNİK;kadin-giyim;kadin-ust-giyim;kuru-temizleme;450;EVET
+tunik-batch9;TUNİK;kadin-giyim;kadin-ust-giyim;utuleme;200;HAYIR
+tunik-batch9;TUNİK;kadin-giyim;kadin-ust-giyim;yikama;450;EVET
+uzun-g-mlek-batch9;UZUN GÖMLEK;erkek-giyim;erkek-ust-giyim;kuru-temizleme;300;EVET
+uzun-g-mlek-batch9;UZUN GÖMLEK;erkek-giyim;erkek-ust-giyim;utuleme;150;HAYIR
+uzun-g-mlek-batch9;UZUN GÖMLEK;erkek-giyim;erkek-ust-giyim;yikama;300;EVET
+y-n-ceket-batch9;YÜN CEKET;erkek-giyim;erkek-ust-giyim;kuru-temizleme;500;EVET
+y-n-ceket-batch9;YÜN CEKET;erkek-giyim;erkek-ust-giyim;utuleme;250;HAYIR
+y-n-ceket-batch9;YÜN CEKET;erkek-giyim;erkek-ust-giyim;yikama;500;EVET
+y-n-ceket-batch9;YÜN CEKET;erkek-giyim;erkek-ust-giyim;boyama;2000;HAYIR
+y-n-pantolon-batch9;YÜN PANTOLON;erkek-giyim;erkek-alt-giyim;kuru-temizleme;300;EVET
+y-n-pantolon-batch9;YÜN PANTOLON;erkek-giyim;erkek-alt-giyim;utuleme;150;HAYIR
+y-n-pantolon-batch9;YÜN PANTOLON;erkek-giyim;erkek-alt-giyim;yikama;300;EVET
+y-n-pantolon-batch9;YÜN PANTOLON;erkek-giyim;erkek-alt-giyim;boyama;1500;HAYIR
+y-n-takim-batch9;YÜN TAKIM;erkek-giyim;erkek-takim-elbise;kuru-temizleme;1200;EVET
+y-n-takim-batch9;YÜN TAKIM;erkek-giyim;erkek-takim-elbise;utuleme;600;HAYIR
+y-n-takim-batch9;YÜN TAKIM;erkek-giyim;erkek-takim-elbise;yikama;1200;EVET
+yatak-ortus-single-batch9;YATAK ÖRTÜS SİNGLE;ev-tekstili;yatak-takimi;kuru-temizleme;1000;EVET
+yatak-ortus-single-batch9;YATAK ÖRTÜS SİNGLE;ev-tekstili;yatak-takimi;utuleme;500;HAYIR
+yatak-ortus-single-batch9;YATAK ÖRTÜS SİNGLE;ev-tekstili;yatak-takimi;yikama;1000;EVET
+yatak-ortus-double-batch9;YATAK ÖRTÜS DOUBLE;ev-tekstili;yatak-takimi;kuru-temizleme;1500;EVET
+yatak-ortus-double-batch9;YATAK ÖRTÜS DOUBLE;ev-tekstili;yatak-takimi;utuleme;750;HAYIR
+yatak-ortus-double-batch9;YATAK ÖRTÜS DOUBLE;ev-tekstili;yatak-takimi;yikama;1500;EVET
+yastik-duz-batch9;YASTIK DÜZ;ev-tekstili;yatak-takimi;kuru-temizleme;450;EVET
+yastik-duz-batch9;YASTIK DÜZ;ev-tekstili;yatak-takimi;utuleme;250;HAYIR
+yastik-duz-batch9;YASTIK DÜZ;ev-tekstili;yatak-takimi;yikama;450;EVET
+yastik-nakı-li-batch9;YASTIK NAKIŞLI;ev-tekstili;yatak-takimi;kuru-temizleme;500;EVET
+yastik-nakı-li-batch9;YASTIK NAKIŞLI;ev-tekstili;yatak-takimi;utuleme;250;HAYIR
+yastik-nakı-li-batch9;YASTIK NAKIŞLI;ev-tekstili;yatak-takimi;yikama;500;EVET
+yastik-saten-batch9;YASTIK SATEN;ev-tekstili;yatak-takimi;kuru-temizleme;500;EVET
+yastik-saten-batch9;YASTIK SATEN;ev-tekstili;yatak-takimi;utuleme;250;HAYIR
+yastik-saten-batch9;YASTIK SATEN;ev-tekstili;yatak-takimi;yikama;500;EVET
+yastik-i-pek-batch9;YASTIK İPEK;ev-tekstili;yatak-takimi;kuru-temizleme;1000;EVET
+yastik-i-pek-batch9;YASTIK İPEK;ev-tekstili;yatak-takimi;utuleme;500;HAYIR
+yastik-i-pek-batch9;YASTIK İPEK;ev-tekstili;yatak-takimi;yikama;1000;EVET

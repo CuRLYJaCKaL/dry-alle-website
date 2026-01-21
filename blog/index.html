@@ -329,8 +329,14 @@
         </div>
     </div>
     
-    <!-- Navigation -->
-    <nav class="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
+    
+            <button class="mobile-menu-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-icon">☰</span>
+            </button>
+        </div>
+
+        <!-- Navigation -->
+    <nav class="main-nav" id="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
         <ul class="nav-menu" role="menubar">
             <li role="none"><a href="../index.html#services" role="menuitem">Hizmetlerimiz</a></li>
             <li role="none"><a href="../index.html#about" role="menuitem">Hakkımızda</a></li>
@@ -672,5 +678,29 @@
             <p>© 2025 Dry Alle Kuru Temizleme. Tüm hakları saklıdır.</p>
         </div>
     </footer>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (menuToggle && mainNav) {
+            menuToggle.addEventListener('click', function() {
+                const isOpen = mainNav.classList.toggle('open');
+                menuToggle.setAttribute('aria-expanded', isOpen);
+                menuToggle.querySelector('.hamburger-icon').textContent = isOpen ? '✕' : '☰';
+            });
+
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                    menuToggle.querySelector('.hamburger-icon').textContent = '☰';
+                });
+            });
+        }
+    });
+    </script>
 </body>
 </html>

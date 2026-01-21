@@ -358,8 +358,14 @@
             </div>
         </div>
         
+        
+            <button class="mobile-menu-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-icon">☰</span>
+            </button>
+        </div>
+
         <!-- Navigation -->
-        <nav class="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
+        <nav class="main-nav" id="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
             <ul class="nav-menu" role="menubar">
                 <li role="none"><a href="../index.html" role="menuitem">Ana Sayfa</a></li>
                 <li role="none"><a href="../index.html#services" role="menuitem">Hizmetlerimiz</a></li>
@@ -636,5 +642,29 @@
     <!-- GTM Component - Ana Tracking Sistemi -->
     <script src="../components/gtm.js"></script>
 
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (menuToggle && mainNav) {
+            menuToggle.addEventListener('click', function() {
+                const isOpen = mainNav.classList.toggle('open');
+                menuToggle.setAttribute('aria-expanded', isOpen);
+                menuToggle.querySelector('.hamburger-icon').textContent = isOpen ? '✕' : '☰';
+            });
+
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                    menuToggle.querySelector('.hamburger-icon').textContent = '☰';
+                });
+            });
+        }
+    });
+    </script>
 </body>
 </html>

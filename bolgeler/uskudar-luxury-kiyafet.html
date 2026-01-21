@@ -10,8 +10,8 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">    <!-- Ultra-Specific Local SEO Meta Tags -->
-    <title>Üsküdar Kuru Temizleme | Takım Elbise 280₺ Gömlek 95₺ | Altunizade Çamlıca | Dry Alle</title>
-    <meta name="description" content="Üsküdar'da kuru temizleme: Takım elbise 280₺, Gömlek 95₺, Elbise 165₺. Altunizade, Çamlıca, Kısıklı, Bağlarbaşı ücretsiz alım-teslim. 25 yıl deneyim. Ara: 0543 352 74 74">
+    <title>Üsküdar Kuru Temizleme | Takım Elbise 750₺ Gömlek 300₺ | Altunizade Çamlıca | Dry Alle</title>
+    <meta name="description" content="Üsküdar'da kuru temizleme: Takım elbise 750₺, Gömlek 300₺, Elbise 165₺. Altunizade, Çamlıca, Kısıklı, Bağlarbaşı ücretsiz alım-teslim. 25 yıl deneyim. Ara: 0543 352 74 74">
     <meta name="keywords" content="üsküdar luxury kıyafet temizleme, üsküdar designer giysi temizleme, üsküdar haute couture temizleme, üsküdar premium kıyafet bakımı, üsküdar luxury clothing cleaning">
     
     <!-- Canonical URL -->
@@ -277,7 +277,7 @@
                 "name": "Üsküdar'da kuru temizleme fiyatları ne kadar?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Üsküdar bölgesindeki kuru temizleme fiyatlarımız: Takım elbise 280₺, Gömlek 95₺, Elbise 165₺, Blazer/Ceket 180₺, Pantolon 110₺. Tüm semtlere ücretsiz kapıdan alım-teslim dahildir. 25 yıl deneyim garantisi ile hizmet veriyoruz."
+                    "text": "Üsküdar bölgesindeki kuru temizleme fiyatlarımız: Takım elbise 750₺, Gömlek 300₺, Elbise 165₺, Blazer/Ceket 180₺, Pantolon 110₺. Tüm semtlere ücretsiz kapıdan alım-teslim dahildir. 25 yıl deneyim garantisi ile hizmet veriyoruz."
                 }
             },
             {
@@ -365,14 +365,14 @@
             {
                 "@type": "Offer",
                 "name": "Takım Elbise Kuru Temizleme",
-                "price": "280",
+                "price": "750",
                 "priceCurrency": "TRY",
                 "availability": "https://schema.org/InStock"
             },
             {
                 "@type": "Offer",
                 "name": "Gömlek Kuru Temizleme",
-                "price": "95",
+                "price": "300",
                 "priceCurrency": "TRY",
                 "availability": "https://schema.org/InStock"
             },
@@ -422,8 +422,14 @@
             </div>
         </div>
         
+        
+            <button class="mobile-menu-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-icon">☰</span>
+            </button>
+        </div>
+
         <!-- Navigation -->
-        <nav class="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
+        <nav class="main-nav" id="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
             <ul class="nav-menu" role="menubar">
                 <li role="none"><a href="../index.html" role="menuitem">Ana Sayfa</a></li>
                 <li role="none"><a href="../index.html#services" role="menuitem">Hizmetlerimiz</a></li>
@@ -453,7 +459,7 @@
                 <div class="service-hero-content">
                     <div class="service-hero-text">
                         <h1>Üsküdar Kuru Temizleme | 25 Yıl Deneyim ile Güvenilir Hizmet</h1>
-                        <p class="service-hero-subtitle">Altunizade, Çamlıca, Kısıklı, Bağlarbaşı'nda profesyonel kuru temizleme. Takım elbise 280₺, Gömlek 95₺. Ücretsiz kapıdan alım-teslim, 24-48 saat teslimat. Designer kıyafetler özel bakım.</p>
+                        <p class="service-hero-subtitle">Altunizade, Çamlıca, Kısıklı, Bağlarbaşı'nda profesyonel kuru temizleme. Takım elbise 750₺, Gömlek 300₺. Ücretsiz kapıdan alım-teslim, 24-48 saat teslimat. Designer kıyafetler özel bakım.</p>
                         
                         <div class="local-features">
                             <h3>Luxury Kıyafet Uzmani</h3>
@@ -792,5 +798,29 @@
     <!-- GTM Component - Ana Tracking Sistemi -->
     <script src="../components/gtm.js"></script>
 
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (menuToggle && mainNav) {
+            menuToggle.addEventListener('click', function() {
+                const isOpen = mainNav.classList.toggle('open');
+                menuToggle.setAttribute('aria-expanded', isOpen);
+                menuToggle.querySelector('.hamburger-icon').textContent = isOpen ? '✕' : '☰';
+            });
+
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                    menuToggle.querySelector('.hamburger-icon').textContent = '☰';
+                });
+            });
+        }
+    });
+    </script>
 </body>
 </html>

@@ -449,10 +449,14 @@
                 <div class="phone-icon" aria-hidden="true">📞</div>
                 <span>İletişim</span>
             </button>
+
+            <button class="mobile-menu-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-icon">☰</span>
+            </button>
         </div>
-        
+
         <!-- Navigation -->
-        <nav class="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
+        <nav class="main-nav" id="main-nav" role="navigation" aria-label="Ana navigasyon menüsü">
             <ul class="nav-menu" role="menubar">
                 <li role="none"><a href="index.html" role="menuitem">Ana Sayfa</a></li>
                 <li role="none"><a href="#services" role="menuitem">Hizmetlerimiz</a></li>
@@ -933,64 +937,64 @@
                     <div class="district-card">
                         <div class="district-content">
                             <h3>Bağdat Caddesi Kuru Temizleme</h3>
-                            <p>Suadiye-Erenköy arasında kapıdan alım. Takım elbise 280₺, Gömlek 95₺.</p>
+                            <p>Suadiye-Erenköy arasında kapıdan alım. Takım elbise 750₺, Gömlek 300₺.</p>
                             <a href="bolgeler/bagdat-caddesi-haute-couture.html" class="district-link">Hizmet Al ›</a>
                         </div>
                     </div>
-                    
+
                     <div class="district-card">
                         <div class="district-content">
                             <h3>Kadıköy Kuru Temizleme</h3>
-                            <p>Takım elbise 280₺, Gömlek 95₺. Ücretsiz teslimat.</p>
+                            <p>Takım elbise 750₺, Gömlek 300₺. Ücretsiz teslimat.</p>
                             <a href="bolgeler/kadikoy-kuru-temizleme.html" class="district-link">Hizmet Al ›</a>
                         </div>
                     </div>
-                    
+
                     <div class="district-card">
                         <div class="district-content">
                             <h3>Üsküdar Kuru Temizleme</h3>
-                            <p>Altunizade-Çamlıca-Kısıklı bölgesi. Takım elbise 280₺, Gömlek 95₺.</p>
+                            <p>Altunizade-Çamlıca-Kısıklı bölgesi. Takım elbise 750₺, Gömlek 300₺.</p>
                             <a href="bolgeler/uskudar-luxury-kiyafet.html" class="district-link">Hizmet Al ›</a>
                         </div>
                     </div>
-                    
+
                     <div class="district-card">
                         <div class="district-content">
                             <h3>Acıbadem Kuru Temizleme</h3>
-                            <p>Hastane çevresi. Sağlık personeli %10 indirim. Takım 280₺, Gömlek 95₺.</p>
+                            <p>Hastane çevresi. Sağlık personeli %10 indirim. Takım 750₺, Gömlek 300₺.</p>
                             <a href="bolgeler/acibadem-kuru-temizleme.html" class="district-link">Hizmet Al ›</a>
                         </div>
                     </div>
-                    
+
                     <!-- Row 2 -->
                     <div class="district-card">
                         <div class="district-content">
                             <h3>Fenerbahçe Kuru Temizleme</h3>
-                            <p>Stadyum çevresi, sahil kesimi. Spor kıyafeti + Takım 280₺, Gömlek 95₺.</p>
+                            <p>Stadyum çevresi, sahil kesimi. Takım elbise 750₺, Gömlek 300₺.</p>
                             <a href="bolgeler/fenerbahce-kuru-temizleme.html" class="district-link">Hizmet Al ›</a>
                         </div>
                     </div>
-                    
+
                     <div class="district-card">
                         <div class="district-content">
-                            <h3>Caddebostan Halı Yıkama</h3>
-                            <p>Sahil kesimi lüks konutlar. Halı 180₺/m², Koltuk 250₺/koltuk.</p>
+                            <h3>Caddebostan Perde Temizleme</h3>
+                            <p>Sahil kesimi lüks konutlar. Tül perde 600₺'den, Fon perde 1000₺'den başlar.</p>
                             <a href="bolgeler/caddebostan-hali-yikama.html" class="district-link">Hizmet Al ›</a>
                         </div>
                     </div>
-                    
+
                     <div class="district-card">
                         <div class="district-content">
                             <h3>Ataşehir Kuru Temizleme</h3>
-                            <p>Plaza-Ofis teslimat. Takım 280₺, Gömlek 95₺. Kurumsal anlaşma %15 indirim.</p>
+                            <p>Plaza-Ofis teslimat. Takım 750₺, Gömlek 300₺. Kurumsal anlaşma %15 indirim.</p>
                             <a href="bolgeler/atasehir-premium-temizlik.html" class="district-link">Hizmet Al ›</a>
                         </div>
                     </div>
-                    
+
                     <div class="district-card">
                         <div class="district-content">
-                            <h3>Suadiye Halı Yıkama</h3>
-                            <p>Sahil lüks konutlar. Halı 180₺/m², El dokuma 250₺/m². Villa özel hizmet.</p>
+                            <h3>Suadiye Yorgan Temizleme</h3>
+                            <p>Sahil lüks konutlar. Elyaf yorgan 750₺, Kuş tüyü yorgan 1250₺.</p>
                             <a href="bolgeler/suadiye-hali-yikama.html" class="district-link">Hizmet Al ›</a>
                         </div>
                     </div>
@@ -1054,5 +1058,30 @@
     <link rel="stylesheet" href="components/quote-form.css">
     
     <script src="script.js" async></script>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (menuToggle && mainNav) {
+            menuToggle.addEventListener('click', function() {
+                const isOpen = mainNav.classList.toggle('open');
+                menuToggle.setAttribute('aria-expanded', isOpen);
+                menuToggle.querySelector('.hamburger-icon').textContent = isOpen ? '✕' : '☰';
+            });
+
+            // Close menu when clicking a link
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                    menuToggle.querySelector('.hamburger-icon').textContent = '☰';
+                });
+            });
+        }
+    });
+    </script>
 </body>
 </html>
