@@ -14,8 +14,8 @@
   "brand": {
     "primaryColor": "#006a44",
     "secondaryColor": "#00563B",
-    "accentColor": "#f6ec3d",
-    "accentLight": "#f8f068",
+    "accentColor": "#E8C547",
+    "accentLight": "#F3DD86",
     "backgroundColor": "#FFFFFF",
     "surfaceColor": "#EDF7F1",
     "surfaceAlt": "#DCEFE4",
@@ -334,6 +334,42 @@
         {
           "name": "Küçükbakkalköy",
           "slug": "kucukbakkalkoy"
+        },
+        {
+          "name": "Kayışdağı",
+          "slug": "kayisdagi"
+        },
+        {
+          "name": "Yenisahra",
+          "slug": "yenisahra"
+        },
+        {
+          "name": "Ferhatpaşa",
+          "slug": "ferhatpasa"
+        },
+        {
+          "name": "Atatürk",
+          "slug": "ataturk"
+        },
+        {
+          "name": "Mimar Sinan",
+          "slug": "mimar-sinan"
+        },
+        {
+          "name": "Mustafa Kemal",
+          "slug": "mustafa-kemal"
+        },
+        {
+          "name": "İnönü",
+          "slug": "inonu"
+        },
+        {
+          "name": "Örnek",
+          "slug": "ornek"
+        },
+        {
+          "name": "Esatpaşa",
+          "slug": "esatpasa"
         }
       ]
     },
@@ -349,6 +385,46 @@
         {
           "name": "Çamlıca",
           "slug": "camlica"
+        },
+        {
+          "name": "Kuzguncuk",
+          "slug": "kuzguncuk"
+        },
+        {
+          "name": "Beylerbeyi",
+          "slug": "beylerbeyi"
+        },
+        {
+          "name": "Çengelköy",
+          "slug": "cengelkoy"
+        },
+        {
+          "name": "Kandilli",
+          "slug": "kandilli"
+        },
+        {
+          "name": "Bulgurlu",
+          "slug": "bulgurlu"
+        },
+        {
+          "name": "Bağlarbaşı",
+          "slug": "baglarbasi"
+        },
+        {
+          "name": "Kısıklı",
+          "slug": "kisikli"
+        },
+        {
+          "name": "Salacak",
+          "slug": "salacak"
+        },
+        {
+          "name": "Burhaniye",
+          "slug": "burhaniye"
+        },
+        {
+          "name": "Ünalan",
+          "slug": "unalan"
         }
       ]
     },
@@ -360,6 +436,50 @@
         {
           "name": "Dragos",
           "slug": "dragos"
+        },
+        {
+          "name": "Küçükyalı",
+          "slug": "kucukyali"
+        },
+        {
+          "name": "İdealtepe",
+          "slug": "idealtepe"
+        },
+        {
+          "name": "Altayçeşme",
+          "slug": "altaycesme"
+        },
+        {
+          "name": "Cevizli",
+          "slug": "cevizli"
+        },
+        {
+          "name": "Zümrütevler",
+          "slug": "zumrutevler"
+        },
+        {
+          "name": "Fındıklı",
+          "slug": "findikli"
+        },
+        {
+          "name": "Esenkent",
+          "slug": "esenkent"
+        },
+        {
+          "name": "Girne",
+          "slug": "girne"
+        },
+        {
+          "name": "Başıbüyük",
+          "slug": "basibuyuk"
+        },
+        {
+          "name": "Altıntepe",
+          "slug": "altintepe"
+        },
+        {
+          "name": "Büyükbakkalköy",
+          "slug": "buyukbakkalkoy"
         }
       ]
     },
@@ -367,19 +487,166 @@
       "city": "İstanbul",
       "district": "Kartal",
       "districtSlug": "kartal",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "name": "Atalar",
+          "slug": "atalar"
+        },
+        {
+          "name": "Kordonboyu",
+          "slug": "kordonboyu"
+        },
+        {
+          "name": "Yakacık",
+          "slug": "yakacik"
+        },
+        {
+          "name": "Soğanlık",
+          "slug": "soganlik"
+        },
+        {
+          "name": "Karlıktepe",
+          "slug": "karliktepe"
+        },
+        {
+          "name": "Cumhuriyet",
+          "slug": "cumhuriyet"
+        },
+        {
+          "name": "Hürriyet",
+          "slug": "hurriyet"
+        },
+        {
+          "name": "Uğur Mumcu",
+          "slug": "ugur-mumcu"
+        },
+        {
+          "name": "Petrol-İş",
+          "slug": "petrol-is"
+        },
+        {
+          "name": "Esentepe",
+          "slug": "esentepe"
+        },
+        {
+          "name": "Topselvi",
+          "slug": "topselvi"
+        },
+        {
+          "name": "Gümüşpınar",
+          "slug": "gumuspinar"
+        }
+      ]
     },
     {
       "city": "İstanbul",
       "district": "Pendik",
       "districtSlug": "pendik",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "name": "Kurtköy",
+          "slug": "kurtkoy"
+        },
+        {
+          "name": "Kaynarca",
+          "slug": "kaynarca"
+        },
+        {
+          "name": "Yenişehir",
+          "slug": "yenisehir"
+        },
+        {
+          "name": "Esenyalı",
+          "slug": "esenyali"
+        },
+        {
+          "name": "Güzelyalı",
+          "slug": "guzelyali"
+        },
+        {
+          "name": "Çınardere",
+          "slug": "cinardere"
+        },
+        {
+          "name": "Kavakpınar",
+          "slug": "kavakpinar"
+        },
+        {
+          "name": "Velibaba",
+          "slug": "velibaba"
+        },
+        {
+          "name": "Ahmet Yesevi",
+          "slug": "ahmet-yesevi"
+        },
+        {
+          "name": "Fevzi Çakmak",
+          "slug": "fevzi-cakmak"
+        },
+        {
+          "name": "Batı",
+          "slug": "bati"
+        },
+        {
+          "name": "Doğu",
+          "slug": "dogu"
+        }
+      ]
     },
     {
       "city": "İstanbul",
       "district": "Ümraniye",
       "districtSlug": "umraniye",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "name": "Atakent",
+          "slug": "atakent"
+        },
+        {
+          "name": "Çakmak",
+          "slug": "cakmak"
+        },
+        {
+          "name": "Ihlamurkuyu",
+          "slug": "ihlamurkuyu"
+        },
+        {
+          "name": "İnkılap",
+          "slug": "inkilap"
+        },
+        {
+          "name": "Namık Kemal",
+          "slug": "namik-kemal"
+        },
+        {
+          "name": "Tepeüstü",
+          "slug": "tepeustu"
+        },
+        {
+          "name": "Yamanevler",
+          "slug": "yamanevler"
+        },
+        {
+          "name": "Altınşehir",
+          "slug": "altinsehir"
+        },
+        {
+          "name": "Madenler",
+          "slug": "madenler"
+        },
+        {
+          "name": "Aşağı Dudullu",
+          "slug": "asagi-dudullu"
+        },
+        {
+          "name": "Yukarı Dudullu",
+          "slug": "yukari-dudullu"
+        },
+        {
+          "name": "Site",
+          "slug": "site"
+        }
+      ]
     }
   ],
   "seoTokens": {
@@ -471,12 +738,16 @@
     "regionVariants": [
       "{location} sakinlerine profesyonel {sectorLabel}, halı yıkama ve koltuk yıkama hizmeti sunuyoruz. {businessName} olarak {primaryKeyword} alanında 25 yıllık deneyimimizle güvenilir çözümler sağlıyoruz.",
       "{location} bölgesinde kaliteli {sectorLabel} arayanlar için {businessName} hizmetinizde. Uzman kadromuz ve ücretsiz kapıdan teslimat avantajımızla {primaryKeyword} ihtiyaçlarınızı karşılıyoruz.",
-      "{businessName}, {location} ve çevresinde {primaryKeyword}, halı yıkama ve tekstil bakım hizmeti vermektedir. Kapınıza gelen servisimizle profesyonel {sectorLabel} artık çok daha erişilebilir."
+      "{businessName}, {location} ve çevresinde {primaryKeyword}, halı yıkama ve tekstil bakım hizmeti vermektedir. Kapınıza gelen servisimizle profesyonel {sectorLabel} artık çok daha erişilebilir.",
+      "{location} bölgesinde {primaryKeyword}, halı yıkama ve perde temizleme hizmetini kapınıza getiriyoruz. {businessName}, kıyafetlerinizi {location} içinden ücretsiz alıyor, kumaş türüne özel işlemle temizliyor ve söz verilen günde teslim ediyor.",
+      "{location} {primaryKeyword} ihtiyacınızda {establishedYear}'den bu yana güvenilir adresiniz {businessName}. Takım elbiseden gelinliğe, koltuk yıkamadan ütü hizmetine kadar tüm tekstil bakımınızı {location} ve çevresinde ücretsiz kapıdan alım-teslimatla sunuyoruz."
     ],
     "regionSubtitleVariants": [
       "{location} bölgesinde profesyonel {sectorLabel} hizmetimizi farklı kılan değerler.",
       "{location} ve çevresinde {sectorLabel} ve halı yıkama hizmetimizin öne çıkan özellikleri.",
-      "Neden {location} müşterileri {businessName}'yi tercih ediyor?"
+      "Neden {location} müşterileri {businessName}'yi tercih ediyor?",
+      "{location} bölgesinde {primaryKeyword} hizmetinde bizi tercih ettiren farklar.",
+      "{location} sakinlerinin {businessName}'yi seçmesinin somut nedenleri."
     ],
     "actionVerbs": [
       "teslim edin",

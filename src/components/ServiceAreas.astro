@@ -17,43 +17,56 @@ const phoneClean = phone.replace(/\s/g, '');
       </p>
     </div>
 
-    <!-- All Areas -->
-    <div class="space-y-10">
+    <!-- All Areas (accordion) -->
+    <div class="space-y-3 max-w-4xl mx-auto">
       {areas.map((area) => (
-        <div>
-          <!-- District Header -->
-          <div class="flex items-center gap-3 mb-4">
-            <div class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
+        <details class="group bg-white rounded-xl border border-border/60 overflow-hidden">
+          <summary class="flex items-center gap-3 px-4 sm:px-5 py-4 cursor-pointer select-none list-none min-h-[44px] hover:bg-surface/60 transition-colors [&::-webkit-details-marker]:hidden">
+            <div class="w-8 h-8 shrink-0 rounded-lg bg-primary/10 flex items-center justify-center">
               <svg class="w-4 h-4 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                 <circle cx="12" cy="10" r="3"/>
               </svg>
             </div>
-            <h3 class="text-lg font-bold text-primary">{area.district}</h3>
-            <div class="flex-1 h-px bg-border"></div>
-          </div>
+            <h3 class="text-lg font-bold text-primary flex-1">{area.district}</h3>
+            <span class="text-xs font-medium text-text-secondary bg-surface rounded-full px-2.5 py-1">{area.neighborhoods.length} mahalle</span>
+            <svg class="w-5 h-5 text-text-secondary shrink-0 transition-transform duration-200 group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </summary>
 
-          <!-- Neighborhood Cards Grid -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            {area.neighborhoods.map((neighborhood) => (
-              <a
-                href={`/bolge/${area.districtSlug}/${neighborhood.slug}/`}
-                class="group flex items-center gap-3 bg-white rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/30 hover:shadow-card transition-all duration-200"
-              >
-                <div class="w-9 h-9 shrink-0 rounded-lg bg-accent/8 flex items-center justify-center group-hover:bg-accent/15 transition-colors">
-                  <svg class="w-4 h-4 text-accent/70 group-hover:text-accent transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                    <circle cx="12" cy="10" r="3"/>
+          <div class="px-4 sm:px-5 pb-5 pt-1 border-t border-border/40">
+            <a
+              href={`/bolge/${area.districtSlug}/`}
+              class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark mb-4 mt-3 min-h-[44px] sm:min-h-0"
+            >
+              {area.district} bölge sayfasını görüntüle
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+            </a>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {area.neighborhoods.map((neighborhood) => (
+                <a
+                  href={`/bolge/${area.districtSlug}/${neighborhood.slug}/`}
+                  class="group/nh flex items-center gap-3 bg-surface/50 rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/40 hover:bg-white hover:shadow-card transition-all duration-200"
+                >
+                  <div class="w-9 h-9 shrink-0 rounded-lg bg-accent/10 flex items-center justify-center group-hover/nh:bg-accent/20 transition-colors">
+                    <svg class="w-4 h-4 text-accent group-hover/nh:text-accent transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                      <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                  </div>
+                  <span class="flex-1 min-w-0 text-sm font-semibold text-primary truncate">{neighborhood.name}</span>
+                  <svg class="w-4 h-4 text-border group-hover/nh:text-accent shrink-0 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6"/>
                   </svg>
-                </div>
-                <span class="flex-1 min-w-0 text-sm font-semibold text-primary truncate">{neighborhood.name}</span>
-                <svg class="w-4 h-4 text-border group-hover:text-accent shrink-0 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <polyline points="9 18 15 12 9 6"/>
-                </svg>
-              </a>
-            ))}
+                </a>
+              ))}
+            </div>
           </div>
-        </div>
+        </details>
       ))}
     </div>
 
