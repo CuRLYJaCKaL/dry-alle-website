@@ -1,0 +1,75 @@
+---
+import config from '../../config/site.config.json';
+import { interpolate } from '../utils/engine';
+
+const neighborhoodCount = config.serviceAreas.reduce(
+  (sum: number, area: { neighborhoods: unknown[] }) => sum + area.neighborhoods.length, 0
+);
+
+const valuePropositions = config.contentTokens.valuePropositions;
+
+const vpDetailDescriptions = config.contentTokens.valuePropositionDetails;
+const vpIcons = ['trophy', 'clock', 'truck'];
+const contentTokens = { neighborhoodCount: String(neighborhoodCount) };
+const vpDetails = valuePropositions.map((title: string, i: number) => ({
+  icon: vpIcons[i],
+  title,
+  description: interpolate(vpDetailDescriptions[i] || '', contentTokens),
+}));
+---
+
+<section id="hakkimizda" class="bg-white border-t border-border/30">
+  <div class="section-container section-padding">
+    <div class="text-center mb-12">
+      <h2 class="section-title">{config.contentTokens.aboutTitle}</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-10">
+      {vpDetails.map((vp) => (
+        <div class="card text-center">
+          <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-accent/10 flex items-center justify-center">
+            {vp.icon === 'trophy' && (
+              <svg class="w-8 h-8 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                <path d="M4 22h16"/>
+                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+              </svg>
+            )}
+            {vp.icon === 'clock' && (
+              <svg class="w-8 h-8 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            )}
+            {vp.icon === 'truck' && (
+              <svg class="w-8 h-8 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/>
+                <path d="M15 18H9"/>
+                <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/>
+                <circle cx="17" cy="18" r="2"/>
+                <circle cx="7" cy="18" r="2"/>
+              </svg>
+            )}
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-primary mb-2">
+            {vp.title}
+          </h3>
+          <p class="text-text-secondary text-sm sm:text-base leading-relaxed">
+            {vp.description}
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <!-- Service areas summary -->
+    <div class="flex flex-wrap items-center justify-center gap-3 max-w-2xl mx-auto">
+      {config.serviceAreas.map((area: { district: string }) => (
+        <span class="bg-white rounded-full px-4 py-2 text-sm font-medium text-primary shadow-sm border border-border/40">{area.district}</span>
+      ))}
+      <span class="text-text-secondary text-sm">ve çevre semtlerde yanınızdayız</span>
+    </div>
+  </div>
+</section>

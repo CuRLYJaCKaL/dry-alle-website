@@ -1,0 +1,140 @@
+---
+import config from '../../config/site.config.json';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalUrl: string;
+  jsonLd?: Record<string, unknown>;
+  ogImage?: string;
+  breadcrumbs?: { name: string; url: string }[];
+  ogType?: string;
+  articleMeta?: { publishedTime?: string; modifiedTime?: string; author?: string };
+}
+
+const { title, description, canonicalUrl, jsonLd, ogImage, breadcrumbs, ogType = 'website', articleMeta } = Astro.props;
+const siteName = config.identity.businessName;
+const defaultOgImage = ogImage || '/images/og-default.png';
+const absoluteOgImage = defaultOgImage.startsWith('http') ? defaultOgImage : `https://${config.contact.domain}${defaultOgImage}`;
+
+const defaultJsonLd = {
+  "@context": "https://schema.org",
+  "@type": (config.identity as Record<string, unknown>).schemaType as string || "LocalBusiness",
+  "name": config.identity.businessName,
+  "description": config.identity.description,
+  "url": `https://${config.contact.domain}`,
+  "telephone": config.contact.phone,
+  "email": config.contact.email,
+  "image": `https://${config.contact.domain}/images/logo.png`,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": config.contact.address.street,
+    "addressLocality": config.contact.address.province,
+    "addressRegion": config.contact.address.city,
+    "postalCode": config.contact.address.postalCode,
+    "addressCountry": "TR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": config.contact.geo.latitude,
+    "longitude": config.contact.geo.longitude
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": config.openingHours.days,
+      "opens": config.openingHours.opens,
+      "closes": config.openingHours.closes
+    }
+  ],
+  "areaServed": config.serviceAreas.map(area => ({
+    "@type": "City",
+    "name": `${area.district}, ${area.city}`
+  })),
+  ...(Object.values(config.contact.socialLinks || {}).filter(Boolean).length > 0 ? { "sameAs": Object.values(config.contact.socialLinks).filter(Boolean) } : {}),
+  "foundingDate": String(config.identity.establishedYear),
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": `${config.identity.sectorLabel} Hizmetleri`,
+    "itemListElement": config.services.map(service => ({
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": service.name,
+        "description": service.description
+      }
+    }))
+  }
+};
+
+// Sayfa kendi LocalBusiness'ını mı geçiriyor?
+const isCustomLocalBusiness = jsonLd?.["@type"] === "LocalBusiness";
+
+// LocalBusiness her zaman çıkar (custom varsa onu, yoksa default'u kullan)
+const localBusinessSchema = isCustomLocalBusiness ? jsonLd : defaultJsonLd;
+
+// Ek schema (BlogPosting, Service vb.) sadece type farklıysa çıkar
+const additionalSchema = (jsonLd && !isCustomLocalBusiness) ? jsonLd : null;
+
+const breadcrumbJsonLd = breadcrumbs?.length ? {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbs.map((crumb, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": crumb.name,
+    "item": crumb.url.startsWith('http') ? crumb.url : `https://${config.contact.domain}${crumb.url}`
+  }))
+} : null;
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content={config.brand.primaryColor} />
+<meta name="generator" content={Astro.generator} />
+
+<!-- Primary Meta -->
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalUrl} />
+
+<!-- Font preload (critical body + heading fonts — others load on-demand via @font-face) -->
+<link rel="preload" href="/fonts/roboto-latin-400.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/fonts/roboto-latin-ext-400.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/fonts/roboto-latin-700.woff2" as="font" type="font/woff2" crossorigin />
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/manifest.json" />
+
+<!-- Open Graph -->
+<meta property="og:type" content={ogType} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={absoluteOgImage} />
+<meta property="og:site_name" content={siteName} />
+<meta property="og:locale" content="tr_TR" />
+{articleMeta?.publishedTime && <meta property="article:published_time" content={articleMeta.publishedTime} />}
+{articleMeta?.modifiedTime && <meta property="article:modified_time" content={articleMeta.modifiedTime} />}
+{articleMeta?.author && <meta property="article:author" content={articleMeta.author} />}
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={absoluteOgImage} />
+
+<!-- Robots -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
+{additionalSchema && (
+  <script type="application/ld+json" set:html={JSON.stringify(additionalSchema)} />
+)}
+{breadcrumbJsonLd && (
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+)}

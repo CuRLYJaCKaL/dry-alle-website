@@ -1,0 +1,28 @@
+DryPrestij Kuru Temizleme - Yeni Proje
+========================================
+
+Bu proje, DryTarabyaKuruTemizleme'den klonlanmış ve marka kimliği
+"Dry Prestij" olarak güncellenmiş halidir.
+
+SİTEYİ ÖNİZLE (statik, hızlı bakış):
+   → onizleme.html dosyasını çift tıklayın (tarayıcıda açılır)
+
+CANLI GELİŞTİRME / TÜM SAYFALAR İLE ÇALIŞMA:
+   → baslat-dev-server.command dosyasını çift tıklayın
+   → İlk kez ~1 dk bağımlılık kurulumu yapacak
+   → Sonra http://localhost:4321 adresinde site açılır
+
+NELERİ DEĞİŞTİ:
+   • Marka: Dry Tarabya  →  Dry Prestij  (61 referans, 23 dosyada)
+   • Domain: drytarabyakurutemizleme.com  →  dryprestijkurutemizleme.com
+   • package.json adı: dry-prestij-kuru-temizleme
+
+DEĞİŞMEYEN (KASTEN):
+   • "Tarabya" semt adı (örn. /bolge/sariyer/tarabya/, blog
+     içeriklerindeki coğrafi referanslar) — semt ismi olarak korundu.
+
+YAPI:
+   src/             Astro kaynak dosyaları
+   public/          Statik varlıklar (font, ikon, görsel)
+   config/          Site konfigürasyonu (site.config.json)
+   dist/            Build çıktısı (npm run build sonrası)

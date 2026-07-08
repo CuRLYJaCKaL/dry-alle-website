@@ -1,0 +1,68 @@
+---
+import config from '../../config/site.config.json';
+import { validateConfig } from '../utils/engine';
+validateConfig(config as Record<string, unknown>);
+import SEOHead from '../components/SEOHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import WhatsAppCTA from '../components/WhatsAppCTA.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  jsonLd?: Record<string, unknown>;
+  ogImage?: string;
+  breadcrumbs?: { name: string; url: string }[];
+  ogType?: string;
+  articleMeta?: { publishedTime?: string; modifiedTime?: string; author?: string };
+}
+
+const { title, description, canonicalPath = '', jsonLd, ogImage, breadcrumbs, ogType, articleMeta } = Astro.props;
+const canonicalUrl = `https://${config.contact.domain}${canonicalPath}`;
+const gtmId: string | undefined = config.analytics?.gtmId;
+---
+
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+    <SEOHead
+      title={title}
+      description={description}
+      canonicalUrl={canonicalUrl}
+      jsonLd={jsonLd}
+      ogImage={ogImage}
+      breadcrumbs={breadcrumbs}
+      ogType={ogType}
+      articleMeta={articleMeta}
+    />
+    {gtmId && (
+      <script is:inline define:vars={{ gtmId }}>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',gtmId);
+      </script>
+    )}
+  </head>
+  <body class="min-h-screen flex flex-col">
+    {gtmId && (
+      <noscript>
+        <iframe
+          src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+          title="Google Tag Manager"
+        ></iframe>
+      </noscript>
+    )}
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:shadow-elevated">
+      İçeriğe Geç
+    </a>
+    <Header />
+    <main id="main-content" class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+    <WhatsAppCTA />
+  </body>
+</html>

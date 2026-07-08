@@ -1,0 +1,332 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import config from '../../../config/site.config.json';
+import { interpolate } from '../../utils/engine';
+
+const businessName = config.identity.businessName;
+const phone = config.contact.phone;
+const phoneClean = phone.replace(/\s/g, '');
+const whatsappClean = config.contact.whatsapp.replace(/[\s+]/g, '');
+const services = config.services;
+
+const title = `Online Sipariş - %20 İndirim | ${businessName}`;
+const description = `Online sipariş verin, %20 indirim kazanın! Hizmet seçin, bilgilerinizi girin, WhatsApp üzerinden siparişinizi hemen gönderin.`;
+const canonicalPath = '/siparis/';
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": `Online Sipariş - ${businessName}`,
+  "description": description,
+  "serviceType": interpolate(config.seoTemplates.orderServiceType, { sectorLabel: config.identity.sectorLabel }),
+  "url": `https://${config.contact.domain}${canonicalPath}`,
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": businessName,
+    "telephone": phone,
+    "email": config.contact.email,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": config.contact.address.street,
+      "addressLocality": config.contact.address.province,
+      "addressRegion": config.contact.address.city,
+      "addressCountry": "TR"
+    }
+  },
+  "areaServed": config.serviceAreas.map(a => ({
+    "@type": "Place",
+    "name": `${a.district}, ${a.city}`
+  }))
+};
+
+const breadcrumbs = [
+  { name: 'Ana Sayfa', url: '/' },
+  { name: 'Online Sipariş', url: '/siparis/' },
+];
+---
+
+<BaseLayout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd} breadcrumbs={breadcrumbs}>
+
+  <!-- ════════════════════════════════════════════
+       HERO
+       ════════════════════════════════════════════ -->
+  <section class="relative overflow-hidden bg-gradient-to-br from-primary to-primary-dark text-white pt-8 sm:pt-10 lg:pt-12 pb-10 sm:pb-12">
+    <div class="absolute inset-0 opacity-[0.06]" aria-hidden="true">
+      <div class="absolute -top-24 right-0 w-[500px] h-[500px] bg-accent rounded-full blur-3xl translate-x-1/3"></div>
+      <div class="absolute bottom-0 left-0 w-80 h-80 bg-secondary rounded-full blur-3xl -translate-x-1/4 translate-y-1/4"></div>
+    </div>
+
+    <div class="section-container relative z-10">
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center gap-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Ana Sayfa</a></li>
+          <li aria-hidden="true">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </li>
+          <li class="text-white font-medium">Online Sipariş</li>
+        </ol>
+      </nav>
+
+      <span class="badge bg-accent/20 text-accent-light backdrop-blur-sm mb-4">
+        %20 Online İndirim
+      </span>
+
+      <h1 class="text-hero font-bold mb-4 leading-tight">Online Sipariş</h1>
+
+      <p class="text-lg sm:text-xl text-white/80 max-w-2xl leading-relaxed">
+        Formu doldurun, WhatsApp üzerinden siparişinizi gönderin. Online sipariş veren müşterilerimize %20 indirim uyguluyoruz.
+      </p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       İNDİRİM BANNER
+       ════════════════════════════════════════════ -->
+  <section class="bg-accent text-white py-4">
+    <div class="section-container text-center">
+      <div class="flex items-center justify-center gap-3 flex-wrap">
+        <span class="text-3xl sm:text-4xl font-bold">%20</span>
+        <div class="text-left">
+          <span class="block font-bold text-lg">İndirim</span>
+          <span class="block text-white/80 text-sm">Online sipariş veren müşterilere özel</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       FORM BÖLÜMÜ
+       ════════════════════════════════════════════ -->
+  <section class="bg-white section-padding">
+    <div class="section-container">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
+
+        <!-- Sol: Form kartı -->
+        <div class="lg:col-span-2">
+          <div class="bg-surface rounded-2xl p-6 sm:p-8">
+            <h2 class="text-xl sm:text-2xl font-bold text-primary mb-6">Sipariş Bilgileri</h2>
+
+            <form id="siparis-form" class="space-y-5" data-wa-number={whatsappClean}>
+
+              <!-- Hizmet Seçimi -->
+              <div>
+                <label for="hizmet" class="block text-sm font-semibold text-primary mb-1.5">
+                  Hizmet Seçimi <span class="text-red-400">*</span>
+                </label>
+                <select id="hizmet" name="hizmet" required
+                  class="w-full rounded-lg border border-border bg-white px-4 py-3 text-text-primary text-sm focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-colors">
+                  <option value="">Hizmet seçin</option>
+                  {services.map((s) => (
+                    <option value={s.name}>{s.name}</option>
+                  ))}
+                </select>
+              </div>
+
+              <!-- Parça Sayısı (opsiyonel) -->
+              <div>
+                <label for="parca" class="block text-sm font-semibold text-primary mb-1.5">
+                  Parça Sayısı
+                </label>
+                <input type="number" id="parca" name="parca" min="1" value="1"
+                  class="w-full rounded-lg border border-border bg-white px-4 py-3 text-text-primary text-sm focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-colors" />
+                <p class="text-text-secondary text-xs mt-1">Tam sayıyı bilmiyorsanız boş bırakabilirsiniz</p>
+              </div>
+
+              <!-- Ad Soyad -->
+              <div>
+                <label for="ad-soyad" class="block text-sm font-semibold text-primary mb-1.5">
+                  Ad Soyad <span class="text-red-400">*</span>
+                </label>
+                <input type="text" id="ad-soyad" name="ad-soyad" required placeholder="Adınız Soyadınız" autocomplete="name"
+                  class="w-full rounded-lg border border-border bg-white px-4 py-3 text-text-primary text-sm focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-colors" />
+              </div>
+
+              <!-- Telefon -->
+              <div>
+                <label for="telefon" class="block text-sm font-semibold text-primary mb-1.5">
+                  Telefon <span class="text-red-400">*</span>
+                </label>
+                <input type="tel" id="telefon" name="telefon" required placeholder="05XX XXX XX XX" autocomplete="tel" inputmode="tel"
+                  class="w-full rounded-lg border border-border bg-white px-4 py-3 text-text-primary text-sm focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-colors" />
+              </div>
+
+              <!-- Adres / Semt -->
+              <div>
+                <label for="adres" class="block text-sm font-semibold text-primary mb-1.5">
+                  Adres / Semt <span class="text-red-400">*</span>
+                </label>
+                <input type="text" id="adres" name="adres" required placeholder="Mahalle, sokak, bina no" autocomplete="street-address"
+                  class="w-full rounded-lg border border-border bg-white px-4 py-3 text-text-primary text-sm focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-colors" />
+              </div>
+
+              <!-- Not (opsiyonel) -->
+              <div>
+                <label for="siparis-not" class="block text-sm font-semibold text-primary mb-1.5">
+                  Not / Açıklama
+                </label>
+                <textarea id="siparis-not" name="siparis-not" rows="3" placeholder="Varsa ek bilgi..."
+                  class="w-full rounded-lg border border-border bg-white px-4 py-3 text-text-primary text-sm focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-colors resize-none"></textarea>
+              </div>
+
+              <!-- Hata mesajı alanı -->
+              <p id="form-error" class="text-red-500 text-sm hidden" role="alert">Lütfen zorunlu alanları doldurun.</p>
+
+              <!-- Aciliyet sinyali -->
+              <p class="text-accent text-sm font-medium text-center">
+                Bugün sipariş verin, aynı gün teslim seçeneğinden yararlanın.
+              </p>
+
+              <!-- Submit -->
+              <button type="submit" id="siparis-submit"
+                class="btn-whatsapp w-full !text-base !py-4 gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+                </svg>
+                WhatsApp ile Sipariş Gönder
+              </button>
+
+              <p class="text-text-secondary text-xs text-center">
+                Siparişiniz WhatsApp üzerinden iletilecektir. Bilgileriniz gizli tutulur.
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <!-- Sağ: Güven kartları -->
+        <div class="space-y-4">
+          <div class="card text-center">
+            <div class="text-3xl font-bold text-accent mb-1">%20</div>
+            <p class="text-sm font-semibold text-primary">Online İndirim</p>
+            <p class="text-xs text-text-secondary">Tüm online siparişlerde geçerli</p>
+          </div>
+
+          <div class="card text-center">
+            <div class="w-10 h-10 mx-auto mb-2 rounded-xl bg-accent/10 flex items-center justify-center">
+              <svg class="w-5 h-5 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/>
+                <path d="M15 18H9"/>
+                <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/>
+                <circle cx="17" cy="18" r="2"/>
+                <circle cx="7" cy="18" r="2"/>
+              </svg>
+            </div>
+            <p class="text-sm font-semibold text-primary">Ücretsiz Al-Götür</p>
+            <p class="text-xs text-text-secondary">Kapınızdan alıp teslim ediyoruz</p>
+          </div>
+
+          <div class="card text-center">
+            <div class="w-10 h-10 mx-auto mb-2 rounded-xl bg-accent/10 flex items-center justify-center">
+              <svg class="w-5 h-5 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <p class="text-sm font-semibold text-primary">Aynı Gün Teslimat</p>
+            <p class="text-xs text-text-secondary">Acil işlemler için mevcut</p>
+          </div>
+
+          <div class="card text-center">
+            <div class="w-10 h-10 mx-auto mb-2 rounded-xl bg-yellow-400/10 flex items-center justify-center">
+              <svg class="w-5 h-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+              </svg>
+            </div>
+            <p class="text-sm font-semibold text-primary">{config.socialProof.googleRating} / 5 Puan</p>
+            <p class="text-xs text-text-secondary">{config.socialProof.reviewCount} müşteri değerlendirmesi</p>
+          </div>
+
+          <div class="card text-center">
+            <div class="w-10 h-10 mx-auto mb-2 rounded-xl bg-accent/10 flex items-center justify-center">
+              <svg class="w-5 h-5 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <p class="text-sm font-semibold text-primary">Hızlı İletişim</p>
+            <p class="text-xs text-text-secondary">
+              <a href={`tel:${phoneClean}`} class="text-accent hover:underline">{config.contact.phoneDisplay}</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  function initSiparisForm() {
+    var form = document.getElementById('siparis-form');
+    var errorEl = document.getElementById('form-error');
+    if (!form || !errorEl) return;
+
+    // Çift başlatma koruması — window.open() iki kez tetiklenmesin
+    if (form.dataset.initialized) return;
+    form.dataset.initialized = 'true';
+
+    var waNumber = form.dataset.waNumber;
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      var hizmet = document.getElementById('hizmet').value;
+      var parca = document.getElementById('parca').value;
+      var adSoyad = document.getElementById('ad-soyad').value.trim();
+      var telefon = document.getElementById('telefon').value.trim();
+      var adres = document.getElementById('adres').value.trim();
+      var not = document.getElementById('siparis-not').value.trim();
+
+      var requiredFields = [
+        { el: document.getElementById('hizmet'), val: hizmet },
+        { el: document.getElementById('ad-soyad'), val: adSoyad },
+        { el: document.getElementById('telefon'), val: telefon },
+        { el: document.getElementById('adres'), val: adres },
+      ];
+
+      var hasError = false;
+      requiredFields.forEach(function(f) {
+        if (!f.val) {
+          f.el.classList.add('border-red-400');
+          hasError = true;
+        } else {
+          f.el.classList.remove('border-red-400');
+        }
+      });
+
+      if (hasError) {
+        errorEl.classList.remove('hidden');
+        return;
+      }
+      errorEl.classList.add('hidden');
+
+      var lines = [
+        '\uD83E\uDDFA Online Sipari\u015F (%20 \u0130ndirimli)',
+        '',
+        'Hizmet: ' + hizmet,
+      ];
+      if (parca) lines.push('Par\u00E7a Say\u0131s\u0131: ' + parca);
+      lines.push('Ad Soyad: ' + adSoyad);
+      lines.push('Telefon: ' + telefon);
+      lines.push('Adres: ' + adres);
+      if (not) lines.push('Not: ' + not);
+
+      var encoded = encodeURIComponent(lines.join('\n'));
+      window.open('https://wa.me/' + waNumber + '?text=' + encoded, '_blank', 'noopener,noreferrer');
+
+      // GTM dataLayer event — GTM kurulmamışsa sessizce geçer
+      if (typeof window.dataLayer !== 'undefined') {
+        window.dataLayer.push({
+          event: 'form_submit_success',
+          form_name: 'siparis',
+          service_type: hizmet,
+          source: 'whatsapp_order'
+        });
+      }
+    });
+  }
+
+  document.addEventListener('astro:page-load', initSiparisForm);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSiparisForm);
+  } else {
+    initSiparisForm();
+  }
+</script>

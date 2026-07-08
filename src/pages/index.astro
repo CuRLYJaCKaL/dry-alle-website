@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import Services from '../components/Services.astro';
+import About from '../components/About.astro';
+import CorporateSection from '../components/CorporateSection.astro';
+import ServiceAreas from '../components/ServiceAreas.astro';
+import Testimonials from '../components/Testimonials.astro';
+import PriceTable from '../components/PriceTable.astro';
+import FAQ from '../components/FAQ.astro';
+import Contact from '../components/Contact.astro';
+import config from '../../config/site.config.json';
+import { interpolate } from '../utils/engine';
+
+const seoTokens = {
+  businessName: config.identity.businessName,
+  province: config.contact.address.province,
+  sectorLabel: config.identity.sectorLabel,
+  sectorLabelLower: config.identity.sectorLabel.toLowerCase(),
+};
+
+const title = interpolate(config.seoTemplates.homeTitle, seoTokens);
+const description = interpolate(config.seoTemplates.homeDescription, seoTokens);
+
+const hasPricing = (config.pricing?.categories as unknown[])?.length > 0;
+const hasCorporate = (config.corporate?.sectors as unknown[])?.length > 0;
+---
+
+<BaseLayout title={title} description={description} canonicalPath="/">
+  <Hero />
+  <Services />
+  <About />
+  {hasPricing && <PriceTable />}
+  {hasCorporate && <CorporateSection />}
+  <ServiceAreas />
+  <Testimonials />
+  <FAQ />
+  <Contact />
+</BaseLayout>

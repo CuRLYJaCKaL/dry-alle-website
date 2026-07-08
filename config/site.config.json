@@ -1,0 +1,1751 @@
+{
+  "identity": {
+    "businessName": "Dry Alle Kuru Temizleme",
+    "brandName": "Dry Alle",
+    "sectorLabel": "Kuru Temizleme",
+    "schemaType": "DryCleaningOrLaundry",
+    "sectorType": "KuruTemizleme",
+    "tagline": "İstanbul'un En Güvenilir Kuru Temizleme",
+    "description": "İstanbul Anadolu Yakası'nda 25 yıllık deneyimle kuru temizleme, halı yıkama, koltuk yıkama ve premium tekstil bakım hizmetleri. Ücretsiz kapıdan teslimat.",
+    "heroDescription": "Dry Alle Kuru Temizleme olarak 2000 yılından bu yana Kadıköy, Ataşehir ve İstanbul Anadolu Yakası'nın tamamında kaliteli hizmet veriyoruz. Özel kıyafetlerinize özel bakım, halı ve koltuk yıkama, profesyonel kuru temizleme hizmetleri ile güvenin adresi olduk. Deneyimli ekibimiz, çevreci temizlik teknolojimiz ve ücretsiz kapıdan teslimat hizmetimizle farkı yaşayın.",
+    "establishedYear": 2000,
+    "locale": "tr-TR"
+  },
+  "brand": {
+    "primaryColor": "#006a44",
+    "secondaryColor": "#00563B",
+    "accentColor": "#f6ec3d",
+    "accentLight": "#f8f068",
+    "backgroundColor": "#FFFFFF",
+    "surfaceColor": "#EDF7F1",
+    "surfaceAlt": "#DCEFE4",
+    "textPrimary": "#1F2937",
+    "textSecondary": "#6B7280",
+    "primaryDark": "#004d32",
+    "borderColor": "#E5E7EB",
+    "fontFamily": "Roboto",
+    "brandVoice": "professional"
+  },
+  "contact": {
+    "phone": "+90 543 352 74 74",
+    "phoneDisplay": "0 (543) 352 74 74",
+    "email": "dryallekurutemizleme@gmail.com",
+    "whatsapp": "+905433527474",
+    "domain": "dryallekurutemizleme.com",
+    "address": {
+      "street": "Sahrayı Cedit Mahallesi İnönü Caddesi No: 147/A",
+      "postalCode": "34740",
+      "city": "İstanbul",
+      "province": "Kadıköy"
+    },
+    "geo": {
+      "latitude": "40.9932",
+      "longitude": "29.0975"
+    },
+    "socialLinks": {
+      "googleMaps": "https://maps.app.goo.gl/2uDnQz3UYnRA8MYK6",
+      "linkedin": "https://www.linkedin.com/company/dry-alle"
+    }
+  },
+  "analytics": {
+    "gtmId": "GTM-PXKN4266"
+  },
+  "openingHours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "09:00",
+    "closes": "18:00",
+    "displayText": "Pazartesi – Cumartesi: 09:00 - 18:00 | Pazar: 10:00 - 16:00"
+  },
+  "services": [
+    {
+      "name": "Kuru Temizleme",
+      "slug": "kuru-temizleme",
+      "description": "Kıyafetlerinize özel profesyonel kuru temizleme hizmeti. Modern teknoloji ve çevreci çözümlerle giysileriniz güvenli ellerde.",
+      "icon": "shirt",
+      "image": "/images/services/kuru-temizleme.webp",
+      "features": [
+        "Ücretsiz kapıdan teslimat — kapınızdan alıp kapınıza getiriyoruz",
+        "Son teknoloji çevreci çözücülerle güvenli temizlik",
+        "Leke tespiti ve özel çözücülerle ön işlem",
+        "Profesyonel ütüleme ve özel kılıf içinde teslim"
+      ],
+      "detailParagraphs": [
+        "Kuru temizleme, su kullanmadan özel çözücülerle yapılan profesyonel temizlik yöntemidir. {businessName} olarak İstanbul Kadıköy ve Ataşehir'de 25 yıllık deneyimimizle hassas kumaşlar, lüks kıyafetler ve özel tasarım giysiler için en güvenli temizlik hizmetini sunuyoruz. Takım elbiseden ipek ürünlere kadar her parça, kumaş türüne uygun işlemle temizlenir.",
+        "Sürecimiz titizlikle işler: Kıyafetleriniz detaylı olarak incelenir, lekeler tespit edilir ve özel etiketleme yapılır. Tespit edilen lekeler özel çözücülerle ön işlemden geçirilir, modern makinelerde çevreci çözücülerle hassas temizlik uygulanır. Temizlik kontrolünün ardından profesyonel ütüleme yapılır ve kıyafetleriniz özel kılıflara konularak ücretsiz kapıdan teslimat ile size ulaştırılır."
+      ],
+      "relatedBlogSlugs": [
+        "hassas-kumaslar-dry-cleaning-guide",
+        "dry-cleaning-kimyasallari-guvenligi"
+      ]
+    },
+    {
+      "name": "Halı Yıkama",
+      "slug": "hali-yikama",
+      "description": "Halılarınızı hijyenik ve temiz tutmak için profesyonel yıkama hizmeti. Leke çıkarma ve derin temizlik garantisi.",
+      "icon": "carpet",
+      "image": "/images/services/hali-yikama.webp",
+      "features": [
+        "Evinizden alıp evinizdeki yerine bırakıyoruz",
+        "Leke çıkarma garantisi — çıkmayacak leke yoktur",
+        "Bakteri ve akarlardan arındıran hijyenik yıkama",
+        "Özel kurutma alanlarında kontrollü kurutma"
+      ],
+      "detailParagraphs": [
+        "Profesyonel halı yıkama, halılarınızın derinlemesine temizlenmesi ve hijyenleştirilmesi için uygulanan uzman bir süreçtir. {businessName} olarak İstanbul Kadıköy ve Ataşehir'de 25 yıllık deneyimimizle ev, ofis ve özel halılar için en etkili temizlik yöntemlerini kullanıyoruz. Modern teknoloji ve çevreci deterjanlarla halılarınız hem tertemiz hem de hijyenik olur.",
+        "Halılarınızı evinizden ücretsiz olarak alıyoruz; halının durumu değerlendirilip özel etiketleme yapılıyor. Lekeler tespit edilir, özel makinelerle derinlerdeki tozlar çıkarılır ve lekeler ön işlemden geçirilir. Modern halı yıkama makinelerinde çevreci deterjanlarla derinlemesine yıkanan halılar, özel kurutma alanlarında hijyenik şekilde kurutulur ve kalite kontrolünden geçirilerek teslim edilir."
+      ],
+      "relatedBlogSlugs": [
+        "evde-hali-carei-ve-professional-washing-guide",
+        "professional-carpet-cleaning-surecler"
+      ]
+    },
+    {
+      "name": "Koltuk Yıkama",
+      "slug": "koltuk-yikama",
+      "description": "Koltuk takımlarınız için özel temizlik hizmeti. Kumaş ve deri koltuklar için uygun yöntemlerle hijyenik temizlik.",
+      "icon": "sofa",
+      "image": "/images/services/koltuk-yikama.webp",
+      "features": [
+        "Kadıköy, Ataşehir ve çevresinde ücretsiz keşif",
+        "Kumaş ve deri koltuklara özel farklı teknikler",
+        "Chester, berjer ve modüler koltuklarda uzman bakım",
+        "Hijyenik kurutma ve yerinde teslim"
+      ],
+      "detailParagraphs": [
+        "{businessName}, İstanbul Anadolu Yakası'nda profesyonel koltuk yıkama hizmeti sunar; koltuk takımlarınızın derinlemesine temizlenmesi için özel yöntemler kullanır. Kumaş ve deri koltuklar için farklı teknikler uygulayarak koltuk takımlarınızın hijyenik ve temiz kalmasını sağlıyoruz. 25 yıllık deneyimimizle güvenilir koltuk yıkama merkeziyiz.",
+        "Önce ücretsiz keşif yapılır, koltuk türü belirlenir ve uygun yöntem seçilir. Koltuk kumaşı veya derisi analiz edilir, lekeler tespit edilir ve temizlik planı hazırlanır. Özel makinelerle derinlerdeki toz ve kirler çıkarılır, kumaş türüne uygun özel deterjanlarla derinlemesine temizlik yapılır. Hijyenik kurutma işleminin ardından temizlik kalitesi kontrol edilir ve koltuklar yerine yerleştirilir."
+      ],
+      "relatedBlogSlugs": [
+        "koltuk-upholstery-renewal-guide",
+        "kumas-ve-deri-koltuk-temizligi-guide"
+      ]
+    },
+    {
+      "name": "Perde Temizleme",
+      "slug": "perde-temizleme",
+      "description": "Store, zebra ve tüm perde türleri için özel temizlik hizmeti. Söküp takma dahil kapsamlı hizmet.",
+      "icon": "curtain",
+      "image": "/images/services/perde-temizleme.webp",
+      "features": [
+        "Söküp takma dahil — ekstra ücret yok",
+        "Tül'den zebra ve store'a her perde tipi",
+        "Her kumaş için özel temizlik yöntemi",
+        "Perdeye zarar vermeyen kontrollü kurutma"
+      ],
+      "detailParagraphs": [
+        "Profesyonel perde temizleme, perdelerinizin derinlemesine temizlenmesi ve hijyenleştirilmesi için uygulanan uzman bir süreçtir. {businessName} olarak 25 yıllık deneyimimizle tül, zebra, store ve ipek perdeler için en etkili temizlik yöntemlerini kullanıyoruz. Söküp takma dahil kapsamlı hizmetimizle perdeleriniz ilk günkü gibi temiz olur.",
+        "Önce ücretsiz keşif yapılır, perde türü ve temizlik yöntemi belirlenir. Perdeler özenle sökülür, aksesuarları ayrı olarak korunur. Perde kumaşı analiz edilerek en uygun temizlik yöntemi seçilir, perde türüne uygun özel temizlik ve leke çıkarma işlemi uygulanır. Kontrollü kurutmanın ardından perdeleriniz yerine takılarak teslim edilir."
+      ],
+      "relatedBlogSlugs": [
+        "curtain-cleaning-ev-vs-professional",
+        "ev-perdelerinizi-temiz-tutma-guide"
+      ]
+    },
+    {
+      "name": "Çanta Temizleme",
+      "slug": "canta-temizleme",
+      "description": "Seyahat çantaları, valizler ve el çantaları için özel temizlik hizmeti. Deri ve kumaş çantalar güvenli ellerde.",
+      "icon": "bag",
+      "image": "/images/services/canta-temizleme.webp",
+      "features": [
+        "Deri, kumaş ve sentetik her malzemeye uygun temizlik",
+        "Designer ve lüks marka çantalarda uzmanlık",
+        "Deri çantalara besleyici krem ve koruyucu bakım",
+        "Ücretsiz kapıdan teslim alma ve özel paketleme"
+      ],
+      "detailParagraphs": [
+        "Çantalarınız günlük kullanımda kir, leke ve aşınmalara maruz kalır; özellikle değerli deri çantalarınız özel bakım gerektirir. {businessName} profesyonel çanta temizleme hizmeti ile deri çantalar, el çantaları, valizler ve bavullarınız ilk günkü gibi temiz ve bakımlı olur. İstanbul Kadıköy ve Ataşehir'de 25 yıllık uzman ekibimizle hizmetinizdeyiz.",
+        "Çantalarınızı ücretsiz olarak teslim alıyoruz. Çanta malzemesi (deri, kumaş, sentetik) analiz edilir ve uygun temizlik yöntemi belirlenir. Varsa lekeler tespit edilerek özel leke çıkarma işlemi planlanır, çanta türüne uygun özel malzemelerle profesyonel temizlik yapılır. Deri çantalara besleyici kremler, kumaş çantalara koruyucu işlemler uygulanır; kalite kontrolünden sonra özel paketleme ile teslim edilir."
+      ],
+      "relatedBlogSlugs": [
+        "deri-ve-kumas-canta-care-guide",
+        "ayakkabi-ve-deri-urunler-care-guide"
+      ]
+    },
+    {
+      "name": "Ev Tekstili Temizliği",
+      "slug": "ev-tekstili-temizligi",
+      "description": "Perdeler, nevresimler ve ev tekstilleriniz için özel temizlik hizmeti. Narin kumaşlara özel hassas yıkama.",
+      "icon": "textile",
+      "image": "/images/services/ev-tekstili-temizligi.webp",
+      "features": [
+        "Perde, nevresim, yatak örtüsü, battaniye ve masa örtüsü",
+        "Her kumaş türü için özel yıkama yöntemi",
+        "Evinizden alıp evinize getiriyoruz",
+        "Özel kurutma sistemleri ve profesyonel ütüleme"
+      ],
+      "detailParagraphs": [
+        "Evinizin konforu ve hijyeni için ev tekstillerinizin düzenli temizliği çok önemlidir. {businessName} olarak İstanbul Anadolu Yakası'nda perdeler, nevresimler, battaniyeler ve tüm ev tekstilleri için özel temizlik hizmeti sunuyoruz. Narin kumaşlara özel hassas yıkama teknikleriyle tekstilleriniz güvenli ellerde.",
+        "Ev tekstillerinizi adresinizden ücretsiz teslim alıyoruz. Her tekstil ürününün kumaş türü belirlenir ve uygun temizlik yöntemi seçilir. Lekeler ve kirli alanlar için ön temizlik ve leke çıkarma işlemi yapılır, kumaş türüne uygun hassas yıkama teknikleriyle temizlik gerçekleştirilir. Özel kurutma sistemleriyle kurutulan ürünler profesyonel ütülemenin ardından teslim edilir."
+      ],
+      "relatedBlogSlugs": [
+        "ev-tekstillerinin-care-ve-cleaning-guide",
+        "home-textiles-hijyen-guide"
+      ]
+    },
+    {
+      "name": "Kumaş ve Deri Boyama",
+      "slug": "kumas-deri-boyama",
+      "description": "Solmuş kıyafetlerinize yeni hayat verin. Kumaş ve deri ürünleriniz için profesyonel renk yenileme hizmeti.",
+      "icon": "palette",
+      "image": "/images/services/kumas-deri-boyama.webp",
+      "features": [
+        "Uzman ekip ile güvenli ve kalıcı boyama",
+        "Kumaş, deri, süet ve nubuk için özel teknikler",
+        "Avrupa standardında kaliteli boyalar",
+        "Renk seçiminde rehberlik ve numune gösterimi"
+      ],
+      "detailParagraphs": [
+        "Zamanla solmuş, rengi atmış veya lekelenmiş kıyafetlerinizi atmaya gerek yok. {businessName} profesyonel kumaş ve deri boyama hizmeti ile sevdiğiniz kıyafetlerinize yeni hayat verebilirsiniz. Elbise, gömlek, deri ceket, çanta ve ayakkabılarınız için 25 yıllık deneyimimizle güvenli ve kalıcı renk yenileme hizmeti sunuyoruz.",
+        "Önce kumaş veya deri türü analiz edilir, boyama uygunluğu değerlendirilir ve renk seçenekleri sunulur. Uzman ekibimiz renk seçiminde rehberlik eder ve numune gösterimi yapar. Ürün temizlenir, varsa lekeler çıkarılır ve boyamaya hazırlanır; özel boyama teknikleri ve kaliteli boyalarla renk yenileme yapılır. Rengin kalıcı olması için özel sabitleyici işlemler uygulanır."
+      ],
+      "relatedBlogSlugs": [
+        "solmus-kiyafetlere-yeni-hayat-verme-guide",
+        "vintage-clothing-ozel-care"
+      ]
+    },
+    {
+      "name": "Lostra Hizmeti",
+      "slug": "lostra-hizmeti",
+      "description": "Ayakkabı ve çantalarınızın ilk günkü parlaklığına kavuşması için profesyonel lostra hizmeti. Kusursuz görünüm garantisi.",
+      "icon": "shoe",
+      "image": "/images/services/lostra-hizmeti.webp",
+      "features": [
+        "Oxford, loafer ve topuklu ayakkabılarda uzman bakım",
+        "İthal premium lostra ürünleri",
+        "Her deri türü için özel bakım",
+        "Deri besleyici ve koruyucu kremlerle uzun ömür"
+      ],
+      "detailParagraphs": [
+        "Ayakkabı ve çantalarınız günlük kullanımda zarar görür, parlaklığını yitirir. {businessName} profesyonel lostra hizmeti ile değerli deri ürünleriniz ilk günkü gibi parlak ve bakımlı olur. Erkek ve kadın ayakkabıları, botlar ve deri çantalar için 25 yıllık deneyimimizle uzman lostra servisi sunuyoruz.",
+        "Ayakkabı ve çantalarınızı ücretsiz kapıdan teslim alıyoruz. Deri türü ve durumu incelenir, uygun lostra malzemeleri seçilir. Kir ve toz temizlenir, varsa küçük çizikler giderilir; kaliteli lostra kremi ve malzemeleriyle profesyonel parlatma yapılır. Deri besleyici ve koruyucu kremlerle ürünlerinizin uzun ömürlü olması sağlanır."
+      ],
+      "relatedBlogSlugs": [
+        "ayakkabi-ve-deri-urunler-care-guide",
+        "deri-ve-kumas-canta-care-guide"
+      ]
+    },
+    {
+      "name": "Ütü Hizmetleri",
+      "slug": "utu-hizmetleri",
+      "description": "Kıyafetleriniz için profesyonel ütü hizmeti. Gömlek, pantolon ve hassas kumaşlar için özel ütüleme teknikleri.",
+      "icon": "iron",
+      "image": "/images/services/utu-hizmetleri.webp",
+      "features": [
+        "Her kumaş için özel ütü teknikleri",
+        "Profesyonel pres ile kusursuz sonuç",
+        "Smokin ve abiye gibi hassas parçalarda özel bakım",
+        "Alıp getirme hizmeti dahil"
+      ],
+      "detailParagraphs": [
+        "Zamanınız değerli, kıyafetleriniz de öyle. {businessName} profesyonel ütü hizmeti ile gömlek, bluz, takım elbise, elbise ve iş pantolonlarınız her zaman kusursuz görünür. İstanbul Anadolu Yakası'nda hassas kumaşlar için özel ütüleme teknikleri uyguluyor, smokin ve abiye gibi değerli parçalara uzman bakım sağlıyoruz.",
+        "Kıyafetlerinizi adresinizden ücretsiz teslim alıyoruz. Her kıyafetin kumaş türü belirlenir ve uygun ütü ısısı seçilir. Kıyafetler nemlendirilerek ütülemeye hazırlanır, profesyonel ütü teknikleri ve pres makineleriyle kusursuz sonuç elde edilir. Her parça detaylı kontrol edilir ve askılı, kırışıksız şekilde teslim edilir."
+      ],
+      "relatedBlogSlugs": [
+        "ev-utusu-vs-professional-utu-hizmeti",
+        "is-kiyafetleri-professional-care"
+      ]
+    }
+  ],
+  "serviceAreas": [
+    {
+      "city": "İstanbul",
+      "district": "Kadıköy",
+      "districtSlug": "kadikoy",
+      "neighborhoods": [
+        {
+          "name": "Moda",
+          "slug": "moda"
+        },
+        {
+          "name": "Fenerbahçe",
+          "slug": "fenerbahce"
+        },
+        {
+          "name": "Kalamış",
+          "slug": "kalamis"
+        },
+        {
+          "name": "Caddebostan",
+          "slug": "caddebostan"
+        },
+        {
+          "name": "Suadiye",
+          "slug": "suadiye"
+        },
+        {
+          "name": "Bostancı",
+          "slug": "bostanci"
+        },
+        {
+          "name": "Erenköy",
+          "slug": "erenkoy"
+        },
+        {
+          "name": "Göztepe",
+          "slug": "goztepe"
+        },
+        {
+          "name": "Sahrayıcedit",
+          "slug": "sahrayicedit"
+        },
+        {
+          "name": "Kozyatağı",
+          "slug": "kozyatagi"
+        },
+        {
+          "name": "Fikirtepe",
+          "slug": "fikirtepe"
+        },
+        {
+          "name": "Koşuyolu",
+          "slug": "kosuyolu"
+        },
+        {
+          "name": "Acıbadem",
+          "slug": "acibadem"
+        },
+        {
+          "name": "Bağdat Caddesi",
+          "slug": "bagdat-caddesi"
+        }
+      ]
+    },
+    {
+      "city": "İstanbul",
+      "district": "Ataşehir",
+      "districtSlug": "atasehir",
+      "neighborhoods": [
+        {
+          "name": "Barbaros",
+          "slug": "barbaros"
+        },
+        {
+          "name": "İçerenköy",
+          "slug": "icerenkoy"
+        },
+        {
+          "name": "Küçükbakkalköy",
+          "slug": "kucukbakkalkoy"
+        }
+      ]
+    },
+    {
+      "city": "İstanbul",
+      "district": "Üsküdar",
+      "districtSlug": "uskudar",
+      "neighborhoods": [
+        {
+          "name": "Altunizade",
+          "slug": "altunizade"
+        },
+        {
+          "name": "Çamlıca",
+          "slug": "camlica"
+        }
+      ]
+    },
+    {
+      "city": "İstanbul",
+      "district": "Maltepe",
+      "districtSlug": "maltepe",
+      "neighborhoods": [
+        {
+          "name": "Dragos",
+          "slug": "dragos"
+        }
+      ]
+    },
+    {
+      "city": "İstanbul",
+      "district": "Kartal",
+      "districtSlug": "kartal",
+      "neighborhoods": []
+    },
+    {
+      "city": "İstanbul",
+      "district": "Pendik",
+      "districtSlug": "pendik",
+      "neighborhoods": []
+    },
+    {
+      "city": "İstanbul",
+      "district": "Ümraniye",
+      "districtSlug": "umraniye",
+      "neighborhoods": []
+    }
+  ],
+  "seoTokens": {
+    "primaryKeywords": [
+      "kuru temizleme",
+      "halı yıkama",
+      "koltuk yıkama",
+      "kuru temizleme hizmeti"
+    ],
+    "secondaryKeywords": [
+      "perde temizleme",
+      "çanta temizleme",
+      "ev tekstili temizliği",
+      "kumaş deri boyama",
+      "lostra hizmeti",
+      "ütü hizmetleri",
+      "İstanbul Anadolu Yakası kuru temizleme",
+      "Kadıköy halı yıkama"
+    ],
+    "locationModifiers": [
+      "yakınımda",
+      "en yakın",
+      "profesyonel",
+      "Anadolu Yakası"
+    ],
+    "brandModifiers": [
+      "Dry Alle",
+      "dry alle"
+    ]
+  },
+  "seoTemplates": {
+    "homeTitle": "{businessName} | Anadolu Yakası {sectorLabel}",
+    "homeDescription": "İstanbul Anadolu Yakası'nda {establishedYear}'den bu yana kuru temizleme, halı yıkama ve koltuk yıkama. {businessName} güvencesiyle ücretsiz kapıdan teslimat.",
+    "serviceTitle": "{serviceName} | {businessName}",
+    "serviceDescription": "İstanbul Anadolu Yakası'nda profesyonel {serviceNameLower} hizmeti. 25 yıllık deneyim ve ücretsiz kapıdan teslimatla {businessName} farkını yaşayın.",
+    "regionTitle": "{location} {primaryKeywordCap} | {businessName}",
+    "regionDescription": "{location} bölgesinde profesyonel {primaryKeyword}, halı yıkama ve koltuk yıkama hizmeti. {businessName} — {establishedYear}'den bu yana kapınıza geliyoruz.",
+    "regionH1": "{location} {sectorLabel} Hizmeti",
+    "aboutTitle": "Hakkımızda | {businessName}",
+    "aboutDescription": "{businessName} hakkında. {establishedYear}'den bu yana Kadıköy, Ataşehir ve İstanbul Anadolu Yakası'nda profesyonel kuru temizleme, halı ve koltuk yıkama hizmeti veriyoruz.",
+    "corporateTitle": "Kurumsal {sectorLabel} | {businessName}",
+    "corporateDescription": "İşletmeniz için profesyonel tekstil bakım çözümleri. İstanbul Anadolu Yakası'nda otel, restoran, ofis ve mağazalara özel toplu fiyat avantajı, periyodik hizmet planları.",
+    "orderServiceType": "Online {sectorLabel} Sipariş",
+    "corporateServiceType": "Corporate Dry Cleaning",
+    "catalogName": "{sectorLabel} Hizmetleri",
+    "pricingTitle": "Kuru Temizleme Fiyatları 2026 | {businessName}",
+    "pricingDescription": "Kuru temizleme, halı, koltuk ve perde yıkama güncel fiyat listesi. {businessName} — Anadolu Yakası'nda ücretsiz kapıdan alım ve teslimat."
+  },
+  "contentTokens": {
+    "valuePropositions": [
+      "25 Yıllık Deneyim & Uzman Kadro",
+      "Ücretsiz Kapıdan Teslimat",
+      "Çevreci Temizlik Teknolojisi"
+    ],
+    "serviceHighlights": [
+      "Ücretsiz Kapıdan Teslimat",
+      "25 Yıllık Deneyim",
+      "Çevreci Çözümler"
+    ],
+    "servicesSubtitle": "Kuru temizlemeden halı ve koltuk yıkamaya, perde temizliğinden lostra hizmetine — 9 farklı uzmanlık alanında hizmet veriyoruz.",
+    "aboutTitle": "Neden Dry Alle?",
+    "valuePropositionDetails": [
+      "2000 yılından bu yana İstanbul Anadolu Yakası'nda kuru temizleme, halı yıkama ve tekstil bakımı alanında hizmet veriyoruz. Binlerce müşterinin güvenini kazanan deneyimli ekibimiz, her parçayı kumaş türüne uygun işlemle ele alır.",
+      "Kuru temizleme, halı yıkama, ütü, çanta temizleme ve lostra hizmetlerinde ücretsiz kapıdan teslimat yapıyoruz. Koltuk yıkama ve perde temizleme hizmetleri ise evinizde gerçekleştirilir — siz arayın, biz gelelim.",
+      "Modern teknoloji ve çevreci temizlik çözümleri kullanıyoruz. Son teknoloji çevreci çözücülerle kıyafetlerinizin ömrünü uzatıyor, rengini ve dokusunu koruyoruz."
+    ],
+    "aboutStoryParagraphs": [
+      "{businessName}, {establishedYear} yılında Kadıköy'de kuruldu. Tek bir hedefle yola çıktık: İstanbul Anadolu Yakası'nda yaşayan insanlara kıyafetlerini, halılarını ve ev tekstillerini güvenle teslim edebilecekleri profesyonel bir {sectorLabel} hizmeti sunmak.",
+      "Bugün Kadıköy ve Ataşehir başta olmak üzere Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye'ye kadar {areaCount} ilçe ve {neighborhoodCount} mahallede, {serviceCount} farklı uzmanlık alanında kesintisiz hizmet veriyoruz. Ücretsiz kapıdan teslimat hizmetimizle Anadolu Yakası'nın güvenilir adresi olduk.",
+      "Her parça bize bir emanet. Kumaşın yapısını analiz ediyor, türüne uygun yöntemi belirliyor, işlem sonucunu kontrol ediyoruz. Google'da {googleRating} puan ve {reviewCount} müşteri değerlendirmesi, 25 yıllık bu titizliğin kanıtı."
+    ],
+    "aboutValues": [
+      {
+        "title": "Güven & Şeffaflık",
+        "description": "Teslim aldığımız her parçayı kayıt altına alıyor, özel etiketleme yapıyoruz. İşlem sürecini şeffaf şekilde paylaşıyor, bir sorun tespit ettiğimizde sizi önceden bilgilendiriyoruz.",
+        "icon": "shield"
+      },
+      {
+        "title": "Çevreci Teknoloji",
+        "description": "Modern makinelerde çevreci çözücüler ve deterjanlar kullanıyoruz. Kimyasal kalıntı bırakmayan bu yöntem hem kumaşlarınıza hem çevreye duyarlıdır.",
+        "icon": "leaf"
+      },
+      {
+        "title": "Kalite Odaklılık",
+        "description": "25 yıllık deneyimimizle her parçayı teslim alma, işlem ve teslimat aşamasında kontrol ediyoruz. Kumaş türüne göre yöntem, sıcaklık ve kurutma ayrı ayrı belirlenir.",
+        "icon": "star"
+      }
+    ],
+    "regionVariants": [
+      "{location} sakinlerine profesyonel {sectorLabel}, halı yıkama ve koltuk yıkama hizmeti sunuyoruz. {businessName} olarak {primaryKeyword} alanında 25 yıllık deneyimimizle güvenilir çözümler sağlıyoruz.",
+      "{location} bölgesinde kaliteli {sectorLabel} arayanlar için {businessName} hizmetinizde. Uzman kadromuz ve ücretsiz kapıdan teslimat avantajımızla {primaryKeyword} ihtiyaçlarınızı karşılıyoruz.",
+      "{businessName}, {location} ve çevresinde {primaryKeyword}, halı yıkama ve tekstil bakım hizmeti vermektedir. Kapınıza gelen servisimizle profesyonel {sectorLabel} artık çok daha erişilebilir."
+    ],
+    "regionSubtitleVariants": [
+      "{location} bölgesinde profesyonel {sectorLabel} hizmetimizi farklı kılan değerler.",
+      "{location} ve çevresinde {sectorLabel} ve halı yıkama hizmetimizin öne çıkan özellikleri.",
+      "Neden {location} müşterileri {businessName}'yi tercih ediyor?"
+    ],
+    "actionVerbs": [
+      "teslim edin",
+      "randevu alın",
+      "hemen arayın",
+      "WhatsApp'tan yazın"
+    ],
+    "audienceTerms": [
+      "müşterilerimiz",
+      "sizin için",
+      "kıyafetleriniz"
+    ]
+  },
+  "conversionTokens": {
+    "primaryCTA": "Hemen Randevu Alın",
+    "secondaryCTA": "WhatsApp ile Yazın",
+    "ctaPhone": "Hemen Arayın"
+  },
+  "pricing": {
+    "serviceTypes": [
+      {
+        "id": "kuru-temizleme",
+        "label": "Kuru Temizleme"
+      },
+      {
+        "id": "utuleme",
+        "label": "Ütüleme"
+      }
+    ],
+    "catalogCategories": [
+      {
+        "id": "erkek-giyim",
+        "name": "Erkek Giyim",
+        "icon": "suit"
+      },
+      {
+        "id": "kadin-giyim",
+        "name": "Kadın Giyim",
+        "icon": "dress"
+      },
+      {
+        "id": "dis-giyim",
+        "name": "Dış Giyim",
+        "icon": "coat"
+      },
+      {
+        "id": "ev-tekstili",
+        "name": "Ev Tekstili",
+        "icon": "textile"
+      },
+      {
+        "id": "ozel-temizleme",
+        "name": "Özel Temizleme",
+        "icon": "leather"
+      },
+      {
+        "id": "aksesuar",
+        "name": "Aksesuar",
+        "icon": "accessory"
+      },
+      {
+        "id": "erkek-takim-elbise",
+        "name": "Takım Elbise",
+        "icon": "suit"
+      },
+      {
+        "id": "erkek-ust-giyim",
+        "name": "Üst Giyim",
+        "icon": "shirt"
+      },
+      {
+        "id": "erkek-alt-giyim",
+        "name": "Alt Giyim",
+        "icon": "pants"
+      },
+      {
+        "id": "kadin-ust-giyim",
+        "name": "Üst Giyim",
+        "icon": "blouse"
+      },
+      {
+        "id": "kadin-ozel-giyim",
+        "name": "Özel Giyim",
+        "icon": "gown"
+      },
+      {
+        "id": "mont-kaban",
+        "name": "Mont & Kaban",
+        "icon": "coat"
+      },
+      {
+        "id": "yatak-takimi",
+        "name": "Yatak & Yorgan",
+        "icon": "bed"
+      },
+      {
+        "id": "perde-tul",
+        "name": "Perde & Tül",
+        "icon": "curtain"
+      },
+      {
+        "id": "deri-kurk",
+        "name": "Deri & Kürk",
+        "icon": "leather"
+      },
+      {
+        "id": "aksesuar-genel",
+        "name": "Aksesuar",
+        "icon": "accessory"
+      }
+    ],
+    "products": [
+      {
+        "id": "takim-elbise",
+        "name": "TAKIM ELBİSE",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-takim-elbise",
+        "image": "/images/products/takim-elbise.webp",
+        "sortOrder": 1,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 750,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 375,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "smokin",
+        "name": "SMOKİN",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-takim-elbise",
+        "image": "/images/products/smokin.webp",
+        "sortOrder": 14,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 500,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "ceket",
+        "name": "CEKET",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-ust-giyim",
+        "image": "/images/products/ceket.webp",
+        "sortOrder": 2,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 450,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 225,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "yelek",
+        "name": "YELEK",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-ust-giyim",
+        "image": "/images/products/yelek.webp",
+        "sortOrder": 7,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 350,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 175,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "sisme-yelek",
+        "name": "ŞİŞME YELEK",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-ust-giyim",
+        "image": "/images/products/sisme-yelek.webp",
+        "sortOrder": 13,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 600,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 300,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "gomlek",
+        "name": "GÖMLEK",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-ust-giyim",
+        "image": "/images/products/gomlek.webp",
+        "sortOrder": 3,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "kazak",
+        "name": "KAZAK",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-ust-giyim",
+        "image": "/images/products/kazak.webp",
+        "sortOrder": 15,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "pantolon",
+        "name": "PANTOLON",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-alt-giyim",
+        "image": "/images/products/pantolon.webp",
+        "sortOrder": 4,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "etek",
+        "name": "ETEK",
+        "category": "kadin-giyim",
+        "subcategory": "kadin-ust-giyim",
+        "image": "/images/products/etek.webp",
+        "sortOrder": 16,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "bluz",
+        "name": "BLUZ",
+        "category": "kadin-giyim",
+        "subcategory": "kadin-ust-giyim",
+        "image": "/images/products/bluz.webp",
+        "sortOrder": 5,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "hirka",
+        "name": "HIRKA",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-ust-giyim",
+        "image": "/images/products/hirka.webp",
+        "sortOrder": 17,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "suveter",
+        "name": "SÜVETER",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-ust-giyim",
+        "image": "/images/products/suveter.webp",
+        "sortOrder": 18,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "tisort",
+        "name": "TİŞÖRT",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-ust-giyim",
+        "image": "/images/products/tisort.webp",
+        "sortOrder": 6,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "bayan-elbise",
+        "name": "BAYAN ELBİSE",
+        "category": "kadin-giyim",
+        "subcategory": "kadin-ozel-giyim",
+        "image": "/images/products/bayan-elbise.webp",
+        "sortOrder": 19,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 500,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 250,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "abiye",
+        "name": "ABİYE",
+        "category": "kadin-giyim",
+        "subcategory": "kadin-ozel-giyim",
+        "image": "/images/products/abiye.webp",
+        "sortOrder": 20,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 500,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "gelinlik",
+        "name": "GELİNLİK",
+        "category": "kadin-giyim",
+        "subcategory": "kadin-ozel-giyim",
+        "image": "/images/products/gelinlik.webp",
+        "sortOrder": 21,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 2500,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 1250,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "nisankina-kiyafeti",
+        "name": "NİŞAN-KINA KIYAFETİ",
+        "category": "kadin-giyim",
+        "subcategory": "kadin-ozel-giyim",
+        "image": "/images/products/nisankina-kiyafeti.webp",
+        "sortOrder": 22,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 2500,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 1250,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "gece-elbisesi",
+        "name": "GECE ELBİSESİ",
+        "category": "kadin-giyim",
+        "subcategory": "kadin-ozel-giyim",
+        "image": "/images/products/gece-elbisesi.webp",
+        "sortOrder": 23,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 800,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 400,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "kus-tuyu-mont-kaban",
+        "name": "KUŞ TÜYÜ MONT- KABAN",
+        "category": "dis-giyim",
+        "subcategory": "mont-kaban",
+        "image": "/images/products/kus-tuyu-mont-kaban.webp",
+        "sortOrder": 24,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 900,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 450,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "mont",
+        "name": "MONT",
+        "category": "dis-giyim",
+        "subcategory": "mont-kaban",
+        "image": "/images/products/mont.webp",
+        "sortOrder": 8,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 750,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 375,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "kaban",
+        "name": "KABAN",
+        "category": "dis-giyim",
+        "subcategory": "mont-kaban",
+        "image": "/images/products/kaban.webp",
+        "sortOrder": 9,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 750,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 375,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "pardesu",
+        "name": "PARDESÜ",
+        "category": "dis-giyim",
+        "subcategory": "mont-kaban",
+        "image": "/images/products/pardesu.webp",
+        "sortOrder": 10,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 750,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 375,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "trenckot",
+        "name": "TRENÇKOT",
+        "category": "dis-giyim",
+        "subcategory": "mont-kaban",
+        "image": "/images/products/trenckot.webp",
+        "sortOrder": 11,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 750,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 375,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "esofman-takim",
+        "name": "EŞOFMAN TAKIM",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-takim-elbise",
+        "image": "/images/products/esofman-takim.webp",
+        "sortOrder": 25,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 600,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 300,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "esofman-alt",
+        "name": "EŞOFMAN ALT",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-alt-giyim",
+        "image": "/images/products/esofman-alt.webp",
+        "sortOrder": 26,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "esofman-ust",
+        "name": "EŞOFMAN ÜST",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-alt-giyim",
+        "image": "/images/products/esofman-ust.webp",
+        "sortOrder": 27,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "sweat",
+        "name": "SWEAT",
+        "category": "erkek-giyim",
+        "subcategory": "erkek-ust-giyim",
+        "image": "/images/products/sweat.webp",
+        "sortOrder": 12,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 350,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 175,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "atki",
+        "name": "ATKI",
+        "category": "aksesuar",
+        "subcategory": "aksesuar-genel",
+        "image": "/images/products/atki.webp",
+        "sortOrder": 28,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "sapka",
+        "name": "ŞAPKA",
+        "category": "aksesuar",
+        "subcategory": "aksesuar-genel",
+        "image": "/images/products/sapka.webp",
+        "sortOrder": 30,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "eldiven",
+        "name": "ELDİVEN",
+        "category": "aksesuar",
+        "subcategory": "aksesuar-genel",
+        "image": "/images/products/eldiven.webp",
+        "sortOrder": 29,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 300,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 150,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "yorgan-elyaf",
+        "name": "YORGAN ELYAF",
+        "category": "ev-tekstili",
+        "subcategory": "yatak-takimi",
+        "image": "/images/products/yorgan-elyaf.webp",
+        "sortOrder": 35,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 750,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 375,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "yorgan-yun",
+        "name": "YORGAN YÜN",
+        "category": "ev-tekstili",
+        "subcategory": "yatak-takimi",
+        "image": "/images/products/yorgan-yun.webp",
+        "sortOrder": 36,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 500,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "yorgan-pamuk",
+        "name": "YORGAN PAMUK",
+        "category": "ev-tekstili",
+        "subcategory": "yatak-takimi",
+        "image": "/images/products/yorgan-pamuk.webp",
+        "sortOrder": 37,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 500,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "yorgan-kus-tuyu",
+        "name": "YORGAN KUŞ TÜYÜ",
+        "category": "ev-tekstili",
+        "subcategory": "yatak-takimi",
+        "image": "/images/products/yorgan-kus-tuyu.webp",
+        "sortOrder": 38,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1250,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 625,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "battaniye-normal",
+        "name": "BATTANİYE NORMAL",
+        "category": "ev-tekstili",
+        "subcategory": "yatak-takimi",
+        "image": "/images/products/battaniye-normal.webp",
+        "sortOrder": 39,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 750,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 375,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "battaniye-battal",
+        "name": "BATTANİYE BATTAL",
+        "category": "ev-tekstili",
+        "subcategory": "yatak-takimi",
+        "image": "/images/products/battaniye-battal.webp",
+        "sortOrder": 40,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 900,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 450,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "battaniye-yun",
+        "name": "BATTANİYE YÜN",
+        "category": "ev-tekstili",
+        "subcategory": "yatak-takimi",
+        "image": "/images/products/battaniye-yun.webp",
+        "sortOrder": 41,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 500,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "tul-perde-kucuk",
+        "name": "TÜL PERDE KÜÇÜK",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/tul-perde-kucuk.webp",
+        "sortOrder": 42,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 600,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 300,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "tul-perde-orta",
+        "name": "TÜL PERDE ORTA",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/tul-perde-orta.webp",
+        "sortOrder": 43,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 800,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 400,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "tul-perde-buyuk",
+        "name": "TÜL PERDE BÜYÜK",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/tul-perde-buyuk.webp",
+        "sortOrder": 44,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 500,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "tul-perde-battal",
+        "name": "TÜL PERDE BATTAL",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/tul-perde-battal.webp",
+        "sortOrder": 45,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1500,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 750,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "guneslik-kucuk",
+        "name": "GÜNEŞLİK KÜÇÜK",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/guneslik-kucuk.webp",
+        "sortOrder": 46,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 600,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 300,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "guneslik-orta",
+        "name": "GÜNEŞLİK ORTA",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/guneslik-orta.webp",
+        "sortOrder": 47,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 800,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 400,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "guneslik-buyuk",
+        "name": "GÜNEŞLİK BÜYÜK",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/guneslik-buyuk.webp",
+        "sortOrder": 48,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 500,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "guneslik-battal",
+        "name": "GÜNEŞLİK BATTAL",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/guneslik-battal.webp",
+        "sortOrder": 49,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1500,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 750,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "fon-perde-tk-kucuk",
+        "name": "FON PERDE TK KÜÇÜK",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/fon-perde-tk-kucuk.webp",
+        "sortOrder": 50,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 500,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "fon-perde-ck-kucuk",
+        "name": "FON PERDE ÇK KÜÇÜK",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/fon-perde-ck-kucuk.webp",
+        "sortOrder": 51,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1500,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 750,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "fon-perde-tk-buyuk",
+        "name": "FON PERDE TK BÜYÜK",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/fon-perde-tk-buyuk.webp",
+        "sortOrder": 52,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 1500,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 750,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "fon-perde-ck-buyuk",
+        "name": "FON PERDE ÇK BÜYÜK",
+        "category": "ev-tekstili",
+        "subcategory": "perde-tul",
+        "image": "/images/products/fon-perde-ck-buyuk.webp",
+        "sortOrder": 53,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 2000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 1000,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "deri-mont",
+        "name": "DERİ MONT",
+        "category": "ozel-temizleme",
+        "subcategory": "deri-kurk",
+        "image": "/images/products/deri-mont.webp",
+        "sortOrder": 31,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 2000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 1000,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "deri-ceket",
+        "name": "DERİ CEKET",
+        "category": "ozel-temizleme",
+        "subcategory": "deri-kurk",
+        "image": "/images/products/deri-ceket.webp",
+        "sortOrder": 32,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 2000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 1000,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "kurk-kisa",
+        "name": "KÜRK KISA",
+        "category": "ozel-temizleme",
+        "subcategory": "deri-kurk",
+        "image": "/images/products/kurk-kisa.webp",
+        "sortOrder": 33,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 2500,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 1250,
+            "popular": false
+          }
+        ]
+      },
+      {
+        "id": "kurk-uzun",
+        "name": "KÜRK UZUN",
+        "category": "ozel-temizleme",
+        "subcategory": "deri-kurk",
+        "image": "/images/products/kurk-uzun.webp",
+        "sortOrder": 34,
+        "services": [
+          {
+            "type": "kuru-temizleme",
+            "price": 3000,
+            "popular": true
+          },
+          {
+            "type": "utuleme",
+            "price": 1500,
+            "popular": false
+          }
+        ]
+      }
+    ]
+  },
+  "corporate": {
+    "title": "İşletmenize Özel Tekstil Bakım Çözümleri",
+    "description": "İstanbul Anadolu Yakası'nın otelleri, restoranları, ofisleri ve mağazaları için kurumsal tekstil bakım hizmeti veriyoruz. 25 yıllık deneyimimiz ve haftalık veya aylık periyodik planlarla personelinizin ve mekanınızın her zaman kusursuz görünmesini sağlıyoruz.",
+    "bulletPoints": [
+      "Hacme göre özel fiyatlandırma",
+      "Haftalık veya aylık düzenli servis planı",
+      "Kurumsal fatura ve esnek ödeme koşulları",
+      "Size özel tek muhatap irtibat kişisi"
+    ],
+    "sectors": [
+      {
+        "name": "Otel & Konaklama",
+        "description": "Çarşaf, havlu, bornoz, perde ve masa örtüsü temizliği",
+        "icon": "building"
+      },
+      {
+        "name": "Restoran & Kafe",
+        "description": "Masa örtüsü, peçete, garson üniforması temizliği",
+        "icon": "utensils"
+      },
+      {
+        "name": "Ofis & İş Yeri",
+        "description": "Takım elbise, gömlek, perde, halı ve koltuk temizliği",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Mağaza & Perakende",
+        "description": "Vitrin perdeleri, personel kıyafetleri temizliği",
+        "icon": "store"
+      },
+      {
+        "name": "Sağlık Kuruluşları",
+        "description": "Personel kıyafetleri, perde ve tekstil temizliği",
+        "icon": "health"
+      },
+      {
+        "name": "Banka Şubeleri & Genel Müdürlükler",
+        "description": "Personel kıyafetleri, perde, koltuk ve halı temizliği",
+        "icon": "bank"
+      }
+    ],
+    "advantages": [
+      {
+        "title": "Toplu Fiyat Avantajı",
+        "description": "Hacme göre özel fiyatlandırma ile bütçenize uygun çözümler.",
+        "icon": "tag"
+      },
+      {
+        "title": "Periyodik Hizmet Planı",
+        "description": "Haftalık veya aylık düzenli servis planlarıyla sürekli temizlik.",
+        "icon": "calendar"
+      },
+      {
+        "title": "Kurumsal Faturalandırma",
+        "description": "Resmi fatura, ödeme kolaylığı ve düzenli raporlama.",
+        "icon": "document"
+      },
+      {
+        "title": "Özel İrtibat Kişisi",
+        "description": "Size özel tek yetkili muhatap ile hızlı iletişim.",
+        "icon": "user"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Hangi bölgelerde hizmet veriyorsunuz?",
+      "answer": "İstanbul Anadolu Yakası'nda Kadıköy'ün Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan, Erenköy, Göztepe semtleri ile Ataşehir'in Kozyatağı, Küçükbakkalköy, Barbaros mahallelerinde hizmet veriyoruz."
+    },
+    {
+      "question": "Ücretsiz kapıdan teslimat yapıyor musunuz?",
+      "answer": "Evet, kuru temizleme, halı yıkama, ütü hizmetleri, çanta temizleme ve lostra hizmetleri için ücretsiz kapıdan teslimat yapıyoruz. Koltuk yıkama ve perde temizleme hizmetleri evinizde gerçekleştirilir."
+    },
+    {
+      "question": "Kaç yıllık deneyiminiz var?",
+      "answer": "25 yıldır İstanbul Anadolu Yakası'nda kuru temizleme, halı yıkama, koltuk yıkama ve tekstil temizliği alanında hizmet vermekteyiz."
+    },
+    {
+      "question": "Çalışma saatleriniz nedir?",
+      "answer": "Pazartesi-Cumartesi 09:00-18:00 saatleri arasında hizmet veriyoruz. Pazar günleri 10:00-16:00 saatleri arasında acil hizmet verebiliriz. 0543 352 74 74 numarasından bize ulaşabilirsiniz."
+    },
+    {
+      "question": "Hangi hizmetleri sunuyorsunuz?",
+      "answer": "Kuru temizleme, halı yıkama, koltuk yıkama, ev tekstili temizliği, kumaş ve deri boyama, lostra hizmeti, ütü hizmetleri, perde temizleme ve çanta temizleme hizmetleri sunuyoruz."
+    }
+  ],
+  "socialProof": {
+    "googleRating": 4.9,
+    "reviewCount": 127,
+    "testimonials": []
+  },
+  "packageConfig": {
+    "activeRegionLimit": 60,
+    "monthlyRegionIncrement": 4,
+    "blogEnabled": false,
+    "blogPostLimit": 0
+  }
+}

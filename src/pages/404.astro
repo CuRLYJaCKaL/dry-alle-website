@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import config from '../../config/site.config.json';
+---
+
+<BaseLayout
+  title={`Sayfa Bulunamadı | ${config.identity.businessName}`}
+  description="Aradığınız sayfa bulunamadı. Ana sayfaya dönerek hizmetlerimize göz atabilirsiniz."
+>
+  <section class="section-container py-24 md:py-32">
+    <div class="max-w-lg mx-auto text-center">
+      <p class="text-8xl md:text-9xl font-bold text-primary">
+        404
+      </p>
+      <h1 class="text-2xl md:text-3xl font-bold mt-6 mb-4 text-text-primary">
+        Sayfa Bulunamadı
+      </h1>
+      <p class="text-lg mb-10 text-text-secondary">
+        Aradığınız sayfa taşınmış veya kaldırılmış olabilir.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="/" class="btn-primary">
+          Ana Sayfaya Dön
+        </a>
+        <a
+          href="/#iletisim"
+          class="btn-secondary"
+        >
+          Bize Ulaşın
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

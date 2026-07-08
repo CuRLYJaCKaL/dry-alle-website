@@ -1,0 +1,319 @@
+---
+import config from '../../config/site.config.json';
+
+const { businessName } = config.identity;
+const { phone, phoneDisplay, whatsapp } = config.contact;
+
+const phoneClean = phone.replace(/\s/g, '');
+const whatsappClean = whatsapp.replace(/[\s+]/g, '');
+const whatsappUrl = `https://wa.me/${whatsappClean}`;
+
+/* Desktop nav — "Ana Sayfa" omitted (logo handles it) */
+const desktopNavLinks = [
+  { label: 'Hizmetler', href: '/#hizmetler' },
+  { label: 'Hakkımızda', href: '/hakkimizda/' },
+  { label: 'Bölgeler', href: '/#bolgeler' },
+  { label: 'Fiyatlar', href: '/fiyatlar/' },
+  { label: 'Blog', href: '/blog/' },
+  { label: 'İletişim', href: '/#iletisim' },
+];
+
+/* Mobile nav — full list including Ana Sayfa */
+const mobileNavLinks = [
+  { label: 'Ana Sayfa', href: '/' },
+  ...desktopNavLinks,
+];
+---
+
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
+  <div class="section-container">
+    <div class="flex items-center justify-between">
+      <!-- Logo & Brand -->
+      <a href="/" class="flex items-center gap-3 shrink-0">
+        <img
+          src="/images/logo.webp"
+          alt={`${businessName} Logo`}
+          class="h-16 sm:h-[72px] w-auto"
+          width="72"
+          height="72"
+          loading="eager"
+          fetchpriority="high"
+        />
+        <div class="hidden md:flex flex-col items-center">
+          <span class="text-primary font-heading font-bold text-lg xl:text-xl leading-tight whitespace-nowrap">
+            {config.identity.brandName}
+          </span>
+          <span class="text-text-secondary text-xs xl:text-sm font-medium leading-tight whitespace-nowrap">
+            {config.identity.sectorLabel}
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation (center) -->
+      <nav class="hidden lg:flex items-center gap-0.5 xl:gap-1" aria-label="Ana navigasyon">
+        {desktopNavLinks.map((link) => (
+          <a
+            href={link.href}
+            class="px-2 xl:px-3 py-2 text-sm font-medium text-text-secondary hover:text-primary rounded-lg hover:bg-surface transition-colors duration-200 whitespace-nowrap"
+          >
+            {link.label}
+          </a>
+        ))}
+      </nav>
+
+      <!-- Sipariş CTA + Phone + WhatsApp + Hamburger (right) -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Online Sipariş CTA (tüm ekranlarda) -->
+        <a href="/siparis/"
+           class="inline-flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-2 text-xs font-semibold text-white bg-accent hover:bg-accent/90 rounded-lg transition-colors duration-200 min-h-[44px]">
+          <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+          </svg>
+          <span class="hidden sm:inline">Sipariş</span>
+          <span class="bg-white/30 text-primary font-bold px-1.5 py-0.5 rounded text-[10px]">%20</span>
+        </a>
+
+        <!-- Phone Link -->
+        <a
+          href={`tel:${phoneClean}`}
+          class="inline-flex items-center gap-2 px-3 py-2 text-sm font-semibold text-primary hover:text-secondary transition-colors duration-200 min-h-[44px] min-w-[44px] justify-center"
+          aria-label={`Bizi arayın: ${phone}`}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span class="hidden xl:inline whitespace-nowrap">{phoneDisplay || phone}</span>
+        </a>
+
+        <!-- WhatsApp Button -->
+        <a
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-whatsapp !px-2.5 sm:!px-3 !py-2 !text-sm gap-1.5"
+          aria-label="WhatsApp ile iletişime geçin"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+          </svg>
+          <span class="hidden xl:inline">WhatsApp</span>
+        </a>
+
+        <!-- Hamburger Button (mobile only) -->
+        <button
+          id="mobile-menu-btn"
+          type="button"
+          class="lg:hidden relative inline-flex items-center justify-center w-11 h-11 min-h-[44px] min-w-[44px] rounded-lg text-primary hover:bg-surface transition-colors duration-200"
+          aria-label="Menüyü aç"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <span class="sr-only">Menu</span>
+          <!-- Hamburger lines container -->
+          <div class="w-6 h-5 relative flex flex-col justify-between">
+            <span id="hamburger-top" class="block h-0.5 w-6 bg-primary rounded-full transition-all duration-300 ease-in-out origin-center"></span>
+            <span id="hamburger-mid" class="block h-0.5 w-6 bg-primary rounded-full transition-all duration-300 ease-in-out"></span>
+            <span id="hamburger-bot" class="block h-0.5 w-6 bg-primary rounded-full transition-all duration-300 ease-in-out origin-center"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu Overlay (backdrop) -->
+  <div
+    id="mobile-menu-overlay"
+    class="fixed inset-0 bg-primary/30 backdrop-blur-sm z-40 opacity-0 pointer-events-none transition-opacity duration-300 lg:hidden"
+    style="top: var(--header-h, 80px)"
+    aria-hidden="true"
+  ></div>
+
+  <!-- Mobile Menu Panel -->
+  <nav
+    id="mobile-menu"
+    class="absolute left-0 right-0 top-full z-50 bg-white border-b border-border shadow-elevated lg:hidden overflow-hidden"
+    style="max-height: 0; opacity: 0;"
+    aria-label="Mobil navigasyon"
+  >
+    <div class="section-container py-4">
+      <!-- Navigation Links -->
+      <ul class="flex flex-col gap-1 mb-4">
+        {mobileNavLinks.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class="mobile-nav-link flex items-center gap-3 px-4 py-3 text-base font-medium text-text-secondary hover:text-primary hover:bg-surface rounded-xl transition-colors duration-200 min-h-[44px]"
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+        <li>
+          <a
+            href="/kurumsal/"
+            class="mobile-nav-link flex items-center gap-3 px-4 py-3 text-base font-medium text-text-secondary hover:text-primary hover:bg-surface rounded-xl transition-colors duration-200 min-h-[44px]"
+          >
+            Kurumsal
+          </a>
+        </li>
+        <li>
+          <a
+            href="/siparis/"
+            class="mobile-nav-link flex items-center gap-3 px-4 py-3 text-base font-medium text-text-secondary hover:text-primary hover:bg-surface rounded-xl transition-colors duration-200 min-h-[44px]"
+          >
+            Online Sipariş
+            <span class="text-xs bg-accent/10 text-accent px-2 py-0.5 rounded-full">%20</span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- Divider -->
+      <div class="h-px bg-border mx-4 mb-4"></div>
+
+      <!-- Phone -->
+      <a
+        href={`tel:${phoneClean}`}
+        class="flex items-center gap-3 px-4 py-3 text-base font-semibold text-primary hover:bg-surface rounded-xl transition-colors duration-200 min-h-[44px] mb-2"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        <span>{phoneDisplay || phone}</span>
+      </a>
+
+      <!-- WhatsApp CTA -->
+      <a
+        href={whatsappUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-whatsapp w-full justify-center gap-2 !text-base"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+        </svg>
+        WhatsApp ile Yazın
+      </a>
+    </div>
+  </nav>
+</header>
+
+<script>
+  document.addEventListener('astro:page-load', initMobileMenu);
+  // Also run on initial load for non-ViewTransition pages
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initMobileMenu);
+  } else {
+    initMobileMenu();
+  }
+
+  function initMobileMenu() {
+    const btn = document.getElementById('mobile-menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    const overlay = document.getElementById('mobile-menu-overlay');
+    const topLine = document.getElementById('hamburger-top');
+    const midLine = document.getElementById('hamburger-mid');
+    const botLine = document.getElementById('hamburger-bot');
+
+    if (!btn || !menu || !overlay) return;
+
+    // Overlay'i header yüksekliğine hizala
+    var header = document.querySelector('header');
+    if (header) overlay.style.top = header.offsetHeight + 'px';
+
+    // Çift başlatma koruması
+    if (btn.dataset.initialized) return;
+    btn.dataset.initialized = 'true';
+
+    let isOpen = false;
+
+    function openMenu() {
+      isOpen = true;
+      btn.setAttribute('aria-expanded', 'true');
+      btn.setAttribute('aria-label', 'Menüyü kapat');
+
+      requestAnimationFrame(function() {
+        // Animate hamburger to X
+        topLine.style.transform = 'translateY(8px) rotate(45deg)';
+        midLine.style.opacity = '0';
+        midLine.style.transform = 'scaleX(0)';
+        botLine.style.transform = 'translateY(-8px) rotate(-45deg)';
+
+        // Show overlay
+        overlay.classList.remove('pointer-events-none', 'opacity-0');
+        overlay.classList.add('pointer-events-auto', 'opacity-100');
+
+        // Slide down menu
+        menu.style.transition = 'max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s ease';
+        menu.style.maxHeight = menu.scrollHeight + 'px';
+        menu.style.opacity = '1';
+
+        // Prevent body scroll
+        document.body.style.overflow = 'hidden';
+      });
+    }
+
+    function closeMenu() {
+      isOpen = false;
+      btn.setAttribute('aria-expanded', 'false');
+      btn.setAttribute('aria-label', 'Menüyü aç');
+
+      requestAnimationFrame(function() {
+        // Animate X back to hamburger
+        topLine.style.transform = '';
+        midLine.style.opacity = '';
+        midLine.style.transform = '';
+        botLine.style.transform = '';
+
+        // Hide overlay
+        overlay.classList.add('pointer-events-none', 'opacity-0');
+        overlay.classList.remove('pointer-events-auto', 'opacity-100');
+
+        // Slide up menu
+        menu.style.transition = 'max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease';
+        menu.style.maxHeight = '0';
+        menu.style.opacity = '0';
+
+        // Restore body scroll
+        document.body.style.overflow = '';
+      });
+    }
+
+    function toggleMenu() {
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    }
+
+    // Toggle on button click
+    btn.addEventListener('click', toggleMenu);
+
+    // Close on overlay click
+    overlay.addEventListener('click', closeMenu);
+
+    // Close when a nav link is clicked (anchor links on single-page)
+    const navLinks = menu.querySelectorAll('.mobile-nav-link');
+    navLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        closeMenu();
+      });
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && isOpen) {
+        closeMenu();
+        btn.focus();
+      }
+    });
+
+    // Close menu on window resize past mobile breakpoint
+    const mediaQuery = window.matchMedia('(min-width: 1024px)');
+    mediaQuery.addEventListener('change', function(e) {
+      if (e.matches && isOpen) {
+        closeMenu();
+      }
+    });
+  }
+</script>

@@ -1,0 +1,256 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Roboto — latin-ext (Turkish characters: ğ, ü, ş, ö, ç, ı, İ) */
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/roboto-latin-ext-400.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/roboto-latin-ext-500.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/roboto-latin-ext-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  /* Roboto — latin (basic) */
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/roboto-latin-400.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/roboto-latin-500.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/roboto-latin-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-body text-text-primary bg-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  ::selection {
+    @apply bg-accent/20 text-primary;
+  }
+
+  /* Accessible focus-visible outlines */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent rounded-sm;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* ── Layout ────────────────────────────────── */
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-12 sm:py-16 lg:py-20;
+  }
+
+  /* ── Buttons ───────────────────────────────── */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3
+           text-white font-semibold rounded-lg
+           shadow-md hover:shadow-elevated
+           transition-[color,background-color,border-color,box-shadow,transform] duration-300
+           text-sm sm:text-base
+           min-h-[44px] min-w-[44px];
+    background: linear-gradient(135deg, theme('colors.accent') 0%, theme('colors.secondary') 100%);
+  }
+  .btn-primary:hover {
+    background: linear-gradient(135deg, theme('colors.accent-light') 0%, theme('colors.accent') 100%);
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3
+           bg-white text-primary font-semibold rounded-lg
+           border-2 border-primary
+           hover:bg-primary hover:text-white
+           transition-[color,background-color,border-color,box-shadow,transform] duration-300
+           text-sm sm:text-base
+           min-h-[44px] min-w-[44px];
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3
+           bg-transparent text-accent font-semibold rounded-lg
+           border-2 border-accent
+           hover:bg-accent hover:text-white
+           transition-[color,background-color,border-color,box-shadow,transform] duration-300
+           text-sm sm:text-base
+           min-h-[44px] min-w-[44px];
+  }
+
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center px-6 py-3
+           bg-[#166B34] text-white font-semibold rounded-lg
+           hover:bg-[#145D2D] hover:shadow-elevated
+           transition-[color,background-color,border-color,box-shadow,transform] duration-300
+           text-sm sm:text-base
+           min-h-[44px] min-w-[44px];
+  }
+  .btn-whatsapp:hover {
+    transform: translateY(-1px);
+  }
+
+  /* ── Cards ─────────────────────────────────── */
+  .card {
+    @apply bg-white rounded-xl shadow-card p-6
+           border border-transparent
+           hover:shadow-elevated hover:border-accent/20
+           transition-[box-shadow,border-color] duration-300;
+  }
+
+  .card-hover-lift {
+    @apply transition-[transform,box-shadow] duration-300;
+  }
+  .card-hover-lift:hover {
+    transform: translateY(-4px);
+    @apply shadow-elevated;
+  }
+
+  /* ── Typography ────────────────────────────── */
+  .section-title {
+    @apply text-section font-bold text-primary mb-6 relative inline-block;
+  }
+  .section-title::after {
+    content: '';
+    @apply absolute left-0 -bottom-2 h-[3px] w-12 rounded-full bg-accent;
+  }
+  /* Centered section titles need centered underline */
+  .text-center .section-title::after,
+  .section-title.text-center::after {
+    @apply left-1/2 -translate-x-1/2;
+  }
+
+  .section-subtitle {
+    @apply text-text-secondary text-base sm:text-lg max-w-2xl;
+  }
+
+  /* ── Gradient Divider ──────────────────────── */
+  .gradient-divider {
+    @apply border-0 h-px my-8;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      theme('colors.accent') 30%,
+      theme('colors.accent') 70%,
+      transparent 100%
+    );
+    opacity: 0.3;
+  }
+
+  /* ── Badge ─────────────────────────────────── */
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full
+           text-xs font-semibold tracking-wide
+           bg-accent/10 text-accent
+           w-fit;
+  }
+  .badge-primary {
+    @apply bg-primary/10 text-primary;
+  }
+  .badge-surface {
+    @apply bg-surface text-primary;
+  }
+
+}
+
+@layer utilities {
+  /* ── Animations ────────────────────────────── */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out both;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out both;
+  }
+
+  /* Staggered delay helpers */
+  .delay-200 { animation-delay: 200ms; }
+  .delay-300 { animation-delay: 300ms; }
+}
+
+/* ── Erişilebilirlik: Hareket Duyarlılığı ─── */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

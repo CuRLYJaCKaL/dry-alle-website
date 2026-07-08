@@ -1,0 +1,546 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import config from '../../../config/site.config.json';
+import { interpolate } from '../../utils/engine';
+
+interface PricingServiceEntry {
+  type: string;
+  price: number;
+  popular?: boolean;
+}
+
+interface PricingProduct {
+  id: string;
+  name: string;
+  category: string;
+  subcategory?: string;
+  image?: string;
+  sortOrder?: number;
+  services: PricingServiceEntry[];
+}
+
+interface CatalogCategory {
+  id: string;
+  name: string;
+  icon?: string;
+}
+
+interface ServiceTypeDef {
+  id: string;
+  label: string;
+}
+
+interface PricingSection {
+  serviceTypes?: ServiceTypeDef[];
+  catalogCategories?: CatalogCategory[];
+  products?: PricingProduct[];
+}
+
+const pricingSection: PricingSection =
+  (config as unknown as { pricing?: PricingSection }).pricing ?? {};
+
+const products: PricingProduct[] = [...(pricingSection.products ?? [])].sort(
+  (a, b) => (a.sortOrder ?? 999) - (b.sortOrder ?? 999)
+);
+const catalogCategories: CatalogCategory[] = pricingSection.catalogCategories ?? [];
+const serviceTypes: ServiceTypeDef[] = pricingSection.serviceTypes ?? [];
+
+const businessName = config.identity.businessName;
+const sectorLabel = config.identity.sectorLabel;
+const province = config.contact.address.province;
+const whatsappClean = config.contact.whatsapp.replace(/[\s+]/g, '');
+
+const serviceTypeLabels = new Map<string, string>(serviceTypes.map((s) => [s.id, s.label]));
+
+function serviceLabel(type: string): string {
+  const known = serviceTypeLabels.get(type);
+  if (known) return known;
+  return type
+    .split('-')
+    .map((word) => word.charAt(0).toLocaleUpperCase('tr-TR') + word.slice(1))
+    .join(' ');
+}
+
+const trCharMap: Record<string, string> = {
+  ç: 'c', ğ: 'g', ı: 'i', ö: 'o', ş: 's', ü: 'u', â: 'a', î: 'i', û: 'u',
+};
+
+function normalizeTr(value: string): string {
+  return value
+    .toLocaleLowerCase('tr-TR')
+    .replace(/[çğıöşüâîû]/g, (ch) => trCharMap[ch] ?? ch)
+    .trim();
+}
+
+function productImagePath(image?: string): string | null {
+  if (!image) return null;
+  return image.startsWith('/') ? image : `/images/products/${image}`;
+}
+
+function representativePrice(product: PricingProduct): number {
+  if (product.services.length === 0) return 0;
+  const popular = product.services.find((s) => s.popular);
+  if (popular) return popular.price;
+  return Math.min(...product.services.map((s) => s.price));
+}
+
+const categoryNameById = new Map<string, string>(catalogCategories.map((c) => [c.id, c.name]));
+const categoryCounts = new Map<string, number>();
+for (const product of products) {
+  categoryCounts.set(product.category, (categoryCounts.get(product.category) ?? 0) + 1);
+}
+
+const seoTemplates = config.seoTemplates as Record<string, string | undefined>;
+const seoTokens = { businessName, sectorLabel, province };
+const title = seoTemplates.pricingTitle
+  ? interpolate(seoTemplates.pricingTitle, seoTokens)
+  : `Fiyat Listesi | ${businessName}`;
+const description = seoTemplates.pricingDescription
+  ? interpolate(seoTemplates.pricingDescription, seoTokens)
+  : `${province} bölgesinde kuru temizleme, halı ve koltuk yıkama, tekstil bakım hizmetlerinin güncel fiyat listesi. ${businessName} güvencesi, ücretsiz al-götür servisi.`;
+
+const canonicalPath = '/fiyatlar/';
+
+const breadcrumbs = [
+  { name: 'Ana Sayfa', url: '/' },
+  { name: 'Fiyatlar', url: canonicalPath },
+];
+
+const priceableProducts = products.filter((p) => p.services.length > 0);
+
+function toOffer(product: PricingProduct, categoryName: string): Record<string, unknown> {
+  return {
+    '@type': 'Offer',
+    itemOffered: {
+      '@type': 'Service',
+      name: product.name,
+      category: categoryName,
+    },
+    priceSpecification: {
+      '@type': 'PriceSpecification',
+      price: representativePrice(product),
+      priceCurrency: 'TRY',
+    },
+  };
+}
+
+const jsonLd: Record<string, unknown> | undefined =
+  priceableProducts.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'OfferCatalog',
+        name: `${businessName} ${sectorLabel} Fiyat Listesi`,
+        description: `${businessName} — ${sectorLabel.toLowerCase()} ve tekstil bakım hizmetleri güncel fiyat listesi.`,
+        url: `https://${config.contact.domain}${canonicalPath}`,
+        provider: {
+          '@type': 'LocalBusiness',
+          name: businessName,
+          url: `https://${config.contact.domain}`,
+          telephone: config.contact.phone,
+        },
+        numberOfItems: priceableProducts.length,
+        itemListElement:
+          catalogCategories.length > 0
+            ? catalogCategories
+                .filter((cat) => priceableProducts.some((p) => p.category === cat.id))
+                .map((cat) => ({
+                  '@type': 'OfferCatalog',
+                  name: `${cat.name} ${sectorLabel}`,
+                  itemListElement: priceableProducts
+                    .filter((p) => p.category === cat.id)
+                    .map((p) => toOffer(p, cat.name)),
+                }))
+            : priceableProducts.map((p) => toOffer(p, sectorLabel)),
+      }
+    : undefined;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={jsonLd}
+  breadcrumbs={breadcrumbs}
+>
+  <!-- ════════════════════════════════════════════
+       HERO
+       ════════════════════════════════════════════ -->
+  <section class="relative overflow-hidden bg-gradient-to-br from-primary to-primary-dark text-white pt-8 sm:pt-10 lg:pt-12 pb-10 sm:pb-14">
+    <div class="absolute inset-0 opacity-[0.06]" aria-hidden="true">
+      <div class="absolute -top-24 right-0 w-[500px] h-[500px] bg-accent rounded-full blur-3xl translate-x-1/3"></div>
+      <div class="absolute bottom-0 left-0 w-80 h-80 bg-secondary rounded-full blur-3xl -translate-x-1/4 translate-y-1/4"></div>
+    </div>
+
+    <div class="section-container relative z-10">
+      <nav class="mb-6 animate-fade-in" aria-label="Breadcrumb">
+        <ol class="flex items-center gap-2 text-sm text-white/70">
+          <li>
+            <a href="/" class="hover:text-white transition-colors">Ana Sayfa</a>
+          </li>
+          <li aria-hidden="true">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </li>
+          <li class="text-white font-medium">Fiyatlar</li>
+        </ol>
+      </nav>
+
+      <div class="max-w-3xl animate-slide-up">
+        <span class="badge bg-white/10 text-white/90 backdrop-blur-sm mb-4">Güncel Fiyat Listesi</span>
+        <h1 class="text-hero font-bold mb-4 leading-tight">
+          Kuru Temizleme ve Tekstil Bakım Fiyatları
+        </h1>
+        <p class="text-lg text-white/80 leading-relaxed">
+          Tüm fiyatlarımıza ücretsiz al-götür hizmeti dahildir. Aradığınız ürünü
+          kategoriden seçin veya arama kutusuyla bulun.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       FİYAT LİSTESİ (filtre + arama + grid)
+       ════════════════════════════════════════════ -->
+  <section id="fiyat-listesi" class="section-padding bg-surface/50">
+    <div class="section-container">
+      <h2 class="sr-only">Ürün ve Hizmet Fiyat Listesi</h2>
+
+      {products.length === 0 ? (
+        <div class="card max-w-xl mx-auto text-center">
+          <h3 class="font-bold text-primary text-lg mb-3">Fiyat listemiz güncelleniyor</h3>
+          <p class="text-text-secondary text-sm leading-relaxed mb-6">
+            Güncel fiyat bilgisi için bize WhatsApp üzerinden yazabilir veya telefonla ulaşabilirsiniz.
+          </p>
+          <a
+            href={`https://wa.me/${whatsappClean}?text=${encodeURIComponent('Merhaba, fiyat bilgisi almak istiyorum.')}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-whatsapp !text-sm !rounded-xl !px-5 !py-3 gap-2"
+          >
+            WhatsApp'tan Fiyat Sorun
+          </a>
+        </div>
+      ) : (
+        <div>
+          {/* Toolbar: arama + mobil filtre butonu */}
+          <div class="flex items-center gap-3 mb-4">
+            <div class="relative flex-1">
+              <label for="pricing-search" class="sr-only">Ürün adıyla fiyat ara</label>
+              <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-text-secondary pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35M17 10.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" />
+              </svg>
+              <input
+                type="search"
+                id="pricing-search"
+                placeholder="Ürün ara (örn. takım elbise, perde...)"
+                autocomplete="off"
+                class="w-full min-h-[44px] pl-12 pr-4 py-3 rounded-xl border border-border bg-white text-text-primary text-sm placeholder:text-text-secondary/70 focus:border-accent focus:outline-none"
+              />
+            </div>
+
+            <button
+              type="button"
+              id="pricing-filter-open"
+              aria-expanded="false"
+              aria-controls="pricing-filter-panel"
+              class="sm:hidden inline-flex items-center gap-2 min-h-[44px] min-w-[44px] px-4 rounded-xl border border-border bg-white text-primary text-sm font-semibold"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 4.5h18M6 12h12m-9 7.5h6" />
+              </svg>
+              Filtrele
+            </button>
+          </div>
+
+          {/* Filtre paneli: mobilde tam ekran, sm+ satır içi çipler */}
+          <div
+            id="pricing-filter-panel"
+            class="hidden sm:block fixed inset-0 z-[70] bg-white overflow-y-auto overscroll-contain p-5 sm:static sm:inset-auto sm:z-auto sm:bg-transparent sm:overflow-visible sm:p-0"
+          >
+            <div class="flex items-center justify-between mb-4 sm:hidden">
+              <span class="text-lg font-bold text-primary">Kategoriler</span>
+              <button
+                type="button"
+                id="pricing-filter-close"
+                aria-label="Filtre panelini kapat"
+                class="inline-flex items-center justify-center min-h-[44px] min-w-[44px] rounded-xl bg-surface text-primary"
+              >
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="flex flex-col sm:flex-row sm:flex-wrap gap-2 mb-6 sm:mb-6" role="group" aria-label="Kategori filtreleri">
+              <button
+                type="button"
+                aria-pressed="true"
+                data-category="all"
+                class="pricing-chip inline-flex items-center justify-between sm:justify-center gap-2 min-h-[44px] px-4 rounded-full border border-border bg-white text-text-primary text-sm font-medium transition-colors hover:border-accent aria-pressed:bg-primary aria-pressed:text-white aria-pressed:border-primary"
+              >
+                Tümü
+                <span class="text-xs opacity-70">({products.length})</span>
+              </button>
+              {catalogCategories.map((cat) => (
+                <button
+                  type="button"
+                  aria-pressed="false"
+                  data-category={cat.id}
+                  class="pricing-chip inline-flex items-center justify-between sm:justify-center gap-2 min-h-[44px] px-4 rounded-full border border-border bg-white text-text-primary text-sm font-medium transition-colors hover:border-accent aria-pressed:bg-primary aria-pressed:text-white aria-pressed:border-primary"
+                >
+                  <span class="inline-flex items-center gap-2">
+                    {cat.icon && (
+                      <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d={cat.icon} />
+                      </svg>
+                    )}
+                    {cat.name}
+                  </span>
+                  <span class="text-xs opacity-70">({categoryCounts.get(cat.id) ?? 0})</span>
+                </button>
+              ))}
+            </div>
+
+            <button
+              type="button"
+              id="pricing-filter-apply"
+              class="sm:hidden w-full min-h-[48px] rounded-xl bg-primary text-white font-semibold text-sm"
+            >
+              Sonuçları Göster
+            </button>
+          </div>
+
+          <p id="pricing-count" class="text-text-secondary text-sm mb-6" aria-live="polite">
+            {products.length} ürün gösteriliyor
+          </p>
+
+          {/* Ürün kartları: tamamı sunucuda render edilir (SEO), filtre sadece gizler */}
+          <div id="pricing-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+            {products.map((product) => {
+              const imagePath = productImagePath(product.image);
+              return (
+                <article
+                  class="pricing-item card !p-0 overflow-hidden flex flex-col"
+                  data-category={product.category}
+                  data-subcategory={product.subcategory ?? ''}
+                  data-name={normalizeTr(product.name)}
+                >
+                  {imagePath ? (
+                    <div class="w-full aspect-[4/3] bg-surface overflow-hidden">
+                      <img
+                        src={imagePath}
+                        alt={`${product.name} temizleme ve bakım hizmeti`}
+                        loading="lazy"
+                        decoding="async"
+                        width="400"
+                        height="300"
+                        class="w-full h-full object-cover"
+                      />
+                    </div>
+                  ) : (
+                    <div class="w-full aspect-[4/3] bg-surface flex items-center justify-center" aria-hidden="true">
+                      <svg class="w-12 h-12 text-border" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007Z" />
+                      </svg>
+                    </div>
+                  )}
+
+                  <div class="flex flex-col flex-1 p-5">
+                    <div class="mb-3">
+                      <h3 class="font-bold text-primary text-base leading-snug">{product.name}</h3>
+                      {categoryNameById.get(product.category) && (
+                        <span class="text-text-secondary text-xs">{categoryNameById.get(product.category)}</span>
+                      )}
+                    </div>
+
+                    <ul class="space-y-2 mb-4">
+                      {product.services.map((svc) => (
+                        <li class="flex items-center justify-between gap-3 text-sm border-b border-border/40 last:border-b-0 pb-2 last:pb-0">
+                          <span class="text-text-primary inline-flex items-center gap-2">
+                            {serviceLabel(svc.type)}
+                            {svc.popular && (
+                              <span class="badge-surface bg-accent/10 text-accent text-[11px] font-semibold px-2 py-0.5 rounded-full">
+                                Popüler
+                              </span>
+                            )}
+                          </span>
+                          <span class="text-primary font-bold whitespace-nowrap">
+                            {svc.price.toLocaleString('tr-TR')} ₺
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+
+                    <a
+                      href={`https://wa.me/${whatsappClean}?text=${encodeURIComponent(`Merhaba, ${product.name} için fiyat bilgisi almak istiyorum.`)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="mt-auto inline-flex items-center justify-center gap-2 min-h-[44px] rounded-xl border border-accent/30 text-primary text-sm font-semibold hover:bg-accent hover:text-white hover:border-accent transition-colors"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+                      </svg>
+                      Fiyat Sor
+                    </a>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
+          {/* Sonuç yok durumu */}
+          <div id="pricing-no-results" class="hidden text-center py-16">
+            <svg class="w-12 h-12 text-border mx-auto mb-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35M17 10.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" />
+            </svg>
+            <p class="text-text-primary font-semibold mb-2">Aradığınız kriterlere uygun ürün bulunamadı</p>
+            <p class="text-text-secondary text-sm mb-6">Farklı bir arama deneyin veya filtreleri sıfırlayın.</p>
+            <button
+              type="button"
+              id="pricing-reset"
+              class="inline-flex items-center justify-center min-h-[44px] px-6 rounded-xl bg-primary text-white text-sm font-semibold hover:bg-primary-dark transition-colors"
+            >
+              Filtreleri Sıfırla
+            </button>
+          </div>
+
+          {/* Alt bilgi + genel WhatsApp CTA */}
+          <div class="text-center mt-10">
+            <a
+              href={`https://wa.me/${whatsappClean}?text=${encodeURIComponent('Merhaba, fiyat listesinde olmayan bir ürün için fiyat bilgisi almak istiyorum.')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-whatsapp !text-sm !rounded-xl !px-5 !py-3 gap-2 shadow-md hover:shadow-lg"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+              </svg>
+              Aradığınızı bulamadınız mı? WhatsApp'tan sorun
+            </a>
+            <p class="text-text-secondary text-xs mt-4">
+              Fiyatlar güncel olup ürünün durumuna göre değişiklik gösterebilir. Detaylı bilgi için bizi arayın.
+            </p>
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  function initPricingPage(): void {
+    var root = document.getElementById('fiyat-listesi');
+    if (!root) return;
+    if (root.dataset.initialized) return;
+    root.dataset.initialized = 'true';
+
+    var grid = document.getElementById('pricing-grid');
+    var noResults = document.getElementById('pricing-no-results');
+    var countEl = document.getElementById('pricing-count');
+    var searchInput = document.getElementById('pricing-search') as HTMLInputElement | null;
+    var panel = document.getElementById('pricing-filter-panel');
+    var openBtn = document.getElementById('pricing-filter-open');
+    var closeBtn = document.getElementById('pricing-filter-close');
+    var applyBtn = document.getElementById('pricing-filter-apply');
+    var resetBtn = document.getElementById('pricing-reset');
+
+    var chips = Array.from(root.querySelectorAll<HTMLElement>('.pricing-chip'));
+    var items = Array.from(root.querySelectorAll<HTMLElement>('.pricing-item'));
+
+    var currentCategory = 'all';
+    var query = '';
+
+    var trCharMap: Record<string, string> = {
+      'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u', 'â': 'a', 'î': 'i', 'û': 'u'
+    };
+
+    function normalizeTr(value: string): string {
+      return value
+        .toLocaleLowerCase('tr-TR')
+        .replace(/[çğıöşüâîû]/g, function (ch) { return trCharMap[ch] || ch; })
+        .trim();
+    }
+
+    function applyFilters(): void {
+      var visible = 0;
+      items.forEach(function (item) {
+        var matchCategory = currentCategory === 'all' || item.dataset.category === currentCategory;
+        var name = item.dataset.name || '';
+        var matchSearch = query === '' || name.indexOf(query) !== -1;
+        var show = matchCategory && matchSearch;
+        item.classList.toggle('hidden', !show);
+        if (show) visible += 1;
+      });
+      if (countEl) countEl.textContent = visible + ' ürün gösteriliyor';
+      if (grid) grid.classList.toggle('hidden', visible === 0);
+      if (noResults) noResults.classList.toggle('hidden', visible !== 0);
+    }
+
+    function openPanel(): void {
+      if (!panel) return;
+      panel.classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+      if (openBtn) openBtn.setAttribute('aria-expanded', 'true');
+    }
+
+    function closePanel(): void {
+      if (!panel) return;
+      panel.classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+      if (openBtn) openBtn.setAttribute('aria-expanded', 'false');
+    }
+
+    chips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        currentCategory = chip.dataset.category || 'all';
+        chips.forEach(function (other) {
+          other.setAttribute('aria-pressed', other === chip ? 'true' : 'false');
+        });
+        applyFilters();
+      });
+    });
+
+    if (searchInput) {
+      searchInput.addEventListener('input', function () {
+        query = normalizeTr(searchInput.value);
+        applyFilters();
+      });
+    }
+
+    if (openBtn) openBtn.addEventListener('click', openPanel);
+    if (closeBtn) closeBtn.addEventListener('click', closePanel);
+    if (applyBtn) applyBtn.addEventListener('click', closePanel);
+
+    if (panel) {
+      panel.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') closePanel();
+      });
+    }
+
+    if (resetBtn) {
+      resetBtn.addEventListener('click', function () {
+        currentCategory = 'all';
+        query = '';
+        if (searchInput) searchInput.value = '';
+        chips.forEach(function (chip) {
+          chip.setAttribute('aria-pressed', chip.dataset.category === 'all' ? 'true' : 'false');
+        });
+        applyFilters();
+      });
+    }
+
+    var resizeTimer: ReturnType<typeof setTimeout> | undefined;
+    window.addEventListener('resize', function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function () {
+        if (window.innerWidth >= 640) closePanel();
+      }, 150);
+    });
+  }
+
+  document.addEventListener('astro:page-load', initPricingPage);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPricingPage);
+  } else {
+    initPricingPage();
+  }
+</script>

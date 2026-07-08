@@ -1,0 +1,29 @@
+# Dry Alle Kuru Temizleme — robots.txt
+
+# Tüm arama motorlarına izin ver
+User-agent: *
+Allow: /
+Disallow: /_astro/
+
+# Google AI (Gemini, SGE) — içeriğimizi AI özetlerinde kullanabilir
+User-agent: Google-Extended
+Allow: /
+
+# OpenAI GPTBot — içeriğimizi AI özetlerinde kullanabilir
+User-agent: GPTBot
+Allow: /
+
+# Anthropic Claude — içeriğimizi AI özetlerinde kullanabilir
+User-agent: anthropic-ai
+Allow: /
+
+# Bing AI (Copilot)
+User-agent: Bingbot
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Sitemap
+Sitemap: https://dryallekurutemizleme.com/sitemap-index.xml
