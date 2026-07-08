@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/generate-redirects.mjs && node scripts/verify-migration.mjs",
+    "build": "astro build && node scripts/generate-redirects.mjs && node scripts/generate-redirect-stubs.mjs && node scripts/verify-migration.mjs",
     "preview": "astro preview"
   },
   "dependencies": {
@@ -13,5 +13,8 @@
     "@tailwindcss/typography": "^0.5.19",
     "astro": "^5.17.3",
     "tailwindcss": "^3.4.19"
+  },
+  "devDependencies": {
+    "wrangler": "^4.108.0"
   }
 }
