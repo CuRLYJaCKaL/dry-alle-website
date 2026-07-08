@@ -42,7 +42,10 @@ const pricingSection: PricingSection =
 const products: PricingProduct[] = [...(pricingSection.products ?? [])].sort(
   (a, b) => (a.sortOrder ?? 999) - (b.sortOrder ?? 999)
 );
-const catalogCategories: CatalogCategory[] = pricingSection.catalogCategories ?? [];
+const usedCategoryIds = new Set(products.map((p) => p.category));
+const catalogCategories: CatalogCategory[] = (pricingSection.catalogCategories ?? []).filter(
+  (c) => usedCategoryIds.has(c.id)
+);
 const serviceTypes: ServiceTypeDef[] = pricingSection.serviceTypes ?? [];
 
 const businessName = config.identity.businessName;
