@@ -1,0 +1,27 @@
+{
+  "name": "Dry Alle Kuru Temizleme",
+  "short_name": "Dry Alle",
+  "description": "İstanbul Anadolu Yakası'nın Güvenilir Kuru Temizlemecisi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#006a44",
+  "icons": [
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
