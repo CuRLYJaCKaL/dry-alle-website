@@ -39,7 +39,28 @@ const gtmId: string | undefined = config.analytics?.gtmId;
     />
     {gtmId && (
       <script is:inline define:vars={{ gtmId }}>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',gtmId);
+        // GTM'i ilk kullanici etkilesimine ya da idle'a ertele — LCP/TBT'yi bloklamaz,
+        // analytics yine saniyeler icinde devreye girer. (interaction-delay pattern)
+        (function (w, d, i) {
+          w.dataLayer = w.dataLayer || [];
+          var loaded = false;
+          function loadGTM() {
+            if (loaded) return;
+            loaded = true;
+            w.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName('script')[0];
+            var j = d.createElement('script');
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i;
+            f.parentNode.insertBefore(j, f);
+            evts.forEach(function (e) { w.removeEventListener(e, loadGTM); });
+          }
+          var evts = ['scroll', 'mousemove', 'touchstart', 'keydown', 'click'];
+          evts.forEach(function (e) { w.addEventListener(e, loadGTM, { once: true, passive: true }); });
+          // Etkilesim olmazsa da fallback: sayfa yuklendikten 3.5sn sonra yukle.
+          if (d.readyState === 'complete') { setTimeout(loadGTM, 3500); }
+          else { w.addEventListener('load', function () { setTimeout(loadGTM, 3500); }, { once: true }); }
+        })(window, document, gtmId);
       </script>
     )}
   </head>
