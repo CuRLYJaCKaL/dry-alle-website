@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/generate-redirects.mjs && node scripts/generate-redirect-stubs.mjs && node scripts/verify-migration.mjs",
+    "build": "astro build && node scripts/generate-redirects.mjs && node scripts/generate-redirect-stubs.mjs && node scripts/generate-llms-txt.mjs && node scripts/verify-migration.mjs",
     "preview": "astro preview"
   },
   "dependencies": {

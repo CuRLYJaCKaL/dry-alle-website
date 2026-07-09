@@ -176,6 +176,7 @@ if (isServicePage && service && pageEntry) {
   svcSchemas = [
     { "@type": "Service", "serviceType": service.name,
       "name": `${locationName} ${service.name}`, "description": svcDescription,
+      "image": `https://${config.contact.domain}/images/services/${service.slug}.webp`,
       "areaServed": { "@type": "Place", "name": locationName },
       "provider": { "@id": `https://${config.contact.domain}/#business` } },
     { "@type": "FAQPage",
@@ -205,6 +206,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
   title={isServicePage ? svcTitle : title}
   description={isServicePage ? svcDescription : description}
   canonicalPath={isServicePage ? svcCanonical : canonicalPath}
+  ogImage={isServicePage && service ? `/images/services/${service.slug}.webp` : undefined}
   jsonLd={isServicePage ? svcSchemas : undefined}
   breadcrumbs={isServicePage ? svcBreadcrumbs : (isDistrict
     ? [
@@ -259,6 +261,15 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
       <!-- Combo BODY -->
       <section class="section-padding bg-white">
         <div class="section-container max-w-4xl">
+          <img
+            src={`/images/services/${service.slug}.webp`}
+            alt={`${locationName} ${service.name} — ${businessName} profesyonel hizmet`}
+            width="1200"
+            height="675"
+            loading="lazy"
+            decoding="async"
+            class="w-full rounded-2xl shadow-card mb-8 aspect-[16/9] object-cover"
+          />
           {pageEntry.bodyParagraphs.map((para) => (<p class="text-text-primary text-base sm:text-lg leading-relaxed mb-5">{para}</p>))}
           <div class="mt-8 flex flex-col sm:flex-row gap-4 p-6 bg-surface rounded-2xl border border-border/50">
             <div class="flex-1">
