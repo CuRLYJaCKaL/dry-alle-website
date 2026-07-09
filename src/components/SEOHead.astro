@@ -5,7 +5,7 @@ interface Props {
   title: string;
   description: string;
   canonicalUrl: string;
-  jsonLd?: Record<string, unknown>;
+  jsonLd?: Record<string, unknown> | Array<Record<string, unknown>>;
   ogImage?: string;
   breadcrumbs?: { name: string; url: string }[];
   ogType?: string;
@@ -17,75 +17,161 @@ const siteName = config.identity.businessName;
 const defaultOgImage = ogImage || '/images/og-default.png';
 const absoluteOgImage = defaultOgImage.startsWith('http') ? defaultOgImage : `https://${config.contact.domain}${defaultOgImage}`;
 
-const defaultJsonLd = {
-  "@context": "https://schema.org",
-  "@type": (config.identity as Record<string, unknown>).schemaType as string || "LocalBusiness",
+// ─────────────────────────────────────────────────────────────
+// Engine-level connected @graph — her sayfada otomatik uygulanir.
+// Tek kanonik isletme varligi (#business), Organization, WebSite,
+// WebPage, logo ImageObject; sayfaya ozel node'lar (Service, FAQPage,
+// BlogPosting, OfferCatalog) jsonLd prop'undan grafige eklenir.
+// ─────────────────────────────────────────────────────────────
+const domain = `https://${config.contact.domain}`;
+const socialLinks = Object.values(config.contact.socialLinks || {}).filter(Boolean) as string[];
+const orgId = `${domain}/#organization`;
+const websiteId = `${domain}/#website`;
+const businessId = `${domain}/#business`;
+const logoId = `${domain}/#logo`;
+const webpageId = `${canonicalUrl}#webpage`;
+const breadcrumbId = `${canonicalUrl}#breadcrumb`;
+
+const logoImage = {
+  "@type": "ImageObject",
+  "@id": logoId,
+  "url": `${domain}/images/logo.png`,
+  "width": 512,
+  "height": 512,
+  "caption": config.identity.businessName,
+};
+
+const organization = {
+  "@type": "Organization",
+  "@id": orgId,
   "name": config.identity.businessName,
-  "description": config.identity.description,
-  "url": `https://${config.contact.domain}`,
+  "url": domain,
+  "logo": { "@id": logoId },
+  "image": { "@id": logoId },
   "telephone": config.contact.phone,
   "email": config.contact.email,
-  "image": `https://${config.contact.domain}/images/logo.png`,
+  ...(socialLinks.length > 0 ? { "sameAs": socialLinks } : {}),
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": config.contact.phone,
+    "contactType": "customer service",
+    "areaServed": "TR",
+    "availableLanguage": ["Turkish"],
+  },
+};
+
+const website = {
+  "@type": "WebSite",
+  "@id": websiteId,
+  "url": domain,
+  "name": config.identity.businessName,
+  "publisher": { "@id": orgId },
+  "inLanguage": "tr-TR",
+};
+
+const business = {
+  "@type": (config.identity as Record<string, unknown>).schemaType as string || "LocalBusiness",
+  "@id": businessId,
+  "name": config.identity.businessName,
+  "description": config.identity.description,
+  "url": domain,
+  "telephone": config.contact.phone,
+  "email": config.contact.email,
+  "image": { "@id": logoId },
+  "logo": { "@id": logoId },
+  "parentOrganization": { "@id": orgId },
   "address": {
     "@type": "PostalAddress",
     "streetAddress": config.contact.address.street,
     "addressLocality": config.contact.address.province,
     "addressRegion": config.contact.address.city,
     "postalCode": config.contact.address.postalCode,
-    "addressCountry": "TR"
+    "addressCountry": "TR",
   },
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": config.contact.geo.latitude,
-    "longitude": config.contact.geo.longitude
+    "longitude": config.contact.geo.longitude,
   },
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": config.openingHours.days,
       "opens": config.openingHours.opens,
-      "closes": config.openingHours.closes
-    }
+      "closes": config.openingHours.closes,
+    },
   ],
-  "areaServed": config.serviceAreas.map(area => ({
+  "areaServed": config.serviceAreas.map((area) => ({
     "@type": "City",
-    "name": `${area.district}, ${area.city}`
+    "name": `${area.district}, ${area.city}`,
   })),
-  ...(Object.values(config.contact.socialLinks || {}).filter(Boolean).length > 0 ? { "sameAs": Object.values(config.contact.socialLinks).filter(Boolean) } : {}),
+  ...(socialLinks.length > 0 ? { "sameAs": socialLinks } : {}),
   "foundingDate": String(config.identity.establishedYear),
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": `${config.identity.sectorLabel} Hizmetleri`,
-    "itemListElement": config.services.map(service => ({
+    "itemListElement": config.services.map((service) => ({
       "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": service.name,
-        "description": service.description
-      }
-    }))
-  }
+        "description": service.description,
+      },
+    })),
+  },
 };
 
-// Sayfa kendi LocalBusiness'ını mı geçiriyor?
-const isCustomLocalBusiness = jsonLd?.["@type"] === "LocalBusiness";
+const webpage: Record<string, unknown> = {
+  "@type": "WebPage",
+  "@id": webpageId,
+  "url": canonicalUrl,
+  "name": title,
+  "description": description,
+  "isPartOf": { "@id": websiteId },
+  "about": { "@id": businessId },
+  "primaryImageOfPage": absoluteOgImage,
+  "inLanguage": "tr-TR",
+  ...(breadcrumbs?.length ? { "breadcrumb": { "@id": breadcrumbId } } : {}),
+  ...(articleMeta?.publishedTime ? { "datePublished": articleMeta.publishedTime } : {}),
+  ...(articleMeta?.modifiedTime ? { "dateModified": articleMeta.modifiedTime } : {}),
+};
 
-// LocalBusiness her zaman çıkar (custom varsa onu, yoksa default'u kullan)
-const localBusinessSchema = isCustomLocalBusiness ? jsonLd : defaultJsonLd;
+const breadcrumbNode = breadcrumbs?.length
+  ? {
+      "@type": "BreadcrumbList",
+      "@id": breadcrumbId,
+      "itemListElement": breadcrumbs.map((crumb, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": crumb.name,
+        "item": crumb.url.startsWith('http') ? crumb.url : `${domain}${crumb.url}`,
+      })),
+    }
+  : null;
 
-// Ek schema (BlogPosting, Service vb.) sadece type farklıysa çıkar
-const additionalSchema = (jsonLd && !isCustomLocalBusiness) ? jsonLd : null;
+// Sayfaya ozel ek node'lar — isletme-tipi dublikasyonu grafikten dusurulur (tek kanonik #business).
+const businessTypes = new Set(['LocalBusiness', 'DryCleaningOrLaundry', 'Organization']);
+const rawExtra = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+const extraNodes = rawExtra
+  .filter((n): n is Record<string, unknown> => Boolean(n) && !businessTypes.has(n['@type'] as string))
+  .map((n) => {
+    const clone: Record<string, unknown> = { ...n };
+    delete clone['@context'];
+    return clone;
+  });
 
-const breadcrumbJsonLd = breadcrumbs?.length ? {
+const graphJsonLd = {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": breadcrumbs.map((crumb, index) => ({
-    "@type": "ListItem",
-    "position": index + 1,
-    "name": crumb.name,
-    "item": crumb.url.startsWith('http') ? crumb.url : `https://${config.contact.domain}${crumb.url}`
-  }))
-} : null;
+  "@graph": [
+    organization,
+    website,
+    business,
+    logoImage,
+    webpage,
+    ...(breadcrumbNode ? [breadcrumbNode] : []),
+    ...extraNodes,
+  ],
+};
 ---
 
 <meta charset="utf-8" />
@@ -130,11 +216,5 @@ const breadcrumbJsonLd = breadcrumbs?.length ? {
 <!-- Robots -->
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
 
-<!-- JSON-LD Structured Data -->
-<script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
-{additionalSchema && (
-  <script type="application/ld+json" set:html={JSON.stringify(additionalSchema)} />
-)}
-{breadcrumbJsonLd && (
-  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
-)}
+<!-- JSON-LD Structured Data — connected @graph (engine-level, tum sayfalarda) -->
+<script type="application/ld+json" set:html={JSON.stringify(graphJsonLd)} />

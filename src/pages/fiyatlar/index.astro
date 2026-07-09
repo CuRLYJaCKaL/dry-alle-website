@@ -130,17 +130,11 @@ function toOffer(product: PricingProduct, categoryName: string): Record<string, 
 const jsonLd: Record<string, unknown> | undefined =
   priceableProducts.length > 0
     ? {
-        '@context': 'https://schema.org',
         '@type': 'OfferCatalog',
         name: `${businessName} ${sectorLabel} Fiyat Listesi`,
         description: `${businessName} — ${sectorLabel.toLowerCase()} ve tekstil bakım hizmetleri güncel fiyat listesi.`,
         url: `https://${config.contact.domain}${canonicalPath}`,
-        provider: {
-          '@type': 'LocalBusiness',
-          name: businessName,
-          url: `https://${config.contact.domain}`,
-          telephone: config.contact.phone,
-        },
+        provider: { '@id': `https://${config.contact.domain}/#business` },
         numberOfItems: priceableProducts.length,
         itemListElement:
           catalogCategories.length > 0

@@ -43,28 +43,13 @@ const description = interpolate(config.seoTemplates.serviceDescription, seoToken
 const canonicalPath = `/hizmetler/${service.slug}/`;
 
 const jsonLd = {
-  "@context": "https://schema.org",
   "@type": "Service",
   "name": `${service.name} - ${businessName}`,
   "description": description,
   "serviceType": service.name,
   "url": `https://${config.contact.domain}${canonicalPath}`,
   "image": `https://${config.contact.domain}/images/logo.png`,
-  "provider": {
-    "@type": "LocalBusiness",
-    "name": businessName,
-    "url": `https://${config.contact.domain}`,
-    "telephone": config.contact.phone,
-    "image": `https://${config.contact.domain}/images/logo.png`,
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": config.contact.address.street,
-      "addressLocality": province,
-      "addressRegion": config.contact.address.city,
-      "postalCode": config.contact.address.postalCode,
-      "addressCountry": "TR"
-    },
-  },
+  "provider": { "@id": `https://${config.contact.domain}/#business` },
   "areaServed": config.serviceAreas.map(area => ({
     "@type": "Place",
     "name": `${area.district}, ${area.city}`
@@ -76,12 +61,27 @@ const areas = config.serviceAreas;
 // Bu hizmet için öne çıkan bölge (combo) sayfaları
 const districtNameBySlug = new Map(config.serviceAreas.map((a) => [a.districtSlug, a.district]));
 const nhNameBySlug = new Map(config.serviceAreas.flatMap((a) => a.neighborhoods.map((n) => [n.slug, n.name] as const)));
-const featuredComboAreas = (((config as Record<string, unknown>).serviceAreaPages as Array<{ districtSlug: string; neighborhoodSlug?: string; serviceSlug: string }>) ?? [])
+const serviceAreaPages = ((config as Record<string, unknown>).serviceAreaPages as Array<{ districtSlug: string; neighborhoodSlug?: string; serviceSlug: string }>) ?? [];
+const featuredComboAreas = serviceAreaPages
   .filter((e) => e.serviceSlug === service.slug)
   .map((e) => ({
     url: e.neighborhoodSlug ? `/bolge/${e.districtSlug}/${e.neighborhoodSlug}/${e.serviceSlug}/` : `/bolge/${e.districtSlug}/${e.serviceSlug}/`,
     label: `${e.neighborhoodSlug ? nhNameBySlug.get(e.neighborhoodSlug) : districtNameBySlug.get(e.districtSlug)} ${service.name}`,
   }));
+
+// Hizmet-farkında bölge linki: bu hizmet için combo sayfası varsa oraya, yoksa genel bölge hub'ına.
+const serviceComboKeys = new Set(
+  serviceAreaPages
+    .filter((e) => e.serviceSlug === service.slug)
+    .map((e) => (e.neighborhoodSlug ? `${e.districtSlug}/${e.neighborhoodSlug}` : e.districtSlug))
+);
+const areaServiceHref = (districtSlug: string, nhSlug?: string): string => {
+  const key = nhSlug ? `${districtSlug}/${nhSlug}` : districtSlug;
+  if (serviceComboKeys.has(key)) {
+    return nhSlug ? `/bolge/${districtSlug}/${nhSlug}/${service.slug}/` : `/bolge/${districtSlug}/${service.slug}/`;
+  }
+  return nhSlug ? `/bolge/${districtSlug}/${nhSlug}/` : `/bolge/${districtSlug}/`;
+};
 
 const { googleRating, reviewCount } = config.socialProof;
 const testimonials = config.socialProof.testimonials;
@@ -370,22 +370,22 @@ const relatedPosts = relatedSlugs
         {areas.map((area, idx) => (
           <div class="card card-hover-lift animate-slide-up"
                style={`animation-delay: ${idx * 100}ms`}>
-            <!-- District header -->
-            <div class="flex items-center gap-3 mb-4">
+            <!-- District header (hizmet-farkında link) -->
+            <a href={areaServiceHref(area.districtSlug)} class="flex items-center gap-3 mb-4 group/dist">
               <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-accent/10">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                   <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                 </svg>
               </span>
-              <h3 class="font-bold text-primary text-lg">{area.district}</h3>
-            </div>
+              <h3 class="font-bold text-primary text-lg group-hover/dist:text-secondary transition-colors">{area.district} {service.name}</h3>
+            </a>
 
-            <!-- Neighborhood tags -->
+            <!-- Neighborhood tags (hizmet-farkında link) -->
             <div class="flex flex-wrap gap-2">
               {area.neighborhoods.map((nh) => (
                 <a
-                  href={`/bolge/${area.districtSlug}/${nh.slug}/`}
+                  href={areaServiceHref(area.districtSlug, nh.slug)}
                   class="badge-surface bg-surface text-primary px-3 py-1 rounded-full text-xs font-medium
                          hover:bg-accent hover:text-white transition-all duration-200"
                 >
