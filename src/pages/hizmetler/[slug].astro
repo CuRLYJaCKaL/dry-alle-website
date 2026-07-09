@@ -72,6 +72,17 @@ const jsonLd = {
 };
 
 const areas = config.serviceAreas;
+
+// Bu hizmet için öne çıkan bölge (combo) sayfaları
+const districtNameBySlug = new Map(config.serviceAreas.map((a) => [a.districtSlug, a.district]));
+const nhNameBySlug = new Map(config.serviceAreas.flatMap((a) => a.neighborhoods.map((n) => [n.slug, n.name] as const)));
+const featuredComboAreas = (((config as Record<string, unknown>).serviceAreaPages as Array<{ districtSlug: string; neighborhoodSlug?: string; serviceSlug: string }>) ?? [])
+  .filter((e) => e.serviceSlug === service.slug)
+  .map((e) => ({
+    url: e.neighborhoodSlug ? `/bolge/${e.districtSlug}/${e.neighborhoodSlug}/${e.serviceSlug}/` : `/bolge/${e.districtSlug}/${e.serviceSlug}/`,
+    label: `${e.neighborhoodSlug ? nhNameBySlug.get(e.neighborhoodSlug) : districtNameBySlug.get(e.districtSlug)} ${service.name}`,
+  }));
+
 const { googleRating, reviewCount } = config.socialProof;
 const testimonials = config.socialProof.testimonials;
 const whatsappClean = config.contact.whatsapp.replace(/[\s+]/g, '');
@@ -556,6 +567,28 @@ const relatedPosts = relatedSlugs
       </div>
     </div>
   </section>
+
+  {featuredComboAreas.length > 0 && (
+    <section class="section-padding bg-surface">
+      <div class="section-container">
+        <div class="text-center mb-8">
+          <h2 class="section-title">Bölgeye Özel {service.name} Sayfalarımız</h2>
+          <p class="section-subtitle mx-auto">Semtinize özel {service.name.toLocaleLowerCase('tr-TR')} bilgisi için bölge sayfamıza göz atın.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-w-4xl mx-auto">
+          {featuredComboAreas.map((c) => (
+            <a href={c.url} class="group flex items-center gap-3 bg-white rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/40 hover:shadow-card transition-all">
+              <div class="w-9 h-9 shrink-0 rounded-lg bg-accent/10 flex items-center justify-center">
+                <svg class="w-4 h-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <span class="flex-1 min-w-0 text-sm font-semibold text-primary">{c.label}</span>
+              <svg class="w-4 h-4 text-border group-hover:text-accent shrink-0 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <!-- ════════════════════════════════════════════
        FAQ & CONTACT (existing components)

@@ -32,6 +32,23 @@ export function getStaticPaths() {
     }
   }
 
+  // Curated location×service combo pages
+  for (const entry of ((config as Record<string, unknown>).serviceAreaPages as Array<Record<string, unknown>> ?? [])) {
+    const area = config.serviceAreas.find((a) => a.districtSlug === entry.districtSlug);
+    if (!area) continue;
+    const service = config.services.find((sv) => sv.slug === entry.serviceSlug);
+    if (!service) continue;
+    if (entry.neighborhoodSlug) {
+      const nh = area.neighborhoods.find((n) => n.slug === entry.neighborhoodSlug);
+      if (!nh) continue;
+      paths.push({ params: { slug: `${area.districtSlug}/${nh.slug}/${service.slug}` },
+        props: { district: area, neighborhood: nh, isDistrict: false, isServicePage: true, service, pageEntry: entry } });
+    } else {
+      paths.push({ params: { slug: `${area.districtSlug}/${service.slug}` },
+        props: { district: area, neighborhood: null, isDistrict: true, isServicePage: true, service, pageEntry: entry } });
+    }
+  }
+
   return paths;
 }
 
@@ -140,14 +157,64 @@ const slugForVariant = isDistrict ? district.districtSlug : `${district.district
 const variantIdx = deterministicIndex(slugForVariant, regionVariants.length);
 const heroText = interpolate(regionVariants[variantIdx], seoTokens);
 const whySubtitle = interpolate(regionSubtitleVariants[variantIdx], seoTokens);
+
+// ── Lokasyon×Hizmet combo sayfası (isServicePage) ──
+const isServicePage = ((Astro.props as Record<string, unknown>).isServicePage as boolean) ?? false;
+const service = (Astro.props as Record<string, unknown>).service as { name: string; slug: string; description: string } | undefined;
+const pageEntry = (Astro.props as Record<string, unknown>).pageEntry as { intro: string; bodyParagraphs: string[]; faq: Array<{ question: string; answer: string }> } | undefined;
+const st = config.seoTemplates as Record<string, string>;
+let svcTitle = title, svcDescription = description, svcH1 = '', svcCanonical = canonicalPath;
+let svcJsonLd: Record<string, unknown> = jsonLd;
+let svcSchemas: Array<Record<string, unknown>> = [];
+if (isServicePage && service && pageEntry) {
+  const sTokens = { ...seoTokens, serviceName: service.name, serviceNameLower: service.name.toLocaleLowerCase('tr-TR') };
+  svcTitle = interpolate(st.regionServiceTitle, sTokens);
+  svcDescription = interpolate(st.regionServiceDescription, sTokens);
+  svcH1 = interpolate(st.regionServiceH1, sTokens);
+  svcCanonical = neighborhood
+    ? `/bolge/${district.districtSlug}/${neighborhood.slug}/${service.slug}/`
+    : `/bolge/${district.districtSlug}/${service.slug}/`;
+  svcJsonLd = {
+    "@context": "https://schema.org", "@type": "LocalBusiness",
+    "name": `${businessName} - ${locationName} ${service.name}`,
+    "description": svcDescription,
+    "url": `https://${config.contact.domain}${svcCanonical}`,
+    "telephone": config.contact.phone,
+    "areaServed": { "@type": "Place", "name": locationName },
+  };
+  svcSchemas = [
+    { "@context": "https://schema.org", "@type": "Service", "serviceType": service.name,
+      "name": `${locationName} ${service.name}`, "areaServed": { "@type": "Place", "name": locationName },
+      "provider": { "@type": "LocalBusiness", "name": businessName, "url": `https://${config.contact.domain}` } },
+    { "@context": "https://schema.org", "@type": "FAQPage",
+      "mainEntity": pageEntry.faq.map((f) => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) },
+  ];
+}
+// Region sayfasında o lokasyona ait combo (lokasyon×hizmet) linkleri
+const serviceNameBySlug = new Map(config.services.map((s) => [s.slug, s.name]));
+const regionCombos = (((config as Record<string, unknown>).serviceAreaPages as Array<{ districtSlug: string; neighborhoodSlug?: string; serviceSlug: string }>) ?? [])
+  .filter((e) => e.districtSlug === district.districtSlug && (neighborhood ? e.neighborhoodSlug === neighborhood.slug : !e.neighborhoodSlug))
+  .map((e) => ({
+    url: e.neighborhoodSlug ? `/bolge/${e.districtSlug}/${e.neighborhoodSlug}/${e.serviceSlug}/` : `/bolge/${e.districtSlug}/${e.serviceSlug}/`,
+    label: `${locationName} ${serviceNameBySlug.get(e.serviceSlug)}`,
+  }));
+
+const svcBreadcrumbs = isServicePage && service ? (neighborhood
+  ? [ { name: 'Ana Sayfa', url: '/' }, { name: 'Bölgeler', url: '/#bolgeler' },
+      { name: district.district, url: `/bolge/${district.districtSlug}/` },
+      { name: neighborhood.name, url: `/bolge/${district.districtSlug}/${neighborhood.slug}/` },
+      { name: service.name, url: svcCanonical } ]
+  : [ { name: 'Ana Sayfa', url: '/' }, { name: 'Bölgeler', url: '/#bolgeler' },
+      { name: district.district, url: `/bolge/${district.districtSlug}/` },
+      { name: service.name, url: svcCanonical } ]) : [];
 ---
 
 <BaseLayout
-  title={title}
-  description={description}
-  canonicalPath={canonicalPath}
-  jsonLd={jsonLd}
-  breadcrumbs={isDistrict
+  title={isServicePage ? svcTitle : title}
+  description={isServicePage ? svcDescription : description}
+  canonicalPath={isServicePage ? svcCanonical : canonicalPath}
+  jsonLd={isServicePage ? svcJsonLd : jsonLd}
+  breadcrumbs={isServicePage ? svcBreadcrumbs : (isDistrict
     ? [
         { name: 'Ana Sayfa', url: '/' },
         { name: 'Bölgeler', url: '/#bolgeler' },
@@ -158,10 +225,100 @@ const whySubtitle = interpolate(regionSubtitleVariants[variantIdx], seoTokens);
         { name: 'Bölgeler', url: '/#bolgeler' },
         { name: district.district, url: `/bolge/${district.districtSlug}/` },
         { name: neighborhood!.name, url: `/bolge/${district.districtSlug}/${neighborhood!.slug}/` }
-      ]
+      ])
   }
 >
 
+  {isServicePage && service && pageEntry && (
+    <Fragment>
+      <script type="application/ld+json" set:html={JSON.stringify(svcSchemas)} />
+
+      <!-- Combo HERO -->
+      <section class="relative overflow-hidden bg-gradient-to-br from-primary to-primary-dark text-white pt-8 sm:pt-10 lg:pt-12 pb-14 sm:pb-16 lg:pb-20">
+        <div class="absolute inset-0 opacity-[0.07]" aria-hidden="true">
+          <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-accent rounded-full blur-3xl translate-x-1/3 -translate-y-1/3"></div>
+        </div>
+        <div class="section-container relative z-10 max-w-4xl">
+          <nav class="mb-6 text-sm text-white/70" aria-label="Breadcrumb">
+            <ol class="flex flex-wrap items-center gap-2">
+              <li><a href="/" class="hover:text-white transition-colors">Ana Sayfa</a></li>
+              <li aria-hidden="true">›</li>
+              <li><a href={`/bolge/${district.districtSlug}/`} class="hover:text-white transition-colors">{district.district}</a></li>
+              {neighborhood && (<><li aria-hidden="true">›</li><li><a href={`/bolge/${district.districtSlug}/${neighborhood.slug}/`} class="hover:text-white transition-colors">{neighborhood.name}</a></li></>)}
+              <li aria-hidden="true">›</li>
+              <li class="text-white font-medium">{service.name}</li>
+            </ol>
+          </nav>
+          <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6 text-accent-light text-sm font-medium">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            İstanbul / {district.district}{neighborhood ? ` / ${neighborhood.name}` : ''}
+          </div>
+          <h1 class="text-hero font-bold mb-5">{svcH1}</h1>
+          <p class="text-lg sm:text-xl text-white/90 mb-8 max-w-3xl">{pageEntry.intro}</p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href={`tel:${config.contact.phone.replace(/\s/g, '')}`} class="btn-primary"><svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>Hemen Arayın: {config.contact.phoneDisplay}</a>
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="btn-whatsapp">WhatsApp ile Yazın</a>
+          </div>
+          <div class="flex flex-wrap items-center gap-x-6 gap-y-2 mt-8 text-sm text-white/80">
+            {(config.contentTokens.serviceHighlights as string[]).map((h) => (<span class="inline-flex items-center gap-1.5"><svg class="w-4 h-4 text-accent-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>{h}</span>))}
+          </div>
+        </div>
+      </section>
+
+      <!-- Combo BODY -->
+      <section class="section-padding bg-white">
+        <div class="section-container max-w-4xl">
+          {pageEntry.bodyParagraphs.map((para) => (<p class="text-text-primary text-base sm:text-lg leading-relaxed mb-5">{para}</p>))}
+          <div class="mt-8 flex flex-col sm:flex-row gap-4 p-6 bg-surface rounded-2xl border border-border/50">
+            <div class="flex-1">
+              <h2 class="text-xl font-bold text-primary mb-1">{service.name} fiyatını mı merak ediyorsunuz?</h2>
+              <p class="text-text-secondary text-sm">Güncel fiyat listemize bakın veya {service.name.toLocaleLowerCase('tr-TR')} için fotoğrafınızı WhatsApp'tan gönderin, dakikalar içinde net fiyat alın.</p>
+            </div>
+            <div class="flex items-center gap-3 shrink-0">
+              <a href="/fiyatlar/" class="btn-primary whitespace-nowrap">Fiyat Listesi</a>
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="btn-whatsapp whitespace-nowrap">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Combo FAQ (ozgun, FAQPage rich-result) -->
+      <section class="section-padding bg-surface">
+        <div class="section-container max-w-4xl">
+          <h2 class="text-3xl sm:text-4xl font-bold text-primary mb-8">Sıkça Sorulan Sorular</h2>
+          <div class="space-y-3">
+            {pageEntry.faq.map((item) => (
+              <details class="group bg-white rounded-xl border border-border/50 overflow-hidden">
+                <summary class="flex items-center justify-between gap-3 px-5 py-4 cursor-pointer select-none list-none min-h-[44px] font-semibold text-primary hover:bg-surface/50 transition-colors [&::-webkit-details-marker]:hidden">
+                  <span>{item.question}</span>
+                  <svg class="w-5 h-5 shrink-0 text-accent transition-transform duration-200 group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                </summary>
+                <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed">{item.answer}</div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- Ic linkler -->
+      <section class="py-12 bg-white">
+        <div class="section-container max-w-4xl">
+          <h2 class="text-2xl font-bold text-primary mb-6">İlgili Sayfalar</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <a href={`/hizmetler/${service.slug}/`} class="flex items-center gap-3 bg-surface/50 rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/40 hover:bg-white transition-all"><span class="text-sm font-semibold text-primary">{service.name} — Hizmet Detayı</span></a>
+            <a href={`/bolge/${district.districtSlug}/`} class="flex items-center gap-3 bg-surface/50 rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/40 hover:bg-white transition-all"><span class="text-sm font-semibold text-primary">{district.district} — Tüm Hizmetler</span></a>
+            {neighborhood && (<a href={`/bolge/${district.districtSlug}/${neighborhood.slug}/`} class="flex items-center gap-3 bg-surface/50 rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/40 hover:bg-white transition-all"><span class="text-sm font-semibold text-primary">{neighborhood.name} — Bölge Sayfası</span></a>)}
+            <a href="/fiyatlar/" class="flex items-center gap-3 bg-surface/50 rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/40 hover:bg-white transition-all"><span class="text-sm font-semibold text-primary">Güncel Fiyat Listesi</span></a>
+          </div>
+        </div>
+      </section>
+
+      <Contact />
+    </Fragment>
+  )}
+
+  {!isServicePage && (
+  <Fragment>
   <!-- ===================== HERO SECTION ===================== -->
   <section class="relative overflow-hidden bg-gradient-to-br from-primary to-primary-dark pt-8 sm:pt-10 lg:pt-12 pb-12 sm:pb-16 lg:pb-20">
     <!-- Decorative background blobs -->
@@ -378,6 +535,20 @@ const whySubtitle = interpolate(regionSubtitleVariants[variantIdx], seoTokens);
           </a>
         ))}
       </div>
+
+      {regionCombos.length > 0 && (
+        <div class="mt-10 max-w-4xl mx-auto">
+          <p class="text-center text-text-secondary mb-4">{locationName} bölgesinde öne çıkan hizmetlerimiz:</p>
+          <div class="flex flex-wrap justify-center gap-3">
+            {regionCombos.map((c) => (
+              <a href={c.url} class="inline-flex items-center gap-2 bg-primary/5 hover:bg-primary/10 text-primary font-semibold rounded-full px-5 py-2.5 min-h-[44px] border border-primary/15 transition-colors">
+                {c.label}
+                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   </section>
 
@@ -593,5 +764,7 @@ const whySubtitle = interpolate(regionSubtitleVariants[variantIdx], seoTokens);
 
   <!-- ===================== CONTACT ===================== -->
   <Contact />
+  </Fragment>
+  )}
 
 </BaseLayout>

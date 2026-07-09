@@ -693,7 +693,10 @@
     "corporateServiceType": "Corporate Dry Cleaning",
     "catalogName": "{sectorLabel} Hizmetleri",
     "pricingTitle": "Kuru Temizleme Fiyatları 2026 | {businessName}",
-    "pricingDescription": "Kuru temizleme, halı, koltuk ve perde yıkama güncel fiyat listesi. {businessName} — Anadolu Yakası'nda ücretsiz kapıdan alım ve teslimat."
+    "pricingDescription": "Kuru temizleme, halı, koltuk ve perde yıkama güncel fiyat listesi. {businessName} — Anadolu Yakası'nda ücretsiz kapıdan alım ve teslimat.",
+    "regionServiceTitle": "{location} {serviceName} | {businessName}",
+    "regionServiceH1": "{location} {serviceName}",
+    "regionServiceDescription": "{location} bölgesinde profesyonel {serviceNameLower}. {businessName} — ücretsiz kapıdan alım-teslimat, {establishedYear}'den beri."
   },
   "contentTokens": {
     "valuePropositions": [
@@ -2018,5 +2021,409 @@
     "monthlyRegionIncrement": 4,
     "blogEnabled": false,
     "blogPostLimit": 0
-  }
+  },
+  "serviceAreaPages": [
+    {
+      "districtSlug": "atasehir",
+      "serviceSlug": "hali-yikama",
+      "intro": "Ataşehir'de halınızı kapınızdan alıp profesyonel tesisimizde derinlemesine yıkıyoruz. Toz akarından leke ve kokuya kadar halının bütün yükünü, elyafına zarar vermeden çıkarıyoruz.",
+      "bodyParagraphs": [
+        "Ataşehir'in yoğun trafiği ve şantiye tozu, halıların derinine işleyen ince bir kir tabakası bırakır. Yüzeysel süpürme bunu almaz; halının hijyeni için tozun lif dibinden sökülmesi gerekir. Biz Ataşehir'den aldığımız her halıyı önce kuru tozdan arındırıyor, ardından halının cinsine uygun sıcaklık ve pH ile yıkıyoruz.",
+        "Barbaros, İçerenköy ve Küçükbakkalköy başta olmak üzere Ataşehir'in tüm mahallelerine ücretsiz kapıdan alım-teslimat sağlıyoruz. Halınızı söz verdiğimiz günde, tam kurumuş ve paketlenmiş halde geri getiriyoruz."
+      ],
+      "faq": [
+        {
+          "question": "Ataşehir'de halı yıkama kaç günde teslim edilir?",
+          "answer": "Standart teslim süresi 2-4 gündür; yoğun kirli veya büyük halılarda süre değişebilir. Kesin süreyi halınızın fotoğrafını WhatsApp'tan gönderdiğinizde bildiriyoruz."
+        },
+        {
+          "question": "Halıyı Ataşehir'den siz mi alıyorsunuz?",
+          "answer": "Evet, Ataşehir'in tüm mahallelerinde ücretsiz kapıdan alım ve teslimat yapıyoruz. Sizin halıyı taşımanıza gerek yok."
+        },
+        {
+          "question": "Halı yıkama fiyatı nasıl belirleniyor?",
+          "answer": "Fiyat halının türüne, boyutuna ve kirlilik durumuna göre belirlenir. Güncel fiyatlar için fiyatlar sayfamıza bakabilir veya WhatsApp'tan fotoğraf göndererek net teklif alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "kadikoy",
+      "neighborhoodSlug": "caddebostan",
+      "serviceSlug": "hali-yikama",
+      "intro": "Caddebostan'da değerli halılarınızı, sahil neminin yol açtığı küf ve koku riskine karşı özel işlemle yıkıyoruz. Kapınızdan alıyor, lifine zarar vermeden temizleyip geri getiriyoruz.",
+      "bodyParagraphs": [
+        "Caddebostan ve sahil bandındaki evlerde nem, halıların alt tabanında zamanla küf ve ağır bir koku oluşturur. Bu, yalnızca yüzey yıkamayla giderilemez; halının tam kurutulması ve antibakteriyel işlemden geçirilmesi gerekir. Caddebostan'dan aldığımız halıları kontrollü kurutma odalarımızda tamamen kurutarak nem kaynaklı sorunları kökten çözüyoruz.",
+        "Caddebostan, Suadiye ve Erenköy hattında ücretsiz kapıdan alım-teslimat sunuyoruz. Yün, ipek ve el dokuması halılarınız için ayrı, nazik protokoller uyguluyoruz."
+      ],
+      "faq": [
+        {
+          "question": "Caddebostan'da nemden kokan halı temizlenir mi?",
+          "answer": "Evet. Küf ve nem kokusunu antibakteriyel yıkama ve tam kurutma ile kökünden gideriyoruz; halı size tertemiz ve kokusuz döner."
+        },
+        {
+          "question": "İpek halımı Caddebostan'dan alıp yıkar mısınız?",
+          "answer": "Evet, ipek ve el dokuması halılar için özel elde yıkama protokolü uyguluyoruz. Caddebostan'dan ücretsiz alıyoruz."
+        },
+        {
+          "question": "Halı yıkama fiyatını nasıl öğrenirim?",
+          "answer": "Fiyatlar sayfamızdan güncel listeye bakabilir ya da halınızın fotoğrafını WhatsApp'tan gönderip dakikalar içinde net fiyat alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "kadikoy",
+      "serviceSlug": "hali-yikama",
+      "intro": "Kadıköy halı yıkama denince Anadolu Yakası'nın en yoğun ve hareketli merkezi akla gelir. Cadde üzerindeki apartman dairelerinden ara sokaklardaki dükkanlara kadar her adrese ulaşan ekibimizle, 25 yıllık deneyimimizi halılarınızın hijyeni için sunuyoruz. Ücretsiz kapıdan alım ve teslimatla halınızı taşımak zorunda kalmazsınız.",
+      "bodyParagraphs": [
+        "Kadıköy'ün kalabalık yaşam temposunda halılar toz, ayakkabı kiri ve dışarıdan taşınan mikroorganizmalarla hızla yıpranır. Kadıköy halı yıkama hizmetimizde her halıyı önce elyaf yapısına göre ayırır, uygun sıcaklık ve şampuanla derinlemesine temizleriz. Toz akarları ve alerjenler tam olarak arındırılırken, dokuma rengi ve deseni korunur.",
+        "İlçenin farklı mahallelerine aynı gün servis verebiliyoruz; siz bir telefon açın, halınızı biz kapınızdan alalım. Yıkama sonrası profesyonel kurutma tünellerinde tam kuruttuğumuz için halınız nemli kokmaz, küf riski taşımaz. Teslimattan önce leke kontrolü yapar, tertemiz ve kuru halinde adresinize bırakırız."
+      ],
+      "faq": [
+        {
+          "question": "Kadıköy'de halımı yıkatmak için nereye getirmem gerekiyor?",
+          "answer": "Halınızı hiçbir yere taşımanıza gerek yok. Kadıköy'ün tüm mahallelerine ücretsiz kapıdan alım-teslimat yapıyoruz; tek yapmanız gereken 0 543 352 74 74 numaralı hattımızı aramak."
+        },
+        {
+          "question": "Halı yıkama ne kadar sürede tamamlanıyor?",
+          "answer": "Süre halının cinsine, kalınlığına ve yoğunluğumuza göre değişir. Alım sırasında size net bir teslim tarihi verir, kurutması tam bitmeden halınızı asla geri göndermeyiz."
+        },
+        {
+          "question": "Fiyatları nasıl öğrenebilirim?",
+          "answer": "Güncel fiyatlar için fiyatlar sayfamıza göz atabilir ya da WhatsApp'tan halınızın fotoğrafını gönderebilirsiniz; dakikalar içinde net bir fiyat bilgisi paylaşıyoruz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "kadikoy",
+      "neighborhoodSlug": "erenkoy",
+      "serviceSlug": "hali-yikama",
+      "intro": "Erenköy halı yıkama, köşkler ve bahçeli evlerin bulunduğu bu seçkin semtte özel bir uzmanlık gerektirir. Büyük metrekareli, değerli el dokuması ve klasik halılar bizim özenli bakımımıza emanet edilir. 25 yıllık tecrübemizle her ilmeği koruyarak temizliyoruz.",
+      "bodyParagraphs": [
+        "Erenköy'ün geniş salonlarını süsleyen antika ve el dokuma halılar, standart bir yıkamadan çok daha titiz bir işlem ister. Erenköy halı yıkama hizmetimizde bu halıları elyaf ve boya testinden geçirir, renk akmasını önleyecek nötr pH'lı şampuanlarla elde yıkarız. Değerli dokumaların saçakları ve kenar örgüsü zarar görmeden korunur.",
+        "Bahçeli evlerde halılara toprak, polen ve nem kolayca işler; bunlar zamanla küf ve koku yapar. Derinlemesine tozunu alıp lekelerini çözdükten sonra kontrollü kurutmayla halınızı tam kurutur, orijinal yumuşaklığına kavuştururuz. Ağır ve büyük halılarınızı kapınızdan ücretsiz alıp yine kapınıza tertemiz teslim ederiz."
+      ],
+      "faq": [
+        {
+          "question": "Erenköy'deki el dokuma antika halımı güvenle yıkatabilir miyim?",
+          "answer": "Kesinlikle. El dokuma ve antika halılar için renk sabitliği testi yapar, düşük pH'lı özel şampuanlarla elde yıkarız; böylece dokuma ve boya zarar görmez."
+        },
+        {
+          "question": "Büyük ve ağır halımı ben mi taşımalıyım?",
+          "answer": "Hayır, taşıma tamamen bize ait. Ekibimiz Erenköy'deki adresinizden büyük halıları da ücretsiz olarak alır ve yıkandıktan sonra yine kapınıza teslim eder."
+        },
+        {
+          "question": "Halımın saçakları yıpranmış, düzeltiyor musunuz?",
+          "answer": "Yıkama sürecinde saçak temizliği ve düzeltmesi de yapıyoruz. Yıpranma durumunu alım sırasında değerlendirip size bilgi veririz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "kadikoy",
+      "neighborhoodSlug": "fenerbahce",
+      "serviceSlug": "hali-yikama",
+      "intro": "Fenerbahçe halı yıkama, sahile yakın bu semtte nem ve tuzlu havanın halılar üzerindeki etkisiyle mücadele etmeyi gerektirir. Yaz-kış halı değişiminizde depolama öncesi hijyenik temizlik konusunda 25 yıllık deneyimimizle yanınızdayız. Ücretsiz alım-teslimatla halınızı denizden gelen neme karşı koruyoruz.",
+      "bodyParagraphs": [
+        "Deniz kıyısına yakın evlerde halılar rutubeti içine çeker, bu da zamanla küf kokusu ve mantar oluşumuna yol açar. Fenerbahçe halı yıkama işlemimizde halıyı derinlemesine yıkadıktan sonra endüstriyel kurutma odalarında nemin son zerresine kadar kurutur, tekrar sarıldığında koku yapmasını engelleriz. Böylece dolapta beklerken bile taze kalır.",
+        "Yazlık ince halılarınızı kaldırıp kışlık halılarınızı sererken, her ikisini de mevsim geçişinde temizlemek en doğrusudur. Halıların üzerindeki tuz kalıntısı ve nem lekelerini gideririz, elyafı yıpratmadan yumuşaklığını iade ederiz. Siz sadece arayın; mevsimlik halı değişiminizde alımı da teslimatı da biz üstleniriz."
+      ],
+      "faq": [
+        {
+          "question": "Fenerbahçe'de deniz nemi halıma zarar veriyor, çözümünüz ne?",
+          "answer": "Halınızı yıkadıktan sonra endüstriyel kurutma odalarında tamamen kuruturuz; içinde nem kalmadığı için küf ve rutubet kokusu oluşmaz."
+        },
+        {
+          "question": "Kışlık halımı kaldırmadan önce yıkatmam şart mı?",
+          "answer": "Kesinlikle öneririz. Temiz olarak sarılan halı depoda leke, koku ve akar üretmez; gelecek sezon açtığınızda tertemiz çıkar."
+        },
+        {
+          "question": "Mevsimlik halı değişiminde teslimat nasıl işliyor?",
+          "answer": "Kaldıracağınız halıyı temizleyip depoya hazır teslim eder, sereceğiniz halıyı da yıkanmış olarak kapınıza getiririz. Fiyat için WhatsApp'tan fotoğraf gönderin, dakikalar içinde net fiyat verelim."
+        }
+      ]
+    },
+    {
+      "districtSlug": "kadikoy",
+      "neighborhoodSlug": "suadiye",
+      "serviceSlug": "hali-yikama",
+      "intro": "Suadiye halı yıkama, modern rezidansların ve bakımlı sitelerin bulunduğu bu semtte pratik ve düzenli bir hizmet anlayışı ister. Shaggy ve makine halılarından apartman yönetimi üzerinden toplu servise kadar geniş bir yelpazede çözüm sunuyoruz. 25 yıllık deneyimimizle kapıdan ücretsiz alıp teslim ediyoruz.",
+      "bodyParagraphs": [
+        "Suadiye'nin şık rezidanslarında sıkça tercih edilen shaggy ve uzun tüylü halılar, tüyleri arasında toz ve tüy biriktirdiği için özel bir yıkama tekniği gerektirir. Suadiye halı yıkama hizmetimizde bu halıların hav yapısını bozmadan derin temizlik uygular, tüyler arasına sıkışan akar ve alerjenleri arındırırız. Yıkama sonrası hav yönü düzeltilir, halınız ilk günkü dolgunluğuna kavuşur.",
+        "Site ve apartman yönetimleriyle çalışarak birden fazla daireden toplu halı alımı yapabiliyoruz; bu hem komşuları koordine eder hem de sizin işinizi kolaylaştırır. Halılar tek tek etiketlenir, karışma olmadan sahibine tam kuru şekilde teslim edilir. Yönetiminizle iletişime geçmemiz için tek bir telefon yeterli."
+      ],
+      "faq": [
+        {
+          "question": "Suadiye'deki sitemizde toplu halı yıkama yaptırabilir miyiz?",
+          "answer": "Evet, apartman ve site yönetimleri üzerinden toplu servis veriyoruz. Her halı etiketlenerek alınır ve karışma olmadan doğru daireye teslim edilir."
+        },
+        {
+          "question": "Shaggy halımın tüyleri yıkamada zarar görür mü?",
+          "answer": "Hayır. Uzun tüylü ve shaggy halılara özel, havı bozmayan bir yöntem uygularız; yıkama sonrası tüyler yumuşak ve dolgun kalır."
+        },
+        {
+          "question": "Toplu servis fiyatı nasıl belirleniyor?",
+          "answer": "Fiyatlar halı sayısı ve metrekareye göre değişir; güncel bilgi için fiyatlar sayfamıza bakabilir ya da WhatsApp'tan fotoğraf göndererek dakikalar içinde net fiyat alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "kadikoy",
+      "neighborhoodSlug": "bostanci",
+      "serviceSlug": "hali-yikama",
+      "intro": "Bostancı halı yıkama, çocuklu ve evcil hayvanlı aile evlerinin yoğun olduğu bu sahil semtinde hijyen ve akar temizliğini ön planda tutar. Halının içine işleyen tüy, mikrop ve alerjenlere karşı 25 yıllık uzmanlığımızla derin temizlik sunuyoruz. Ücretsiz kapıdan alım-teslimatla ailenizin sağlığını koruyoruz.",
+      "bodyParagraphs": [
+        "Bostancı'da çocukların üzerinde oynadığı, evcil hayvanların vakit geçirdiği halılar toz akarı, tüy ve bakteri için ideal ortam oluşturur. Bostancı halı yıkama hizmetimizde yüksek ısı ve hijyenik şampuanlarla bu mikroorganizmaları tamamen yok eder, alerji yapan kalıntıları arındırırız. Yıkanan halı hem gözle görülür temizlikte hem de dokunma hissi bakımından tertemiz olur.",
+        "Süt, meyve suyu, çamur ya da evcil hayvan kaynaklı lekeler doğru müdahaleyle çıkar; biz her lekeyi türüne göre çözerek işleme başlarız. Ardından halıyı tam kuruttuğumuz için nemli ortamda üreyen bakteri ve koku riski ortadan kalkar. Sahil hattındaki adresinizden halıyı alır, çocuklarınızın güvenle oynayacağı temizlikte geri getiririz."
+      ],
+      "faq": [
+        {
+          "question": "Bostancı'da evcil hayvan tüyü ve kokusunu halımdan tamamen çıkarıyor musunuz?",
+          "answer": "Evet. Evcil hayvan tüyü ve kokusuna karşı özel işlem uygular, yüksek ısı ve hijyenik yıkamayla halınızı hem tüyden hem kokudan arındırırız."
+        },
+        {
+          "question": "Çocuğum halıda oynuyor, yıkama sonrası kimyasal kalıntı olur mu?",
+          "answer": "Hayır. Durulama aşamasında şampuan kalıntısı tamamen giderilir; halınız çocuğunuzun güvenle temas edebileceği şekilde teslim edilir."
+        },
+        {
+          "question": "Toz akarına karşı ne yapıyorsunuz?",
+          "answer": "Uyguladığımız yüksek sıcaklıktaki yıkama ve tam kurutma süreci toz akarlarını ve yumurtalarını yok eder, alerji riskini belirgin şekilde azaltır."
+        }
+      ]
+    },
+    {
+      "districtSlug": "uskudar",
+      "neighborhoodSlug": "altunizade",
+      "serviceSlug": "hali-yikama",
+      "intro": "Altunizade halı yıkama, iş merkezleri ile konut alanlarının iç içe geçtiği bu semtte hem ofis hem ev halılarına hızlı çözüm sunmayı gerektirir. Tarihi dokusuyla öne çıkan Altunizade'de yoğun tempoya ayak uyduran teslim sürelerimizle fark yaratıyoruz. 25 yıllık deneyimimizle ücretsiz alım-teslimat sağlıyoruz.",
+      "bodyParagraphs": [
+        "Altunizade'de plazalardaki ofis halıları yoğun ayak trafiği nedeniyle çabuk kirlenir, konutlardaki halılar ise günlük yaşamın tozunu taşır. Altunizade halı yıkama hizmetimizde ofis halılarındaki inatçı ayak izi ve leke birikimini, ev halılarındaki toz ve akarı ayrı yöntemlerle çözeriz. İşinizi aksatmamak için esnek alım saatleri ve hızlı teslim sunuyoruz.",
+        "Çalışma temposu yüksek bir bölgede en değerli şey zamandır; bu yüzden halınızı hızlıca alıp öncelikli olarak işleme koyabiliyoruz. Derin yıkama, leke müdahalesi ve tam kurutma sürecinden geçen halınız koku yapmadan, elyafı korunmuş şekilde geri döner. Ofisinize ya da evinize teslimatı gününde planlayarak sizi bekletmeyiz."
+      ],
+      "faq": [
+        {
+          "question": "Altunizade'deki ofisimin halısını mesai saatleri dışında alabilir misiniz?",
+          "answer": "Evet, iş yoğunluğunuzu aksatmamak için esnek alım saatleri sunuyoruz. Size uygun bir zaman belirleyip ofisinizden ücretsiz alım yapıyoruz."
+        },
+        {
+          "question": "Acil teslim ihtiyacım var, ne kadar sürede hazır olur?",
+          "answer": "Öncelikli işleme alarak teslim süresini kısaltabiliyoruz. Kesin süreyi halının cinsine göre alım sırasında net olarak belirtiriz; kurutması tamamlanmadan asla teslim etmeyiz."
+        },
+        {
+          "question": "Hem ofis hem ev halımı aynı serviste aldırabilir miyim?",
+          "answer": "Tabii ki. Aynı adres veya bölgeden ofis ve ev halılarınızı birlikte alır, her birini kendi türüne uygun yöntemle yıkayıp teslim ederiz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "maltepe",
+      "serviceSlug": "hali-yikama",
+      "intro": "Maltepe halı yıkama, geniş konut siteleri ve sahil parkına yakın büyük dairelerin bulunduğu bu ilçede büyük metrekareli halılara uygun çözümler ister. Toplu servis avantajıyla site sakinlerine pratik ve hesaplı bir hizmet sunuyoruz. 25 yıllık deneyimimizle ücretsiz kapıdan alım-teslimat yapıyoruz.",
+      "bodyParagraphs": [
+        "Maltepe'nin ferah salonlarını kaplayan geniş halılar, evde yıkanması neredeyse imkansız boyutlardadır ve profesyonel ekipman gerektirir. Maltepe halı yıkama hizmetimizde büyük halıları özel yıkama alanlarımızda tam olarak açar, her santimetresini derinlemesine temizleriz. Toz, akar ve leke birikimini gideririz; halının deseni ve elyafı yıpranmadan korunur.",
+        "Sahil parkı ve yeşil alanlara yakın oturan ailelerde halılara dışarıdan toprak ve nem taşınır; bu da düzenli temizlik ihtiyacı doğurur. Site yönetimleri üzerinden toplu servis vererek hem komşuları organize eder hem de sizin için uygun bir düzen kurarız. Büyük ve ağır halılarınızı taşımanıza gerek kalmadan kapınızdan alır, tertemiz ve tam kuru halde geri getiririz."
+      ],
+      "faq": [
+        {
+          "question": "Maltepe'deki büyük salon halımı evde yıkatamıyorum, siz alıyor musunuz?",
+          "answer": "Evet, büyük ve ağır halıları taşıma tamamen bize aittir. Ekibimiz halınızı kapınızdan ücretsiz alır, özel tesisimizde yıkayıp tam kuru şekilde geri teslim eder."
+        },
+        {
+          "question": "Sitemizde toplu halı yıkama servisi mümkün mü?",
+          "answer": "Maltepe'deki site ve apartman yönetimleriyle çalışarak toplu servis veriyoruz. Halılar etiketlenerek alınır ve karışmadan doğru daireye teslim edilir."
+        },
+        {
+          "question": "Büyük metrekareli halının fiyatı nasıl hesaplanıyor?",
+          "answer": "Fiyat metrekare ve halının cinsine göre belirlenir. Güncel bilgi için fiyatlar sayfamıza bakabilir veya WhatsApp'tan fotoğraf gönderip dakikalar içinde net fiyat alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "kadikoy",
+      "serviceSlug": "koltuk-yikama",
+      "intro": "Kadıköy koltuk yıkama hizmetimizle, Anadolu Yakası'nın en yoğun merkezinde 25 yıllık deneyimimizi evinize taşıyoruz. İster Moda'daki bir apartman dairesinde ister Bostancı'daki bir sitede oturun, ekiplerimiz mahalle fark etmeksizin hızla kapınıza gelir. Ücretsiz kapıdan alım ve teslimat sayesinde koltuğunuzu tek bir adım atmadan pırıl pırıl teslim alırsınız.",
+      "bodyParagraphs": [
+        "Kadıköy gibi apartman yaşamının yoğun olduğu bir ilçede koltuklar günlük hayatın en çok yıpranan parçalarındandır; misafir trafiği, çocuklar, evcil hayvanlar ve şehrin tozu kumaşların derinliklerine işler. Biz koltuk yıkamaya başlamadan önce kumaşın cinsini belirler, deri ve tekstil takımları için tamamen farklı yöntemler uygularız. Yerinde yıkamanın yeterli olmadığı, derinlemesine leke ve koku sorunu olan takımları ücretsiz servisimizle atölyemize alır, uygun kimyasallarla işler ve yıpratmadan geri getiririz. Böylece Kadıköy'ün dört bir yanındaki müşterilerimiz, taşıma derdi olmadan otel konforunda bir sonuç elde eder.",
+        "İlçe genelinde en sık aldığımız talep, yıllardır temizlenmemiş koltuklardaki toz akarı ve alerjenlerin giderilmesidir. Kapalı apartman ortamlarında biriken bu mikroskobik kirler özellikle astım ve alerjisi olan aileler için ciddi sorun oluşturur; derinlemesine yıkama ile kumaşın liflerine sinmiş akarları ve toz yükünü büyük ölçüde uzaklaştırırız. İşlem sonrası uyguladığımız kokusuz, kumaş dostu bakım sayesinde koltuklarınız hem hijyenik hem de ferah kalır. Kadıköy'de hızlı kuruyan yöntemlerimizle çoğu takımı aynı gün içinde tekrar kullanıma hazır hale getiriyoruz."
+      ],
+      "faq": [
+        {
+          "question": "Kadıköy'ün hangi mahallelerine koltuk yıkama servisi veriyorsunuz?",
+          "answer": "Moda, Caferağa, Fenerbahçe, Göztepe, Bostancı, Suadiye ve Kadıköy'ün tüm mahallelerine hizmet veriyoruz. Anadolu Yakası'nda 25 yıldır çalıştığımız için ekiplerimiz ilçenin her sokağına aşinadır ve randevunuza kısa sürede ulaşır. Ücretsiz kapıdan alım-teslimat her mahalle için geçerlidir."
+        },
+        {
+          "question": "Koltuğu evden mi yıkıyorsunuz yoksa alıp mı götürüyorsunuz?",
+          "answer": "Koltuğun durumuna ve kumaşına göre karar veriyoruz. Yüzeysel kir ve tazeleme için yerinde yıkama yeterliyken, derin leke, koku ve akar sorunu olan takımları ücretsiz servisimizle atölyemize alıp profesyonel ekipmanla işliyoruz. Hangi yöntemin uygun olduğunu WhatsApp'tan göndereceğiniz fotoğrafla da hızlıca değerlendirebiliriz."
+        },
+        {
+          "question": "Koltuk yıkama fiyatını nasıl öğrenebilirim?",
+          "answer": "Fiyatlar koltuğun boyutuna, kumaşına ve kirlilik durumuna göre değiştiği için güncel bilgileri sayfamızdan takip edebilirsiniz. En pratik yol, 0 543 352 74 74 numaralı WhatsApp hattımıza koltuğunuzun fotoğrafını göndermektir; dakikalar içinde size net bir fiyat bilgisi iletiyoruz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "atasehir",
+      "serviceSlug": "koltuk-yikama",
+      "intro": "Ataşehir koltuk yıkama hizmetimiz, ilçenin modern siteleri ve geniş yaşam alanları için özel olarak planlanmıştır. Büyük L-koltuklar, köşe takımları ve çok parçalı oturma gruplarını yıpratmadan temizleyecek deneyime sahibiz. 25 yıllık birikimimiz ve ücretsiz kapıdan alım-teslimat avantajımızla hem eviniz hem ofisiniz için pratik bir çözüm sunuyoruz.",
+      "bodyParagraphs": [
+        "Ataşehir'in modern site yaşamında oturma grupları giderek büyüyor; U ve L formundaki köşe takımları, geniş şezlonglu koltuklar ve açık plan salonlara yayılan çok parçalı setler standart hale geldi. Bu tür hacimli mobilyaları yerinde temizlemek çoğu zaman yeterli sonuç vermez, bu yüzden ücretsiz servisimizle takımı sökmeden alır, atölyemizde her parçayı ayrı ayrı ele alırız. Kumaş ve deri bölümleri bir arada olan modern köşe koltuklarda her yüzeye uygun kimyasalı seçerek renk atmasını ve kumaş yıpranmasını önlüyoruz. Ataşehir koltuk yıkama taleplerinde en çok bu büyük takımların kusursuz teslimi bizi öne çıkarıyor.",
+        "İlçede yalnızca konutlara değil, plaza ve iş merkezlerindeki ofislere de hizmet veriyoruz; bekleme alanı koltukları, toplantı odası oturma grupları ve ev-ofis karması alanlar bizim için tanıdık bir çalışma sahası. Yoğun kullanılan ofis koltuklarında biriken ter, kir ve kahve-çay lekeleri için nokta atışı leke çıkarma uyguluyor, ardından derinlemesine yıkama ile kumaşı ferahlatıyoruz. Hızlı kuruyan yöntemlerimiz sayesinde ofis akışını aksatmadan, koltuklarınızı kısa sürede tekrar kullanılabilir halde teslim ediyoruz. Ataşehir'in dört bir yanındaki sitelere ve iş merkezlerine ücretsiz servisimizle ulaşıyoruz."
+      ],
+      "faq": [
+        {
+          "question": "Büyük köşe takımı ve L-koltukları da yıkıyor musunuz?",
+          "answer": "Evet, Ataşehir'deki geniş oturma gruplarında uzmanız. Çok parçalı köşe takımlarını, şezlonglu koltukları ve U formundaki büyük setleri her parçayı ayrı değerlendirerek temizliyoruz. Hacimli takımlar için ücretsiz servisimizle atölyemizde daha derinlemesine bir yıkama imkânı sunuyoruz."
+        },
+        {
+          "question": "Ofisimizdeki koltuklar için de hizmet veriyor musunuz?",
+          "answer": "Kesinlikle. Ataşehir'deki plaza ve iş merkezlerindeki ofis koltukları, bekleme alanı ve toplantı odası oturma grupları için düzenli hizmet sağlıyoruz. Ofis akışınızı aksatmamak için hızlı kuruyan yöntemler kullanıyor ve size uygun saat aralığında çalışıyoruz."
+        },
+        {
+          "question": "Modern kumaş-deri karışık koltuklarda renk atma riski var mı?",
+          "answer": "Uygun yöntemle çalışıldığında yoktur. Karışık malzemeli modern koltuklarda her yüzeyin cinsini önce test eder, kumaşa ve deriye ayrı uygun kimyasallar uygularız. 25 yıllık deneyimimiz sayesinde renk atması ve yıpranma olmadan güvenli bir sonuç elde ediyoruz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "kadikoy",
+      "neighborhoodSlug": "caddebostan",
+      "serviceSlug": "koltuk-yikama",
+      "intro": "Caddebostan koltuk yıkama hizmetimizle sahile yakın bu seçkin semtin değerli mobilyalarına özel bir bakım sunuyoruz. Deniz kokusunun ve nemin kumaşlara işlediği bu bölgede, özellikle deri koltuklar ve kaliteli oturma grupları uzman ellere ihtiyaç duyar. 25 yıllık deneyimimiz ve ücretsiz kapıdan alım-teslimat hizmetimizle koltuklarınızı ilk günkü ferahlığına kavuşturuyoruz.",
+      "bodyParagraphs": [
+        "Caddebostan'ın sahile yakınlığı, evlerdeki koltuklar için kendine özgü zorluklar getirir; deniz kaynaklı nem kumaş liflerine yerleşir, kapalı kaldığında rutubet kokusuna ve deri yüzeylerde matlaşmaya yol açar. Bu semtte sık karşılaştığımız değerli deri koltuklar için özel deri bakım ürünleri kullanıyor, yüzeyi nemden arındırıp besleyerek çatlama riskini azaltıyoruz. Kumaş takımlarda ise rutubet kaynaklı kötü kokuları derinlemesine yıkama ve koku giderme işlemiyle uzaklaştırıyoruz. Caddebostan koltuk yıkama taleplerinde amacımız, pahalı mobilyalarınızın hem görünümünü hem de değerini korumaktır.",
+        "Değerli mobilyalar söz konusu olduğunda güven her şeyden önemlidir; bu yüzden Caddebostan'daki müşterilerimize taşıma sürecinden yıkama yöntemine kadar şeffaf bir hizmet sunuyoruz. Hassas kumaşları ve markalı deri koltukları alıp-getirmenin riskli olduğu durumlarda yerinde yıkamayı tercih ediyor, gerekli hallerde ise özenle paketleyip ücretsiz servisimizle atölyemize taşıyoruz. İşlem sonrası uyguladığımız nem dengeli kuruma yöntemiyle koltuklarınız hızla kullanıma hazır hale gelir ve deniz havasının getirdiği yapışkan his ortadan kalkar. Sahil kesiminin bu kaliteli evlerinde, mobilyanıza yakışır bir titizlikle çalışıyoruz."
+      ],
+      "faq": [
+        {
+          "question": "Caddebostan'da deri koltuklarım için hangi yöntemi uyguluyorsunuz?",
+          "answer": "Deri koltuklarda kumaştan tamamen farklı, özel deri bakım ürünleri kullanıyoruz. Yüzeyi önce nazikçe temizliyor, ardından deriyi besleyip nemlendirerek matlaşma ve çatlama riskini azaltıyoruz. Sahile yakın Caddebostan'da nemin deri üzerindeki etkisini gidermek konusunda özellikle deneyimliyiz."
+        },
+        {
+          "question": "Deniz nemi koltuklarımda koku yapıyor, bunu giderebilir misiniz?",
+          "answer": "Evet, rutubet kaynaklı kokular en çok çalıştığımız sorunlardan biridir. Derinlemesine yıkama ile kumaşın liflerine sinmiş nemi ve kokuyu çıkarıyor, ardından nem dengeli hızlı kuruma sağlayarak kokunun geri gelmesini önlüyoruz. Böylece koltuklarınız hem temiz hem de ferah kokulu olur."
+        },
+        {
+          "question": "Değerli koltuğumu güvenle taşıyabilir misiniz?",
+          "answer": "Kesinlikle. Hassas ve değerli mobilyalarda taşıma riskliyse yerinde yıkamayı tercih ediyor, atölye işlemi gerektiğinde ise özel paketleme ile ücretsiz servisimizle taşıyoruz. Fiyat için sayfamıza bakabilir ya da 0 543 352 74 74 WhatsApp hattımıza fotoğraf gönderip dakikalar içinde net bilgi alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "kadikoy",
+      "neighborhoodSlug": "erenkoy",
+      "serviceSlug": "koltuk-yikama",
+      "intro": "Erenköy koltuk yıkama hizmetimiz, semtin köşkleri ve bahçeli evlerindeki klasik kumaş koltuk takımlarına özel bir özenle sunulur. Büyük oturma grupları ve zarif klasik mobilyalar, kumaşını yıpratmayan sabırlı bir işçilik ister. 25 yıllık deneyimimiz ve ücretsiz kapıdan alım-teslimat avantajımızla bu değerli takımları en doğru yöntemlerle temizliyoruz.",
+      "bodyParagraphs": [
+        "Erenköy'ün bahçeli evleri ve köşkleri, genellikle geniş salonlara yayılan klasik kumaş koltuk takımlarına ev sahipliği yapar; kadife, goblen ve dokuma gibi hassas kumaşlar bu semtte sıkça karşımıza çıkar. Bu kumaşlar yanlış kimyasal ve sert fırçalamayla kolayca zarar gördüğü için, her takımın dokusunu inceleyip ona özel, nazik bir yıkama programı uyguluyoruz. Bahçeli yaşamın getirdiği toprak, polen ve yaprak kaynaklı lekeler ile büyük takımlarda biriken tozu, kumaşı yormadan derinlemesine çıkarıyoruz. Erenköy koltuk yıkama hizmetimizde klasik mobilyanın karakterini korumak önceliğimizdir.",
+        "Büyük oturma gruplarının temizliği, hem alan hem de işçilik açısından deneyim gerektirir; çok parçalı klasik takımları evde tek tek yıkamak çoğu zaman yeterli olmaz. Bu nedenle Erenköy'deki geniş takımları ücretsiz servisimizle atölyemize alıyor, her parçayı ayrı ayrı işleyerek toz akarı ve alerjenlerden arındırıyoruz. Özellikle uzun süre kullanılan klasik koltuklarda biriken akarlar, bahçeli evlerin açık pencere alışkanlığıyla birleşince alerji sorununu artırabilir; derinlemesine yıkama bu yükü büyük ölçüde ortadan kaldırır. Hızlı kuruyan yöntemlerimizle, köşkünüzün en güzel köşesindeki takımı kısa sürede tazelenmiş olarak geri teslim ediyoruz."
+      ],
+      "faq": [
+        {
+          "question": "Klasik kadife ve goblen kumaş koltuklarımı yıkatabilir miyim?",
+          "answer": "Elbette. Erenköy'de sık gördüğümüz kadife, goblen ve dokuma gibi hassas klasik kumaşlarda uzmanız. Bu kumaşları önce test ediyor, dokusuna uygun nazik kimyasallarla ve yormadan yıkıyoruz. Amacımız klasik takımınızın rengini ve dokusunu ilk günkü gibi korumaktır."
+        },
+        {
+          "question": "Büyük oturma grubumun tamamını temizler misiniz?",
+          "answer": "Evet, çok parçalı büyük takımlar Erenköy'deki en sık işimizdir. Geniş oturma gruplarını ücretsiz servisimizle atölyemize alıp her parçayı ayrı ayrı temizliyor, sonra tümünü bir arada teslim ediyoruz. Böylece takımın tamamı aynı ferahlıkta ve uyumda olur."
+        },
+        {
+          "question": "Toz akarı ve alerjen temizliği yapıyor musunuz?",
+          "answer": "Kesinlikle. Uzun süre kullanılan klasik koltuklarda biriken toz akarı ve alerjenler, özellikle bahçeli evlerde alerji sorununu artırabilir. Derinlemesine yıkama ile kumaşın liflerine yerleşmiş bu kirleri büyük ölçüde uzaklaştırıyor, koltuğunuzu daha hijyenik ve sağlıklı hale getiriyoruz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "kadikoy",
+      "neighborhoodSlug": "fenerbahce",
+      "serviceSlug": "koltuk-yikama",
+      "intro": "Fenerbahçe koltuk yıkama hizmetimizde, sahile yakın konumun getirdiği nem ve tuzlu havanın koltuklarınızda bıraktığı izleri çözmek için yılların deneyimini kullanıyoruz. Özellikle deri koltuklarda görülen kuruma, çatlama ve mat görünümü önlemek adına kumaşa ve deriye özel bakım uyguluyoruz. Yazlık dairelerin uzun süre kapalı kalmasından kaynaklanan koku ve nem sorunlarını yerinde çözüyor, koltuklarınızı ilk günkü ferahlığına kavuşturuyoruz.",
+      "bodyParagraphs": [
+        "Deniz kenarına yakın yaşamın konforu kadar birtakım zorlukları da beraberinde gelir; havadaki nem ve tuz oranı, özellikle deri koltukların doğal yağını kaybetmesine ve zamanla sertleşmesine yol açar. Fenerbahçe'deki ekibimiz, deri ve kumaş ayrımını titizlikle yaparak her malzemeye uygun temizlik ve besleme ürünleri kullanır. Deri koltuklarınızın nemden koruyucu bakımını yaparken, kumaş takımlarınızda ise liflerin arasına yerleşmiş toz, tuz zerreleri ve alerjenleri derinlemesine arındırıyoruz. İsteğinize göre koltuğunuzu yerinde yıkayabilir ya da atölyemize alıp getirebiliriz.",
+        "Fenerbahçe'de sık karşılaştığımız bir durum, yazlık evlerin sezon başında ya da sonunda toplu bakıma ihtiyaç duymasıdır. Uzun süre kullanılmayan mekânlarda oluşan durgun koku ve nem lekelerini, kumaşa uygun kimyasallar ve profesyonel koku giderme yöntemleriyle ortadan kaldırıyoruz. 25 yıllık tecrübemizle çalışan ekibimiz, ücretsiz kapıdan alım ve teslimat imkânı sunarak süreci sizin için tamamen zahmetsiz hale getiriyor. Fiyatlar için sayfamızı inceleyebilir, koltuğunuzun fotoğrafını WhatsApp hattımıza gönderdiğinizde dakikalar içinde net bir bilgi alabilirsiniz."
+      ],
+      "faq": [
+        {
+          "question": "Fenerbahçe'de deniz kenarındaki evimin deri koltuğu nemden etkilendi, ne yapabilirsiniz?",
+          "answer": "Deniz kenarındaki nem, deri koltukların doğal yağını kaybetmesine ve mat görünmesine neden olur. Deriye özel temizlik ve besleme bakımı uygulayarak yüzeydeki tuz kalıntılarını temizler, deriyi nemlendirip esnekliğini geri kazandırırız. Bu bakım hem görünümü tazeler hem de çatlamaları önlemeye yardımcı olur."
+        },
+        {
+          "question": "Yazlık evimdeki koltukları sezon açılmadan yıkatabilir miyim?",
+          "answer": "Elbette, bu talep Fenerbahçe'de sıkça karşılaştığımız bir durumdur. Uzun süre kapalı kalan evlerde biriken toz, nem kokusu ve durgunluğu gidermek için ideal bir zamandır. Ücretsiz alım-teslimat hizmetimizle koltuklarınızı alıp temizledikten sonra size teslim edebiliriz; siz eve geldiğinizde her şey hazır olur."
+        },
+        {
+          "question": "Yıkama yerinde mi yapılıyor yoksa koltuğu alıp mı götürüyorsunuz?",
+          "answer": "İki seçeneği de sunuyoruz. Koltuğun türüne ve kirlilik derecesine göre yerinde yıkama uygun olabilir; ancak daha derin bir temizlik veya tam kuruma gerektiren durumlarda atölyemizde işlem yapmayı öneririz. Hangisinin sizin için uygun olduğunu WhatsApp'tan gönderdiğiniz fotoğrafla değerlendirip birlikte karar verebiliriz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "kadikoy",
+      "neighborhoodSlug": "suadiye",
+      "serviceSlug": "koltuk-yikama",
+      "intro": "Suadiye koltuk yıkama hizmetimiz, modern rezidanslarda sıkça tercih edilen açık renk kumaş köşe takımlarının hassasiyetine göre şekillenir. Bej, krem ve gri tonlarındaki koltuklarda en küçük lekenin bile göze battığını biliyor, bu nedenle kumaşın rengini soldurmayan özel çözümlerle çalışıyoruz. Apartman ve site yönetimleri üzerinden düzenlenen toplu servis taleplerinde de hızlı ve organize bir hizmet sunuyoruz.",
+      "bodyParagraphs": [
+        "Suadiye'nin modern yaşam alanlarında açık renk döşemeli koltuklar oldukça yaygındır ve bu koltuklar zarafetleri kadar bakım gerektiren yapılarıyla da dikkat çeker. Açık tonlu kumaşlarda kahve, meyve suyu ya da günlük kullanımdan kaynaklanan gri gölgelenmeler kısa sürede belirginleşir. Ekibimiz, lekenin cinsini doğru tespit ederek kumaşın dokusuna ve rengine zarar vermeyen, lekeyi hedefli şekilde çözen ürünler kullanır. Yıkama sonrası koltuklarınız yalnızca temizlenmekle kalmaz, aynı zamanda ilk günkü canlı rengine ve yumuşaklığına yeniden kavuşur.",
+        "Rezidans ve site sakinlerine sunduğumuz en pratik çözümlerden biri, apartman yönetimi aracılığıyla organize edilen toplu koltuk yıkama servisidir. Aynı binada birden fazla dairenin talebini tek bir programda toplayarak hem zaman kazandırıyor hem de komşuların işini kolaylaştırıyoruz. 25 yıllık deneyimimizle ücretsiz kapıdan alım-teslimat sunan ekibimiz, randevu saatine sadık kalarak profesyonel bir düzen içinde çalışır. Suadiye koltuk yıkama fiyatları için sayfamıza göz atabilir, koltuğunuzun fotoğrafını WhatsApp'tan ilettiğinizde dakikalar içinde net fiyat bilgisi alabilirsiniz."
+      ],
+      "faq": [
+        {
+          "question": "Açık renk köşe takımımdaki lekeler kalıcı olur mu, rengi solar mı?",
+          "answer": "Açık renk kumaşlar doğru ürünle çalışıldığında lekelerden güvenle arınır. Biz kumaşın rengini soldurmayan, dokusuna uygun çözümler kullanır ve önce görünmeyen bir bölgede test yaparız. Böylece lekeyi çıkarırken koltuğunuzun canlı tonunu korur, homojen ve temiz bir sonuç elde ederiz."
+        },
+        {
+          "question": "Apartman yönetimi olarak birden fazla daire için toplu servis alabilir miyiz?",
+          "answer": "Kesinlikle, Suadiye'deki rezidans ve sitelerde bu hizmeti sıkça veriyoruz. Yönetim üzerinden gelen talepleri tek bir programa toplayıp aynı gün içinde organize bir şekilde tamamlıyoruz. Bu yöntem hem sakinler için pratik oluyor hem de toplu servis olarak daha avantajlı bir düzenleme imkânı sunuyor."
+        },
+        {
+          "question": "Koltuk yıkandıktan sonra ne kadar sürede kuruyor?",
+          "answer": "Kullandığımız profesyonel ekipmanlar sayesinde koltuklarınız kısa sürede kurur ve kullanıma hazır hale gelir. Kumaşın kalınlığına ve havalandırma koşullarına göre süre değişebilir; hızlı kuruma için nem çekici yöntemler uyguluyoruz. Teslimat sırasında size kuruma ve kullanım hakkında da bilgi veriyoruz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "uskudar",
+      "neighborhoodSlug": "altunizade",
+      "serviceSlug": "koltuk-yikama",
+      "intro": "Altunizade koltuk yıkama hizmetimiz, semtin hem iş hem de konut dokusunu bir arada barındıran yapısına uygun olarak esnek çözümler sunar. Ofislerin bekleme koltuklarından ailelerin oturma odası takımlarına kadar geniş bir yelpazede çalışıyor, yoğun temponuza uyum sağlayacak hızlı teslim seçenekleri sağlıyoruz. Tarihi dokusuyla öne çıkan bu semtte, klasik ve modern mobilyaların her ikisine de uygun bakım uyguluyoruz.",
+      "bodyParagraphs": [
+        "Altunizade, plazaların ve ofislerin ev yaşamıyla iç içe geçtiği hareketli bir semttir. İşletmeler için bekleme alanlarındaki koltuklar, gün boyu yoğun kullanım gördüğünden hızla kirlenir ve ilk izlenimi doğrudan etkiler. Ofis koltuklarınızın kurumsal görünümünü korumak için mesai düzeninizi aksatmayacak saatlerde çalışıyor, kısa sürede tamamlanan işlemlerle bekleme salonlarınızı yeniden ferah bir hale getiriyoruz. Ev takımlarında ise günlük yaşamın getirdiği toz, ter ve leke birikimini kumaşa uygun kimyasallarla derinlemesine temizliyoruz.",
+        "Zamanın değerli olduğu bu semtte hızlı teslim en çok önem verdiğimiz konulardan biridir. Randevunuzu iş ya da ev programınıza göre planlıyor, ücretsiz kapıdan alım-teslimat ile süreci tamamen sizin adınıza yönetiyoruz. Koltuklarınızdaki toz akarı ve alerjenleri arındırarak yalnızca görünümü değil, soluduğunuz havanın kalitesini de iyileştiriyoruz. Altunizade koltuk yıkama hizmetimizin fiyatları için sayfamızı inceleyebilir, koltuğunuzun fotoğrafını WhatsApp hattımıza gönderdiğinizde dakikalar içinde net fiyat bilgisine ulaşabilirsiniz."
+      ],
+      "faq": [
+        {
+          "question": "Ofisimizdeki bekleme koltuklarını mesai saatleri dışında yıkatabilir miyiz?",
+          "answer": "Evet, Altunizade'deki işletmelere bu esnekliği özellikle sunuyoruz. Bekleme alanlarınızın kullanımını aksatmamak için mesai öncesi, sonrası veya uygun bir zaman diliminde çalışabiliriz. Hızlı teslim seçeneğimizle koltuklarınız kısa sürede temizlenip yeniden hizmete hazır hale gelir."
+        },
+        {
+          "question": "Hem evimdeki hem ofisimdeki koltukları aynı anda yıkatmak mümkün mü?",
+          "answer": "Elbette, birden fazla adrese ait talepleri tek bir organizasyonda birleştirebiliriz. İş ve konutun iç içe olduğu Altunizade'de bu tür kombine taleplerle sık karşılaşıyoruz. Ücretsiz alım-teslimat hizmetimizle her iki noktadan da koltuklarınızı alıp planlı bir şekilde teslim edebiliriz."
+        },
+        {
+          "question": "Koltuk yıkama toz akarı ve alerjenlere karşı gerçekten etkili mi?",
+          "answer": "Kesinlikle etkilidir. Koltuk kumaşlarının derinliklerine yerleşen toz akarları ve alerjenler, düzenli süpürmeyle tam olarak temizlenemez. Profesyonel yıkama yöntemlerimizle bu mikroskobik kalıntıları liflerin arasından arındırıyor, özellikle alerjisi olanlar ve çocuklu evler için daha sağlıklı bir ortam oluşturuyoruz."
+        }
+      ]
+    },
+    {
+      "districtSlug": "maltepe",
+      "serviceSlug": "koltuk-yikama",
+      "intro": "Maltepe koltuk yıkama hizmetimiz, ilçenin geniş sitelerinde yaşayan aileler için hijyen ve konforu bir araya getirir. Çocuklu ve evcil hayvanlı evlerde koltukların hızlı kirlendiğini, tüy, leke ve koku sorunlarının sık yaşandığını biliyoruz. Sahil parkına yakın bu ferah semtte, ailenizin sağlığını gözeten derinlemesine bir temizlik sunuyor, geniş konutlardaki tüm koltuk takımlarınızı tek servisle bakımdan geçiriyoruz.",
+      "bodyParagraphs": [
+        "Maltepe, geniş sitelerin ve aile yaşamına uygun ferah konutların yoğun olduğu bir ilçedir. Çocukların ve evcil hayvanların olduğu evlerde koltuklar; dökülen içecekler, oyun sırasında oluşan lekeler, hayvan tüyleri ve kokular nedeniyle çok daha sık bakım ister. Ekibimiz, kumaşa uygun ve sağlığa duyarlı temizlik ürünleriyle çalışarak bu lekeleri ve kokuları giderirken, ailenizin günlük olarak temas ettiği yüzeyleri hijyenik hale getirir. Toz akarı ve alerjenlerden arındırılmış bir koltuk, özellikle küçük çocuklar için daha güvenli bir yaşam alanı demektir.",
+        "İlçenin büyük siteleri, komşuların bir araya gelerek toplu servis düzenlemesine oldukça elverişlidir ve bu yaklaşım herkes için pratik bir düzen sağlar. Aynı sitedeki birden fazla dairenin talebini tek programda toplayarak organize bir hizmet sunuyoruz. 25 yıllık deneyimimizle, ücretsiz kapıdan alım-teslimat imkânı sayesinde koltuklarınızı taşıma derdi olmadan temizletebilirsiniz. Maltepe koltuk yıkama hizmetinin fiyatları için sayfamıza bakabilir, koltuğunuzun fotoğrafını WhatsApp hattımıza ilettiğinizde dakikalar içinde net fiyat bilgisi alabilirsiniz."
+      ],
+      "faq": [
+        {
+          "question": "Evcil hayvanımın tüyleri ve kokusu koltuğa iyice sinmiş, temizlenir mi?",
+          "answer": "Evet, evcil hayvanlı evler Maltepe'de sıkça hizmet verdiğimiz konutlardır. Kumaşın liflerine yerleşen tüyleri özel yöntemlerle arındırıyor, hayvan kokusunu ise profesyonel koku giderme uygulamasıyla ortadan kaldırıyoruz. İşlem sonrasında koltuğunuz hem gözle görülür şekilde temizlenir hem de ferah bir kokuya kavuşur."
+        },
+        {
+          "question": "Çocuklu bir evde koltuk yıkamada kullanılan ürünler sağlığa zararlı mı?",
+          "answer": "Bu konu bizim için önceliklidir. Çocukların sürekli temas ettiği koltuklarda, kumaşa uygun ve mümkün olduğunca hassas ürünler kullanır, işlem sonrası kimyasal kalıntı bırakmayacak şekilde durulama ve kurutma yaparız. Amacımız yalnızca temizlik değil, aynı zamanda ailenizin güvenle kullanabileceği hijyenik bir yüzey sunmaktır."
+        },
+        {
+          "question": "Sitemizde birlikte koltuk yıkatmak istiyoruz, toplu servis veriyor musunuz?",
+          "answer": "Evet, Maltepe'nin geniş siteleri için toplu servis en çok tercih edilen çözümlerimizden biridir. Aynı sitedeki komşuların taleplerini tek bir programa toplayıp planlı şekilde tamamlıyoruz. Bu yöntem hem koordinasyonu kolaylaştırıyor hem de site sakinleri için daha uygun bir düzenleme imkânı sağlıyor."
+        }
+      ]
+    }
+  ]
 }

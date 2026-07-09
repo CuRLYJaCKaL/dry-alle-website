@@ -1,77 +1,350 @@
 {
   "canonicalHost": "dryallekurutemizleme.com",
   "redirects": [
-    { "from": "/index.html", "to": "/", "status": 301 },
-    { "from": "/hizmetler/", "to": "/", "status": 301 },
-    { "from": "/fiyatlar.html", "to": "/fiyatlar/", "status": 301 },
-
-    { "from": "/hizmetler/kuru-temizleme.html", "to": "/hizmetler/kuru-temizleme/", "status": 301 },
-    { "from": "/hizmetler/hali-yikama.html", "to": "/hizmetler/hali-yikama/", "status": 301 },
-    { "from": "/hizmetler/koltuk-yikama.html", "to": "/hizmetler/koltuk-yikama/", "status": 301 },
-    { "from": "/hizmetler/perde-temizleme.html", "to": "/hizmetler/perde-temizleme/", "status": 301 },
-    { "from": "/hizmetler/canta-temizleme.html", "to": "/hizmetler/canta-temizleme/", "status": 301 },
-    { "from": "/hizmetler/ev-tekstili-temizligi.html", "to": "/hizmetler/ev-tekstili-temizligi/", "status": 301 },
-    { "from": "/hizmetler/kumas-deri-boyama.html", "to": "/hizmetler/kumas-deri-boyama/", "status": 301 },
-    { "from": "/hizmetler/lostra-hizmeti.html", "to": "/hizmetler/lostra-hizmeti/", "status": 301 },
-    { "from": "/hizmetler/utu-hizmetleri.html", "to": "/hizmetler/utu-hizmetleri/", "status": 301 },
-
-    { "from": "/bolgeler/acibadem-hali-yikama.html", "to": "/bolge/kadikoy/acibadem/", "status": 301 },
-    { "from": "/bolgeler/acibadem-kuru-temizleme.html", "to": "/bolge/kadikoy/acibadem/", "status": 301 },
-    { "from": "/bolgeler/altunizade-hali-yikama.html", "to": "/bolge/uskudar/altunizade/", "status": 301 },
-    { "from": "/bolgeler/altunizade-premium-temizlik.html", "to": "/bolge/uskudar/altunizade/", "status": 301 },
-    { "from": "/bolgeler/atasehir-hali-yikama.html", "to": "/bolge/atasehir/", "status": 301 },
-    { "from": "/bolgeler/atasehir-koltuk-yikama.html", "to": "/bolge/atasehir/", "status": 301 },
-    { "from": "/bolgeler/atasehir-premium-temizlik.html", "to": "/bolge/atasehir/", "status": 301 },
-    { "from": "/bolgeler/bagdat-caddesi-haute-couture.html", "to": "/bolge/kadikoy/bagdat-caddesi/", "status": 301 },
-    { "from": "/bolgeler/bagdat-caddesi-koltuk-yikama.html", "to": "/bolge/kadikoy/bagdat-caddesi/", "status": 301 },
-    { "from": "/bolgeler/barbaros-koltuk-yikama.html", "to": "/bolge/atasehir/barbaros/", "status": 301 },
-    { "from": "/bolgeler/bostanci-hali-yikama.html", "to": "/bolge/kadikoy/bostanci/", "status": 301 },
-    { "from": "/bolgeler/bostanci-koltuk-yikama.html", "to": "/bolge/kadikoy/bostanci/", "status": 301 },
-    { "from": "/bolgeler/caddebostan-hali-yikama.html", "to": "/bolge/kadikoy/caddebostan/", "status": 301 },
-    { "from": "/bolgeler/caddebostan-koltuk-yikama.html", "to": "/bolge/kadikoy/caddebostan/", "status": 301 },
-    { "from": "/bolgeler/camlica-kuru-temizleme.html", "to": "/bolge/uskudar/camlica/", "status": 301 },
-    { "from": "/bolgeler/dragos-hali-yikama.html", "to": "/bolge/maltepe/dragos/", "status": 301 },
-    { "from": "/bolgeler/erenkoy-hali-yikama.html", "to": "/bolge/kadikoy/erenkoy/", "status": 301 },
-    { "from": "/bolgeler/fenerbahce-hali-yikama.html", "to": "/bolge/kadikoy/fenerbahce/", "status": 301 },
-    { "from": "/bolgeler/fenerbahce-koltuk-yikama.html", "to": "/bolge/kadikoy/fenerbahce/", "status": 301 },
-    { "from": "/bolgeler/fenerbahce-kuru-temizleme.html", "to": "/bolge/kadikoy/fenerbahce/", "status": 301 },
-    { "from": "/bolgeler/fikirtepe-koltuk-yikama.html", "to": "/bolge/kadikoy/fikirtepe/", "status": 301 },
-    { "from": "/bolgeler/goztepe-hali-yikama.html", "to": "/bolge/kadikoy/goztepe/", "status": 301 },
-    { "from": "/bolgeler/icerenkoy-hali-yikama.html", "to": "/bolge/atasehir/icerenkoy/", "status": 301 },
-    { "from": "/bolgeler/kadikoy-koltuk-yikama.html", "to": "/bolge/kadikoy/", "status": 301 },
-    { "from": "/bolgeler/kadikoy-kuru-temizleme.html", "to": "/bolge/kadikoy/", "status": 301 },
-    { "from": "/bolgeler/kadikoy-luxury-kiyafet.html", "to": "/bolge/kadikoy/", "status": 301 },
-    { "from": "/bolgeler/kalamis-koltuk-yikama.html", "to": "/bolge/kadikoy/kalamis/", "status": 301 },
-    { "from": "/bolgeler/kartal-hali-yikama.html", "to": "/bolge/kartal/", "status": 301 },
-    { "from": "/bolgeler/kartal-koltuk-yikama.html", "to": "/bolge/kartal/", "status": 301 },
-    { "from": "/bolgeler/kosuyolu-hali-yikama.html", "to": "/bolge/kadikoy/kosuyolu/", "status": 301 },
-    { "from": "/bolgeler/kozyatagi-kuru-temizleme.html", "to": "/bolge/kadikoy/kozyatagi/", "status": 301 },
-    { "from": "/bolgeler/kucukbakkalkoy-hali-yikama.html", "to": "/bolge/atasehir/kucukbakkalkoy/", "status": 301 },
-    { "from": "/bolgeler/kucukbakkalkoy-koltuk-yikama.html", "to": "/bolge/atasehir/kucukbakkalkoy/", "status": 301 },
-    { "from": "/bolgeler/maltepe-hali-yikama.html", "to": "/bolge/maltepe/", "status": 301 },
-    { "from": "/bolgeler/maltepe-luxury-hizmet.html", "to": "/bolge/maltepe/", "status": 301 },
-    { "from": "/bolgeler/moda-koltuk-yikama.html", "to": "/bolge/kadikoy/moda/", "status": 301 },
-    { "from": "/bolgeler/pendik-koltuk-yikama.html", "to": "/bolge/pendik/", "status": 301 },
-    { "from": "/bolgeler/sahrayicedit-hali-yikama.html", "to": "/bolge/kadikoy/sahrayicedit/", "status": 301 },
-    { "from": "/bolgeler/sahrayicedit-koltuk-yikama.html", "to": "/bolge/kadikoy/sahrayicedit/", "status": 301 },
-    { "from": "/bolgeler/sahrayicedit-kuru-temizleme.html", "to": "/bolge/kadikoy/sahrayicedit/", "status": 301 },
-    { "from": "/bolgeler/sahrayicedit-premium-bakim.html", "to": "/bolge/kadikoy/sahrayicedit/", "status": 301 },
-    { "from": "/bolgeler/suadiye-hali-yikama.html", "to": "/bolge/kadikoy/suadiye/", "status": 301 },
-    { "from": "/bolgeler/suadiye-koltuk-yikama.html", "to": "/bolge/kadikoy/suadiye/", "status": 301 },
-    { "from": "/bolgeler/umraniye-hali-yikama.html", "to": "/bolge/umraniye/", "status": 301 },
-    { "from": "/bolgeler/umraniye-vip-temizlik.html", "to": "/bolge/umraniye/", "status": 301 },
-    { "from": "/bolgeler/uskudar-gelinlik-temizleme.html", "to": "/bolge/uskudar/", "status": 301 },
-    { "from": "/bolgeler/uskudar-hali-yikama.html", "to": "/bolge/uskudar/", "status": 301 },
-    { "from": "/bolgeler/uskudar-koltuk-yikama.html", "to": "/bolge/uskudar/", "status": 301 },
-    { "from": "/bolgeler/uskudar-luxury-kiyafet.html", "to": "/bolge/uskudar/", "status": 301 },
-
-    { "from": "/blog/canta-temizleme/deri-ve-kumas-canta-bakim-rehberi.html", "to": "/blog/canta-temizleme/", "status": 301 },
-    { "from": "/blog/ev-tekstili/ev-tekstillerinin-bakim-ve-temizlik-rehberi.html", "to": "/blog/ev-tekstili/", "status": 301 },
-    { "from": "/blog/hali-yikama/evde-hali-bakimi-ve-profesyonel-yikama-rehberi.html", "to": "/blog/hali-yikama/", "status": 301 },
-    { "from": "/blog/koltuk-yikama/kumas-ve-deri-koltuk-temizligi-rehberi.html", "to": "/blog/koltuk-yikama/", "status": 301 },
-    { "from": "/blog/kumas-deri-boyama/solmus-kiyafetlere-yeni-hayat-verme-rehberi.html", "to": "/blog/kumas-deri-boyama/", "status": 301 },
-    { "from": "/blog/lostra-hizmeti/ayakkabi-ve-deri-urunler-bakim-rehberi.html", "to": "/blog/lostra-hizmeti/", "status": 301 },
-    { "from": "/blog/perde-temizleme/ev-perdelerinizi-temiz-tutma-rehberi.html", "to": "/blog/perde-temizleme/", "status": 301 },
-    { "from": "/blog/utu-hizmetleri/ev-utusu-vs-profesyonel-utu-hizmeti.html", "to": "/blog/utu-hizmetleri/", "status": 301 }
+    {
+      "from": "/index.html",
+      "to": "/",
+      "status": 301
+    },
+    {
+      "from": "/hizmetler/",
+      "to": "/",
+      "status": 301
+    },
+    {
+      "from": "/fiyatlar.html",
+      "to": "/fiyatlar/",
+      "status": 301
+    },
+    {
+      "from": "/hizmetler/kuru-temizleme.html",
+      "to": "/hizmetler/kuru-temizleme/",
+      "status": 301
+    },
+    {
+      "from": "/hizmetler/hali-yikama.html",
+      "to": "/hizmetler/hali-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/hizmetler/koltuk-yikama.html",
+      "to": "/hizmetler/koltuk-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/hizmetler/perde-temizleme.html",
+      "to": "/hizmetler/perde-temizleme/",
+      "status": 301
+    },
+    {
+      "from": "/hizmetler/canta-temizleme.html",
+      "to": "/hizmetler/canta-temizleme/",
+      "status": 301
+    },
+    {
+      "from": "/hizmetler/ev-tekstili-temizligi.html",
+      "to": "/hizmetler/ev-tekstili-temizligi/",
+      "status": 301
+    },
+    {
+      "from": "/hizmetler/kumas-deri-boyama.html",
+      "to": "/hizmetler/kumas-deri-boyama/",
+      "status": 301
+    },
+    {
+      "from": "/hizmetler/lostra-hizmeti.html",
+      "to": "/hizmetler/lostra-hizmeti/",
+      "status": 301
+    },
+    {
+      "from": "/hizmetler/utu-hizmetleri.html",
+      "to": "/hizmetler/utu-hizmetleri/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/acibadem-hali-yikama.html",
+      "to": "/bolge/kadikoy/acibadem/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/acibadem-kuru-temizleme.html",
+      "to": "/bolge/kadikoy/acibadem/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/altunizade-hali-yikama.html",
+      "to": "/bolge/uskudar/altunizade/hali-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/altunizade-premium-temizlik.html",
+      "to": "/bolge/uskudar/altunizade/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/atasehir-hali-yikama.html",
+      "to": "/bolge/atasehir/hali-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/atasehir-koltuk-yikama.html",
+      "to": "/bolge/atasehir/koltuk-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/atasehir-premium-temizlik.html",
+      "to": "/bolge/atasehir/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/bagdat-caddesi-haute-couture.html",
+      "to": "/bolge/kadikoy/bagdat-caddesi/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/bagdat-caddesi-koltuk-yikama.html",
+      "to": "/bolge/kadikoy/bagdat-caddesi/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/barbaros-koltuk-yikama.html",
+      "to": "/bolge/atasehir/barbaros/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/bostanci-hali-yikama.html",
+      "to": "/bolge/kadikoy/bostanci/hali-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/bostanci-koltuk-yikama.html",
+      "to": "/bolge/kadikoy/bostanci/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/caddebostan-hali-yikama.html",
+      "to": "/bolge/kadikoy/caddebostan/hali-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/caddebostan-koltuk-yikama.html",
+      "to": "/bolge/kadikoy/caddebostan/koltuk-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/camlica-kuru-temizleme.html",
+      "to": "/bolge/uskudar/camlica/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/dragos-hali-yikama.html",
+      "to": "/bolge/maltepe/dragos/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/erenkoy-hali-yikama.html",
+      "to": "/bolge/kadikoy/erenkoy/hali-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/fenerbahce-hali-yikama.html",
+      "to": "/bolge/kadikoy/fenerbahce/hali-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/fenerbahce-koltuk-yikama.html",
+      "to": "/bolge/kadikoy/fenerbahce/koltuk-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/fenerbahce-kuru-temizleme.html",
+      "to": "/bolge/kadikoy/fenerbahce/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/fikirtepe-koltuk-yikama.html",
+      "to": "/bolge/kadikoy/fikirtepe/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/goztepe-hali-yikama.html",
+      "to": "/bolge/kadikoy/goztepe/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/icerenkoy-hali-yikama.html",
+      "to": "/bolge/atasehir/icerenkoy/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/kadikoy-koltuk-yikama.html",
+      "to": "/bolge/kadikoy/koltuk-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/kadikoy-kuru-temizleme.html",
+      "to": "/bolge/kadikoy/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/kadikoy-luxury-kiyafet.html",
+      "to": "/bolge/kadikoy/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/kalamis-koltuk-yikama.html",
+      "to": "/bolge/kadikoy/kalamis/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/kartal-hali-yikama.html",
+      "to": "/bolge/kartal/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/kartal-koltuk-yikama.html",
+      "to": "/bolge/kartal/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/kosuyolu-hali-yikama.html",
+      "to": "/bolge/kadikoy/kosuyolu/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/kozyatagi-kuru-temizleme.html",
+      "to": "/bolge/kadikoy/kozyatagi/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/kucukbakkalkoy-hali-yikama.html",
+      "to": "/bolge/atasehir/kucukbakkalkoy/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/kucukbakkalkoy-koltuk-yikama.html",
+      "to": "/bolge/atasehir/kucukbakkalkoy/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/maltepe-hali-yikama.html",
+      "to": "/bolge/maltepe/hali-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/maltepe-luxury-hizmet.html",
+      "to": "/bolge/maltepe/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/moda-koltuk-yikama.html",
+      "to": "/bolge/kadikoy/moda/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/pendik-koltuk-yikama.html",
+      "to": "/bolge/pendik/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/sahrayicedit-hali-yikama.html",
+      "to": "/bolge/kadikoy/sahrayicedit/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/sahrayicedit-koltuk-yikama.html",
+      "to": "/bolge/kadikoy/sahrayicedit/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/sahrayicedit-kuru-temizleme.html",
+      "to": "/bolge/kadikoy/sahrayicedit/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/sahrayicedit-premium-bakim.html",
+      "to": "/bolge/kadikoy/sahrayicedit/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/suadiye-hali-yikama.html",
+      "to": "/bolge/kadikoy/suadiye/hali-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/suadiye-koltuk-yikama.html",
+      "to": "/bolge/kadikoy/suadiye/koltuk-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/umraniye-hali-yikama.html",
+      "to": "/bolge/umraniye/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/umraniye-vip-temizlik.html",
+      "to": "/bolge/umraniye/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/uskudar-gelinlik-temizleme.html",
+      "to": "/bolge/uskudar/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/uskudar-hali-yikama.html",
+      "to": "/bolge/uskudar/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/uskudar-koltuk-yikama.html",
+      "to": "/bolge/uskudar/",
+      "status": 301
+    },
+    {
+      "from": "/bolgeler/uskudar-luxury-kiyafet.html",
+      "to": "/bolge/uskudar/",
+      "status": 301
+    },
+    {
+      "from": "/blog/canta-temizleme/deri-ve-kumas-canta-bakim-rehberi.html",
+      "to": "/blog/canta-temizleme/",
+      "status": 301
+    },
+    {
+      "from": "/blog/ev-tekstili/ev-tekstillerinin-bakim-ve-temizlik-rehberi.html",
+      "to": "/blog/ev-tekstili/",
+      "status": 301
+    },
+    {
+      "from": "/blog/hali-yikama/evde-hali-bakimi-ve-profesyonel-yikama-rehberi.html",
+      "to": "/blog/hali-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/blog/koltuk-yikama/kumas-ve-deri-koltuk-temizligi-rehberi.html",
+      "to": "/blog/koltuk-yikama/",
+      "status": 301
+    },
+    {
+      "from": "/blog/kumas-deri-boyama/solmus-kiyafetlere-yeni-hayat-verme-rehberi.html",
+      "to": "/blog/kumas-deri-boyama/",
+      "status": 301
+    },
+    {
+      "from": "/blog/lostra-hizmeti/ayakkabi-ve-deri-urunler-bakim-rehberi.html",
+      "to": "/blog/lostra-hizmeti/",
+      "status": 301
+    },
+    {
+      "from": "/blog/perde-temizleme/ev-perdelerinizi-temiz-tutma-rehberi.html",
+      "to": "/blog/perde-temizleme/",
+      "status": 301
+    },
+    {
+      "from": "/blog/utu-hizmetleri/ev-utusu-vs-profesyonel-utu-hizmeti.html",
+      "to": "/blog/utu-hizmetleri/",
+      "status": 301
+    }
   ]
 }

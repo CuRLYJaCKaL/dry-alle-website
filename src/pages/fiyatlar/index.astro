@@ -156,13 +156,27 @@ const jsonLd: Record<string, unknown> | undefined =
             : priceableProducts.map((p) => toOffer(p, sectorLabel)),
       }
     : undefined;
+
+// Fiyat SSS — PAA/rich-result hedefli (2026, halı/koltuk fiyatlandırma)
+const pricingFaq = [
+  { question: 'Kuru temizleme fiyatları 2026\'da ne kadar?', answer: 'Güncel 2026 fiyatlarımız yukarıdaki listede ürün bazında yer alır. Takım elbise, gömlek, elbise, mont gibi her ürünün fiyatı ayrı ayrı belirtilmiştir. Listede olmayan bir ürün için WhatsApp\'tan fotoğraf gönderip anında net fiyat alabilirsiniz.' },
+  { question: 'Halı yıkama fiyatı nasıl belirleniyor?', answer: 'Halı yıkama, metrekare bazlı hesaplanır ve halının türüne (yün, ipek, makine, shaggy), boyutuna ve kirlilik durumuna göre değişir. Bu yüzden listede sabit fiyat yerine, halınızın fotoğrafını WhatsApp\'tan gönderdiğinizde size özel net fiyat veriyoruz.' },
+  { question: 'Koltuk yıkama fiyatı neye göre değişir?', answer: 'Koltuk yıkama fiyatı; koltuğun koltuk sayısına (tekli, üçlü, köşe takımı), kumaş veya deri oluşuna ve leke durumuna göre belirlenir. Koltuğunuzun fotoğrafını WhatsApp\'tan gönderin, dakikalar içinde net fiyat alın.' },
+  { question: 'Kapıdan alım-teslimat ücretli mi?', answer: 'Hayır. İstanbul Anadolu Yakası\'nda (Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik, Ümraniye) kapıdan alım ve teslimat tamamen ücretsizdir; listedeki fiyatlara dahildir.' },
+  { question: 'Fiyatlara ütü dahil mi?', answer: 'Kuru temizleme fiyatlarımıza ütüleme dahildir. Sadece ütü hizmeti almak isterseniz, ürün başına ayrı ütüleme fiyatı listede belirtilmiştir.' },
+];
+const faqSchema = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: pricingFaq.map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })),
+};
+const finalJsonLd = jsonLd ? [jsonLd, faqSchema] : faqSchema;
 ---
 
 <BaseLayout
   title={title}
   description={description}
   canonicalPath={canonicalPath}
-  jsonLd={jsonLd}
+  jsonLd={finalJsonLd}
   breadcrumbs={breadcrumbs}
 >
   <!-- ════════════════════════════════════════════
@@ -190,11 +204,12 @@ const jsonLd: Record<string, unknown> | undefined =
       <div class="max-w-3xl animate-slide-up">
         <span class="badge bg-white/10 text-white/90 backdrop-blur-sm mb-4">Güncel Fiyat Listesi</span>
         <h1 class="text-hero font-bold mb-4 leading-tight">
-          Kuru Temizleme ve Tekstil Bakım Fiyatları
+          Kuru Temizleme Fiyatları 2026
         </h1>
         <p class="text-lg text-white/80 leading-relaxed">
-          Tüm fiyatlarımıza ücretsiz al-götür hizmeti dahildir. Aradığınız ürünü
-          kategoriden seçin veya arama kutusuyla bulun.
+          Kuru temizleme, halı yıkama, koltuk yıkama ve tüm tekstil bakım hizmetlerinin
+          güncel 2026 fiyatları. Tüm fiyatlarımıza ücretsiz kapıdan al-götür hizmeti dahildir.
+          Aradığınız ürünü kategoriden seçin veya arama kutusuyla bulun.
         </p>
       </div>
     </div>
@@ -425,6 +440,60 @@ const jsonLd: Record<string, unknown> | undefined =
           </div>
         </div>
       )}
+    </div>
+  </section>
+
+  <!-- Halı & Koltuk yıkama fiyat bağlamı (metrekare/adet bazlı, listede sabit fiyat yok) -->
+  <section class="section-padding bg-surface">
+    <div class="section-container max-w-4xl">
+      <h2 class="text-3xl font-bold text-primary mb-4">Halı ve Koltuk Yıkama Fiyatları</h2>
+      <p class="text-text-primary leading-relaxed mb-4">
+        Halı yıkama ve koltuk yıkama fiyatları, yukarıdaki ürün listesinden farklı olarak sabit
+        değildir. Halı yıkama <strong>metrekare</strong> üzerinden; koltuk yıkama ise <strong>koltuk
+        sayısı ve kumaş türü</strong> üzerinden hesaplanır. Bu yüzden size en doğru fiyatı, ürünü
+        gördükten sonra veriyoruz.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+        <div class="bg-white rounded-xl p-5 border border-border/50">
+          <h3 class="font-bold text-primary mb-2">Halı Yıkama Fiyatını Etkileyenler</h3>
+          <ul class="text-sm text-text-secondary space-y-1.5">
+            <li>• Halının metrekaresi</li>
+            <li>• Halı türü (yün, ipek, makine, shaggy)</li>
+            <li>• Kirlilik ve leke durumu</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-xl p-5 border border-border/50">
+          <h3 class="font-bold text-primary mb-2">Koltuk Yıkama Fiyatını Etkileyenler</h3>
+          <ul class="text-sm text-text-secondary space-y-1.5">
+            <li>• Koltuk sayısı (tekli / üçlü / köşe)</li>
+            <li>• Kumaş mı, deri mi</li>
+            <li>• Leke ve koku durumu</li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-text-primary leading-relaxed">
+        Net fiyat için <a href={`https://wa.me/${whatsappClean}`} target="_blank" rel="noopener noreferrer" class="text-primary font-semibold underline">WhatsApp'tan fotoğraf gönderin</a>,
+        dakikalar içinde size özel fiyatı iletelim. Detaylı bilgi için <a href="/hizmetler/hali-yikama/" class="text-primary font-semibold underline">halı yıkama</a>
+        ve <a href="/hizmetler/koltuk-yikama/" class="text-primary font-semibold underline">koltuk yıkama</a> hizmet sayfalarımıza bakabilirsiniz.
+      </p>
+    </div>
+  </section>
+
+  <!-- Fiyat SSS (FAQPage rich-result) -->
+  <section class="section-padding bg-white">
+    <div class="section-container max-w-4xl">
+      <h2 class="text-3xl sm:text-4xl font-bold text-primary mb-8">Fiyatlar Hakkında Sıkça Sorulan Sorular</h2>
+      <div class="space-y-3">
+        {pricingFaq.map((item) => (
+          <details class="group bg-surface/40 rounded-xl border border-border/50 overflow-hidden">
+            <summary class="flex items-center justify-between gap-3 px-5 py-4 cursor-pointer select-none list-none min-h-[44px] font-semibold text-primary hover:bg-surface/70 transition-colors [&::-webkit-details-marker]:hidden">
+              <span>{item.question}</span>
+              <svg class="w-5 h-5 shrink-0 text-accent transition-transform duration-200 group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed">{item.answer}</div>
+          </details>
+        ))}
+      </div>
     </div>
   </section>
 </BaseLayout>

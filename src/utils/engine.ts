@@ -72,6 +72,36 @@ export function validateConfig(config: Record<string, unknown>): void {
     errors.push({ field: 'services', message: `Duplicate service names: ${duplicateServices.join(', ')}` });
   }
 
+  // serviceAreaPages (lokasyon×hizmet combo) guard — anti-doorway + cakisma + tekillik
+  const sap = config.serviceAreaPages;
+  if (Array.isArray(sap)) {
+    const areas = (config.serviceAreas as Array<{districtSlug: string; neighborhoods: Array<{slug: string}>}>) ?? [];
+    const serviceSlugs = new Set(((config.services as Array<{slug: string}>) ?? []).map(s => s.slug));
+    const seen = new Set<string>();
+    sap.forEach((e: Record<string, unknown>, i: number) => {
+      const d = e.districtSlug as string;
+      const nh = e.neighborhoodSlug as string | undefined;
+      const sv = e.serviceSlug as string;
+      const area = areas.find(a => a.districtSlug === d);
+      if (!area) errors.push({ field: `serviceAreaPages[${i}]`, message: `Unknown districtSlug: ${d}` });
+      if (nh && area && !area.neighborhoods.some(n => n.slug === nh)) errors.push({ field: `serviceAreaPages[${i}]`, message: `neighborhoodSlug ${nh} not in ${d}` });
+      if (!serviceSlugs.has(sv)) errors.push({ field: `serviceAreaPages[${i}]`, message: `Unknown serviceSlug: ${sv}` });
+      // 2-segment cakisma: ilce duzeyi combo'da serviceSlug bir mahalle slug'i olamaz
+      if (!nh && area && area.neighborhoods.some(n => n.slug === sv)) errors.push({ field: `serviceAreaPages[${i}]`, message: `serviceSlug ${sv} collides with a neighborhood in ${d}` });
+      // anti-doorway: ozgun icerik zorunlu
+      const intro = e.intro as string;
+      const body = e.bodyParagraphs as unknown[];
+      const faq = e.faq as unknown[];
+      if (!intro || typeof intro !== 'string' || intro.length < 40) errors.push({ field: `serviceAreaPages[${i}]`, message: 'intro missing or too short (unique content required)' });
+      if (!Array.isArray(body) || body.length < 1) errors.push({ field: `serviceAreaPages[${i}]`, message: 'bodyParagraphs required (>=1)' });
+      if (!Array.isArray(faq) || faq.length < 3) errors.push({ field: `serviceAreaPages[${i}]`, message: 'faq required (>=3 unique Q&A)' });
+      // kombinasyon tekilligi
+      const key = `${d}/${nh ?? ''}/${sv}`;
+      if (seen.has(key)) errors.push({ field: `serviceAreaPages[${i}]`, message: `Duplicate combo: ${key}` });
+      seen.add(key);
+    });
+  }
+
   if (errors.length > 0) {
     const report = errors.map(e => `  - ${e.field}: ${e.message}`).join('\n');
     throw new Error(`Config validation failed:\n${report}`);
