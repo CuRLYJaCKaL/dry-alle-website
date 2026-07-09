@@ -19,6 +19,36 @@ function estimateReadingTime(body: string): number {
 
 const featuredPost = sortedPosts.length > 0 ? sortedPosts[0] : null;
 const remainingPosts = sortedPosts.slice(1);
+
+function trCapitalize(text: string): string {
+  return text
+    .split(' ')
+    .map((w) => (w.length > 0 ? w.charAt(0).toLocaleUpperCase('tr-TR') + w.slice(1) : w))
+    .join(' ');
+}
+
+function searchText(post: { data: { title: string; description: string; tags?: string[] } }): string {
+  return [post.data.title, post.data.description, ...(post.data.tags ?? [])]
+    .join(' ')
+    .toLocaleLowerCase('tr-TR');
+}
+
+function tagKeys(post: { data: { tags?: string[] } }): string {
+  return (post.data.tags ?? []).map((t) => t.toLocaleLowerCase('tr-TR')).join('|');
+}
+
+const tagCounts = new Map<string, number>();
+for (const post of sortedPosts) {
+  for (const tag of post.data.tags ?? []) {
+    const key = tag.toLocaleLowerCase('tr-TR');
+    tagCounts.set(key, (tagCounts.get(key) ?? 0) + 1);
+  }
+}
+const topTags = [...tagCounts.entries()]
+  .filter(([, count]) => count >= 2)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 8)
+  .map(([key, count]) => ({ key, label: trCapitalize(key), count }));
 ---
 
 <BaseLayout
@@ -85,10 +115,51 @@ const remainingPosts = sortedPosts.slice(1);
       ) : (
         <div>
           <!-- Featured Post -->
+          <!-- Arama + kategori filtresi -->
+          <div class="mb-10">
+            <label class="relative block mb-5">
+              <span class="sr-only">Blog yazılarında ara</span>
+              <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z"/></svg>
+              <input
+                type="search"
+                id="blog-search"
+                placeholder="Yazılarda ara (örn. leke, koltuk, ipek halı...)"
+                autocomplete="off"
+                class="w-full min-h-[48px] rounded-xl border border-border bg-white pl-12 pr-4 py-3 text-base text-text-primary placeholder:text-text-secondary/70 focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/30 transition-colors"
+              />
+            </label>
+            {topTags.length > 0 && (
+              <div class="flex flex-wrap gap-2" role="group" aria-label="Kategoriye göre filtrele">
+                <button
+                  type="button"
+                  class="blog-filter-chip min-h-[44px] rounded-full px-4 py-2 text-sm font-semibold border transition-colors bg-primary text-white border-primary"
+                  data-tag=""
+                  aria-pressed="true"
+                >
+                  Tümü <span class="opacity-70">({sortedPosts.length})</span>
+                </button>
+                {topTags.map((tag) => (
+                  <button
+                    type="button"
+                    class="blog-filter-chip min-h-[44px] rounded-full px-4 py-2 text-sm font-semibold border transition-colors bg-white text-text-primary border-border hover:border-accent"
+                    data-tag={tag.key}
+                    aria-pressed="false"
+                  >
+                    {tag.label} <span class="opacity-60">({tag.count})</span>
+                  </button>
+                ))}
+              </div>
+            )}
+            <p id="blog-count" class="mt-4 text-sm text-text-secondary" aria-live="polite"></p>
+          </div>
+
           {featuredPost && (
             <a
               href={`/blog/${featuredPost.slug}/`}
               class="group block mb-12 lg:mb-16"
+              data-blog-card
+              data-search={searchText(featuredPost)}
+              data-tags={tagKeys(featuredPost)}
             >
               <div class="relative bg-gradient-to-r from-surface to-white rounded-2xl overflow-hidden border border-border/60 hover:shadow-elevated transition-all duration-500 lg:grid lg:grid-cols-2 lg:items-stretch">
                 <div class="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-accent to-secondary rounded-l-2xl z-10"></div>
@@ -156,6 +227,9 @@ const remainingPosts = sortedPosts.slice(1);
                   <a
                     href={`/blog/${post.slug}/`}
                     class="group block rounded-2xl bg-white border border-border/60 overflow-hidden hover:shadow-elevated hover:border-accent/30 transition-all duration-400"
+                    data-blog-card
+                    data-search={searchText(post)}
+                    data-tags={tagKeys(post)}
                   >
                     <!-- Accent top border -->
                     <div class="h-1 bg-gradient-to-r from-accent to-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-400"></div>
@@ -223,10 +297,87 @@ const remainingPosts = sortedPosts.slice(1);
               </div>
             </div>
           )}
+
+          <!-- Filtre boş sonuç durumu -->
+          <div id="blog-no-results" class="hidden text-center py-16 max-w-lg mx-auto">
+            <svg class="w-16 h-16 mx-auto text-surface-alt mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z"/></svg>
+            <h3 class="text-xl font-bold text-primary mb-2">Aramanızla eşleşen yazı bulunamadı</h3>
+            <p class="text-text-secondary mb-6">Farklı bir anahtar kelime deneyin veya tüm yazılara göz atın.</p>
+            <button type="button" id="blog-clear-filters" class="btn-primary min-h-[44px]">Filtreleri Temizle</button>
+          </div>
         </div>
       )}
     </div>
   </section>
+
+  <script>
+    function initBlogFilter() {
+      var search = document.getElementById('blog-search');
+      if (!search) return;
+      if (search.dataset.initialized) return;
+      search.dataset.initialized = 'true';
+
+      var cards = Array.prototype.slice.call(document.querySelectorAll('[data-blog-card]'));
+      var chips = Array.prototype.slice.call(document.querySelectorAll('.blog-filter-chip'));
+      var countEl = document.getElementById('blog-count');
+      var emptyEl = document.getElementById('blog-no-results');
+      var clearBtn = document.getElementById('blog-clear-filters');
+      var activeTag = '';
+
+      function applyFilters() {
+        var query = search.value.trim().toLocaleLowerCase('tr-TR');
+        var visible = 0;
+        cards.forEach(function (card) {
+          var matchesSearch = !query || (card.dataset.search || '').indexOf(query) !== -1;
+          var tags = (card.dataset.tags || '').split('|');
+          var matchesTag = !activeTag || tags.indexOf(activeTag) !== -1;
+          var show = matchesSearch && matchesTag;
+          card.classList.toggle('hidden', !show);
+          if (show) visible++;
+        });
+        if (countEl) {
+          countEl.textContent = (query || activeTag) ? visible + ' yazı gösteriliyor' : '';
+        }
+        if (emptyEl) emptyEl.classList.toggle('hidden', visible > 0);
+      }
+
+      chips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          activeTag = chip.dataset.tag || '';
+          chips.forEach(function (c) {
+            var isActive = c === chip;
+            c.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+            c.classList.toggle('bg-primary', isActive);
+            c.classList.toggle('text-white', isActive);
+            c.classList.toggle('border-primary', isActive);
+            c.classList.toggle('bg-white', !isActive);
+            c.classList.toggle('text-text-primary', !isActive);
+            c.classList.toggle('border-border', !isActive);
+          });
+          applyFilters();
+        });
+      });
+
+      search.addEventListener('input', applyFilters);
+
+      if (clearBtn) {
+        clearBtn.addEventListener('click', function () {
+          search.value = '';
+          activeTag = '';
+          var allChip = chips.length > 0 ? chips[0] : null;
+          if (allChip) allChip.click();
+          else applyFilters();
+        });
+      }
+    }
+
+    document.addEventListener('astro:page-load', initBlogFilter);
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initBlogFilter);
+    } else {
+      initBlogFilter();
+    }
+  </script>
 
   <!-- Bottom CTA -->
   {sortedPosts.length > 0 && (
