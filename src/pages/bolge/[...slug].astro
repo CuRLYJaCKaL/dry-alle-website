@@ -88,6 +88,16 @@ const seoTokens = {
 
 const title = interpolate(config.seoTemplates.regionTitle, seoTokens);
 const description = interpolate(config.seoTemplates.regionDescription, seoTokens);
+// Semt (mahalle/ilce) SEO override — GSC fine-tune; yoksa sablon.
+const areaOverride = ((neighborhood ?? district) as Record<string, unknown>) ?? {};
+const regionSeoTitle = (areaOverride.seoTitle as string) || title;
+const regionSeoDescription = (areaOverride.seoDescription as string) || description;
+const regionIntroOverride = areaOverride.intro as string | undefined;
+const regionFaq = (areaOverride.faq as Array<{ question: string; answer: string }>) ?? [];
+const regionFaqSchema = regionFaq.length > 0 ? {
+  "@type": "FAQPage",
+  "mainEntity": regionFaq.map((f) => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })),
+} : null;
 const canonicalPath = isDistrict
   ? `/bolge/${district.districtSlug}/`
   : `/bolge/${district.districtSlug}/${neighborhood!.slug}/`;
@@ -210,11 +220,11 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
 ---
 
 <BaseLayout
-  title={isServicePage ? svcTitle : title}
-  description={isServicePage ? svcDescription : description}
+  title={isServicePage ? svcTitle : regionSeoTitle}
+  description={isServicePage ? svcDescription : regionSeoDescription}
   canonicalPath={isServicePage ? svcCanonical : canonicalPath}
   ogImage={isServicePage && service ? `/images/services/${service.slug}.webp` : undefined}
-  jsonLd={isServicePage ? svcSchemas : undefined}
+  jsonLd={isServicePage ? svcSchemas : (regionFaqSchema ? [regionFaqSchema] : undefined)}
   breadcrumbs={isServicePage ? svcBreadcrumbs : (isDistrict
     ? [
         { name: 'Ana Sayfa', url: '/' },
@@ -393,10 +403,14 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
         </h1>
 
         <p class="text-lg sm:text-xl text-white/80 max-w-3xl mb-10 leading-relaxed">
-          {heroText}
-          {isDistrict
-            ? ` ${district.district} genelinde tüm mahallelerde kapınıza geliyoruz.`
-            : ` ${neighborhood!.name} ve ${district.district} genelinde kapınıza geliyoruz.`}
+          {regionIntroOverride ? regionIntroOverride : (
+            <>
+              {heroText}
+              {isDistrict
+                ? ` ${district.district} genelinde tüm mahallelerde kapınıza geliyoruz.`
+                : ` ${neighborhood!.name} ve ${district.district} genelinde kapınıza geliyoruz.`}
+            </>
+          )}
         </p>
 
         <!-- CTA Buttons -->
@@ -769,7 +783,26 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
 
 
   <!-- ===================== FAQ ===================== -->
-  <FAQ />
+  {regionFaq.length > 0 ? (
+    <section class="section-padding bg-surface">
+      <div class="section-container max-w-4xl">
+        <h2 class="text-3xl sm:text-4xl font-bold text-primary mb-8">Sıkça Sorulan Sorular</h2>
+        <div class="space-y-3">
+          {regionFaq.map((item) => (
+            <details class="group bg-white rounded-xl border border-border/50 overflow-hidden">
+              <summary class="flex items-center justify-between gap-3 px-5 py-4 cursor-pointer select-none list-none min-h-[44px] font-semibold text-primary hover:bg-surface/50 transition-colors [&::-webkit-details-marker]:hidden">
+                <span>{item.question}</span>
+                <svg class="w-5 h-5 shrink-0 text-accent transition-transform duration-200 group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </summary>
+              <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed">{item.answer}</div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  ) : (
+    <FAQ />
+  )}
 
   <!-- ===================== CONTACT ===================== -->
   <Contact />
