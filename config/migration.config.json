@@ -345,6 +345,11 @@
       "from": "/blog/utu-hizmetleri/ev-utusu-vs-profesyonel-utu-hizmeti.html",
       "to": "/blog/utu-hizmetleri/",
       "status": 301
+    },
+    {
+      "from": "/blog/bolgeler/kadikoy-kuru-temizleme.html",
+      "to": "/bolge/kadikoy/",
+      "status": 301
     }
   ]
 }
