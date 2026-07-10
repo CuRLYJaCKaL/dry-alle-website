@@ -238,3 +238,5 @@ image: "/blog/solmus-kiyafetlere-yeni-hayat-verme-guide/featured-image.webp"
 <p>25 yıllık deneyimimizle kıyafetlerinizi profesyonel boyama ile yeniliyoruz. Ücretsiz renk danışmanlığı ve alma-getirme hizmeti!</p>
 <a class="cta-button primary" href="tel:+905433527474">📞 Hemen Ara: 0 (543) 352 74 74</a>
 </div>
+
+<p><strong>İlgili sayfalar:</strong> Detaylı bilgi için <a href="/hizmetler/kumas-deri-boyama/">kumaş ve deri boyama hizmetimize</a> göz atın, güncel <a href="/fiyatlar/">fiyatlar için tıklayın</a> veya <a href="/blog/rengi-solmus-kiyafetlere-renk-yenileme-boyama/">rengi solmuş kıyafetlere renk yenileme rehberimizi</a> okuyun.</p>
