@@ -185,12 +185,19 @@ if (isServicePage && service && pageEntry) {
 }
 // Region sayfasında o lokasyona ait combo (lokasyon×hizmet) linkleri
 const serviceNameBySlug = new Map(config.services.map((s) => [s.slug, s.name]));
-const regionCombos = (((config as Record<string, unknown>).serviceAreaPages as Array<{ districtSlug: string; neighborhoodSlug?: string; serviceSlug: string }>) ?? [])
-  .filter((e) => e.districtSlug === district.districtSlug && (neighborhood ? e.neighborhoodSlug === neighborhood.slug : !e.neighborhoodSlug))
-  .map((e) => ({
-    url: e.neighborhoodSlug ? `/bolge/${e.districtSlug}/${e.neighborhoodSlug}/${e.serviceSlug}/` : `/bolge/${e.districtSlug}/${e.serviceSlug}/`,
-    label: `${locationName} ${serviceNameBySlug.get(e.serviceSlug)}`,
-  }));
+const localCombos = (((config as Record<string, unknown>).serviceAreaPages as Array<{ districtSlug: string; neighborhoodSlug?: string; serviceSlug: string }>) ?? [])
+  .filter((e) => e.districtSlug === district.districtSlug && (neighborhood ? e.neighborhoodSlug === neighborhood.slug : !e.neighborhoodSlug));
+const regionCombos = localCombos.map((e) => ({
+  url: e.neighborhoodSlug ? `/bolge/${e.districtSlug}/${e.neighborhoodSlug}/${e.serviceSlug}/` : `/bolge/${e.districtSlug}/${e.serviceSlug}/`,
+  label: `${locationName} ${serviceNameBySlug.get(e.serviceSlug)}`,
+}));
+// Bu lokasyonda combo'su olan hizmet slug'lari — hizmet karti combo-farkinda link icin
+const localComboServiceSlugs = new Set(localCombos.map((e) => e.serviceSlug));
+// Hizmet karti hedefi: bu lokasyonda combo varsa combo, yoksa generic hizmet sayfasi
+const serviceCardHref = (serviceSlug: string): string =>
+  localComboServiceSlugs.has(serviceSlug)
+    ? (neighborhood ? `/bolge/${district.districtSlug}/${neighborhood.slug}/${serviceSlug}/` : `/bolge/${district.districtSlug}/${serviceSlug}/`)
+    : `/hizmetler/${serviceSlug}/`;
 
 const svcBreadcrumbs = isServicePage && service ? (neighborhood
   ? [ { name: 'Ana Sayfa', url: '/' }, { name: 'Bölgeler', url: '/#bolgeler' },
@@ -439,7 +446,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
         {services.map((service) => (
-          <a href={`/hizmetler/${service.slug}/`} class="group bg-white rounded-xl shadow-card border border-transparent hover:shadow-elevated hover:border-accent/20 overflow-hidden transition-all duration-300 hover:-translate-y-1 block">
+          <a href={serviceCardHref(service.slug)} class="group bg-white rounded-xl shadow-card border border-transparent hover:shadow-elevated hover:border-accent/20 overflow-hidden transition-all duration-300 hover:-translate-y-1 block">
             <div class="h-0.5 bg-gradient-to-r from-accent/60 via-secondary/40 to-transparent"></div>
             <div class="p-6 text-center">
               <!-- Icon with outer glow -->
