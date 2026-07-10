@@ -3,7 +3,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import config from '../../../config/site.config.json';
 import { getCollection } from 'astro:content';
 
-const posts = await getCollection('blog');
+// Tarih-kapisi: ileri tarihli (yayin tarihi gelmemis) yazilar listede gorunmez.
+const posts = await getCollection('blog', ({ data }) => data.date <= new Date().toISOString().slice(0, 10));
 const now = new Date();
 const sortedPosts = posts
   .filter((post) => new Date(post.data.date) <= now)

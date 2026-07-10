@@ -122,7 +122,7 @@ const features = service.features || [];
 const contentTokens = { businessName, province, sectorLabel: config.identity.sectorLabel };
 const content = (service.detailParagraphs || []).map((p: string) => interpolate(p, contentTokens));
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => data.date <= new Date().toISOString().slice(0, 10));
 const relatedSlugs = service.relatedBlogSlugs || [];
 const relatedPosts = relatedSlugs
   .map((slug: string) => allPosts.find(p => p.slug === slug))

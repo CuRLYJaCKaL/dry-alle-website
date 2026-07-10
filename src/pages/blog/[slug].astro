@@ -4,7 +4,8 @@ import config from '../../../config/site.config.json';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  // Tarih-kapisi: yayin tarihi gelmemis (ileri tarihli) yazilar build'de uretilmez.
+  const posts = await getCollection('blog', ({ data }) => data.date <= new Date().toISOString().slice(0, 10));
   return posts.map((post) => ({
     params: { slug: post.slug },
     props: { post },
@@ -25,8 +26,8 @@ function estimateReadingTime(body: string): number {
 
 const readingTime = estimateReadingTime(post.body);
 
-// Get other posts for "Diğer Yazılar" section
-const allPosts = await getCollection('blog');
+// Get other posts for "Diğer Yazılar" section (tarih-kapisi: ileri tarihli yazilar gizli)
+const allPosts = await getCollection('blog', ({ data }) => data.date <= new Date().toISOString().slice(0, 10));
 const otherPosts = allPosts
   .filter((p) => p.slug !== post.slug)
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
