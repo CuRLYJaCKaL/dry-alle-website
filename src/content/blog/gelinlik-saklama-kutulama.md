@@ -8,7 +8,7 @@ tags:
   - "gelinlik kutulama"
   - "gelinlik bakımı"
   - "kuru temizleme"
-image: "/blog/wedding-dress-temizleme-ultimate-rehber/featured-image.webp"
+image: "/blog/gelinlik-saklama-kutulama/featured-image.webp"
 faq:
   - question: "Gelinliği düğünden sonra hemen temizletmek şart mı?"
     answer: "Evet, kesinlikle şart. Düğün gecesi gelinliğe bulaşan ter, şampanya, şeker ve deodorant kalıntıları çoğu zaman göze görünmez. Ancak bu şekerli ve asitli lekeler zamanla oksitlenir ve aylar sonra kumaşta sarı-kahverengi izlere dönüşür. Görünür bir leke olmasa bile, saklamadan önce profesyonel temizlik yapılması gelinliğin ömrü için belirleyicidir."

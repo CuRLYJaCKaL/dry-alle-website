@@ -8,7 +8,7 @@ tags:
   - "halı yıkama sonrası bakım"
   - "halı hazırlık"
   - "halı kuruma"
-image: "/blog/hali-yikama/featured-image.webp"
+image: "/blog/hali-yikama-oncesi-sonrasi-dikkat/featured-image.webp"
 faq:
   - question: "Halı yıkatmadan önce ne yapmalıyım?"
     answer: "Halı yıkatmadan önce yapmanız gereken en önemli üç şey vardır: halınızın tipini (yün, ipek ya da makine halısı) bilmek, halının üzerindeki değerli veya kırılgan eşyaları toplamak ve varsa leke noktalarını önceden belirtmek. Lekenin ne olduğunu ve ne zaman oluştuğunu bilmemiz, doğru yöntemi seçmemize yardımcı olur. Emin olamadığınız noktaları WhatsApp'tan fotoğrafla paylaşabilir ya da bizi arayabilirsiniz."

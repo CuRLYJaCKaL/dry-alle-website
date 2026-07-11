@@ -8,7 +8,7 @@ tags:
   - "sneaker temizleme"
   - "beyaz taban temizliği"
   - "ayakkabı bakımı"
-image: "/blog/ayakkabi-ve-deri-urunler-care-guide/featured-image.webp"
+image: "/blog/spor-ayakkabi-sneaker-temizleme/featured-image.webp"
 faq:
   - question: "Spor ayakkabımı çamaşır makinesinde yıkayabilir miyim?"
     answer: "Önerilmez. Çamaşır makinesinin dönüş kuvveti tabanın yapıştırma noktalarını gevşetir, iç dolgu köpüğünü ezer ve file kumaşı yırtabilir. Yüksek ısı ise yapıştırıcıyı eritir ve taban açılmasına yol açar. Bir yıkamada temiz görünen ayakkabı, birkaç yıkama sonra şeklini ve ömrünü kaybeder; el ile yapılan kontrollü temizlik çok daha güvenlidir."

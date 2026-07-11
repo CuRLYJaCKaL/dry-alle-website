@@ -8,7 +8,7 @@ tags:
   - "kumaşa göre temizlik"
   - "hassas kumaş bakımı"
   - "evde yıkama"
-image: "/blog/hassas-kumaslar-dry-cleaning-guide/featured-image.webp"
+image: "/blog/kuru-temizleme-mi-yikama-mi-kumasa-gore/featured-image.webp"
 faq:
   - question: "Hangi kumaşlar mutlaka kuru temizlenmeli?"
     answer: "Yün, kaşmir, ipek, deri, süet, kadife, astarlı takım elbise ve payetli abiyeler mutlaka kuru temizlenmelidir. Bu kumaşlar su ve mekanik hareketle çeker, solar veya şeklini kaybeder. Etiketinde daire sembolü bulunan tüm ürünler profesyonel kuru temizleme grubundadır."

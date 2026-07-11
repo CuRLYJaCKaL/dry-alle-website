@@ -8,7 +8,7 @@ tags:
   - "teslim süresi"
   - "kapıdan alım teslimat"
   - "kuru temizleme kaç gün"
-image: "/blog/istanbul-anatolian-side-dry-cleaning/featured-image.webp"
+image: "/blog/kuru-temizleme-ne-kadar-surer-teslim/featured-image.webp"
 faq:
   - question: "Kuru temizleme kaç günde teslim edilir?"
     answer: "Kuru temizleme süresi ürünün tipine, leke durumuna ve sezon yoğunluğuna göre değişir; bu yüzden kesin gün sayısı vermek yerine duruma göre değerlendirme yapıyoruz. Standart bir takım elbise ya da gömlek genellikle daha kısa sürede hazır olurken, ağır lekeli ya da hassas kumaşlar ek işlem ister. Parçanıza özel net teslim süresi için 0 543 352 74 74 numaralı hattımızdan bize ulaşabilir veya WhatsApp'tan fotoğraf gönderebilirsiniz."

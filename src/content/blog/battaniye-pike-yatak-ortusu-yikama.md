@@ -8,7 +8,7 @@ tags:
   - "Battaniye Yıkama"
   - "Hijyen"
   - "Mevsim Bakımı"
-image: "/blog/home-textiles-hijyen-guide/featured-image.webp"
+image: "/blog/battaniye-pike-yatak-ortusu-yikama/featured-image.webp"
 faq:
   - question: "Battaniye kaç ayda bir yıkanmalı?"
     answer: "Sık kullanılan battaniyelerin mevsimde en az bir kez, yani yaklaşık 3-4 ayda bir temizlenmesi önerilir. Mevsim geçişleri en ideal zamandır: kışlık battaniyeyi kaldırmadan önce ve tekrar kullanıma almadan önce yıkatmak hem hijyen sağlar hem de kötü koku ve akar birikimini önler."

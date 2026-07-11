@@ -8,7 +8,7 @@ tags:
   - "yün kazak yıkama"
   - "boncuklanma önleme"
   - "kazak bakımı"
-image: "/blog/ipek-kumaslar-dry-cleaning-guide/featured-image.webp"
+image: "/blog/kasmir-yun-kazak-bakimi/featured-image.webp"
 faq:
   - question: "Kaşmir temizleme fiyatı neye göre belirlenir?"
     answer: "Kaşmir ve yün ürünlerde fiyat; parçanın cinsi (kazak, hırka, palto), kumaş yoğunluğu, örgü yapısı ve varsa leke ya da keçeleşme durumuna göre değişir. İnce merinos bir kazak ile kalın örgü bir kaşmir palto farklı işlem süresi ister. Güncel bilgi için /fiyatlar/ sayfamızı ziyaret edebilir veya ürünün fotoğrafını WhatsApp'tan gönderip ön değerlendirme alabilirsiniz."

@@ -8,7 +8,7 @@ tags:
   - "koltuk yıkama fiyatları 2026"
   - "koltuk temizleme"
   - "kumaş koltuk yıkama"
-image: "/blog/koltuk-yikama/featured-image.webp"
+image: "/blog/koltuk-yikama-fiyatlari-2026/featured-image.webp"
 faq:
   - question: "Koltuk yıkama fiyatı neye göre değişir?"
     answer: "Koltuk yıkama fiyatı; koltuğun tipine (tekli, ikili, üçlü, köşe ya da L koltuk), kumaş türüne (kadife, keten, chenille, deri gibi), toplam oturma sayısına, leke ve kirlilik derecesine ve işlemin yerinde mi yoksa alıp götürerek mi yapıldığına göre belirlenir. Tek bir standart rakam olmadığı için en doğru bilgi, koltuğun görülmesiyle çıkar. Güncel bilgi için /fiyatlar/ sayfamıza bakabilir ya da fotoğrafı WhatsApp'tan gönderip ön değerlendirme alabilirsiniz."

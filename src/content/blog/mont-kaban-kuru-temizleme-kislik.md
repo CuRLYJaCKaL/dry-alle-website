@@ -8,7 +8,7 @@ tags:
   - "Mont ve Kaban"
   - "Kışlık Giyim"
   - "Bakım Rehberi"
-image: "/blog/winter-dry-cleaning-tips/featured-image.webp"
+image: "/blog/mont-kaban-kuru-temizleme-kislik/featured-image.webp"
 faq:
   - question: "Kaz tüyü mont kuru temizlemeye verilir mi?"
     answer: "Kaz tüyü ve şişme montlar özel bakım ister. Yanlış işlem tüyleri topaklaştırır ve montun şişkinliğini, yani ısı yalıtımını bozar. Uzman bakımda tüyler dağıtılarak kurutulur ve montun dolgunluğu korunur. Etiketini kontrol edip emin değilseniz fotoğrafını WhatsApp'tan gönderebilirsiniz."

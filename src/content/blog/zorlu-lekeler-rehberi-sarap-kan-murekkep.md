@@ -8,7 +8,7 @@ tags:
   - "inatçı leke temizleme"
   - "leke rehberi"
   - "kuru temizleme"
-image: "/blog/koltuktan-leke-nasil-cikar/featured-image.webp"
+image: "/blog/zorlu-lekeler-rehberi-sarap-kan-murekkep/featured-image.webp"
 faq:
   - question: "Şarap lekesine ilk anda ne yapmalıyım?"
     answer: "Şarap dökülür dökülmez lekeyi ovmadan, temiz kuru bir bezle nazikçe emdirerek fazla sıvıyı alın. Ovmak lekeyi liflerin derinine iter ve yaymanıza neden olur. Kesinlikle sıcak su kullanmayın; sıcaklık şaraptaki taneni sabitler. Tuz veya karbonat gibi ev yöntemleri geçici görünse de çoğu zaman lekeyi tam çıkarmaz, en güvenlisi hızla profesyonele ulaşmaktır."

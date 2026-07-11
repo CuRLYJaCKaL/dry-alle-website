@@ -8,7 +8,7 @@ tags:
   - "Hassas Cilt Temizlik"
   - "Hipoalerjenik"
   - "Kuru Temizleme"
-image: "/blog/bebekli-evlerde-hali-koltuk-hijyeni/featured-image.webp"
+image: "/blog/bebek-cocuk-kiyafetleri-hipoalerjenik-temizlik/featured-image.webp"
 faq:
   - question: "Bebek kıyafeti nasıl yıkanmalı?"
     answer: "Bebek kıyafetleri; ciltte kalıntı bırakmayan, kokusuz ve yumuşatıcısız bir yöntemle, yetişkin çamaşırlarından ayrı olarak yıkanmalıdır. Deterjan kalıntısı iyice durulanmalı, kıyafetler tam kurutulmalıdır. Hassas ve alerjik ciltler için profesyonel, kalıntısız temizlik en güvenli seçenektir."

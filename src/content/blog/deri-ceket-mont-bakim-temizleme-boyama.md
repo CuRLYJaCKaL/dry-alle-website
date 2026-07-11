@@ -8,7 +8,7 @@ tags:
   - "deri boyama"
   - "deri bakımı"
   - "süet temizleme"
-image: "/blog/ayakkabi-ve-deri-urunler-care-guide/featured-image.webp"
+image: "/blog/deri-ceket-mont-bakim-temizleme-boyama/featured-image.webp"
 faq:
   - question: "Deri ceketimi evde silerek temizleyebilir miyim?"
     answer: "Yüzeydeki tozu nemli bir bezle almak zararsızdır, ancak deterjan, ıslak mendil veya alkol içeren ürünler derinin doğal yağını çeker ve kısa sürede matlaşma, sertleşme ve çatlamaya yol açar. Gerçek temizlik cildin gözeneklerinin içine işleyen leke ve teri gerektirir; bu yüzden yıllık profesyonel bakım en güvenli yoldur."

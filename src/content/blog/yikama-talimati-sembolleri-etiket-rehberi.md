@@ -8,7 +8,7 @@ tags:
   - "kıyafet etiketi"
   - "bakım talimatı"
   - "kuru temizleme işareti"
-image: "/blog/ultimate-turkish-dry-cleaning-guide/featured-image.webp"
+image: "/blog/yikama-talimati-sembolleri-etiket-rehberi/featured-image.webp"
 faq:
   - question: "Kıyafet etiketindeki daire işareti ne anlama gelir?"
     answer: "Daire sembolü kuru temizleme talimatını gösterir. İçindeki P veya F harfi profesyonel kuru temizleme gerektiğini, dairenin üzerindeki çarpı ise kuru temizleme yapılamayacağını belirtir. Daire gördüğünüz kıyafetleri evde yıkamak yerine bir kuru temizlemeciye teslim etmek gerekir."

@@ -8,7 +8,7 @@ tags:
   - "Yorgan Yıkama"
   - "Hijyen"
   - "Toz Akarı"
-image: "/blog/ev-tekstili/featured-image.webp"
+image: "/blog/yorgan-yikama-kus-tuyu-yun-elyaf/featured-image.webp"
 faq:
   - question: "Yorgan ne sıklıkla yıkanmalı?"
     answer: "Kullanım yoğunluğuna bağlı olsa da yorganların yılda en az bir, ideal olarak iki kez profesyonel temizlikten geçmesi önerilir. Genellikle mevsim geçişlerinde, yani yorganı kaldırmadan önce yıkatmak en sağlıklısıdır. Böylece hem içine sinen ter ve nem uzaklaştırılır hem de dolabınızda toz akarı barındırmadan saklanır."

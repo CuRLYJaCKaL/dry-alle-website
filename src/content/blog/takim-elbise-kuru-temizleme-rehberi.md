@@ -8,7 +8,7 @@ tags:
   - "Takım Elbise"
   - "Erkek Giyim"
   - "Bakım Rehberi"
-image: "/blog/ultimate-turkish-dry-cleaning-guide/featured-image.webp"
+image: "/blog/takim-elbise-kuru-temizleme-rehberi/featured-image.webp"
 faq:
   - question: "Takım elbise ne sıklıkla kuru temizlemeye verilmeli?"
     answer: "Düzenli kullanılan bir takım elbise için sezonda 2-3 kez kuru temizleme çoğu durumda yeterlidir. Her giyimden sonra temizletmek yerine askıda dinlendirmek ve fırçalamak elyaf ömrünü uzatır. Yoğun terleme, görünür leke veya koku varsa erken temizletmek gerekir."

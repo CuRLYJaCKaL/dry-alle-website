@@ -8,7 +8,7 @@ tags:
   - "Ev Tekstili Temizliği"
   - "Hijyen"
   - "Yastık Bakımı"
-image: "/blog/home-textiles-hijyen-guide/featured-image.webp"
+image: "/blog/yastik-yikama-kus-tuyu-elyaf-memory-foam/featured-image.webp"
 faq:
   - question: "Yastığımı yıkayabilir miyim?"
     answer: "Yastığınızı yıkayıp yıkayamayacağınız dolgu tipine bağlıdır. Kuş tüyü ve elyaf (silikon) yastıklar profesyonel olarak yıkanabilir. Memory foam (visco) ve lateks yastıklar YIKANMAZ; su içeri işler, dolguyu bozar ve tam kurumadığı için küf riski oluşturur. Etiketinizden emin değilseniz 0 543 352 74 74 numaralı hattımızdan sorabilirsiniz."

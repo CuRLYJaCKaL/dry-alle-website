@@ -8,7 +8,7 @@ tags:
   - "tül perde kuru temizleme"
   - "fon perde yıkama"
   - "stor perde temizleme"
-image: "/blog/perde-temizleme/featured-image.webp"
+image: "/blog/perde-yikama-fiyatlari-tul-fon-stor/featured-image.webp"
 faq:
   - question: "Perde yıkama fiyatı neye göre belirlenir?"
     answer: "Perde yıkama fiyatı; perdenin tipine (tül, fon, blackout, stor), metrekare ya da boy ölçüsüne, kumaş cinsine, sökme-takma hizmetinin dahil olup olmadığına ve ütü isteğine göre belirlenir. Geniş bir salon fon perdesi ile küçük bir mutfak tülü aynı emeği gerektirmez. Net bilgi için /fiyatlar/ sayfamıza bakabilir veya perdenizin fotoğrafını ve yaklaşık ölçüsünü WhatsApp'tan gönderip ön değerlendirme alabilirsiniz."

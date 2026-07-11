@@ -8,7 +8,7 @@ tags:
   - "Sararma"
   - "Yaka Kiri"
   - "Leke Çıkarma"
-image: "/blog/koltuktan-leke-nasil-cikar/featured-image.webp"
+image: "/blog/sararmis-beyazlari-beyazlatma/featured-image.webp"
 faq:
   - question: "Beyaz kıyafetler neden sararır?"
     answer: "Beyaz kıyafetler çoğunlukla terin deodorantla, özellikle deodorandaki alüminyum tuzlarıyla tepkimeye girmesi sonucu sararır. Buna cilt yağı, vücut kremi kalıntısı, yanlış saklama ve zamanla oksitlenen görünmez lekeler eklenir. Çamaşır suyunun aşırı kullanımı da pamuk lifini oksitleyerek sarartabilir; yani sararma tek bir nedenden değil, birikmiş etkilerden kaynaklanır."

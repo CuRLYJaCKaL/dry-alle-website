@@ -8,7 +8,7 @@ tags:
   - "Deri Palto"
   - "Sezon Saklama"
   - "Kuru Temizleme"
-image: "/blog/ayakkabi-ve-deri-urunler-care-guide/featured-image.webp"
+image: "/blog/kurk-deri-palto-bakim-saklama/featured-image.webp"
 faq:
   - question: "Kürk palto evde yıkanır mı?"
     answer: "Hayır, kürk palto evde yıkanmaz. Gerçek kürkün deri tabanı su ve deterjanla temas ettiğinde büzüşüp sertleşir, tüyler matlaşıp dökülür. Kürk yalnızca özel çözücülerle çalışan profesyonel kuru temizlemede güvenle temizlenir. Suni kürkte bile yüksek ısı ve yanlış deterjan tüyleri keçeleştirebilir."

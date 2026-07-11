@@ -8,7 +8,7 @@ tags:
   - "gece elbisesi bakımı"
   - "payetli kumaş"
   - "leke temizliği"
-image: "/blog/hassas-kumaslar-dry-cleaning-guide/featured-image.webp"
+image: "/blog/abiye-gece-elbisesi-temizleme/featured-image.webp"
 faq:
   - question: "Abiye kuru temizleme fiyatları neye göre değişir?"
     answer: "Abiye fiyatı; kumaş türü (tül, şifon, saten), üzerindeki payet, pul ve boncuk işleme yoğunluğu, astar yapısı ve leke durumuna göre belirlenir. Ağır işlemeli ve çok katmanlı modeller elde daha uzun süre çalışma gerektirir. Net bilgi için güncel /fiyatlar/ sayfamıza bakabilir veya elbisenizin fotoğrafını WhatsApp'tan gönderip ön değerlendirme alabilirsiniz."
