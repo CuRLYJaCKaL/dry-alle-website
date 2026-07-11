@@ -68,6 +68,12 @@ Saklama için birkaç öneri:
 - Nefes alabilen bez kılıf veya pamuklu torbalar kullanın; naylon poşet nem hapseder, küf ve güve riski yaratır.
 - Lavanta keseleri ya da sedir ağacı gibi doğal kovucular bulundurun.
 
+## Kaşmir Kazak Ne Sıklıkla Temizlenmeli?
+
+Kaşmir ve yün kazaklar, pamuklu tişörtlerin aksine her giyişte temizlenmez; gereğinden sık temizlik elyafı yıpratır. Genel kural, bir kaşmir kazağı bir sezon içinde üç ila beş kez giydikten sonra ya da görünür bir leke, ter veya koku oluştuğunda temizletmektir. Doğrudan tene değmeden, bir gömlek üzerine giyilen kazaklar daha seyrek bakım gerektirir.
+
+Sezon boyunca kazağı iki giyiş arasında dinlendirmek, hafif kokuları havalandırarak gidermek ve küçük lekelere anında müdahale etmek temizlik sıklığını azaltır. Ancak sezon sonunda, dolaba kaldırmadan önce her kaşmir ve yün parçanın mutlaka temizlenmesi gerekir: görünmeyen ter ve cilt yağı kalıntıları hem zamanla sararmaya yol açar hem de güveyi davet eder. [Kuru temizleme sürecimizde](/hizmetler/kuru-temizleme/) her parçayı elyaf yapısına göre değerlendirir, en az müdahaleyle en yüksek hijyeni sağlarız.
+
 ## Fiyat ve Değerlendirme
 
 Kaşmir ve yün ürünlerin her biri; cinsi, örgüsü ve durumu bakımından farklıdır. Bu yüzden güncel fiyat bilgisi için [fiyat listemizi](/fiyatlar/) inceleyebilir ya da ürünün fotoğrafını WhatsApp üzerinden gönderip ön değerlendirme alabilirsiniz. Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye başta olmak üzere Anadolu Yakası genelinde ÜCRETSİZ kapıdan alım ve teslimat hizmeti sunuyoruz; değerli kazaklarınızı bize getirmek için yola çıkmanıza gerek kalmaz.

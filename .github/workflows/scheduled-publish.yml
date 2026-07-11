@@ -1,0 +1,49 @@
+name: Zamanlanmis Blog Yayini (tarih-kapili)
+
+# Tarih-kapisi (date-gating): astro build yalnizca yayin tarihi gelmis (date <= bugun)
+# bloglari uretir. Bu workflow her gun calisir; o gun bir yazinin tarihi geldiyse
+# build ciktisi degisir ve astro-live'a deploy edilir (GitHub Pages otomatik yayinlar).
+# Cikti degismezse peaceiris deploy'u atlar (gereksiz commit/build olmaz).
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # her gun 07:00 UTC = 10:00 Istanbul
+  workflow_dispatch:        # elle tetikleme (test/acil yayin)
+  push:
+    branches: [astro-src]   # kaynak guncellenince aninda yayinla
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dryalle-publish
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kaynagi al (astro-src)
+        uses: actions/checkout@v4
+
+      - name: Node kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Bagimliliklari yukle
+        run: npm ci
+
+      - name: Siteyi derle (tarih-kapisi tarihi gelen yaziyi dahil eder)
+        run: npm run build
+
+      - name: dist -> astro-live deploy (GitHub Pages)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: astro-live
+          keep_files: false
+          enable_jekyll: false
+          commit_message: 'Otomatik yayin (tarih-kapili icerik guncellemesi)'
