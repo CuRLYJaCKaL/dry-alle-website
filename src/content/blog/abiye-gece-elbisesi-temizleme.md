@@ -73,4 +73,4 @@ Her abiye kendine özgüdür; kumaşı, işlemesi ve leke durumu farklıdır. Bu
 Özel gününüzün elbisesini ilk günkü haline kavuşturmak için bize ulaşın:
 
 - Telefon: **0 543 352 74 74**
-- WhatsApp: [wa.me/905433527474](https://wa.me/905433527474) — elbisenizin fotoğrafını gönderin, hızlıca dönüş yapalım.
+- WhatsApp: [WhatsApp hattımız](https://wa.me/905433527474) — elbisenizin fotoğrafını gönderin, hızlıca dönüş yapalım.

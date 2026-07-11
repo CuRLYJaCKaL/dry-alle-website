@@ -87,4 +87,4 @@ Güncel hizmet seçeneklerimiz için [fiyat listemizi](/fiyatlar/) inceleyebilir
 
 **Hemen arayın:** 0 543 352 74 74
 
-**WhatsApp'tan leke fotoğrafını gönderin:** [wa.me/905433527474](https://wa.me/905433527474)
+**WhatsApp'tan leke fotoğrafını gönderin:** [WhatsApp hattımız](https://wa.me/905433527474)

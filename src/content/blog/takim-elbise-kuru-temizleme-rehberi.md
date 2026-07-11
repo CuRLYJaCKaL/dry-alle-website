@@ -76,4 +76,4 @@ Takımınızın en iyi bakımı hak ettiğine inanıyoruz. Sorularınız veya ra
 
 **Telefon: 0 543 352 74 74**
 
-**WhatsApp: [wa.me/905433527474](https://wa.me/905433527474)** — takımınızın fotoğrafını gönderin, size özel fiyat ve öneriyi dakikalar içinde iletelim.
+**WhatsApp: [WhatsApp hattımız](https://wa.me/905433527474)** — takımınızın fotoğrafını gönderin, size özel fiyat ve öneriyi dakikalar içinde iletelim.

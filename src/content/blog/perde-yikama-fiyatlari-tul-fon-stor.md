@@ -86,4 +86,4 @@ Gördüğünüz gibi perde yıkama fiyatı; tip, boyut, kumaş, sökme-takma ve 
 Sürprizsiz bir ön değerlendirme için bize ulaşın:
 
 - Telefon: **0 543 352 74 74**
-- WhatsApp: [wa.me/905433527474](https://wa.me/905433527474) — perdenizin fotoğrafını ve yaklaşık en-boy ölçüsünü gönderin, size en uygun yöntemle net bir ön değerlendirme sunalım.
+- WhatsApp: [WhatsApp hattımız](https://wa.me/905433527474) — perdenizin fotoğrafını ve yaklaşık en-boy ölçüsünü gönderin, size en uygun yöntemle net bir ön değerlendirme sunalım.

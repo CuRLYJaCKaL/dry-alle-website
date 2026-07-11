@@ -97,4 +97,4 @@ Etiketten veya kumaştan emin olamıyorsanız, riske girmeden uzman görüşü a
 
 Doğru karar, çoğu zaman "acaba" dediğiniz anda profesyonele danışmaktan geçer; bu küçük adım, en sevdiğiniz parçaları yıllarca korur.
 
-**Hemen bize ulaşın:** Kumaşınızın kuru temizleme mi yoksa yıkama mı istediğinden emin değilseniz bizi arayın: **0 543 352 74 74**. Ürün fotoğrafını WhatsApp'tan göndererek de danışabilirsiniz: [wa.me/905433527474](https://wa.me/905433527474). Ücretsiz kapıdan alım için hemen iletişime geçin.
+**Hemen bize ulaşın:** Kumaşınızın kuru temizleme mi yoksa yıkama mı istediğinden emin değilseniz bizi arayın: **0 543 352 74 74**. Ürün fotoğrafını WhatsApp'tan göndererek de danışabilirsiniz: [WhatsApp hattımız](https://wa.me/905433527474). Ücretsiz kapıdan alım için hemen iletişime geçin.

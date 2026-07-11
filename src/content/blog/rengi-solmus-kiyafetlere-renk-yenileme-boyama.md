@@ -18,7 +18,7 @@ faq:
   - question: "Kaşe kaban boyama güvenli mi?"
     answer: "Kaşe kabanlarda yün lifleri hassas olduğu için düşük tahrişli boya ve kontrollü uygulama kullanıyoruz. Bu sayede kumaşa zarar vermeden renk tazeleme yapılıyor."
   - question: "Boyama fiyatını nasıl öğrenebilirim?"
-    answer: "Güncel bilgi için /fiyatlar/ sayfamıza bakabilir, net fiyat almak için ürününüzün fotoğrafını WhatsApp'tan (wa.me/905433527474) gönderebilirsiniz. Fiyat ürünün cinsine ve işlemin kapsamına göre belirlenir."
+    answer: "Güncel bilgi için /fiyatlar/ sayfamıza bakabilir, net fiyat almak için ürününüzün fotoğrafını WhatsApp'tan gönderebilirsiniz. Fiyat ürünün cinsine ve işlemin kapsamına göre belirlenir."
 ---
 
 Sevdiğiniz bir montun rengi soldu, favori tişörtünüz birkaç yıkamada matlaştı ya da deri ceketiniz eski canlılığını kaybetti mi? Bu durum, o parçaları elden çıkarmanız gerektiği anlamına gelmez. Profesyonel boyama ile rengi solmuş kıyafetlere yeniden hayat vermek mümkündür. Bu rehberde renk yenileme sürecini, hangi ürünlerin boyanabileceğini ve İstanbul Anadolu Yakası'nda boyama yapan yerler arayanların nelere dikkat etmesi gerektiğini adım adım anlatıyoruz.

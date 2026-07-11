@@ -76,4 +76,4 @@ Bu alışkanlıklara rağmen oluşan inatçı sararmalar için deneme yanılmaya
 
 Hemen arayın: **0 543 352 74 74**
 
-WhatsApp'tan fotoğraf gönderin: **[wa.me/905433527474](https://wa.me/905433527474)**
+WhatsApp'tan fotoğraf gönderin: **[WhatsApp hattımız](https://wa.me/905433527474)**

@@ -78,4 +78,4 @@ Kışlık montlarınızı ve kabanlarınızı en doğru bakıma emanet edin. Sor
 
 **Telefon: 0 543 352 74 74**
 
-**WhatsApp: [wa.me/905433527474](https://wa.me/905433527474)** — montunuzun fotoğrafını gönderin, size özel fiyat ve bakım önerisini dakikalar içinde iletelim.
+**WhatsApp: [WhatsApp hattımız](https://wa.me/905433527474)** — montunuzun fotoğrafını gönderin, size özel fiyat ve bakım önerisini dakikalar içinde iletelim.

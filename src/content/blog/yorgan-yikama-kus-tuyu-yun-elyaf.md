@@ -83,4 +83,4 @@ Yorgan yıkama fiyatları; türe, boyuta ve kirlilik durumuna göre değişir. B
 
 25 yılı aşkın deneyimimizle her yorganı kendi türüne özel bir özenle temizliyor, tam kurutmayla hijyenik olarak size ulaştırıyoruz. Sağlıklı ve rahat uykular için ilk adımı bugün atın.
 
-Hemen bilgi ve randevu için **0 543 352 74 74**'ü arayın. Dilerseniz yorganınızın fotoğrafını [wa.me/905433527474](https://wa.me/905433527474) üzerinden WhatsApp ile gönderin, size özel fiyat ve çözümü anında iletelim.
+Hemen bilgi ve randevu için **0 543 352 74 74**'ü arayın. Dilerseniz yorganınızın fotoğrafını [WhatsApp hattımız](https://wa.me/905433527474) üzerinden gönderin, size özel fiyat ve çözümü anında iletelim.

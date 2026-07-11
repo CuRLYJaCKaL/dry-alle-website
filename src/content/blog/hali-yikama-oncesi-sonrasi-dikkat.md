@@ -90,4 +90,4 @@ Halınızı teslim etmeden önce aklınıza takılan her şeyi bize sorabilirsin
 Halınızı doğru şekilde hazırlamak ve en iyi sonucu almak için bize ulaşın:
 
 - Telefon: **0 543 352 74 74**
-- WhatsApp: [wa.me/905433527474](https://wa.me/905433527474) — halınızın ve varsa leke noktalarının fotoğrafını gönderin, size en uygun yöntem ve planla dönüş yapalım.
+- WhatsApp: [WhatsApp hattımız](https://wa.me/905433527474) — halınızın ve varsa leke noktalarının fotoğrafını gönderin, size en uygun yöntem ve planla dönüş yapalım.

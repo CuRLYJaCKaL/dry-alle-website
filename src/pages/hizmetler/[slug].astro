@@ -92,10 +92,11 @@ const serviceComboKeys = new Set(
 // Bu hizmet icin o lokasyonda combo (hizmet-ozel sayfa) var mi?
 const hasServiceCombo = (districtSlug: string, nhSlug?: string): boolean =>
   serviceComboKeys.has(nhSlug ? `${districtSlug}/${nhSlug}` : districtSlug);
-// Combo VARSA hizmet-ozel URL; yoksa null (yaniltici hub linki uretme).
-const areaServiceHref = (districtSlug: string, nhSlug?: string): string | null => {
-  if (!hasServiceCombo(districtSlug, nhSlug)) return null;
-  return nhSlug ? `/bolge/${districtSlug}/${nhSlug}/${service.slug}/` : `/bolge/${districtSlug}/${service.slug}/`;
+// Her zaman gecerli bir link dondur (tutarli/tiklanabilir): nh combo -> ilce combo -> bolge sayfasi.
+const areaServiceHref = (districtSlug: string, nhSlug?: string): string => {
+  if (hasServiceCombo(districtSlug, nhSlug)) return nhSlug ? `/bolge/${districtSlug}/${nhSlug}/${service.slug}/` : `/bolge/${districtSlug}/${service.slug}/`;
+  if (nhSlug && hasServiceCombo(districtSlug)) return `/bolge/${districtSlug}/${service.slug}/`;
+  return nhSlug ? `/bolge/${districtSlug}/${nhSlug}/` : `/bolge/${districtSlug}/`;
 };
 // Bu hizmetin combo'su olan ilce sayisi (grid'i akilli gostermek icin)
 const serviceHasAnyCombo = serviceComboKeys.size > 0;
@@ -128,9 +129,24 @@ const content = (service.detailParagraphs || []).map((p: string) => interpolate(
 
 const allPosts = await getCollection('blog', ({ data }) => data.date <= new Date().toISOString().slice(0, 10));
 const relatedSlugs = service.relatedBlogSlugs || [];
-const relatedPosts = relatedSlugs
+const svcKeyword = service.name.split(' ')[0].toLocaleLowerCase('tr-TR');
+const svcSlugKey = service.slug.split('-')[0]; // hali, koltuk, perde, kuru, ev, utu...
+const englishSyn: Record<string, string> = { hali: 'carpet', koltuk: 'upholstery', perde: 'curtain', kuru: 'dry-clean', utu: 'iron' };
+const engKey = englishSyn[svcSlugKey];
+const matchesService = (p: { slug: string; data: { tags?: string[] } }): boolean =>
+  (p.data.tags ?? []).some((t: string) => t.toLocaleLowerCase('tr-TR').includes(svcKeyword)) ||
+  p.slug.includes(svcSlugKey) ||
+  (engKey !== undefined && p.slug.includes(engKey));
+const curatedPosts = relatedSlugs
   .map((slug: string) => allPosts.find(p => p.slug === slug))
   .filter((p): p is NonNullable<typeof p> => p !== undefined);
+const taggedPosts = allPosts
+  .filter(matchesService)
+  .sort((a, b) => (a.data.date < b.data.date ? 1 : -1));
+const seenRelated = new Set<string>();
+const relatedPosts = [...curatedPosts, ...taggedPosts]
+  .filter(p => { if (seenRelated.has(p.slug)) return false; seenRelated.add(p.slug); return true; })
+  .slice(0, 6);
 ---
 
 <BaseLayout title={title} description={description} canonicalPath={canonicalPath} jsonLd={finalJsonLd}>
@@ -493,7 +509,7 @@ const relatedPosts = relatedSlugs
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-4xl mx-auto">
-          {relatedPosts.slice(0, 3).map((post) => (
+          {relatedPosts.slice(0, 6).map((post) => (
             <a
               href={`/blog/${post.slug}/`}
               class="group block rounded-2xl bg-surface border border-border/60 overflow-hidden hover:shadow-elevated hover:border-accent/30 transition-all duration-300"
@@ -611,8 +627,8 @@ const relatedPosts = relatedSlugs
     <section class="section-padding bg-surface">
       <div class="section-container">
         <div class="text-center mb-8">
-          <h2 class="section-title">Bölgeye Özel {service.name} Sayfalarımız</h2>
-          <p class="section-subtitle mx-auto">Semtinize özel {service.name.toLocaleLowerCase('tr-TR')} bilgisi için bölge sayfamıza göz atın.</p>
+          <h2 class="section-title">Semtinize Özel {service.name} Sayfaları</h2>
+          <p class="section-subtitle mx-auto">Bulunduğunuz semte özel {service.name.toLocaleLowerCase('tr-TR')} fiyatları ve detayları için ilgili sayfaya göz atın.</p>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-w-4xl mx-auto">
           {featuredComboAreas.map((c) => (

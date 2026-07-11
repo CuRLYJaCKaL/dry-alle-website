@@ -87,4 +87,4 @@ Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye başta olm
 
 25 yılı aşkın deneyimimizle battaniye, pike ve yatak örtülerinizi türüne özel bir özenle temizliyor, kontrollü kurutmayla hijyenik biçimde size ulaştırıyoruz. Sağlıklı bir yatak odası için doğru adımı bugün atın.
 
-Bilgi ve randevu için hemen **0 543 352 74 74**'ü arayın. Dilerseniz ürününüzün fotoğrafını [wa.me/905433527474](https://wa.me/905433527474) üzerinden WhatsApp ile paylaşın, size özel fiyat ve çözümü anında iletelim.
+Bilgi ve randevu için hemen **0 543 352 74 74**'ü arayın. Dilerseniz ürününüzün fotoğrafını [WhatsApp hattımız](https://wa.me/905433527474) üzerinden paylaşın, size özel fiyat ve çözümü anında iletelim.

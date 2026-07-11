@@ -81,4 +81,4 @@ Kaşmir ve yün ürünlerin her biri; cinsi, örgüsü ve durumu bakımından fa
 Kaşmir ve yün parçalarınızın ömrünü uzatmak için bize ulaşın:
 
 - Telefon: **0 543 352 74 74**
-- WhatsApp: [wa.me/905433527474](https://wa.me/905433527474) — kazağınızın fotoğrafını gönderin, size en uygun bakım yöntemiyle dönüş yapalım.
+- WhatsApp: [WhatsApp hattımız](https://wa.me/905433527474) — kazağınızın fotoğrafını gönderin, size en uygun bakım yöntemiyle dönüş yapalım.

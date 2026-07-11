@@ -87,4 +87,4 @@ Alım ve teslimatı güzergâhlarımıza göre planladığımız için, en doğr
 Parçanıza özel gerçek teslim süresini öğrenmenin en hızlı yolu bizimle iletişime geçmektir. Ürünün tipini, lekesini ve aciliyetini paylaşın; size duruma göre en doğru planı sunalım:
 
 - Telefon: **0 543 352 74 74**
-- WhatsApp: [wa.me/905433527474](https://wa.me/905433527474) — ürününüzün fotoğrafını gönderin, teslim süresi konusunda size hemen dönüş yapalım.
+- WhatsApp: [WhatsApp hattımız](https://wa.me/905433527474) — ürününüzün fotoğrafını gönderin, teslim süresi konusunda size hemen dönüş yapalım.

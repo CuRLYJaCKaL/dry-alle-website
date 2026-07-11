@@ -98,4 +98,4 @@ Etiket silinmiş, kesilmiş veya sembolleri anlaşılmıyorsa en güvenli yol ku
 
 Etiketteki sembolleri çözmek zor değil; ama tereddüt ettiğiniz her ürünü profesyonele bırakmak, o kıyafeti yıllarca kullanmanın en akıllı yoludur.
 
-**Hemen bize ulaşın:** Kıyafetlerinizin etiketindeki sembollerden emin değilseniz bizi arayın: **0 543 352 74 74**. WhatsApp'tan fotoğraf göndererek de danışabilirsiniz: [wa.me/905433527474](https://wa.me/905433527474). Ücretsiz kapıdan alım için hemen iletişime geçin.
+**Hemen bize ulaşın:** Kıyafetlerinizin etiketindeki sembollerden emin değilseniz bizi arayın: **0 543 352 74 74**. WhatsApp'tan fotoğraf göndererek de danışabilirsiniz: [WhatsApp hattımız](https://wa.me/905433527474). Ücretsiz kapıdan alım için hemen iletişime geçin.

@@ -88,4 +88,4 @@ Gördüğünüz gibi koltuk yıkama fiyatı; tip, kumaş, oturma sayısı, leke 
 Sürprizsiz ve gerçekçi bir ön değerlendirme için bize ulaşın:
 
 - Telefon: **0 543 352 74 74**
-- WhatsApp: [wa.me/905433527474](https://wa.me/905433527474) — koltuğunuzun genel ve varsa lekeli bölgelerinin fotoğrafını gönderin, size en uygun yöntemle net bir ön değerlendirme sunalım.
+- WhatsApp: [WhatsApp hattımız](https://wa.me/905433527474) — koltuğunuzun genel ve varsa lekeli bölgelerinin fotoğrafını gönderin, size en uygun yöntemle net bir ön değerlendirme sunalım.

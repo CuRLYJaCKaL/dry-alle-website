@@ -82,4 +82,4 @@ Hayatınızın en özel gününün anısını yıllar sonra bile ilk günkü ı�
 
 **Hemen arayın:** 0 543 352 74 74
 
-**WhatsApp'tan fotoğraf gönderin, size özel bilgi alın:** [wa.me/905433527474](https://wa.me/905433527474)
+**WhatsApp'tan fotoğraf gönderin, size özel bilgi alın:** [WhatsApp hattımız](https://wa.me/905433527474)
