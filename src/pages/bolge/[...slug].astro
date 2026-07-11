@@ -183,9 +183,14 @@ const pageEntry = (Astro.props as Record<string, unknown>).pageEntry as { intro:
 const st = config.seoTemplates as Record<string, string>;
 let svcTitle = title, svcDescription = description, svcH1 = '', svcCanonical = canonicalPath;
 let svcSchemas: Array<Record<string, unknown>> = [];
+let svcPriceTable: { unit: string; unitNote?: string; items: Array<{ name: string; price: number }> } | undefined;
 if (isServicePage && service && pageEntry) {
   const sTokens = { ...seoTokens, serviceName: service.name, serviceNameLower: service.name.toLocaleLowerCase('tr-TR') };
-  svcTitle = interpolate(st.regionServiceTitle, sTokens);
+  svcPriceTable = (config.pricing?.servicePriceTables as Record<string, { unit: string; unitNote?: string; items: Array<{ name: string; price: number }> }> | undefined)?.[service.slug];
+  // Gercek fiyat tablosu olan hizmette title 'Fiyatlari {yil}' ile fiyat-intent yakalar; H1 temiz kalir.
+  svcTitle = svcPriceTable
+    ? `${locationName} ${service.name} Fiyatları ${new Date().getFullYear()} | Dry Alle`
+    : interpolate(st.regionServiceTitle, sTokens);
   svcDescription = interpolate(st.regionServiceDescription, sTokens);
   svcH1 = interpolate(st.regionServiceH1, sTokens);
   svcCanonical = neighborhood
@@ -201,6 +206,7 @@ if (isServicePage && service && pageEntry) {
       "mainEntity": pageEntry.faq.map((f) => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) },
   ];
 }
+const priceUnitSuffix = svcPriceTable?.unit === 'm²' ? ' / m²' : '';
 // Region sayfasında o lokasyona ait combo (lokasyon×hizmet) linkleri
 const serviceNameBySlug = new Map(config.services.map((s) => [s.slug, s.name]));
 const localCombos = (((config as Record<string, unknown>).serviceAreaPages as Array<{ districtSlug: string; neighborhoodSlug?: string; serviceSlug: string }>) ?? [])
@@ -296,6 +302,22 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
             class="w-full rounded-2xl shadow-card mb-8 aspect-[16/9] object-cover"
           />
           {pageEntry.bodyParagraphs.map((para) => (<p class="text-text-primary text-base sm:text-lg leading-relaxed mb-5">{para}</p>))}
+          {svcPriceTable && (
+            <div class="mt-10">
+              <h2 class="text-2xl sm:text-3xl font-bold text-primary mb-2">{locationName} {service.name} Fiyatları {priceYear}</h2>
+              <p class="text-text-secondary text-sm mb-5">{svcPriceTable.unitNote} Tüm fiyatlara ücretsiz kapıdan alım-teslimat dahildir.</p>
+              <div class="bg-white rounded-2xl border border-border/50 shadow-card overflow-hidden">
+                <ul class="divide-y divide-border/40">
+                  {svcPriceTable.items.map((item) => (
+                    <li class="flex items-center justify-between gap-4 px-5 sm:px-6 py-3.5">
+                      <span class="font-medium text-text-primary">{item.name}</span>
+                      <span class="font-bold text-primary whitespace-nowrap">{item.price} ₺{priceUnitSuffix}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          )}
           <div class="mt-8 flex flex-col sm:flex-row gap-4 p-6 bg-surface rounded-2xl border border-border/50">
             <div class="flex-1">
               <h2 class="text-xl font-bold text-primary mb-1">{service.name} fiyatını mı merak ediyorsunuz?</h2>

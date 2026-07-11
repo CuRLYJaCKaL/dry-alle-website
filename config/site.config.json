@@ -2423,7 +2423,109 @@
           }
         ]
       }
-    ]
+    ],
+    "servicePriceTables": {
+      "hali-yikama": {
+        "unit": "m²",
+        "unitNote": "Fiyatlar metrekare başınadır.",
+        "items": [
+          {
+            "name": "Makine Halısı",
+            "price": 280
+          },
+          {
+            "name": "Makine Yün Halı",
+            "price": 400
+          },
+          {
+            "name": "Shaggy Halı",
+            "price": 400
+          },
+          {
+            "name": "El Dokuma Halı",
+            "price": 600
+          },
+          {
+            "name": "İpek Tuşeli Yün Halı",
+            "price": 750
+          },
+          {
+            "name": "Saf İpek Halı",
+            "price": 4000
+          }
+        ]
+      },
+      "koltuk-yikama": {
+        "unit": "adet",
+        "unitNote": "Fiyatlar parça/takım başınadır.",
+        "items": [
+          {
+            "name": "Sandalye",
+            "price": 400
+          },
+          {
+            "name": "Berjer",
+            "price": 1000
+          },
+          {
+            "name": "İkili Koltuk",
+            "price": 1500
+          },
+          {
+            "name": "Çekyat",
+            "price": 2000
+          },
+          {
+            "name": "Kanepe",
+            "price": 2000
+          },
+          {
+            "name": "Köşe Koltuk Takımı",
+            "price": 4000
+          },
+          {
+            "name": "Standart 7'li Koltuk Takımı",
+            "price": 4500
+          }
+        ]
+      },
+      "perde-temizleme": {
+        "unit": "adet",
+        "unitNote": "Ölçüye göre değişebilir; net fiyat için WhatsApp.",
+        "items": [
+          {
+            "name": "Stor Perde",
+            "price": 300
+          },
+          {
+            "name": "Zebra Perde",
+            "price": 350
+          },
+          {
+            "name": "Japon Perde",
+            "price": 400
+          },
+          {
+            "name": "Katlamalı Perde",
+            "price": 450
+          }
+        ]
+      },
+      "ev-tekstili-temizligi": {
+        "unit": "adet",
+        "unitNote": "Fiyatlar adet başınadır.",
+        "items": [
+          {
+            "name": "Elyaf Yorgan",
+            "price": 750
+          },
+          {
+            "name": "Yün-Pamuk Yorgan",
+            "price": 1000
+          }
+        ]
+      }
+    }
   },
   "corporate": {
     "title": "İşletmenize Özel Tekstil Bakım Çözümleri",
