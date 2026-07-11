@@ -43,6 +43,10 @@ const svcOverride = service as { seoTitle?: string; seoDescription?: string; faq
 const title = svcOverride.seoTitle || interpolate(config.seoTemplates.serviceTitle, seoTokens);
 const description = svcOverride.seoDescription || interpolate(config.seoTemplates.serviceDescription, seoTokens);
 const serviceFaq = svcOverride.faq ?? [];
+// Gercek fiyat tablosu (halı/koltuk/perde/yorgan) — config.pricing.servicePriceTables'tan.
+const svcPriceTable = (config.pricing?.servicePriceTables as Record<string, { unit: string; unitNote?: string; items: Array<{ name: string; price: number }> }> | undefined)?.[service.slug];
+const svcPriceUnitSuffix = svcPriceTable?.unit === 'm²' ? ' / m²' : '';
+const svcPriceYear = new Date().getFullYear();
 const canonicalPath = `/hizmetler/${service.slug}/`;
 
 const jsonLd = {
@@ -620,6 +624,33 @@ const relatedPosts = relatedSlugs
               <svg class="w-4 h-4 text-border group-hover:text-accent shrink-0 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
             </a>
           ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ════════════════════════════════════════════
+       FİYAT TABLOSU (gerçek fiyatlar — halı/koltuk/perde/yorgan)
+       ════════════════════════════════════════════ -->
+  {svcPriceTable && (
+    <section class="section-padding bg-white">
+      <div class="section-container max-w-3xl">
+        <div class="text-center mb-10">
+          <h2 class="text-3xl sm:text-4xl font-bold text-primary mb-3">{service.name} Fiyatları {svcPriceYear}</h2>
+          <p class="text-text-secondary">{svcPriceTable.unitNote} Tüm fiyatlara ücretsiz kapıdan alım-teslimat dahildir.</p>
+        </div>
+        <div class="bg-white rounded-2xl border border-border/50 shadow-card overflow-hidden">
+          <ul class="divide-y divide-border/40">
+            {svcPriceTable.items.map((item) => (
+              <li class="flex items-center justify-between gap-4 px-5 sm:px-6 py-4">
+                <span class="font-medium text-text-primary">{item.name}</span>
+                <span class="font-bold text-primary whitespace-nowrap">{item.price} ₺{svcPriceUnitSuffix}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="text-center mt-8">
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="btn-whatsapp px-8 py-4 text-base">Net fiyat için WhatsApp'tan fotoğraf gönderin</a>
         </div>
       </div>
     </section>

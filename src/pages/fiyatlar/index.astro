@@ -110,6 +110,10 @@ const breadcrumbs = [
 ];
 
 const priceableProducts = products.filter((p) => p.services.length > 0);
+// Yıkama hizmetleri gerçek fiyat tabloları (halı m², koltuk/perde/yorgan adet).
+const servicePriceTables = ((config as unknown as { pricing?: { servicePriceTables?: Record<string, { unit: string; unitNote?: string; items: Array<{ name: string; price: number }> }> } }).pricing?.servicePriceTables) ?? {};
+const washingYear = new Date().getFullYear();
+const washingLabels: Record<string, string> = { 'hali-yikama': 'Halı Yıkama', 'koltuk-yikama': 'Koltuk Yıkama', 'perde-temizleme': 'Perde Yıkama', 'ev-tekstili-temizligi': 'Yorgan Yıkama' };
 
 function toOffer(product: PricingProduct, categoryName: string): Record<string, unknown> {
   return {
@@ -440,35 +444,33 @@ const finalJsonLd = jsonLd ? [jsonLd, faqSchema] : faqSchema;
   <!-- Halı & Koltuk yıkama fiyat bağlamı (metrekare/adet bazlı, listede sabit fiyat yok) -->
   <section class="section-padding bg-surface">
     <div class="section-container max-w-4xl">
-      <h2 class="text-3xl font-bold text-primary mb-4">Halı ve Koltuk Yıkama Fiyatları</h2>
-      <p class="text-text-primary leading-relaxed mb-4">
-        Halı yıkama ve koltuk yıkama fiyatları, yukarıdaki ürün listesinden farklı olarak sabit
-        değildir. Halı yıkama <strong>metrekare</strong> üzerinden; koltuk yıkama ise <strong>koltuk
-        sayısı ve kumaş türü</strong> üzerinden hesaplanır. Bu yüzden size en doğru fiyatı, ürünü
-        gördükten sonra veriyoruz.
+      <h2 class="text-3xl font-bold text-primary mb-4">Halı, Koltuk, Perde ve Yorgan Yıkama Fiyatları {washingYear}</h2>
+      <p class="text-text-primary leading-relaxed mb-8">
+        Halı yıkama <strong>metrekare</strong>; koltuk, perde ve yorgan ise <strong>parça</strong> üzerinden fiyatlanır. Aşağıdaki güncel
+        {` ${washingYear} `}fiyat listesine ücretsiz kapıdan alım-teslimat dahildir. Kirlilik ve ölçüye göre net fiyat için
+        <a href={`https://wa.me/${whatsappClean}`} target="_blank" rel="noopener noreferrer" class="text-primary font-semibold underline"> WhatsApp'tan fotoğraf gönderin</a>.
       </p>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-        <div class="bg-white rounded-xl p-5 border border-border/50">
-          <h3 class="font-bold text-primary mb-2">Halı Yıkama Fiyatını Etkileyenler</h3>
-          <ul class="text-sm text-text-secondary space-y-1.5">
-            <li>• Halının metrekaresi</li>
-            <li>• Halı türü (yün, ipek, makine, shaggy)</li>
-            <li>• Kirlilik ve leke durumu</li>
-          </ul>
-        </div>
-        <div class="bg-white rounded-xl p-5 border border-border/50">
-          <h3 class="font-bold text-primary mb-2">Koltuk Yıkama Fiyatını Etkileyenler</h3>
-          <ul class="text-sm text-text-secondary space-y-1.5">
-            <li>• Koltuk sayısı (tekli / üçlü / köşe)</li>
-            <li>• Kumaş mı, deri mi</li>
-            <li>• Leke ve koku durumu</li>
-          </ul>
-        </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        {Object.entries(servicePriceTables).map(([slug, tbl]) => (
+          <div class="bg-white rounded-xl border border-border/50 overflow-hidden">
+            <h3 class="font-bold text-primary px-5 py-3 bg-surface/60 border-b border-border/40">
+              {washingLabels[slug] ?? slug} Fiyatları <span class="text-xs font-normal text-text-secondary">({tbl.unit})</span>
+            </h3>
+            <ul class="divide-y divide-border/40">
+              {tbl.items.map((item) => (
+                <li class="flex items-center justify-between gap-3 px-5 py-2.5 text-sm">
+                  <span class="text-text-primary">{item.name}</span>
+                  <span class="font-bold text-primary whitespace-nowrap">{item.price} ₺{tbl.unit === 'm²' ? '/m²' : ''}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
-      <p class="text-text-primary leading-relaxed">
-        Net fiyat için <a href={`https://wa.me/${whatsappClean}`} target="_blank" rel="noopener noreferrer" class="text-primary font-semibold underline">WhatsApp'tan fotoğraf gönderin</a>,
-        dakikalar içinde size özel fiyatı iletelim. Detaylı bilgi için <a href="/hizmetler/hali-yikama/" class="text-primary font-semibold underline">halı yıkama</a>
-        ve <a href="/hizmetler/koltuk-yikama/" class="text-primary font-semibold underline">koltuk yıkama</a> hizmet sayfalarımıza bakabilirsiniz.
+      <p class="text-text-secondary text-sm mt-6">
+        Detaylı bilgi: <a href="/hizmetler/hali-yikama/" class="text-primary font-semibold underline">halı yıkama</a>,
+        <a href="/hizmetler/koltuk-yikama/" class="text-primary font-semibold underline"> koltuk yıkama</a>,
+        <a href="/hizmetler/perde-temizleme/" class="text-primary font-semibold underline"> perde temizleme</a> hizmet sayfaları.
       </p>
     </div>
   </section>
