@@ -154,6 +154,11 @@ const otherNeighborhoods = district.neighborhoods.filter(
 const valuePropositions = config.contentTokens.valuePropositions;
 const whatsappClean = config.contact.whatsapp.replace(/[\s+]/g, '');
 const whatsappUrl = `https://wa.me/${whatsappClean}`;
+// Prose CTA linkify: "fiyatlar sayfamiza" + "WhatsApp hattimiza" -> gercek link (ic link + donusum).
+const linkCta = (t: string): string => t
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  .replace(/(fiyat(?:lar)? sayfamız[ıa])/g, '<a href="/fiyatlar/" class="text-primary font-medium underline hover:text-secondary">$1</a>')
+  .replace(/(WhatsApp hattımız(?:dan|a)?)/g, `<a href="${whatsappUrl}" target="_blank" rel="noopener noreferrer" class="text-primary font-medium underline hover:text-secondary">$1</a>`);
 
 const vpDetailTexts = config.contentTokens.valuePropositionDetails as string[];
 const vpDetails = valuePropositions.map((vpTitle: string, i: number) => ({
@@ -301,7 +306,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
             decoding="async"
             class="w-full rounded-2xl shadow-card mb-8 aspect-[16/9] object-cover"
           />
-          {pageEntry.bodyParagraphs.map((para) => (<p class="text-text-primary text-base sm:text-lg leading-relaxed mb-5">{para}</p>))}
+          {pageEntry.bodyParagraphs.map((para) => (<p class="text-text-primary text-base sm:text-lg leading-relaxed mb-5" set:html={linkCta(para)}></p>))}
           {svcPriceTable && (
             <div class="mt-10">
               <h2 class="text-2xl sm:text-3xl font-bold text-primary mb-2">{locationName} {service.name} Fiyatları {priceYear}</h2>
@@ -342,7 +347,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
                   <span>{item.question}</span>
                   <svg class="w-5 h-5 shrink-0 text-accent transition-transform duration-200 group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
                 </summary>
-                <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed">{item.answer}</div>
+                <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed" set:html={linkCta(item.answer)}></div>
               </details>
             ))}
           </div>

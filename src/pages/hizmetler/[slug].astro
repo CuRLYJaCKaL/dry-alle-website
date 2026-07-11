@@ -105,6 +105,12 @@ const { googleRating, reviewCount } = config.socialProof;
 const testimonials = config.socialProof.testimonials;
 const whatsappClean = config.contact.whatsapp.replace(/[\s+]/g, '');
 const whatsappUrl = `https://wa.me/${whatsappClean}`;
+// Prose icindeki "fiyatlar sayfamiza" ve "WhatsApp hattimiza" ifadelerini gercek link yapar
+// (ic link + donusum). Once HTML-escape, sonra bilinen ifadelere <a> ekler (guvenli).
+const linkCta = (t: string): string => t
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  .replace(/(fiyat(?:lar)? sayfamız[ıa])/g, '<a href="/fiyatlar/" class="text-primary font-medium underline hover:text-secondary">$1</a>')
+  .replace(/(WhatsApp hattımız(?:dan|a)?)/g, `<a href="${whatsappUrl}" target="_blank" rel="noopener noreferrer" class="text-primary font-medium underline hover:text-secondary">$1</a>`);
 
 /* Service-specific icon map (inline SVGs for each service type) */
 const serviceIcons: Record<string, string> = {
@@ -266,7 +272,7 @@ const relatedPosts = [...curatedPosts, ...taggedPosts]
           <h2 class="section-title">{service.name} Hizmetimiz Hakkında</h2>
           <div class="text-text-secondary leading-relaxed space-y-4 mt-8">
             {content.map((paragraph) => (
-              <p>{paragraph}</p>
+              <p set:html={linkCta(paragraph)}></p>
             ))}
           </div>
         </div>
@@ -686,7 +692,7 @@ const relatedPosts = [...curatedPosts, ...taggedPosts]
                 <span>{item.question}</span>
                 <svg class="w-5 h-5 shrink-0 text-accent transition-transform duration-200 group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
               </summary>
-              <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed">{item.answer}</div>
+              <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed" set:html={linkCta(item.answer)}></div>
             </details>
           ))}
         </div>
