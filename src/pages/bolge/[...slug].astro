@@ -168,6 +168,14 @@ const variantIdx = deterministicIndex(slugForVariant, regionVariants.length);
 const heroText = interpolate(regionVariants[variantIdx], seoTokens);
 const whySubtitle = interpolate(regionSubtitleVariants[variantIdx], seoTokens);
 
+// Gercek kuru temizleme fiyat vitrini (config.pricing'den — uydurma yok, /fiyatlar/ ile ayni).
+const priceYear = new Date().getFullYear();
+const priceHighlights = ((config.pricing?.products ?? []) as Array<{ name: string; sortOrder?: number; services: Array<{ type: string; price: number; popular?: boolean }> }>)
+  .map((p) => ({ name: p.name, sortOrder: p.sortOrder ?? 999, price: p.services.find((s) => s.type === 'kuru-temizleme' && s.popular)?.price }))
+  .filter((p): p is { name: string; sortOrder: number; price: number } => typeof p.price === 'number')
+  .sort((a, b) => a.sortOrder - b.sortOrder)
+  .slice(0, 10);
+
 // ── Lokasyon×Hizmet combo sayfası (isServicePage) ──
 const isServicePage = ((Astro.props as Record<string, unknown>).isServicePage as boolean) ?? false;
 const service = (Astro.props as Record<string, unknown>).service as { name: string; slug: string; description: string } | undefined;
@@ -575,6 +583,37 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
     </div>
   </section>
 
+
+  <!-- FIYAT VITRINI: yalnizca ilce + kurate/ozgun icerikli zengin semt sayfalarinda (doorway'den kacinmak icin) -->
+  {(isDistrict || regionIntroOverride) && (
+  <section class="section-padding bg-surface">
+    <div class="section-container max-w-3xl">
+      <div class="text-center mb-10">
+        <h2 class="section-title">{locationName} Kuru Temizleme Fiyatları {priceYear}</h2>
+        <p class="section-subtitle mx-auto">
+          {locationName} ve çevresinde tüm hizmetlerimizde şeffaf, sabit fiyat — ücretsiz kapıdan alım-teslimat dahil.
+        </p>
+      </div>
+      <div class="bg-white rounded-2xl border border-border/50 shadow-card overflow-hidden">
+        <ul class="divide-y divide-border/40">
+          {priceHighlights.map((item) => (
+            <li class="flex items-center justify-between gap-4 px-5 sm:px-6 py-3.5">
+              <span class="font-medium text-text-primary">{item.name}</span>
+              <span class="font-bold text-primary whitespace-nowrap">{item.price} ₺</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <p class="text-sm text-text-secondary mt-4 text-center">
+        Halı ve koltuk yıkama metrekare/adet bazlıdır; net fiyat için
+        <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="text-primary font-semibold underline">WhatsApp'tan fotoğraf gönderin</a>.
+      </p>
+      <div class="text-center mt-8">
+        <a href="/fiyatlar/" class="btn-primary px-8 py-4 text-base">Tüm Fiyat Listesi ({priceYear})</a>
+      </div>
+    </div>
+  </section>
+  )}
 
   <!-- ===================== WHY CHOOSE US SECTION ===================== -->
   <section class="section-padding bg-surface">
