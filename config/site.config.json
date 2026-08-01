@@ -48,7 +48,8 @@
     }
   },
   "analytics": {
-    "gtmId": "GTM-PXKN4266"
+    "gtmId": "GTM-PXKN4266",
+    "ga4Id": "G-3TG2S2PEZL"
   },
   "openingHours": {
     "days": [

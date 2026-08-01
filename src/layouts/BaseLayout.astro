@@ -22,6 +22,7 @@ interface Props {
 const { title, description, canonicalPath = '', jsonLd, ogImage, breadcrumbs, ogType, articleMeta } = Astro.props;
 const canonicalUrl = `https://${config.contact.domain}${canonicalPath}`;
 const gtmId: string | undefined = config.analytics?.gtmId;
+const ga4Id: string | undefined = config.analytics?.ga4Id;
 ---
 
 <!DOCTYPE html>
@@ -61,6 +62,17 @@ const gtmId: string | undefined = config.analytics?.gtmId;
           if (d.readyState === 'complete') { setTimeout(loadGTM, 3500); }
           else { w.addEventListener('load', function () { setTimeout(loadGTM, 3500); }, { once: true }); }
         })(window, document, gtmId);
+      </script>
+    )}
+    {ga4Id && (
+      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`}></script>
+      <script is:inline define:vars={{ ga4Id }}>
+        // GA4 (gtag.js) — async yuklenir, render'i bloklamaz. Sayfa goruntulemesi
+        // aninda kaydedilir ki hizli cikan ziyaretciler de sayilsin (dogru trafik verisi).
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { window.dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', ga4Id);
       </script>
     )}
   </head>
