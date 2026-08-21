@@ -71,6 +71,9 @@ const ga4Id: string | undefined = config.analytics?.ga4Id;
         // aninda kaydedilir ki hizli cikan ziyaretciler de sayilsin (dogru trafik verisi).
         window.dataLayer = window.dataLayer || [];
         function gtag() { window.dataLayer.push(arguments); }
+        // Astro `define:vars` scripti bir IIFE'ye sarar; gtag'i global'e ac ki
+        // donusum olayi listener'i (ve diger kodlar) window.gtag'e erisebilsin.
+        window.gtag = gtag;
         gtag('js', new Date());
         gtag('config', ga4Id);
       </script>
