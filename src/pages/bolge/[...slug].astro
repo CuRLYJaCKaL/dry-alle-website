@@ -119,14 +119,12 @@ const jsonLd = {
     "postalCode": config.contact.address.postalCode,
     "addressCountry": "TR"
   },
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": config.openingHours.days,
-      "opens": config.openingHours.opens,
-      "closes": config.openingHours.closes
-    }
-  ],
+  "openingHoursSpecification": config.openingHours.specifications.map((spec) => ({
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": spec.days,
+    "opens": spec.opens,
+    "closes": spec.closes
+  })),
   "areaServed": {
     "@type": "Place",
     "name": locationName

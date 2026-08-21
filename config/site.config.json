@@ -52,16 +52,27 @@
     "ga4Id": "G-3TG2S2PEZL"
   },
   "openingHours": {
-    "days": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday"
+    "specifications": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "days": [
+          "Sunday"
+        ],
+        "opens": "10:00",
+        "closes": "16:00"
+      }
     ],
-    "opens": "09:00",
-    "closes": "18:00",
     "displayText": "Pazartesi – Cumartesi: 09:00 - 18:00 | Pazar: 10:00 - 16:00"
   },
   "services": [

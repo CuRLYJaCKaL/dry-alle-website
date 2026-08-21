@@ -74,6 +74,47 @@ const ga4Id: string | undefined = config.analytics?.ga4Id;
         gtag('js', new Date());
         gtag('config', ga4Id);
       </script>
+      <script is:inline>
+        // Dönüşüm olayları — dokümanda delege tek listener: tel: → call_click,
+        // wa.me → whatsapp_click, sipariş formu gönderimi → order_submit.
+        // GA4 tel:'i otomatik ölçmez; wa.me outbound ile karışır — bu net ayırır.
+        function initGa4ConversionEvents() {
+          var root = document.documentElement;
+          if (root.dataset.ga4EventsInitialized) return;
+          root.dataset.ga4EventsInitialized = 'true';
+
+          function track(name, params) {
+            if (typeof window.gtag === 'function') {
+              window.gtag('event', name, params || {});
+            }
+          }
+
+          document.addEventListener('click', function (e) {
+            var link = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+            if (!link) return;
+            var href = link.getAttribute('href') || '';
+            if (href.indexOf('tel:') === 0) {
+              track('call_click', { link_url: href });
+            } else if (href.indexOf('wa.me') !== -1) {
+              track('whatsapp_click', { link_url: href });
+            }
+          }, true);
+
+          document.addEventListener('submit', function (e) {
+            var form = e.target;
+            if (form && form.id === 'siparis-form' && form.checkValidity()) {
+              track('order_submit', { form_name: 'siparis' });
+            }
+          }, true);
+        }
+
+        document.addEventListener('astro:page-load', initGa4ConversionEvents);
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initGa4ConversionEvents);
+        } else {
+          initGa4ConversionEvents();
+        }
+      </script>
     )}
   </head>
   <body class="min-h-screen flex flex-col">
