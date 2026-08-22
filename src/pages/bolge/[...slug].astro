@@ -155,7 +155,7 @@ const whatsappUrl = `https://wa.me/${whatsappClean}`;
 // Prose CTA linkify: "fiyatlar sayfamiza" + "WhatsApp hattimiza" -> gercek link (ic link + donusum).
 const linkCta = (t: string): string => t
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-  .replace(/(fiyat(?:lar)? sayfamız[ıa])/g, '<a href="/fiyatlar/" class="text-primary font-medium underline hover:text-secondary">$1</a>')
+  .replace(/(fiyat(?:lar)? sayfamız(?:dan|da|ı|a)?)/g, '<a href="/fiyatlar/" class="text-primary font-medium underline hover:text-secondary">$1</a>')
   .replace(/(WhatsApp hattımız(?:dan|a)?)/g, `<a href="${whatsappUrl}" target="_blank" rel="noopener noreferrer" class="text-primary font-medium underline hover:text-secondary">$1</a>`);
 
 const vpDetailTexts = config.contentTokens.valuePropositionDetails as string[];
