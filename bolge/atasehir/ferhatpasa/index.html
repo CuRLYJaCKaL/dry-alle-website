@@ -76,6 +76,54 @@
           // order_submit burada DEGIL, siparis sayfasinda tetiklenir: form gonderimi
           // sayfanin kendi dogrulamasindan gecip WhatsApp'a iletildigi an sayilmali,
           // yoksa iletilmeyen denemeler de donusum olarak sayiliyordu.
+
+          // ---- Dikkat olculeri ----
+          // Klasik isi haritasi bu trafikte okunamaz (sayfa basina ~2.000 goruntuleme
+          // ister). Ayni soruyu dusuk hacimde cevaplayan iki toplu olcu:
+          // sayfanin ne kadari okundu, iletisim butonuna ULASILDI mi.
+          var fired = {};
+          function once(name, params) {
+            if (fired[name]) return;
+            fired[name] = true;
+            track(name, params);
+          }
+
+          // Kaydirma derinligi — %90'i GA4'un kendi 'scroll' olayi zaten olcuyor.
+          function onScroll() {
+            var max = document.documentElement.scrollHeight - window.innerHeight;
+            if (max <= 0) return;
+            var pct = (window.pageYOffset / max) * 100;
+            if (pct >= 25) once('scroll_25');
+            if (pct >= 50) once('scroll_50');
+            if (pct >= 75) {
+              once('scroll_75');
+              window.removeEventListener('scroll', onScroll);
+            }
+          }
+          window.addEventListener('scroll', onScroll, { passive: true });
+
+          // Buton ekrana girdi mi? Sabit balon ve ust menu her sayfada bastan
+          // gorunur oldugu icin olculmez; anlamli soru, sayfa icindeki ve alt
+          // bilgideki butonlara ulasilip ulasilmadigi.
+          if (typeof IntersectionObserver === 'function') {
+            var seenCta = {};
+            var io = new IntersectionObserver(function (entries) {
+              for (var i = 0; i < entries.length; i++) {
+                if (!entries[i].isIntersecting) continue;
+                var el = entries[i].target;
+                io.unobserve(el);
+                var pos = placement(el);
+                if (seenCta[pos]) continue;
+                seenCta[pos] = true;
+                track('cta_impression', { cta_placement: pos });
+              }
+            }, { threshold: 0.5 });
+            var ctas = document.querySelectorAll('a[href^="tel:"], a[href*="wa.me"]');
+            for (var k = 0; k < ctas.length; k++) {
+              var pk = placement(ctas[k]);
+              if (pk === 'content' || pk === 'footer') io.observe(ctas[k]);
+            }
+          }
         }
 
         document.addEventListener('astro:page-load', initGa4ConversionEvents);
