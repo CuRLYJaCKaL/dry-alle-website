@@ -1,28 +1,21 @@
-DryPrestij Kuru Temizleme - Yeni Proje
+DryAlle Kuru Temizleme - Web Sitesi
 ========================================
 
-Bu proje, DryTarabyaKuruTemizleme'den klonlanmış ve marka kimliği
-"Dry Prestij" olarak güncellenmiş halidir.
+Kaynak kod bu klasörde; site GitHub Pages üzerinden yayınlanır.
 
-SİTEYİ ÖNİZLE (statik, hızlı bakış):
-   → onizleme.html dosyasını çift tıklayın (tarayıcıda açılır)
-
-CANLI GELİŞTİRME / TÜM SAYFALAR İLE ÇALIŞMA:
+CANLI GELİŞTİRME (tüm sayfalarla çalışma):
    → baslat-dev-server.command dosyasını çift tıklayın
    → İlk kez ~1 dk bağımlılık kurulumu yapacak
    → Sonra http://localhost:4321 adresinde site açılır
 
-NELERİ DEĞİŞTİ:
-   • Marka: Dry Tarabya  →  Dry Prestij  (61 referans, 23 dosyada)
-   • Domain: drytarabyakurutemizleme.com  →  dryprestijkurutemizleme.com
-   • package.json adı: dry-prestij-kuru-temizleme
-
-DEĞİŞMEYEN (KASTEN):
-   • "Tarabya" semt adı (örn. /bolge/sariyer/tarabya/, blog
-     içeriklerindeki coğrafi referanslar) — semt ismi olarak korundu.
+YAYINA ALMA:
+   → Değişikliği "astro-src" dalına gönderin (git push).
+   → GitHub Actions otomatik derler, "astro-live" dalına atar,
+     GitHub Pages dryallekurutemizleme.com adresinde yayınlar.
+   → Elle deploy adımı YOKTUR. Detay: CLAUDE.md → Deploy Kurallari
 
 YAPI:
    src/             Astro kaynak dosyaları
    public/          Statik varlıklar (font, ikon, görsel)
-   config/          Site konfigürasyonu (site.config.json)
-   dist/            Build çıktısı (npm run build sonrası)
+   config/          Site konfigürasyonu (site.config.json — tek otorite)
+   dist/            Build çıktısı (npm run build sonrası, yayına giden)

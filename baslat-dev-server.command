@@ -1,8 +1,8 @@
 #!/bin/bash
-# DryPrestijKuruTemizleme dev server başlatıcı
+# DryAlle Kuru Temizleme dev server başlatıcı
 cd "$(dirname "$0")"
 echo "==========================================="
-echo " DryPrestij Kuru Temizleme - Dev Server"
+echo " DryAlle Kuru Temizleme - Dev Server"
 echo "==========================================="
 echo ""
 

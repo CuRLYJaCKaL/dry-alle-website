@@ -316,14 +316,29 @@ Gercek veri yoksa o alan/bolum tamamen cikarilir.
 
 ---
 
-## Deploy Kurallari (DigitalOcean App Platform)
+## Deploy Kurallari (GitHub Actions -> GitHub Pages)
 
-- Build komutu: `npm run build`
-- Output dizini: `dist/`
-- Static site olarak deploy edilir.
-- SSL otomatik.
-- Custom domain destegi.
-- Dockerfile GEREKMEZ (static build).
+**Yayin akisi (tek yol, elle adim yok):**
+
+```
+astro-src dalina push
+   -> .github/workflows/scheduled-publish.yml tetiklenir
+   -> npm run build (tum dogrulama kapilari calisir)
+   -> dist/ ciktisi astro-live dalina yazilir
+   -> GitHub Pages dryallekurutemizleme.com adresinde yayinlar
+```
+
+- Kaynak dal: `astro-src` (yerel `main` bu dali izler).
+- Yayin dali: `astro-live` — **elle commit atilmaz**, workflow yazar.
+- Ayni workflow her gun 07:00 UTC calisir (tarih-kapili blog yayini icin).
+- Build komutu: `npm run build` · Output: `dist/` · Dockerfile GEREKMEZ.
+- CNAME ve `.nojekyll`, `scripts/generate-redirect-stubs.mjs` tarafindan
+  `dist/` icine uretilir. Bu adim bozulursa **ozel alan adi duser.**
+
+**YASAK:** Bu repo DigitalOcean droplet'ine veya baska bir sunucuya deploy
+EDILMEZ. Kardes proje DryPrestij'den kopyalanmis rsync workflow'u
+(`/var/www/dryprestij/` hedefli) 4 Eyl 2026'da kaldirildi — geri eklenmez.
+Iki projenin deploy hatti birbirinden tamamen ayridir.
 
 ---
 
