@@ -78,9 +78,10 @@ const ga4Id: string | undefined = config.analytics?.ga4Id;
         gtag('config', ga4Id);
       </script>
       <script is:inline>
-        // Dönüşüm olayları — dokümanda delege tek listener: tel: → call_click,
-        // wa.me → whatsapp_click, sipariş formu gönderimi → order_submit.
+        // Dönüşüm olayları — delege tek listener: tel: → call_click,
+        // wa.me → whatsapp_click, mailto: → email_click.
         // GA4 tel:'i otomatik ölçmez; wa.me outbound ile karışır — bu net ayırır.
+        // Her olay cta_placement parametresiyle gönderilir (sticky/header/footer/content).
         function initGa4ConversionEvents() {
           var root = document.documentElement;
           if (root.dataset.ga4EventsInitialized) return;
@@ -92,23 +93,31 @@ const ga4Id: string | undefined = config.analytics?.ga4Id;
             }
           }
 
+          // Butonun sayfadaki yeri: sabit WhatsApp balonu mu, header/footer mi,
+          // icerik icindeki CTA mi? Hangi konumun donusturdugunu ayirt eder.
+          function placement(link) {
+            if (link.closest('#whatsapp-cta')) return 'sticky';
+            if (link.closest('header')) return 'header';
+            if (link.closest('footer')) return 'footer';
+            return 'content';
+          }
+
           document.addEventListener('click', function (e) {
             var link = e.target && e.target.closest ? e.target.closest('a[href]') : null;
             if (!link) return;
             var href = link.getAttribute('href') || '';
             if (href.indexOf('tel:') === 0) {
-              track('call_click', { link_url: href });
+              track('call_click', { link_url: href, cta_placement: placement(link) });
             } else if (href.indexOf('wa.me') !== -1) {
-              track('whatsapp_click', { link_url: href });
+              track('whatsapp_click', { link_url: href, cta_placement: placement(link) });
+            } else if (href.indexOf('mailto:') === 0) {
+              track('email_click', { link_url: href, cta_placement: placement(link) });
             }
           }, true);
 
-          document.addEventListener('submit', function (e) {
-            var form = e.target;
-            if (form && form.id === 'siparis-form' && form.checkValidity()) {
-              track('order_submit', { form_name: 'siparis' });
-            }
-          }, true);
+          // order_submit burada DEGIL, siparis sayfasinda tetiklenir: form gonderimi
+          // sayfanin kendi dogrulamasindan gecip WhatsApp'a iletildigi an sayilmali,
+          // yoksa iletilmeyen denemeler de donusum olarak sayiliyordu.
         }
 
         document.addEventListener('astro:page-load', initGa4ConversionEvents);

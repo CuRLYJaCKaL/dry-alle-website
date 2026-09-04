@@ -311,6 +311,12 @@ const breadcrumbs = [
       var encoded = encodeURIComponent(lines.join('\n'));
       window.open('https://wa.me/' + waNumber + '?text=' + encoded, '_blank', 'noopener,noreferrer');
 
+      // GA4 dönüşümü — sipariş gerçekten WhatsApp'a iletildiği an sayılır.
+      // (Doğrulamadan geçmeyen gönderim denemeleri dönüşüm sayılmaz.)
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'order_submit', { form_name: 'siparis', service_type: hizmet });
+      }
+
       // GTM dataLayer event — GTM kurulmamışsa sessizce geçer
       if (typeof window.dataLayer !== 'undefined') {
         window.dataLayer.push({
