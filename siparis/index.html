@@ -36,9 +36,10 @@
         gtag('config', ga4Id);
       })();</script>
       <script>
-        // Dönüşüm olayları — dokümanda delege tek listener: tel: → call_click,
-        // wa.me → whatsapp_click, sipariş formu gönderimi → order_submit.
+        // Dönüşüm olayları — delege tek listener: tel: → call_click,
+        // wa.me → whatsapp_click, mailto: → email_click.
         // GA4 tel:'i otomatik ölçmez; wa.me outbound ile karışır — bu net ayırır.
+        // Her olay cta_placement parametresiyle gönderilir (sticky/header/footer/content).
         function initGa4ConversionEvents() {
           var root = document.documentElement;
           if (root.dataset.ga4EventsInitialized) return;
@@ -50,23 +51,31 @@
             }
           }
 
+          // Butonun sayfadaki yeri: sabit WhatsApp balonu mu, header/footer mi,
+          // icerik icindeki CTA mi? Hangi konumun donusturdugunu ayirt eder.
+          function placement(link) {
+            if (link.closest('#whatsapp-cta')) return 'sticky';
+            if (link.closest('header')) return 'header';
+            if (link.closest('footer')) return 'footer';
+            return 'content';
+          }
+
           document.addEventListener('click', function (e) {
             var link = e.target && e.target.closest ? e.target.closest('a[href]') : null;
             if (!link) return;
             var href = link.getAttribute('href') || '';
             if (href.indexOf('tel:') === 0) {
-              track('call_click', { link_url: href });
+              track('call_click', { link_url: href, cta_placement: placement(link) });
             } else if (href.indexOf('wa.me') !== -1) {
-              track('whatsapp_click', { link_url: href });
+              track('whatsapp_click', { link_url: href, cta_placement: placement(link) });
+            } else if (href.indexOf('mailto:') === 0) {
+              track('email_click', { link_url: href, cta_placement: placement(link) });
             }
           }, true);
 
-          document.addEventListener('submit', function (e) {
-            var form = e.target;
-            if (form && form.id === 'siparis-form' && form.checkValidity()) {
-              track('order_submit', { form_name: 'siparis' });
-            }
-          }, true);
+          // order_submit burada DEGIL, siparis sayfasinda tetiklenir: form gonderimi
+          // sayfanin kendi dogrulamasindan gecip WhatsApp'a iletildigi an sayilmali,
+          // yoksa iletilmeyen denemeler de donusum olarak sayiliyordu.
         }
 
         document.addEventListener('astro:page-load', initGa4ConversionEvents);
@@ -110,5 +119,5 @@ WhatsApp ile Yazın
 &copy; 2026 Dry Alle Kuru Temizleme. Tüm hakları saklıdır.
 </p> <p class="text-white/60 text-xs"> Kadıköy, İstanbul </p> </div> </div> </footer> <div class="fixed bottom-6 right-6 z-40" id="whatsapp-cta" data-astro-cid-lpdvqdls>  <span class="wa-tooltip absolute right-[calc(100%+12px)] top-1/2 -translate-y-1/2 whitespace-nowrap bg-white text-primary text-sm font-semibold px-4 py-2 rounded-lg shadow-elevated pointer-events-none" aria-hidden="true" data-astro-cid-lpdvqdls>
 WhatsApp ile Yazın
-</span>  <span class="absolute inset-0 rounded-full bg-[#25D366]/40 animate-[whatsapp-ping_2.5s_cubic-bezier(0,0,0.2,1)_3]" aria-hidden="true" data-astro-cid-lpdvqdls></span> <a href="https://wa.me/905433527474" target="_blank" rel="noopener noreferrer" class="relative w-14 h-14 rounded-full bg-[#166B34] text-white flex items-center justify-center shadow-elevated hover:scale-110 transition-transform duration-200 animate-[whatsapp-bounce_0.6s_ease-out_0.5s_both]" aria-label="WhatsApp ile iletişime geçin" data-astro-cid-lpdvqdls> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7" data-astro-cid-lpdvqdls> <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" data-astro-cid-lpdvqdls></path> <path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.387 0-4.607-.798-6.382-2.147l-.362-.282-3.448 1.156 1.156-3.448-.282-.362A9.935 9.935 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z" data-astro-cid-lpdvqdls></path> </svg> </a> </div>  </body></html> <script type="module">function n(){var t=document.getElementById("siparis-form"),a=document.getElementById("form-error");if(!(!t||!a)&&!t.dataset.initialized){t.dataset.initialized="true";var v=t.dataset.waNumber;t.addEventListener("submit",function(c){c.preventDefault();var r=document.getElementById("hizmet").value,i=document.getElementById("parca").value,o=document.getElementById("ad-soyad").value.trim(),s=document.getElementById("telefon").value.trim(),l=document.getElementById("adres").value.trim(),m=document.getElementById("siparis-not").value.trim(),f=[{el:document.getElementById("hizmet"),val:r},{el:document.getElementById("ad-soyad"),val:o},{el:document.getElementById("telefon"),val:s},{el:document.getElementById("adres"),val:l}],u=!1;if(f.forEach(function(d){d.val?d.el.classList.remove("border-red-400"):(d.el.classList.add("border-red-400"),u=!0)}),u){a.classList.remove("hidden");return}a.classList.add("hidden");var e=["🧺 Online Sipariş (%20 İndirimli)","","Hizmet: "+r];i&&e.push("Parça Sayısı: "+i),e.push("Ad Soyad: "+o),e.push("Telefon: "+s),e.push("Adres: "+l),m&&e.push("Not: "+m);var p=encodeURIComponent(e.join(`
-`));window.open("https://wa.me/"+v+"?text="+p,"_blank","noopener,noreferrer"),typeof window.dataLayer<"u"&&window.dataLayer.push({event:"form_submit_success",form_name:"siparis",service_type:r,source:"whatsapp_order"})})}}document.addEventListener("astro:page-load",n);document.readyState==="loading"?document.addEventListener("DOMContentLoaded",n):n();</script>
+</span>  <span class="absolute inset-0 rounded-full bg-[#25D366]/40 animate-[whatsapp-ping_2.5s_cubic-bezier(0,0,0.2,1)_3]" aria-hidden="true" data-astro-cid-lpdvqdls></span> <a href="https://wa.me/905433527474" target="_blank" rel="noopener noreferrer" class="relative w-14 h-14 rounded-full bg-[#166B34] text-white flex items-center justify-center shadow-elevated hover:scale-110 transition-transform duration-200 animate-[whatsapp-bounce_0.6s_ease-out_0.5s_both]" aria-label="WhatsApp ile iletişime geçin" data-astro-cid-lpdvqdls> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7" data-astro-cid-lpdvqdls> <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" data-astro-cid-lpdvqdls></path> <path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.387 0-4.607-.798-6.382-2.147l-.362-.282-3.448 1.156 1.156-3.448-.282-.362A9.935 9.935 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z" data-astro-cid-lpdvqdls></path> </svg> </a> </div>  </body></html> <script type="module">function d(){var t=document.getElementById("siparis-form"),r=document.getElementById("form-error");if(!(!t||!r)&&!t.dataset.initialized){t.dataset.initialized="true";var v=t.dataset.waNumber;t.addEventListener("submit",function(c){c.preventDefault();var a=document.getElementById("hizmet").value,i=document.getElementById("parca").value,o=document.getElementById("ad-soyad").value.trim(),s=document.getElementById("telefon").value.trim(),m=document.getElementById("adres").value.trim(),l=document.getElementById("siparis-not").value.trim(),f=[{el:document.getElementById("hizmet"),val:a},{el:document.getElementById("ad-soyad"),val:o},{el:document.getElementById("telefon"),val:s},{el:document.getElementById("adres"),val:m}],u=!1;if(f.forEach(function(n){n.val?n.el.classList.remove("border-red-400"):(n.el.classList.add("border-red-400"),u=!0)}),u){r.classList.remove("hidden");return}r.classList.add("hidden");var e=["🧺 Online Sipariş (%20 İndirimli)","","Hizmet: "+a];i&&e.push("Parça Sayısı: "+i),e.push("Ad Soyad: "+o),e.push("Telefon: "+s),e.push("Adres: "+m),l&&e.push("Not: "+l);var p=encodeURIComponent(e.join(`
+`));window.open("https://wa.me/"+v+"?text="+p,"_blank","noopener,noreferrer"),typeof window.gtag=="function"&&window.gtag("event","order_submit",{form_name:"siparis",service_type:a}),typeof window.dataLayer<"u"&&window.dataLayer.push({event:"form_submit_success",form_name:"siparis",service_type:a,source:"whatsapp_order"})})}}document.addEventListener("astro:page-load",d);document.readyState==="loading"?document.addEventListener("DOMContentLoaded",d):d();</script>
