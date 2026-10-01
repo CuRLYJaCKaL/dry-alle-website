@@ -1,6 +1,6 @@
 # Dry Alle Kuru Temizleme
 
-> İstanbul Anadolu Yakası'nda 25 yıllık deneyimle kuru temizleme, halı yıkama, koltuk yıkama ve premium tekstil bakım hizmetleri. Ücretsiz kapıdan teslimat.
+> İstanbul Anadolu Yakası'nda {experienceYears} yıllık deneyimle kuru temizleme, halı yıkama, koltuk yıkama ve premium tekstil bakım hizmetleri. Ücretsiz kapıdan teslimat.
 
 2000'den bu yana İstanbul Anadolu Yakası'nda profesyonel kuru temizleme, halı yıkama, koltuk yıkama ve tekstil bakım hizmeti. Ücretsiz kapıdan alım-teslimat.
 
@@ -131,7 +131,7 @@ Kapıdan alım ve teslimat ücretsizdir.
 Evet, kuru temizleme, halı yıkama, ütü hizmetleri, çanta temizleme ve lostra hizmetleri için ücretsiz kapıdan teslimat yapıyoruz. Koltuk yıkama ve perde temizleme hizmetleri evinizde gerçekleştirilir.
 
 **Kaç yıllık deneyiminiz var?**
-25 yıldır İstanbul Anadolu Yakası'nda kuru temizleme, halı yıkama, koltuk yıkama ve tekstil temizliği alanında hizmet vermekteyiz.
+{experienceYears} yıldır İstanbul Anadolu Yakası'nda kuru temizleme, halı yıkama, koltuk yıkama ve tekstil temizliği alanında hizmet vermekteyiz.
 
 **Çalışma saatleriniz nedir?**
 Pazartesi-Cumartesi 09:00-18:00 saatleri arasında hizmet veriyoruz. Pazar günleri 10:00-16:00 saatleri arasında acil hizmet verebiliriz. 0543 352 74 74 numarasından bize ulaşabilirsiniz.
