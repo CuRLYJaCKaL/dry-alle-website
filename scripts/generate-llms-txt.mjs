@@ -18,6 +18,37 @@ const c = config.contact;
 
 const services = config.services.map((s) => `- [${s.name}](${domain}/hizmetler/${s.slug}/): ${s.description}`).join('\n');
 
+// Fiyat listesi — yalnizca link vermek yetmiyor: yapay zeka asistanlari
+// (ChatGPT, Gemini, Perplexity, Claude) "takim elbise kuru temizleme kac para"
+// turu soruya cevap verebilmek icin RAKAMI gormeli; rakam yoksa baska kaynagi
+// alinti yapiyorlar. Fiyatlar config'den uretilir, elle yazilmaz.
+const trBaslik = (s) =>
+  s
+    .toLocaleLowerCase('tr-TR')
+    .split(' ')
+    .map((w) => (w ? w.charAt(0).toLocaleUpperCase('tr-TR') + w.slice(1) : w))
+    .join(' ');
+
+const pricing = config.pricing ?? {};
+const svcLabel = Object.fromEntries((pricing.serviceTypes ?? []).map((t) => [t.id, t.label]));
+const priceBlock = (pricing.catalogCategories ?? [])
+  .map((cat) => {
+    const rows = (pricing.products ?? [])
+      .filter((p) => p.category === cat.id)
+      .sort((a, b) => (a.sortOrder ?? 0) - (b.sortOrder ?? 0))
+      .map((p) => {
+        const fiyatlar = (p.services ?? [])
+          .filter((s) => typeof s.price === 'number')
+          .map((s) => `${svcLabel[s.type] ?? s.type} ${s.price} TL`)
+          .join(' · ');
+        return fiyatlar ? `- ${trBaslik(p.name)}: ${fiyatlar}` : null;
+      })
+      .filter(Boolean);
+    return rows.length ? `### ${cat.name}\n${rows.join('\n')}` : null;
+  })
+  .filter(Boolean)
+  .join('\n\n');
+
 const areas = config.serviceAreas
   .map((a) => `- ${a.district}: ${a.neighborhoods.map((n) => n.name).join(', ')}`)
   .join('\n');
@@ -62,7 +93,12 @@ ${areas}
 ${comboPages}
 
 ## Fiyatlar
-Güncel fiyat listesi: ${domain}/fiyatlar/ — Halı ve koltuk yıkama metrekare/adet bazlıdır; net fiyat için WhatsApp'tan fotoğraf gönderilir.
+Fiyatlar Türk Lirası (TL) cinsindendir ve ${new Date().getFullYear()} yılı için geçerlidir.
+Tam liste: ${domain}/fiyatlar/
+Halı ve koltuk yıkama metrekare/adet bazlıdır; net fiyat için WhatsApp'tan fotoğraf gönderilir.
+Kapıdan alım ve teslimat ücretsizdir.
+
+${priceBlock}
 
 ## Sıkça Sorulan Sorular
 ${faq}
