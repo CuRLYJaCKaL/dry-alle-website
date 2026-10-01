@@ -1,28 +1,71 @@
 # Dry Alle Kuru Temizleme — robots.txt
 
-# Tüm arama motorlarına izin ver
+# Tüm arama motorlarına tam izin.
+# NOT: /_astro/ (CSS + JS) ENGELLENMEZ. Google sayfayı render ederek
+# değerlendirir; stil ve script engellenirse site stilsiz görünür ve
+# mobil uyumluluk sinyali bozulur.
 User-agent: *
 Allow: /
-Disallow: /_astro/
 
-# Google AI (Gemini, SGE) — içeriğimizi AI özetlerinde kullanabilir
-User-agent: Google-Extended
+# ─── Arama motorları ───
+User-agent: Googlebot
 Allow: /
 
-# OpenAI GPTBot — içeriğimizi AI özetlerinde kullanabilir
-User-agent: GPTBot
-Allow: /
-
-# Anthropic Claude — içeriğimizi AI özetlerinde kullanabilir
-User-agent: anthropic-ai
-Allow: /
-
-# Bing AI (Copilot)
 User-agent: Bingbot
 Allow: /
 
-# Yandex
 User-agent: Yandex
+Allow: /
+
+# ─── Yapay zekâ: Google (Gemini, AI Overviews / AI Mode) ───
+User-agent: Google-Extended
+Allow: /
+
+# ─── Yapay zekâ: OpenAI ───
+# GPTBot = model eğitimi · OAI-SearchBot = ChatGPT arama dizini
+# ChatGPT-User = kullanıcı sorduğunda sayfayı canlı getiren ajan
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ─── Yapay zekâ: Anthropic (Claude) ───
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# ─── Yapay zekâ: Perplexity ───
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ─── Yapay zekâ: Apple Intelligence ───
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ─── Yapay zekâ: Common Crawl (birçok modelin kaynağı) ───
+User-agent: CCBot
+Allow: /
+
+# ─── Yapay zekâ: Microsoft Copilot ───
+User-agent: MSNBot-Media
 Allow: /
 
 # Sitemap
