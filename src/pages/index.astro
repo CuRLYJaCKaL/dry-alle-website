@@ -14,9 +14,11 @@ import { interpolate } from '../utils/engine';
 
 const seoTokens = {
   businessName: config.identity.businessName,
+  brandName: config.identity.brandName,
   province: config.contact.address.province,
   sectorLabel: config.identity.sectorLabel,
   sectorLabelLower: config.identity.sectorLabel.toLowerCase(),
+  establishedYear: String(config.identity.establishedYear),
 };
 
 const title = interpolate(config.seoTemplates.homeTitle, seoTokens);

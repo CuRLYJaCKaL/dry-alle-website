@@ -1198,7 +1198,7 @@
     "homeDescription": "İstanbul Anadolu Yakası'nda {establishedYear}'den bu yana kuru temizleme, halı yıkama ve koltuk yıkama. {businessName} güvencesiyle ücretsiz kapıdan teslimat.",
     "serviceTitle": "{serviceName} | {businessName}",
     "serviceDescription": "İstanbul Anadolu Yakası'nda profesyonel {serviceNameLower} hizmeti. 25 yıllık deneyim ve ücretsiz kapıdan teslimatla {businessName} farkını yaşayın.",
-    "regionTitle": "{location} {primaryKeywordCap} | {businessName}",
+    "regionTitle": "{location} {primaryKeywordCap} — Kapıdan Alım | {brandName}",
     "regionDescription": "{location} bölgesinde profesyonel {primaryKeyword}, halı yıkama ve koltuk yıkama hizmeti. {businessName} — {establishedYear}'den bu yana kapınıza geliyoruz.",
     "regionH1": "{location} {sectorLabel} Hizmeti",
     "aboutTitle": "Hakkımızda | {businessName}",
