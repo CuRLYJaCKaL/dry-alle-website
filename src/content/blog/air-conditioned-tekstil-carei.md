@@ -1,6 +1,6 @@
 ---
 title: "Klimalı Ortamda Perde Bakımı: Uzman Rehberi"
-description: "Klimasız ortamda perde ve tekstil bakımı rehberi. Statik elektrik önleme, nem kontrolü ve klima filtresi etkileşimi."
+description: "Klimasız ortamda perde ve tekstil bakımı rehberi. Statik elektrik önleme, nem kontrolü ve klima filtresi etkileşimi. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-11-05"
 author: "Dry Alle Uzman Ekibi"
 tags:

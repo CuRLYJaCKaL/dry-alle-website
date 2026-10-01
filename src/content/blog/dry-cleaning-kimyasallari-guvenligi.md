@@ -1,6 +1,6 @@
 ---
 title: "Kuru Temizleme Güvenliği: Bilmeniz Gerekenler"
-description: "Kuru temizleme kimyasalları, güvenlik önlemleri ve sağlık etkileri hakkında detaylı bilgiler. Perkloretilin ve çevre dostu alternatifler."
+description: "Kuru temizleme kimyasalları, güvenlik önlemleri ve sağlık etkileri hakkında detaylı bilgiler. Perkloretilin ve çevre dostu alternatifler. — Dry Alle."
 date: "2024-09-15"
 author: "Dry Alle Uzman Ekibi"
 tags:

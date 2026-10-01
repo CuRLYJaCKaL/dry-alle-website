@@ -1,7 +1,7 @@
 ---
 title: "Halı Renk Solması Önleme Yöntemleri: Uzman Rehberi"
 seoTitle: "Halı Renk Solması Önleme Yöntemleri"
-description: "Halılarda renk solması önleme teknikleri. UV koruma, doğru temizlik ürünleri ve renk sabitleyici uygulamalar."
+description: "Halılarda renk solması önleme teknikleri. UV koruma, doğru temizlik ürünleri ve renk sabitleyici uygulamalar. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-11-25"
 author: "Dry Alle Uzman Ekibi"
 tags:

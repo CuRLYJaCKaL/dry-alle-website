@@ -1,6 +1,6 @@
 ---
 title: "Yaz Kıyafetleri Saklama Rehberi: Uzman Rehberi"
-description: "Yaz sonunda kıyafetlerin doğru saklanması için kapsamlı rehber. Temizlik, katlama, depolama ve böcek korunma yöntemleri."
+description: "Yaz sonunda kıyafetlerin doğru saklanması için kapsamlı rehber. Temizlik, katlama, depolama ve böcek korunma yöntemleri. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-11-05"
 author: "Dry Alle Uzman Ekibi"
 tags:

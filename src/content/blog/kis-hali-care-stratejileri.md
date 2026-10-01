@@ -1,6 +1,6 @@
 ---
 title: "Kış Halı Bakım Stratejileri: Uzman Rehberi"
-description: "Kış aylarında halı bakımı için özel stratejiler. Nem kontrolü, statik elektrik önleme ve kış aylarına özel temizlik programı."
+description: "Kış aylarında halı bakımı için özel stratejiler. Nem kontrolü, statik elektrik önleme ve kış aylarına özel temizlik programı. Ücretsiz kapıdan alım — Dry Alle."
 date: "2025-01-10"
 author: "Dry Alle Uzman Ekibi"
 tags:

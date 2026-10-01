@@ -1,6 +1,6 @@
 ---
 title: "Perde Temizleme Rehberleri"
-description: "İstanbul Anadolu Yakası'nda perde temizleme, perde bakımı ve ev perdesi yıkama konularında uzman tavsiyeleri."
+description: "İstanbul Anadolu Yakası'nda perde temizleme, perde bakımı ve ev perdesi yıkama konularında uzman tavsiyeleri. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-09-05"
 author: "Dry Alle Uzman Ekibi"
 tags:

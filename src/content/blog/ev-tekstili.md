@@ -1,6 +1,6 @@
 ---
 title: "Ev Tekstili Bakım Rehberleri"
-description: "İstanbul Anadolu Yakası'nda ev tekstili temizliği, nevresim, battaniye, yorgan bakımı konularında uzman tavsiyeleri."
+description: "İstanbul Anadolu Yakası'nda ev tekstili temizliği, nevresim, battaniye, yorgan bakımı konularında uzman tavsiyeleri. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-12-20"
 author: "Dry Alle Uzman Ekibi"
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Lüks Halı Koleksiyonu Bakımı: Uzman Rehberi"
-description: "Değerli halı koleksiyonlarının profesyonel bakımı. İpek halılar, antik Anadolu halıları ve designer pieces için özel bakım protokolleri."
+description: "Değerli halı koleksiyonlarının profesyonel bakımı. İpek halılar, antik Anadolu halıları ve designer pieces için özel bakım protokolleri. — Dry Alle."
 date: "2024-10-25"
 author: "Dry Alle Uzman Ekibi"
 tags:

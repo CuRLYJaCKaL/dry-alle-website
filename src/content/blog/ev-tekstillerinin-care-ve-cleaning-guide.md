@@ -1,6 +1,6 @@
 ---
 title: "Ev Tekstillerinin Bakım ve Temizlik Rehberi"
-description: "Ev tekstillerinizi uzun ömürlü ve hijyenik tutmak için kapsamlı bakım rehberi. Çamaşır, yatak takımı ve perde bakımı."
+description: "Ev tekstillerinizi uzun ömürlü ve hijyenik tutmak için kapsamlı bakım rehberi. Çamaşır, yatak takımı ve perde bakımı. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2025-01-05"
 author: "Dry Alle Uzman Ekibi"
 tags:

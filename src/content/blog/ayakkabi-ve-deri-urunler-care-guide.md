@@ -1,6 +1,6 @@
 ---
 title: "Ayakkabı ve Deri Ürünler Bakım Rehberi"
-description: "Ayakkabı ve deri ürünlerinizin doğru bakımı ve lostra hizmeti için kapsamlı rehber. Deri koruma ve uzun ömür ipuçları."
+description: "Ayakkabı ve deri ürünlerinizin doğru bakımı ve lostra hizmeti için kapsamlı rehber. Deri koruma ve uzun ömür ipuçları. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-10-15"
 author: "Dry Alle Uzman Ekibi"
 tags:

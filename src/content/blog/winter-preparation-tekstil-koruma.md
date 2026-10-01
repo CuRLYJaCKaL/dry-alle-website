@@ -1,6 +1,6 @@
 ---
 title: "Kış Hazırlığı Tekstil Koruma: Uzman Rehberi"
-description: "Kış aylarına hazırlık için tekstil koruma rehberi. Nem kontrolü, statik elektrik önleme ve mevsimsel kıyafet organizasyonu."
+description: "Kış aylarına hazırlık için tekstil koruma rehberi. Nem kontrolü, statik elektrik önleme ve mevsimsel kıyafet organizasyonu. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-11-20"
 author: "Dry Alle Uzman Ekibi"
 tags:

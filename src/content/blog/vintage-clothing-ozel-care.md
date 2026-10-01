@@ -1,6 +1,6 @@
 ---
 title: "Vintage Kıyafetler Özel Bakım: Uzman Rehberi"
-description: "Antika ve vintage kıyafetlerin özel bakım gereksinimleri. Hassas kumaşlar, renk koruma ve restore edici temizlik teknikleri."
+description: "Antika ve vintage kıyafetlerin özel bakım gereksinimleri. Hassas kumaşlar, renk koruma ve restore edici temizlik teknikleri. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-11-15"
 author: "Dry Alle Uzman Ekibi"
 tags:

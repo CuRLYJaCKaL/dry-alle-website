@@ -294,7 +294,7 @@
         "ayakkabi-ve-deri-urunler-care-guide"
       ],
       "seoTitle": "Çanta Kuru Temizleme & Bakımı Anadolu Yakası | Dry Alle",
-      "seoDescription": "Deri ve kumaş çanta kuru temizleme, bavul temizleme ve leke bakımı. Anadolu Yakası'nda ücretsiz kapıdan alım-teslimat. Fiyat için WhatsApp'tan fotoğraf gönderin.",
+      "seoDescription": "Deri ve kumaş çanta, valiz ve seyahat çantası temizliği. Anadolu Yakası'nda ücretsiz kapıdan alım-teslimat — {businessName} güvencesiyle.",
       "faq": [
         {
           "question": "Çanta kuru temizlemeye verilir mi?",
@@ -483,7 +483,7 @@
         "is-kiyafetleri-professional-care"
       ],
       "seoTitle": "Ütüleme Hizmeti Anadolu Yakası — Kapıdan Alım | Dry Alle",
-      "seoDescription": "Profesyonel gömlek ütüleme, takım elbise ve keten ütüleme hizmeti. Anadolu Yakası'nda ücretsiz kapıdan alım-teslimat. Buharlı profesyonel ütü ile kusursuz sonuç.",
+      "seoDescription": "Profesyonel gömlek, takım elbise ve keten ütüleme. Anadolu Yakası'nda ücretsiz kapıdan alım-teslimat; 150 TL'den başlayan ütüleme fiyatları.",
       "faq": [
         {
           "question": "Sadece ütüleme hizmeti veriyor musunuz?",
@@ -1202,17 +1202,17 @@
     "regionDescription": "{location} bölgesinde profesyonel {primaryKeyword}, halı yıkama ve koltuk yıkama hizmeti. {businessName} — {establishedYear}'den bu yana kapınıza geliyoruz.",
     "regionH1": "{location} {sectorLabel} Hizmeti",
     "aboutTitle": "Hakkımızda | {businessName}",
-    "aboutDescription": "{businessName} hakkında. {establishedYear}'den bu yana Kadıköy, Ataşehir ve İstanbul Anadolu Yakası'nda profesyonel kuru temizleme, halı ve koltuk yıkama hizmeti veriyoruz.",
+    "aboutDescription": "{businessName} hakkında: {establishedYear}'den bu yana Kadıköy, Ataşehir ve Anadolu Yakası'nda kuru temizleme, halı ve koltuk yıkama hizmeti veriyoruz.",
     "corporateTitle": "Kurumsal {sectorLabel} | {businessName}",
-    "corporateDescription": "İşletmeniz için profesyonel tekstil bakım çözümleri. İstanbul Anadolu Yakası'nda otel, restoran, ofis ve mağazalara özel toplu fiyat avantajı, periyodik hizmet planları.",
+    "corporateDescription": "İşletmeniz için profesyonel tekstil bakım çözümleri. Otel, restoran, ofis ve mağazalara toplu fiyat avantajı ve periyodik hizmet planı — {brandName}.",
     "orderServiceType": "Online {sectorLabel} Sipariş",
     "corporateServiceType": "Corporate Dry Cleaning",
     "catalogName": "{sectorLabel} Hizmetleri",
     "pricingTitle": "Kuru Temizleme Fiyatları {currentYear} · Ücretsiz Alım | {brandName}",
-    "pricingDescription": "Kuru temizleme, halı, koltuk ve perde yıkama güncel fiyat listesi. {businessName} — Anadolu Yakası'nda ücretsiz kapıdan alım ve teslimat.",
+    "pricingDescription": "Kuru temizleme fiyat listesi {currentYear}: {productCount} üründe şeffaf fiyat, {priceFrom} TL'den başlıyor. Ütüleme ve ücretsiz kapıdan alım dahil — {businessName}.",
     "regionServiceTitle": "{location} {serviceName} | {businessName}",
     "regionServiceH1": "{location} {serviceName}",
-    "regionServiceDescription": "{location} bölgesinde profesyonel {serviceNameLower}. {businessName} — ücretsiz kapıdan alım-teslimat, {establishedYear}'den beri."
+    "regionServiceDescription": "{location} bölgesinde profesyonel {serviceNameLower}. Ücretsiz kapıdan alım-teslimat, {experienceYears} yıl deneyim. Fiyat için WhatsApp'tan fotoğraf gönderin — {brandName}."
   },
   "contentTokens": {
     "valuePropositions": [

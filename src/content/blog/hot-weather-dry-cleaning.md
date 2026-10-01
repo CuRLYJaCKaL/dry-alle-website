@@ -1,6 +1,6 @@
 ---
 title: "Sıcak Havalarda Kuru Temizleme: Uzman Rehberi"
-description: "Yaz aylarında kuru temizleme işlemlerinin önemi. Ter lekeleri, deodorant izleri ve sıcaklık etkilerinden korunma yöntemleri."
+description: "Yaz aylarında kuru temizleme işlemlerinin önemi. Ter lekeleri, deodorant izleri ve sıcaklık etkilerinden korunma yöntemleri. Ücretsiz kapıdan alım — Dry Alle."
 date: "2025-02-01"
 author: "Dry Alle Uzman Ekibi"
 tags:

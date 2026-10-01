@@ -1,7 +1,7 @@
 ---
 title: "Rengi Solmuş Kıyafetlere Renk Yenileme: Kumaş ve Deri Boyama Rehberi"
 seoTitle: "Rengi Solmuş Kıyafetlere Renk Yenileme"
-description: "Rengi solmuş mont, tişört ve kıyafetlere renk yenileme rehberi. Kumaş, kot ve deri boyama nasıl yapılır, Anadolu Yakası'nda boyama yapan yerler ve ücretsiz kapıdan alım."
+description: "Rengi solmuş mont, tişört ve kıyafetlere renk yenileme rehberi. Kumaş, kot ve deri boyama nasıl yapılır? Anadolu Yakası'nda ücretsiz kapıdan alım."
 date: "2026-07-09"
 author: "Dry Alle Kuru Temizleme"
 tags:

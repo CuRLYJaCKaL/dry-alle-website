@@ -1,6 +1,6 @@
 ---
 title: "Yaz Hazırlığı Kıyafet Saklama: Uzman Rehberi"
-description: "Yaz sezonu öncesi kıyafet hazırlığı rehberi. Kış kıyafetlerinin saklanması, yaz gardırobunun hazırlanması ve organizasyon ipuçları."
+description: "Yaz sezonu öncesi kıyafet hazırlığı rehberi. Kış kıyafetlerinin saklanması, yaz gardırobunun hazırlanması ve organizasyon ipuçları. — Dry Alle Kuru Temizleme."
 date: "2025-01-05"
 author: "Dry Alle Uzman Ekibi"
 tags:

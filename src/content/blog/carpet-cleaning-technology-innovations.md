@@ -1,6 +1,6 @@
 ---
 title: "Halı Yıkama Teknoloji Yenilikleri: Uzman Rehberi"
-description: "Modern halı yıkama teknolojileri ve yenilikler. Steam cleaning, oksijen bazlı temizleyiciler ve antibakteriyel işlemler."
+description: "Modern halı yıkama teknolojileri ve yenilikler. Steam cleaning, oksijen bazlı temizleyiciler ve antibakteriyel işlemler. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-11-10"
 author: "Dry Alle Uzman Ekibi"
 tags:

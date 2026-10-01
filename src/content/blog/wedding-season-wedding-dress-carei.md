@@ -1,6 +1,6 @@
 ---
 title: "Düğün Sezonu Gelinlik Bakımı: Uzman Rehberi"
-description: "Düğün sezonunda gelinlik bakımı ve temizlik rehberi. Son dakika leke çıkarma, kırışıklık giderme ve düğün günü hazırlık ipuçları."
+description: "Düğün sezonunda gelinlik bakımı ve temizlik rehberi. Son dakika leke çıkarma, kırışıklık giderme ve düğün günü hazırlık ipuçları. — Dry Alle Kuru Temizleme."
 date: "2024-09-05"
 author: "Dry Alle Uzman Ekibi"
 tags:

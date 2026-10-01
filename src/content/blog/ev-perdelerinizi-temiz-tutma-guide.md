@@ -1,6 +1,6 @@
 ---
 title: "Ev Perdelerinizi Temiz Tutma Rehberi"
-description: "Perdelerinizi uzun ömürlü ve temiz tutmak için kapsamlı bakım rehberi. Düzenli temizlik ve koruma yöntemleri."
+description: "Perdelerinizi uzun ömürlü ve temiz tutmak için kapsamlı bakım rehberi. Düzenli temizlik ve koruma yöntemleri. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-10-05"
 author: "Dry Alle Uzman Ekibi"
 tags:

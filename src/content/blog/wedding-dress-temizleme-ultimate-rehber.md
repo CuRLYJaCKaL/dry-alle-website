@@ -1,6 +1,6 @@
 ---
 title: "Ultimate Gelinlik Temizleme Rehberi: A'dan Z'ye"
-description: "Gelinlik temizleme ve saklama konusunda kapsamlı rehber. Düğün öncesi ve sonrası bakım, leke çıkarma ve uzun dönem koruma yöntemleri."
+description: "Gelinlik temizleme ve saklama konusunda kapsamlı rehber. Düğün öncesi ve sonrası bakım, leke çıkarma ve uzun dönem koruma yöntemleri. — Dry Alle Kuru Temizleme."
 date: "2024-08-20"
 author: "Dry Alle Uzman Ekibi"
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Evde Halı Bakımı ve Profesyonel Yıkama Rehberi"
-description: "Halılarınızı uzun ömürlü kullanmak için evde bakım ipuçları ve profesyonel halı yıkama hizmetinin önemi. Kapsamlı bakım rehberi."
+description: "Halılarınızı uzun ömürlü kullanmak için evde bakım ipuçları ve profesyonel halı yıkama hizmetinin önemi. Kapsamlı bakım rehberi. — Dry Alle Kuru Temizleme."
 date: "2025-02-10"
 author: "Dry Alle Uzman Ekibi"
 tags:

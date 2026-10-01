@@ -1,6 +1,6 @@
 ---
 title: "Antika Mobilya Tekstil Bakımı: Uzman Rehberi"
-description: "Antika ve vintage mobilyalardaki tekstil parçaların özel bakımı. Hassas kumaşlar, orijinal dokuların korunması ve restore teknikleri."
+description: "Antika ve vintage mobilyalardaki tekstil parçaların özel bakımı. Hassas kumaşlar, orijinal dokuların korunması ve restore teknikleri. — Dry Alle Kuru Temizleme."
 date: "2025-02-05"
 author: "Dry Alle Uzman Ekibi"
 tags:

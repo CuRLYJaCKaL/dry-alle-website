@@ -1,6 +1,6 @@
 ---
 title: "Ev Tekstili Hijyen Rehberi: Uzman Rehberi"
-description: "Ev tekstillerinde hijyen sağlama rehberi. Perde, yatak örtüsü, kılıf ve diğer tekstil ürünlerinin antibakteriyel temizliği."
+description: "Ev tekstillerinde hijyen sağlama rehberi. Perde, yatak örtüsü, kılıf ve diğer tekstil ürünlerinin antibakteriyel temizliği. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-12-05"
 author: "Dry Alle Uzman Ekibi"
 tags:

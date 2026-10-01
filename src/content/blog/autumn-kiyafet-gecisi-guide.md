@@ -1,6 +1,6 @@
 ---
 title: "Sonbahar Kıyafet Geçişi Rehberi: Uzman Rehberi"
-description: "Yaz-sonbahar kıyafet geçişi için pratik rehber. Mevsimlik kıyafetlerin temizliği, saklanması ve sonbahar gardırobuna hazırlık."
+description: "Yaz-sonbahar kıyafet geçişi için pratik rehber. Mevsimlik kıyafetlerin temizliği, saklanması ve sonbahar gardırobuna hazırlık. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-12-20"
 author: "Dry Alle Uzman Ekibi"
 tags:

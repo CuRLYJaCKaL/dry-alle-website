@@ -1,6 +1,6 @@
 ---
 title: "Kuru Temizleme Kalite Kontrol: Uzman Rehberi"
-description: "Kuru temizleme sonrası kalite kontrol rehberi. Muayene teknikleri, yaygın sorunlar ve müşteri hakları hakkında kapsamlı bilgiler."
+description: "Kuru temizleme sonrası kalite kontrol rehberi. Muayene teknikleri, yaygın sorunlar ve müşteri hakları hakkında kapsamlı bilgiler. — Dry Alle Kuru Temizleme."
 date: "2025-01-01"
 author: "Dry Alle Uzman Ekibi"
 tags:

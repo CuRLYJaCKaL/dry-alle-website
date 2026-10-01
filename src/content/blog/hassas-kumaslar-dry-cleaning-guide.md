@@ -1,6 +1,6 @@
 ---
 title: "Hassas Kumaşlar İçin Kuru Temizleme Rehberi"
-description: "İpek, kaşmir, yün ve diğer hassas kumaşları kuru temizleme ile nasıl koruyabilirsiniz? Profesyonel bakım teknikleri ve önemli ipuçları."
+description: "İpek, kaşmir, yün ve diğer hassas kumaşları kuru temizleme ile nasıl koruyabilirsiniz? Profesyonel bakım teknikleri ve önemli ipuçları. — Dry Alle."
 date: "2025-01-15"
 author: "Dry Alle Uzman Ekibi"
 tags:

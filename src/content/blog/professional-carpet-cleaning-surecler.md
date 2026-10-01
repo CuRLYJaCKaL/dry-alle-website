@@ -1,6 +1,6 @@
 ---
 title: "Profesyonel Halı Yıkama Süreçleri: Uzman Rehberi"
-description: "Endüstriyel halı yıkama süreçlerinin adım adım açıklaması. Ön işlem, ana yıkama, durulama ve kurutma aşamalarının detayları."
+description: "Endüstriyel halı yıkama süreçlerinin adım adım açıklaması. Ön işlem, ana yıkama, durulama ve kurutma aşamalarının detayları. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-10-10"
 author: "Dry Alle Uzman Ekibi"
 tags:

@@ -115,18 +115,46 @@ const servicePriceTables = ((config as unknown as { pricing?: { servicePriceTabl
 const washingYear = new Date().getFullYear();
 const washingLabels: Record<string, string> = { 'hali-yikama': 'Halı Yıkama', 'koltuk-yikama': 'Koltuk Yıkama', 'perde-temizleme': 'Perde Yıkama', 'ev-tekstili-temizligi': 'Yorgan Yıkama' };
 
+// Urun adlari config'de BUYUK HARF ("TAKIM ELBISE"); yapay zeka asistanlari ve
+// zengin sonuclar bu adi oldugu gibi alintiliyor. Baslik duzenine cevrilir.
+function urunAdi(ad: string): string {
+  return ad
+    .toLocaleLowerCase('tr-TR')
+    .split(' ')
+    .map((k) => (k ? k.charAt(0).toLocaleUpperCase('tr-TR') + k.slice(1) : k))
+    .join(' ');
+}
+
+// Fiyat gecerlilik tarihi build aninda +1 yil: sabit yazilirsa gecmise duser ve
+// Search Console "expired priceValidUntil" uyarisi verir.
+const priceValidUntil = new Date(new Date().setFullYear(new Date().getFullYear() + 1))
+  .toISOString()
+  .slice(0, 10);
+
 function toOffer(product: PricingProduct, categoryName: string): Record<string, unknown> {
+  const fiyat = representativePrice(product);
   return {
     '@type': 'Offer',
+    name: `${urunAdi(product.name)} ${sectorLabel.toLocaleLowerCase('tr-TR')}`,
+    // price/priceCurrency hem Offer duzeyinde hem priceSpecification icinde:
+    // ayristiricilarin bir kismi yalnizca duz Offer.price okuyor.
+    price: fiyat,
+    priceCurrency: 'TRY',
+    availability: 'https://schema.org/InStock',
+    priceValidUntil,
+    url: `https://${config.contact.domain}${canonicalPath}`,
+    areaServed: config.serviceAreas.map((a: { district: string }) => a.district),
     itemOffered: {
       '@type': 'Service',
-      name: product.name,
+      name: urunAdi(product.name),
       category: categoryName,
+      provider: { '@id': `https://${config.contact.domain}/#business` },
     },
     priceSpecification: {
       '@type': 'PriceSpecification',
-      price: representativePrice(product),
+      price: fiyat,
       priceCurrency: 'TRY',
+      valueAddedTaxIncluded: true,
     },
   };
 }

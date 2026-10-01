@@ -1,6 +1,6 @@
 ---
 title: "İstanbul Sıcaklığında Halı Bakımı: Uzman Rehberi"
-description: "İstanbul'un nemli iklim şartlarında halı bakımı rehberi. Nem kontrolü, küf önleme ve yaz aylarında özel bakım teknikleri."
+description: "İstanbul'un nemli iklim şartlarında halı bakımı rehberi. Nem kontrolü, küf önleme ve yaz aylarında özel bakım teknikleri. Ücretsiz kapıdan alım — Dry Alle."
 date: "2025-01-25"
 author: "Dry Alle Uzman Ekibi"
 tags:

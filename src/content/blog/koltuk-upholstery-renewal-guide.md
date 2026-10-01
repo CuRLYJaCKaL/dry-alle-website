@@ -1,6 +1,6 @@
 ---
 title: "Koltuk Kaplama Yenileme Rehberi: Uzman Rehberi"
-description: "Koltuk döşemesi yenileme ve kaplama değişimi rehberi. Kumaş seçimi, profesyonel uygulama ve bakım ipuçları."
+description: "Koltuk döşemesi yenileme ve kaplama değişimi rehberi. Kumaş seçimi, profesyonel uygulama ve bakım ipuçları. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2025-01-01"
 author: "Dry Alle Uzman Ekibi"
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Tatil Dönüşü Kıyafet Bakımı: Uzman Rehberi"
-description: "Tatil sonrası kıyafet temizliği ve bakımı rehberi. Deniz suyu, kum, güneş kremi etkilerinin giderilmesi ve kıyafetlerin restore edilmesi."
+description: "Tatil sonrası kıyafet temizliği ve bakımı rehberi. Deniz suyu, kum, güneş kremi etkilerinin giderilmesi ve kıyafetlerin restore edilmesi. — Dry Alle."
 date: "2025-01-20"
 author: "Dry Alle Uzman Ekibi"
 tags:

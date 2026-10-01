@@ -36,6 +36,29 @@ function globalTokens(): Record<string, string> {
     sectorLabelLower: config.identity.sectorLabel.toLocaleLowerCase('tr-TR'),
     establishedYear: String(config.identity.establishedYear),
     province: config.contact.address.province,
+    ...priceTokens(),
+  };
+}
+
+/**
+ * Fiyat token'lari — config.pricing'den turetilir, ASLA elle yazilmaz.
+ * Fiyat listesi degisince meta aciklamalardaki capa da kendiliginden degisir.
+ * {priceFrom}: birincil hizmet turunun (serviceTypes[0]) en dusuk fiyati.
+ *   Tum urunlerin mutlak minimumu DEGIL: "Kuru Temizleme Fiyatlari" sayfasinda
+ *   utuleme tabanini capa yapmak yaniltici olurdu.
+ * {productCount}: fiyatlandirilmis urun sayisi.
+ */
+function priceTokens(): Record<string, string> {
+  const pricing = (config as Record<string, any>).pricing;
+  const urunler: any[] = pricing?.products ?? [];
+  const birincil: string | undefined = pricing?.serviceTypes?.[0]?.id;
+  const fiyatlar = urunler
+    .flatMap((u) => u.services ?? [])
+    .filter((s: any) => (!birincil || s.type === birincil) && typeof s.price === 'number')
+    .map((s: any) => s.price as number);
+  return {
+    priceFrom: fiyatlar.length ? String(Math.min(...fiyatlar)) : '',
+    productCount: String(urunler.length),
   };
 }
 

@@ -1,6 +1,6 @@
 ---
 title: "Deri ve Kumaş Çanta Bakım Rehberi"
-description: "Deri ve kumaş çantalarınızın doğru bakımı ve temizliği için kapsamlı rehber. Leke çıkarma ve şekil koruma teknikleri."
+description: "Deri ve kumaş çantalarınızın doğru bakımı ve temizliği için kapsamlı rehber. Leke çıkarma ve şekil koruma teknikleri. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-11-01"
 author: "Dry Alle Uzman Ekibi"
 tags:

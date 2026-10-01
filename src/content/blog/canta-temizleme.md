@@ -1,6 +1,6 @@
 ---
 title: "Çanta Temizleme Rehberleri"
-description: "İstanbul Anadolu Yakası'nda çanta temizleme, deri çanta bakımı ve kumaş çanta temizliği konularında uzman tavsiyeleri."
+description: "İstanbul Anadolu Yakası'nda çanta temizleme, deri çanta bakımı ve kumaş çanta temizliği konularında uzman tavsiyeleri. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-12-15"
 author: "Dry Alle Uzman Ekibi"
 tags:

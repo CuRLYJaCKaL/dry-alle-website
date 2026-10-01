@@ -1,6 +1,6 @@
 ---
 title: "Ütü Hizmetleri Rehberleri"
-description: "İstanbul Anadolu Yakası'nda ütü hizmetleri, profesyonel ütüleme teknikleri ve kıyafet bakımı konularında uzman rehberleri."
+description: "İstanbul Anadolu Yakası'nda ütü hizmetleri, profesyonel ütüleme teknikleri ve kıyafet bakımı konularında uzman rehberleri. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-09-20"
 author: "Dry Alle Uzman Ekibi"
 tags:

@@ -47,6 +47,8 @@ for (const file of walk(DIST)) {
   // Arama motoru dogrulama dosyalari (google<hash>.html, BingSiteAuth.xml vb.)
   // icerik sayfasi degildir: basligi, canonical'i, H1'i olmaz.
   if (/^\/(google[0-9a-f]+|BingSiteAuth|yandex_[0-9a-f]+)\.html$/i.test(rel)) continue;
+  // 404 sayfasi indekslenmez; baslik/aciklama kuralina tabi degildir.
+  if (rel === '/404.html') continue;
 
   const isStub = /name="robots"[^>]*noindex|content="[^"]*noindex/i.test(html);
   if (isStub) { stubs++; continue; }

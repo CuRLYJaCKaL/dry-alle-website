@@ -1,6 +1,6 @@
 ---
 title: "Halı Yıkama Alerjik Reaksiyonlar: Uzman Rehberi"
-description: "Halı temizliğinde allerji önleme rehberi. Akar böceği kontrolü, hypoallergenic temizlik ürünleri ve hassas bireyler için özel yaklaşımlar."
+description: "Halı temizliğinde allerji önleme rehberi. Akar böceği kontrolü, hypoallergenic temizlik ürünleri ve hassas bireyler için özel yaklaşımlar. — Dry Alle."
 date: "2024-12-25"
 author: "Dry Alle Uzman Ekibi"
 tags:

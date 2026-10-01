@@ -1,6 +1,6 @@
 ---
 title: "Halı Yıkama Sonrası Bakım Rehberi: Uzman Rehberi"
-description: "Halı yıkama sonrası doğru bakım yöntemleri. Kurutma, şekil verme, koruma önlemleri ve uzun ömür için önemli ipuçları."
+description: "Halı yıkama sonrası doğru bakım yöntemleri. Kurutma, şekil verme, koruma önlemleri ve uzun ömür için önemli ipuçları. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-12-10"
 author: "Dry Alle Uzman Ekibi"
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Solmuş Kıyafetlere Yeni Hayat Verme Rehberi"
-description: "Solmuş ve rengi atmış kıyafetlerinize profesyonel kumaş ve deri boyama ile yeni hayat verin. Renk yenileme teknikleri."
+description: "Solmuş ve rengi atmış kıyafetlerinize profesyonel kumaş ve deri boyama ile yeni hayat verin. Renk yenileme teknikleri. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-11-15"
 author: "Dry Alle Uzman Ekibi"
 tags:

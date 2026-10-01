@@ -1,6 +1,6 @@
 ---
 title: "Halı Yıkama Rehberleri"
-description: "İstanbul Anadolu Yakası'nda halı yıkama, halı bakımı ve halı temizliği konularında uzman tavsiyeleri ve kapsamlı rehberler."
+description: "İstanbul Anadolu Yakası'nda halı yıkama, halı bakımı ve halı temizliği konularında uzman tavsiyeleri ve kapsamlı rehberler. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-09-10"
 author: "Dry Alle Uzman Ekibi"
 tags:

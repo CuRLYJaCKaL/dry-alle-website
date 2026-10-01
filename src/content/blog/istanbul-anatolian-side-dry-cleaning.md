@@ -1,7 +1,7 @@
 ---
 title: "İstanbul Anadolu Yakası Kuru Temizleme: Uzman Rehberi"
 seoTitle: "İstanbul Anadolu Yakası Kuru Temizleme"
-description: "Anadolu Yakası'nda kaliteli kuru temizleme hizmeti seçimi. Bölgesel özellikler, ulaşım imkanları ve hizmet karşılaştırması."
+description: "Anadolu Yakası'nda kaliteli kuru temizleme hizmeti seçimi. Bölgesel özellikler, ulaşım imkanları ve hizmet karşılaştırması. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-12-15"
 author: "Dry Alle Uzman Ekibi"
 tags:

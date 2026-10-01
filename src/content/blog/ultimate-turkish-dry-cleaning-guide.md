@@ -1,7 +1,7 @@
 ---
 title: "Türkiye'nin En Kapsamlı Kuru Temizleme Rehberi 2025"
 seoTitle: "Kapsamlı Kuru Temizleme Rehberi"
-description: "Türkiye'de kuru temizleme hakkında bilmeniz gereken her şey. Kumaş türleri, fiyatlar, teknolojiler ve uzman tavsiyeleri ile detaylı rehber."
+description: "Türkiye'de kuru temizleme hakkında bilmeniz gereken her şey. Kumaş türleri, fiyatlar, teknolojiler ve uzman tavsiyeleri ile detaylı rehber. — Dry Alle."
 date: "2024-08-15"
 author: "Dry Alle Uzman Ekibi"
 tags:

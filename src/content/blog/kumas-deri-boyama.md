@@ -1,6 +1,6 @@
 ---
 title: "Kumaş Deri Boyama Rehberleri"
-description: "İstanbul Anadolu Yakası'nda kumaş deri boyama, renk yenileme ve solmuş kıyafet onarımı konularında uzman rehberleri."
+description: "İstanbul Anadolu Yakası'nda kumaş deri boyama, renk yenileme ve solmuş kıyafet onarımı konularında uzman rehberleri. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-09-15"
 author: "Dry Alle Uzman Ekibi"
 tags:

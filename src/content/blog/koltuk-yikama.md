@@ -1,6 +1,6 @@
 ---
 title: "Koltuk Yıkama Rehberleri"
-description: "İstanbul Anadolu Yakası'nda koltuk yıkama, kumaş ve deri koltuk temizliği konularında uzman tavsiyeleri ve detaylı rehberler."
+description: "İstanbul Anadolu Yakası'nda koltuk yıkama, kumaş ve deri koltuk temizliği konularında uzman tavsiyeleri ve detaylı rehberler. Ücretsiz kapıdan alım — Dry Alle."
 date: "2024-08-30"
 author: "Dry Alle Uzman Ekibi"
 tags:

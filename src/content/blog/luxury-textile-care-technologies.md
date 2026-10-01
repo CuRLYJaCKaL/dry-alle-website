@@ -1,6 +1,6 @@
 ---
 title: "Lüks Tekstil Bakım Teknolojileri: Uzman Rehberi"
-description: "Son teknoloji tekstil bakım cihazları ve yöntemleri. Premium kumaş koruma, nanotechnology aplikasyonları ve gelişmiş temizlik teknikleri."
+description: "Son teknoloji tekstil bakım cihazları ve yöntemleri. Premium kumaş koruma, nanotechnology aplikasyonları ve gelişmiş temizlik teknikleri. — Dry Alle."
 date: "2024-10-20"
 author: "Dry Alle Uzman Ekibi"
 tags:

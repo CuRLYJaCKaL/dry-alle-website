@@ -11,7 +11,7 @@ const sortedPosts = posts
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
 const title = `Blog | ${config.identity.businessName}`;
-const description = `${config.identity.businessName} blog yazıları. Kuru temizleme ipuçları, bakım önerileri ve daha fazlası.`;
+const description = `${config.identity.businessName} rehberleri: kuru temizleme, halı ve koltuk yıkama, leke çıkarma ve kumaş bakımı için uzman ipuçları. Ücretsiz kapıdan alım.`;
 
 function estimateReadingTime(body: string): number {
   const words = body.trim().split(/\s+/).length;

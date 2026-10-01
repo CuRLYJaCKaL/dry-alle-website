@@ -1,6 +1,6 @@
 ---
 title: "Antika Halı Yıkama Özel Yöntemler: Uzman Rehberi"
-description: "Antika ve değerli halıların özel temizlik yöntemleri. Elle yıkama teknikleri, renk koruma ve hassas kumaş bakımı."
+description: "Antika ve değerli halıların özel temizlik yöntemleri. Elle yıkama teknikleri, renk koruma ve hassas kumaş bakımı. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-09-25"
 author: "Dry Alle Uzman Ekibi"
 tags:

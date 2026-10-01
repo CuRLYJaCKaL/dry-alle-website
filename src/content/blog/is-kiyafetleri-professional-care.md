@@ -1,6 +1,6 @@
 ---
 title: "İş Kıyafetleri Leke Çıkarma: Profesyonel Bakım"
-description: "İş ortamında oluşan lekelerin çıkarılması. Ofis kıyafetleri, üniformalar ve profesyonel giyim için leke çıkarma rehberi."
+description: "İş ortamında oluşan lekelerin çıkarılması. Ofis kıyafetleri, üniformalar ve profesyonel giyim için leke çıkarma rehberi. Ücretsiz kapıdan alım — Dry Alle."
 date: "2025-01-25"
 author: "Dry Alle Uzman Ekibi"
 tags:

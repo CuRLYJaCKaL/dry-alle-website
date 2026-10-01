@@ -1,6 +1,6 @@
 ---
 title: "Lostra Hizmeti Rehberleri"
-description: "İstanbul Anadolu Yakası'nda lostra hizmeti, ayakkabı parlatma ve deri ürün bakımı konularında uzman tavsiyeleri."
+description: "İstanbul Anadolu Yakası'nda lostra hizmeti, ayakkabı parlatma ve deri ürün bakımı konularında uzman tavsiyeleri. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-10-01"
 author: "Dry Alle Uzman Ekibi"
 tags:

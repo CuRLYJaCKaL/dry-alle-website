@@ -1,7 +1,7 @@
 ---
 title: "Profesyonel Çamaşırhane vs Ev Yıkama: Uzman Karşılaştırması"
 seoTitle: "Profesyonel Çamaşırhane vs Ev Yıkama"
-description: "Profesyonel çamaşırhane hizmetleri ile ev yıkama arasındaki farklar. Maliyet analizi, kalite karşılaştırması ve doğru seçim rehberi."
+description: "Profesyonel çamaşırhane hizmetleri ile ev yıkama arasındaki farklar. Maliyet analizi, kalite karşılaştırması ve doğru seçim rehberi. — Dry Alle Kuru Temizleme."
 date: "2024-12-01"
 author: "Dry Alle Uzman Ekibi"
 tags:

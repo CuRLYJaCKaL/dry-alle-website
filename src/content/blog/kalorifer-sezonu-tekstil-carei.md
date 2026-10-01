@@ -1,6 +1,6 @@
 ---
 title: "Kalorifer Sezonu Perde Bakımı: Uzman Rehberi"
-description: "Kalorifer sezonunda perde ve ev tekstillerinin bakımı. Kuru hava etkilerinden korunma ve nem dengeleme yöntemleri."
+description: "Kalorifer sezonunda perde ve ev tekstillerinin bakımı. Kuru hava etkilerinden korunma ve nem dengeleme yöntemleri. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-11-20"
 author: "Dry Alle Uzman Ekibi"
 tags:

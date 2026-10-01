@@ -1,6 +1,6 @@
 ---
 title: "Kumaş ve Deri Koltuk Temizliği Rehberi"
-description: "Kumaş ve deri koltuklarınızın doğru temizlik ve bakımı için kapsamlı rehber. Leke çıkarma ve koruma yöntemleri."
+description: "Kumaş ve deri koltuklarınızın doğru temizlik ve bakımı için kapsamlı rehber. Leke çıkarma ve koruma yöntemleri. Ücretsiz kapıdan alım-teslimat — Dry Alle."
 date: "2024-12-01"
 author: "Dry Alle Uzman Ekibi"
 tags:
