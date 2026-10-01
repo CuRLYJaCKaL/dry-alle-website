@@ -890,51 +890,63 @@
         },
         {
           "name": "Çamlıca",
-          "slug": "camlica"
+          "slug": "camlica",
+          "intro": "Çamlıca, İstanbul'un en yüksek tepelerinden birinde kurulu; müstakil evleri, bahçeli siteleri ve rüzgâra açık konumuyla biliniyor. Bu yükseklikte perdeler ve dış giyim toz ile rüzgârdan daha hızlı etkileniyor. Çamlıca kuru temizleme hizmetimizde perde söküp takma dahil, halı ve koltuklarda derin temizlik yapıyor; kapınızdan ücretsiz alıyoruz."
         },
         {
           "name": "Kuzguncuk",
-          "slug": "kuzguncuk"
+          "slug": "kuzguncuk",
+          "intro": "Kuzguncuk, Boğaz kıyısındaki ahşap evleri ve dar sokaklarıyla İstanbul'un en özenle korunan semtlerinden. Tarihi ahşap yapılarda nem ve rutubet, perde ile döşemelik kumaşlarda koku ve leke bırakabiliyor. Kuzguncuk kuru temizleme hizmetimizde bu kumaşlara düşük ısı ve nazik işlem uyguluyor, ücretsiz kapıdan alım-teslimat sunuyoruz."
         },
         {
           "name": "Beylerbeyi",
-          "slug": "beylerbeyi"
+          "slug": "beylerbeyi",
+          "intro": "Beylerbeyi, sarayı ve Boğaz'a bakan yalılarıyla Üsküdar'ın en köklü semtlerinden biri. Deniz kıyısındaki yapılarda tuzlu nem; perde, döşemelik ve yün parçalarda yıpranmayı hızlandırıyor. Beylerbeyi kuru temizleme hizmetimizde hassas kumaşlara uygun yöntem seçiyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz."
         },
         {
           "name": "Çengelköy",
-          "slug": "cengelkoy"
+          "slug": "cengelkoy",
+          "intro": "Çengelköy, Boğaz kıyısındaki çay bahçeleri ve tarihi dokusuyla tanınan bir sahil semti. Sahile yakın evlerde rutubet kaynaklı küf ve koku, halı ile koltuklarda en sık karşılaştığımız sorun. Çengelköy kuru temizleme ve halı yıkama hizmetimizde kokuyu kaynağında gideriyor, ücretsiz kapıdan alım-teslimat ile çalışıyoruz."
         },
         {
           "name": "Kandilli",
-          "slug": "kandilli"
+          "slug": "kandilli",
+          "intro": "Kandilli, Boğaz'a dik yamaçlara kurulu; köşkleri, rasathanesi ve denize hâkim konumuyla biliniyor. Yamaç ve kıyı arasındaki nem farkı, ev tekstilinde ve kışlık giysilerde bakım ihtiyacını artırıyor. Kandilli kuru temizleme hizmetimizde yorgan, battaniye ve paltolarınızı mevsim geçişlerinde kapınızdan ücretsiz alıyoruz."
         },
         {
           "name": "Bulgurlu",
-          "slug": "bulgurlu"
+          "slug": "bulgurlu",
+          "intro": "Bulgurlu, Çamlıca tepesinin eteğinde, apartman ve site yoğunluklu bir yerleşim. Aile konutlarında halı, koltuk ve perde bakımı yıl içinde düzenli olarak gündeme geliyor. Bulgurlu kuru temizleme, halı yıkama ve koltuk yıkama hizmetlerimizde parçalarınızı kapınızdan ücretsiz alıyor, temizlenmiş şekilde geri getiriyoruz."
         },
         {
           "name": "Bağlarbaşı",
-          "slug": "baglarbasi"
+          "slug": "baglarbasi",
+          "intro": "Bağlarbaşı, Üsküdar merkezine yakın, konut ve ticaretin iç içe geçtiği hareketli bir semt. Burada hem günlük iş kıyafetleri hem de ev tekstili için düzenli bakım talebi yüksek. Bağlarbaşı kuru temizleme hizmetimizde takım elbise, gömlek ve paltolarınızı ütüleme dahil temizliyor, ücretsiz kapıdan alım-teslimat sunuyoruz."
         },
         {
           "name": "Kısıklı",
-          "slug": "kisikli"
+          "slug": "kisikli",
+          "intro": "Kısıklı, Çamlıca'ya çıkan yol üzerinde, tarihi tramvay hattıyla bilinen yerleşik bir semt. Bahçeli evler ve siteler, halı ile koltuk bakımında mevsimlik yoğunluk yaratıyor. Kısıklı kuru temizleme ve halı yıkama hizmetimizde parçalarınızı kapınızdan ücretsiz alıyor, nem bırakmadan kurutup teslim ediyoruz."
         },
         {
           "name": "Salacak",
-          "slug": "salacak"
+          "slug": "salacak",
+          "intro": "Salacak, Kız Kulesi manzarasına bakan sahil şeridiyle Üsküdar'ın simge semtlerinden. Denize bu kadar yakın konutlarda tuz ve nem, perde ile döşemelik kumaşlarda iz bırakabiliyor. Salacak kuru temizleme hizmetimizde perde söküp takma dahil çalışıyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz."
         },
         {
           "name": "Burhaniye",
-          "slug": "burhaniye"
+          "slug": "burhaniye",
+          "intro": "Burhaniye, Üsküdar merkezine yürüme mesafesinde, sakin ve yerleşik bir konut semti. Aile evlerinde yorgan, battaniye ve perde bakımı özellikle mevsim geçişlerinde yoğunlaşıyor. Burhaniye kuru temizleme ve ev tekstili temizliği hizmetimizde bu parçaları kapınızdan ücretsiz alıyor, hijyenik şekilde teslim ediyoruz."
         },
         {
           "name": "Ünalan",
-          "slug": "unalan"
+          "slug": "unalan",
+          "intro": "Ünalan, metro bağlantısıyla ulaşımı kolay, apartman yoğunluklu bir semt. Çalışan ailelerde kuru temizlemeye ayrılacak vakit kısıtlı oluyor; kapıdan alım burada en çok tercih edilen çözüm. Ünalan kuru temizleme hizmetimizde gün içinde uygun saatte kapınızdan alıyor, ütülenmiş şekilde geri getiriyoruz."
         }
       ],
       "seoTitle": "Üsküdar Kuru Temizleme Fiyatları {currentYear} | Dry Alle",
-      "seoDescription": "Üsküdar kuru temizleme fiyatları {currentYear}: takım elbise, gömlek, palto, gelinlik ve tüm giysilerde şeffaf fiyat. Ücretsiz kapıdan alım-teslimat. Hemen arayın."
+      "seoDescription": "Üsküdar kuru temizleme fiyatları {currentYear}: takım elbise, gömlek, palto, gelinlik ve tüm giysilerde şeffaf fiyat. Ücretsiz kapıdan alım-teslimat. Hemen arayın.",
+      "intro": "Üsküdar, Boğaz kıyısındaki tarihi semtlerinden Çamlıca'nın yamaçlarına kadar çok farklı yaşam alanlarını bir arada barındırıyor. Sahil kesiminde tuzlu nem, yamaçlarda toz ve rüzgâr; ev tekstilinde ihtiyaç mahalleden mahalleye değişiyor. Üsküdar kuru temizleme, halı ve koltuk yıkama hizmetlerimizde parçanıza uygun yöntemi seçiyor, kapınızdan ücretsiz alıp teslim ediyoruz."
     },
     {
       "city": "İstanbul",
@@ -1057,55 +1069,68 @@
       "neighborhoods": [
         {
           "name": "Kurtköy",
-          "slug": "kurtkoy"
+          "slug": "kurtkoy",
+          "intro": "Kurtköy, Sabiha Gökçen Havalimanı'na komşu konumuyla Pendik'in en hareketli bölgelerinden; iş otelleri ve yeni konut projeleri burada yoğunlaşıyor. Sık seyahat eden misafirlerde takım elbise ve gömlek bakımı öne çıkıyor. Kurtköy kuru temizleme hizmetimizde ütüleme dahil temizlik yapıyor, kapınızdan ücretsiz alıyoruz."
         },
         {
           "name": "Kaynarca",
-          "slug": "kaynarca"
+          "slug": "kaynarca",
+          "intro": "Kaynarca, metro hattıyla ulaşımı güçlü, apartman yoğunluklu bir yerleşim. Yoğun çalışan ailelerde halı, koltuk ve perde bakımı genellikle hafta sonuna kalıyor. Kaynarca kuru temizleme ve halı yıkama hizmetimizde randevuyu size göre ayarlıyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz."
         },
         {
           "name": "Yenişehir",
-          "slug": "yenisehir"
+          "slug": "yenisehir",
+          "intro": "Yenişehir, havalimanı çevresinde hızla büyüyen yeni konut bölgelerinden biri. Yeni taşınan ailelerde perde, halı ve ev tekstili ilk bakım ihtiyacı olarak öne çıkıyor. Yenişehir kuru temizleme, halı yıkama ve perde temizleme hizmetlerimizde söküp takma dahil çalışıyor, kapınızdan ücretsiz alım-teslimat sunuyoruz."
         },
         {
           "name": "Esenyalı",
-          "slug": "esenyali"
+          "slug": "esenyali",
+          "intro": "Esenyalı, Marmara kıyısına yakın konumuyla Pendik'in sahil kesiminde yer alıyor. Denize yakın evlerde nem kaynaklı koku ve küf, halı ile koltuklarda sık karşılaştığımız sorun. Esenyalı halı yıkama ve koltuk yıkama hizmetimizde kokuyu kaynağında gideriyor, parçalarınızı kapınızdan ücretsiz alıyoruz."
         },
         {
           "name": "Güzelyalı",
-          "slug": "guzelyali"
+          "slug": "guzelyali",
+          "intro": "Güzelyalı, adının da işaret ettiği gibi Pendik'in sahil şeridinde; deniz havası burada ev tekstilini doğrudan etkiliyor. Tuzlu nem perdelerde ve döşemelik kumaşlarda sararma ile koku bırakabiliyor. Güzelyalı kuru temizleme ve perde temizleme hizmetimizde söküp takma dahil çalışıyor, kapınızdan ücretsiz alıyoruz."
         },
         {
           "name": "Çınardere",
-          "slug": "cinardere"
+          "slug": "cinardere",
+          "intro": "Çınardere, Pendik merkezine yakın, yerleşik aile konutlarının yoğun olduğu bir semt. Burada halı ve koltuk yıkama talebi özellikle bahar temizliği döneminde artıyor. Çınardere halı yıkama ve koltuk yıkama hizmetimizde metrekare bazlı şeffaf fiyat veriyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz."
         },
         {
           "name": "Kavakpınar",
-          "slug": "kavakpinar"
+          "slug": "kavakpinar",
+          "intro": "Kavakpınar, Pendik'in merkezine yakın, apartman ve site yoğunluklu bir yerleşim. Aile evlerinde yorgan, battaniye ve perde bakımı mevsim geçişlerinde toplu şekilde gündeme geliyor. Kavakpınar kuru temizleme ve ev tekstili temizliği hizmetimizde bu parçaları tek seferde alıyor, hijyenik şekilde teslim ediyoruz."
         },
         {
           "name": "Velibaba",
-          "slug": "velibaba"
+          "slug": "velibaba",
+          "intro": "Velibaba, Pendik'in iç kesiminde, sakin ve yerleşik bir konut bölgesi. Müstakil ve bahçeli evlerde halı ile döşemelik kumaşlar toza daha açık oluyor. Velibaba halı yıkama ve koltuk yıkama hizmetimizde derin temizlik uyguluyor, nem bırakmadan kurutuyor ve kapınızdan ücretsiz alıp teslim ediyoruz."
         },
         {
           "name": "Ahmet Yesevi",
-          "slug": "ahmet-yesevi"
+          "slug": "ahmet-yesevi",
+          "intro": "Ahmet Yesevi, Pendik'in konut ağırlıklı mahallelerinden; aile apartmanları bölgenin dokusunu belirliyor. Çocuklu evlerde koltuk ve halıda leke, en sık gelen taleplerden biri. Ahmet Yesevi koltuk yıkama ve halı yıkama hizmetimizde leke tespiti ve ön işlem yapıyor, parçalarınızı kapınızdan ücretsiz alıyoruz."
         },
         {
           "name": "Fevzi Çakmak",
-          "slug": "fevzi-cakmak"
+          "slug": "fevzi-cakmak",
+          "intro": "Fevzi Çakmak, Pendik merkezine yakın, günlük yaşamın yoğun olduğu bir mahalle. Burada hem iş kıyafetleri hem ev tekstili için düzenli bakım talebi var. Fevzi Çakmak kuru temizleme hizmetimizde takım elbise, gömlek ve palto temizliğini ütüleme dahil yapıyor, kapınızdan ücretsiz alıp teslim ediyoruz."
         },
         {
           "name": "Batı",
-          "slug": "bati"
+          "slug": "bati",
+          "intro": "Batı Mahallesi, Pendik merkezinin sahile açılan tarafında yer alıyor; çarşı ve sahil yaşamı iç içe. Denize yakınlık, perde ve döşemelik kumaşlarda nem kaynaklı bakım ihtiyacını artırıyor. Batı Mahallesi kuru temizleme ve perde temizleme hizmetimizde söküp takma dahil çalışıyor, kapınızdan ücretsiz alıyoruz."
         },
         {
           "name": "Doğu",
-          "slug": "dogu"
+          "slug": "dogu",
+          "intro": "Doğu Mahallesi, Pendik merkezinin yerleşik konut tarafında; aile apartmanları ve çarşı yakınlığıyla biliniyor. Günlük giysi bakımı ile mevsimlik ev tekstili temizliği birlikte talep ediliyor. Doğu Mahallesi kuru temizleme ve ev tekstili temizliği hizmetimizde parçalarınızı tek seferde alıyor, ütülenmiş şekilde teslim ediyoruz."
         }
       ],
       "seoTitle": "Pendik Kuru Temizleme Fiyatları {currentYear} | Dry Alle",
-      "seoDescription": "Pendik kuru temizleme fiyatları {currentYear}: takım elbise, gömlek, palto, gelinlik ve tüm giysilerde şeffaf fiyat. Ücretsiz kapıdan alım-teslimat. Hemen arayın."
+      "seoDescription": "Pendik kuru temizleme fiyatları {currentYear}: takım elbise, gömlek, palto, gelinlik ve tüm giysilerde şeffaf fiyat. Ücretsiz kapıdan alım-teslimat. Hemen arayın.",
+      "intro": "Pendik, Marmara kıyısındaki sahil mahallelerinden havalimanı çevresindeki yeni konut bölgelerine uzanan geniş bir ilçe. Sahilde nem kaynaklı koku, iç kesimlerde toz ve yoğun kullanım öne çıkıyor. Pendik kuru temizleme, halı yıkama ve perde temizleme hizmetlerimizde her mahalleye ücretsiz kapıdan alım-teslimat sunuyor, şeffaf fiyatla çalışıyoruz."
     },
     {
       "city": "İstanbul",
