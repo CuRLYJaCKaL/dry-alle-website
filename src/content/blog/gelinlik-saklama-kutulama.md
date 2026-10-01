@@ -1,5 +1,6 @@
 ---
 title: "Gelinlik Saklama ve Kutulama: Yıllar Sonra İlk Günkü Gibi"
+seoTitle: "Gelinlik Saklama ve Kutulama"
 description: "Gelinliğinizi sararmadan yıllarca saklamanın sırrı: asitsiz kutulama, ışık ve nem koruması. Ücretsiz kapıdan alım için Dry Alle'yi arayın."
 date: "2026-08-21"
 author: "Dry Alle Uzman Ekibi"

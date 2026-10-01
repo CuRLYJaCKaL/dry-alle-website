@@ -1,5 +1,6 @@
 ---
 title: "Kuru Temizleme Ne Kadar Sürer? Teslim Süreleri ve Kapıdan Hizmet"
+seoTitle: "Kuru Temizleme Ne Kadar Sürer?"
 description: "Kuru temizleme kaç günde teslim edilir? Süreyi etkileyen faktörler, acil ihtiyaçlar ve ücretsiz kapıdan alım-teslimat. Net süre için hemen arayın."
 date: "2026-11-06"
 author: "Dry Alle Uzman Ekibi"

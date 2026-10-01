@@ -1,5 +1,6 @@
 ---
 title: "Koltuk Yıkama Fiyatları 2026: Fiyat Neye Göre Belirlenir?"
+seoTitle: "Koltuk Yıkama Fiyatları 2026"
 description: "Koltuk yıkama fiyatı neye göre değişir? Koltuk tipi, kumaş, leke ve yöntem etkisini açıklıyoruz. Net fiyat için fotoğrafınızı WhatsApp'tan gönderin."
 date: "2026-10-02"
 author: "Dry Alle Uzman Ekibi"

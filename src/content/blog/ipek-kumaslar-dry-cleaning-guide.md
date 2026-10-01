@@ -1,5 +1,6 @@
 ---
 title: "İpek Kumaşlar Kuru Temizleme Rehberi: Uzman Rehberi"
+seoTitle: "İpek Kumaşlar Kuru Temizleme Rehberi"
 description: "İpek, kaşmir ve hassas kumaşların profesyonel kuru temizleme süreçleri. Doğru bakım teknikleri ve işlem öncesi dikkat edilecek noktalar."
 date: "2024-10-15"
 author: "Dry Alle Uzman Ekibi"

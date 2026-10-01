@@ -1,5 +1,6 @@
 ---
 title: "Yıkama Talimatı Sembolleri Rehberi: Etiket İşaretleri Ne Demek?"
+seoTitle: "Yıkama Talimatı Sembolleri Rehberi"
 description: "Kıyafet etiketindeki yıkama sembolleri ne anlama gelir? Leğen, üçgen, kare, ütü ve daire işaretlerini adım adım öğrenin. Ücretsiz kapıdan alım için arayın."
 date: "2026-09-18"
 author: "Dry Alle Uzman Ekibi"

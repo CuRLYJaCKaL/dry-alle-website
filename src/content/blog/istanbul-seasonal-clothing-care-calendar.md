@@ -1,5 +1,6 @@
 ---
 title: "İstanbul İklim Şartlarına Göre Mevsimsel Kıyafet Bakım Takvimi 2025"
+seoTitle: "Mevsimsel Kıyafet Bakım Takvimi"
 description: "İstanbul'un özel iklim şartlarına göre hazırlanmış 12 aylık kıyafet bakım takvimi. Hangi ayda hangi kıyafetlere nasıl bakım yapılacağı rehberi."
 date: "2024-09-01"
 author: "Dry Alle Uzman Ekibi"

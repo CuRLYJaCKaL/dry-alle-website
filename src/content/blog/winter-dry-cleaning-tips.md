@@ -1,5 +1,6 @@
 ---
 title: "Kış Aylarında Kuru Temizleme İpuçları: Uzman Rehberi"
+seoTitle: "Kış Aylarında Kuru Temizleme İpuçları"
 description: "Kış aylarında palto, mont ve kalın kıyafetlerin kuru temizleme süreçleri. Nem, statik elektrik ve depolama tavsiyeleri."
 date: "2024-11-01"
 author: "Dry Alle Uzman Ekibi"

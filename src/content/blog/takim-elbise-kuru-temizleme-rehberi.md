@@ -1,5 +1,6 @@
 ---
 title: "Takım Elbise Kuru Temizleme: Ne Sıklıkla ve Nasıl Bakım Yapılır?"
+seoTitle: "Takım Elbise Kuru Temizleme"
 description: "Takım elbise kuru temizleme ne sıklıkla yapılmalı? Yün ve kaşmir takımda form, ütü ve saklama için uzman rehberi. Fiyat için WhatsApp'tan fotoğraf gönderin."
 date: "2026-07-17"
 author: "Dry Alle Uzman Ekibi"

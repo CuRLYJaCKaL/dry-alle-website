@@ -1,5 +1,6 @@
 ---
 title: "Halı Yıkama Firması Seçerken Sorulması Gereken 10 Soru"
+seoTitle: "Halı Yıkama Firması Seçerken 10 Soru"
 description: "Doğru halı yıkama firması nasıl seçilir? Anadolu Yakası'nda firma seçerken sormanız gereken 10 kritik soru bu rehberde. WhatsApp'tan yazın, hemen teklif alın."
 date: "2026-07-09"
 author: "Dry Alle Uzman Ekibi"

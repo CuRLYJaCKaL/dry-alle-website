@@ -1,5 +1,6 @@
 ---
 title: "Yastık Yıkama Rehberi: Kuş Tüyü, Elyaf ve Memory Foam"
+seoTitle: "Yastık Yıkama Rehberi"
 description: "Yastık yıkama rehberi: kuş tüyü, elyaf ve memory foam yastıklar nasıl temizlenir, hangisi yıkanmaz? Anadolu Yakası'nda ücretsiz kapıdan alım ve teslimat."
 date: "2026-10-16"
 author: "Dry Alle Uzman Ekibi"

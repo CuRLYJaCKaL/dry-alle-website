@@ -1,5 +1,6 @@
 ---
 title: "Bebekli Evlerde Halı ve Koltuk Hijyeni: Akar, Alerjen ve Kimyasalsız Temizlik"
+seoTitle: "Bebekli Evlerde Halı ve Koltuk Hijyeni"
 description: "Bebekli evde halı temizliği ve koltuk akar temizliği nasıl olmalı? Alerjen, akar ve kimyasal kalıntıdan arınmış hijyen için profesyonel çözüm rehberi."
 date: "2026-07-06"
 author: "Dry Alle Uzman Ekibi"

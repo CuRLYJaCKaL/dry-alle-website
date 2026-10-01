@@ -1,5 +1,6 @@
 ---
 title: "Yerinde Koltuk Yıkama Nasıl Yapılır? Adım Adım Süreç ve Kuruma Süreleri"
+seoTitle: "Yerinde Koltuk Yıkama Nasıl Yapılır?"
 description: "Yerinde koltuk yıkama nasıl yapılır? Evde koltuk yıkama hizmetinin adım adım süreci ve kuruma süreleri bu rehberde. WhatsApp'tan yazın, hemen randevu alın."
 date: "2026-07-08"
 author: "Dry Alle Uzman Ekibi"

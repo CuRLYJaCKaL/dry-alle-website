@@ -1,5 +1,6 @@
 ---
 title: "Koltuk Yıkama Fiyatları 2026: Fiyatı Belirleyen 7 Faktör"
+seoTitle: "Koltuk Yıkama Fiyatını Belirleyen 7 Faktör"
 description: "Koltuk yıkama fiyatları 2026'da neye göre belirlenir? İstanbul'da fiyatı etkileyen 7 faktörü öğrenin, WhatsApp'tan fotoğraf gönderip anında net fiyat alın."
 date: "2026-07-06"
 author: "Dry Alle Uzman Ekibi"

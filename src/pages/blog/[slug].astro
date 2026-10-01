@@ -15,7 +15,9 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await post.render();
 
-const title = `${post.data.title} | ${config.identity.businessName}`;
+// SERP basligi: varsa seoTitle, yoksa makale basligi. Marka soneki kisa
+// (brandName) — uzun sonek her baslikta 15 karakter yiyordu.
+const title = `${post.data.seoTitle ?? post.data.title} | ${config.identity.brandName}`;
 const description = post.data.description;
 const canonicalPath = `/blog/${post.slug}/`;
 

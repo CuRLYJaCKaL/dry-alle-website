@@ -1,5 +1,6 @@
 ---
 title: "Perde Temizleme: Ev vs Profesyonel Karşılaştırması"
+seoTitle: "Perde Temizleme"
 description: "Ev tipi perde temizleme ile profesyonel perde yıkama hizmetlerinin karşılaştırması. Maliyet ve kalite analizi."
 date: "2024-10-20"
 author: "Dry Alle Uzman Ekibi"

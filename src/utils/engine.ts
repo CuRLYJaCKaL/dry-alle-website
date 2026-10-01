@@ -23,11 +23,27 @@ function timeTokens(): Record<string, string> {
   };
 }
 
+/**
+ * Site genelinde sabit olan token'lar. Bunlari her cagri yerinde tekrar
+ * yazmak hataya aciktir: fiyat sayfasi {brandName} kullandiginda token'i
+ * gecmedigi icin baslik "… Ücretsiz Alım |" diye bos ayracla bitiyordu.
+ */
+function globalTokens(): Record<string, string> {
+  return {
+    businessName: config.identity.businessName,
+    brandName: config.identity.brandName,
+    sectorLabel: config.identity.sectorLabel,
+    sectorLabelLower: config.identity.sectorLabel.toLocaleLowerCase('tr-TR'),
+    establishedYear: String(config.identity.establishedYear),
+    province: config.contact.address.province,
+  };
+}
+
 export function interpolate(template: string, tokens: Record<string, string> = {}): string {
   // Zaman token'lari her zaman eklenir ki cagri yeri unutamasin.
   // (Ana sayfa aciklamasi, cagri yeri establishedYear'i gecmedigi icin
   // aylarca "'den bu yana" diye yayinda kalmisti.)
-  const tumu = { ...timeTokens(), ...tokens };
+  const tumu = { ...globalTokens(), ...timeTokens(), ...tokens };
   return template.replace(/\{(\w+)\}/g, (_, key) => tumu[key] ?? '');
 }
 

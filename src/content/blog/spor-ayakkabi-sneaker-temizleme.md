@@ -1,5 +1,6 @@
 ---
 title: "Spor Ayakkabı Temizliği: Beyaz Taban, Süet ve File Kumaş"
+seoTitle: "Spor Ayakkabı Temizliği"
 description: "Sneaker'larınızı yıpratmadan temizletin. Sararan beyaz taban, file mesh, süet ve deri ayakkabıda profesyonel derin temizlik. Randevu icin hemen arayin."
 date: "2026-09-04"
 author: "Dry Alle Uzman Ekibi"

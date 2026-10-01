@@ -1,5 +1,6 @@
 ---
 title: "Yorgan Yıkama: Kuş Tüyü, Yün ve Elyaf Yorgan Nasıl Temizlenir?"
+seoTitle: "Yorgan Yıkama"
 description: "Kuş tüyü, yün ve elyaf yorgan yıkama farkları, ne sıklıkla temizlenmeli, evde yıkama riskleri ve profesyonel süreç. Ücretsiz kapıdan alım için hemen arayın!"
 date: "2026-07-10"
 author: "Dry Alle Uzman Ekibi"

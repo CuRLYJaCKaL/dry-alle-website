@@ -1,5 +1,6 @@
 ---
 title: "Perde Yıkama Fiyatları ve Süreci: Tül, Fon ve Stor Perde"
+seoTitle: "Perde Yıkama Fiyatları ve Süreci"
 description: "Perde yıkama fiyatı neye göre değişir? Tül, fon ve stor perdede süreç, sökme-takma ve ütü etkisini açıklıyoruz. Net fiyat için WhatsApp'tan yazın."
 date: "2026-10-09"
 author: "Dry Alle Uzman Ekibi"

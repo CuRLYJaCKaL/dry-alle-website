@@ -1,5 +1,6 @@
 ---
 title: "Ev Tekstillerinin Kapsamlı Bakım ve Temizlik El Kitabı 2025"
+seoTitle: "Ev Tekstili Bakım ve Temizlik Rehberi"
 description: "Halıdan perdeye, koltuktan yatak takımına kadar tüm ev tekstillerinizin profesyonel bakım rehberi. Kapsamlı maintenance klavuzu."
 date: "2024-10-05"
 author: "Dry Alle Uzman Ekibi"

@@ -1,5 +1,6 @@
 ---
 title: "El Dokuması, İpek ve Yün Halı Temizliği: Değerli Halılar İçin Doğru Yöntem"
+seoTitle: "El Dokuması, İpek ve Yün Halı Temizliği"
 description: "İpek halı yıkama ve el dokuması halı temizliğinde yanlış yöntem geri dönüşsüz hasar bırakır. Değerli halınızı korumak için doğru profesyonel yöntemler."
 date: "2026-07-04"
 author: "Dry Alle Uzman Ekibi"

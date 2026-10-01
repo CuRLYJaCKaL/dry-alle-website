@@ -1,5 +1,6 @@
 ---
 title: "Koltuktan Leke Nasıl Çıkar? Kahve, Şarap, Kalem ve 12 İnatçı Leke İçin Rehber"
+seoTitle: "Koltuktan Leke Nasıl Çıkar?"
 description: "Koltuk lekesi nasıl çıkar? Kahve, şarap, kalem ve 12 inatçı leke için evde ilk müdahale adımları, kumaşa zarar veren hatalar ve profesyonel çözüm rehberi."
 date: "2026-07-05"
 author: "Dry Alle Uzman Ekibi"

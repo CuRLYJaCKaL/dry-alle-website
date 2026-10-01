@@ -1,5 +1,6 @@
 ---
 title: "Evcil Hayvan Olan Evlerde Koltuk ve Halı Temizliği: Tüy, Koku ve Leke Çözümleri"
+seoTitle: "Evcil Hayvanlı Evlerde Koltuk ve Halı Temizliği"
 description: "Evcil hayvan koku giderme, kedi köpek tüyü koltuk temizliği ve idrar lekesi çözümleri. Evcil hayvanlı evler için pratik temizlik rutini ve uzman önerileri."
 date: "2026-07-07"
 author: "Dry Alle Uzman Ekibi"

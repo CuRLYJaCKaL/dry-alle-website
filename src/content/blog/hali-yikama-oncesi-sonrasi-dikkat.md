@@ -1,5 +1,6 @@
 ---
 title: "Halı Yıkama Öncesi ve Sonrası: Nelere Dikkat Etmelisiniz?"
+seoTitle: "Halı Yıkama Öncesi ve Sonrası"
 description: "Halı yıkama öncesi hazırlık ve sonrası bakım rehberi: halıyı tanıma, leke bildirimi, tam kuruma ve tüylenme. Ücretsiz kapıdan alım için hemen arayın."
 date: "2026-11-20"
 author: "Dry Alle Uzman Ekibi"

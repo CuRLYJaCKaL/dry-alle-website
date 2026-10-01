@@ -1,5 +1,6 @@
 ---
 title: "Profesyonel vs Ev Yapımı: Halı Yıkama Karşılaştırması"
+seoTitle: "Profesyonel vs Ev Yapımı"
 description: "Profesyonel halı yıkama ile ev yapımı temizlik yöntemlerinin detaylı karşılaştırması. Maliyet, etkinlik ve uzun vadeli faydalar analizi."
 date: "2024-08-25"
 author: "Dry Alle Uzman Ekibi"

@@ -1,5 +1,6 @@
 ---
 title: "Bebek ve Çocuk Kıyafetleri: Hipoalerjenik Güvenli Temizlik"
+seoTitle: "Bebek ve Çocuk Kıyafetleri"
 description: "Bebek kıyafeti yıkama rehberi: hassas cilt için kalıntısız, kokusuz ve güvenli temizlik. Anadolu Yakası'nda ücretsiz kapıdan alım ve teslimat."
 date: "2026-11-13"
 author: "Dry Alle Uzman Ekibi"

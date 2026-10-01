@@ -1,5 +1,6 @@
 ---
 title: "Mont ve Kaban Kuru Temizleme: Kışlık Dış Giyim Bakım Rehberi"
+seoTitle: "Mont ve Kaban Kuru Temizleme"
 description: "Kaz tüyü mont, yün kaban ve parka kuru temizleme nasıl yapılır? Su itici özelliği koruyan bakım ve sezon sonu saklama rehberi. Fiyat için WhatsApp fotoğraf."
 date: "2026-07-24"
 author: "Dry Alle Uzman Ekibi"

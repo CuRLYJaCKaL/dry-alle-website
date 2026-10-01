@@ -1,5 +1,6 @@
 ---
 title: "Zorlu Lekeler Rehberi: Şarap, Kan, Mürekkep, Makyaj ve Ter"
+seoTitle: "Zorlu Lekeler Rehberi"
 description: "Şarap, kan, mürekkep ve ter sarısı lekelerinde ilk müdahale nasıl olmalı? Kumaşı kurtarmak için Dry Alle'yi arayın, ücretsiz kapıdan alım."
 date: "2026-08-28"
 author: "Dry Alle Uzman Ekibi"

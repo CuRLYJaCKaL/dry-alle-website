@@ -1,5 +1,6 @@
 ---
 title: "Kuru Temizleme mi Evde Yıkama mı? Kumaşa Göre Doğru Karar"
+seoTitle: "Kuru Temizleme mi Evde Yıkama mı?"
 description: "Hangi kumaş kuru temizlenmeli, hangisi evde yıkanabilir? Yün, ipek, deri ve pamuk için net karar tablosu. Ücretsiz kapıdan alım için hemen bizi arayın."
 date: "2026-09-25"
 author: "Dry Alle Uzman Ekibi"

@@ -1,5 +1,6 @@
 ---
 title: "Sararmış Beyazları Beyazlatma: Ter, Yaka Kiri ve Zaman Lekeleri"
+seoTitle: "Sararmış Beyazları Beyazlatma"
 description: "Beyaz gömlek neden sararır, yaka kiri ve koltuk altı sarı leke nasıl çıkar? Çamaşır suyunun zararını ve profesyonel beyazlatma çözümünü öğrenin."
 date: "2026-10-30"
 author: "Dry Alle Uzman Ekibi"

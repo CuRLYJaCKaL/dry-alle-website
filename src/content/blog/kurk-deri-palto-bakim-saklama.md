@@ -1,5 +1,6 @@
 ---
 title: "Kürk ve Deri Palto Bakımı: Temizlik ve Yaz Saklama Rehberi"
+seoTitle: "Kürk ve Deri Palto Bakımı"
 description: "Kürk ve deri palto nasıl temizlenir ve yazın nasıl saklanır? Kuruma, küf, güve riskine karşı profesyonel bakım ve doğru saklama adımlarını öğrenin."
 date: "2026-10-23"
 author: "Dry Alle Uzman Ekibi"

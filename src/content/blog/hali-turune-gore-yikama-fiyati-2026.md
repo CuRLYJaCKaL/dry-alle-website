@@ -1,5 +1,6 @@
 ---
 title: "Halı Türüne Göre Yıkama Fiyatı 2026: Yün, Shaggy, Makine, İpek ve Antik Halıda Fiyat Farkı"
+seoTitle: "Halı Türüne Göre Yıkama Fiyatı 2026"
 description: "Yün, shaggy, makine, ipek ve antika halı yıkama fiyatı neden farklı? 2026'da halı türüne özel yöntemleri öğrenin; WhatsApp'tan fotoğraf gönderin, net fiyat alın."
 date: "2026-07-09"
 author: "Dry Alle Uzman Ekibi"

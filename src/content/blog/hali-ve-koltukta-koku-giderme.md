@@ -1,5 +1,6 @@
 ---
 title: "Halı ve Koltukta Kalıcı Koku Nasıl Giderilir? (Sigara, Rutubet, Evcil Hayvan)"
+seoTitle: "Halı ve Koltukta Kalıcı Koku Nasıl Giderilir?"
 description: "Koltuk koku giderme ve halıdaki kötü koku için kalıcı çözümler. Sigara, rutubet, küf ve evcil hayvan kokusunu kaynağında yok eden yöntemler ve uzman ipuçları."
 date: "2026-07-09"
 author: "Dry Alle Uzman Ekibi"

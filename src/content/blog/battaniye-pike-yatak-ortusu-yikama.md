@@ -1,5 +1,6 @@
 ---
 title: "Battaniye, Pike ve Yatak Örtüsü Yıkama: Ev Tekstilinde Hijyen"
+seoTitle: "Battaniye, Pike ve Yatak Örtüsü Yıkama"
 description: "Yün, akrilik, welsoft battaniye, pike ve yatak örtüsü yıkama farkları, mevsim bakımı ve evde yıkama zorlukları. Ücretsiz kapıdan alım için hemen bize ulaşın!"
 date: "2026-09-11"
 author: "Dry Alle Uzman Ekibi"

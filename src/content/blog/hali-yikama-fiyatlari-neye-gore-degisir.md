@@ -1,5 +1,6 @@
 ---
 title: "Halı Yıkama Fiyatları 2026: Metrekare Fiyatını Etkileyen Her Şey"
+seoTitle: "Halı Yıkama Fiyatını Ne Belirler?"
 description: "Halı yıkama fiyatları ve m2 fiyatı neye göre değişir? Halı tipi, malzeme ve leke faktörlerini öğrenin; WhatsApp'tan fotoğraf gönderin, anında fiyat alın."
 date: "2026-07-07"
 author: "Dry Alle Uzman Ekibi"

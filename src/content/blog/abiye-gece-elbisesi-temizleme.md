@@ -1,5 +1,6 @@
 ---
 title: "Abiye ve Gece Elbisesi Temizliği: Payetli Kumaşların Bakımı"
+seoTitle: "Abiye ve Gece Elbisesi Temizliği"
 description: "Payetli, işlemeli ve tüllü abiyeleriniz nasıl temizlenir? Ter, makyaj ve içecek lekelerine karşı profesyonel çözüm. Ücretsiz kapıdan alım ile hemen arayın."
 date: "2026-07-31"
 author: "Dry Alle Uzman Ekibi"

@@ -1,5 +1,6 @@
 ---
 title: "Deri Ceket ve Mont Bakımı: Temizleme, Besleme ve Boyama"
+seoTitle: "Deri Ceket ve Mont Bakımı"
 description: "Deri ceket ve montunuzu çatlamadan koruyun. Süet, nubuk ve gerçek deride temizleme, nemlendirme ve renk yenileme ipuçları. Randevu icin hemen arayin."
 date: "2026-08-07"
 author: "Dry Alle Uzman Ekibi"

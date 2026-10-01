@@ -1,5 +1,6 @@
 ---
 title: "Kaşmir ve Yün Kazak Bakımı: Boncuklanmayı Önleme Rehberi"
+seoTitle: "Kaşmir ve Yün Kazak Bakımı"
 description: "Kaşmir ve yün kazaklarda boncuklanma ve keçeleşme nasıl önlenir? Güve, saklama ve doğru yıkama sırları. Ücretsiz kapıdan alım için hemen bizi arayın."
 date: "2026-08-14"
 author: "Dry Alle Uzman Ekibi"

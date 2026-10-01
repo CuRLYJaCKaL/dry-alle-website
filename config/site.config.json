@@ -436,7 +436,7 @@
         "ayakkabi-ve-deri-urunler-care-guide",
         "deri-ve-kumas-canta-care-guide"
       ],
-      "seoTitle": "Lostra & Ayakkabı Bakımı İstanbul Anadolu Yakası | Dry Alle",
+      "seoTitle": "Lostra & Ayakkabı Boyama, Bakım — Kapıdan Alım | Dry Alle",
       "seoDescription": "İstanbul'un en iyi lostra hizmeti: deri ayakkabı boyama, bakım ve parlatma. Acıbadem, Suadiye ve Anadolu Yakası'nda ücretsiz kapıdan alım-teslimat.",
       "faq": [
         {
@@ -1194,7 +1194,7 @@
     ]
   },
   "seoTemplates": {
-    "homeTitle": "{businessName} | Anadolu Yakası {sectorLabel}",
+    "homeTitle": "{businessName} | Anadolu Yakası, Kapıdan Alım",
     "homeDescription": "İstanbul Anadolu Yakası'nda {establishedYear}'den bu yana kuru temizleme, halı yıkama ve koltuk yıkama. {businessName} güvencesiyle ücretsiz kapıdan teslimat.",
     "serviceTitle": "{serviceName} | {businessName}",
     "serviceDescription": "İstanbul Anadolu Yakası'nda profesyonel {serviceNameLower} hizmeti. {experienceYears} yıllık deneyim ve ücretsiz kapıdan teslimatla {businessName} farkını yaşayın.",
@@ -1208,7 +1208,7 @@
     "orderServiceType": "Online {sectorLabel} Sipariş",
     "corporateServiceType": "Corporate Dry Cleaning",
     "catalogName": "{sectorLabel} Hizmetleri",
-    "pricingTitle": "Kuru Temizleme Fiyatları {currentYear} | {businessName}",
+    "pricingTitle": "Kuru Temizleme Fiyatları {currentYear} · Ücretsiz Alım | {brandName}",
     "pricingDescription": "Kuru temizleme, halı, koltuk ve perde yıkama güncel fiyat listesi. {businessName} — Anadolu Yakası'nda ücretsiz kapıdan alım ve teslimat.",
     "regionServiceTitle": "{location} {serviceName} | {businessName}",
     "regionServiceH1": "{location} {serviceName}",

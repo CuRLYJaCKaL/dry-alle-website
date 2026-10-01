@@ -1,5 +1,6 @@
 ---
 title: "Ucuz Halı Yıkama Tuzağı: Düşük Fiyatın Gizli Maliyetleri ve Doğru Fiyatı Anlamanın Yolu"
+seoTitle: "Ucuz Halı Yıkama Tuzağı"
 description: "Ucuz halı yıkama gerçekten hesaplı mı? Düşük fiyatın gizli maliyetlerini öğrenin, güvenilir halı yıkamayı seçin; WhatsApp'tan fotoğraf gönderin, net fiyat alın."
 date: "2026-07-08"
 author: "Dry Alle Uzman Ekibi"

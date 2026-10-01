@@ -1,5 +1,6 @@
 ---
 title: "Ofis ve İş Yerleri İçin Koltuk & Halı Temizliği: Periyodik Bakım Rehberi"
+seoTitle: "Ofis ve İş Yerleri İçin Koltuk & Halı Temizliği"
 description: "Ofis koltuk yıkama ve işyeri halı yıkama için periyodik bakım rehberi. Mesai dışı çalışma, faturalı kurumsal hizmet ve düzenli temizlik planı avantajları."
 date: "2026-07-08"
 author: "Dry Alle Uzman Ekibi"
