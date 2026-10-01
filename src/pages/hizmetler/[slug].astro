@@ -50,6 +50,26 @@ const svcPriceUnitSuffix = svcPriceTable?.unit === 'm²' ? ' / m²' : '';
 const svcPriceYear = new Date().getFullYear();
 const canonicalPath = `/hizmetler/${service.slug}/`;
 
+// ── Hizmetin gercek fiyat tabani ──
+// Her hizmetin fiyat kaynagi farkli; kaynagi olmayan hizmette fiyat UYDURULMAZ.
+//   hali/koltuk/perde/ev-tekstili -> servicePriceTables minimumu (m² veya adet)
+//   kuru-temizleme, utu           -> urun fiyatlarinin minimumu
+//   digerleri                     -> sabit fiyat yok (null)
+const pricingCfg = (config as Record<string, any>).pricing ?? {};
+function hizmetTabanFiyat(): number | null {
+  if (svcPriceTable?.items?.length) return Math.min(...svcPriceTable.items.map((i: { price: number }) => i.price));
+  const tureGore: Record<string, string> = { 'kuru-temizleme': 'kuru-temizleme', 'utu-hizmetleri': 'utuleme' };
+  const tur = tureGore[service.slug];
+  if (!tur) return null;
+  const f = (pricingCfg.products ?? [])
+    .flatMap((u: any) => u.services ?? [])
+    .filter((x: any) => x.type === tur && typeof x.price === 'number')
+    .map((x: any) => x.price as number);
+  return f.length ? Math.min(...f) : null;
+}
+const tabanFiyat = hizmetTabanFiyat();
+const fiyatCapasi = tabanFiyat !== null ? `${tabanFiyat} TL${svcPriceUnitSuffix}'den başlıyor` : null;
+
 const jsonLd = {
   "@type": "Service",
   "name": `${service.name} - ${businessName}`,
@@ -61,7 +81,24 @@ const jsonLd = {
   "areaServed": config.serviceAreas.map(area => ({
     "@type": "Place",
     "name": `${area.district}, ${area.city}`
-  }))
+  })),
+  // Fiyat capasi yalnizca gercek kaynak varsa yazilir; yoksa offers hic olmaz.
+  ...(tabanFiyat !== null ? {
+    "offers": {
+      "@type": "Offer",
+      "price": tabanFiyat,
+      "priceCurrency": "TRY",
+      "availability": "https://schema.org/InStock",
+      "url": `https://${config.contact.domain}${canonicalPath}`,
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": tabanFiyat,
+        "priceCurrency": "TRY",
+        "valueAddedTaxIncluded": true,
+        ...(svcPriceTable?.unit === 'm²' ? { "unitText": "m²" } : {}),
+      },
+    },
+  } : {}),
 };
 
 // service.faq varsa FAQPage semasini grafige ekle (motor: jsonLd dizi olur)
@@ -131,28 +168,6 @@ const currentIcon = serviceIcons[service.icon] || serviceIcons['shirt'];
 
 const features = service.features || [];
 
-// ── Kisa cevap blogu icin gercek fiyat capasi ──
-// Her hizmetin fiyat kaynagi farkli; uydurma yapilmaz, kaynagi olmayan
-// hizmette fiyat satiri yerine nasil fiyat alinacagi yazilir.
-const pricingCfg = (config as Record<string, any>).pricing ?? {};
-function hizmetFiyatCapasi(): string | null {
-  const tablo = svcPriceTable;
-  if (tablo?.items?.length) {
-    const min = Math.min(...tablo.items.map((i: { price: number }) => i.price));
-    return `${min} TL${tablo.unit === 'm²' ? ' / m²' : ''}'den başlıyor`;
-  }
-  const tureGore: Record<string, string> = { 'kuru-temizleme': 'kuru-temizleme', 'utu-hizmetleri': 'utuleme' };
-  const tur = tureGore[service.slug];
-  if (tur) {
-    const f = (pricingCfg.products ?? [])
-      .flatMap((u: any) => u.services ?? [])
-      .filter((x: any) => x.type === tur && typeof x.price === 'number')
-      .map((x: any) => x.price as number);
-    if (f.length) return `${Math.min(...f)} TL'den başlıyor`;
-  }
-  return null;
-}
-const fiyatCapasi = hizmetFiyatCapasi();
 const hizmetIlceleri = config.serviceAreas.map((a: { district: string }) => a.district).join(', ');
 
 const contentTokens = { businessName, province, sectorLabel: config.identity.sectorLabel };
@@ -289,41 +304,54 @@ const relatedPosts = [...curatedPosts, ...taggedPosts]
   <!-- ════════════════════════════════════════════
        SERVICE DETAILS
        ════════════════════════════════════════════ -->
-  {/* Kisa cevap — yapay zeka asistanlari ve acele okuyucu icin sayfanin
-      ozeti tek blokta. Tum bilgi config'den gelir, uydurma yoktur. */}
-  <section class="section-padding bg-surface" aria-labelledby="kisa-cevap">
+  {/* Bir bakista — hero'nun alt kenarina oturan ozet kartı. Hem acele okuyucu
+      hem yapay zeka asistanlari icin sayfanin cevabi tek blokta ve kendi
+      kendine yeten bicimde (hizmet, fiyat, bolge, iletisim). Tum bilgi
+      config'den gelir; fiyat kaynagi olmayan hizmette fiyat uydurulmaz. */}
+  <section class="relative z-20 -mt-10 sm:-mt-14 pb-14 sm:pb-20" aria-labelledby="bir-bakista">
     <div class="section-container">
-      <div class="max-w-3xl rounded-2xl border border-border bg-white p-6 sm:p-8">
-        <h2 id="kisa-cevap" class="text-xl sm:text-2xl font-bold text-primary mb-4">Kısa cevap</h2>
-        <p class="text-text-secondary leading-relaxed mb-5">{service.description}</p>
-        <dl class="space-y-3 text-text-primary">
-          <div class="flex flex-col sm:flex-row sm:gap-3">
-            <dt class="font-semibold min-w-[150px]">Fiyat</dt>
-            <dd class="text-text-secondary">
+      <article class="rounded-2xl border border-border bg-white shadow-elevated p-6 sm:p-8 lg:p-10">
+        <h2 id="bir-bakista" class="text-xl sm:text-2xl font-bold text-primary mb-3">
+          Bir bakışta: {service.name}
+        </h2>
+        <p class="text-text-secondary leading-relaxed mb-7 max-w-3xl">{service.description}</p>
+
+        <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-6">
+          <div>
+            <dt class="text-xs font-semibold uppercase tracking-wider text-text-secondary mb-1.5">Fiyat</dt>
+            <dd class="text-text-primary leading-relaxed">
               {fiyatCapasi
-                ? <>{fiyatCapasi} — <a href="/fiyatlar/" class="text-primary underline">tüm fiyat listesi</a></>
-                : <>Ürüne göre değişir. <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="text-primary underline">WhatsApp'tan fotoğraf gönderin</a>, net fiyat alın.</>}
+                ? <><span class="font-semibold">{fiyatCapasi}</span> · <a href="/fiyatlar/" class="text-primary underline underline-offset-2 hover:text-secondary">tüm fiyat listesi</a></>
+                : <>Ürüne göre değişir. <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2 hover:text-secondary">WhatsApp'tan fotoğraf gönderin</a>, net fiyat alın.</>}
             </dd>
           </div>
-          <div class="flex flex-col sm:flex-row sm:gap-3">
-            <dt class="font-semibold min-w-[150px]">Teslimat</dt>
-            <dd class="text-text-secondary">Ücretsiz kapıdan alım ve teslimat — {hizmetIlceleri}.</dd>
+
+          <div>
+            <dt class="text-xs font-semibold uppercase tracking-wider text-text-secondary mb-1.5">Teslimat</dt>
+            <dd class="text-text-primary leading-relaxed">Ücretsiz kapıdan alım ve teslimat — {hizmetIlceleri}.</dd>
           </div>
+
           {features[0] && (
-            <div class="flex flex-col sm:flex-row sm:gap-3">
-              <dt class="font-semibold min-w-[150px]">Hizmete dahil</dt>
-              <dd class="text-text-secondary">{features.slice(0, 2).join(' · ')}</dd>
+            <div>
+              <dt class="text-xs font-semibold uppercase tracking-wider text-text-secondary mb-1.5">Hizmete dahil</dt>
+              <dd class="text-text-primary leading-relaxed">{features.slice(0, 2).join(' · ')}</dd>
             </div>
           )}
-          <div class="flex flex-col sm:flex-row sm:gap-3">
-            <dt class="font-semibold min-w-[150px]">Nasıl başlarım?</dt>
-            <dd class="text-text-secondary">
-              <a href={`tel:${config.contact.phone.replace(/\s/g, '')}`} class="text-primary underline">{config.contact.phoneDisplay}</a> numarasını arayın ya da
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="text-primary underline"> WhatsApp'tan yazın</a>.
+
+          <div>
+            <dt class="text-xs font-semibold uppercase tracking-wider text-text-secondary mb-1.5">Nasıl başlarım?</dt>
+            <dd class="text-text-primary leading-relaxed">
+              <a href={`tel:${config.contact.phone.replace(/\s/g, '')}`} class="text-primary font-semibold underline underline-offset-2 hover:text-secondary">{config.contact.phoneDisplay}</a> numarasını arayın ya da
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2 hover:text-secondary"> WhatsApp'tan yazın</a>.
             </dd>
           </div>
         </dl>
-      </div>
+
+        <p class="mt-8 pt-5 border-t border-border text-sm text-text-secondary">
+          Hizmeti veren: <span class="font-semibold text-text-primary">{config.identity.businessName}</span>
+          <span class="mx-1.5">·</span>{config.contact.address.street}, {config.contact.address.province}/{config.contact.address.city}
+        </p>
+      </article>
     </div>
   </section>
 

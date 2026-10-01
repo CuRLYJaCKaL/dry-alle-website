@@ -16,7 +16,32 @@ const domain = `https://${config.contact.domain}`;
 const id = config.identity;
 const c = config.contact;
 
-const services = config.services.map((s) => `- [${s.name}](${domain}/hizmetler/${s.slug}/): ${s.description}`).join('\n');
+// Hizmet satirlari fiyat capasiyla birlikte: asistan "ne kadar" sorusuna
+// sayfayi taramadan cevap verebilsin. Fiyat kaynagi olmayan hizmette uydurulmaz.
+const pricingForServices = config.pricing ?? {};
+function hizmetTabanFiyat(slug) {
+  const tablo = pricingForServices.servicePriceTables?.[slug];
+  if (tablo?.items?.length) {
+    const min = Math.min(...tablo.items.map((i) => i.price));
+    return `${min} TL${tablo.unit === 'm²' ? '/m²' : ''}'den başlıyor`;
+  }
+  const tureGore = { 'kuru-temizleme': 'kuru-temizleme', 'utu-hizmetleri': 'utuleme' };
+  const tur = tureGore[slug];
+  if (!tur) return null;
+  const f = (pricingForServices.products ?? [])
+    .flatMap((u) => u.services ?? [])
+    .filter((x) => x.type === tur && typeof x.price === 'number')
+    .map((x) => x.price);
+  return f.length ? `${Math.min(...f)} TL'den başlıyor` : null;
+}
+
+const services = config.services
+  .map((s) => {
+    const fiyat = hizmetTabanFiyat(s.slug);
+    const capa = fiyat ? `Fiyat: ${fiyat}.` : 'Fiyat ürüne göre değişir; fotoğraf gönderildiğinde net fiyat verilir.';
+    return `- [${s.name}](${domain}/hizmetler/${s.slug}/): ${s.description} ${capa} Ücretsiz kapıdan alım-teslimat.`;
+  })
+  .join('\n');
 
 // Fiyat listesi — yalnizca link vermek yetmiyor: yapay zeka asistanlari
 // (ChatGPT, Gemini, Perplexity, Claude) "takim elbise kuru temizleme kac para"
