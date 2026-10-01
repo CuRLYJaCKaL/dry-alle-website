@@ -891,62 +891,230 @@
         {
           "name": "Çamlıca",
           "slug": "camlica",
-          "intro": "Çamlıca, İstanbul'un en yüksek tepelerinden birinde kurulu; müstakil evleri, bahçeli siteleri ve rüzgâra açık konumuyla biliniyor. Bu yükseklikte perdeler ve dış giyim toz ile rüzgârdan daha hızlı etkileniyor. Çamlıca kuru temizleme hizmetimizde perde söküp takma dahil, halı ve koltuklarda derin temizlik yapıyor; kapınızdan ücretsiz alıyoruz."
+          "intro": "Çamlıca, İstanbul'un en yüksek tepelerinden birinde kurulu; müstakil evleri, bahçeli siteleri ve rüzgâra açık konumuyla biliniyor. Bu yükseklikte perdeler ve dış giyim toz ile rüzgârdan daha hızlı etkileniyor. Çamlıca kuru temizleme hizmetimizde perde söküp takma dahil, halı ve koltuklarda derin temizlik yapıyor; kapınızdan ücretsiz alıyoruz.",
+          "faq": [
+            {
+              "question": "Çamlıca'da kuru temizleme için adresten alım var mı?",
+              "answer": "Alım ve teslimat ücretsizdir. Çamlıca'da adresinizden alıyor, işlem bittiğinde aynı adrese getiriyoruz. Listedeki fiyatlara bu hizmet dahildir."
+            },
+            {
+              "question": "Çamlıca'da halı yıkama fiyatı nasıl hesaplanıyor?",
+              "answer": "Halı yıkama metrekare üzerinden hesaplanır ve 280 TL/m²'den başlar. Halının türü, boyutu ve kirlilik durumu fiyatı etkilediği için en net rakamı fotoğraf gönderdiğinizde veriyoruz."
+            },
+            {
+              "question": "Çamlıca'da rüzgâr ve tozdan etkilenen perdeler için söküp takma yapıyor musunuz?",
+              "answer": "Evet. Tepe konumu nedeniyle Çamlıca'da perdeler toz ve rüzgârdan daha hızlı etkileniyor. Perdenizi söküyor, kumaş türüne uygun yöntemle temizliyor ve takarak teslim ediyoruz; bu hizmet için ek ücret almıyoruz."
+            }
+          ]
         },
         {
           "name": "Kuzguncuk",
           "slug": "kuzguncuk",
-          "intro": "Kuzguncuk, Boğaz kıyısındaki ahşap evleri ve dar sokaklarıyla İstanbul'un en özenle korunan semtlerinden. Tarihi ahşap yapılarda nem ve rutubet, perde ile döşemelik kumaşlarda koku ve leke bırakabiliyor. Kuzguncuk kuru temizleme hizmetimizde bu kumaşlara düşük ısı ve nazik işlem uyguluyor, ücretsiz kapıdan alım-teslimat sunuyoruz."
+          "intro": "Kuzguncuk, Boğaz kıyısındaki ahşap evleri ve dar sokaklarıyla İstanbul'un en özenle korunan semtlerinden. Tarihi ahşap yapılarda nem ve rutubet, perde ile döşemelik kumaşlarda koku ve leke bırakabiliyor. Kuzguncuk kuru temizleme hizmetimizde bu kumaşlara düşük ısı ve nazik işlem uyguluyor, ücretsiz kapıdan alım-teslimat sunuyoruz.",
+          "faq": [
+            {
+              "question": "Kuzguncuk'ta oturuyorum, parçaları kapımdan alır mısınız?",
+              "answer": "Evet. Kuzguncuk'ta kapıdan alım-teslimat yapıyoruz ve bunun için ücret almıyoruz. Size uygun saati belirlemeniz yeterli."
+            },
+            {
+              "question": "Kuzguncuk'ta fiyatları önceden öğrenebilir miyim?",
+              "answer": "Öğrenebilirsiniz. Giysilerde fiyatlar ürün bazında sabittir ve 300 TL'den başlar; fiyat listemiz sitede açıktır. Halı ve koltukta ölçüye göre değiştiği için fotoğrafla net fiyat veriyoruz."
+            },
+            {
+              "question": "Kuzguncuk'taki ahşap evlerde rutubet kokusu yapan halı ve perdeler temizlenebiliyor mu?",
+              "answer": "Evet. Ahşap yapılarda nem, kumaşın liflerine işleyip koku bırakıyor. Kokuyu örtmek yerine kaynağında gideren derin temizlik uyguluyor, nem bırakmadan kurutup teslim ediyoruz."
+            }
+          ]
         },
         {
           "name": "Beylerbeyi",
           "slug": "beylerbeyi",
-          "intro": "Beylerbeyi, sarayı ve Boğaz'a bakan yalılarıyla Üsküdar'ın en köklü semtlerinden biri. Deniz kıyısındaki yapılarda tuzlu nem; perde, döşemelik ve yün parçalarda yıpranmayı hızlandırıyor. Beylerbeyi kuru temizleme hizmetimizde hassas kumaşlara uygun yöntem seçiyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz."
+          "intro": "Beylerbeyi, sarayı ve Boğaz'a bakan yalılarıyla Üsküdar'ın en köklü semtlerinden biri. Deniz kıyısındaki yapılarda tuzlu nem; perde, döşemelik ve yün parçalarda yıpranmayı hızlandırıyor. Beylerbeyi kuru temizleme hizmetimizde hassas kumaşlara uygun yöntem seçiyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz.",
+          "faq": [
+            {
+              "question": "Beylerbeyi'nde alım ve teslimat ücretli mi?",
+              "answer": "Ücretsiz. Beylerbeyi'nde parçalarınızı kapınızdan alıyor, temizlenmiş ve ütülenmiş şekilde geri getiriyoruz."
+            },
+            {
+              "question": "Beylerbeyi'nde temizlik ücreti nasıl belirleniyor?",
+              "answer": "Giysilerde ürün bazında sabit fiyat uygulanır, 300 TL'den başlar ve ütüleme dahildir. Halı ve koltukta ölçü ile kirlilik durumuna göre hesaplanır; fotoğraf gönderin, net fiyatı hemen söyleyelim."
+            },
+            {
+              "question": "Beylerbeyi'nde deniz kıyısındaki evlerde tuzlu nem kumaşlara zarar veriyor mu?",
+              "answer": "Veriyor. Tuzlu nem özellikle yün, ipek ve döşemelik kumaşlarda sertleşme ve renk solmasına yol açıyor. Bu parçalara düşük ısı ve nazik işlem uyguluyoruz; kıyı hattındaki yalı ve apartmanlara kapıdan alım yapıyoruz."
+            }
+          ]
         },
         {
           "name": "Çengelköy",
           "slug": "cengelkoy",
-          "intro": "Çengelköy, Boğaz kıyısındaki çay bahçeleri ve tarihi dokusuyla tanınan bir sahil semti. Sahile yakın evlerde rutubet kaynaklı küf ve koku, halı ile koltuklarda en sık karşılaştığımız sorun. Çengelköy kuru temizleme ve halı yıkama hizmetimizde kokuyu kaynağında gideriyor, ücretsiz kapıdan alım-teslimat ile çalışıyoruz."
+          "intro": "Çengelköy, Boğaz kıyısındaki çay bahçeleri ve tarihi dokusuyla tanınan bir sahil semti. Sahile yakın evlerde rutubet kaynaklı küf ve koku, halı ile koltuklarda en sık karşılaştığımız sorun. Çengelköy kuru temizleme ve halı yıkama hizmetimizde kokuyu kaynağında gideriyor, ücretsiz kapıdan alım-teslimat ile çalışıyoruz.",
+          "faq": [
+            {
+              "question": "Çengelköy'de ücretsiz kapıdan alım yapıyor musunuz?",
+              "answer": "Evet, ücretsiz. Çengelköy'de kapıdan alıp temizledikten sonra aynı adrese teslim ediyoruz; alım ve teslimat için ek ücret yok. Randevu saatini çalışma saatlerimiz içinde siz belirliyorsunuz."
+            },
+            {
+              "question": "Çengelköy'de kuru temizleme fiyatları ne kadar?",
+              "answer": "Kuru temizleme ürün bazında fiyatlandırılır ve 300 TL'den başlar; tüm liste fiyatlar sayfamızda ürün ürün yazılıdır. Halı ve koltuk metrekare veya adet üzerinden hesaplanır, net fiyat için WhatsApp'tan fotoğraf gönderebilirsiniz."
+            },
+            {
+              "question": "Çengelköy'de rutubetten kaynaklanan küf kokusu koltuklardan çıkar mı?",
+              "answer": "Çıkar. Sahile yakın evlerde koltuk süngerine işleyen nem, küf kokusunun ana nedeni. Koltuğu yerinde değil atölyede derin temizliyor, kokuyu kaynağında giderip kurutarak teslim ediyoruz."
+            }
+          ]
         },
         {
           "name": "Kandilli",
           "slug": "kandilli",
-          "intro": "Kandilli, Boğaz'a dik yamaçlara kurulu; köşkleri, rasathanesi ve denize hâkim konumuyla biliniyor. Yamaç ve kıyı arasındaki nem farkı, ev tekstilinde ve kışlık giysilerde bakım ihtiyacını artırıyor. Kandilli kuru temizleme hizmetimizde yorgan, battaniye ve paltolarınızı mevsim geçişlerinde kapınızdan ücretsiz alıyoruz."
+          "intro": "Kandilli, Boğaz'a dik yamaçlara kurulu; köşkleri, rasathanesi ve denize hâkim konumuyla biliniyor. Yamaç ve kıyı arasındaki nem farkı, ev tekstilinde ve kışlık giysilerde bakım ihtiyacını artırıyor. Kandilli kuru temizleme hizmetimizde yorgan, battaniye ve paltolarınızı mevsim geçişlerinde kapınızdan ücretsiz alıyoruz.",
+          "faq": [
+            {
+              "question": "Kandilli'de kuru temizleme için adresten alım var mı?",
+              "answer": "Alım ve teslimat ücretsizdir. Kandilli'de adresinizden alıyor, işlem bittiğinde aynı adrese getiriyoruz. Listedeki fiyatlara bu hizmet dahildir."
+            },
+            {
+              "question": "Kandilli'de halı yıkama fiyatı nasıl hesaplanıyor?",
+              "answer": "Halı yıkama metrekare üzerinden hesaplanır ve 280 TL/m²'den başlar. Halının türü, boyutu ve kirlilik durumu fiyatı etkilediği için en net rakamı fotoğraf gönderdiğinizde veriyoruz."
+            },
+            {
+              "question": "Kandilli'de yorgan ve battaniyeleri mevsim geçişinde toplu alıyor musunuz?",
+              "answer": "Alıyoruz. Yamaç konumu nedeniyle Kandilli'de nem farkı belirgin; yorgan, battaniye ve paltolar mevsim geçişinde birlikte toplanıyor. Tek randevuda hepsini alıyor, hijyenik paketlenmiş şekilde geri getiriyoruz."
+            }
+          ]
         },
         {
           "name": "Bulgurlu",
           "slug": "bulgurlu",
-          "intro": "Bulgurlu, Çamlıca tepesinin eteğinde, apartman ve site yoğunluklu bir yerleşim. Aile konutlarında halı, koltuk ve perde bakımı yıl içinde düzenli olarak gündeme geliyor. Bulgurlu kuru temizleme, halı yıkama ve koltuk yıkama hizmetlerimizde parçalarınızı kapınızdan ücretsiz alıyor, temizlenmiş şekilde geri getiriyoruz."
+          "intro": "Bulgurlu, Çamlıca tepesinin eteğinde, apartman ve site yoğunluklu bir yerleşim. Aile konutlarında halı, koltuk ve perde bakımı yıl içinde düzenli olarak gündeme geliyor. Bulgurlu kuru temizleme, halı yıkama ve koltuk yıkama hizmetlerimizde parçalarınızı kapınızdan ücretsiz alıyor, temizlenmiş şekilde geri getiriyoruz.",
+          "faq": [
+            {
+              "question": "Bulgurlu'da oturuyorum, parçaları kapımdan alır mısınız?",
+              "answer": "Evet. Bulgurlu'da kapıdan alım-teslimat yapıyoruz ve bunun için ücret almıyoruz. Size uygun saati belirlemeniz yeterli."
+            },
+            {
+              "question": "Bulgurlu'da fiyatları önceden öğrenebilir miyim?",
+              "answer": "Öğrenebilirsiniz. Giysilerde fiyatlar ürün bazında sabittir ve 300 TL'den başlar; fiyat listemiz sitede açıktır. Halı ve koltukta ölçüye göre değiştiği için fotoğrafla net fiyat veriyoruz."
+            },
+            {
+              "question": "Bulgurlu'daki sitelere halı ve koltuk için kapıdan alım geliyor mu?",
+              "answer": "Geliyor. Bulgurlu'daki apartman ve sitelere ücretsiz kapıdan alım-teslimat yapıyoruz. Halıyı yerinden alıyor, metrekare bazlı şeffaf fiyat veriyor, kurutulmuş şekilde aynı adrese teslim ediyoruz."
+            }
+          ]
         },
         {
           "name": "Bağlarbaşı",
           "slug": "baglarbasi",
-          "intro": "Bağlarbaşı, Üsküdar merkezine yakın, konut ve ticaretin iç içe geçtiği hareketli bir semt. Burada hem günlük iş kıyafetleri hem de ev tekstili için düzenli bakım talebi yüksek. Bağlarbaşı kuru temizleme hizmetimizde takım elbise, gömlek ve paltolarınızı ütüleme dahil temizliyor, ücretsiz kapıdan alım-teslimat sunuyoruz."
+          "intro": "Bağlarbaşı, Üsküdar merkezine yakın, konut ve ticaretin iç içe geçtiği hareketli bir semt. Burada hem günlük iş kıyafetleri hem de ev tekstili için düzenli bakım talebi yüksek. Bağlarbaşı kuru temizleme hizmetimizde takım elbise, gömlek ve paltolarınızı ütüleme dahil temizliyor, ücretsiz kapıdan alım-teslimat sunuyoruz.",
+          "faq": [
+            {
+              "question": "Bağlarbaşı'nda alım ve teslimat ücretli mi?",
+              "answer": "Ücretsiz. Bağlarbaşı'nda parçalarınızı kapınızdan alıyor, temizlenmiş ve ütülenmiş şekilde geri getiriyoruz."
+            },
+            {
+              "question": "Bağlarbaşı'nda temizlik ücreti nasıl belirleniyor?",
+              "answer": "Giysilerde ürün bazında sabit fiyat uygulanır, 300 TL'den başlar ve ütüleme dahildir. Halı ve koltukta ölçü ile kirlilik durumuna göre hesaplanır; fotoğraf gönderin, net fiyatı hemen söyleyelim."
+            },
+            {
+              "question": "Bağlarbaşı'nda takım elbise ve gömlek için ütüleme fiyata dahil mi?",
+              "answer": "Dahil. Kuru temizleme fiyatlarımıza ütüleme dahildir; ayrıca ücret alınmaz. Bağlarbaşı'nda iş kıyafetleri için hafta içi sabah alım yapıp aynı düzende teslim ediyoruz."
+            }
+          ]
         },
         {
           "name": "Kısıklı",
           "slug": "kisikli",
-          "intro": "Kısıklı, Çamlıca'ya çıkan yol üzerinde, tarihi tramvay hattıyla bilinen yerleşik bir semt. Bahçeli evler ve siteler, halı ile koltuk bakımında mevsimlik yoğunluk yaratıyor. Kısıklı kuru temizleme ve halı yıkama hizmetimizde parçalarınızı kapınızdan ücretsiz alıyor, nem bırakmadan kurutup teslim ediyoruz."
+          "intro": "Kısıklı, Çamlıca'ya çıkan yol üzerinde, tarihi tramvay hattıyla bilinen yerleşik bir semt. Bahçeli evler ve siteler, halı ile koltuk bakımında mevsimlik yoğunluk yaratıyor. Kısıklı kuru temizleme ve halı yıkama hizmetimizde parçalarınızı kapınızdan ücretsiz alıyor, nem bırakmadan kurutup teslim ediyoruz.",
+          "faq": [
+            {
+              "question": "Kısıklı'da ücretsiz kapıdan alım yapıyor musunuz?",
+              "answer": "Evet, ücretsiz. Kısıklı'da kapıdan alıp temizledikten sonra aynı adrese teslim ediyoruz; alım ve teslimat için ek ücret yok. Randevu saatini çalışma saatlerimiz içinde siz belirliyorsunuz."
+            },
+            {
+              "question": "Kısıklı'da kuru temizleme fiyatları ne kadar?",
+              "answer": "Kuru temizleme ürün bazında fiyatlandırılır ve 300 TL'den başlar; tüm liste fiyatlar sayfamızda ürün ürün yazılıdır. Halı ve koltuk metrekare veya adet üzerinden hesaplanır, net fiyat için WhatsApp'tan fotoğraf gönderebilirsiniz."
+            },
+            {
+              "question": "Kısıklı'daki bahçeli evlerden büyük halıları taşıyabiliyor musunuz?",
+              "answer": "Taşıyoruz. Kısıklı'daki bahçeli ev ve sitelerde büyük boy halılar sık karşımıza çıkıyor. Halıyı biz söküp taşıyoruz, metrekare bazlı fiyatlandırıyor ve nem bırakmadan kurutup yerine seriyoruz."
+            }
+          ]
         },
         {
           "name": "Salacak",
           "slug": "salacak",
-          "intro": "Salacak, Kız Kulesi manzarasına bakan sahil şeridiyle Üsküdar'ın simge semtlerinden. Denize bu kadar yakın konutlarda tuz ve nem, perde ile döşemelik kumaşlarda iz bırakabiliyor. Salacak kuru temizleme hizmetimizde perde söküp takma dahil çalışıyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz."
+          "intro": "Salacak, Kız Kulesi manzarasına bakan sahil şeridiyle Üsküdar'ın simge semtlerinden. Denize bu kadar yakın konutlarda tuz ve nem, perde ile döşemelik kumaşlarda iz bırakabiliyor. Salacak kuru temizleme hizmetimizde perde söküp takma dahil çalışıyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz.",
+          "faq": [
+            {
+              "question": "Salacak'ta kuru temizleme için adresten alım var mı?",
+              "answer": "Alım ve teslimat ücretsizdir. Salacak'ta adresinizden alıyor, işlem bittiğinde aynı adrese getiriyoruz. Listedeki fiyatlara bu hizmet dahildir."
+            },
+            {
+              "question": "Salacak'ta halı yıkama fiyatı nasıl hesaplanıyor?",
+              "answer": "Halı yıkama metrekare üzerinden hesaplanır ve 280 TL/m²'den başlar. Halının türü, boyutu ve kirlilik durumu fiyatı etkilediği için en net rakamı fotoğraf gönderdiğinizde veriyoruz."
+            },
+            {
+              "question": "Salacak'ta sahile bakan evlerde perdeler ne sıklıkla temizlenmeli?",
+              "answer": "Deniz kenarındaki evlerde tuz ve nem nedeniyle perdelerin yılda iki kez temizlenmesi öneriliyor. Salacak'ta söküp takma dahil çalışıyoruz; perdenizi ölçüsünü bozmadan temizleyip asıyoruz."
+            }
+          ]
         },
         {
           "name": "Burhaniye",
           "slug": "burhaniye",
-          "intro": "Burhaniye, Üsküdar merkezine yürüme mesafesinde, sakin ve yerleşik bir konut semti. Aile evlerinde yorgan, battaniye ve perde bakımı özellikle mevsim geçişlerinde yoğunlaşıyor. Burhaniye kuru temizleme ve ev tekstili temizliği hizmetimizde bu parçaları kapınızdan ücretsiz alıyor, hijyenik şekilde teslim ediyoruz."
+          "intro": "Burhaniye, Üsküdar merkezine yürüme mesafesinde, sakin ve yerleşik bir konut semti. Aile evlerinde yorgan, battaniye ve perde bakımı özellikle mevsim geçişlerinde yoğunlaşıyor. Burhaniye kuru temizleme ve ev tekstili temizliği hizmetimizde bu parçaları kapınızdan ücretsiz alıyor, hijyenik şekilde teslim ediyoruz.",
+          "faq": [
+            {
+              "question": "Burhaniye'de oturuyorum, parçaları kapımdan alır mısınız?",
+              "answer": "Evet. Burhaniye'de kapıdan alım-teslimat yapıyoruz ve bunun için ücret almıyoruz. Size uygun saati belirlemeniz yeterli."
+            },
+            {
+              "question": "Burhaniye'de fiyatları önceden öğrenebilir miyim?",
+              "answer": "Öğrenebilirsiniz. Giysilerde fiyatlar ürün bazında sabittir ve 300 TL'den başlar; fiyat listemiz sitede açıktır. Halı ve koltukta ölçüye göre değiştiği için fotoğrafla net fiyat veriyoruz."
+            },
+            {
+              "question": "Burhaniye'de yorgan ve nevresim temizliği yapıyor musunuz?",
+              "answer": "Yapıyoruz. Ev tekstili temizliği hizmetimizde yorgan, battaniye, yatak örtüsü ve nevresimler hijyenik şekilde yıkanıyor. Burhaniye'de Üsküdar merkezine yakınlığımız sayesinde alım-teslim hızlı ilerliyor."
+            }
+          ]
         },
         {
           "name": "Ünalan",
           "slug": "unalan",
-          "intro": "Ünalan, metro bağlantısıyla ulaşımı kolay, apartman yoğunluklu bir semt. Çalışan ailelerde kuru temizlemeye ayrılacak vakit kısıtlı oluyor; kapıdan alım burada en çok tercih edilen çözüm. Ünalan kuru temizleme hizmetimizde gün içinde uygun saatte kapınızdan alıyor, ütülenmiş şekilde geri getiriyoruz."
+          "intro": "Ünalan, metro bağlantısıyla ulaşımı kolay, apartman yoğunluklu bir semt. Çalışan ailelerde kuru temizlemeye ayrılacak vakit kısıtlı oluyor; kapıdan alım burada en çok tercih edilen çözüm. Ünalan kuru temizleme hizmetimizde gün içinde uygun saatte kapınızdan alıyor, ütülenmiş şekilde geri getiriyoruz.",
+          "faq": [
+            {
+              "question": "Ünalan'da alım ve teslimat ücretli mi?",
+              "answer": "Ücretsiz. Ünalan'da parçalarınızı kapınızdan alıyor, temizlenmiş ve ütülenmiş şekilde geri getiriyoruz."
+            },
+            {
+              "question": "Ünalan'da temizlik ücreti nasıl belirleniyor?",
+              "answer": "Giysilerde ürün bazında sabit fiyat uygulanır, 300 TL'den başlar ve ütüleme dahildir. Halı ve koltukta ölçü ile kirlilik durumuna göre hesaplanır; fotoğraf gönderin, net fiyatı hemen söyleyelim."
+            },
+            {
+              "question": "Ünalan'da iş çıkışı saatlerinde alım yapıyor musunuz?",
+              "answer": "Yapıyoruz. Çalışma saatlerimiz içinde size uygun saati siz belirliyorsunuz; Ünalan'da metro çevresindeki apartmanlara aynı gün içinde alım planlıyoruz. Alım ve teslimat ücretsizdir."
+            }
+          ]
         }
       ],
       "seoTitle": "Üsküdar Kuru Temizleme Fiyatları {currentYear} | Dry Alle",
       "seoDescription": "Üsküdar kuru temizleme fiyatları {currentYear}: takım elbise, gömlek, palto, gelinlik ve tüm giysilerde şeffaf fiyat. Ücretsiz kapıdan alım-teslimat. Hemen arayın.",
-      "intro": "Üsküdar, Boğaz kıyısındaki tarihi semtlerinden Çamlıca'nın yamaçlarına kadar çok farklı yaşam alanlarını bir arada barındırıyor. Sahil kesiminde tuzlu nem, yamaçlarda toz ve rüzgâr; ev tekstilinde ihtiyaç mahalleden mahalleye değişiyor. Üsküdar kuru temizleme, halı ve koltuk yıkama hizmetlerimizde parçanıza uygun yöntemi seçiyor, kapınızdan ücretsiz alıp teslim ediyoruz."
+      "intro": "Üsküdar, Boğaz kıyısındaki tarihi semtlerinden Çamlıca'nın yamaçlarına kadar çok farklı yaşam alanlarını bir arada barındırıyor. Sahil kesiminde tuzlu nem, yamaçlarda toz ve rüzgâr; ev tekstilinde ihtiyaç mahalleden mahalleye değişiyor. Üsküdar kuru temizleme, halı ve koltuk yıkama hizmetlerimizde parçanıza uygun yöntemi seçiyor, kapınızdan ücretsiz alıp teslim ediyoruz.",
+      "faq": [
+        {
+          "question": "Üsküdar'ın hangi mahallelerine hizmet veriyorsunuz?",
+          "answer": "Çamlıca, Kuzguncuk, Beylerbeyi, Çengelköy, Kandilli, Bulgurlu, Bağlarbaşı, Kısıklı, Salacak, Burhaniye, Altunizade ve Ünalan dahil Üsküdar genelinde ücretsiz kapıdan alım-teslimat yapıyoruz."
+        },
+        {
+          "question": "Üsküdar'da sahil ile yamaç mahalleleri arasında bakım farkı var mı?",
+          "answer": "Var. Sahil hattında (Salacak, Beylerbeyi, Çengelköy, Kuzguncuk) tuzlu nem perde ve döşemelik kumaşlarda sararma yapıyor; Çamlıca ve Kısıklı gibi yüksek kesimlerde toz ve rüzgâr öne çıkıyor. Yönteme parçanın durumuna bakarak karar veriyoruz."
+        },
+        {
+          "question": "Üsküdar'da kuru temizleme fiyatları ne kadar?",
+          "answer": "Giysilerde ürün bazında sabit fiyat uygulanır ve 300 TL'den başlar; ütüleme dahildir. Halı 280 TL/m²'den başlar, koltuk oturma birimi üzerinden hesaplanır. Net fiyat için WhatsApp'tan fotoğraf gönderebilirsiniz."
+        }
+      ]
     },
     {
       "city": "İstanbul",
@@ -1070,67 +1238,249 @@
         {
           "name": "Kurtköy",
           "slug": "kurtkoy",
-          "intro": "Kurtköy, Sabiha Gökçen Havalimanı'na komşu konumuyla Pendik'in en hareketli bölgelerinden; iş otelleri ve yeni konut projeleri burada yoğunlaşıyor. Sık seyahat eden misafirlerde takım elbise ve gömlek bakımı öne çıkıyor. Kurtköy kuru temizleme hizmetimizde ütüleme dahil temizlik yapıyor, kapınızdan ücretsiz alıyoruz."
+          "intro": "Kurtköy, Sabiha Gökçen Havalimanı'na komşu konumuyla Pendik'in en hareketli bölgelerinden; iş otelleri ve yeni konut projeleri burada yoğunlaşıyor. Sık seyahat eden misafirlerde takım elbise ve gömlek bakımı öne çıkıyor. Kurtköy kuru temizleme hizmetimizde ütüleme dahil temizlik yapıyor, kapınızdan ücretsiz alıyoruz.",
+          "faq": [
+            {
+              "question": "Kurtköy'de ücretsiz kapıdan alım yapıyor musunuz?",
+              "answer": "Evet, ücretsiz. Kurtköy'de kapıdan alıp temizledikten sonra aynı adrese teslim ediyoruz; alım ve teslimat için ek ücret yok. Randevu saatini çalışma saatlerimiz içinde siz belirliyorsunuz."
+            },
+            {
+              "question": "Kurtköy'de kuru temizleme fiyatları ne kadar?",
+              "answer": "Kuru temizleme ürün bazında fiyatlandırılır ve 300 TL'den başlar; tüm liste fiyatlar sayfamızda ürün ürün yazılıdır. Halı ve koltuk metrekare veya adet üzerinden hesaplanır, net fiyat için WhatsApp'tan fotoğraf gönderebilirsiniz."
+            },
+            {
+              "question": "Kurtköy'de sık seyahat edenler için takım elbise ve gömlek bakımı nasıl ilerliyor?",
+              "answer": "Havalimanına yakınlığı nedeniyle Kurtköy'de seyahat öncesi takım elbise ve gömlek talebi yoğun. Ütüleme fiyata dahil; alım saatini uçuş programınıza göre ayarlıyor, paketlenmiş şekilde teslim ediyoruz."
+            }
+          ]
         },
         {
           "name": "Kaynarca",
           "slug": "kaynarca",
-          "intro": "Kaynarca, metro hattıyla ulaşımı güçlü, apartman yoğunluklu bir yerleşim. Yoğun çalışan ailelerde halı, koltuk ve perde bakımı genellikle hafta sonuna kalıyor. Kaynarca kuru temizleme ve halı yıkama hizmetimizde randevuyu size göre ayarlıyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz."
+          "intro": "Kaynarca, metro hattıyla ulaşımı güçlü, apartman yoğunluklu bir yerleşim. Yoğun çalışan ailelerde halı, koltuk ve perde bakımı genellikle hafta sonuna kalıyor. Kaynarca kuru temizleme ve halı yıkama hizmetimizde randevuyu size göre ayarlıyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz.",
+          "faq": [
+            {
+              "question": "Kaynarca'da kuru temizleme için adresten alım var mı?",
+              "answer": "Alım ve teslimat ücretsizdir. Kaynarca'da adresinizden alıyor, işlem bittiğinde aynı adrese getiriyoruz. Listedeki fiyatlara bu hizmet dahildir."
+            },
+            {
+              "question": "Kaynarca'da halı yıkama fiyatı nasıl hesaplanıyor?",
+              "answer": "Halı yıkama metrekare üzerinden hesaplanır ve 280 TL/m²'den başlar. Halının türü, boyutu ve kirlilik durumu fiyatı etkilediği için en net rakamı fotoğraf gönderdiğinizde veriyoruz."
+            },
+            {
+              "question": "Kaynarca'da hafta sonu halı ve koltuk alımı mümkün mü?",
+              "answer": "Mümkün. Çalışma saatlerimiz cumartesi günü de açık; Kaynarca'da yoğun çalışan aileler için hafta sonu alımı sık tercih ediliyor. Halıyı alıyor, metrekare bazlı fiyat veriyor, kurutup teslim ediyoruz."
+            }
+          ]
         },
         {
           "name": "Yenişehir",
           "slug": "yenisehir",
-          "intro": "Yenişehir, havalimanı çevresinde hızla büyüyen yeni konut bölgelerinden biri. Yeni taşınan ailelerde perde, halı ve ev tekstili ilk bakım ihtiyacı olarak öne çıkıyor. Yenişehir kuru temizleme, halı yıkama ve perde temizleme hizmetlerimizde söküp takma dahil çalışıyor, kapınızdan ücretsiz alım-teslimat sunuyoruz."
+          "intro": "Yenişehir, havalimanı çevresinde hızla büyüyen yeni konut bölgelerinden biri. Yeni taşınan ailelerde perde, halı ve ev tekstili ilk bakım ihtiyacı olarak öne çıkıyor. Yenişehir kuru temizleme, halı yıkama ve perde temizleme hizmetlerimizde söküp takma dahil çalışıyor, kapınızdan ücretsiz alım-teslimat sunuyoruz.",
+          "faq": [
+            {
+              "question": "Yenişehir'de oturuyorum, parçaları kapımdan alır mısınız?",
+              "answer": "Evet. Yenişehir'de kapıdan alım-teslimat yapıyoruz ve bunun için ücret almıyoruz. Size uygun saati belirlemeniz yeterli."
+            },
+            {
+              "question": "Yenişehir'de fiyatları önceden öğrenebilir miyim?",
+              "answer": "Öğrenebilirsiniz. Giysilerde fiyatlar ürün bazında sabittir ve 300 TL'den başlar; fiyat listemiz sitede açıktır. Halı ve koltukta ölçüye göre değiştiği için fotoğrafla net fiyat veriyoruz."
+            },
+            {
+              "question": "Yenişehir'de yeni taşınan evler için perde ve halı temizliği birlikte yapılıyor mu?",
+              "answer": "Yapılıyor. Yeni konut bölgelerinde taşınma sonrası perde, halı ve koltuk birlikte talep ediliyor. Yenişehir'de hepsini tek randevuda alıyor, perdede söküp takma dahil çalışıyoruz."
+            }
+          ]
         },
         {
           "name": "Esenyalı",
           "slug": "esenyali",
-          "intro": "Esenyalı, Marmara kıyısına yakın konumuyla Pendik'in sahil kesiminde yer alıyor. Denize yakın evlerde nem kaynaklı koku ve küf, halı ile koltuklarda sık karşılaştığımız sorun. Esenyalı halı yıkama ve koltuk yıkama hizmetimizde kokuyu kaynağında gideriyor, parçalarınızı kapınızdan ücretsiz alıyoruz."
+          "intro": "Esenyalı, Marmara kıyısına yakın konumuyla Pendik'in sahil kesiminde yer alıyor. Denize yakın evlerde nem kaynaklı koku ve küf, halı ile koltuklarda sık karşılaştığımız sorun. Esenyalı halı yıkama ve koltuk yıkama hizmetimizde kokuyu kaynağında gideriyor, parçalarınızı kapınızdan ücretsiz alıyoruz.",
+          "faq": [
+            {
+              "question": "Esenyalı'da alım ve teslimat ücretli mi?",
+              "answer": "Ücretsiz. Esenyalı'da parçalarınızı kapınızdan alıyor, temizlenmiş ve ütülenmiş şekilde geri getiriyoruz."
+            },
+            {
+              "question": "Esenyalı'da temizlik ücreti nasıl belirleniyor?",
+              "answer": "Giysilerde ürün bazında sabit fiyat uygulanır, 300 TL'den başlar ve ütüleme dahildir. Halı ve koltukta ölçü ile kirlilik durumuna göre hesaplanır; fotoğraf gönderin, net fiyatı hemen söyleyelim."
+            },
+            {
+              "question": "Esenyalı'da denize yakın evlerde halıdaki nem kokusu geçer mi?",
+              "answer": "Geçer. Sahil kesiminde halının altına işleyen nem koku yapıyor. Esenyalı'da halıyı alıp atölyede derin temizliyor, kontrollü kurutmayla nemi tamamen alıyor ve kokusuz şekilde teslim ediyoruz."
+            }
+          ]
         },
         {
           "name": "Güzelyalı",
           "slug": "guzelyali",
-          "intro": "Güzelyalı, adının da işaret ettiği gibi Pendik'in sahil şeridinde; deniz havası burada ev tekstilini doğrudan etkiliyor. Tuzlu nem perdelerde ve döşemelik kumaşlarda sararma ile koku bırakabiliyor. Güzelyalı kuru temizleme ve perde temizleme hizmetimizde söküp takma dahil çalışıyor, kapınızdan ücretsiz alıyoruz."
+          "intro": "Güzelyalı, adının da işaret ettiği gibi Pendik'in sahil şeridinde; deniz havası burada ev tekstilini doğrudan etkiliyor. Tuzlu nem perdelerde ve döşemelik kumaşlarda sararma ile koku bırakabiliyor. Güzelyalı kuru temizleme ve perde temizleme hizmetimizde söküp takma dahil çalışıyor, kapınızdan ücretsiz alıyoruz.",
+          "faq": [
+            {
+              "question": "Güzelyalı'da ücretsiz kapıdan alım yapıyor musunuz?",
+              "answer": "Evet, ücretsiz. Güzelyalı'da kapıdan alıp temizledikten sonra aynı adrese teslim ediyoruz; alım ve teslimat için ek ücret yok. Randevu saatini çalışma saatlerimiz içinde siz belirliyorsunuz."
+            },
+            {
+              "question": "Güzelyalı'da kuru temizleme fiyatları ne kadar?",
+              "answer": "Kuru temizleme ürün bazında fiyatlandırılır ve 300 TL'den başlar; tüm liste fiyatlar sayfamızda ürün ürün yazılıdır. Halı ve koltuk metrekare veya adet üzerinden hesaplanır, net fiyat için WhatsApp'tan fotoğraf gönderebilirsiniz."
+            },
+            {
+              "question": "Güzelyalı'da deniz havasından sararan perdeler için ne yapıyorsunuz?",
+              "answer": "Tuzlu nem perdelerde sararma ve sertleşme yapıyor. Güzelyalı'da perdeyi söküyor, kumaşına uygun sıcaklıkta temizliyor ve ölçüsünü bozmadan takıyoruz; söküp takma ücrete dahildir."
+            }
+          ]
         },
         {
           "name": "Çınardere",
           "slug": "cinardere",
-          "intro": "Çınardere, Pendik merkezine yakın, yerleşik aile konutlarının yoğun olduğu bir semt. Burada halı ve koltuk yıkama talebi özellikle bahar temizliği döneminde artıyor. Çınardere halı yıkama ve koltuk yıkama hizmetimizde metrekare bazlı şeffaf fiyat veriyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz."
+          "intro": "Çınardere, Pendik merkezine yakın, yerleşik aile konutlarının yoğun olduğu bir semt. Burada halı ve koltuk yıkama talebi özellikle bahar temizliği döneminde artıyor. Çınardere halı yıkama ve koltuk yıkama hizmetimizde metrekare bazlı şeffaf fiyat veriyor, parçalarınızı kapınızdan ücretsiz alıp teslim ediyoruz.",
+          "faq": [
+            {
+              "question": "Çınardere'de kuru temizleme için adresten alım var mı?",
+              "answer": "Alım ve teslimat ücretsizdir. Çınardere'de adresinizden alıyor, işlem bittiğinde aynı adrese getiriyoruz. Listedeki fiyatlara bu hizmet dahildir."
+            },
+            {
+              "question": "Çınardere'de halı yıkama fiyatı nasıl hesaplanıyor?",
+              "answer": "Halı yıkama metrekare üzerinden hesaplanır ve 280 TL/m²'den başlar. Halının türü, boyutu ve kirlilik durumu fiyatı etkilediği için en net rakamı fotoğraf gönderdiğinizde veriyoruz."
+            },
+            {
+              "question": "Çınardere'de bahar temizliğinde halı ve koltuk birlikte alınıyor mu?",
+              "answer": "Alınıyor. Bahar döneminde Çınardere'de halı ve koltuk talebi birlikte geliyor. İkisini tek randevuda topluyor, halıda metrekare, koltukta oturma birimi üzerinden şeffaf fiyat veriyoruz."
+            }
+          ]
         },
         {
           "name": "Kavakpınar",
           "slug": "kavakpinar",
-          "intro": "Kavakpınar, Pendik'in merkezine yakın, apartman ve site yoğunluklu bir yerleşim. Aile evlerinde yorgan, battaniye ve perde bakımı mevsim geçişlerinde toplu şekilde gündeme geliyor. Kavakpınar kuru temizleme ve ev tekstili temizliği hizmetimizde bu parçaları tek seferde alıyor, hijyenik şekilde teslim ediyoruz."
+          "intro": "Kavakpınar, Pendik'in merkezine yakın, apartman ve site yoğunluklu bir yerleşim. Aile evlerinde yorgan, battaniye ve perde bakımı mevsim geçişlerinde toplu şekilde gündeme geliyor. Kavakpınar kuru temizleme ve ev tekstili temizliği hizmetimizde bu parçaları tek seferde alıyor, hijyenik şekilde teslim ediyoruz.",
+          "faq": [
+            {
+              "question": "Kavakpınar'da oturuyorum, parçaları kapımdan alır mısınız?",
+              "answer": "Evet. Kavakpınar'da kapıdan alım-teslimat yapıyoruz ve bunun için ücret almıyoruz. Size uygun saati belirlemeniz yeterli."
+            },
+            {
+              "question": "Kavakpınar'da fiyatları önceden öğrenebilir miyim?",
+              "answer": "Öğrenebilirsiniz. Giysilerde fiyatlar ürün bazında sabittir ve 300 TL'den başlar; fiyat listemiz sitede açıktır. Halı ve koltukta ölçüye göre değiştiği için fotoğrafla net fiyat veriyoruz."
+            },
+            {
+              "question": "Kavakpınar'da yorgan, battaniye ve perdeyi tek seferde alıyor musunuz?",
+              "answer": "Alıyoruz. Mevsim geçişlerinde Kavakpınar'daki aile evlerinde bu parçalar birlikte çıkıyor. Hepsini tek randevuda topluyor, hijyenik şekilde paketleyip aynı adrese teslim ediyoruz."
+            }
+          ]
         },
         {
           "name": "Velibaba",
           "slug": "velibaba",
-          "intro": "Velibaba, Pendik'in iç kesiminde, sakin ve yerleşik bir konut bölgesi. Müstakil ve bahçeli evlerde halı ile döşemelik kumaşlar toza daha açık oluyor. Velibaba halı yıkama ve koltuk yıkama hizmetimizde derin temizlik uyguluyor, nem bırakmadan kurutuyor ve kapınızdan ücretsiz alıp teslim ediyoruz."
+          "intro": "Velibaba, Pendik'in iç kesiminde, sakin ve yerleşik bir konut bölgesi. Müstakil ve bahçeli evlerde halı ile döşemelik kumaşlar toza daha açık oluyor. Velibaba halı yıkama ve koltuk yıkama hizmetimizde derin temizlik uyguluyor, nem bırakmadan kurutuyor ve kapınızdan ücretsiz alıp teslim ediyoruz.",
+          "faq": [
+            {
+              "question": "Velibaba'da alım ve teslimat ücretli mi?",
+              "answer": "Ücretsiz. Velibaba'da parçalarınızı kapınızdan alıyor, temizlenmiş ve ütülenmiş şekilde geri getiriyoruz."
+            },
+            {
+              "question": "Velibaba'da temizlik ücreti nasıl belirleniyor?",
+              "answer": "Giysilerde ürün bazında sabit fiyat uygulanır, 300 TL'den başlar ve ütüleme dahildir. Halı ve koltukta ölçü ile kirlilik durumuna göre hesaplanır; fotoğraf gönderin, net fiyatı hemen söyleyelim."
+            },
+            {
+              "question": "Velibaba'daki bahçeli evlerde halıya işleyen toz çıkar mı?",
+              "answer": "Çıkar. Bahçeli evlerde halının dokusuna yerleşen ince toz, normal süpürmeyle tam alınmıyor. Velibaba'da halıyı alıp derin temizliyor, nem bırakmadan kurutup teslim ediyoruz."
+            }
+          ]
         },
         {
           "name": "Ahmet Yesevi",
           "slug": "ahmet-yesevi",
-          "intro": "Ahmet Yesevi, Pendik'in konut ağırlıklı mahallelerinden; aile apartmanları bölgenin dokusunu belirliyor. Çocuklu evlerde koltuk ve halıda leke, en sık gelen taleplerden biri. Ahmet Yesevi koltuk yıkama ve halı yıkama hizmetimizde leke tespiti ve ön işlem yapıyor, parçalarınızı kapınızdan ücretsiz alıyoruz."
+          "intro": "Ahmet Yesevi, Pendik'in konut ağırlıklı mahallelerinden; aile apartmanları bölgenin dokusunu belirliyor. Çocuklu evlerde koltuk ve halıda leke, en sık gelen taleplerden biri. Ahmet Yesevi koltuk yıkama ve halı yıkama hizmetimizde leke tespiti ve ön işlem yapıyor, parçalarınızı kapınızdan ücretsiz alıyoruz.",
+          "faq": [
+            {
+              "question": "Ahmet Yesevi'de ücretsiz kapıdan alım yapıyor musunuz?",
+              "answer": "Evet, ücretsiz. Ahmet Yesevi'de kapıdan alıp temizledikten sonra aynı adrese teslim ediyoruz; alım ve teslimat için ek ücret yok. Randevu saatini çalışma saatlerimiz içinde siz belirliyorsunuz."
+            },
+            {
+              "question": "Ahmet Yesevi'de kuru temizleme fiyatları ne kadar?",
+              "answer": "Kuru temizleme ürün bazında fiyatlandırılır ve 300 TL'den başlar; tüm liste fiyatlar sayfamızda ürün ürün yazılıdır. Halı ve koltuk metrekare veya adet üzerinden hesaplanır, net fiyat için WhatsApp'tan fotoğraf gönderebilirsiniz."
+            },
+            {
+              "question": "Ahmet Yesevi'de çocuklu evlerde koltuk lekesi çıkarılıyor mu?",
+              "answer": "Çıkarılıyor. Leke türünü önce tespit ediyor, kumaşa uygun çözücüyle ön işlem uyguluyoruz. Ahmet Yesevi'de koltuğu kapınızdan alıyor, temizleyip kurutulmuş şekilde geri getiriyoruz."
+            }
+          ]
         },
         {
           "name": "Fevzi Çakmak",
           "slug": "fevzi-cakmak",
-          "intro": "Fevzi Çakmak, Pendik merkezine yakın, günlük yaşamın yoğun olduğu bir mahalle. Burada hem iş kıyafetleri hem ev tekstili için düzenli bakım talebi var. Fevzi Çakmak kuru temizleme hizmetimizde takım elbise, gömlek ve palto temizliğini ütüleme dahil yapıyor, kapınızdan ücretsiz alıp teslim ediyoruz."
+          "intro": "Fevzi Çakmak, Pendik merkezine yakın, günlük yaşamın yoğun olduğu bir mahalle. Burada hem iş kıyafetleri hem ev tekstili için düzenli bakım talebi var. Fevzi Çakmak kuru temizleme hizmetimizde takım elbise, gömlek ve palto temizliğini ütüleme dahil yapıyor, kapınızdan ücretsiz alıp teslim ediyoruz.",
+          "faq": [
+            {
+              "question": "Fevzi Çakmak'ta kuru temizleme için adresten alım var mı?",
+              "answer": "Alım ve teslimat ücretsizdir. Fevzi Çakmak'ta adresinizden alıyor, işlem bittiğinde aynı adrese getiriyoruz. Listedeki fiyatlara bu hizmet dahildir."
+            },
+            {
+              "question": "Fevzi Çakmak'ta halı yıkama fiyatı nasıl hesaplanıyor?",
+              "answer": "Halı yıkama metrekare üzerinden hesaplanır ve 280 TL/m²'den başlar. Halının türü, boyutu ve kirlilik durumu fiyatı etkilediği için en net rakamı fotoğraf gönderdiğinizde veriyoruz."
+            },
+            {
+              "question": "Fevzi Çakmak'ta günlük iş kıyafetleri için düzenli alım planlanabilir mi?",
+              "answer": "Planlanabilir. Haftanın belirli günü için düzenli alım ayarlayabiliyoruz. Fevzi Çakmak'ta gömlek, pantolon ve takım elbise ütüleme dahil temizleniyor; alım ve teslimat ücretsizdir."
+            }
+          ]
         },
         {
           "name": "Batı",
           "slug": "bati",
-          "intro": "Batı Mahallesi, Pendik merkezinin sahile açılan tarafında yer alıyor; çarşı ve sahil yaşamı iç içe. Denize yakınlık, perde ve döşemelik kumaşlarda nem kaynaklı bakım ihtiyacını artırıyor. Batı Mahallesi kuru temizleme ve perde temizleme hizmetimizde söküp takma dahil çalışıyor, kapınızdan ücretsiz alıyoruz."
+          "intro": "Batı Mahallesi, Pendik merkezinin sahile açılan tarafında yer alıyor; çarşı ve sahil yaşamı iç içe. Denize yakınlık, perde ve döşemelik kumaşlarda nem kaynaklı bakım ihtiyacını artırıyor. Batı Mahallesi kuru temizleme ve perde temizleme hizmetimizde söküp takma dahil çalışıyor, kapınızdan ücretsiz alıyoruz.",
+          "faq": [
+            {
+              "question": "Batı Mahallesi'nde oturuyorum, parçaları kapımdan alır mısınız?",
+              "answer": "Evet. Batı Mahallesi'nde kapıdan alım-teslimat yapıyoruz ve bunun için ücret almıyoruz. Size uygun saati belirlemeniz yeterli."
+            },
+            {
+              "question": "Batı Mahallesi'nde fiyatları önceden öğrenebilir miyim?",
+              "answer": "Öğrenebilirsiniz. Giysilerde fiyatlar ürün bazında sabittir ve 300 TL'den başlar; fiyat listemiz sitede açıktır. Halı ve koltukta ölçüye göre değiştiği için fotoğrafla net fiyat veriyoruz."
+            },
+            {
+              "question": "Batı Mahallesi'nde çarşı çevresindeki iş yerlerine de hizmet veriyor musunuz?",
+              "answer": "Veriyoruz. Pendik çarşı çevresindeki iş yerlerine ve konutlara ücretsiz kapıdan alım yapıyoruz. Sahile yakınlık nedeniyle perde ve döşemelik kumaşlarda nem kaynaklı bakım burada sık talep ediliyor."
+            }
+          ]
         },
         {
           "name": "Doğu",
           "slug": "dogu",
-          "intro": "Doğu Mahallesi, Pendik merkezinin yerleşik konut tarafında; aile apartmanları ve çarşı yakınlığıyla biliniyor. Günlük giysi bakımı ile mevsimlik ev tekstili temizliği birlikte talep ediliyor. Doğu Mahallesi kuru temizleme ve ev tekstili temizliği hizmetimizde parçalarınızı tek seferde alıyor, ütülenmiş şekilde teslim ediyoruz."
+          "intro": "Doğu Mahallesi, Pendik merkezinin yerleşik konut tarafında; aile apartmanları ve çarşı yakınlığıyla biliniyor. Günlük giysi bakımı ile mevsimlik ev tekstili temizliği birlikte talep ediliyor. Doğu Mahallesi kuru temizleme ve ev tekstili temizliği hizmetimizde parçalarınızı tek seferde alıyor, ütülenmiş şekilde teslim ediyoruz.",
+          "faq": [
+            {
+              "question": "Doğu Mahallesi'nde alım ve teslimat ücretli mi?",
+              "answer": "Ücretsiz. Doğu Mahallesi'nde parçalarınızı kapınızdan alıyor, temizlenmiş ve ütülenmiş şekilde geri getiriyoruz."
+            },
+            {
+              "question": "Doğu Mahallesi'nde temizlik ücreti nasıl belirleniyor?",
+              "answer": "Giysilerde ürün bazında sabit fiyat uygulanır, 300 TL'den başlar ve ütüleme dahildir. Halı ve koltukta ölçü ile kirlilik durumuna göre hesaplanır; fotoğraf gönderin, net fiyatı hemen söyleyelim."
+            },
+            {
+              "question": "Doğu Mahallesi'nde günlük giysi ve ev tekstilini aynı randevuda alıyor musunuz?",
+              "answer": "Alıyoruz. Doğu Mahallesi'nde günlük giysi bakımı ile mevsimlik ev tekstili çoğu zaman birlikte çıkıyor. İkisini tek seferde topluyor, giysileri ütülenmiş, ev tekstilini paketlenmiş şekilde teslim ediyoruz."
+            }
+          ]
         }
       ],
       "seoTitle": "Pendik Kuru Temizleme Fiyatları {currentYear} | Dry Alle",
       "seoDescription": "Pendik kuru temizleme fiyatları {currentYear}: takım elbise, gömlek, palto, gelinlik ve tüm giysilerde şeffaf fiyat. Ücretsiz kapıdan alım-teslimat. Hemen arayın.",
-      "intro": "Pendik, Marmara kıyısındaki sahil mahallelerinden havalimanı çevresindeki yeni konut bölgelerine uzanan geniş bir ilçe. Sahilde nem kaynaklı koku, iç kesimlerde toz ve yoğun kullanım öne çıkıyor. Pendik kuru temizleme, halı yıkama ve perde temizleme hizmetlerimizde her mahalleye ücretsiz kapıdan alım-teslimat sunuyor, şeffaf fiyatla çalışıyoruz."
+      "intro": "Pendik, Marmara kıyısındaki sahil mahallelerinden havalimanı çevresindeki yeni konut bölgelerine uzanan geniş bir ilçe. Sahilde nem kaynaklı koku, iç kesimlerde toz ve yoğun kullanım öne çıkıyor. Pendik kuru temizleme, halı yıkama ve perde temizleme hizmetlerimizde her mahalleye ücretsiz kapıdan alım-teslimat sunuyor, şeffaf fiyatla çalışıyoruz.",
+      "faq": [
+        {
+          "question": "Pendik'in hangi mahallelerine hizmet veriyorsunuz?",
+          "answer": "Kurtköy, Kaynarca, Yenişehir, Esenyalı, Güzelyalı, Çınardere, Kavakpınar, Velibaba, Ahmet Yesevi, Fevzi Çakmak, Batı ve Doğu mahalleleri dahil Pendik genelinde ücretsiz kapıdan alım-teslimat yapıyoruz."
+        },
+        {
+          "question": "Pendik'te sahil mahallelerinde nem kaynaklı koku sorunu çözülüyor mu?",
+          "answer": "Çözülüyor. Güzelyalı ve Esenyalı gibi sahil mahallelerinde halı ve koltuk süngerine işleyen nem koku yapıyor. Kokuyu örtmek yerine derin temizlikle kaynağında gideriyor, kontrollü kurutmayla nemi tamamen alıyoruz."
+        },
+        {
+          "question": "Pendik'te halı ve koltuk yıkama fiyatı nasıl hesaplanıyor?",
+          "answer": "Halı metrekare üzerinden hesaplanır ve 280 TL/m²'den başlar; koltukta oturma birimi (tekli, üçlü, köşe) ve kumaş türü belirleyicidir. En net rakamı fotoğraf gönderdiğinizde veriyoruz; alım ve teslimat ücretsizdir."
+        }
+      ]
     },
     {
       "city": "İstanbul",
