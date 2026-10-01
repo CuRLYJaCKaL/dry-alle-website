@@ -24,7 +24,7 @@ faq:
     answer: "Islanan deri paltoyu asla radyatör, kalorifer veya saç kurutma makinesiyle kurutmayın; ani ısı deriyi büzüştürüp sertleştirir. Fazla suyu kuru havluyla emdirip paltoyu dolgulu askıda, oda sıcaklığında, havadar bir yerde kendiliğinden kurumaya bırakın. Kuruduktan sonra lekelenme veya sertleşme varsa profesyonel besleme gerekir."
 ---
 
-Kürk ve deri palto, gardırobun en değerli ama en hassas parçalarıdır. Yanlış temizlik ve özensiz saklama, bir sezonda onarılması güç hasarlara yol açar: deri çatlar, kürk keçeleşir, astar küf kokar. Doğru cevap malzemeyi tanımak ve her malzemeye özel yöntem uygulamaktan geçer. 2000 yılından bu yana, 25 yılı aşkın deneyimle İstanbul Anadolu Yakası'nda hizmet veren ekibimiz, kürk ve deri bakımında sahada en sık gördüğü hataları ve doğru saklama adımlarını bu rehberde topladı.
+Kürk ve deri palto, gardırobun en değerli ama en hassas parçalarıdır. Yanlış temizlik ve özensiz saklama, bir sezonda onarılması güç hasarlara yol açar: deri çatlar, kürk keçeleşir, astar küf kokar. Doğru cevap malzemeyi tanımak ve her malzemeye özel yöntem uygulamaktan geçer. 2000 yılından bu yana, çeyrek asrı aşkın deneyimle İstanbul Anadolu Yakası'nda hizmet veren ekibimiz, kürk ve deri bakımında sahada en sık gördüğü hataları ve doğru saklama adımlarını bu rehberde topladı.
 
 ## Gerçek Kürk ile Suni Kürk Bakımı Neden Farklıdır?
 
@@ -71,7 +71,7 @@ Kısacası kürk ve deri, deneme yanılmayı affetmeyen malzemelerdir. Bir hata 
 
 ## Kürk ve Deri Paltonuzu Uzman Ellere Emanet Edin
 
-25 yılı aşkın deneyimimizle Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye başta olmak üzere İstanbul Anadolu Yakası'nda kürk ve deri paltolarınızı malzemesine özel yöntemlerle temizliyor, besliyor ve doğru koşullarda saklıyoruz. ÜCRETSİZ kapıdan alım ve teslimat ile paltonuzu evinizden alıyor, bakımdan sonra kapınıza teslim ediyoruz. Fiyat bilgisi için [fiyatlar sayfamızı](/fiyatlar/) inceleyebilir ya da paltonuzun fotoğrafını WhatsApp'tan gönderip özel değerlendirme alabilirsiniz.
+çeyrek asrı aşkın deneyimimizle Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye başta olmak üzere İstanbul Anadolu Yakası'nda kürk ve deri paltolarınızı malzemesine özel yöntemlerle temizliyor, besliyor ve doğru koşullarda saklıyoruz. ÜCRETSİZ kapıdan alım ve teslimat ile paltonuzu evinizden alıyor, bakımdan sonra kapınıza teslim ediyoruz. Fiyat bilgisi için [fiyatlar sayfamızı](/fiyatlar/) inceleyebilir ya da paltonuzun fotoğrafını WhatsApp'tan gönderip özel değerlendirme alabilirsiniz.
 
 Hemen arayın: **0 543 352 74 74**
 

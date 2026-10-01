@@ -10,7 +10,7 @@ image: "/blog/summer-clothes-saklama-guide/featured-image.webp"
 
 <div class="article-intro">
 <p class="lead">
-                        İstanbul'un elit semtlerinde <strong>tekstil bakimi</strong> konusunda 25 yıllık deneyimimizle, 
+                        İstanbul'un elit semtlerinde <strong>tekstil bakimi</strong> konusunda çeyrek asırlık deneyimimizle, 
                         bu kapsamlı rehberde yaz kiyafetleri saklama rehberi hakkında bilmeniz gereken her şeyi paylaşıyoruz.
                     </p>
 </div>
@@ -55,7 +55,7 @@ image: "/blog/summer-clothes-saklama-guide/featured-image.webp"
                     İpek, kaşmir, yün ve diğer değerli kumaşlar için geliştirdiğimiz özel teknikler sayesinde, 
                     en hassas tekstil ürünlerinizi bile güvenle bize emanet edebilirsiniz. 
                     <em>tekstil bakımı yaz bakımı</em> 
-                    konusundaki uzmanlığımız, 25 yıllık deneyimimizin bir ürünüdür.
+                    konusundaki uzmanlığımız, çeyrek asırlık deneyimimizin bir ürünüdür.
                 </p>
 <h2>Fiyat-Performans Analizi</h2>
 <p>

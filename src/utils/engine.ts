@@ -1,3 +1,5 @@
+import config from '../../config/site.config.json';
+
 // ─── Types ───
 interface ValidationError {
   field: string;
@@ -7,8 +9,26 @@ interface ValidationError {
 // ─── Template Interpolation ───
 
 /** SEO template interpolation — {token} → value */
-export function interpolate(template: string, tokens: Record<string, string>): string {
-  return template.replace(/\{(\w+)\}/g, (_, key) => tokens[key] ?? '');
+/**
+ * Build aninda turetilen zaman token'lari — ASLA sabit yazilmaz.
+ * Sabit "2026" veya "25 yil" yazilirsa sonraki yil sessizce yanlis olur:
+ * site 1 Ocak'ta bayatlar, Google bayat basligi gosterir. Site her gun
+ * yeniden derlendigi icin bu degerler kendiliginden guncel kalir.
+ */
+function timeTokens(): Record<string, string> {
+  const yil = new Date().getFullYear();
+  return {
+    currentYear: String(yil),
+    experienceYears: String(yil - Number(config.identity.establishedYear)),
+  };
+}
+
+export function interpolate(template: string, tokens: Record<string, string> = {}): string {
+  // Zaman token'lari her zaman eklenir ki cagri yeri unutamasin.
+  // (Ana sayfa aciklamasi, cagri yeri establishedYear'i gecmedigi icin
+  // aylarca "'den bu yana" diye yayinda kalmisti.)
+  const tumu = { ...timeTokens(), ...tokens };
+  return template.replace(/\{(\w+)\}/g, (_, key) => tumu[key] ?? '');
 }
 
 // ─── Deterministic Variant Selection ───

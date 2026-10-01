@@ -117,7 +117,7 @@ image: "/blog/ev-utusu-vs-professional-utu-hizmeti/featured-image.webp"
 </ul>
 <h2>Profesyonel Ütü Hizmeti Süreci</h2>
 <h3>Dry Alle Ütü Hizmeti Aşamaları</h3>
-<p>25 yıllık deneyimimizle geliştirdiğimiz ütü hizmeti süreci:</p>
+<p>çeyrek asırlık deneyimimizle geliştirdiğimiz ütü hizmeti süreci:</p>
 <ol>
 <li><strong>Kıyafet Teslim Alma:</strong> Ücretsiz servis ile evden alma</li>
 <li><strong>Detaylı İnceleme:</strong> Kumaş türü ve özel durumların tespiti</li>
@@ -218,9 +218,9 @@ image: "/blog/ev-utusu-vs-professional-utu-hizmeti/featured-image.webp"
 </ul>
 <h2>Sonuç ve Öneriler</h2>
 <p>Ev ütüsü ile profesyonel ütü hizmeti arasındaki seçim, kıyafet türü, yaşam tarzı ve kalite beklentilerinize bağlıdır. Günlük basit kıyafetler için ev ütüsü yeterli olabilirken, özel durumlar, hassas kumaşlar ve mükemmel görünüm gerektiren durumlarda profesyonel hizmet alınması şarttır.</p>
-<p>Dry Alle olarak, 25 yıllık deneyimimizle İstanbul Anadolu Yakası'nda tüm ütü ihtiyaçlarınız için kapsamlı çözümler sunuyoruz. Günlük iş kıyafetlerinden özel gün kıyafetlerine kadar her türlü ütü hizmetini güvenle gerçekleştiriyoruz.</p>
+<p>Dry Alle olarak, çeyrek asırlık deneyimimizle İstanbul Anadolu Yakası'nda tüm ütü ihtiyaçlarınız için kapsamlı çözümler sunuyoruz. Günlük iş kıyafetlerinden özel gün kıyafetlerine kadar her türlü ütü hizmetini güvenle gerçekleştiriyoruz.</p>
 <div class="cta-box">
 <h3>Kıyafetleriniz İçin Profesyonel Ütü Hizmeti</h3>
-<p>25 yıllık deneyimimizle kıyafetlerinizi mükemmel şekilde ütülüyoruz. Ücretsiz alma-getirme hizmeti ile zamandan tasarruf edin!</p>
+<p>çeyrek asırlık deneyimimizle kıyafetlerinizi mükemmel şekilde ütülüyoruz. Ücretsiz alma-getirme hizmeti ile zamandan tasarruf edin!</p>
 <a class="cta-button primary" href="tel:+905433527474">📞 Hemen Ara: 0 (543) 352 74 74</a>
 </div>

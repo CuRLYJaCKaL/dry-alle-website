@@ -1,5 +1,6 @@
 ---
 import config from '../../config/site.config.json';
+import { interpolate } from '../utils/engine';
 
 interface Props {
   title: string;
@@ -73,7 +74,7 @@ const business = {
   "@type": (config.identity as Record<string, unknown>).schemaType as string || "LocalBusiness",
   "@id": businessId,
   "name": config.identity.businessName,
-  "description": config.identity.description,
+  "description": interpolate(config.identity.description),
   "url": domain,
   "telephone": config.contact.phone,
   "email": config.contact.email,

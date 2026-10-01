@@ -128,7 +128,7 @@ const aboutValues = config.contentTokens.aboutValues as { title: string; descrip
           <h2 class="section-title">Hikayemiz</h2>
           <div class="text-text-secondary leading-relaxed space-y-4 mt-8">
             {aboutStoryParagraphs.map((paragraph: string) => (
-              <p>{paragraph}</p>
+              <p>{interpolate(paragraph)}</p>
             ))}
           </div>
         </div>
@@ -196,7 +196,7 @@ const aboutValues = config.contentTokens.aboutValues as { title: string; descrip
             </div>
             <h3 class="text-lg sm:text-xl font-bold text-primary mb-2">{value.title}</h3>
             <p class="text-text-secondary text-sm sm:text-base leading-relaxed">
-              {value.description}
+              {interpolate(value.description)}
             </p>
           </div>
         ))}

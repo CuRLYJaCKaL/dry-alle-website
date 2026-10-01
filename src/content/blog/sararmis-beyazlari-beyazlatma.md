@@ -24,7 +24,7 @@ faq:
     answer: "Beyazları saklamadan önce mutlaka temizleyin; gözle görünmeyen ter ve cilt yağı kalıntısı zamanla oksitlenerek sarı lekeye döner. Tamamen kuru, serin ve karanlık bir ortamda, nefes alan pamuklu kılıfta saklayın. Naylon poşet nemi hapsederek sararmayı hızlandırır. Uzun süre saklanacak beyazlar için önce profesyonel temizlik en güvenli yoldur."
 ---
 
-Dolaptan çıkardığınız beyaz gömleğin yakasında beliren sarımsı iz, en özenli kişinin bile canını sıkar. Beyaz kıyafetler zamanla sararır; bunun nedeni çoğu zaman kir değil, gözle görünmeyen kimyasal tepkimelerdir. Doğru cevap, sararmanın nedenini anlamak ve yanlış müdahaleden kaçınmaktan geçer; çünkü en sık başvurulan çözüm olan çamaşır suyu, çoğu durumda sorunu büyütür. 2000 yılından bu yana, 25 yılı aşkın deneyimle İstanbul Anadolu Yakası'nda hizmet veren ekibimiz, beyazların neden sarardığını ve nasıl geri kazanıldığını bu rehberde anlatıyor.
+Dolaptan çıkardığınız beyaz gömleğin yakasında beliren sarımsı iz, en özenli kişinin bile canını sıkar. Beyaz kıyafetler zamanla sararır; bunun nedeni çoğu zaman kir değil, gözle görünmeyen kimyasal tepkimelerdir. Doğru cevap, sararmanın nedenini anlamak ve yanlış müdahaleden kaçınmaktan geçer; çünkü en sık başvurulan çözüm olan çamaşır suyu, çoğu durumda sorunu büyütür. 2000 yılından bu yana, çeyrek asrı aşkın deneyimle İstanbul Anadolu Yakası'nda hizmet veren ekibimiz, beyazların neden sarardığını ve nasıl geri kazanıldığını bu rehberde anlatıyor.
 
 ## Beyaz Kıyafetler Neden Sararır?
 
@@ -72,7 +72,7 @@ Bu alışkanlıklara rağmen oluşan inatçı sararmalar için deneme yanılmaya
 
 ## Beyazlarınızı Eski Parlaklığına Kavuşturun
 
-25 yılı aşkın deneyimimizle Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye başta olmak üzere İstanbul Anadolu Yakası'nda sararmış beyazlarınızı, yaka kiri ve koltuk altı lekelerinizi life zarar vermeden temizliyoruz. ÜCRETSİZ kapıdan alım ve teslimat ile kıyafetlerinizi evinizden alıyor, tertemiz teslim ediyoruz. Fiyat bilgisi için [fiyatlar sayfamızı](/fiyatlar/) inceleyin ya da lekenin fotoğrafını WhatsApp'tan gönderip özel değerlendirme alın.
+çeyrek asrı aşkın deneyimimizle Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye başta olmak üzere İstanbul Anadolu Yakası'nda sararmış beyazlarınızı, yaka kiri ve koltuk altı lekelerinizi life zarar vermeden temizliyoruz. ÜCRETSİZ kapıdan alım ve teslimat ile kıyafetlerinizi evinizden alıyor, tertemiz teslim ediyoruz. Fiyat bilgisi için [fiyatlar sayfamızı](/fiyatlar/) inceleyin ya da lekenin fotoğrafını WhatsApp'tan gönderip özel değerlendirme alın.
 
 Hemen arayın: **0 543 352 74 74**
 

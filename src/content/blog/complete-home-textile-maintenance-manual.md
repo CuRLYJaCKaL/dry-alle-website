@@ -10,7 +10,7 @@ image: "/blog/complete-home-textile-maintenance-manual/featured-image.webp"
 
 <div class="manual-intro">
 <h2>📚 Bu El Kitabında Neler Var?</h2>
-<p>25 yıllık profesyonel deneyimimizi ev tekstili bakımı konusunda sizinle paylaşıyoruz. Bu kapsamlı rehber, evinizin her köşesindeki tekstil ürünler için detaylı bakım stratejileri içermektedir.</p>
+<p>çeyrek asırlık profesyonel deneyimimizi ev tekstili bakımı konusunda sizinle paylaşıyoruz. Bu kapsamlı rehber, evinizin her köşesindeki tekstil ürünler için detaylı bakım stratejileri içermektedir.</p>
 <div class="coverage-stats">
 <div class="stat"><span class="number">15+</span><span class="label">Tekstil Kategorisi</span></div>
 <div class="stat"><span class="number">100+</span><span class="label">Bakım Tekniği</span></div>

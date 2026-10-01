@@ -155,7 +155,7 @@ image: "/blog/ev-tekstillerinin-care-ve-cleaning-guide/featured-image.webp"
 <li><strong>Özel durumlar:</strong> Düğün, organizasyon öncesi temizlik</li>
 </ul>
 <h2>Dry Alle Profesyonel Ev Tekstili Temizleme Süreci</h2>
-<p>25 yıllık deneyimimizle geliştirdiğimiz kapsamlı tekstil temizleme süreci:</p>
+<p>çeyrek asırlık deneyimimizle geliştirdiğimiz kapsamlı tekstil temizleme süreci:</p>
 <ol>
 <li><strong>Detaylı İnceleme:</strong> Kumaş analizi, leke tespiti, hasar kontrolü</li>
 <li><strong>Sınıflandırma:</strong> Tekstil türü ve temizlik yönteminin belirlenmesi</li>
@@ -220,9 +220,9 @@ image: "/blog/ev-tekstillerinin-care-ve-cleaning-guide/featured-image.webp"
 </ul>
 <h2>Sonuç ve Profesyonel Öneriler</h2>
 <p>Ev tekstili bakımı, günlük hijyen rutininden mevsimsel kapsamlı temizliğe kadar geniş bir yelpazede ele alınması gereken önemli bir konudur. Doğru bakım teknikleri ile tekstillerinizin hem ömrünü uzatabilir hem de sağlıklı bir yaşam ortamı yaratabilirsiniz.</p>
-<p>Dry Alle olarak, 25 yıllık deneyimimizle İstanbul Anadolu Yakası'nda tüm ev tekstili türleri için kapsamlı çözümler sunuyoruz. İnce ipek kumaşlardan kalın yün battaniyelere kadar her türlü tekstili güvenle temizliyoruz.</p>
+<p>Dry Alle olarak, çeyrek asırlık deneyimimizle İstanbul Anadolu Yakası'nda tüm ev tekstili türleri için kapsamlı çözümler sunuyoruz. İnce ipek kumaşlardan kalın yün battaniyelere kadar her türlü tekstili güvenle temizliyoruz.</p>
 <div class="cta-box">
 <h3>Ev Tekstilleriniz İçin Profesyonel Bakım</h3>
-<p>25 yıllık deneyimimizle ev tekstillerinizi güvenli ellerde temizliyoruz. Ücretsiz keşif ve alma-getirme hizmeti!</p>
+<p>çeyrek asırlık deneyimimizle ev tekstillerinizi güvenli ellerde temizliyoruz. Ücretsiz keşif ve alma-getirme hizmeti!</p>
 <a class="cta-button primary" href="tel:+905433527474">📞 Hemen Ara: 0 (543) 352 74 74</a>
 </div>

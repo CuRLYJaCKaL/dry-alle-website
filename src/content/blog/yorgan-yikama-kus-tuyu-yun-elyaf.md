@@ -24,7 +24,7 @@ faq:
     answer: "Doğru yapılmayan yıkamada topaklanma sık görülür, çünkü ıslak dolgu dengesiz döner ve bir köşeye yığılır. Profesyonel temizlikte yorgan uygun programda yıkanır, ardından kabartılarak kurutulur ve dolgu eşit dağıtılır. Sonuçta yorgan ilk günkü gibi hacimli ve yumuşak kalır."
 ---
 
-Yorgan, uykumuzu paylaştığımız en yakın tekstil ürünlerinden biri. Her gece saatlerce teması olan bu ürün, zamanla ter, ölü deri hücreleri, nem ve toz akarlarını içine hapseder. İstanbul Anadolu Yakası'nda 2000 yılından bu yana, 25 yılı aşkın deneyimimizle şunu net gördük: yorgan bakımı sadece bir temizlik değil, doğrudan bir hijyen ve sağlık meselesidir. Bu rehberde kuş tüyü, yün ve elyaf yorganların farklarını, ne sıklıkla yıkanması gerektiğini ve profesyonel sürecin neden fark yarattığını anlatıyoruz.
+Yorgan, uykumuzu paylaştığımız en yakın tekstil ürünlerinden biri. Her gece saatlerce teması olan bu ürün, zamanla ter, ölü deri hücreleri, nem ve toz akarlarını içine hapseder. İstanbul Anadolu Yakası'nda 2000 yılından bu yana, çeyrek asrı aşkın deneyimimizle şunu net gördük: yorgan bakımı sadece bir temizlik değil, doğrudan bir hijyen ve sağlık meselesidir. Bu rehberde kuş tüyü, yün ve elyaf yorganların farklarını, ne sıklıkla yıkanması gerektiğini ve profesyonel sürecin neden fark yarattığını anlatıyoruz.
 
 ## Kuş Tüyü, Yün ve Elyaf Yorgan Arasındaki Farklar
 
@@ -81,6 +81,6 @@ Yorgan yıkama fiyatları; türe, boyuta ve kirlilik durumuna göre değişir. B
 
 ## Yorganınızı Bize Emanet Edin
 
-25 yılı aşkın deneyimimizle her yorganı kendi türüne özel bir özenle temizliyor, tam kurutmayla hijyenik olarak size ulaştırıyoruz. Sağlıklı ve rahat uykular için ilk adımı bugün atın.
+çeyrek asrı aşkın deneyimimizle her yorganı kendi türüne özel bir özenle temizliyor, tam kurutmayla hijyenik olarak size ulaştırıyoruz. Sağlıklı ve rahat uykular için ilk adımı bugün atın.
 
 Hemen bilgi ve randevu için **0 543 352 74 74**'ü arayın. Dilerseniz yorganınızın fotoğrafını [WhatsApp hattımız](https://wa.me/905433527474) üzerinden gönderin, size özel fiyat ve çözümü anında iletelim.

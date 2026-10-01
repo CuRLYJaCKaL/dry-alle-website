@@ -8,11 +8,11 @@ tags:
 image: "/blog/hali-yikama/featured-image.webp"
 ---
 
-<p class="lead">İstanbul Anadolu Yakası'nda halı bakımı, halı temizliği ve profesyonel halı yıkama hizmetleri hakkında uzman tavsiyeleri. 25 yıllık deneyimimizle halılarınızı en iyi şekilde koruma sırları.</p>
+<p class="lead">İstanbul Anadolu Yakası'nda halı bakımı, halı temizliği ve profesyonel halı yıkama hizmetleri hakkında uzman tavsiyeleri. çeyrek asırlık deneyimimizle halılarınızı en iyi şekilde koruma sırları.</p>
 
 <h2>Evde Halı Bakımı ve Profesyonel Yıkama Rehberi</h2>
 
-<p>Halılarınızı uzun yıllar boyunca temiz ve sağlıklı tutmak için evde yapabileceğiniz bakım ipuçları ve profesyonel halı yıkama hizmetinin avantajları. İstanbul'un elit semtlerinde 25 yıllık deneyimimizle...</p>
+<p>Halılarınızı uzun yıllar boyunca temiz ve sağlıklı tutmak için evde yapabileceğiniz bakım ipuçları ve profesyonel halı yıkama hizmetinin avantajları. İstanbul'un elit semtlerinde çeyrek asırlık deneyimimizle...</p>
 
 <h2>Halı Leke Çıkarma Teknikleri</h2>
 
@@ -26,6 +26,6 @@ image: "/blog/hali-yikama/featured-image.webp"
 
 <h2>İstanbul Anadolu Yakası Halı Yıkama Hizmeti</h2>
 
-<p>Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan ve tüm Anadolu Yakası'nda 25 yıllık deneyimimizle halı yıkama hizmeti. Ücretsiz alma-getirme ile halılarınız güvenli ellerde.</p>
+<p>Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan ve tüm Anadolu Yakası'nda çeyrek asırlık deneyimimizle halı yıkama hizmeti. Ücretsiz alma-getirme ile halılarınız güvenli ellerde.</p>
 
 <p>Detaylı bilgi için <a href="/hizmetler/hali-yikama/">Halı Yıkama hizmet sayfamızı</a> ziyaret edebilir, sorularınız için bize ulaşabilirsiniz.</p>

@@ -24,7 +24,7 @@ faq:
     answer: "Çünkü telefonda sadece anlatımla verilen rakam çoğu zaman yanıltıcı olur. Fotoğraf; koltuğun tipini, kumaşını, oturma sayısını ve leke durumunu tek seferde görmemizi sağlar. Böylece sürprizsiz, gerçekçi bir ön değerlendirme yapabiliriz. WhatsApp'tan koltuğunuzun genel ve varsa lekeli bölgelerinin fotoğrafını göndermeniz yeterlidir."
 ---
 
-Koltuk yıkama fiyatı araştıran çoğu kişinin ilk sorusu "tek bir rakam söyleyin" olur; oysa koltuk temizliğinde tek bir standart fiyat yoktur. Fiyat, birbirinden çok farklı koltukların her birine özel olarak belirlenir. 2000 yılından bu yana, 25 yılı aşkın deneyimimizle İstanbul Anadolu Yakası'nda koltuk yıkama hizmeti veriyoruz ve bu yazıda 2026 için fiyatı belirleyen faktörleri şeffaf biçimde açıklıyoruz. Amacımız, bir rakam uydurmak değil; "neye göre değiştiğini" anlamanızı sağlamak.
+Koltuk yıkama fiyatı araştıran çoğu kişinin ilk sorusu "tek bir rakam söyleyin" olur; oysa koltuk temizliğinde tek bir standart fiyat yoktur. Fiyat, birbirinden çok farklı koltukların her birine özel olarak belirlenir. 2000 yılından bu yana, çeyrek asrı aşkın deneyimimizle İstanbul Anadolu Yakası'nda koltuk yıkama hizmeti veriyoruz ve bu yazıda 2026 için fiyatı belirleyen faktörleri şeffaf biçimde açıklıyoruz. Amacımız, bir rakam uydurmak değil; "neye göre değiştiğini" anlamanızı sağlamak.
 
 ## Koltuk Yıkama Fiyatı Neye Göre Belirlenir?
 
@@ -79,7 +79,7 @@ Her iki yöntemde de Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve
 
 Koltuk yıkamada en düşük rakamı vaat eden teklif her zaman en avantajlısı değildir; çünkü yanlış yöntem kalıcı hasar bırakabilir. Kadifenin havının ezilmesi, ketenin çekmesi, deri koltuğa su bazlı işlem uygulanması ya da yetersiz durulama sonucu koltukta sabun kalıntısı kalması, kısa vadede ucuz görünen bir işlemin uzun vadede koltuğun değişmesine yol açmasına neden olabilir.
 
-Doğru fiyatlandırma, koltuğun kumaşına ve durumuna uygun ürün ve tekniğin kullanılmasını da kapsar. 25 yılı aşkın deneyimimizle önceliğimiz, koltuğunuzu temizlerken elyaf yapısını ve rengini korumaktır. Bu yüzden telefonda rastgele bir rakam yerine, koltuğu görerek gerçekçi bir değerlendirme yapmayı tercih ediyoruz.
+Doğru fiyatlandırma, koltuğun kumaşına ve durumuna uygun ürün ve tekniğin kullanılmasını da kapsar. çeyrek asrı aşkın deneyimimizle önceliğimiz, koltuğunuzu temizlerken elyaf yapısını ve rengini korumaktır. Bu yüzden telefonda rastgele bir rakam yerine, koltuğu görerek gerçekçi bir değerlendirme yapmayı tercih ediyoruz.
 
 ## Net Fiyat İçin Ne Yapmalısınız?
 

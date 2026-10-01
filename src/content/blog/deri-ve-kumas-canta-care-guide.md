@@ -142,7 +142,7 @@ image: "/blog/deri-ve-kumas-canta-care-guide/featured-image.webp"
 <li><strong>Hassas malzemeler:</strong> İpek, süet, nubuk astarlı çantalar</li>
 </ul>
 <h2>Dry Alle Profesyonel Çanta Temizleme Süreci</h2>
-<p>25 yıllık deneyimimizle geliştirdiğimiz çanta temizleme süreci:</p>
+<p>çeyrek asırlık deneyimimizle geliştirdiğimiz çanta temizleme süreci:</p>
 <ol>
 <li><strong>Detaylı İnceleme:</strong> Malzeme analizi, marka tespiti, hasar kontrolü</li>
 <li><strong>Fotoğraflama:</strong> Çanta durumunun belgelenmesi</li>
@@ -207,9 +207,9 @@ image: "/blog/deri-ve-kumas-canta-care-guide/featured-image.webp"
 </ul>
 <h2>Sonuç ve Profesyonel Öneriler</h2>
 <p>Çanta bakımı, günlük basit rutinlerden profesyonel restorasyon hizmetlerine kadar geniş bir yelpazede ele alınması gereken önemli bir konudur. Doğru bakım teknikleri ile çantalarınızın hem estetik görünümünü koruyabilir hem de uzun yıllar kullanabilirsiniz.</p>
-<p>Dry Alle olarak, 25 yıllık deneyimimizle İstanbul Anadolu Yakası'nda tüm çanta türleri için kapsamlı çözümler sunuyoruz. Günlük kullanım çantalarından koleksiyon parçalarına kadar her türlü çantayı güvenle temizliyoruz.</p>
+<p>Dry Alle olarak, çeyrek asırlık deneyimimizle İstanbul Anadolu Yakası'nda tüm çanta türleri için kapsamlı çözümler sunuyoruz. Günlük kullanım çantalarından koleksiyon parçalarına kadar her türlü çantayı güvenle temizliyoruz.</p>
 <div class="cta-box">
 <h3>Çantalarınız İçin Profesyonel Bakım</h3>
-<p>25 yıllık deneyimimizle çantalarınızı güvenli ellerde temizliyoruz. Ücretsiz keşif ve alma-getirme hizmeti!</p>
+<p>çeyrek asırlık deneyimimizle çantalarınızı güvenli ellerde temizliyoruz. Ücretsiz keşif ve alma-getirme hizmeti!</p>
 <a class="cta-button primary" href="tel:+905433527474">📞 Hemen Ara: 0 (543) 352 74 74</a>
 </div>

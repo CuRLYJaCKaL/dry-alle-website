@@ -109,7 +109,7 @@ Seçim yaparken şunlara dikkat etmenizi öneririz:
 - Deri, kot ve yün gibi farklı ürünlerde deneyim var mı?
 - Fiyat, ürün görüldükten sonra net biçimde veriliyor mu?
 
-25 yıllık deneyimimizle bu adımların tamamını uyguluyor, ürününüze en uygun boyama yöntemini belirliyoruz. Detaylı bilgi ve tüm boyanabilir ürünler için [kumaş ve deri boyama hizmet sayfamızı](/hizmetler/kumas-deri-boyama/) inceleyebilirsiniz.
+çeyrek asırlık deneyimimizle bu adımların tamamını uyguluyor, ürününüze en uygun boyama yöntemini belirliyoruz. Detaylı bilgi ve tüm boyanabilir ürünler için [kumaş ve deri boyama hizmet sayfamızı](/hizmetler/kumas-deri-boyama/) inceleyebilirsiniz.
 
 ## Boyama Sonrası Bakım İpuçları
 

@@ -24,7 +24,7 @@ faq:
     answer: "Evet, en doğru yaklaşım budur. Ürünü teslim ederken ya da öncesinde WhatsApp'tan fotoğraf göndererek durumunu bize gösterebilirsiniz. Ürün tipini, varsa lekeleri ve o dönemki yoğunluğu değerlendirip size duruma göre bir teslim aralığı iletiriz. Böylece planınızı buna göre yapabilirsiniz."
 ---
 
-Kuru temizlemeye bir parça verirken en çok merak edilen soru şudur: "Ne zaman hazır olur?" Bu sorunun tek ve sabit bir cevabı yoktur; çünkü her ürün, her leke ve her sezon farklıdır. 2000 yılından bu yana, 25 yılı aşkın deneyimimizle İstanbul Anadolu Yakası'nda hem hızlı hem de kaliteli teslimatı dengelemeye özen gösteriyoruz. Bu yazıda teslim sürelerini neyin belirlediğini, acil durumlarda ne yapılabileceğini ve kapıdan hizmetin nasıl işlediğini açıklıyoruz.
+Kuru temizlemeye bir parça verirken en çok merak edilen soru şudur: "Ne zaman hazır olur?" Bu sorunun tek ve sabit bir cevabı yoktur; çünkü her ürün, her leke ve her sezon farklıdır. 2000 yılından bu yana, çeyrek asrı aşkın deneyimimizle İstanbul Anadolu Yakası'nda hem hızlı hem de kaliteli teslimatı dengelemeye özen gösteriyoruz. Bu yazıda teslim sürelerini neyin belirlediğini, acil durumlarda ne yapılabileceğini ve kapıdan hizmetin nasıl işlediğini açıklıyoruz.
 
 ## Kuru Temizleme Genel Olarak Ne Kadar Sürer?
 

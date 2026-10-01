@@ -90,10 +90,30 @@ Config'de olmayan hicbir sey kodda hardcode edilemez.
 
 **Opsiyonel bolum kurali:** `pricing` ve `corporate` bolumleri yoksa veya bossa ilgili component render edilmez. Boolean flag GEREKMEZ.
 
+### Zaman Degerleri (MUTLAK)
+
+Zamana bagli hicbir deger SABIT yazilamaz — ne config'e, ne sablona, ne koda:
+
+| Yanlis | Dogru |
+|--------|-------|
+| `Fiyatlari 2026` | `Fiyatlari {currentYear}` |
+| `25 yillik deneyim` | `{experienceYears} yillik deneyim` |
+
+Sebep: site her gun yeniden derlenir ama sabit yazilan deger derlenmez. 1 Ocak'ta
+tum basliklar sessizce bayatlar, Google bayat basligi gosterir, guven duser.
+`interpolate()` bu iki token'i HER cagri icin otomatik ekler; cagri yeri unutamaz.
+Blog gibi interpolate'ten gecmeyen govde metinlerinde sayac degil **capa** kullan:
+"2000'den bu yana", "ceyrek asirlik" — bunlar hic bayatlamaz.
+
+`scripts/verify-seo.mjs` config'e sabit yil veya sure girerse build'i DURDURUR.
+
+---
+
 ### Utility Dosyasi: `src/utils/engine.ts`
 
 Izin verilen tek utility dosyasi. 3 fonksiyon icerir:
-- `interpolate(template, tokens)` — SEO sablonlarinda `{token}` → deger donusumu
+- `interpolate(template, tokens)` — `{token}` → deger. `{currentYear}` ve
+  `{experienceYears}` build aninda otomatik eklenir (bkz. Zaman Degerleri).
 - `deterministicIndex(slug, arrayLength)` — Bolge sayfalari icin varyant secimi (ayni slug = ayni varyant)
 - `validateConfig(config)` — Build-time zorunlu alan kontrolu, eksikse build durdurulur
 

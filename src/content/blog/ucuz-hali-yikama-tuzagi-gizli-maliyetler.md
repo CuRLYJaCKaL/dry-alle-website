@@ -18,10 +18,10 @@ faq:
   - question: "Gizli ek ücret nasıl anlaşılır?"
     answer: "Teklif alırken alım-teslimat, saçak temizliği, koku giderme ve büyük ebat farkı gibi kalemlerin fiyata dahil olup olmadığını baştan sorun. Dry Alle'de fotoğraf ve ölçüyle verilen onaylı fiyat, teslimatta ödeyeceğiniz rakamdır."
   - question: "Anadolu Yakası'nda güvenilir halı yıkama nasıl bulunur?"
-    answer: "Güvenilir halı yıkama; deneyimini, uyguladığı yıkama adımlarını ve fiyat kapsamını açıkça anlatan firmadır. Kadıköy, Ataşehir ve tüm Anadolu Yakası'nda 25 yıllık deneyimimizle şeffaf fiyat veriyoruz; halınızın fotoğrafını WhatsApp'tan gönderin, net fiyatı hemen alın."
+    answer: "Güvenilir halı yıkama; deneyimini, uyguladığı yıkama adımlarını ve fiyat kapsamını açıkça anlatan firmadır. Kadıköy, Ataşehir ve tüm Anadolu Yakası'nda çeyrek asırlık deneyimimizle şeffaf fiyat veriyoruz; halınızın fotoğrafını WhatsApp'tan gönderin, net fiyatı hemen alın."
 ---
 
-"Halımı en ucuza kim yıkar?" sorusu ilk bakışta mantıklı görünür. Oysa halı yıkamada en düşük rakam, çoğu zaman en pahalı karar olabilir. Çünkü **ucuz halı yıkama** tekliflerinin büyük kısmı, gözünüzün görmediği yerlerden kısarak o fiyata iner ve bedelini halınız öder. İstanbul Anadolu Yakası'nda 25 yıldır halı yıkayan bir ekip olarak, bu yazıda düşük fiyatın gizli maliyetlerini ve dürüst bir fiyatın gerçekte neyi kapsaması gerektiğini şeffaf biçimde anlatıyoruz.
+"Halımı en ucuza kim yıkar?" sorusu ilk bakışta mantıklı görünür. Oysa halı yıkamada en düşük rakam, çoğu zaman en pahalı karar olabilir. Çünkü **ucuz halı yıkama** tekliflerinin büyük kısmı, gözünüzün görmediği yerlerden kısarak o fiyata iner ve bedelini halınız öder. İstanbul Anadolu Yakası'nda 2000'den bu yana halı yıkayan bir ekip olarak, bu yazıda düşük fiyatın gizli maliyetlerini ve dürüst bir fiyatın gerçekte neyi kapsaması gerektiğini şeffaf biçimde anlatıyoruz.
 
 ## Ucuz Halı Yıkama Neden Bu Kadar Ucuz?
 

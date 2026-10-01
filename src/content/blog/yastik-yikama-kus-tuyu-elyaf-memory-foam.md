@@ -24,7 +24,7 @@ faq:
     answer: "Sararma çoğunlukla terin dolguya işlemesinden kaynaklanır ve tek başına atma nedeni değildir. Kuş tüyü ve elyaf yastıklarda profesyonel yıkama sararmayı büyük ölçüde açar. Ancak topaklanmış, kokusu geçmeyen veya boyun desteğini yitirmiş yastıklar yenilenmelidir."
 ---
 
-İyi bir uyku kaliteli bir yastıkla başlar; ama o yastık aylarca yıkanmazsa ter, ölü deri ve toz akarıyla dolar. Ortalama bir insanın gecede yarım litreye varan ter salgıladığını ve bunun büyük kısmının yastığa geçtiğini düşünürseniz, yıllardır yıkanmamış bir yastığın nasıl bir yük taşıdığını tahmin edebilirsiniz. Dry Alle olarak İstanbul Anadolu Yakası'nda Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye'de 2000 yılından bu yana, 25 yılı aşkın deneyimle ev tekstili temizliği yapıyoruz. Bu rehberde yastık tiplerini, hangisinin yıkanıp hangisinin yıkanmadığını ve doğru bakımı net biçimde anlatıyoruz.
+İyi bir uyku kaliteli bir yastıkla başlar; ama o yastık aylarca yıkanmazsa ter, ölü deri ve toz akarıyla dolar. Ortalama bir insanın gecede yarım litreye varan ter salgıladığını ve bunun büyük kısmının yastığa geçtiğini düşünürseniz, yıllardır yıkanmamış bir yastığın nasıl bir yük taşıdığını tahmin edebilirsiniz. Dry Alle olarak İstanbul Anadolu Yakası'nda Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye'de 2000 yılından bu yana, çeyrek asrı aşkın deneyimle ev tekstili temizliği yapıyoruz. Bu rehberde yastık tiplerini, hangisinin yıkanıp hangisinin yıkanmadığını ve doğru bakımı net biçimde anlatıyoruz.
 
 ## Yastık Tipleri Nelerdir?
 

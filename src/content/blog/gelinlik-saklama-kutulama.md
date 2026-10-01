@@ -72,7 +72,7 @@ Güve gibi zararlılara karşı naftalin yerine, kumaşa değmeyen doğal önlem
 
 Gelinlik, çoğu insanın hayatındaki en özel ve en pahalı kıyafetlerden biridir. Onu birkaç yıl içinde sararmış, lekelenmiş halde bulmak yerine, doğru temizlik ve kutulamayla onlarca yıl ilk günkü gibi korumak mümkün. Bu, hem duygusal hem de maddi bir yatırımın korunmasıdır.
 
-2000 yılından bu yana, 25 yılı aşkın deneyimimizle İstanbul Anadolu Yakası'nda Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye'de gelinlik temizleme ve saklama hizmeti veriyoruz. Gelinliğinizi kapınızdan ücretsiz alıyor, uzman ellerde temizleyip asitsiz kutulama ile saklamaya hazır biçimde teslim ediyoruz.
+2000 yılından bu yana, çeyrek asrı aşkın deneyimimizle İstanbul Anadolu Yakası'nda Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye'de gelinlik temizleme ve saklama hizmeti veriyoruz. Gelinliğinizi kapınızdan ücretsiz alıyor, uzman ellerde temizleyip asitsiz kutulama ile saklamaya hazır biçimde teslim ediyoruz.
 
 Saklama ve temizleme seçenekleri hakkında ayrıntılı bilgi ve güncel fiyatlarımız için [fiyat listemizi](/fiyatlar/) inceleyebilirsiniz. Gelinliğinizin durumuna özel fiyat için WhatsApp üzerinden bize fotoğraf göndermeniz yeterli.
 

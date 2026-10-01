@@ -84,7 +84,7 @@ image: "/blog/ultimate-turkish-dry-cleaning-guide/featured-image.webp"
 </section>
 <section id="hata-analizi">
 <h2>7. Yaygın Hatalar ve Çözümleri</h2>
-<p>25 yıllık deneyimimizle tespit ettiğimiz en yaygın hatalar ve çözüm önerileri.</p>
+<p>çeyrek asırlık deneyimimizle tespit ettiğimiz en yaygın hatalar ve çözüm önerileri.</p>
 <h3>7.1 Müşteri Kaynaklı Hatalar</h3>
 <ul>
 <li>Leke bilgisinin verilmemesi</li>
@@ -110,5 +110,5 @@ image: "/blog/ultimate-turkish-dry-cleaning-guide/featured-image.webp"
 </section>
 <div class="expert-tip">
 <h3>🏆 Uzman Tavsiyesi</h3>
-<p>Kaliteli kuru temizleme hizmeti alabilmek için mutlaka işletmenin sertifikalarını kontrol edin ve deneyimli personelle çalışan firmaları tercih edin. Dry Alle olarak 25 yıldır İstanbul'da kaliteli hizmet vermenin gururunu yaşıyoruz.</p>
+<p>Kaliteli kuru temizleme hizmeti alabilmek için mutlaka işletmenin sertifikalarını kontrol edin ve deneyimli personelle çalışan firmaları tercih edin. Dry Alle olarak 2000'den bu yana İstanbul'da kaliteli hizmet vermenin gururunu yaşıyoruz.</p>
 </div>

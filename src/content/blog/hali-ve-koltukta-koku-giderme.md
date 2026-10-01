@@ -79,7 +79,7 @@ Tüy, alerjen ve leke boyutuyla birlikte tüm çözümleri [evcil hayvanlı evle
 
 ## Profesyonel Koku Giderme Nasıl Çalışır?
 
-Dry Alle olarak 25 yıldır Kadıköy merkezli hizmet veriyoruz; koku probleminde standart yıkamadan farklı bir protokol uyguluyoruz:
+Dry Alle olarak 2000'den bu yana Kadıköy merkezli hizmet veriyoruz; koku probleminde standart yıkamadan farklı bir protokol uyguluyoruz:
 
 - Koku tipine göre **ön işlem**: yağ çözücü (sigara), enzim bazlı (evcil hayvan), hijyenik solüsyon (küf).
 - **Derin ekstraksiyon** ile kaynağın liflerden ve tabandan çekilmesi.

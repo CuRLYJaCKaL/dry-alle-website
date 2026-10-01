@@ -24,7 +24,7 @@ faq:
     answer: "Hayır. Deri sneaker yüzeyi nemli işleme ve besleme isterken, kumaş ve file modeller farklı temizleyiciler gerektirir. Aynı üründe deri, süet ve file bir arada bulunabildiği için her bölge ayrı ele alınır. Bu yüzden karışık yapılı sneaker'larda tek tip ev yöntemi yerine bölgesel profesyonel bakım gerekir."
 ---
 
-Spor ayakkabılar, yani sneaker'lar günlük hayatın en çok kullanılan parçalarından biri haline geldi. Ancak sık kullanım beraberinde hızlı kirlenmeyi getiriyor: beyaz tabanlar sararıyor, file kumaşlar leke tutuyor, süet yüzeyler matlaşıyor. Birçok kişi çözümü ayakkabıyı çamaşır makinesine atmakta buluyor; oysa bu yöntem çoğu zaman ayakkabıya iyilikten çok zarar veriyor. Bu yazıda sneaker temizliğinin doğru yollarını, malzeme farklarını ve profesyonel derin temizliğin neden fark yarattığını anlatıyoruz. 2000 yılından bu yana İstanbul Anadolu Yakası'nda 25 yılı aşkın deneyimimizle ayakkabılarınıza ilk günkü görünümünü kazandırıyoruz.
+Spor ayakkabılar, yani sneaker'lar günlük hayatın en çok kullanılan parçalarından biri haline geldi. Ancak sık kullanım beraberinde hızlı kirlenmeyi getiriyor: beyaz tabanlar sararıyor, file kumaşlar leke tutuyor, süet yüzeyler matlaşıyor. Birçok kişi çözümü ayakkabıyı çamaşır makinesine atmakta buluyor; oysa bu yöntem çoğu zaman ayakkabıya iyilikten çok zarar veriyor. Bu yazıda sneaker temizliğinin doğru yollarını, malzeme farklarını ve profesyonel derin temizliğin neden fark yarattığını anlatıyoruz. 2000 yılından bu yana İstanbul Anadolu Yakası'nda çeyrek asrı aşkın deneyimimizle ayakkabılarınıza ilk günkü görünümünü kazandırıyoruz.
 
 ## Beyaz Taban Sararması Neden Olur?
 
@@ -66,7 +66,7 @@ Ayakkabı bakımı ve lostra işlemleri, uzmanlık ve doğru ekipman gerektiren 
 
 Dry Alle olarak Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye başta olmak üzere İstanbul Anadolu Yakası genelinde ÜCRETSİZ kapıdan alım ve teslimat sunuyoruz. Sneaker'larınızı evinizden alıyor, derin temizlik sonrası yine kapınıza teslim ediyoruz. Beyaz tabanı sararan, kumağı lekelenen ya da kokusu geçmeyen ayakkabılarınız için bize ulaşmanız yeterli.
 
-25 yılı aşkın deneyimimizle sneaker'larınızı yıpratmadan, malzemesine saygılı yöntemlerle yeniliyoruz. Ayakkabılarınıza yeniden ilk günkü görünümünü kazandırmak için hemen iletişime geçin.
+çeyrek asrı aşkın deneyimimizle sneaker'larınızı yıpratmadan, malzemesine saygılı yöntemlerle yeniliyoruz. Ayakkabılarınıza yeniden ilk günkü görünümünü kazandırmak için hemen iletişime geçin.
 
 **Hemen arayın: 0 543 352 74 74**
 

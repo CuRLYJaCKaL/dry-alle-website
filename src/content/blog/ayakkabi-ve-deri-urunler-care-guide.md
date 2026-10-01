@@ -143,7 +143,7 @@ image: "/blog/ayakkabi-ve-deri-urunler-care-guide/featured-image.webp"
 <li><strong>Mevsim geçişleri:</strong> Uzun süre saklama öncesi bakım</li>
 </ul>
 <h2>Dry Alle Profesyonel Lostra Hizmeti</h2>
-<p>25 yıllık deneyimimizle geliştirdiğimiz kapsamlı lostra hizmeti süreci:</p>
+<p>çeyrek asırlık deneyimimizle geliştirdiğimiz kapsamlı lostra hizmeti süreci:</p>
 <ol>
 <li><strong>Detaylı İnceleme:</strong> Ayakkabı durumu ve malzeme analizi</li>
 <li><strong>Fotoğraflama:</strong> Mevcut durumun belgelenmesi</li>
@@ -209,9 +209,9 @@ image: "/blog/ayakkabi-ve-deri-urunler-care-guide/featured-image.webp"
 </ul>
 <h2>Sonuç ve Profesyonel Öneriler</h2>
 <p>Ayakkabı bakımı, günlük basit rutinlerden profesyonel restorasyon hizmetlerine kadar geniş bir yelpazede ele alınması gereken önemli bir konudur. Doğru bakım teknikleri ile ayakkabılarınızın hem görünümünü koruyabilir hem de ömrünü önemli ölçüde uzatabilirsiniz.</p>
-<p>Dry Alle olarak, 25 yıllık deneyimimizle İstanbul Anadolu Yakası'nda tüm ayakkabı türleri için kapsamlı çözümler sunuyoruz. Günlük spor ayakkabılarından lüks deri ayakkabılara kadar her türlü ayakkabıyı güvenle bakıma alıyoruz.</p>
+<p>Dry Alle olarak, çeyrek asırlık deneyimimizle İstanbul Anadolu Yakası'nda tüm ayakkabı türleri için kapsamlı çözümler sunuyoruz. Günlük spor ayakkabılarından lüks deri ayakkabılara kadar her türlü ayakkabıyı güvenle bakıma alıyoruz.</p>
 <div class="cta-box">
 <h3>Ayakkabılarınız İçin Profesyonel Lostra</h3>
-<p>25 yıllık deneyimimizle ayakkabılarınızı güvenli ellerde bakıma alıyoruz. Ücretsiz keşif ve alma-getirme hizmeti!</p>
+<p>çeyrek asırlık deneyimimizle ayakkabılarınızı güvenli ellerde bakıma alıyoruz. Ücretsiz keşif ve alma-getirme hizmeti!</p>
 <a class="cta-button primary" href="tel:+905433527474">📞 Hemen Ara: 0 (543) 352 74 74</a>
 </div>

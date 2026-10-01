@@ -10,7 +10,7 @@ image: "/blog/carpet-cleaning-allergic-reactions/featured-image.webp"
 
 <div class="article-intro">
 <p class="lead">
-                        İstanbul'un elit semtlerinde <strong>hali yikama</strong> konusunda 25 yıllık deneyimimizle, 
+                        İstanbul'un elit semtlerinde <strong>hali yikama</strong> konusunda çeyrek asırlık deneyimimizle, 
                         bu kapsamlı rehberde hali yikama allerjik reaksiyonlar hakkında bilmeniz gereken her şeyi paylaşıyoruz.
                     </p>
 </div>
@@ -55,7 +55,7 @@ image: "/blog/carpet-cleaning-allergic-reactions/featured-image.webp"
                     İpek, kaşmir, yün ve diğer değerli kumaşlar için geliştirdiğimiz özel teknikler sayesinde, 
                     en hassas tekstil ürünlerinizi bile güvenle bize emanet edebilirsiniz. 
                     <em>halı yıkama sonrası bakım</em> 
-                    konusundaki uzmanlığımız, 25 yıllık deneyimimizin bir ürünüdür.
+                    konusundaki uzmanlığımız, çeyrek asırlık deneyimimizin bir ürünüdür.
                 </p>
 <h2>Fiyat-Performans Analizi</h2>
 <p>

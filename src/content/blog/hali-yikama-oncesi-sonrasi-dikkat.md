@@ -24,7 +24,7 @@ faq:
     answer: "Doğru yıkanan ve tam kurutulan bir halıda kalıcı kötü koku olmaz. Koku çoğunlukla halının yeterince kurumadan katlanıp kaldırılmasından kaynaklanır. Biz halıyı tam kurumasını sağlayarak teslim ettiğimiz için bu riski en aza indiririz. Teslim sonrası halıyı ilk günlerde havadar bir ortamda sermeniz de tazeliği korur."
 ---
 
-Bir halının uzun ömürlü olması, yalnızca doğru yıkanmasına değil; yıkama öncesi hazırlığa ve sonrasındaki bakıma da bağlıdır. Doğru hazırlık, hem halınızın güvenliğini artırır hem de daha iyi bir sonuç almanızı sağlar. 2000 yılından bu yana, 25 yılı aşkın deneyimimizle İstanbul Anadolu Yakası'nda halılarınızı cinsine uygun yöntemlerle yıkıyoruz. Bu rehberde halı yıkatmadan önce nelere dikkat etmeniz gerektiğini ve yıkama sonrasında halınıza nasıl bakacağınızı adım adım anlatıyoruz.
+Bir halının uzun ömürlü olması, yalnızca doğru yıkanmasına değil; yıkama öncesi hazırlığa ve sonrasındaki bakıma da bağlıdır. Doğru hazırlık, hem halınızın güvenliğini artırır hem de daha iyi bir sonuç almanızı sağlar. 2000 yılından bu yana, çeyrek asrı aşkın deneyimimizle İstanbul Anadolu Yakası'nda halılarınızı cinsine uygun yöntemlerle yıkıyoruz. Bu rehberde halı yıkatmadan önce nelere dikkat etmeniz gerektiğini ve yıkama sonrasında halınıza nasıl bakacağınızı adım adım anlatıyoruz.
 
 ## Halı Yıkatmadan Önce Neler Yapılmalı?
 

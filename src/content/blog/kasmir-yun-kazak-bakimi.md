@@ -24,7 +24,7 @@ faq:
     answer: "Güve, doğal protein elyafıyla beslenir ve özellikle kirli, ter tutmuş yünleri tercih eder. Bu yüzden kazakları sezon sonunda mutlaka temiz şekilde kaldırın. Nefes alan bez kılıf içinde, lavanta ya da sedir ağacı gibi doğal kovucularla saklayın. Naylon poşet nem tutacağı için hem güve hem küf riski yaratır."
 ---
 
-Kaşmir ve yün kazaklar, kış gardırobunun en sıcak ve en değerli parçalarıdır. Ancak bu doğal elyaflar aynı zamanda en çok özen isteyen kumaşlar arasındadır. Yanlış bir yıkama, sevdiğiniz bir kazağı tek seferde çektirip kullanılamaz hale getirebilir. 2000 yılından bu yana, 25 yılı aşkın deneyimimizle İstanbul Anadolu Yakası'nda bu narin örgülerin bakımını titizlikle üstleniyoruz.
+Kaşmir ve yün kazaklar, kış gardırobunun en sıcak ve en değerli parçalarıdır. Ancak bu doğal elyaflar aynı zamanda en çok özen isteyen kumaşlar arasındadır. Yanlış bir yıkama, sevdiğiniz bir kazağı tek seferde çektirip kullanılamaz hale getirebilir. 2000 yılından bu yana, çeyrek asrı aşkın deneyimimizle İstanbul Anadolu Yakası'nda bu narin örgülerin bakımını titizlikle üstleniyoruz.
 
 ## Kaşmir, Merinos ve Lambswool: Farkı Bilmek Neden Önemli?
 

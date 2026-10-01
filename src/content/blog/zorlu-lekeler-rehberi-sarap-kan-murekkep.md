@@ -77,7 +77,7 @@ Profesyonel temizlikte önce lekenin türü belirlenir, ardından kumaş cinsine
 
 Zorlu bir lekeyle karşılaştığınızda en iyi yaklaşım, lekeyi kuru bezle nazikçe emdirmek, sıcaktan kaçınmak ve vakit kaybetmeden profesyonele başvurmaktır. Ne kadar erken müdahale edilirse, kumaşı kurtarma şansı o kadar yüksektir.
 
-2000 yılından bu yana, 25 yılı aşkın deneyimimizle İstanbul Anadolu Yakası'nda Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye'de leke çıkarma ve kuru temizleme hizmeti veriyoruz. Lekeli giysinizi kapınızdan ücretsiz alıyor, uzman ellerde temizleyip teslim ediyoruz.
+2000 yılından bu yana, çeyrek asrı aşkın deneyimimizle İstanbul Anadolu Yakası'nda Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye'de leke çıkarma ve kuru temizleme hizmeti veriyoruz. Lekeli giysinizi kapınızdan ücretsiz alıyor, uzman ellerde temizleyip teslim ediyoruz.
 
 Güncel hizmet seçeneklerimiz için [fiyat listemizi](/fiyatlar/) inceleyebilir, lekenizin durumuna özel bilgi için WhatsApp üzerinden bize fotoğraf gönderebilirsiniz.
 

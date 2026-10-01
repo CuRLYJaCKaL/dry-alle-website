@@ -150,7 +150,7 @@ image: "/blog/solmus-kiyafetlere-yeni-hayat-verme-guide/featured-image.webp"
 <li><strong>Vintage parçalar:</strong> Antika ve koleksiyon kıyafetleri</li>
 </ul>
 <h2>Dry Alle Kumaş ve Deri Boyama Hizmeti</h2>
-<p>25 yıllık deneyimimizle geliştirdiğimiz kapsamlı boyama hizmeti süreci:</p>
+<p>çeyrek asırlık deneyimimizle geliştirdiğimiz kapsamlı boyama hizmeti süreci:</p>
 <ol>
 <li><strong>Ücretsiz Konsültasyon:</strong> Uzman görüşü ve renk önerisi</li>
 <li><strong>Detaylı Analiz:</strong> Kumaş/deri türü ve durum tespiti</li>
@@ -232,10 +232,10 @@ image: "/blog/solmus-kiyafetlere-yeni-hayat-verme-guide/featured-image.webp"
 </ul>
 <h2>Sonuç ve Profesyonel Öneriler</h2>
 <p>Kumaş ve deri boyama, solmuş kıyafetlerinize yeni hayat vermenin en etkili yoludur. Modern boyama teknikleri ile kıyafetleriniz sadece renk kazanmaz, aynı zamanda daha uzun ömürlü hale gelir. Ancak başarılı sonuç için mutlaka profesyonel hizmet alınması gerekir.</p>
-<p>Dry Alle olarak, 25 yıllık deneyimimizle İstanbul Anadolu Yakası'nda tüm kumaş ve deri ürünler için kapsamlı boyama çözümleri sunuyoruz. Solmuş bluzlardan değerli deri ceketlere kadar her türlü kıyafeti güvenle boyuyoruz.</p>
+<p>Dry Alle olarak, çeyrek asırlık deneyimimizle İstanbul Anadolu Yakası'nda tüm kumaş ve deri ürünler için kapsamlı boyama çözümleri sunuyoruz. Solmuş bluzlardan değerli deri ceketlere kadar her türlü kıyafeti güvenle boyuyoruz.</p>
 <div class="cta-box">
 <h3>Kıyafetlerinize Yeni Hayat Verin</h3>
-<p>25 yıllık deneyimimizle kıyafetlerinizi profesyonel boyama ile yeniliyoruz. Ücretsiz renk danışmanlığı ve alma-getirme hizmeti!</p>
+<p>çeyrek asırlık deneyimimizle kıyafetlerinizi profesyonel boyama ile yeniliyoruz. Ücretsiz renk danışmanlığı ve alma-getirme hizmeti!</p>
 <a class="cta-button primary" href="tel:+905433527474">📞 Hemen Ara: 0 (543) 352 74 74</a>
 </div>
 

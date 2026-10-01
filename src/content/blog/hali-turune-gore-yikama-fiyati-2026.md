@@ -21,7 +21,7 @@ faq:
     answer: "Halının etiketini kontrol edebilir ya da halının genelinin ve bir köşesinin yakın fotoğrafını WhatsApp'tan bize gönderebilirsiniz. Uzman ekibimiz türü belirleyip güncel fiyat listemize göre dakikalar içinde net fiyat verir."
 ---
 
-Aynı ölçüdeki iki halı, aynı firmada bile farklı fiyatlandırılabilir. Bunun en büyük nedeni halının türüdür. **Yün halı yıkama fiyatı**, bir makine halısınınkiyle asla aynı olmaz; çünkü her elyaf farklı sıcaklık, farklı kimyasal ve farklı kurutma süresi ister. İstanbul Anadolu Yakası'nda 25 yıldır halı yıkayan bir ekip olarak, bu rehberde her halı türünün neden farklı fiyatlandığını ve o türe özel nelere dikkat ettiğimizi şeffaf biçimde anlatıyoruz.
+Aynı ölçüdeki iki halı, aynı firmada bile farklı fiyatlandırılabilir. Bunun en büyük nedeni halının türüdür. **Yün halı yıkama fiyatı**, bir makine halısınınkiyle asla aynı olmaz; çünkü her elyaf farklı sıcaklık, farklı kimyasal ve farklı kurutma süresi ister. İstanbul Anadolu Yakası'nda 2000'den bu yana halı yıkayan bir ekip olarak, bu rehberde her halı türünün neden farklı fiyatlandığını ve o türe özel nelere dikkat ettiğimizi şeffaf biçimde anlatıyoruz.
 
 ## Halı Türü Fiyatı Neden Bu Kadar Etkiler?
 

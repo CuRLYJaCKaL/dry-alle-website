@@ -10,7 +10,7 @@ tags:
 image: "/blog/yerinde-koltuk-yikama-nasil-yapilir/featured-image.webp"
 ---
 
-**Yerinde koltuk yıkama**, koltuklarınız evinizden hiç çıkmadan, profesyonel makinelerle adresinizde temizlenmesi anlamına gelir. Taşıma derdi yok, günlerce koltuksuz kalma yok. Peki evde koltuk yıkama hizmeti tam olarak nasıl işliyor, hangi adımlardan geçiyor ve koltuğunuz ne zaman kullanılabilir hale geliyor? Kadıköy merkezli 25 yıllık deneyimimizle, ekibimiz kapınızdan girdiği andan çıkana kadar yaşanan süreci adım adım anlatıyoruz.
+**Yerinde koltuk yıkama**, koltuklarınız evinizden hiç çıkmadan, profesyonel makinelerle adresinizde temizlenmesi anlamına gelir. Taşıma derdi yok, günlerce koltuksuz kalma yok. Peki evde koltuk yıkama hizmeti tam olarak nasıl işliyor, hangi adımlardan geçiyor ve koltuğunuz ne zaman kullanılabilir hale geliyor? Kadıköy merkezli çeyrek asırlık deneyimimizle, ekibimiz kapınızdan girdiği andan çıkana kadar yaşanan süreci adım adım anlatıyoruz.
 
 ## Evde Koltuk Yıkama Hizmeti Kimler İçin İdeal?
 
@@ -83,7 +83,7 @@ Piyasada "evde koltuk yıkama" adıyla verilen hizmetlerin bir kısmı, ev tipi 
 - **Kalıntısız durulama:** Kumaşta kalan şampuan, mıknatıs gibi kir çeker; koltuk birkaç haftada eskisinden beter görünür.
 - **Ölçülü nem:** Doğru işlemde kumaş nemli çıkar, ıslak değil. Islak teslim, küf ve koku davetiyesidir.
 
-25 yıllık saha deneyimimizde edindiğimiz en net ders şu: yerinde yıkamanın kalitesi makineden çok, makineyi kullanan elin kumaş bilgisine bağlıdır.
+çeyrek asırlık saha deneyimimizde edindiğimiz en net ders şu: yerinde yıkamanın kalitesi makineden çok, makineyi kullanan elin kumaş bilgisine bağlıdır.
 
 ## Randevu Nasıl İşliyor?
 

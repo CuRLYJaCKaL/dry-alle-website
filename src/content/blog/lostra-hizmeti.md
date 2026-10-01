@@ -8,11 +8,11 @@ tags:
 image: "/blog/lostra-hizmeti/featured-image.webp"
 ---
 
-<p class="lead">İstanbul'un elit semtlerinde 25 yıllık deneyimimizle ayakkabı parlatma ve deri ürün bakımı sırları. Acıbadem, Suadiye, Kalamış, Fenerbahçe'de ayakkabılarınızı ve deri ürünlerinizi en iyi şekilde koruma rehberleri.</p>
+<p class="lead">İstanbul'un elit semtlerinde çeyrek asırlık deneyimimizle ayakkabı parlatma ve deri ürün bakımı sırları. Acıbadem, Suadiye, Kalamış, Fenerbahçe'de ayakkabılarınızı ve deri ürünlerinizi en iyi şekilde koruma rehberleri.</p>
 
 <h2>Ayakkabı ve Deri Ürünler Bakım Rehberi</h2>
 
-<p>Deri ayakkabıların doğru bakım teknikleri, parlatma yöntemleri ve uzun ömürlü kullanım sırları. İstanbul'da 25 yıllık deneyimimizle profesyonel lostra hizmetinin avantajları...</p>
+<p>Deri ayakkabıların doğru bakım teknikleri, parlatma yöntemleri ve uzun ömürlü kullanım sırları. İstanbul'da çeyrek asırlık deneyimimizle profesyonel lostra hizmetinin avantajları...</p>
 
 <h2>Lüks Marka Ayakkabı Özel Bakımı</h2>
 
@@ -26,6 +26,6 @@ image: "/blog/lostra-hizmeti/featured-image.webp"
 
 <h2>İstanbul Anadolu Yakası Lostra Hizmeti</h2>
 
-<p>Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan ve tüm Anadolu Yakası'nda 25 yıllık deneyimimizle lostra hizmeti. Deri ayakkabı parlatma, bakım ve onarım hizmetleri. Ücretsiz alma-getirme hizmeti.</p>
+<p>Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan ve tüm Anadolu Yakası'nda çeyrek asırlık deneyimimizle lostra hizmeti. Deri ayakkabı parlatma, bakım ve onarım hizmetleri. Ücretsiz alma-getirme hizmeti.</p>
 
 <p>Detaylı bilgi için <a href="/hizmetler/lostra-hizmeti/">Lostra Hizmeti hizmet sayfamızı</a> ziyaret edebilir, sorularınız için bize ulaşabilirsiniz.</p>

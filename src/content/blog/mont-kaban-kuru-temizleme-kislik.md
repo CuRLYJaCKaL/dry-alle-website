@@ -24,7 +24,7 @@ faq:
     answer: "Fiyat; montun türü (kaz tüyü, yün, parka), dolgu ve kürk durumu, leke ve su itici tazeleme ihtiyacına göre değişir. Net fiyat için güncel fiyat listemize bakabilir veya montun fotoğrafını WhatsApp'tan gönderebilirsiniz; ekibimiz size özel fiyatı hızlıca iletir."
 ---
 
-Kış aylarında en çok güvendiğimiz parçalar montlar ve kabanlardır; ama en zor bakılan giysiler de yine onlardır. Kalın dolgular, teknik kumaşlar, kürklü kapüşonlar ve su itici kaplamalar, sıradan bir yıkamayla baş edilemeyecek kadar hassas bir denge içerir. İstanbul Anadolu Yakası'nda 2000 yılından beri, 25 yılı aşkın deneyimimizle Üsküdar'dan Kartal'a kadar her tür kışlık dış giyimi elden geçiriyoruz. Bu rehberde **mont kuru temizleme** hakkında bilmeniz gereken her şeyi bir araya getirdik.
+Kış aylarında en çok güvendiğimiz parçalar montlar ve kabanlardır; ama en zor bakılan giysiler de yine onlardır. Kalın dolgular, teknik kumaşlar, kürklü kapüşonlar ve su itici kaplamalar, sıradan bir yıkamayla baş edilemeyecek kadar hassas bir denge içerir. İstanbul Anadolu Yakası'nda 2000 yılından beri, çeyrek asrı aşkın deneyimimizle Üsküdar'dan Kartal'a kadar her tür kışlık dış giyimi elden geçiriyoruz. Bu rehberde **mont kuru temizleme** hakkında bilmeniz gereken her şeyi bir araya getirdik.
 
 ## Kaz Tüyü ve Şişme Montlar
 

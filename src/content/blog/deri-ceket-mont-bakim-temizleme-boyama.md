@@ -24,7 +24,7 @@ faq:
     answer: "Yağ, tükenmez kalem, makyaj ve mürekkep lekeleri deride en zorlu grubu oluşturur ve leke türüne göre farklı çözücü gerektirir. Evde ovalamak lekeyi derinin içine yaydırır. Lekeyi hiç müdahale etmeden getirmeniz başarı ihtimalini yükseltir; lekenin fotoğrafını WhatsApp'tan gönderirseniz ön değerlendirme yapabiliriz."
 ---
 
-Deri ceket ve deri mont, doğru bakıldığında yıllarca hatta on yıllarca kullanılabilen yatırımlardır. Ancak deri canlı bir malzemedir; nemini kaybettiğinde sertleşir, güneşte solar ve zamanla çatlar. Bu yazıda gerçek deri, süet ve nubuk arasındaki farkları, kuruma ve çatlamanın nedenlerini, beslemenin önemini ve solmuş deride renk yenileme sürecini anlatıyoruz. 2000 yılından bu yana İstanbul Anadolu Yakası'nda edindiğimiz 25 yılı aşkın tecrübeyle, deri ürünlerinizin ömrünü uzatmanın yollarını paylaşıyoruz.
+Deri ceket ve deri mont, doğru bakıldığında yıllarca hatta on yıllarca kullanılabilen yatırımlardır. Ancak deri canlı bir malzemedir; nemini kaybettiğinde sertleşir, güneşte solar ve zamanla çatlar. Bu yazıda gerçek deri, süet ve nubuk arasındaki farkları, kuruma ve çatlamanın nedenlerini, beslemenin önemini ve solmuş deride renk yenileme sürecini anlatıyoruz. 2000 yılından bu yana İstanbul Anadolu Yakası'nda edindiğimiz çeyrek asrı aşkın tecrübeyle, deri ürünlerinizin ömrünü uzatmanın yollarını paylaşıyoruz.
 
 ## Deri, Süet ve Nubuk: Aralarındaki Fark Neden Önemli?
 
@@ -66,7 +66,7 @@ Kışlık deri ürünler dolaba kaldırılmadan önce mutlaka temizletilmeli ve 
 
 Dry Alle olarak Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye başta olmak üzere İstanbul Anadolu Yakası genelinde ÜCRETSİZ kapıdan alım ve teslimat sunuyoruz. Deri ceket ve montunuzu evinizden alıyor, bakımının ardından yine kapınıza teslim ediyoruz. Hizmet bedelleri ürünün türüne ve durumuna göre değişir; güncel bilgi için [fiyatlar](/fiyatlar/) sayfamıza bakabilir veya ürününüzün fotoğrafını WhatsApp'tan gönderip ön değerlendirme alabilirsiniz.
 
-Deri ürününüz sertleşmeye, solmaya ya da lekelenmeye başladıysa vakit kaybetmeden bize ulaşın. 25 yılı aşkın deneyimimizle deri ceket ve montunuza yeniden hayat veriyoruz.
+Deri ürününüz sertleşmeye, solmaya ya da lekelenmeye başladıysa vakit kaybetmeden bize ulaşın. çeyrek asrı aşkın deneyimimizle deri ceket ve montunuza yeniden hayat veriyoruz.
 
 **Hemen arayın: 0 543 352 74 74**
 

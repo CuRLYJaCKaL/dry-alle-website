@@ -118,7 +118,7 @@ image: "/blog/ev-perdelerinizi-temiz-tutma-guide/featured-image.webp"
 <li><strong>Büyük boyutlar:</strong> Ev makinelerına sığmayan perdeler</li>
 </ul>
 <h2>Dry Alle Profesyonel Perde Temizleme Süreci</h2>
-<p>25 yıllık deneyimimizle geliştirdiğimiz perde temizleme süreci:</p>
+<p>çeyrek asırlık deneyimimizle geliştirdiğimiz perde temizleme süreci:</p>
 <ol>
 <li><strong>Detaylı İnceleme:</strong> Kumaş analizi, leke tespiti, hasar kontrolü</li>
 <li><strong>Fotoğraflama:</strong> Perde durumunun belgelenmesi</li>
@@ -181,9 +181,9 @@ image: "/blog/ev-perdelerinizi-temiz-tutma-guide/featured-image.webp"
 </ul>
 <h2>Sonuç ve Profesyonel Öneriler</h2>
 <p>Perde bakımı, düzenli evde bakım ve periyodik profesyonel temizliğin birleşimini gerektirir. Doğru bakım teknikleri ile perdelerinizin hem estetik görünümünü koruyabilir hem de sağlıklı bir iç mekan ortamı yaratabilirsiniz.</p>
-<p>Dry Alle olarak, 25 yıllık deneyimimizle İstanbul Anadolu Yakası'nda tüm perde türleri için kapsamlı çözümler sunuyoruz. İnce tulden kalın kadife perdelere kadar her türlü kumaşı güvenle temizliyoruz.</p>
+<p>Dry Alle olarak, çeyrek asırlık deneyimimizle İstanbul Anadolu Yakası'nda tüm perde türleri için kapsamlı çözümler sunuyoruz. İnce tulden kalın kadife perdelere kadar her türlü kumaşı güvenle temizliyoruz.</p>
 <div class="cta-box">
 <h3>Perdeleriniz İçin Profesyonel Bakım</h3>
-<p>25 yıllık deneyimimizle perdelerinizi güvenli ellerde temizliyoruz. Ücretsiz keşif ve alma-getirme hizmeti!</p>
+<p>çeyrek asırlık deneyimimizle perdelerinizi güvenli ellerde temizliyoruz. Ücretsiz keşif ve alma-getirme hizmeti!</p>
 <a class="cta-button primary" href="tel:+905433527474">📞 Hemen Ara: 0 (543) 352 74 74</a>
 </div>

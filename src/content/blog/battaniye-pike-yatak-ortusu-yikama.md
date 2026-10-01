@@ -24,7 +24,7 @@ faq:
     answer: "En büyük iki sorun ağırlık ve kurumadır. Islanan battaniye ev makinesinin kapasitesini zorlar, dengesiz döner ve tam durulanmaz. Kuruması ise günler alabilir; içeride kalan nem küf ve koku yapar. Profesyonel süreçte yeterli kapasite ve kontrollü kurutmayla bu sorunların ikisi de ortadan kalkar."
 ---
 
-Battaniye, pike ve yatak örtüsü; yatak odamızın en çok temas ettiğimiz ama en az düşündüğümüz tekstilleri. Her gün üzerimize aldığımız, kanepede sarındığımız bu ürünler zamanla ter, toz, ölü deri hücreleri ve alerjenleri içine biriktirir. İstanbul Anadolu Yakası'nda 2000 yılından bu yana, 25 yılı aşkın deneyimimizle bu yazıda bu üç grup tekstilin farklarını, ne sıklıkla yıkanması gerektiğini ve evde yıkamanın neden çoğu zaman baş ağrıttığını anlatıyoruz.
+Battaniye, pike ve yatak örtüsü; yatak odamızın en çok temas ettiğimiz ama en az düşündüğümüz tekstilleri. Her gün üzerimize aldığımız, kanepede sarındığımız bu ürünler zamanla ter, toz, ölü deri hücreleri ve alerjenleri içine biriktirir. İstanbul Anadolu Yakası'nda 2000 yılından bu yana, çeyrek asrı aşkın deneyimimizle bu yazıda bu üç grup tekstilin farklarını, ne sıklıkla yıkanması gerektiğini ve evde yıkamanın neden çoğu zaman baş ağrıttığını anlatıyoruz.
 
 ## Battaniye Türleri: Yün, Akrilik ve Welsoft
 
@@ -85,6 +85,6 @@ Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye başta olm
 
 ## Yatak Odanızın Hijyenini Bize Bırakın
 
-25 yılı aşkın deneyimimizle battaniye, pike ve yatak örtülerinizi türüne özel bir özenle temizliyor, kontrollü kurutmayla hijyenik biçimde size ulaştırıyoruz. Sağlıklı bir yatak odası için doğru adımı bugün atın.
+çeyrek asrı aşkın deneyimimizle battaniye, pike ve yatak örtülerinizi türüne özel bir özenle temizliyor, kontrollü kurutmayla hijyenik biçimde size ulaştırıyoruz. Sağlıklı bir yatak odası için doğru adımı bugün atın.
 
 Bilgi ve randevu için hemen **0 543 352 74 74**'ü arayın. Dilerseniz ürününüzün fotoğrafını [WhatsApp hattımız](https://wa.me/905433527474) üzerinden paylaşın, size özel fiyat ve çözümü anında iletelim.

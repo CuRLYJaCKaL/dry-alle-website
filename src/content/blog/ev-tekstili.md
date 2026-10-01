@@ -8,11 +8,11 @@ tags:
 image: "/blog/ev-tekstili/featured-image.webp"
 ---
 
-<p class="lead">İstanbul'un elit semtlerinde 25 yıllık deneyimimizle ev tekstili bakımı sırları. Acıbadem, Suadiye, Kalamış, Fenerbahçe'de nevresim, battaniye, yorgan ve tüm ev tekstili ürünlerinizi en iyi şekilde koruma rehberleri.</p>
+<p class="lead">İstanbul'un elit semtlerinde çeyrek asırlık deneyimimizle ev tekstili bakımı sırları. Acıbadem, Suadiye, Kalamış, Fenerbahçe'de nevresim, battaniye, yorgan ve tüm ev tekstili ürünlerinizi en iyi şekilde koruma rehberleri.</p>
 
 <h2>Ev Tekstillerinin Bakım ve Temizlik Rehberi</h2>
 
-<p>Nevresim, battaniye, yorgan ve diğer ev tekstili ürünlerinin doğru yıkama teknikleri, saklama koşulları ve profesyonel bakım hizmetlerinin avantajları. İstanbul'da 25 yıllık deneyimimizle...</p>
+<p>Nevresim, battaniye, yorgan ve diğer ev tekstili ürünlerinin doğru yıkama teknikleri, saklama koşulları ve profesyonel bakım hizmetlerinin avantajları. İstanbul'da çeyrek asırlık deneyimimizle...</p>
 
 <h2>Lüks Nevresim Bakımı</h2>
 
@@ -26,6 +26,6 @@ image: "/blog/ev-tekstili/featured-image.webp"
 
 <h2>İstanbul Anadolu Yakası Ev Tekstili Temizleme Hizmeti</h2>
 
-<p>Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan ve tüm Anadolu Yakası'nda 25 yıllık deneyimimizle ev tekstili temizleme hizmeti. Nevresim, battaniye, yorgan ve tüm ev tekstilleriniz için profesyonel bakım. Ücretsiz alma-getirme hizmeti.</p>
+<p>Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan ve tüm Anadolu Yakası'nda çeyrek asırlık deneyimimizle ev tekstili temizleme hizmeti. Nevresim, battaniye, yorgan ve tüm ev tekstilleriniz için profesyonel bakım. Ücretsiz alma-getirme hizmeti.</p>
 
 <p>Detaylı bilgi için <a href="/hizmetler/ev-tekstili-temizligi/">Ev Tekstili Temizliği hizmet sayfamızı</a> ziyaret edebilir, sorularınız için bize ulaşabilirsiniz.</p>

@@ -1,5 +1,6 @@
 ---
 import config from '../../config/site.config.json';
+import { interpolate } from '../utils/engine';
 
 const { businessName, tagline } = config.identity;
 const { whatsapp, phoneDisplay, phone } = config.contact;
@@ -44,7 +45,7 @@ const phoneClean = phone.replace(/\s/g, '');
 
       <!-- SEO Description -->
       <p class="text-base sm:text-lg text-white/80 mb-5 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
-        {config.identity.heroDescription}
+        {interpolate(config.identity.heroDescription)}
       </p>
 
       <!-- CTA Buttons -->

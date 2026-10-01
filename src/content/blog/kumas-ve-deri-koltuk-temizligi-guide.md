@@ -118,7 +118,7 @@ image: "/blog/kumas-ve-deri-koltuk-temizligi-guide/featured-image.webp"
 <li><strong>Yıllık bakım:</strong> Genel hijyen ve koruma</li>
 </ul>
 <h2>Dry Alle Profesyonel Koltuk Yıkama Süreci</h2>
-<p>25 yıllık deneyimimizle geliştirdiğimiz profesyonel koltuk temizleme süreci:</p>
+<p>çeyrek asırlık deneyimimizle geliştirdiğimiz profesyonel koltuk temizleme süreci:</p>
 <ol>
 <li><strong>Detaylı İnceleme:</strong> Koltuk türü, kumaş analizi, hasar tespiti</li>
 <li><strong>Leke Analizi:</strong> Leke türü belirleme ve özel çözüm geliştirme</li>
@@ -162,9 +162,9 @@ image: "/blog/kumas-ve-deri-koltuk-temizligi-guide/featured-image.webp"
 </ul>
 <h2>Sonuç ve Profesyonel Öneriler</h2>
 <p>Koltuk temizliği ve bakımı, düzenli evde bakım ve profesyonel hizmetin birleşimini gerektirir. Doğru teknikler ile koltuklarınızın hem ömrünü uzatabilir hem de sağlıklı bir yaşam ortamı yaratabilirsiniz.</p>
-<p>Dry Alle olarak, 25 yıllık deneyimimizle İstanbul Anadolu Yakası'nda tüm koltuk türleri için kapsamlı çözümler sunuyoruz. Kumaştan deriye, antika mobilyalardan modern tasarımlara kadar her türlü koltuğunuzu güvenle temizliyoruz.</p>
+<p>Dry Alle olarak, çeyrek asırlık deneyimimizle İstanbul Anadolu Yakası'nda tüm koltuk türleri için kapsamlı çözümler sunuyoruz. Kumaştan deriye, antika mobilyalardan modern tasarımlara kadar her türlü koltuğunuzu güvenle temizliyoruz.</p>
 <div class="cta-box">
 <h3>Koltuklarınız İçin Profesyonel Bakım</h3>
-<p>25 yıllık deneyimimizle koltuklarınızı güvenli ellerde temizliyoruz. Ücretsiz keşif ve alma-getirme hizmeti!</p>
+<p>çeyrek asırlık deneyimimizle koltuklarınızı güvenli ellerde temizliyoruz. Ücretsiz keşif ve alma-getirme hizmeti!</p>
 <a class="cta-button primary" href="tel:+905433527474">📞 Hemen Ara: 0 (543) 352 74 74</a>
 </div>

@@ -96,13 +96,14 @@ const title = interpolate(config.seoTemplates.regionTitle, seoTokens);
 const description = interpolate(config.seoTemplates.regionDescription, seoTokens);
 // Semt (mahalle/ilce) SEO override — GSC fine-tune; yoksa sablon.
 const areaOverride = ((neighborhood ?? district) as Record<string, unknown>) ?? {};
-const regionSeoTitle = (areaOverride.seoTitle as string) || title;
-const regionSeoDescription = (areaOverride.seoDescription as string) || description;
-const regionIntroOverride = areaOverride.intro as string | undefined;
+// Override'lar da interpolate'ten gecer: {currentYear}/{experienceYears} cozulsun.
+const regionSeoTitle = interpolate((areaOverride.seoTitle as string) || title, seoTokens);
+const regionSeoDescription = interpolate((areaOverride.seoDescription as string) || description, seoTokens);
+const regionIntroOverride = areaOverride.intro ? interpolate(areaOverride.intro as string, seoTokens) : undefined;
 const regionFaq = (areaOverride.faq as Array<{ question: string; answer: string }>) ?? [];
 const regionFaqSchema = regionFaq.length > 0 ? {
   "@type": "FAQPage",
-  "mainEntity": regionFaq.map((f) => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })),
+  "mainEntity": regionFaq.map((f) => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": interpolate(f.answer) } })),
 } : null;
 const canonicalPath = isDistrict
   ? `/bolge/${district.districtSlug}/`
@@ -212,7 +213,7 @@ if (isServicePage && service && pageEntry) {
       "areaServed": { "@type": "Place", "name": locationName },
       "provider": { "@id": `https://${config.contact.domain}/#business` } },
     { "@type": "FAQPage",
-      "mainEntity": pageEntry.faq.map((f) => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) },
+      "mainEntity": pageEntry.faq.map((f) => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": interpolate(f.answer) } })) },
   ];
 }
 const priceUnitSuffix = svcPriceTable?.unit === 'm²' ? ' / m²' : '';
@@ -287,7 +288,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
             İstanbul / {district.district}{neighborhood ? ` / ${neighborhood.name}` : ''}
           </div>
           <h1 class="text-hero font-bold mb-5">{svcH1}</h1>
-          <p class="text-lg sm:text-xl text-white/90 mb-8 max-w-3xl">{pageEntry.intro}</p>
+          <p class="text-lg sm:text-xl text-white/90 mb-8 max-w-3xl">{interpolate(pageEntry.intro)}</p>
           <div class="flex flex-col sm:flex-row gap-4">
             <a href={`tel:${config.contact.phone.replace(/\s/g, '')}`} class="btn-primary"><svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>Hemen Arayın: {config.contact.phoneDisplay}</a>
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="btn-whatsapp">WhatsApp ile Yazın</a>
@@ -310,7 +311,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
             decoding="async"
             class="w-full rounded-2xl shadow-card mb-8 aspect-[16/9] object-cover"
           />
-          {pageEntry.bodyParagraphs.map((para) => (<p class="text-text-primary text-base sm:text-lg leading-relaxed mb-5" set:html={linkCta(para)}></p>))}
+          {pageEntry.bodyParagraphs.map((para) => (<p class="text-text-primary text-base sm:text-lg leading-relaxed mb-5" set:html={linkCta(interpolate(para))}></p>))}
           {svcPriceTable && (
             <div class="mt-10">
               <h2 class="text-2xl sm:text-3xl font-bold text-primary mb-2">{locationName} {service.name} Fiyatları {priceYear}</h2>
@@ -351,7 +352,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
                   <span>{item.question}</span>
                   <svg class="w-5 h-5 shrink-0 text-accent transition-transform duration-200 group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
                 </summary>
-                <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed" set:html={linkCta(item.answer)}></div>
+                <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed" set:html={linkCta(interpolate(item.answer))}></div>
               </details>
             ))}
           </div>
@@ -864,7 +865,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
                 <span>{item.question}</span>
                 <svg class="w-5 h-5 shrink-0 text-accent transition-transform duration-200 group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
               </summary>
-              <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed">{item.answer}</div>
+              <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed">{interpolate(item.answer)}</div>
             </details>
           ))}
         </div>

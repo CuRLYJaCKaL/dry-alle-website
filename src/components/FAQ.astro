@@ -54,7 +54,7 @@ const faqJsonLd = {
             </svg>
           </summary>
           <p class="text-text-secondary text-sm sm:text-base px-6 pb-5 pt-2 leading-relaxed border-l-[3px] border-accent">
-            {item.answer}
+            {interpolate(item.answer)}
           </p>
         </details>
       ))}

@@ -12,7 +12,7 @@ image: "/blog/bebekli-evlerde-hali-koltuk-hijyeni/featured-image.webp"
 
 **Bebekli evde halı temizliği**, sıradan bir temizlik konusu değil; doğrudan bebeğinizin sağlığını ilgilendiren bir hijyen meselesidir. Emekleme dönemindeki bir bebek gününün büyük bölümünü halının üzerinde geçirir, eline geçeni ağzına götürür ve yüzünü koltuk kumaşına gömerek uyur. Bu yüzden halı ve koltuklardaki akar, alerjen ve kimyasal kalıntılar; yetişkinleri hiç etkilemezken bebeklerde huzursuzluk, cilt hassasiyeti ve alerjik yakınmalara zemin hazırlayabilir. Koltuk akar temizliği ve alerjen odaklı halı yıkama, tam da bu nedenle bebekli evlerin gündeminde olmalıdır.
 
-Dry Alle olarak İstanbul Anadolu Yakası'nda 25 yıldır binlerce bebekli aileye hizmet veriyoruz. Bu rehberde, ev tekstillerinde neyin gerçekten risk oluşturduğunu ve kimyasalsız hijyenin nasıl sağlandığını anlatıyoruz.
+Dry Alle olarak İstanbul Anadolu Yakası'nda 2000'den bu yana binlerce bebekli aileye hizmet veriyoruz. Bu rehberde, ev tekstillerinde neyin gerçekten risk oluşturduğunu ve kimyasalsız hijyenin nasıl sağlandığını anlatıyoruz.
 
 ## Halı ve Koltukta Bebeği Bekleyen Görünmez Riskler
 

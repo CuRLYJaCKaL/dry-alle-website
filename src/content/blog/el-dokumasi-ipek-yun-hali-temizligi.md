@@ -10,7 +10,7 @@ tags:
 image: "/blog/el-dokumasi-ipek-yun-hali-temizligi/featured-image.webp"
 ---
 
-**İpek halı yıkama** ve **el dokuması halı temizliği**, sıradan makine halısı yıkamayla aynı işlem değildir. Hereke ipeği, İran dokuma teknikleri veya Anadolu köy tezgahlarından çıkan bir halı; hem maddi hem duygusal değer taşır. Yün halı yıkama konusunda İstanbul'da 25 yıldır hizmet veren Dry Alle olarak en sık karşılaştığımız tablo maalesef şudur: yanlış yerde, yanlış yöntemle yıkanmış ve bir daha eski haline dönemeyecek değerli bir halı.
+**İpek halı yıkama** ve **el dokuması halı temizliği**, sıradan makine halısı yıkamayla aynı işlem değildir. Hereke ipeği, İran dokuma teknikleri veya Anadolu köy tezgahlarından çıkan bir halı; hem maddi hem duygusal değer taşır. Yün halı yıkama konusunda İstanbul'da 2000'den bu yana hizmet veren Dry Alle olarak en sık karşılaştığımız tablo maalesef şudur: yanlış yerde, yanlış yöntemle yıkanmış ve bir daha eski haline dönemeyecek değerli bir halı.
 
 Bu rehberde, değerli halılarda yanlış yıkamanın neden geri dönüşsüz hasar yarattığını ve doğru yöntemin nasıl olması gerektiğini adım adım anlatıyoruz.
 
@@ -97,6 +97,6 @@ Halının arkasına bakın: düğümler tek tek seçilebiliyorsa ve desen arkada
 
 ### Yıkama sırasında halıma zarar gelirse ne olur?
 
-Dry Alle'de her halı, teslim alınırken durum tespitiyle kayıt altına alınır ve süreç boyunca sigortalıdır. 25 yıllık deneyimimizde değerli halıları önce test edip sonra yıkadığımız için hasar riskini en baştan ortadan kaldırıyoruz.
+Dry Alle'de her halı, teslim alınırken durum tespitiyle kayıt altına alınır ve süreç boyunca sigortalıdır. çeyrek asırlık deneyimimizde değerli halıları önce test edip sonra yıkadığımız için hasar riskini en baştan ortadan kaldırıyoruz.
 
 📞 **Hemen arayın: [0 (543) 352 74 74](tel:+905433527474)** veya [WhatsApp'tan yazın](https://wa.me/905433527474) — fotoğraf gönderin, anında fiyat alın. Kadıköy, Ataşehir ve tüm Anadolu Yakası'nda ücretsiz kapıdan alım.

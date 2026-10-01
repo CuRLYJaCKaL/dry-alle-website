@@ -24,7 +24,7 @@ faq:
     answer: "Fiyat; kumaş türü, parça sayısı, leke durumu ve ütü-form ihtiyacına göre belirlenir. Net fiyat için güncel fiyat listemize bakabilir ya da takımın fotoğrafını WhatsApp'tan gönderebilirsiniz; uzman ekibimiz size özel fiyatı hızlıca iletir."
 ---
 
-Takım elbise, gardırobun en değerli ama en yanlış bakılan parçalarından biridir. Doğru giyildiğinde yıllarca formunu korur; yanlış temizlendiğinde ise birkaç sezonda parlar, sarkar ve şeklini kaybeder. İstanbul Anadolu Yakası'nda 2000 yılından bu yana, 25 yılı aşkın deneyimimizle Kadıköy'den Pendik'e kadar binlerce takım elbiseyi elden geçirdik. Bu rehberde **takım elbise kuru temizleme** konusunda gerçekten işe yarayan bilgileri paylaşıyoruz.
+Takım elbise, gardırobun en değerli ama en yanlış bakılan parçalarından biridir. Doğru giyildiğinde yıllarca formunu korur; yanlış temizlendiğinde ise birkaç sezonda parlar, sarkar ve şeklini kaybeder. İstanbul Anadolu Yakası'nda 2000 yılından bu yana, çeyrek asrı aşkın deneyimimizle Kadıköy'den Pendik'e kadar binlerce takım elbiseyi elden geçirdik. Bu rehberde **takım elbise kuru temizleme** konusunda gerçekten işe yarayan bilgileri paylaşıyoruz.
 
 ## Takım Elbise Ne Sıklıkla Temizlenmeli?
 

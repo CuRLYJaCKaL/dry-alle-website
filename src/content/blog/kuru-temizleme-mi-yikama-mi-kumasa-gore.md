@@ -93,7 +93,7 @@ Lekeli bir kıyafeti gelişigüzel yıkamak, lekeyi kalıcı hale getirebilir; b
 
 ## Emin değilseniz nasıl karar vermeli?
 
-Etiketten veya kumaştan emin olamıyorsanız, riske girmeden uzman görüşü almak her zaman en güvenli seçenektir. 2000 yılından bu yana 25 yılı aşkın deneyimimizle Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye dahil İstanbul Anadolu Yakası'nda giysilerinizi kumaş cinsine göre doğru yöntemle temizliyoruz. Ürünü **ücretsiz kapıdan alım-teslimat** ile kapınızdan alıyor, işlem sonrası size teslim ediyoruz. Güncel bilgi için [fiyat sayfamızı](/fiyatlar/) inceleyebilir, kararsız kaldığınız ürünün fotoğrafını WhatsApp'tan gönderip net yanıt alabilirsiniz.
+Etiketten veya kumaştan emin olamıyorsanız, riske girmeden uzman görüşü almak her zaman en güvenli seçenektir. 2000 yılından bu yana çeyrek asrı aşkın deneyimimizle Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye dahil İstanbul Anadolu Yakası'nda giysilerinizi kumaş cinsine göre doğru yöntemle temizliyoruz. Ürünü **ücretsiz kapıdan alım-teslimat** ile kapınızdan alıyor, işlem sonrası size teslim ediyoruz. Güncel bilgi için [fiyat sayfamızı](/fiyatlar/) inceleyebilir, kararsız kaldığınız ürünün fotoğrafını WhatsApp'tan gönderip net yanıt alabilirsiniz.
 
 Doğru karar, çoğu zaman "acaba" dediğiniz anda profesyonele danışmaktan geçer; bu küçük adım, en sevdiğiniz parçaları yıllarca korur.
 

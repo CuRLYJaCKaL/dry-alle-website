@@ -8,7 +8,7 @@ tags:
 image: "/blog/hassas-kumaslar-dry-cleaning-guide/featured-image.webp"
 ---
 
-<p>Hassas kumaşlar, günlük kıyafetlerimizin en değerli parçalarıdır. İpek bluzlar, kaşmir kazaklar, yün ceketler ve designer elbiseler özel bakım gerektirir. Bu makalede, İstanbul'un elit semtlerinde 25 yıllık deneyimimizle edindiğimiz bilgileri paylaşıyoruz.</p>
+<p>Hassas kumaşlar, günlük kıyafetlerimizin en değerli parçalarıdır. İpek bluzlar, kaşmir kazaklar, yün ceketler ve designer elbiseler özel bakım gerektirir. Bu makalede, İstanbul'un elit semtlerinde çeyrek asırlık deneyimimizle edindiğimiz bilgileri paylaşıyoruz.</p>
 <h2>Hassas Kumaş Türleri ve Özellikleri</h2>
 <h3>1. İpek Kumaşlar</h3>
 <p>İpek, doğal protein liflerinden oluşan en hassas kumaşlardan biridir. Su ile temas ettiğinde yapısı bozulabilir ve renk atabilir. Kuru temizleme, ipek kıyafetler için en güvenli yöntemdir.</p>
@@ -54,7 +54,7 @@ image: "/blog/hassas-kumaslar-dry-cleaning-guide/featured-image.webp"
 <li>Genel temizlik için 6 ayda bir</li>
 </ul>
 <h2>İstanbul'da Profesyonel Kuru Temizleme</h2>
-<p>Dry Alle olarak, İstanbul'un <a href="/blog/ultimate-turkish-dry-cleaning-guide/">elit semtlerinde kuru temizleme hizmeti</a> veriyoruz. 25 yıllık deneyimimizle hassas kumaşlarınızı güvenli ellerde temizliyoruz.</p>
+<p>Dry Alle olarak, İstanbul'un <a href="/blog/ultimate-turkish-dry-cleaning-guide/">elit semtlerinde kuru temizleme hizmeti</a> veriyoruz. çeyrek asırlık deneyimimizle hassas kumaşlarınızı güvenli ellerde temizliyoruz.</p>
 <p>Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan, Erenköy, Kozyatağı ve Göztepe bölgelerinde ücretsiz kapıdan teslimat hizmeti sunuyoruz.</p>
 <blockquote>
                         Değerli kıyafetleriniz için risk almayın. Profesyonel kuru temizleme ile hassas kumaşlarınızın ömrünü uzatın ve her zaman kusursuz görünün.

@@ -77,7 +77,7 @@ Evde alerjen yükünü azaltmak için:
 
 ## Profesyonel Temizlik Evcil Hayvanlı Evde Neyi Değiştirir?
 
-25 yıllık deneyimimizle Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye'de evcil hayvanlı evlerden aldığımız halı ve koltuklarda üç aşamalı çalışıyoruz: tüy ve kaba kirin alınması, enzim bazlı ön işlemle koku kaynağının parçalanması ve derin ekstraksiyonla durulama. Kullandığımız ürünler kuruduktan sonra patili dostlarınız için güvenlidir.
+çeyrek asırlık deneyimimizle Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye'de evcil hayvanlı evlerden aldığımız halı ve koltuklarda üç aşamalı çalışıyoruz: tüy ve kaba kirin alınması, enzim bazlı ön işlemle koku kaynağının parçalanması ve derin ekstraksiyonla durulama. Kullandığımız ürünler kuruduktan sonra patili dostlarınız için güvenlidir.
 
 Güncel ücretleri [fiyatlar sayfamızda](/fiyatlar/) bulabilirsiniz; koltuğunuzun veya halınızın fotoğrafını WhatsApp'tan gönderin, dakikalar içinde net fiyat verelim.
 

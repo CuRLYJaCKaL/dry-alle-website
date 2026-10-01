@@ -10,7 +10,7 @@ tags:
 image: "/blog/ofis-ve-isyerleri-icin-koltuk-hali-temizligi/featured-image.webp"
 ---
 
-**Ofis koltuk yıkama** ve **işyeri halı yıkama**, çoğu işletmede ancak bir müşteri ziyareti öncesinde ya da görünür bir leke oluştuğunda akla gelir. Oysa ofis tekstilleri, evdekinden çok daha ağır bir yük taşır: onlarca kişinin her gün kullandığı çalışma koltukları, toplantı odası sandalyeleri, bekleme alanı kanepeleri ve yoğun trafiğe maruz kalan zemin halıları. Dry Alle olarak İstanbul Anadolu Yakası'nda 25 yıldır hem bireysel hem kurumsal müşterilere hizmet veriyor; ofisler, klinikler, oteller ve mağazalar için periyodik temizlik planları yürütüyoruz.
+**Ofis koltuk yıkama** ve **işyeri halı yıkama**, çoğu işletmede ancak bir müşteri ziyareti öncesinde ya da görünür bir leke oluştuğunda akla gelir. Oysa ofis tekstilleri, evdekinden çok daha ağır bir yük taşır: onlarca kişinin her gün kullandığı çalışma koltukları, toplantı odası sandalyeleri, bekleme alanı kanepeleri ve yoğun trafiğe maruz kalan zemin halıları. Dry Alle olarak İstanbul Anadolu Yakası'nda 2000'den bu yana hem bireysel hem kurumsal müşterilere hizmet veriyor; ofisler, klinikler, oteller ve mağazalar için periyodik temizlik planları yürütüyoruz.
 
 Bu rehberde, iş yerinizde tekstil temizliğini neden plana bağlamanız gerektiğini ve kurumsal temizlik anlaşmasının işletmenize ne kazandırdığını özetliyoruz.
 

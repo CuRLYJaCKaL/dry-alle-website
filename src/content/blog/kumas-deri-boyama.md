@@ -8,11 +8,11 @@ tags:
 image: "/blog/kumas-deri-boyama/featured-image.webp"
 ---
 
-<p class="lead">İstanbul'un elit semtlerinde 25 yıllık deneyimimizle kumaş ve deri boyama, renk yenileme sırları. Acıbadem, Suadiye, Kalamış, Fenerbahçe'de solmuş kıyafetlerinize yeni hayat verme rehberleri.</p>
+<p class="lead">İstanbul'un elit semtlerinde çeyrek asırlık deneyimimizle kumaş ve deri boyama, renk yenileme sırları. Acıbadem, Suadiye, Kalamış, Fenerbahçe'de solmuş kıyafetlerinize yeni hayat verme rehberleri.</p>
 
 <h2>Solmuş Kıyafetlere Yeni Hayat Verme Rehberi</h2>
 
-<p>Kumaş ve deri boyama teknikleri, renk seçimi ve profesyonel boyama hizmetinin avantajları. İstanbul'da 25 yıllık deneyimimizle solmuş kıyafetlerinizi yeniden canlandırma sırları...</p>
+<p>Kumaş ve deri boyama teknikleri, renk seçimi ve profesyonel boyama hizmetinin avantajları. İstanbul'da çeyrek asırlık deneyimimizle solmuş kıyafetlerinizi yeniden canlandırma sırları...</p>
 
 <h2>Deri Ürünlerde Renk Değişimi</h2>
 
@@ -26,6 +26,6 @@ image: "/blog/kumas-deri-boyama/featured-image.webp"
 
 <h2>İstanbul Anadolu Yakası Kumaş Deri Boyama Hizmeti</h2>
 
-<p>Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan ve tüm Anadolu Yakası'nda 25 yıllık deneyimimizle kumaş deri boyama hizmeti. Solmuş kıyafetlerinize yeni hayat veriyoruz. Ücretsiz alma-getirme hizmeti.</p>
+<p>Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan ve tüm Anadolu Yakası'nda çeyrek asırlık deneyimimizle kumaş deri boyama hizmeti. Solmuş kıyafetlerinize yeni hayat veriyoruz. Ücretsiz alma-getirme hizmeti.</p>
 
 <p>Detaylı bilgi için <a href="/hizmetler/kumas-deri-boyama/">Kumaş & Deri Boyama hizmet sayfamızı</a> ziyaret edebilir, sorularınız için bize ulaşabilirsiniz.</p>

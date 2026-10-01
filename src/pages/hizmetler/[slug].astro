@@ -40,8 +40,9 @@ const seoTokens = {
 
 // Hizmet-basina ozel SEO override (GSC fine-tune) — yoksa sablon.
 const svcOverride = service as { seoTitle?: string; seoDescription?: string; faq?: Array<{ question: string; answer: string }> };
-const title = svcOverride.seoTitle || interpolate(config.seoTemplates.serviceTitle, seoTokens);
-const description = svcOverride.seoDescription || interpolate(config.seoTemplates.serviceDescription, seoTokens);
+// Override'lar da interpolate'ten gecer: {currentYear}/{experienceYears} cozulsun.
+const title = interpolate(svcOverride.seoTitle || config.seoTemplates.serviceTitle, seoTokens);
+const description = interpolate(svcOverride.seoDescription || config.seoTemplates.serviceDescription, seoTokens);
 const serviceFaq = svcOverride.faq ?? [];
 // Gercek fiyat tablosu (halı/koltuk/perde/yorgan) — config.pricing.servicePriceTables'tan.
 const svcPriceTable = (config.pricing?.servicePriceTables as Record<string, { unit: string; unitNote?: string; items: Array<{ name: string; price: number }> }> | undefined)?.[service.slug];
@@ -66,7 +67,7 @@ const jsonLd = {
 // service.faq varsa FAQPage semasini grafige ekle (motor: jsonLd dizi olur)
 const faqSchema = serviceFaq.length > 0 ? {
   "@type": "FAQPage",
-  "mainEntity": serviceFaq.map((f) => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })),
+  "mainEntity": serviceFaq.map((f) => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": interpolate(f.answer) } })),
 } : null;
 const finalJsonLd = faqSchema ? [jsonLd, faqSchema] : jsonLd;
 
@@ -272,7 +273,7 @@ const relatedPosts = [...curatedPosts, ...taggedPosts]
           <h2 class="section-title">{service.name} Hizmetimiz Hakkında</h2>
           <div class="text-text-secondary leading-relaxed space-y-4 mt-8">
             {content.map((paragraph) => (
-              <p set:html={linkCta(paragraph)}></p>
+              <p set:html={linkCta(interpolate(paragraph))}></p>
             ))}
           </div>
         </div>
@@ -692,7 +693,7 @@ const relatedPosts = [...curatedPosts, ...taggedPosts]
                 <span>{item.question}</span>
                 <svg class="w-5 h-5 shrink-0 text-accent transition-transform duration-200 group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
               </summary>
-              <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed" set:html={linkCta(item.answer)}></div>
+              <div class="px-5 pb-5 pt-1 text-text-primary leading-relaxed" set:html={linkCta(interpolate(item.answer))}></div>
             </details>
           ))}
         </div>

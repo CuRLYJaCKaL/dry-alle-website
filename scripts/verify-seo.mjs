@@ -59,7 +59,10 @@ for (const file of walk(DIST)) {
   const hasLd = /<script type="application\/ld\+json">/.test(html);
 
   // ── HATALAR ──
-  const unresolved = [...html.matchAll(/<(?:title|meta)[^>]*?\{(\w+)\}/g)].map((m) => m[1]);
+  // Cozulmemis {token} — sayfanin HER yerinde aranir, yalnizca title/meta'da degil.
+  // (Zaman token'lari gorsel metinde de kullaniliyor; interpolate'i atlayan bir
+  // render yolu olursa ziyaretci "{experienceYears} yillik deneyim" goruyor.)
+  const unresolved = [...html.matchAll(/\{(currentYear|experienceYears|businessName|brandName|location|serviceName|establishedYear|sectorLabel|primaryKeyword\w*|province)\}/g)].map((m) => m[1]);
   if (unresolved.length) errors.push(`${rel} — cozulmemis token: {${[...new Set(unresolved)].join('}, {')}}`);
 
   for (const [alan, deger] of [['baslik', title], ['aciklama', desc]]) {
@@ -83,6 +86,28 @@ for (const file of walk(DIST)) {
     warnings.push({ tip: 'baslik', rel, len: title.length, metin: title });
   if (desc && (desc.length < DESC_MIN || desc.length > DESC_MAX))
     warnings.push({ tip: 'aciklama', rel, len: desc.length, metin: desc });
+}
+
+// ── CONFIG BAYATLAMA KORUMASI ──
+// Zamana bagli deger config'e SABIT yazilamaz: {currentYear} / {experienceYears}
+// kullanilmali. Aksi halde site 1 Ocak'ta sessizce bayatlar.
+{
+  const cfg = JSON.parse(readFileSync('config/site.config.json', 'utf8'));
+  const simdikiYil = new Date().getFullYear();
+  const bayat = [];
+  const gez = (o, yol = '') => {
+    if (o && typeof o === 'object') {
+      for (const [k, v] of Object.entries(o)) gez(v, yol ? `${yol}.${k}` : k);
+    } else if (typeof o === 'string') {
+      if (yol.endsWith('identity.establishedYear')) return;
+      for (let y = simdikiYil - 1; y <= simdikiYil + 1; y++)
+        if (new RegExp(`\\b${y}\\b`).test(o)) bayat.push(`${yol}: sabit yil "${y}" -> {currentYear} kullan`);
+      const m = o.match(/(?<![0-9])(\d{1,2})\s*yıl(lık|ı|dır)/);
+      if (m) bayat.push(`${yol}: sabit sure "${m[0]}" -> {experienceYears} kullan`);
+    }
+  };
+  gez(cfg);
+  for (const b of bayat) errors.push(`config — ${b}`);
 }
 
 for (const [title, pages] of titles) {

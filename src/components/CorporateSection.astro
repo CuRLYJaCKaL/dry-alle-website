@@ -1,5 +1,6 @@
 ---
 import config from '../../config/site.config.json';
+import { interpolate } from '../utils/engine';
 
 const corporateConfig = config.corporate as { title: string; description: string; bulletPoints: string[]; sectors: { name: string; icon: string }[] } | undefined;
 const sectors = corporateConfig?.sectors?.map(s => ({ name: s.name.split(' & ')[0].split(' Şubeleri')[0], icon: s.icon })) || [];
@@ -20,7 +21,7 @@ const sectors = corporateConfig?.sectors?.map(s => ({ name: s.name.split(' & ')[
         <span class="badge bg-white/10 text-white/90 backdrop-blur-sm mb-4">Kurumsal Hizmetler</span>
         <h2 class="text-section font-bold text-white mb-6">{corporateConfig?.title}</h2>
         <p class="text-white/75 leading-relaxed mb-8">
-          {corporateConfig?.description}
+          {corporateConfig ? interpolate(corporateConfig.description) : null}
         </p>
 
         <ul class="space-y-3 mb-8">

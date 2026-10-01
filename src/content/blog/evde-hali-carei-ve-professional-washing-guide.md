@@ -8,7 +8,7 @@ tags:
 image: "/blog/evde-hali-carei-ve-professional-washing-guide/featured-image.webp"
 ---
 
-<p>Halılarım gerçekten evimin ruhunu yansıtıyor. Özellikle Acıbadem'deki evimizde, hem çocukların oyun alanı hem de misafirlerimizi ağırladığımız salon halılarımız sürekli yoğun kullanım görüyor. 25 yıldır İstanbul'un en seçkin semtlerinde halı bakımı konusunda ailelere hizmet veren Dry Alle olarak, evinizdeki halıları hem temiz hem de uzun ömürlü tutmanın sırlarını paylaşmak istiyorum.</p>
+<p>Halılarım gerçekten evimin ruhunu yansıtıyor. Özellikle Acıbadem'deki evimizde, hem çocukların oyun alanı hem de misafirlerimizi ağırladığımız salon halılarımız sürekli yoğun kullanım görüyor. 2000'den bu yana İstanbul'un en seçkin semtlerinde halı bakımı konusunda ailelere hizmet veren Dry Alle olarak, evinizdeki halıları hem temiz hem de uzun ömürlü tutmanın sırlarını paylaşmak istiyorum.</p>
 <h2>Günlük Halı Bakımı</h2>
 <h3>1. Düzenli Elektrikli Süpürge Kullanımı</h3>
 <p>Halı bakımının en temel adımı düzenli elektrikli süpürge kullanımıdır. İdeal sıklık:</p>
@@ -97,6 +97,6 @@ image: "/blog/evde-hali-carei-ve-professional-washing-guide/featured-image.webp"
 <p>Dry Alle olarak, İstanbul Anadolu Yakası'nda halılarınız için kapsamlı çözümler sunuyoruz. Ücretsiz keşif ve alma-getirme hizmetimizle halı bakımınızı kolaylaştırıyoruz.</p>
 <div class="cta-box">
 <h3>Halılarınız İçin Profesyonel Bakım</h3>
-<p>25 yıllık deneyimimizle halılarınızı güvenli ellerde temizliyoruz. Ücretsiz keşif için hemen arayın!</p>
+<p>çeyrek asırlık deneyimimizle halılarınızı güvenli ellerde temizliyoruz. Ücretsiz keşif için hemen arayın!</p>
 <a class="cta-button primary" href="tel:+905433527474">📞 Hemen Ara: 0 (543) 352 74 74</a>
 </div>

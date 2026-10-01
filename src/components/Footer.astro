@@ -1,5 +1,6 @@
 ---
 import config from '../../config/site.config.json';
+import { interpolate } from '../utils/engine';
 
 const neighborhoodCount = config.serviceAreas.reduce(
   (sum: number, area: { neighborhoods: unknown[] }) => sum + area.neighborhoods.length, 0
@@ -59,7 +60,7 @@ const serviceAreas = config.serviceAreas.flatMap(area =>
           </div>
         </a>
         <p class="text-white/60 text-sm leading-relaxed max-w-xs">
-          {config.identity.description}
+          {interpolate(config.identity.description)}
         </p>
       </div>
 

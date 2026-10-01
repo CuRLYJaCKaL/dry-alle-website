@@ -10,7 +10,7 @@ image: "/blog/wedding-season-wedding-dress-carei/featured-image.webp"
 
 <div class="article-intro">
 <p class="lead">
-                        İstanbul'un elit semtlerinde <strong>gelinlik</strong> konusunda 25 yıllık deneyimimizle, 
+                        İstanbul'un elit semtlerinde <strong>gelinlik</strong> konusunda çeyrek asırlık deneyimimizle, 
                         bu kapsamlı rehberde duggun sezonu gelinlik bakimi hakkında bilmeniz gereken her şeyi paylaşıyoruz.
                     </p>
 </div>
@@ -55,7 +55,7 @@ image: "/blog/wedding-season-wedding-dress-carei/featured-image.webp"
                     İpek, kaşmir, yün ve diğer değerli kumaşlar için geliştirdiğimiz özel teknikler sayesinde, 
                     en hassas tekstil ürünlerinizi bile güvenle bize emanet edebilirsiniz. 
                     <em>gelinlik temizleme dantel</em> 
-                    konusundaki uzmanlığımız, 25 yıllık deneyimimizin bir ürünüdür.
+                    konusundaki uzmanlığımız, çeyrek asırlık deneyimimizin bir ürünüdür.
                 </p>
 <h2>Fiyat-Performans Analizi</h2>
 <p>

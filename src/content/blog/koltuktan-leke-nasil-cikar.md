@@ -10,7 +10,7 @@ tags:
 image: "/blog/koltuktan-leke-nasil-cikar/featured-image.webp"
 ---
 
-Koltuktan leke nasıl çıkar sorusu, evde bir bardak kahve devrildiği anda akla gelen ilk sorudur. Doğru cevap lekenin türüne, kumaşın cinsine ve müdahale hızınıza göre değişir. Yanlış ürünle yapılan ilk müdahale, lekeyi çıkarmak yerine kumaşın derinine sabitleyebilir; hatta rengini soldurup dokusunu bozabilir. Bu rehberde kahve, şarap, kalem dahil 12 inatçı leke için evde güvenle uygulayabileceğiniz ilk müdahale adımlarını ve işin ne zaman profesyonele bırakılması gerektiğini anlatıyoruz. 25 yıldır Kadıköy merkezli olarak Anadolu Yakası'nda [koltuk yıkama](/hizmetler/koltuk-yikama/) hizmeti veren ekibimizin sahada en sık gördüğü hataları da paylaşacağız.
+Koltuktan leke nasıl çıkar sorusu, evde bir bardak kahve devrildiği anda akla gelen ilk sorudur. Doğru cevap lekenin türüne, kumaşın cinsine ve müdahale hızınıza göre değişir. Yanlış ürünle yapılan ilk müdahale, lekeyi çıkarmak yerine kumaşın derinine sabitleyebilir; hatta rengini soldurup dokusunu bozabilir. Bu rehberde kahve, şarap, kalem dahil 12 inatçı leke için evde güvenle uygulayabileceğiniz ilk müdahale adımlarını ve işin ne zaman profesyonele bırakılması gerektiğini anlatıyoruz. 2000'den bu yana Kadıköy merkezli olarak Anadolu Yakası'nda [koltuk yıkama](/hizmetler/koltuk-yikama/) hizmeti veren ekibimizin sahada en sık gördüğü hataları da paylaşacağız.
 
 ## Koltuk Lekesi Çıkarmadan Önce Bilmeniz Gereken 3 Kural
 

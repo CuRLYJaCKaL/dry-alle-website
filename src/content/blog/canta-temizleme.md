@@ -8,11 +8,11 @@ tags:
 image: "/blog/canta-temizleme/featured-image.webp"
 ---
 
-<p class="lead">İstanbul'un elit semtlerinde 25 yıllık deneyimimizle deri ve kumaş çanta bakımı sırları. Acıbadem, Suadiye, Kalamış, Fenerbahçe'de değerli çantalarınızı en iyi şekilde koruma ve temizleme rehberleri.</p>
+<p class="lead">İstanbul'un elit semtlerinde çeyrek asırlık deneyimimizle deri ve kumaş çanta bakımı sırları. Acıbadem, Suadiye, Kalamış, Fenerbahçe'de değerli çantalarınızı en iyi şekilde koruma ve temizleme rehberleri.</p>
 
 <h2>Deri ve Kumaş Çanta Bakım Rehberi</h2>
 
-<p>Deri ve kumaş çantaların doğru temizlik teknikleri, leke çıkarma yöntemleri ve profesyonel bakım hizmetlerinin avantajları. İstanbul'da 25 yıllık deneyimimizle değerli çantalarınızı koruma sırları...</p>
+<p>Deri ve kumaş çantaların doğru temizlik teknikleri, leke çıkarma yöntemleri ve profesyonel bakım hizmetlerinin avantajları. İstanbul'da çeyrek asırlık deneyimimizle değerli çantalarınızı koruma sırları...</p>
 
 <h2>Lüks Marka Çanta Özel Bakımı</h2>
 
@@ -26,6 +26,6 @@ image: "/blog/canta-temizleme/featured-image.webp"
 
 <h2>İstanbul Anadolu Yakası Çanta Temizleme Hizmeti</h2>
 
-<p>Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan ve tüm Anadolu Yakası'nda 25 yıllık deneyimimizle çanta temizleme hizmeti. Deri ve kumaş çantalar için özel bakım teknikleri. Ücretsiz alma-getirme hizmeti.</p>
+<p>Acıbadem, Suadiye, Kalamış, Fenerbahçe, Caddebostan ve tüm Anadolu Yakası'nda çeyrek asırlık deneyimimizle çanta temizleme hizmeti. Deri ve kumaş çantalar için özel bakım teknikleri. Ücretsiz alma-getirme hizmeti.</p>
 
 <p>Detaylı bilgi için <a href="/hizmetler/canta-temizleme/">Çanta Temizleme hizmet sayfamızı</a> ziyaret edebilir, sorularınız için bize ulaşabilirsiniz.</p>

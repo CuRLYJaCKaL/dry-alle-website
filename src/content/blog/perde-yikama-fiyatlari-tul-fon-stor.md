@@ -24,7 +24,7 @@ faq:
     answer: "Çünkü perde tipini, kumaşını ve boyutunu görmeden verilen rakam gerçekçi olmaz. Fotoğraf perdenin tipini ve kumaşını, yaklaşık en-boy ölçüsü ise işlenecek yüzeyi anlamamızı sağlar. Bu iki bilgiyle sürprizsiz bir ön değerlendirme yapabiliriz. WhatsApp'tan perdenizin fotoğrafını ve ölçüsünü göndermeniz yeterlidir."
 ---
 
-Perde yıkama fiyatı sorulduğunda tek bir rakam vermek mümkün değildir; çünkü ince bir mutfak tülü ile tavandan yere inen kalın bir salon fon perdesi tamamen farklı işlemler gerektirir. Fiyat, her perdeye özel olarak belirlenir. 2000 yılından bu yana, 25 yılı aşkın deneyimimizle İstanbul Anadolu Yakası'nda perde temizleme hizmeti veriyoruz. Bu yazıda hem fiyatı belirleyen faktörleri hem de perde yıkama sürecinin nasıl işlediğini adım adım açıklıyoruz; amacımız rakam uydurmak değil, "neye göre değiştiğini" net biçimde göstermek.
+Perde yıkama fiyatı sorulduğunda tek bir rakam vermek mümkün değildir; çünkü ince bir mutfak tülü ile tavandan yere inen kalın bir salon fon perdesi tamamen farklı işlemler gerektirir. Fiyat, her perdeye özel olarak belirlenir. 2000 yılından bu yana, çeyrek asrı aşkın deneyimimizle İstanbul Anadolu Yakası'nda perde temizleme hizmeti veriyoruz. Bu yazıda hem fiyatı belirleyen faktörleri hem de perde yıkama sürecinin nasıl işlediğini adım adım açıklıyoruz; amacımız rakam uydurmak değil, "neye göre değiştiğini" net biçimde göstermek.
 
 ## Perde Yıkama Fiyatı Neye Göre Belirlenir?
 

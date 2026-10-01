@@ -94,7 +94,7 @@ Beş sembol grubunu hatırlamanın en pratik yolu şekilleri işlevle eşleştir
 
 ## Etiket okunmuyorsa ne yapmalı?
 
-Etiket silinmiş, kesilmiş veya sembolleri anlaşılmıyorsa en güvenli yol kumaş cinsine göre uzman kararı almaktır. 2000 yılından bu yana 25 yılı aşkın deneyimimizle Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye başta olmak üzere İstanbul Anadolu Yakası'nda hassas giysilerin doğru yöntemle temizlenmesini sağlıyoruz. Kıyafetinizi **ücretsiz kapıdan alım-teslimat** ile kapınızdan alıyor, temizleyip size geri getiriyoruz. Fiyatları görmek için [fiyat sayfamızı](/fiyatlar/) inceleyebilir, dilerseniz ürünün fotoğrafını WhatsApp üzerinden gönderip net bilgi alabilirsiniz.
+Etiket silinmiş, kesilmiş veya sembolleri anlaşılmıyorsa en güvenli yol kumaş cinsine göre uzman kararı almaktır. 2000 yılından bu yana çeyrek asrı aşkın deneyimimizle Kadıköy, Ataşehir, Üsküdar, Maltepe, Kartal, Pendik ve Ümraniye başta olmak üzere İstanbul Anadolu Yakası'nda hassas giysilerin doğru yöntemle temizlenmesini sağlıyoruz. Kıyafetinizi **ücretsiz kapıdan alım-teslimat** ile kapınızdan alıyor, temizleyip size geri getiriyoruz. Fiyatları görmek için [fiyat sayfamızı](/fiyatlar/) inceleyebilir, dilerseniz ürünün fotoğrafını WhatsApp üzerinden gönderip net bilgi alabilirsiniz.
 
 Etiketteki sembolleri çözmek zor değil; ama tereddüt ettiğiniz her ürünü profesyonele bırakmak, o kıyafeti yıllarca kullanmanın en akıllı yoludur.
 

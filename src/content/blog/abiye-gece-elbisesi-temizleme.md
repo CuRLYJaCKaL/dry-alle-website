@@ -24,7 +24,7 @@ faq:
     answer: "Temizlenmiş abiyeyi nefes alan bez kılıf içinde, geniş omuzlu bir askıda saklayın. Ağır payetli modelleri askıda değil, asitsiz kağıtla katlanarak kutuda tutmak omuz ve dikişlerin bozulmasını önler. Naylon poşet nem tutar ve sararmaya yol açar; kesinlikle kullanmayın."
 ---
 
-Abiye ve gece elbiseleri, gardırobun en değerli ve en hassas parçalarıdır. Bir düğün, nişan, mezuniyet ya da özel bir davet için seçtiğiniz elbise; payet, pul, boncuk, tül, şifon ve saten gibi birbirinden farklı yapıda malzemeleri tek bir parçada birleştirir. Bu da temizliği sıradan bir gömlek ya da pantolondan tamamen ayrı bir uzmanlık haline getirir. 2000 yılından bu yana, 25 yılı aşkın deneyimimizle İstanbul Anadolu Yakası'nda bu özel parçaların bakımını üstleniyoruz.
+Abiye ve gece elbiseleri, gardırobun en değerli ve en hassas parçalarıdır. Bir düğün, nişan, mezuniyet ya da özel bir davet için seçtiğiniz elbise; payet, pul, boncuk, tül, şifon ve saten gibi birbirinden farklı yapıda malzemeleri tek bir parçada birleştirir. Bu da temizliği sıradan bir gömlek ya da pantolondan tamamen ayrı bir uzmanlık haline getirir. 2000 yılından bu yana, çeyrek asrı aşkın deneyimimizle İstanbul Anadolu Yakası'nda bu özel parçaların bakımını üstleniyoruz.
 
 ## Payet, Pul ve Boncuk İşlemede Hassasiyet
 
