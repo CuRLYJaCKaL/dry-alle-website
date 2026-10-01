@@ -109,46 +109,57 @@ const canonicalPath = isDistrict
   ? `/bolge/${district.districtSlug}/`
   : `/bolge/${district.districtSlug}/${neighborhood!.slug}/`;
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": `${businessName} - ${locationName}`,
-  "description": description,
+// ── Bolgeye ozgu yapisal veri ──
+// Onceki surumde burada bir LocalBusiness nesnesi uretiliyordu ama BaseLayout'a
+// HIC VERILMIYORDU (olu kod): 110 bolge sayfasi yere ozgu hicbir sema
+// yayinlamiyordu. Oldugu gibi baglamak da yanlis olurdu — her mahalle icin
+// dukkanin sokak adresiyle farkli addressLocality yazip olmayan subeler ima
+// ediyordu. Dogru modelleme: tek isletme (provider) + yere ozgu Service.
+// Gorunur metne hicbir sey eklenmez: bolge sayfalari birbirine zaten %97
+// benziyor, bu yuzden kazanc yalnizca makine tarafinda aranir.
+const bolgeYer: Record<string, unknown> = isDistrict
+  ? { "@type": "Place", "name": `${district.district}, ${district.city}`,
+      "containsPlace": district.neighborhoods.map((n) => ({ "@type": "Place", "name": `${n.name}, ${district.district}` })) }
+  : { "@type": "Place", "name": `${neighborhood!.name}, ${district.district}, ${district.city}`,
+      "containedInPlace": { "@type": "Place", "name": `${district.district}, ${district.city}` } };
+
+// Fiyat tabani: birincil hizmet turunun en dusuk urun fiyati (config'den turetilir).
+const bolgePricing = (config as Record<string, any>).pricing ?? {};
+const bolgeBirincilTur = bolgePricing.serviceTypes?.[0]?.id;
+const bolgeTabanFiyat: number | null = (() => {
+  const f = (bolgePricing.products ?? [])
+    .flatMap((u: any) => u.services ?? [])
+    .filter((x: any) => (!bolgeBirincilTur || x.type === bolgeBirincilTur) && typeof x.price === 'number')
+    .map((x: any) => x.price as number);
+  return f.length ? Math.min(...f) : null;
+})();
+
+const bolgeServiceSchema: Record<string, unknown> = {
+  "@type": "Service",
+  "name": `${locationName} ${sectorLabel}`,
+  "serviceType": sectorLabel,
+  "description": regionSeoDescription,
   "url": `https://${config.contact.domain}${canonicalPath}`,
-  "telephone": config.contact.phone,
-  "email": config.contact.email,
-  "image": `https://${config.contact.domain}/images/logo.png`,
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": config.contact.address.street,
-    "addressLocality": locationName,
-    "addressRegion": district.city,
-    "postalCode": config.contact.address.postalCode,
-    "addressCountry": "TR"
-  },
-  "openingHoursSpecification": config.openingHours.specifications.map((spec) => ({
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": spec.days,
-    "opens": spec.opens,
-    "closes": spec.closes
-  })),
-  "areaServed": {
-    "@type": "Place",
-    "name": locationName
-  },
-  ...(Object.values(config.contact.socialLinks || {}).filter(Boolean).length > 0 ? { "sameAs": Object.values(config.contact.socialLinks).filter(Boolean) } : {}),
+  "provider": { "@id": `https://${config.contact.domain}/#business` },
+  "areaServed": bolgeYer,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": `${sectorLabel} Hizmetleri`,
-    "itemListElement": config.services.map(service => ({
+    "name": `${locationName} ${sectorLabel} hizmetleri`,
+    "itemListElement": config.services.map((s) => ({
       "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": service.name,
-        "description": service.description
-      }
-    }))
-  }
+      "itemOffered": { "@type": "Service", "name": `${locationName} ${s.name}`, "description": s.description },
+    })),
+  },
+  ...(bolgeTabanFiyat !== null ? {
+    "offers": {
+      "@type": "Offer",
+      "price": bolgeTabanFiyat,
+      "priceCurrency": "TRY",
+      "availability": "https://schema.org/InStock",
+      "url": `https://${config.contact.domain}${canonicalPath}`,
+      "areaServed": bolgeYer,
+    },
+  } : {}),
 };
 
 const services = config.services;
@@ -248,7 +259,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
   description={isServicePage ? svcDescription : regionSeoDescription}
   canonicalPath={isServicePage ? svcCanonical : canonicalPath}
   ogImage={isServicePage && service ? `/images/services/${service.slug}.webp` : undefined}
-  jsonLd={isServicePage ? svcSchemas : (regionFaqSchema ? [regionFaqSchema] : undefined)}
+  jsonLd={isServicePage ? svcSchemas : [bolgeServiceSchema, ...(regionFaqSchema ? [regionFaqSchema] : [])]}
   breadcrumbs={isServicePage ? svcBreadcrumbs : (isDistrict
     ? [
         { name: 'Ana Sayfa', url: '/' },
