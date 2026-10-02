@@ -20,42 +20,51 @@ function donemler(bugun = new Date()) {
   const bas = new Date(bit); bas.setUTCDate(bit.getUTCDate() - 6);                   // gecen pazartesi
   const oncekiBit = new Date(bas); oncekiBit.setUTCDate(bas.getUTCDate() - 1);
   const oncekiBas = new Date(oncekiBit); oncekiBas.setUTCDate(oncekiBit.getUTCDate() - 6);
+  // "Gecen ayin ayni haftasi" = tam 28 gun oncesi. Takvim ayi degil 4 hafta geri
+  // gidilir; boylece Pzt-Paz hizasi birebir korunur. Takvim ayi kullanilsaydi
+  // ornegin cumartesi-pazara denk gelen bir pencereyle kiyaslanir, hafta sonu
+  // etkisi farki kirletirdi.
+  const gecenAyBas = new Date(bas); gecenAyBas.setUTCDate(bas.getUTCDate() - 28);
+  const gecenAyBit = new Date(bit); gecenAyBit.setUTCDate(bit.getUTCDate() - 28);
   const ayBasi = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), 1));
   const aylikZamani = d.getUTCDate() <= 7;
-  const gecenAyBas = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() - 1, 1));
-  const gecenAyBit = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), 0));
+  const ayTamBas = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() - 1, 1));
+  const ayTamBit = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), 0));
   const oncekiAyBas = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() - 2, 1));
   const oncekiAyBit = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() - 1, 0));
   return { bas, bit, oncekiBas, oncekiBit, ayBasi, bugun: d, aylikZamani,
-           gecenAyBas, gecenAyBit, oncekiAyBas, oncekiAyBit };
+           gecenAyBas, gecenAyBit, ayTamBas, ayTamBit, oncekiAyBas, oncekiAyBit };
 }
 
 const p = donemler();
 const sonuc = {
   donem: { bas: p.bas, bit: p.bit },
+  gecenAyDonem: { bas: p.gecenAyBas, bit: p.gecenAyBit },
   onizleme: kuru,
-  ayAdi: p.gecenAyBas.toLocaleDateString('tr-TR', { month: 'long', year: 'numeric' }),
+  ayAdi: p.ayTamBas.toLocaleDateString('tr-TR', { month: 'long', year: 'numeric' }),
 };
 
 try {
-  [sonuc.bu, sonuc.gecen, sonuc.ayBasi, sonuc.gunler, sonuc.sayfalar] = await Promise.all([
+  [sonuc.bu, sonuc.gecen, sonuc.gecenAy, sonuc.ayBasi, sonuc.gunler, sonuc.sayfalar] = await Promise.all([
     donemOzeti(iso(p.bas), iso(p.bit)),
     donemOzeti(iso(p.oncekiBas), iso(p.oncekiBit)),
+    donemOzeti(iso(p.gecenAyBas), iso(p.gecenAyBit)),
     donemOzeti(iso(p.ayBasi), iso(p.bugun)),
     gunlukTemas(iso(p.bas), iso(p.bit)),
     enIyiSayfalar(iso(p.bas), iso(p.bit)),
   ]);
   // Search Console verisi ~2 gun gecikmeli gelir; alinamazsa rapor yine gonderilir.
   try {
-    [sonuc.arama, sonuc.oncekiArama] = await Promise.all([
+    [sonuc.arama, sonuc.oncekiArama, sonuc.gecenAyArama] = await Promise.all([
       aramaOzeti(iso(p.bas), iso(p.bit)),
       aramaOzeti(iso(p.oncekiBas), iso(p.oncekiBit)),
+      aramaOzeti(iso(p.gecenAyBas), iso(p.gecenAyBit)),
     ]);
   } catch (e) { console.error('[rapor] Search Console alinamadi, atlandi:', e.message); }
 
   if (p.aylikZamani) {
     [sonuc.ay, sonuc.oncekiAy] = await Promise.all([
-      donemOzeti(iso(p.gecenAyBas), iso(p.gecenAyBit)),
+      donemOzeti(iso(p.ayTamBas), iso(p.ayTamBit)),
       donemOzeti(iso(p.oncekiAyBas), iso(p.oncekiAyBit)),
     ]);
   }
