@@ -34,6 +34,23 @@ const govde = {
   urlList: urls.slice(0, 10000),
 };
 
+// Anahtar dosyasi CANLI mi? IndexNow once onu dogrular; yayinlanmadan gonderirsek
+// 403 doner. GitHub Pages yayini birkac dakika surdugu icin erisilene kadar bekle.
+const anahtarUrl = `https://${host}/${anahtarDosya}`;
+let hazir = false;
+for (let deneme = 1; deneme <= 10; deneme++) {
+  try {
+    const k = await fetch(anahtarUrl, { cache: 'no-store' });
+    if (k.ok && (await k.text()).trim() === key) { hazir = true; break; }
+  } catch {}
+  console.log(`[indexnow] anahtar dosyasi henuz yayinda degil (${deneme}/10), 30 sn bekleniyor...`);
+  await new Promise((r) => setTimeout(r, 30000));
+}
+if (!hazir) {
+  console.error(`[indexnow] ATLANDI: ${anahtarUrl} 5 dakikada yayina girmedi. Yayin etkilenmedi.`);
+  process.exit(0);
+}
+
 const res = await fetch('https://api.indexnow.org/IndexNow', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json; charset=utf-8' },

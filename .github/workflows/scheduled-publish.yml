@@ -55,6 +55,4 @@ jobs:
       - name: IndexNow bildirimi (Bing + Yandex)
         if: github.event_name == 'push'
         continue-on-error: true
-        run: |
-          sleep 90
-          npm run indexnow
+        run: npm run indexnow
