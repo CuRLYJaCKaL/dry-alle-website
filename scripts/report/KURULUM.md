@@ -1,64 +1,68 @@
 # Haftalık rapor e-postası — kurulum
 
 Rapor her pazartesi 08:00'de (İstanbul) GitHub Actions üzerinden gönderilir.
-Kod hazır ve test edildi; aşağıdaki üç adım tamamlanınca çalışır.
 
-## Mevcut durum (2 Ekim 2026'da test edildi)
+## Durum (2 Ekim 2026)
 
-Elinde zaten bir Google servis hesabı var:
+Google tarafı **tamamlandı ve canlı veriyle doğrulandı**. Geriye tek adım kaldı: Resend.
+
+### Kullanılan servis hesabı
 
 - Dosya: `~/Downloads/dark-runway-462917-n2-dabd325d6ce3.json`
 - Hesap: `sporcutakvimi-gsc-reader@dark-runway-462917-n2.iam.gserviceaccount.com`
 - GCP projesi: `dark-runway-462917-n2`
 
-Test sonucu:
+Hesabın adı eski bir projeden geliyor; **veri karışmaz**. Rapor yalnızca iki kaynağı
+sorgular, ikisi de DryAlle'ye aittir ve kodda sabittir:
+GA4 mülkü `548056288` ve GSC mülkü `https://dryallekurutemizleme.com/`.
+Başka hiçbir mülk okunmaz.
 
 | Kontrol | Durum |
 |---|---|
 | Anahtar geçerli, token alınıyor | ✅ |
+| Analytics Data API etkin | ✅ |
+| GA4 — DryAlle mülkü (Görüntüleyici) | ✅ |
 | Search Console API etkin | ✅ |
-| GSC — `sc-domain:sporcutakvimi.com` erişimi | ✅ |
-| GSC — DryAlle mülkü erişimi | ❌ paylaşılmamış |
-| Analytics Data API etkin | ❌ bu projede hiç açılmamış |
+| GSC — DryAlle mülkü (Tam) | ✅ |
+| Canlı veriyle rapor üretimi | ✅ |
 
-## Yapılacaklar
-
-### 1. Analytics Data API'yi etkinleştir
-https://console.cloud.google.com/apis/library/analyticsdata.googleapis.com?project=dark-runway-462917-n2
-→ **Etkinleştir**. (Ücretsiz, kota fazlasıyla yeter.)
-
-### 2. Servis hesabını iki mülke ekle
-
-Yukarıdaki `...gserviceaccount.com` adresini şuralara ekle:
-
-- **GA4:** Yönetici → Mülk erişim yönetimi → `+` → rol **Görüntüleyici**
-- **Search Console:** (DryAlle mülkü) Ayarlar → Kullanıcılar ve izinler → Kullanıcı ekle → izin **Tam**
-
-### 3. Resend hesabı ve GitHub secret'ları
-
-Resend'de alan adı doğrulanmadığında gönderici `onboarding@resend.dev` olur ve
-**yalnızca Resend hesabının sahibi olan e-posta adresine** gönderim yapılabilir.
-Bu yüzden Resend'e, raporu almak istediğin adresle kaydol.
-
-GitHub → Settings → Secrets and variables → Actions → **Secrets**:
+### Repo değişkenleri (yazıldı)
 
 | Ad | Değer |
 |---|---|
-| `GOOGLE_SERVICE_ACCOUNT_JSON` | JSON dosyasının tamamı |
-| `RESEND_API_KEY` | Resend API anahtarı |
-| `REPORT_TO` | raporun gideceği adres (virgülle birden fazla) |
-
-**Variables** (zorunlu değil, varsayılanlar doğru):
-
-| Ad | Varsayılan |
-|---|---|
-| `REPORT_FROM` | `DryAlle Rapor <rapor@dryallekurutemizleme.com>` — alan adı doğrulanmadıysa `onboarding@resend.dev` yaz |
 | `GA4_PROPERTY_ID` | `548056288` |
 | `GSC_SITE_URL` | `https://dryallekurutemizleme.com/` |
+| `REPORT_FROM` | `DryAlle Rapor <onboarding@resend.dev>` |
+
+## Kalan adımlar
+
+### 1. GOOGLE_SERVICE_ACCOUNT_JSON secret'ı
+
+Terminalde:
+
+```bash
+cd ~/Documents/Projeler/DryAlleAstro
+gh secret set GOOGLE_SERVICE_ACCOUNT_JSON < ~/Downloads/dark-runway-462917-n2-dabd325d6ce3.json
+```
+
+### 2. Resend
+
+Alan adı doğrulanmadığında gönderici `onboarding@resend.dev` olur ve
+**yalnızca Resend hesabının sahibi olan adrese** gönderim yapılabilir.
+Hesap `asdcjb` olduğundan rapor `asdcjb@gmail.com` adresine gider.
+
+https://resend.com/api-keys → **Create API Key** (izin: *Sending access* yeterli), sonra:
+
+```bash
+gh secret set RESEND_API_KEY --body "re_..."
+gh secret set REPORT_TO --body "asdcjb@gmail.com"
+```
+
+Başka adreslere de göndermek için alan adını doğrulamak gerekir
+(Resend → Domains → `dryallekurutemizleme.com` → DNS kayıtları).
 
 ## Test
 
-Secret'lar girilince beklemeden dene:
 GitHub → Actions → **Haftalik performans raporu** → Run workflow.
 
 Yerelde tasarımı görmek için (hiçbir şey göndermez):
