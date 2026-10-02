@@ -39,7 +39,10 @@ const seoTokens = {
 };
 
 // Hizmet-basina ozel SEO override (GSC fine-tune) — yoksa sablon.
-const svcOverride = service as { seoTitle?: string; seoDescription?: string; faq?: Array<{ question: string; answer: string }> };
+const svcOverride = service as { seoTitle?: string; seoDescription?: string; h1?: string; faq?: Array<{ question: string; answer: string }> };
+// Sayfa H1'i hizmet adindan AYRI olabilir: menude kisa ad isterken basligin
+// arama diliyle ortusmesi gerekebiliyor (GSC: 'kiyafet boyama' kumesi).
+const sayfaH1 = svcOverride.h1 ?? service.name;
 // Override'lar da interpolate'ten gecer: {currentYear}/{experienceYears} cozulsun.
 const title = interpolate(svcOverride.seoTitle || config.seoTemplates.serviceTitle, seoTokens);
 const description = interpolate(svcOverride.seoDescription || config.seoTemplates.serviceDescription, seoTokens);
@@ -241,7 +244,7 @@ const relatedPosts = [...curatedPosts, ...taggedPosts]
           </span>
 
           <h1 class="text-hero font-bold mb-6 leading-tight">
-            {service.name}
+            {sayfaH1}
           </h1>
 
           <p class="text-lg sm:text-xl text-white/80 max-w-2xl mb-10 leading-relaxed">

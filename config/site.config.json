@@ -412,8 +412,17 @@
         {
           "question": "Boyama fiyatları nasıl belirlenir?",
           "answer": "Fiyat; ürünün cinsi (kumaş/deri), boyutu ve boyama işleminin kapsamına göre belirlenir. Güncel bilgiye fiyatlar sayfamızdan ulaşabilir, net fiyat için ürününüzün fotoğrafını WhatsApp'tan gönderebilirsiniz."
+        },
+        {
+          "question": "Mont boyama yapan yerler arasında fiyat neden değişiyor?",
+          "answer": "Montun kumaşı, astarı ve mevcut renginin ne kadar solduğu işlemi belirliyor. Deri ve kaz tüyü mont ile klasik kumaş mont farklı yöntem gerektirdiği için fiyat da değişiyor. Montunuzun fotoğrafını WhatsApp'tan gönderin, net fiyatı hemen söyleyelim."
+        },
+        {
+          "question": "Pantolon boyama yapan yerler arıyorum, kot dışında kumaş pantolon da boyanıyor mu?",
+          "answer": "Boyanıyor. Kot pantolonun yanı sıra kumaş ve keten pantolonlarda da renk yenileme yapıyoruz. Kumaşın elyaf türü boyanın tutuşunu belirlediği için önce parçayı inceliyor, sonuç alınamayacak bir durumda baştan söylüyoruz."
         }
-      ]
+      ],
+      "h1": "Kıyafet, Kumaş ve Deri Boyama"
     },
     {
       "name": "Lostra Hizmeti",

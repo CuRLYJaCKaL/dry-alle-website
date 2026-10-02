@@ -47,3 +47,14 @@ jobs:
           keep_files: false
           enable_jekyll: false
           commit_message: 'Otomatik yayin (tarih-kapili icerik guncellemesi)'
+
+      # IndexNow: Bing ve Yandex'e degisiklik bildirimi.
+      # Yalnizca push ile tetiklenen (kaynak degismis) calismalarda; gunluk cron'da
+      # degismeyen URL'leri tekrar bildirmek spam sayilir. Pages yayini birkac
+      # dakika surdugu icin once kisa bekleme. Hata yayin akisini DURDURMAZ.
+      - name: IndexNow bildirimi (Bing + Yandex)
+        if: github.event_name == 'push'
+        continue-on-error: true
+        run: |
+          sleep 90
+          npm run indexnow

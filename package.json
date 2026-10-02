@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build && node scripts/generate-redirects.mjs && node scripts/generate-redirect-stubs.mjs && node scripts/generate-llms-txt.mjs && node scripts/verify-migration.mjs && node scripts/verify-contact.mjs && node scripts/verify-seo.mjs",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "indexnow": "node scripts/ping-indexnow.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",
