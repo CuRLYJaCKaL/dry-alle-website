@@ -1,6 +1,6 @@
 ---
 import config from '../../config/site.config.json';
-import { interpolate } from '../utils/engine';
+import { interpolate, whatsappLink } from '../utils/engine';
 
 const neighborhoodCount = config.serviceAreas.reduce(
   (sum: number, area: { neighborhoods: unknown[] }) => sum + area.neighborhoods.length, 0
@@ -12,7 +12,7 @@ const { phone, phoneDisplay, email, address, whatsapp } = config.contact;
 
 const phoneClean = phone.replace(/\s/g, '');
 const whatsappClean = whatsapp.replace(/[\s+]/g, '');
-const whatsappUrl = `https://wa.me/${whatsappClean}`;
+const whatsappUrl = whatsappLink('generic');
 const fullAddress = `${address.street}, ${address.province}, ${address.city}`;
 
 const quickLinks = [

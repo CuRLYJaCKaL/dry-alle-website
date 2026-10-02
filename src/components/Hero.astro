@@ -1,6 +1,6 @@
 ---
 import config from '../../config/site.config.json';
-import { interpolate } from '../utils/engine';
+import { interpolate, whatsappLink } from '../utils/engine';
 
 const { businessName, tagline } = config.identity;
 const { whatsapp, phoneDisplay, phone } = config.contact;
@@ -8,7 +8,7 @@ const { primaryCTA, secondaryCTA } = config.conversionTokens;
 const { googleRating, reviewCount } = config.socialProof;
 
 const whatsappClean = whatsapp.replace(/[\s+]/g, '');
-const whatsappUrl = `https://wa.me/${whatsappClean}`;
+const whatsappUrl = whatsappLink('generic');
 const phoneClean = phone.replace(/\s/g, '');
 ---
 

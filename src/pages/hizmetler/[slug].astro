@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import FAQ from '../../components/FAQ.astro';
 import Contact from '../../components/Contact.astro';
 import config from '../../../config/site.config.json';
-import { interpolate } from '../../utils/engine';
+import { interpolate, whatsappLink } from '../../utils/engine';
 import { getCollection } from 'astro:content';
 
 export function getStaticPaths() {
@@ -145,7 +145,7 @@ const serviceHasAnyCombo = serviceComboKeys.size > 0;
 const { googleRating, reviewCount } = config.socialProof;
 const testimonials = config.socialProof.testimonials;
 const whatsappClean = config.contact.whatsapp.replace(/[\s+]/g, '');
-const whatsappUrl = `https://wa.me/${whatsappClean}`;
+const whatsappUrl = whatsappLink('service', { serviceName: service.name });
 // Prose icindeki "fiyatlar sayfamiza" ve "WhatsApp hattimiza" ifadelerini gercek link yapar
 // (ic link + donusum). Once HTML-escape, sonra bilinen ifadelere <a> ekler (guvenli).
 const linkCta = (t: string): string => t
@@ -198,7 +198,7 @@ const relatedPosts = [...curatedPosts, ...taggedPosts]
   .slice(0, 6);
 ---
 
-<BaseLayout title={title} description={description} canonicalPath={canonicalPath} jsonLd={finalJsonLd}>
+<BaseLayout title={title} description={description} canonicalPath={canonicalPath} jsonLd={finalJsonLd} waSablon="service" waTokens={{ serviceName: service.name }}>
 
   <!-- ════════════════════════════════════════════
        HERO
@@ -795,5 +795,5 @@ const relatedPosts = [...curatedPosts, ...taggedPosts]
   ) : (
     <FAQ />
   )}
-  <Contact />
+  <Contact waSablon="service" waTokens={{ serviceName: service.name }} />
 </BaseLayout>

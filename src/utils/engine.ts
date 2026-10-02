@@ -70,6 +70,21 @@ export function interpolate(template: string, tokens: Record<string, string> = {
   return template.replace(/\{(\w+)\}/g, (_, key) => tumu[key] ?? '');
 }
 
+/**
+ * WhatsApp linki — her zaman hazir metinle.
+ * Amac: 7474 numarasina dusen mesajdan isletme sahibi (a) talebin SITEDEN
+ * geldigini, (b) HANGI sayfadan geldigini anlasin. Metin musteriye gosterilir
+ * ve duzenlenebilir, bu yuzden robot gibi degil insan gibi yazilir.
+ * Sablonlar config'de (profile), kurgu burada (core).
+ */
+export function whatsappLink(sablon: string = 'generic', tokens: Record<string, string> = {}): string {
+  const numara = config.contact.whatsapp.replace(/[\s+]/g, '');
+  const sablonlar = (config as Record<string, any>).conversionTokens?.whatsappTemplates ?? {};
+  const ham = sablonlar[sablon] ?? sablonlar.generic;
+  if (!ham) return `https://wa.me/${numara}`;
+  return `https://wa.me/${numara}?text=${encodeURIComponent(interpolate(ham, tokens))}`;
+}
+
 // ─── Deterministic Variant Selection ───
 
 /** Bolge sayfalari icin deterministic variant secimi — ayni slug her zaman ayni varyanti dondurur */

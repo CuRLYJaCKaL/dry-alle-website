@@ -1,12 +1,18 @@
 ---
 import config from '../../config/site.config.json';
+import { whatsappLink } from '../utils/engine';
 
 const { phone, phoneDisplay, email, whatsapp, address, geo } = config.contact;
 const { businessName } = config.identity;
 
 const phoneClean = phone.replace(/\s/g, '');
 const whatsappClean = whatsapp.replace(/[\s+]/g, '');
-const whatsappUrl = `https://wa.me/${whatsappClean}`;
+interface Props {
+  waSablon?: string;
+  waTokens?: Record<string, string>;
+}
+const { waSablon = 'generic', waTokens = {} } = Astro.props;
+const whatsappUrl = whatsappLink(waSablon, waTokens);
 const fullAddress = `${address.street}, ${address.province}, ${address.city}`;
 ---
 

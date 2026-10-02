@@ -1,9 +1,16 @@
 ---
 import config from '../../config/site.config.json';
 
-const { whatsapp } = config.contact;
-const whatsappClean = whatsapp.replace(/[\s+]/g, '');
-const whatsappUrl = `https://wa.me/${whatsappClean}`;
+import { whatsappLink } from '../utils/engine';
+
+// Sabit balon her sayfada ayni bilesen; sayfa baglamini BaseLayout props olarak
+// geciyor. Gecilmezse genel mesaj kullanilir.
+interface Props {
+  waSablon?: string;
+  waTokens?: Record<string, string>;
+}
+const { waSablon = 'generic', waTokens = {} } = Astro.props;
+const whatsappUrl = whatsappLink(waSablon, waTokens);
 ---
 
 <div class="fixed bottom-6 right-6 z-40" id="whatsapp-cta">

@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Contact from '../../components/Contact.astro';
 import FAQ from '../../components/FAQ.astro';
 import config from '../../../config/site.config.json';
-import { interpolate, deterministicIndex } from '../../utils/engine';
+import { interpolate, deterministicIndex, whatsappLink } from '../../utils/engine';
 
 export function getStaticPaths() {
   const paths: { params: { slug: string }; props: Record<string, unknown> }[] = [];
@@ -169,7 +169,6 @@ const otherNeighborhoods = district.neighborhoods.filter(
 
 const valuePropositions = config.contentTokens.valuePropositions;
 const whatsappClean = config.contact.whatsapp.replace(/[\s+]/g, '');
-const whatsappUrl = `https://wa.me/${whatsappClean}`;
 // Prose CTA linkify: "fiyatlar sayfamiza" + "WhatsApp hattimiza" -> gercek link (ic link + donusum).
 const linkCta = (t: string): string => t
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -201,6 +200,9 @@ const priceHighlights = ((config.pricing?.products ?? []) as Array<{ name: strin
 const isServicePage = ((Astro.props as Record<string, unknown>).isServicePage as boolean) ?? false;
 const service = (Astro.props as Record<string, unknown>).service as { name: string; slug: string; description: string } | undefined;
 const pageEntry = (Astro.props as Record<string, unknown>).pageEntry as { intro: string; bodyParagraphs: string[]; faq: Array<{ question: string; answer: string }> } | undefined;
+const whatsappUrl = isServicePage && service
+  ? whatsappLink('regionService', { location: locationName, serviceName: service.name })
+  : whatsappLink('region', { location: locationName });
 const st = config.seoTemplates as Record<string, string>;
 let svcTitle = title, svcDescription = description, svcH1 = '', svcCanonical = canonicalPath;
 let svcSchemas: Array<Record<string, unknown>> = [];
@@ -255,6 +257,8 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
 ---
 
 <BaseLayout
+  waSablon={isServicePage && service ? 'regionService' : 'region'}
+  waTokens={isServicePage && service ? { location: locationName, serviceName: service.name } : { location: locationName }}
   title={isServicePage ? svcTitle : regionSeoTitle}
   description={isServicePage ? svcDescription : regionSeoDescription}
   canonicalPath={isServicePage ? svcCanonical : canonicalPath}
@@ -383,7 +387,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
         </div>
       </section>
 
-      <Contact />
+      <Contact waSablon={isServicePage && service ? 'regionService' : 'region'} waTokens={isServicePage && service ? { location: locationName, serviceName: service.name } : { location: locationName }} />
     </Fragment>
   )}
 
@@ -887,7 +891,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
   )}
 
   <!-- ===================== CONTACT ===================== -->
-  <Contact />
+  <Contact waSablon={isServicePage && service ? 'regionService' : 'region'} waTokens={isServicePage && service ? { location: locationName, serviceName: service.name } : { location: locationName }} />
   </Fragment>
   )}
 

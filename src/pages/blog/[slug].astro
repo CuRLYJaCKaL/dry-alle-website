@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { whatsappLink } from '../../utils/engine';
 import config from '../../../config/site.config.json';
 import { getCollection } from 'astro:content';
 
@@ -256,7 +257,7 @@ const finalJsonLd = faqSchema ? [jsonLd, faqSchema] : jsonLd;
               {config.contact.phoneDisplay}
             </a>
             <a
-              href={`https://wa.me/${config.contact.whatsapp.replace(/[\s+]/g, '')}`}
+              href={whatsappLink('blog')}
               target="_blank"
               rel="noopener noreferrer"
               class="btn-whatsapp"

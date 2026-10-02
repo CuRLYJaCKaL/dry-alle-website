@@ -1,5 +1,6 @@
 ---
 import config from '../../config/site.config.json';
+import { whatsappLink } from '../utils/engine';
 
 const { businessName } = config.identity;
 const whatsappNumber = config.contact.whatsapp.replace('+', '');
@@ -97,7 +98,7 @@ const offerCatalogJsonLd = {
 
     <div class="text-center mt-8">
       <a
-        href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent('Merhaba, fiyat listesinde olmayan bir ürün için fiyat bilgisi almak istiyorum.')}`}
+        href={whatsappLink('quote')}
         target="_blank"
         rel="noopener noreferrer"
         class="btn-whatsapp !text-sm !rounded-xl !px-5 !py-3 gap-2 shadow-md hover:shadow-lg"

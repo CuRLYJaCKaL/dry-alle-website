@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { whatsappLink } from '../../utils/engine';
 import config from '../../../config/site.config.json';
 import { interpolate } from '../../utils/engine';
 
@@ -202,6 +203,7 @@ const finalJsonLd = jsonLd ? [jsonLd, faqSchema] : faqSchema;
 ---
 
 <BaseLayout
+  waSablon="pricing"
   title={title}
   description={description}
   canonicalPath={canonicalPath}
@@ -258,7 +260,7 @@ const finalJsonLd = jsonLd ? [jsonLd, faqSchema] : faqSchema;
             Güncel fiyat bilgisi için bize WhatsApp üzerinden yazabilir veya telefonla ulaşabilirsiniz.
           </p>
           <a
-            href={`https://wa.me/${whatsappClean}?text=${encodeURIComponent('Merhaba, fiyat bilgisi almak istiyorum.')}`}
+            href={whatsappLink('pricing')}
             target="_blank"
             rel="noopener noreferrer"
             class="btn-whatsapp !text-sm !rounded-xl !px-5 !py-3 gap-2"
@@ -418,7 +420,7 @@ const finalJsonLd = jsonLd ? [jsonLd, faqSchema] : faqSchema;
                     </ul>
 
                     <a
-                      href={`https://wa.me/${whatsappClean}?text=${encodeURIComponent(`Merhaba, ${product.name} için fiyat bilgisi almak istiyorum.`)}`}
+                      href={whatsappLink('product', { productName: urunAdi(product.name) })}
                       target="_blank"
                       rel="noopener noreferrer"
                       class="mt-auto inline-flex items-center justify-center gap-2 min-h-[44px] rounded-xl border border-accent/30 text-primary text-sm font-semibold hover:bg-accent hover:text-white hover:border-accent transition-colors"
@@ -453,7 +455,7 @@ const finalJsonLd = jsonLd ? [jsonLd, faqSchema] : faqSchema;
           {/* Alt bilgi + genel WhatsApp CTA */}
           <div class="text-center mt-10">
             <a
-              href={`https://wa.me/${whatsappClean}?text=${encodeURIComponent('Merhaba, fiyat listesinde olmayan bir ürün için fiyat bilgisi almak istiyorum.')}`}
+              href={whatsappLink('quote')}
               target="_blank"
               rel="noopener noreferrer"
               class="btn-whatsapp !text-sm !rounded-xl !px-5 !py-3 gap-2 shadow-md hover:shadow-lg"
@@ -479,7 +481,7 @@ const finalJsonLd = jsonLd ? [jsonLd, faqSchema] : faqSchema;
       <p class="text-text-primary leading-relaxed mb-8">
         Halı yıkama <strong>metrekare</strong>; koltuk, perde ve yorgan ise <strong>parça</strong> üzerinden fiyatlanır. Aşağıdaki güncel
         {` ${washingYear} `}fiyat listesine ücretsiz kapıdan alım-teslimat dahildir. Kirlilik ve ölçüye göre net fiyat için
-        <a href={`https://wa.me/${whatsappClean}`} target="_blank" rel="noopener noreferrer" class="text-primary font-semibold underline"> WhatsApp'tan fotoğraf gönderin</a>.
+        <a href={whatsappLink('pricing')} target="_blank" rel="noopener noreferrer" class="text-primary font-semibold underline"> WhatsApp'tan fotoğraf gönderin</a>.
       </p>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {Object.entries(servicePriceTables).map(([slug, tbl]) => (

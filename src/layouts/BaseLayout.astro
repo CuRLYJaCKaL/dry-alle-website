@@ -17,6 +17,9 @@ interface Props {
   breadcrumbs?: { name: string; url: string }[];
   ogType?: string;
   articleMeta?: { publishedTime?: string; modifiedTime?: string; author?: string };
+  // Sabit WhatsApp balonunun mesaj baglami (sayfa kendi baglamini gecer)
+  waSablon?: string;
+  waTokens?: Record<string, string>;
 }
 
 const { title, description, canonicalPath = '', jsonLd, ogImage, breadcrumbs, ogType, articleMeta } = Astro.props;
@@ -197,6 +200,6 @@ const ga4Id: string | undefined = config.analytics?.ga4Id;
       <slot />
     </main>
     <Footer />
-    <WhatsAppCTA />
+    <WhatsAppCTA waSablon={Astro.props.waSablon} waTokens={Astro.props.waTokens} />
   </body>
 </html>

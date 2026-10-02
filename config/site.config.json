@@ -1667,7 +1667,18 @@
   "conversionTokens": {
     "primaryCTA": "Hemen Randevu Alın",
     "secondaryCTA": "WhatsApp ile Yazın",
-    "ctaPhone": "Hemen Arayın"
+    "ctaPhone": "Hemen Arayın",
+    "whatsappTemplates": {
+      "generic": "Merhaba, web sitenizden yazıyorum. {sectorLabelLower} hizmetiniz hakkında bilgi almak istiyorum.",
+      "service": "Merhaba, web sitenizden yazıyorum. {serviceName} hizmeti için bilgi almak istiyorum.",
+      "region": "Merhaba, web sitenizden yazıyorum. {location} için {sectorLabelLower} hizmetinizi soracaktım.",
+      "regionService": "Merhaba, web sitenizden yazıyorum. {location} {serviceName} için bilgi almak istiyorum.",
+      "pricing": "Merhaba, web sitenizden yazıyorum. Fiyat listenizi inceledim, bilgi almak istiyorum.",
+      "product": "Merhaba, web sitenizden yazıyorum. {productName} için fiyat öğrenmek istiyorum.",
+      "quote": "Merhaba, web sitenizden yazıyorum. Fotoğraf göndereceğim, net fiyat öğrenebilir miyim?",
+      "blog": "Merhaba, web sitenizden yazıyorum. Blog yazınızı okudum, {sectorLabelLower} hakkında bilgi almak istiyorum.",
+      "corporate": "Merhaba, web sitenizden yazıyorum. İşletmem için kurumsal {sectorLabelLower} teklifi almak istiyorum."
+    }
   },
   "pricing": {
     "serviceTypes": [

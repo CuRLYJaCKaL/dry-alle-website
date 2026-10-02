@@ -1,12 +1,13 @@
 ---
 import config from '../../config/site.config.json';
+import { whatsappLink } from '../utils/engine';
 
 const { businessName } = config.identity;
 const { phone, phoneDisplay, whatsapp } = config.contact;
 
 const phoneClean = phone.replace(/\s/g, '');
 const whatsappClean = whatsapp.replace(/[\s+]/g, '');
-const whatsappUrl = `https://wa.me/${whatsappClean}`;
+const whatsappUrl = whatsappLink('generic');
 
 /* Desktop nav — "Ana Sayfa" omitted (logo handles it) */
 const desktopNavLinks = [

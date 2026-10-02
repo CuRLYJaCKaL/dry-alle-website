@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import FAQ from '../../components/FAQ.astro';
 import Contact from '../../components/Contact.astro';
 import config from '../../../config/site.config.json';
-import { interpolate } from '../../utils/engine';
+import { interpolate, whatsappLink } from '../../utils/engine';
 
 const businessName = config.identity.businessName;
 const sectorLabel = config.identity.sectorLabel;
@@ -11,7 +11,7 @@ const province = config.contact.address.province;
 const phone = config.contact.phone;
 const phoneClean = phone.replace(/\s/g, '');
 const whatsappClean = config.contact.whatsapp.replace(/[\s+]/g, '');
-const whatsappUrl = `https://wa.me/${whatsappClean}`;
+const whatsappUrl = whatsappLink('generic');
 
 const seoTokens = {
   businessName,
