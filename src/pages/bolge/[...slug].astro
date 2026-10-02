@@ -74,6 +74,7 @@ const locationName = isDistrict ? district.district : neighborhood!.name;
 const primaryKeyword = config.seoTokens.primaryKeywords[0];
 const businessName = config.identity.businessName;
 const sectorLabel = config.identity.sectorLabel;
+const sectorLabelLower = sectorLabel.toLocaleLowerCase('tr-TR');
 
 // Her kelimenin bas harfi buyuk: "kuru temizleme" -> "Kuru Temizleme".
 // Tek harf buyutmek baslikta "Kuru temizleme" gibi yarim yamalak sonuc veriyordu.
@@ -185,11 +186,27 @@ const regionVariants = config.contentTokens.regionVariants as string[];
 const regionSubtitleVariants = config.contentTokens.regionSubtitleVariants as string[];
 const slugForVariant = isDistrict ? district.districtSlug : `${district.districtSlug}/${neighborhood!.slug}`;
 const variantIdx = deterministicIndex(slugForVariant, regionVariants.length);
+
 const heroText = interpolate(regionVariants[variantIdx], seoTokens);
 const whySubtitle = interpolate(regionSubtitleVariants[variantIdx], seoTokens);
 
 // Gercek kuru temizleme fiyat vitrini (config.pricing'den — uydurma yok, /fiyatlar/ ile ayni).
 const priceYear = new Date().getFullYear();
+// Fiyat sayfasina giden ic linklerin capa metni.
+// Veri: "kuru temizleme fiyatlari" sorgusu 28 gunde 690 gosterim aliyor ama
+// /fiyatlar/ 12. sirada ve tek tik getiriyor. Bu sayfaya giden 207 ic linkin
+// capasi ise neredeyse tamamen jenerik ("Fiyatlar", "Fiyat Listesi") — yani
+// linkin nereye gittigini anlatan hicbir sinyal yok. Capa metni hem kullaniciya
+// hem arama motoruna sayfanin konusunu soyleyen en dogrudan ic sinyaldir.
+// 110 sayfada AYNI capayi kullanmak manipulatif gorunur; slug'a gore
+// deterministik olarak uc dogal varyanttan biri secilir.
+const fiyatCapalari = [
+  `${locationName} ${sectorLabelLower} fiyatları`,
+  `${sectorLabel} fiyat listesi (${priceYear})`,
+  `Güncel ${sectorLabelLower} fiyatları`,
+];
+const fiyatCapasiIc = fiyatCapalari[deterministicIndex(`${slugForVariant}-fiyat`, fiyatCapalari.length)];
+
 const priceHighlights = ((config.pricing?.products ?? []) as Array<{ name: string; sortOrder?: number; services: Array<{ type: string; price: number; popular?: boolean }> }>)
   .map((p) => ({ name: p.name, sortOrder: p.sortOrder ?? 999, price: p.services.find((s) => s.type === 'kuru-temizleme' && s.popular)?.price }))
   .filter((p): p is { name: string; sortOrder: number; price: number } => typeof p.price === 'number')
@@ -382,7 +399,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
             <a href={`/hizmetler/${service.slug}/`} class="flex items-center gap-3 bg-surface/50 rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/40 hover:bg-white transition-all"><span class="text-sm font-semibold text-primary">{service.name} — Hizmet Detayı</span></a>
             <a href={`/bolge/${district.districtSlug}/`} class="flex items-center gap-3 bg-surface/50 rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/40 hover:bg-white transition-all"><span class="text-sm font-semibold text-primary">{district.district} — Tüm Hizmetler</span></a>
             {neighborhood && (<a href={`/bolge/${district.districtSlug}/${neighborhood.slug}/`} class="flex items-center gap-3 bg-surface/50 rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/40 hover:bg-white transition-all"><span class="text-sm font-semibold text-primary">{neighborhood.name} — Bölge Sayfası</span></a>)}
-            <a href="/fiyatlar/" class="flex items-center gap-3 bg-surface/50 rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/40 hover:bg-white transition-all"><span class="text-sm font-semibold text-primary">Güncel Fiyat Listesi</span></a>
+            <a href="/fiyatlar/" class="flex items-center gap-3 bg-surface/50 rounded-xl px-4 py-3.5 border border-border/60 hover:border-accent/40 hover:bg-white transition-all"><span class="text-sm font-semibold text-primary">{fiyatCapasiIc}</span></a>
           </div>
         </div>
       </section>
@@ -656,7 +673,7 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
         <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="text-primary font-semibold underline">WhatsApp'tan fotoğraf gönderin</a>.
       </p>
       <div class="text-center mt-8">
-        <a href="/fiyatlar/" class="btn-primary px-8 py-4 text-base">Tüm Fiyat Listesi ({priceYear})</a>
+        <a href="/fiyatlar/" class="btn-primary px-8 py-4 text-base">{fiyatCapasiIc}</a>
       </div>
     </div>
   </section>
