@@ -4,3 +4,11 @@ dist/
 .DS_Store
 .deploy/
 dist-report/
+
+# Kimlik bilgileri — asla commit edilmez (savunma amacli; anahtarlar repo disinda durur)
+.env
+.env.*
+*service-account*.json
+*-credentials*.json
+*.pem
+*.p12
