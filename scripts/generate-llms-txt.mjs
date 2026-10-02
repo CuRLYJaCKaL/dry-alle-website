@@ -74,9 +74,23 @@ const priceBlock = (pricing.catalogCategories ?? [])
   .filter(Boolean)
   .join('\n\n');
 
+// Bolge listesi — HER mahalle kendi URL'iyle.
+// Onceki surumde mahalleler yalnizca virgulle ayrilmis isimlerdi: bir asistan
+// "Cengelkoy'de kuru temizleme var mi?" sorusuna "evet, hizmet veriyorlar"
+// diyebiliyor ama ALINTILAYACAK bir adres bulamiyordu — en iyi ihtimalle ana
+// sayfayi, kotu ihtimalle rakibi gosteriyordu. Adresler acik yazilinca asistan
+// dogrudan o mahallenin sayfasina yonlendirebiliyor.
+const ilceSayisi = config.serviceAreas.length;
+const mahalleSayisi = config.serviceAreas.reduce((t, a) => t + a.neighborhoods.length, 0);
+const birincilHizmet = config.identity.sectorLabel.toLocaleLowerCase('tr-TR');
 const areas = config.serviceAreas
-  .map((a) => `- ${a.district}: ${a.neighborhoods.map((n) => n.name).join(', ')}`)
-  .join('\n');
+  .map((a) => {
+    const satirlar = a.neighborhoods
+      .map((n) => `- [${n.name} ${birincilHizmet}](${domain}/bolge/${a.districtSlug}/${n.slug}/)`)
+      .join('\n');
+    return `### ${a.district}\n- [${a.district} ${birincilHizmet}](${domain}/bolge/${a.districtSlug}/) — ilçe sayfası\n${satirlar}`;
+  })
+  .join('\n\n');
 
 const comboPages = (config.serviceAreaPages ?? [])
   .map((e) => {
@@ -112,6 +126,11 @@ ${id.establishedYear}'den bu yana İstanbul Anadolu Yakası'nda profesyonel kuru
 ${services}
 
 ## Hizmet Bölgeleri
+İstanbul Anadolu Yakası'nda ${ilceSayisi} ilçe ve ${mahalleSayisi} mahallede hizmet veriyoruz.
+Her ilçenin ve her mahallenin kendi sayfası vardır; aşağıdaki adresler o bölgeye ait
+hizmet kapsamını, iletişim bilgisini ve kapıdan alım koşullarını içerir.
+Listede olmayan bir Anadolu Yakası semti için ${c.phoneDisplay} numarasından teyit alınabilir.
+
 ${areas}
 
 ## Bölgeye Özel Hizmet Sayfaları

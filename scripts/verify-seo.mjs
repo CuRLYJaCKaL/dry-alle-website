@@ -50,7 +50,10 @@ for (const file of walk(DIST)) {
   // 404 sayfasi indekslenmez; baslik/aciklama kuralina tabi degildir.
   if (rel === '/404.html') continue;
 
-  const isStub = /name="robots"[^>]*noindex|content="[^"]*noindex/i.test(html);
+  // Stub tespiti isaretleyiciyle yapilir; noindex'e DAYANMAZ cunku stub'lardan
+  // noindex bilerek kaldirildi (sinyal aktarimi icin — bkz. generate-redirect-stubs).
+  const isStub = /<html[^>]*\sdata-redirect-stub/i.test(html)
+    || /name="robots"[^>]*noindex|content="[^"]*noindex/i.test(html);
   if (isStub) { stubs++; continue; }
   indexable++;
 

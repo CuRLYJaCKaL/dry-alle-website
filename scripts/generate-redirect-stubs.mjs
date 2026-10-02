@@ -2,6 +2,16 @@
 // migration.config.json'daki her kural icin eski yolda meta-refresh + canonical
 // stub HTML uretir. Cloudflare'e gecildiginde _redirects gercek 301 doner;
 // stublar zararsiz sekilde golgede kalir.
+//
+// NEDEN noindex YOK: canonical "sinyali hedefe aktar", noindex ise "bu sayfayi
+// tamamen dusur" demek. Ikisi ayni sayfada celisir; noindex kazanir ve eski
+// URL'in biriktirdigi siralama gucu yeni URL'e GECMEDEN yok olur. Olcum bunu
+// dogruladi: /bolgeler/atasehir-premium-temizlik.html noindex'e ragmen 9,4.
+// sirada 136 gosterim alirken, yerine gecmesi gereken /bolge/atasehir/ 14,6'da
+// kaldi — sinyal aktarilmamisti. Google'in statik barindirma icin onerdigi
+// kalip: anlik meta-refresh + canonical, noindex OLMADAN. Stub'lar sitemap'te
+// degil, hicbir ic link onlara gitmiyor; tek isleri eski baglantilari ve
+// Google'in hafizasini yeni adrese tasimak.
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -35,13 +45,12 @@ for (const { from, to } of config.redirects) {
 
   mkdirSync(dirname(stubPath), { recursive: true });
   writeFileSync(stubPath, `<!doctype html>
-<html lang="tr">
+<html lang="tr" data-redirect-stub>
 <head>
 <meta charset="utf-8">
 <title>Yönlendiriliyor…</title>
 <meta http-equiv="refresh" content="0; url=${target}">
 <link rel="canonical" href="${target}">
-<meta name="robots" content="noindex">
 <script>location.replace(${JSON.stringify(target)});</script>
 </head>
 <body>
