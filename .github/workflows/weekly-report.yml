@@ -1,0 +1,33 @@
+name: Haftalik performans raporu (e-posta)
+
+# Her pazartesi 05:00 UTC = 08:00 Istanbul. Onceki TAM hafta (Pzt-Paz) raporlanir.
+# Ayin ilk 7 gunune denk gelen calismada biten ayin tamami onceki ayla
+# karsilastirilir (aylik degerlendirme).
+on:
+  schedule:
+    - cron: '0 5 * * 1'
+  workflow_dispatch:        # elle tetikleme / test
+
+concurrency:
+  group: dryalle-weekly-report
+  cancel-in-progress: false
+
+jobs:
+  rapor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Harici paket yok: Node 22'de fetch ve crypto yerlesik.
+      - name: Raporu uret ve gonder
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          REPORT_TO: ${{ secrets.REPORT_TO }}
+          REPORT_FROM: ${{ vars.REPORT_FROM }}
+          GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
+          GSC_SITE_URL: ${{ vars.GSC_SITE_URL }}
+        run: npm run rapor
