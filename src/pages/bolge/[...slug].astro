@@ -880,6 +880,18 @@ const svcBreadcrumbs = isServicePage && service ? (neighborhood
             {config.conversionTokens.secondaryCTA}
           </a>
         </div>
+        <!--
+          Fiyat koprusu: arama/WhatsApp butonlariyla YARISMAZ (soluk, kucuk, altta).
+          Iki isi birden yapar — (1) musteri aramadan once rakami gorur, fiyat
+          belirsizligi temas onundeki en yaygin engeldir; (2) /fiyatlar/ sayfasina
+          aciklayici capa metniyle ic link verir. Fiyat tablosu bolumu olmayan
+          51 sade mahalle sayfasinda bu capa hic yoktu; burasi 110 bolge
+          sayfasinin TAMAMINDA bulunan tek ortak bolum.
+        -->
+        <p class="text-white/60 text-sm mt-6">
+          Önce rakamları görmek isterseniz:
+          <a href="/fiyatlar/" class="text-white/90 font-medium underline underline-offset-2 decoration-white/40 hover:text-white hover:decoration-white transition-colors">{fiyatCapasiIc}</a>
+        </p>
       </div>
     </div>
   </section>
